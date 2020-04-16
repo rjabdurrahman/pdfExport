@@ -6,8 +6,8 @@ const Thing = require('./Models/Things');
 
 app.get('/', (req, res) => {
     res.send('HOMEPAGE');
-    var thing = new Thing({ name: 'Carry', iAmNotInTheSchema: true });
-    thing.save();
+    // var thing = new Thing({ name: 'Carry', iAmNotInTheSchema: true });
+    // thing.save();
 });
 
 const server = app.listen(process.env.PORT || 3000, () => console.log(`Listenin on Port ${server.address().port}`));
