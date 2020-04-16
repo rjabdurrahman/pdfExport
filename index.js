@@ -1,5 +1,7 @@
 const express = require('express');
 const app = express();
+const connectDB = require('./config');
+connectDB();
 
 app.get('/', (req, res) => {
     res.send('HOMEPAGE');
