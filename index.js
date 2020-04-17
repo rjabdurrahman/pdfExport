@@ -24,10 +24,28 @@ app.post('/update', (req, res) => {
     });
 });
 
-app.get('/clients', (req, res) => {
-    Client.find((err, result) => {
+// Single client find....
+app.get('/client/:id', (req, res) => {
+    let id = req.params.id;
+    Client.findById(id,(err, client) => {
         if(err) res.send(err)
-        else res.send(result)
+        else res.send(client)
+    });
+})
+// All client find....
+app.get('/clients', (req, res) => {
+    Client.find((err, clients) => {
+        if(err) res.send(err)
+        else {
+             let response = {
+                clientList : []
+             }
+             for(const index in clients){
+                 const client = clients[index];
+                 response.clientList.push(client);
+             } 
+            res.send(response);
+        }
     });
 })
 
