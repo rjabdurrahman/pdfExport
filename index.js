@@ -15,17 +15,20 @@ app.get('/', (req, res) => {
     console.log("new data inserted");
 });
 
-app.get('/update', (req, res) => {
-    // res.send('Update Page');
+app.post('/update', (req, res) => {
+    let idf = req.body;
     let ObjectID = require('mongodb').ObjectID;
-    Client.findOneAndUpdate({ "_id": ObjectID("5e994ea097f4e10c5cd74b6d")}, data2, { upsert: true}, (err, result) => {
+    Client.findOneAndUpdate({ "_id": ObjectID("5e994ea097f4e10c5cd74b6d")}, idf, { upsert: true}, (err, result) => {
         if(err) res.send(err)
         else res.send(result)
     });
 });
-app.post('/update/identification', (req, res) => {
-    let idf = req.body;
-    res.send(`Nom is: ${idf.nom}, Prenom is: ${idf.prenom}`);
+
+app.get('/clients', (req, res) => {
+    Client.find((err, result) => {
+        if(err) res.send(err)
+        else res.send(result)
+    });
 })
 
 const server = app.listen(process.env.PORT || 3000, () => console.log(`Listenin on Port ${server.address().port}`));
