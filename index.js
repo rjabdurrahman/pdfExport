@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 
 app.post('/update/identification', (req, res) => {
     let idf = req.body;
-    res.send(`Nom is: ${idf.name}, Prenom is: ${idf.prenom}`);
+    res.send(`Nom is: ${idf.nom}, Prenom is: ${idf.prenom}`);
 })
 
 const server = app.listen(process.env.PORT || 3000, () => console.log(`Listenin on Port ${server.address().port}`));
