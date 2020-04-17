@@ -34,17 +34,10 @@ app.get('/client/:id', (req, res) => {
 })
 // All client find....
 app.get('/clients', (req, res) => {
-    Client.find((err, clients) => {
+    Client.find((err, result) => {
         if(err) res.send(err)
-        else {
-             let response = {
-                clientList : []
-             }
-             for(const index in clients){
-                 const client = clients[index];
-                 response.clientList.push(client);
-             } 
-            res.send(response);
+        else { 
+            res.send(result);
         }
     });
 })
