@@ -7,9 +7,12 @@ let data1 = require('./assets/page1');
 let data2 = require('./assets/page2');
 
 app.use(express.json());
-
-app.get('/', (req, res) => {
+// Adding new client.......
+app.post('/addclient', (req, res) => {
     res.send('HOMEPAGE');
+    let idf = req.body;
+    data1.signaletique.contribuable.nom = idf.nom;
+    data1.signaletique.contribuable.prenom = idf.prenom;
     var clients = new Client(data1);
     clients.save();
     console.log("new data inserted");
@@ -18,7 +21,7 @@ app.get('/', (req, res) => {
 app.post('/update', (req, res) => {
     let idf = req.body;
     let ObjectID = require('mongodb').ObjectID;
-    Client.findOneAndUpdate({ "_id": ObjectID("5e994ea097f4e10c5cd74b6d")}, idf, { upsert: true}, (err, result) => {
+    Client.findOneAndUpdate({ "_id": ObjectID("5e99f5573905150e14774baf")}, idf, { upsert: true}, (err, result) => {
         if(err) res.send(err)
         else res.send(result)
     });
