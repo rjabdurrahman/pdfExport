@@ -123,7 +123,6 @@ app.controller('ClientControler', function($scope, $http) {
             }
         }
         console.log(client_signaletique);
-        let clientId = location.hash.replace('#/client?id=', '');
         $http({
             method: 'POST',
             url: `/api/identupdate/${clientId}`,
