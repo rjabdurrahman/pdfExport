@@ -2,11 +2,11 @@ const router = require('express').Router();
 const Client = require('../Models/Client');
 let page1 = require('../assets/page1');
 let page2 = require('../assets/page2');
-// Adding new client.......
+
 router.get('/', (req, res) => {
     res.send('API is live');
 })
-
+// Adding new client.......
 router.post('/addclient', (req, res) => {
     res.send('HOMEPAGE');
     let idf = req.body;
@@ -16,7 +16,7 @@ router.post('/addclient', (req, res) => {
     clients.save();
     console.log("new data inserted");
 });
-
+//client info update
 router.post('/identupdate/:id', (req, res) => {
     let id = req.params.id;
     //console.log("update done!!!")
@@ -28,6 +28,15 @@ router.post('/identupdate/:id', (req, res) => {
     });
 });
 
+// client delete
+router.post('/clientdelete/:id', (req, res) => {
+    let id = req.params.id;
+     let ObjectID = require('mongodb').ObjectID;
+     Client.remove({ "_id": ObjectID(id) }, (err, result) => {
+         if (err) res.send(err)
+         else res.send(result)
+     });
+});
 // Single client find....
 router.get('/client/:id', (req, res) => {
         let id = req.params.id;

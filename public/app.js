@@ -1,6 +1,6 @@
 var app = angular.module('pdfApp', ['ngRoute']);
 
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'pages/clients_list.html',
@@ -15,8 +15,8 @@ app.config(function($routeProvider) {
         .otherwise({ redirectTo: '/' });
 });
 
-app.run(function($rootScope, $http) {
-    $rootScope.submitClient = function(e) {
+app.run(function ($rootScope, $http) {
+    $rootScope.submitClient = function (e) {
         let clientForm = document.forms['client'];
         let client = {
             nom: clientForm['nom'].value,
@@ -26,48 +26,64 @@ app.run(function($rootScope, $http) {
             method: 'POST',
             url: '/api/addclient',
             data: client
-        }).then(function(res) {
+        }).then(function (res) {
             notify('Client Added Successfully!', 1);
             // loadClients();
             closeAddClientModal();
             $rootScope.$applyAsync();
-        }).catch(function(err) {
+        }).catch(function (err) {
             notify('Something Went Wrong!', 2);
         })
     }
 });
 
-app.controller('ClientsListControler', function($scope, $http) {
+app.controller('ClientsListControler', function ($scope, $http) {
     $scope.clients = [];
 
     function loadClients() {
         $http({
             method: 'GET',
             url: '/api/clients'
-        }).then(function(res) {
+        }).then(function (res) {
             $scope.clients = res.data;
             $scope.$applyAsync();
-        }).catch(function(err) {
+        }).catch(function (err) {
             console.log(err);
         })
     };
+
     loadClients();
+
+    $scope.submitClientDelete = function (id) {
+        let clientId = id;
+        $http({
+            method: 'POST',
+            url: `/api/clientdelete/${clientId}`,
+            data: {}
+        }).then(function (res) {
+            loadClients();
+            notify('Delete Client Successfully!', 1);
+        }).catch(function (err) {
+            notify('Something Went Wrong', 2);
+        })
+    }
 });
 
-app.controller('ClientControler', function($scope, $http) {
+app.controller('ClientControler', function ($scope, $http) {
     let clientId = location.hash.replace('#/client?id=', '');
     $scope.client = {};
     $http({
         method: 'GET',
         url: `/api/client/${clientId}`
-    }).then(function(res) {
+    }).then(function (res) {
         $scope.client = res.data.signaletique;
         $scope.$applyAsync();
-    }).catch(function(err) {
+    }).catch(function (err) {
         console.log(err);
     })
 
-    $scope.submitClientIdnUpdate = function(e) {
+
+    $scope.submitClientIdnUpdate = function (e) {
         let identForm = document.forms['identification'];
         let client_signaletique = {
             signaletique: {
@@ -135,9 +151,9 @@ app.controller('ClientControler', function($scope, $http) {
             method: 'POST',
             url: `/api/identupdate/${clientId}`,
             data: client_signaletique
-        }).then(function(res) {
+        }).then(function (res) {
             notify('Updated Successfully!', 1);
-        }).catch(function(err) {
+        }).catch(function (err) {
             notify('Something Went Wrong', 2);
         })
     }
