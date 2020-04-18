@@ -15,6 +15,10 @@ app.config(function($routeProvider) {
         .otherwise({ redirectTo: '/' });
 });
 
+app.component('leftNav', {
+    templateUrl: '/components/leftnav.html',
+});
+
 app.run(function($rootScope, $http) {
     $rootScope.submitClient = function(e) {
         let clientForm = document.forms['client'];
