@@ -1,0 +1,96 @@
+@media (max-width:600px) {
+    .r-m0 {
+        margin: 0 !important;
+    }
+}
+
+.r-row {
+    display: flex;
+    @media (max-width: 600px) {
+        flex-direction: column;
+    }
+    width: 100%;
+    .r-col {
+        width: 100%;
+        box-sizing: border-box;
+        label {
+            display: block;
+        }
+    }
+    @media (min-width:601px) {
+        .r-col.m1 {
+            width: calc(100% / 12);
+        }
+        .r-col.m2 {
+            width: calc(100% / 12 * 2);
+        }
+        .r-col.m3 {
+            width: calc(100% / 12 * 3);
+        }
+        .r-col.m4 {
+            width: calc(100% / 12 * 4);
+        }
+        .r-col.m5 {
+            width: calc(100% / 12 * 5);
+        }
+        .r-col.m6 {
+            width: calc(100% / 12 * 6);
+        }
+        .r-col.m7 {
+            width: calc(100% / 12 * 7);
+        }
+        .r-col.m8 {
+            width: calc(100% / 12 * 8);
+        }
+        .r-col.m9 {
+            width: calc(100% / 12 * 9);
+        }
+        .r-col.m10 {
+            width: calc(100% / 12 * 10);
+        }
+        .r-col.m11 {
+            width: calc(100% / 12 * 11);
+        }
+        .r-col.m12 {
+            width: calc(100%);
+        }
+    }
+    @media (min-width:993px) {
+        .r-col.l1 {
+            width: calc(100% / 12);
+        }
+        .r-col.l2 {
+            width: calc(100% / 12 * 2);
+        }
+        .r-col.l3 {
+            width: calc(100% / 12 * 3);
+        }
+        .r-col.l4 {
+            width: calc(100% / 12 * 4);
+        }
+        .r-col.l5 {
+            width: calc(100% / 12 * 5);
+        }
+        .r-col.l6 {
+            width: calc(100% / 12 * 6);
+        }
+        .r-col.l7 {
+            width: calc(100% / 12 * 7);
+        }
+        .r-col.l8 {
+            width: calc(100% / 12 * 8);
+        }
+        .r-col.l9 {
+            width: calc(100% / 12 * 9);
+        }
+        .r-col.l10 {
+            width: calc(100% / 12 * 10);
+        }
+        .r-col.l11 {
+            width: calc(100% / 12 * 11);
+        }
+        .r-col.l12 {
+            width: calc(100%);
+        }
+    }
+}

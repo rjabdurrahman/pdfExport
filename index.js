@@ -7,8 +7,8 @@ let data1 = require('./assets/page1');
 let data2 = require('./assets/page2');
 
 app.use(express.json());
-app.use(express.static('design'));
-app.get('/*', function(req, res) {
+app.use(express.static('public'));
+app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
 });
 
