@@ -1,4 +1,7 @@
 const router = require('express').Router();
+const Client = require('../Models/Client');
+let page1 = require('../assets/page1');
+let page2 = require('../assets/page2');
 // Adding new client.......
 router.get('/', (req, res) => {
     res.send('API is live');
@@ -7,9 +10,9 @@ router.get('/', (req, res) => {
 router.post('/addclient', (req, res) => {
     res.send('HOMEPAGE');
     let idf = req.body;
-    data1.signaletique.contribuable.nom = idf.nom;
-    data1.signaletique.contribuable.prenom = idf.prenom;
-    var clients = new Client(data1);
+    page1.signaletique.contribuable.nom = idf.nom;
+    page1.signaletique.contribuable.prenom = idf.prenom;
+    var clients = new Client(page1);
     clients.save();
     console.log("new data inserted");
 });

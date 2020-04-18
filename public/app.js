@@ -15,8 +15,24 @@ app.config(function($routeProvider) {
         .otherwise({ redirectTo: '/' });
 });
 
-app.controller('ClientsListControler', function($scope) {
-    $scope.message = "Clients Cntl";
+app.controller('ClientsListControler', function($scope, $http) {
+    $scope.submitClient = function(e) {
+        let clientForm = document.forms['client'];
+        let client = {
+            nom: clientForm['nom'].value,
+            prenom: clientForm['prenom'].value
+        }
+        console.log(client)
+        $http({
+            method: 'POST',
+            url: '/api/addclient',
+            data: client
+        }).then(function(res) {
+            console.log(res)
+        }).catch(function(err) {
+            console.log(err);
+        })
+    }
 });
 
 app.controller('ClientControler', function($scope) {

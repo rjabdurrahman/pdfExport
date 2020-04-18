@@ -2,10 +2,7 @@ const express = require('express');
 const app = express();
 const connectDB = require('./config');
 connectDB();
-const Client = require('./Models/Client');
 const apiRoute = require('./Routes/api');
-let data1 = require('./assets/page1');
-let data2 = require('./assets/page2');
 
 app.use(express.json());
 app.use('/api', apiRoute);

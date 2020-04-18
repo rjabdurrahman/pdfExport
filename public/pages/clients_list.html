@@ -116,13 +116,13 @@
         </div>
         <footer class="w3-panel" style="text-align: right;">
             <button class="w3-btn icon w3-blue w3-round" onclick="document.getElementById('clientModal').style.display='none'">Close</button>
-            <button type="submit" class="w3-btn icon w3-teal w3-round"><span
+            <button type="submit" ng-click="submitClient($event)" class="w3-btn icon w3-teal w3-round"><span
                     class="material-icons">save_alt</span>&nbsp;&nbsp;Save</button>
         </footer>
     </form>
 </div>
 <!-- Client Add Modal Ednd -->
-<script>
+<!-- <script>
     $('form').submit(function(e) {
         e.preventDefault();
         let clientForm = document.forms['client'];
@@ -132,4 +132,4 @@
         }
         console.log(client)
     })
-</script>
+</script> -->
