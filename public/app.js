@@ -17,28 +17,33 @@ app.config(function($routeProvider) {
 
 app.controller('ClientsListControler', function($scope, $http) {
     $scope.clients = [];
-    $http({
-        method: 'GET',
-        url: '/api/clients'
-    }).then(function(res) {
-        $scope.clients = res.data;
-        $scope.$applyAsync();
-    }).catch(function(err) {
-        console.log(err);
-    })
+
+    function loadClients() {
+        $http({
+            method: 'GET',
+            url: '/api/clients'
+        }).then(function(res) {
+            $scope.clients = res.data;
+            $scope.$applyAsync();
+        }).catch(function(err) {
+            console.log(err);
+        })
+    };
+    loadClients();
     $scope.submitClient = function(e) {
         let clientForm = document.forms['client'];
         let client = {
             nom: clientForm['nom'].value,
             prenom: clientForm['prenom'].value
         }
-        console.log(client)
         $http({
             method: 'POST',
             url: '/api/addclient',
             data: client
         }).then(function(res) {
-            console.log(res)
+            loadClients();
+            closeAddClientModal();
+            $scope.$applyAsync();
         }).catch(function(err) {
             console.log(err);
         })

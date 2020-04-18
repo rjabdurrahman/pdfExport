@@ -44,7 +44,7 @@
 <div id="clientModal" class="w3-modal">
     <form name="client" class="w3-modal-content w3-animate-right w3-card-4">
         <header class="w3-container content-c">
-            <span onclick="document.getElementById('clientModal').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+            <span onclick="closeAddClientModal()" class="w3-button w3-display-topright">&times;</span>
             <h2>Add Client</h2>
         </header>
         <div class="w3-container">
@@ -75,9 +75,14 @@
             </table>
         </div>
         <footer class="w3-panel" style="text-align: right;">
-            <button class="w3-btn icon w3-blue w3-round" onclick="document.getElementById('clientModal').style.display='none'">Close</button>
+            <button class="w3-btn icon w3-blue w3-round" onclick="closeAddClientModal()">Close</button>
             <button type="submit" ng-click="submitClient($event)" class="w3-btn icon w3-teal w3-round"><span
                     class="material-icons">save_alt</span>&nbsp;&nbsp;Save</button>
         </footer>
     </form>
 </div>
+<script>
+    function closeAddClientModal() {
+        document.getElementById('clientModal').style.display = 'none';
+    }
+</script>
