@@ -142,6 +142,7 @@ header {
 }
 
 .form-input {
+  min-width: 800px;
   margin-left: 38px;
   margin-right: 24px;
   width: 100%;
