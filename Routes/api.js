@@ -17,10 +17,12 @@ router.post('/addclient', (req, res) => {
     console.log("new data inserted");
 });
 
-router.post('/update', (req, res) => {
+router.post('/identupdate/:id', (req, res) => {
+    let id = req.params.id;
+    //console.log("update done!!!")
     let idf = req.body;
     let ObjectID = require('mongodb').ObjectID;
-    Client.findOneAndUpdate({ "_id": ObjectID("5e99f5573905150e14774baf") }, idf, { upsert: true }, (err, result) => {
+    Client.findOneAndUpdate({ "_id": ObjectID(id) }, idf, { upsert: true }, (err, result) => {
         if (err) res.send(err)
         else res.send(result)
     });
