@@ -15,6 +15,28 @@ app.config(function($routeProvider) {
         .otherwise({ redirectTo: '/' });
 });
 
+app.run(function($rootScope, $http) {
+    $rootScope.submitClient = function(e) {
+        let clientForm = document.forms['client'];
+        let client = {
+            nom: clientForm['nom'].value,
+            prenom: clientForm['prenom'].value
+        }
+        $http({
+            method: 'POST',
+            url: '/api/addclient',
+            data: client
+        }).then(function(res) {
+            notify('Client Added Successfully!', 1);
+            // loadClients();
+            closeAddClientModal();
+            $rootScope.$applyAsync();
+        }).catch(function(err) {
+            notify('Something Went Wrong!', 2);
+        })
+    }
+});
+
 app.controller('ClientsListControler', function($scope, $http) {
     $scope.clients = [];
 
@@ -30,24 +52,6 @@ app.controller('ClientsListControler', function($scope, $http) {
         })
     };
     loadClients();
-    $scope.submitClient = function(e) {
-        let clientForm = document.forms['client'];
-        let client = {
-            nom: clientForm['nom'].value,
-            prenom: clientForm['prenom'].value
-        }
-        $http({
-            method: 'POST',
-            url: '/api/addclient',
-            data: client
-        }).then(function(res) {
-            loadClients();
-            closeAddClientModal();
-            $scope.$applyAsync();
-        }).catch(function(err) {
-            console.log(err);
-        })
-    }
 });
 
 app.controller('ClientControler', function($scope, $http) {
@@ -127,15 +131,14 @@ app.controller('ClientControler', function($scope, $http) {
                 }
             }
         }
-        console.log(client_signaletique);
         $http({
             method: 'POST',
             url: `/api/identupdate/${clientId}`,
             data: client_signaletique
         }).then(function(res) {
-            console.log(res)
+            notify('Updated Successfully!', 1);
         }).catch(function(err) {
-            console.log(err);
+            notify('Something Went Wrong', 2);
         })
     }
 });

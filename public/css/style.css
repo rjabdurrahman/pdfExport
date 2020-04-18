@@ -19,6 +19,15 @@ header {
   position: relative;
 }
 
+#notification {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding-left: 42px;
+  padding-right: 42px;
+  display: none;
+}
+
 .top-nav {
   color: #ffffff;
   background-color: #4680ff !important;
@@ -224,6 +233,15 @@ input[type="text"]:disabled:hover {
 .table-container table th {
   border: 1px solid lightgray;
   padding: 4px 16px;
+}
+
+.table-container table td a {
+  color: blue;
+  text-decoration: none;
+}
+
+.table-container table td a:hover {
+  text-decoration: underline;
 }
 
 .table-container table .w3-btn {

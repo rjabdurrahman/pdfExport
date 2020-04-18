@@ -73,7 +73,8 @@
         <div class="top">
             <h2>signalétique</h2>
             <div class="actions">
-                <button class="w3-btn w3-blue w3-round">Reset</button>
+                <button class="w3-btn icon w3-indigo w3-round icon"><span class="material-icons">picture_as_pdf</span>&nbsp;&nbsp;Generate PDF</button>
+                <button class="w3-btn w3-blue w3-round icon"><span class="material-icons">autorenew</span>&nbsp;&nbsp;Reset</button>
                 <button class="w3-btn w3-teal w3-round" ng-click="submitClientIdnUpdate($event)"><span
                         class="material-icons">save_alt</span>&nbsp;&nbsp;Save</button>
             </div>
@@ -93,10 +94,10 @@
                     <label>Nom</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_1" value="{{client.contribuable.nom}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_1" value="{{client.contribuable.nom}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_2" value="{{client.conjoint_partenaire.nom}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_2" value="{{client.conjoint_partenaire.nom}}">
                 </td>
             </tr>
             <tr>
@@ -104,10 +105,10 @@
                     <label>Prénom</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_3" value="{{client.contribuable.prenom}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_3" value="{{client.contribuable.prenom}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_4" value="{{client.conjoint_partenaire.prenom}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_4" value="{{client.conjoint_partenaire.prenom}}">
                 </td>
             </tr>
             <tr>
@@ -115,10 +116,10 @@
                     <label>Date de naissance /<br> numéro d'identification</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_5" value="{{client.contribuable.date_de_naissance}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_5" value="{{client.contribuable.date_de_naissance}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_6" value="{{client.conjoint_partenaire.date_de_naissance}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_6" value="{{client.conjoint_partenaire.date_de_naissance}}">
                 </td>
             </tr>
             <tr>
@@ -126,10 +127,10 @@
                     <label>Lieu de naissance <br>(localité / pays)</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_7" value="{{client.contribuable.lieu_de_naissance}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_7" value="{{client.contribuable.lieu_de_naissance}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_8" value="{{client.conjoint_partenaire.lieu_de_naissance}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_8" value="{{client.conjoint_partenaire.lieu_de_naissance}}">
                 </td>
             </tr>
             <tr>
@@ -141,7 +142,7 @@
                 <td colspan="3">
                     <div class="flex" style="justify-content: center;">
                         <label class="w3-center">A indiquer obligatoirement (si attribué)&nbsp;:&nbsp;</label>
-                        <input class="w3-input w3-border" type="text" style="width: 300px;" name="d_9" value="{{client.numero_de_dossier}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 300px;" name="d_9" value="{{client.numero_de_dossier}}">
                     </div>
                 </td>
             </tr>
@@ -150,10 +151,10 @@
                     <label>Profession ou genre de l'activité</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_10" value="{{client.contribuable.profession}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_10" value="{{client.contribuable.profession}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_11" value="{{client.conjoint_partenaire.profession}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_11" value="{{client.conjoint_partenaire.profession}}">
                 </td>
             </tr>
             <tr>
@@ -161,10 +162,10 @@
                     <label>Téléphone (accessible le jour)</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_12" value="{{client.contribuable.telephone}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_12" value="{{client.contribuable.telephone}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_13" value="{{client.conjoint_partenaire.telephone}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_13" value="{{client.conjoint_partenaire.telephone}}">
                 </td>
             </tr>
             <tr>
@@ -172,10 +173,10 @@
                     <label>Courriel</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_14" value="{{client.contribuable.courriel}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_14" value="{{client.contribuable.courriel}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_15" value="{{client.conjoint_partenaire.courriel}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_15" value="{{client.conjoint_partenaire.courriel}}">
                 </td>
             </tr>
             <tr>
@@ -190,14 +191,14 @@
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_16" value="{{client.contribuable.domicile.actuel.numero}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_17" value="{{client.contribuable.domicile.actuel.rue}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_16" value="{{client.contribuable.domicile.actuel.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_17" value="{{client.contribuable.domicile.actuel.rue}}">
                     </div>
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_18" value="{{client.conjoint_partenaire.domicile.actuel.numero}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_19" value="{{client.conjoint_partenaire.domicile.actuel.rue}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_18" value="{{client.conjoint_partenaire.domicile.actuel.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_19" value="{{client.conjoint_partenaire.domicile.actuel.rue}}">
                     </div>
                 </td>
             </tr>
@@ -207,14 +208,14 @@
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_20" value="{{client.contribuable.domicile.actuel.code_postal}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_21" value="{{client.contribuable.domicile.actuel.localite}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_20" value="{{client.contribuable.domicile.actuel.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_21" value="{{client.contribuable.domicile.actuel.localite}}">
                     </div>
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_22" value="{{client.conjoint_partenaire.domicile.actuel.code_postal}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_23" value="{{client.conjoint_partenaire.domicile.actuel.localite}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_22" value="{{client.conjoint_partenaire.domicile.actuel.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_23" value="{{client.conjoint_partenaire.domicile.actuel.localite}}">
                     </div>
                 </td>
             </tr>
@@ -223,10 +224,10 @@
                     <label>Pays</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_24" value="{{client.contribuable.domicile.actuel.pays}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_24" value="{{client.contribuable.domicile.actuel.pays}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_25" value="{{client.conjoint_partenaire.domicile.actuel.pays}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_25" value="{{client.conjoint_partenaire.domicile.actuel.pays}}">
                 </td>
             </tr>
             <tr>
@@ -234,10 +235,10 @@
                     <label>Du 1/1/2019 au</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_26" value="{{client.contribuable.domicile.ancien.du_au}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_26" value="{{client.contribuable.domicile.ancien.du_au}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_27" value="{{client.conjoint_partenaire.domicile.ancien.du_au}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_27" value="{{client.conjoint_partenaire.domicile.ancien.du_au}}">
                 </td>
             </tr>
             <tr>
@@ -246,14 +247,14 @@
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_28" value="{{client.contribuable.domicile.ancien.numero}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_29" value="{{client.contribuable.domicile.ancien.rue}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_28" value="{{client.contribuable.domicile.ancien.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_29" value="{{client.contribuable.domicile.ancien.rue}}">
                     </div>
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_30" value="{{client.conjoint_partenaire.domicile.ancien.numero}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_31" value="{{client.conjoint_partenaire.domicile.ancien.rue}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_30" value="{{client.conjoint_partenaire.domicile.ancien.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_31" value="{{client.conjoint_partenaire.domicile.ancien.rue}}">
                     </div>
                 </td>
             </tr>
@@ -263,14 +264,14 @@
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_32" value="{{client.contribuable.domicile.ancien.code_postal}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_33" value="{{client.contribuable.domicile.ancien.localite}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_32" value="{{client.contribuable.domicile.ancien.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_33" value="{{client.contribuable.domicile.ancien.localite}}">
                     </div>
                 </td>
                 <td>
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_34" value="{{client.conjoint_partenaire.domicile.ancien.code_postal}}" required>
-                        <input class="w3-input w3-border" type="text" name="d_35" value="{{client.conjoint_partenaire.domicile.ancien.localite}}" required>
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_34" value="{{client.conjoint_partenaire.domicile.ancien.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_35" value="{{client.conjoint_partenaire.domicile.ancien.localite}}">
                     </div>
                 </td>
             </tr>
@@ -279,10 +280,10 @@
                     <label>Pays</label>
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_36" value="{{client.contribuable.domicile.ancien.pays}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_36" value="{{client.contribuable.domicile.ancien.pays}}">
                 </td>
                 <td>
-                    <input class="w3-input w3-border" type="text" name="d_37" value="{{client.conjoint_partenaire.domicile.ancien.pays}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_37" value="{{client.conjoint_partenaire.domicile.ancien.pays}}">
                 </td>
             </tr>
             <tr>
@@ -295,7 +296,7 @@
                     <label>Titulaire du compte</label>
                 </td>
                 <td colspan="2">
-                    <input class="w3-input w3-border" type="text" name="d_38" value="{{client.coordonnes_bancaires.titulaire_du_compte}}" required>
+                    <input class="w3-input w3-border" type="text" name="d_38" value="{{client.coordonnes_bancaires.titulaire_du_compte}}">
                 </td>
             </tr>
             <tr>
@@ -304,15 +305,16 @@
                 </td>
                 <td colspan="2">
                     <div class="flex">
-                        <input class="w3-input w3-border" type="text" name="d_39" value="{{client.coordonnes_bancaires.code_iban}}" required>
+                        <input class="w3-input w3-border" type="text" name="d_39" value="{{client.coordonnes_bancaires.code_iban}}">
                         <label style="width: 180px;margin: 10px 12px;">SWIFT BIC</label>
-                        <input class="w3-input w3-border" type="text" name="d_40" value="{{client.coordonnes_bancaires.swift_bic}}" required>
+                        <input class="w3-input w3-border" type="text" name="d_40" value="{{client.coordonnes_bancaires.swift_bic}}">
                     </div>
                 </td>
                 <tr>
                     <td colspan="2"></td>
                     <td style="text-align: right; padding-top: 12px;">
-                        <button class="w3-btn w3-blue w3-round">Reset</button>
+                        <button class="w3-btn icon w3-indigo w3-round icon"><span class="material-icons">picture_as_pdf</span>&nbsp;&nbsp;Generate PDF</button>
+                        <button class="w3-btn w3-blue w3-round icon"><span class="material-icons">autorenew</span>&nbsp;&nbsp;Reset</button>
                         <button type="submit" ng-click="submitClientIdnUpdate($event)" class="w3-btn w3-teal w3-round"><span
                             class="material-icons">save_alt</span>&nbsp;&nbsp;Save</button>
                     </td>
