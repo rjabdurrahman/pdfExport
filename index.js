@@ -7,6 +7,11 @@ let data1 = require('./assets/page1');
 let data2 = require('./assets/page2');
 
 app.use(express.json());
+app.use(express.static('design'));
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, 'client/build', 'index.html'));
+});
+
 // Adding new client.......
 app.post('/addclient', (req, res) => {
     res.send('HOMEPAGE');
@@ -21,25 +26,25 @@ app.post('/addclient', (req, res) => {
 app.post('/update', (req, res) => {
     let idf = req.body;
     let ObjectID = require('mongodb').ObjectID;
-    Client.findOneAndUpdate({ "_id": ObjectID("5e99f5573905150e14774baf")}, idf, { upsert: true}, (err, result) => {
-        if(err) res.send(err)
+    Client.findOneAndUpdate({ "_id": ObjectID("5e99f5573905150e14774baf") }, idf, { upsert: true }, (err, result) => {
+        if (err) res.send(err)
         else res.send(result)
     });
 });
 
 // Single client find....
 app.get('/client/:id', (req, res) => {
-    let id = req.params.id;
-    Client.findById(id,(err, client) => {
-        if(err) res.send(err)
-        else res.send(client)
-    });
-})
-// All client find....
+        let id = req.params.id;
+        Client.findById(id, (err, client) => {
+            if (err) res.send(err)
+            else res.send(client)
+        });
+    })
+    // All client find....
 app.get('/clients', (req, res) => {
     Client.find((err, result) => {
-        if(err) res.send(err)
-        else { 
+        if (err) res.send(err)
+        else {
             res.send(result);
         }
     });
