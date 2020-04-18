@@ -7,9 +7,18 @@ app.config(function($routeProvider) {
             controller: 'ClientsListControler',
             activetab: 'home'
         })
+        .when('/client', {
+            templateUrl: 'pages/client.html',
+            controller: 'ClientControler',
+            activetab: 'client'
+        })
         .otherwise({ redirectTo: '/' });
 });
 
 app.controller('ClientsListControler', function($scope) {
     $scope.message = "Clients Cntl";
+});
+
+app.controller('ClientControler', function($scope) {
+    console.log('Client Ctrl')
 });
