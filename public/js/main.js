@@ -40,3 +40,8 @@ function notify(msg, t) {
         $('#notification').html("<h6>" + msg + "</h6>").removeClass('w3-green').addClass('w3-red').fadeIn(200).delay(1000).fadeOut(200);
     }
 }
+
+// Checker
+function getChValue(val) {
+    return val ? 'Yes' : 'Off';
+}
