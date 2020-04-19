@@ -30,6 +30,11 @@ function lsExGJInit(vname, data) {
     return lsGet(vname) ? lsGetJ(vname) : data;
 }
 
+function clearForms() {
+    $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
+    $(':checkbox, :radio').prop('checked', false);
+}
+
 var activeClientId = '';
 
 // Notifer
