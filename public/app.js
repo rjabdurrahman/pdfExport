@@ -20,6 +20,21 @@ app.component('leftNav', {
 });
 
 app.run(function($rootScope, $http) {
+    $rootScope.clients = [];
+
+    function loadClients() {
+        $http({
+            method: 'GET',
+            url: '/api/clients'
+        }).then(function(res) {
+            $rootScope.clients = res.data;
+            $rootScope.$applyAsync();
+        }).catch(function(err) {
+            console.log(err);
+        })
+    };
+
+    loadClients();
     $rootScope.submitClient = function(e) {
         let clientForm = document.forms['client'];
         let client = {
@@ -32,35 +47,14 @@ app.run(function($rootScope, $http) {
             data: client
         }).then(function(res) {
             notify('Client Added Successfully!', 1);
-            // loadClients();
+            loadClients();
             closeAddClientModal();
             $rootScope.$applyAsync();
         }).catch(function(err) {
             notify('Something Went Wrong!', 2);
         })
     }
-});
-
-app.controller('ClientsListControler', function($scope, $http) {
-    $scope.clients = [];
-    $scope.load = false;
-    $scope.nodata = false;
-
-    function loadClients() {
-        $http({
-            method: 'GET',
-            url: '/api/clients'
-        }).then(function(res) {
-            $scope.clients = res.data;
-            $scope.$applyAsync();
-        }).catch(function(err) {
-            console.log(err);
-        })
-    };
-
-    loadClients();
-
-    $scope.submitClientDelete = function(id) {
+    $rootScope.submitClientDelete = function(id) {
         let clientId = id;
         $http({
             method: 'POST',
@@ -73,6 +67,10 @@ app.controller('ClientsListControler', function($scope, $http) {
             notify('Something Went Wrong', 2);
         })
     }
+});
+
+app.controller('ClientsListControler', function($scope, $http) {
+    $scope.msg = 'Clients';
 });
 
 app.controller('ClientControler', function($scope, $http) {
