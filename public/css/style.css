@@ -165,7 +165,7 @@ header {
 }
 
 .form-input .actions {
-  margin-top: 12px;
+  margin-top: 6px;
   text-align: right;
 }
 
@@ -219,7 +219,7 @@ input[type="text"]:disabled:hover {
 }
 
 .table-container .top {
-  margin-top: 12px;
+  margin-top: 6px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
