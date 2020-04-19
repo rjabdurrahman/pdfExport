@@ -30,6 +30,8 @@ function lsExGJInit(vname, data) {
     return lsGet(vname) ? lsGetJ(vname) : data;
 }
 
+var activeClientId = '';
+
 // Notifer
 function notify(msg, t) {
     if (t == 1) {

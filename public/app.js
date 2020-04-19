@@ -22,6 +22,11 @@ app.config(function($routeProvider) {
 
 app.component('leftNav', {
     templateUrl: '/components/leftnav.html',
+    controller: 'NavCtrl'
+});
+
+app.controller('NavCtrl', function($scope) {
+    $scope.id = activeClientId;
 });
 
 app.run(function($rootScope, $http) {
@@ -78,8 +83,9 @@ app.controller('ClientsListControler', function($scope, $http) {
     $scope.msg = 'Clients';
 });
 
-app.controller('ClientControler', function($scope, $http) {
+app.controller('ClientControler', function($scope, $rootScope, $http) {
     let clientId = location.hash.replace('#/client?id=', '');
+    activeClientId = clientId;
     $scope.client = {};
     $http({
         method: 'GET',
