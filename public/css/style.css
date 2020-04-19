@@ -41,7 +41,7 @@ header {
 }
 
 .top-nav a:hover {
-  font-weight: bold;
+  opacity: 0.7;
 }
 
 .top-nav a label {
@@ -201,6 +201,12 @@ input[type="text"]:disabled:hover {
   border: 1px solid #ccc !important;
 }
 
+.w3-btn:hover {
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+  opacity: 0.7;
+}
+
 .table-container {
   width: calc(100% - 40px);
   margin: 12px auto;
@@ -254,12 +260,6 @@ input[type="text"]:disabled:hover {
   display: inline-block;
   padding-bottom: -8px;
   margin-right: 6px;
-}
-
-.table-container table .w3-btn:hover {
-  -webkit-box-shadow: none !important;
-          box-shadow: none !important;
-  opacity: 0.8;
 }
 
 .w3-modal-content {
