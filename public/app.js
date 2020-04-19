@@ -43,6 +43,8 @@ app.run(function($rootScope, $http) {
 
 app.controller('ClientsListControler', function($scope, $http) {
     $scope.clients = [];
+    $scope.load = false;
+    $scope.nodata = false;
 
     function loadClients() {
         $http({
@@ -89,8 +91,8 @@ app.controller('ClientControler', function($scope, $http) {
     $scope.ShortName = function(nom, prenom) {
         if (nom) {
             return {
-                nom: nom.length > 12 ? nom.split(' ')[0] + '...' : nom,
-                prenom: prenom.length > 18 ? prenom.split(' ')[0] + '...' : prenom,
+                nom: nom.length > 12 ? nom.substring(0, 13) + '...' : nom,
+                prenom: prenom.length > 18 ? nom.substring(0, 18) + '...' : prenom,
                 letters: (nom[0] + prenom[0]).toUpperCase()
             }
         }
