@@ -268,10 +268,7 @@
 </div>
 
 <script>
-    function clearForms() {
-        $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
-        $(':checkbox, :radio').prop('checked', false);
-    }
+    
     $('.w3-dropdown-click').click(function() {
         $('.left-nav > .w3-button').removeClass('active')
         let el = $(this).children('.w3-dropdown-content')
