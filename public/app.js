@@ -12,6 +12,11 @@ app.config(function($routeProvider) {
             controller: 'ClientControler',
             activetab: 'client'
         })
+        .when('/enfants', {
+            templateUrl: 'pages/enfants.html',
+            controller: 'EnfantsControler',
+            activetab: 'client'
+        })
         .otherwise({ redirectTo: '/' });
 });
 
