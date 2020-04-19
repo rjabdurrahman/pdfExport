@@ -1,4 +1,4 @@
-let data = {
+let data2 = {
     enfants: {
         a: [
             {
@@ -95,4 +95,4 @@ let data = {
     }
 }
 
-module.exports = data;
+module.exports = data2;
