@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
     <script src="js/jquery.min.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
@@ -19,25 +19,25 @@
     <header>
         <div class="w3-bar top-nav">
             <div class="w3-left">
-                <a href="#/" class="w3-bar-item w3-padding-16">Brand Logo</a>
-            </div>
-            <div class="w3-right">
                 <a href="#/" class="w3-bar-item w3-padding-16">
-                    <label><span class="material-icons">home</span></label>
+                    <img src="img/logo.png" alt="Logo">
+                </a>
+            </div>
+            <div class="top-menu">
+                <a href="#/" class="w3-bar-item w3-padding-16">
+                    <label><span class="material-icons-outlined">home</span></label>
                     <label class="text">Home</label>
                 </a>
-                <a class="w3-bar-item w3-padding-16" onclick="openAddClientModal()">
-                    <label><span class="material-icons">person_add</span></label>
-                    <label class="text">Add Client</label>
-                </a>
                 <a href="#/" class="w3-bar-item w3-padding-16">
-                    <label><span class="material-icons">group</span></label>
+                    <label><span class="material-icons-outlined">group</span></label>
                     <label class="text">Clients</label>
                 </a>
-                <a href="#" class="w3-bar-item w3-padding-16">
-                    <label><span class="material-icons">search</span></label>
-                    <label class="text">Search</label>
-                </a>
+            </div>
+            <div class="w3-bar-item user">
+                <div class="letters">YE</div>
+                <div class="arrow">
+                    <span class="material-icons">keyboard_arrow_down</span>
+                </div>
             </div>
         </div>
     </header>
