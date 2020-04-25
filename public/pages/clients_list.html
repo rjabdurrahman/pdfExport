@@ -1,29 +1,110 @@
 <div class="table-container">
     <div class="top">
-        <label class="w3-teal">Clients</label>
-        <button class="w3-btn w3-teal w3-round icon" onclick="openAddClientModal()"><span class="material-icons">person_add</span>&nbsp;&nbsp;Add Client</button>
+        <input class="w3-input w3-border" type="text" placeholder="Recherche">
+        <button class="w3-btn icon" onclick="openAddClientModal()"><span style="font-size: 22px;" class="material-icons-outlined">person_add</span>&nbsp;&nbsp;Création</button>
     </div>
     <div class="table-content">
         <div class="w3-responsive">
             <table class="w3-table-all">
                 <thead>
                     <tr>
-                        <th style="width: 100px;">ID</th>
+                        <th>Numéro de dossier</th>
                         <th>Nom</th>
-                        <th>Prenom</th>
+                        <th>Prénom</th>
+                        <th>Téléphone</th>
                         <th>Courriel</th>
-                        <th class="w3-center" style="width: 180px">Action</th>
-                        <th class="w3-center" style="width: 150px">Action</th>
+                        <th>Année d'imposition</th>
+                        <th colspan="4" class="w3-center">Action</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="client in clients track by $index">
+                    <tr>
+                        <td>8930230230</td>
+                        <td>Abdur</td>
+                        <td>Rahman</td>
+                        <td>(+352) 691123451</td>
+                        <td>asadsoon114@gmail.com</td>
+                        <td>2019</td>
+                        <td class="w3-center">
+                            <a href="#">Edit</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#" class="w3-text-red">Delete</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">PDF</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">Word</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8930230230</td>
+                        <td>Abdur</td>
+                        <td>Rahman</td>
+                        <td>(+352) 691123451</td>
+                        <td>asadsoon114@gmail.com</td>
+                        <td>2019</td>
+                        <td class="w3-center">
+                            <a href="#">Edit</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#" class="w3-text-red">Delete</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">PDF</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">Word</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8930230230</td>
+                        <td>Abdur</td>
+                        <td>Rahman</td>
+                        <td>(+352) 691123451</td>
+                        <td>asadsoon114@gmail.com</td>
+                        <td>2019</td>
+                        <td class="w3-center">
+                            <a href="#">Edit</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#" class="w3-text-red">Delete</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">PDF</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">Word</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>8930230230</td>
+                        <td>Abdur</td>
+                        <td>Rahman</td>
+                        <td>(+352) 691123451</td>
+                        <td>asadsoon114@gmail.com</td>
+                        <td>2019</td>
+                        <td class="w3-center">
+                            <a href="#">Edit</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#" class="w3-text-red">Delete</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">PDF</a>
+                        </td>
+                        <td class="w3-center">
+                            <a href="#">Word</a>
+                        </td>
+                    </tr>
+                    <!-- <tr ng-repeat="client in clients track by $index">
                         <td>{{$index + 1}}</td>
-                        <td>
+                        <td class="w3-center">
                             <a href="#/client?id={{client._id}}">{{client.signaletique.contribuable.nom}}</a>
                         </td>
                         <td>{{client.signaletique.contribuable.prenom}}</td>
-                        <td>
+                        <td class="w3-center">
                             <a href="mailto:{{client.signaletique.contribuable.courriel}}" target="_top">{{client.signaletique.contribuable.courriel}}</a>
                         </td>
                         <td class="w3-center">
@@ -33,7 +114,7 @@
                             <button ng-click="submitClientDelete(client._id)" class="w3-btn w3-round w3-red"><span
                                     class="material-icons">delete_sweep</span>Delete</button>
                         </td>
-                    </tr>
+                    </tr> -->
                 </tbody>
             </table>
             <!-- <div ng-show="!load" class="w3-pale-blue" style="padding: 12px; text-align: center;"><img src="img/loader.gif" alt="Loading..." style="height: 25px; width: 25px;"></div>

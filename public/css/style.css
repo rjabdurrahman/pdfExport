@@ -1,6 +1,6 @@
 body {
   background-color: #F7F7F7;
-  color: #222c3c;
+  color: #000000;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -34,8 +34,8 @@ header {
   display: flex;
   color: #ffffff;
   background-color: #0D2D67 !important;
-  padding-left: 30px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 30px;
 }
 
 .top-nav img {
@@ -68,6 +68,7 @@ header {
   margin-left: 50px !important;
   margin-top: 12px;
   width: 100%;
+  font-size: 14px;
 }
 
 .top-nav .user {
@@ -116,7 +117,7 @@ header {
   text-align: center;
   font-size: 24px;
   color: #ffffff;
-  background-color: #6673FC;
+  background-color: #6E9CEE;
   border-radius: 50%;
   height: 60px;
   width: 60px;
@@ -169,7 +170,7 @@ header {
 
 .left-nav .active,
 .left-nav .w3-button:hover {
-  color: #6673FC !important;
+  color: #6E9CEE !important;
   background-color: #e1e1e1 !important;
 }
 
@@ -253,37 +254,47 @@ input[type="text"]:disabled:hover {
 }
 
 .table-container {
-  width: calc(100% - 40px);
-  margin: 12px auto;
+  margin: 12px 60px 0;
 }
 
 .table-container .top {
-  margin-top: 6px;
+  margin-top: 16px;
+  margin-bottom: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
-.table-container .top label {
-  display: inline-block;
+.table-container .top button {
+  background-color: #6E9CEE;
+  color: white;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   vertical-align: middle;
-  padding: 8px 12px;
-  border-top-left-radius: 6px;
-  border-top-right-radius: 6px;
+}
+
+.table-container .top input {
+  width: 300px;
+  margin-right: 45px;
+  padding-left: 30px;
+  background-image: url("../img/search_icon.svg");
+  background-repeat: no-repeat;
+  background-position: 4px 8px;
+  background-size: 25px;
 }
 
 .table-container table thead tr {
   padding: 16px;
-  background-color: #3b558b !important;
-  color: #ffffff;
+  background-color: #D1D4D5 !important;
 }
 
 .table-container table td,
 .table-container table th {
-  border: 1px solid lightgray;
+  border: 1px solid white;
   padding: 4px 16px;
 }
 
@@ -314,6 +325,9 @@ input[type="text"]:disabled:hover {
 
 .w3-btn.icon {
   min-width: 100px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   vertical-align: middle;
 }
 
