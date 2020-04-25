@@ -49,6 +49,7 @@ header {
   text-align: center;
 }
 
+.top-nav .arrow:hover,
 .top-nav a:hover {
   cursor: pointer;
   opacity: 0.7;
