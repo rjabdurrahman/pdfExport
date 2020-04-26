@@ -258,14 +258,14 @@ input[type="text"]:disabled:hover {
                 background-color: $opt-color !important;
             }
             th {
-                padding-top: 8px;
-                padding-bottom: 8px;
+                padding-top: 10px;
+                padding-bottom: 10px;
             }
         }
         td,
         th {
             border: 1px solid white;
-            padding: 2px 2px;
+            padding: 0px 2px;
         }
         td {
             a {
@@ -274,6 +274,12 @@ input[type="text"]:disabled:hover {
             }
             a:hover {
                 text-decoration: underline;
+            }
+        }
+        tbody {
+            td {
+                padding-top: 0px;
+                vertical-align: middle;
             }
         }
         .w3-btn {

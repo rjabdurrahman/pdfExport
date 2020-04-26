@@ -294,14 +294,14 @@ input[type="text"]:disabled:hover {
 }
 
 .table-container table thead th {
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .table-container table td,
 .table-container table th {
   border: 1px solid white;
-  padding: 2px 2px;
+  padding: 0px 2px;
 }
 
 .table-container table td a {
@@ -311,6 +311,11 @@ input[type="text"]:disabled:hover {
 
 .table-container table td a:hover {
   text-decoration: underline;
+}
+
+.table-container table tbody td {
+  padding-top: 0px;
+  vertical-align: middle;
 }
 
 .table-container table .w3-btn {
