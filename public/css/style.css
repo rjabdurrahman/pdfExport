@@ -295,7 +295,7 @@ input[type="text"]:disabled:hover {
 .table-container table td,
 .table-container table th {
   border: 1px solid white;
-  padding: 4px 16px;
+  padding: 4px 8px;
 }
 
 .table-container table td a {
