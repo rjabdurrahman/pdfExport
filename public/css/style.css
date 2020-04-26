@@ -57,6 +57,7 @@ header {
 
 .top-nav a label {
   display: block;
+  cursor: pointer;
 }
 
 .top-nav a label.text {
@@ -254,7 +255,7 @@ input[type="text"]:disabled:hover {
 }
 
 .table-container {
-  margin: 12px 60px 0;
+  margin: 40px 100px 20px 92px;
 }
 
 .table-container .top {
@@ -289,14 +290,18 @@ input[type="text"]:disabled:hover {
 }
 
 .table-container table thead tr {
-  padding: 16px;
   background-color: #D1D4D5 !important;
+}
+
+.table-container table thead th {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .table-container table td,
 .table-container table th {
   border: 1px solid white;
-  padding: 4px 8px;
+  padding: 4px 2px;
 }
 
 .table-container table td a {
