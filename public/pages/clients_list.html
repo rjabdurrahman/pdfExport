@@ -46,7 +46,7 @@
                         <td>asadsoon114@gmail.com</td>
                         <td>2019</td>
                         <td class="w3-center">
-                            <a href="#">Edit</a>
+                            <a href="#/client?id={{client._id}}">Edit</a>
                         </td>
                         <td class="w3-center">
                             <a href="#" class="w3-text-red">Delete</a>
@@ -99,20 +99,25 @@
                         </td>
                     </tr>
                     <!-- <tr ng-repeat="client in clients track by $index">
-                        <td>{{$index + 1}}</td>
-                        <td class="w3-center">
-                            <a href="#/client?id={{client._id}}">{{client.signaletique.contribuable.nom}}</a>
-                        </td>
+                        <td>{{client.signaletique.contribuable.numero_de_dossier}}</td>
+                        <td>{{client.signaletique.contribuable.nom}}</td>
                         <td>{{client.signaletique.contribuable.prenom}}</td>
-                        <td class="w3-center">
+                        <td>{{client.signaletique.contribuable.telephone}}</td>
+                        <td>
                             <a href="mailto:{{client.signaletique.contribuable.courriel}}" target="_top">{{client.signaletique.contribuable.courriel}}</a>
                         </td>
-                        <td class="w3-center">
-                            <button class="w3-btn w3-round w3-blue"><span class="material-icons">picture_as_pdf</span>Generate PDF</button>
+                        <td>2019</td>
+                        <td style="width: 50px;" class="w3-center">
+                            <a href="#/client?id={{client._id}}">Edit</a>
                         </td>
-                        <td class="w3-center">
-                            <button ng-click="submitClientDelete(client._id)" class="w3-btn w3-round w3-red"><span
-                                    class="material-icons">delete_sweep</span>Delete</button>
+                        <td style="width: 50px;" class="w3-center">
+                            <a href="#" class="w3-text-red">Delete</a>
+                        </td>
+                        <td style="width: 50px;" class="w3-center">
+                            <a href="#">PDF</a>
+                        </td>
+                        <td style="width: 50px;" class="w3-center">
+                            <a href="#">Word</a>
                         </td>
                     </tr> -->
                 </tbody>
