@@ -93,11 +93,21 @@ header {
   cursor: pointer;
 }
 
+.left-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.left-nav {
+  -ms-overflow-style: none;
+}
+
 .left-nav {
   padding-top: 12px;
   max-width: 300px;
   min-height: calc(100vh - 70.4px);
   font-size: 15px;
+  overflow: scroll;
+  height: 400px;
   background-color: #F4F5F6;
 }
 
@@ -129,6 +139,9 @@ header {
 }
 
 .top-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   height: 50px;
   background-color: #6E9CEE;
   color: white;
@@ -164,6 +177,7 @@ header {
   min-width: 600px;
   margin-left: 60px;
   margin-right: 65px;
+  margin-bottom: 40px;
   width: 100%;
   font-size: 14px;
   color: black !important;
