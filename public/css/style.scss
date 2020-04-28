@@ -166,6 +166,28 @@ header {
     }
 }
 
+.top-bar {
+    height: 50px;
+    background-color: $secondary-color;
+    color: white;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    button {
+        height: 50px;
+    }
+    .w3-button:hover {
+        filter: brightness(1.1);
+        -webkit-filter: brightness(1.1);
+    }
+    .refresh {
+        background-color: #CF4044;
+        display: inline-flex;
+        vertical-align: middle;
+    }
+}
+
 .form-input {
     min-width: 800px;
     margin-left: 38px;
