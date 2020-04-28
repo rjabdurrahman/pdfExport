@@ -100,8 +100,8 @@ header {
     max-width: 300px;
     min-height: calc(100vh - 70.4px);
     font-size: 15px;
-    overflow: scroll;
-    height: 400px;
+    // overflow: scroll;
+    // height: 250px;
     background-color: #F4F5F6;
     .w3-button {
         white-space: normal;
@@ -176,7 +176,10 @@ header {
             input {
                 padding: 6px !important;
                 background-color: #DFE2E5;
-                border: none !important;
+                // border: none !important;
+            }
+            input:focus {
+                background-color: white;
             }
         }
     }
