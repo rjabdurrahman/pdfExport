@@ -288,6 +288,11 @@ input[type="text"]:disabled:hover {
   text-decoration: none;
 }
 
+.table-container table td a img {
+  height: 28px;
+  width: 28px;
+}
+
 .table-container table td a:hover {
   text-decoration: underline;
 }
