@@ -259,8 +259,9 @@ input[type="text"]:disabled:hover {
                 color: black;
                 text-decoration: none;
                 img {
-                    height: 25px;
-                    width: 25px;
+                    height: 24px;
+                    width: 24px;
+                    fill: red;
                 }
             }
             a:hover {
