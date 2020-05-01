@@ -291,6 +291,7 @@ input[type="text"]:disabled:hover {
 .table-container table td a img {
   height: 30px;
   width: 30px;
+  margin: 2px;
 }
 
 .table-container table td a:hover {
