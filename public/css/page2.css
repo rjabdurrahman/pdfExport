@@ -1,0 +1,1183 @@
+@import url('https://fonts.googleapis.com/css?family=Arial:700,400');
+
+
+/* ANIMA screen - web19202 */
+.font-class-1 {
+  color               : var(--auto-palette-color-2);
+  font-family         : Arial, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 400;
+}
+.font-class-2 {
+  color               : var(--auto-palette-color-2);
+  font-family         : Arial, Helvetica, Arial, serif;
+  font-style          : normal;
+  font-weight         : 700;
+}
+:root {
+  --auto-palette-color-1: rgba(223,226,229,1.0);
+  --auto-palette-color-2: rgba(0,0,0,1.0);
+}
+.web19202 .a7354fff1-419b-4ced-bde3-b12f7b464e3a-sJuCDL {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 508px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a2232450b-5162-41fd-ac7d-6ab7fe3cb4f1-sPsvS8 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 466px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .d45313fb-426e-4dcc-aae3-6001fa13d6f0-UlCxGF {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 424px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-45-bf22daf5-675c-470f-ab94-7da75a45f13a-XZoo5p {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 362px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .a8d780e8f-a95e-4be1-8a0c-bbb406c14c5c-wk52EK {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 362px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-46-368ff524-5b1a-4484-90e5-53f2533ce84f-JuIlu3 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 320px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .a6ce0727e-165c-4285-bd3a-294d532191b3-Vpo59Y {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 320px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-47-a6ab7c7a-2724-4072-9166-8e5c5997a25f-dNhiA0 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 279px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .dcf9d352-eb49-4ffb-9ff7-707d2f94911c-CkYBUE {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 278px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-48-503c6e25-17e6-4bc6-80fc-b768970051d6-g8Oh56 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 237px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .a533ece65-f219-469e-b047-513b6fb1aa27-bSi64w {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 236px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .e-2bd2cd23-54ff-4ca9-b6ab-8cc0f1da4710-ixBwTx {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 33.0px;
+  height              : auto;
+  left                : 1279px;
+  line-height         : 33.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 72px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a-cocher-uniquement-au-cas-ou-la-moderation-d-impot-pour-enfants-n-a-pas-ete-accordee-sous-la-forme-d-allocation-familiale-par-la-cae-d-aide-financiere-de-l-etat-pour-etudes-superieures-ou-d-aide-aux-volontaires-67cdfa6e-8085-4853-b9e3-0885431d4d82-t7VarD {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 606px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a4fdf174e-d251-4978-b67e-50779c90cbdf-TvX1eN {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 308px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 604px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .dans-le-cas-des-contribuables-vivant-en-menage-sans-etre-maries-qui-ont-des-enfants-communs-pour-lesquels-aucune-allocation-familiale-aide-financiere-pour-etudes-superieures-ou-aide-aux-volontaires-n-a-ete-payee-la-moderation-d-impot-pour-enfant-sous-la-1f2b9cca-64e5-4d84-b0c7-8e3660f1c334-RHRTuY {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 648px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a2-e6b106bf-5e12-4d2e-9720-26d58a916be9-uxlOTT {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 282px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 740px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a3-56422a08-eb39-4789-b67b-ce75359bd264-C7ZuIR {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 282px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 826px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a4-ea50afdf-0ee6-45b6-84c2-82333f7ce318-HDbF4t {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 282px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1332px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .demande-de-la-bonification-dimpot-pour-enfant-09e95b35-349e-4be5-a93f-374f2b053465-GbCEAI {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1332px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .demande-de-lapplication-du-credit-dimpot-monoparental-cim-f6fd89de-e816-41e7-8a35-23ceef7759b4-v8bxbQ {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 826px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .enfants-nayant-pas-fait-partie-du-menage-contribuable-56e8d5b0-58a2-462f-ac74-10618669c787-UvytA2 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 740px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .voir-rubrique-charges-extraordinaires-ce-page-18-cases-1801-et-suivantes-3fc3a9a5-abcc-477d-bf11-bdd84094a476-4DN5yA {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 786px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .je-demande-le-credit-d-impot-monoparental-pour-personne-appartenant-a-la-classe-1a-ayant-au-moins-un-enfant-appartenant-au-menage-et-a-laquelle-le-credit-d-impot-monoparental-n-a-pas-ete-bonifie-par-l-intermediaire-de-l-employeur-ou-d-une-caisse-de-pensi-0fb6bed8-f8e3-46e7-95c3-4ee175246160-cHHuTN {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 355px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 864px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .nom-et-prenom-de-l-enfant-enfant-s-vise-s-sous-1-ci-dessus-2d4b8228-d10c-45c3-b73b-13c9af5803fb-CzFi87 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 948px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .nom-et-prenom-de-l-enfant-49332603-7d3d-4d4a-9151-3d77e71076de-JSHUkE {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1440px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .date-de-naissance-numero-didentification-efdfb792-a509-4edb-af3e-ce50704c8b26-yfdYIS {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 625px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 1432px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .demande-pour-la-bonification-d-impot-pour-les-enfants-pour-lesquels-le-droit-a-une-moderation-d-impot-a-expire-en-2017-ou-en-2018-au-dela-d-un-revenu-imposable-ajuste-de-76-600-eur-la-bonification-d-impot-n-est-plus-accordee-sauf-lorsque-le-nombre-d-enfan-4d8ce29c-fb72-4e7d-9254-c44187bdeabc-N1sGMi {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 357px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1370px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .montant-mensuel-de-lallocation-percue-eacb2e04-ea97-4b61-a4bd-1f6c9865441d-mx5jgy {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 654px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 948px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-24-9c98f8a8-f8f0-4b2a-8660-b9a9608d0f2e-zZhfGJ {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 414px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .rectangle-25-0eaa56a4-d6fc-426c-a1bc-fdb74cc25076-fCRe9X {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 456px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .a31f66fa2-5054-4a0f-8548-0fad55f511dd-LaQo1X {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 23.0px;
+  height              : auto;
+  left                : 896px;
+  line-height         : 23.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 570px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .nom-et-prenom-de-l-enfant-76b45d85-d260-442c-946c-9f31989fbfac-8xSFl9 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 166px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a02-fc1128af-b065-41af-9231-142d9fe6a991-LkbgkK {
+  background-color    : rgba(255,255,255,0);
+  height              : 1597px;
+  left                : 230px;
+  position            : absolute;
+  top                 : -17px;
+  width               : 1124px;
+}
+.web19202 .demande-de-la-moderation-dimpot-pour-enfants-a5b16573-d7ed-465e-a72f-8cfad60454f1-Od9j41 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 861px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 150px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a1-1b5297d7-6e7a-433b-821d-ab13d48452c0-heixV4 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 282px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 108px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .enfants-ayant-fait-partie-du-menage-contribuable-5955ed43-4b85-4a2f-983f-e778c8871670-lMCY4c {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 27.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 27.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 108px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .specification-de-la-formation-professionnelle-b20b89ac-31a2-4a06-af2a-26f9667de456-oyvH4A {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 1031px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 158px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .a-enfants-ages-de-moins-de-21-ans-au-1-1-2019-ou-nes-en-cours-de-lannee-a17ecd89-9f68-4513-961e-7d145a1bcc92-OYvOfW {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 208px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .b-enfants-ages-d-au-moins-21-ans-au-1-1-2019-et-ayant-poursuivi-de-facon-continue-des-etudes-de-formation-professionnelle-41dc75bb-8450-4fd6-9271-ea229f933fc3-WQmJwg {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 396px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .c-enfants-ages-d-au-moins-21-ans-au-1-1-2019-jouissant-de-l-allocation-familiale-continuee-enfants-handicapes-ou-infirmes-8ebb84cd-0d9d-4421-95e8-9a453569af87-jDebmv {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 542px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .par-allocations-il-convient-de-comprendre-les-rentes-alimentaires-le-paiement-des-frais-d-entretien-d-education-et-de-formation-professionnelle-etc-les-rentes-orphelins-et-les-prestations-familiales-allocations-familiales-n-entrent-pas-en-ligne-de-77aa68cc-1238-4679-8142-4ae9fabd24ba-LQzAQb {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1124px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 {
+  background-color    : rgba(255,255,255,1.0);
+  height              : 1607.0px;
+  overflow            : hidden;
+  position            : relative;
+  width               : 1645.0px;
+}
+.web19202 .date-de-naissance-numero-didentification-c7da74d2-1017-4fa7-9d40-651ef882d780-ZzUMdw {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 627px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : center;
+  top                 : 158px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-8-f5d5c2a9-a464-43da-b334-59f3f83d0647-103JCc {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 414px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-7-b2ec3c1b-22f4-4749-bc18-08f470192d2d-OG6ToZ {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 352px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-6-b8985492-a10c-4928-86cb-544aead17bd8-l71fCf {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 310px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-5-213091fe-f41e-4b0b-a03c-f4e09cc51e45-Ltu1Mn {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 268px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-4-14a1d3b2-d321-4190-83ee-284ae19910f5-fYivgy {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 226px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-16-3c7c8603-a7a6-4d35-becb-14fe86e92c50-Kc3HLd {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 1267px;
+  transform           : rotate(0deg);
+  width               : 960px;
+}
+.web19202 .rectangle-17-a1151b3d-b8b7-4352-b3de-671635be7737-2IbxA1 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 983px;
+  position            : absolute;
+  top                 : 414px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-18-80c2a61f-e0cc-453b-8ea7-ae5eab4862b0-oxxSHz {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 983px;
+  position            : absolute;
+  top                 : 456px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-22-936cb0ef-2d9d-43c4-81e9-686fa7ca7aaa-C1R0JF {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 268px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .rectangle-23-0a859ed9-faef-4bb7-bd2c-78b735fbda40-inP9f1 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 226px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .rectangle-19-eb17226f-143a-4aa0-a9f2-0265dc501e67-VDxwly {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 983px;
+  position            : absolute;
+  top                 : 498px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-20-a13dd533-9bdc-458c-8436-ec8d6525a068-FxYhhD {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 352px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .rectangle-21-e92b93af-77de-463f-bfc9-85b564660690-80bWLv {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 310px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .lorsqu-aucun-revenu-n-est-declare-dans-les-rubriques-c-a-i-s-p-cm-l-et-d-les-moyens-de-subsistance-doivent-etre-indiques-ci-dessous-74532477-4236-4407-93aa-931c6f2dfe8e-yLISxx {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 16.0px;
+  height              : auto;
+  left                : 321px;
+  line-height         : 16.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1178px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-26-dea54b82-b224-4eb9-a963-0e07200e8fa3-28S8JC {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 498px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .rectangle-9-84dfe785-6556-4104-b3d3-57a282971c4d-1p9KNn {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 456px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-10-346ac33b-95cf-4636-8f9e-691ff16fbdf7-awftGz {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 498px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-11-d0505168-cf02-41f4-aba9-ddc0baaa3054-9u83nD {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 560px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-12-ce92a6c9-95a9-46b2-8551-60e823761082-eLA6rQ {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 986px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-13-d84eaa4b-4195-4519-8b90-e3e0403f9dd0-w3Wtya {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 1028px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-14-d006c51f-2a12-40cc-9234-481071076b46-7skdRr {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 1070px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-15-42115d97-97cb-4815-bdc6-20bd5f6ea944-8KOxUO {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 1220px;
+  transform           : rotate(0deg);
+  width               : 958px;
+}
+.web19202 .rectangle-27-9aa134e2-382f-4596-9b40-499a11a3e50a-FWZDa5 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 560px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .annee-mois-jour-54f8d4de-2bd2-49ea-bfdf-5b942d626895-fRTK6c {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 298px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-a27063da-34d7-4745-9f57-b451543a0532-R2ohOq {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 380px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-1dc0d026-0833-4066-8660-b35ac68bf22f-LfeTNE {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 446px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-e09bf09a-eb10-42be-9c54-bc4ab1544021-q0mVBm {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 338px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-1abfd5d8-ae8b-47a3-939d-801a380aec2b-y2Q7m4 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 528px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-a170d99a-1645-42bc-822b-1d9fbb1cc28b-oBqyI1 {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 486px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-bf00ca1d-5486-4b59-8123-f39db8279886-W7Ytxn {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 256px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-1623f5cf-cb28-4fdc-ac30-868861cc7343-KqODDM {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 644px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 590px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .annee-mois-jour-3c54fadf-a7bc-4da1-9abc-628e8a52f71d-omlhkz {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 643px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1500px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-28-dee4930b-cf5a-411f-800f-330c4d51b918-ir39cz {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 1470px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .annee-mois-jour-aa6d0dc2-8fb1-4898-b31c-85a60edba3af-2opjGu {
+  background-color    : rgba(0,0,0,0);
+  font-size           : 8.0px;
+  height              : auto;
+  left                : 643px;
+  line-height         : 8.0px;
+  position            : absolute;
+  text-align          : left;
+  top                 : 1542px;
+  transform           : rotate(0deg);
+  width               : auto;
+}
+.web19202 .rectangle-29-93208f1c-a092-471b-ae0e-1f4ba2e1643e-XUbWUs {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 1512px;
+  transform           : rotate(0deg);
+  width               : 220px;
+}
+.web19202 .rectangle-30-055504dc-30e4-4714-a1ea-6b8773ef3279-jisGNE {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 1470px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-44-73547502-969f-4546-abdf-168f5ffde096-6KMFUH {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 571px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .rectangle-34-d85bb100-a1ff-49a7-9658-103aa537ae42-3pbP7G {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 1070px;
+  transform           : rotate(0deg);
+  width               : 218px;
+}
+.web19202 .rectangle-43-8746fb45-9489-42d6-b2fe-4f1fc1a7f67b-LG2UOK {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 467px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .rectangle-36-5bee0e2c-332a-4c92-bb5a-5f9ccd319b35-d9GhCn {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 305px;
+  position            : absolute;
+  top                 : 1368px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .rectangle-41-bb4b0666-2c63-4b6a-86d2-5024a187bc48-mxTb26 {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 425px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .rectangle-33-50685305-c32b-43fa-8183-6e1f07e8025b-PUjGrx {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 1028px;
+  transform           : rotate(0deg);
+  width               : 218px;
+}
+.web19202 .rectangle-32-868ece64-f367-4cb6-95c9-f13dd01bd644-ZMLSJO {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 617px;
+  position            : absolute;
+  top                 : 986px;
+  transform           : rotate(0deg);
+  width               : 218px;
+}
+.web19202 .rectangle-35-22af934e-4a2e-4bd5-ba23-12062708e0d1-Dkq1Vn {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 303px;
+  position            : absolute;
+  top                 : 862px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+.web19202 .rectangle-31-019e6008-b51c-4f0b-8826-f76ee85ab183-9sI4ax {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 42px;
+  left                : 321px;
+  position            : absolute;
+  top                 : 1512px;
+  transform           : rotate(0deg);
+  width               : 296px;
+}
+.web19202 .rectangle-42-d11fbb76-7276-4b66-b41b-bc9b27fe65c3-dfbWiq {
+  background-color    : var(--auto-palette-color-1);
+  border-color        : var(--auto-palette-color-1);
+  border-style        : solid;
+  border-width        : 1.0px;
+  height              : 20px;
+  left                : 870px;
+  position            : absolute;
+  top                 : 509px;
+  transform           : rotate(0deg);
+  width               : 20px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  animation-delay     : 0s;
+}
+@keyframes anima-reveal {
+  from {
+    opacity             : 0;
+  }
+  to {
+    opacity             : 1;
+  }
+}
+* {
+  box-sizing          : border-box;
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-component-wrapper a,
+.anima-screen a {
+  text-decoration     : none;
+}
+.anima-flexbox-container a {
+  line-height         : 0;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+.anima-screen textarea:focus,
+.anima-screen input:focus {
+  outline             : none;
+}
+.anima-screen div {
+  -webkit-text-size-adjust: none;
+}
+.anima-container-center-vertical,
+.anima-container-center-horizontal {
+  pointer-events      : none;
+  display             : flex;
+  flex-direction      : row;
+  padding             : 0;
+  margin              : 0;
+}
+.anima-container-center-vertical {
+  align-items         : center;
+  height              : 100%;
+}
+.anima-container-center-horizontal {
+  justify-content     : center;
+  width               : 100%;
+}
+.anima-container-center-vertical > *,
+.anima-container-center-horizontal > * {
+  pointer-events      : auto;
+  flex-shrink         : 0;
+}
+.anima-component-wrapper ,
+.anima-screen {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}

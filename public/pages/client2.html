@@ -1,0 +1,277 @@
+<div class="top-bar flex">
+    <button class="w3-button">
+        <span class="material-icons-outlined">
+            save
+        </span>
+    </button>
+    <label>2019 - MUSTERMANN Max</label>
+    <button class="w3-button refresh">
+        <span class="material-icons">refresh</span>&nbsp;Réinitialiser</button>
+</div>
+<div class="flex">
+    <div class="left-nav w3-bar-block">
+        <left-nav></left-nav>
+    </div>
+    <form name="identification" class="form-input">
+        <h2>Signalétique</h2>
+        <table style="width: 100%;">
+            <tr>
+                <td style="width: 200px;"></td>
+                <td>
+                    <label class="w3-center">Contribuable</label>
+                </td>
+                <td>
+                    <label class="w3-center">Contribuable conjoint/partenaire</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Nom</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_1" value="{{client.contribuable.nom}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_2" value="{{client.conjoint_partenaire.nom}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Prénom</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_3" value="{{client.contribuable.prenom}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_4" value="{{client.conjoint_partenaire.prenom}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Date de naissance /<br> numéro d'identification</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_5" value="{{client.contribuable.date_de_naissance}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_6" value="{{client.conjoint_partenaire.date_de_naissance}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Lieu de naissance <br>(localité / pays)</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_7" value="{{client.contribuable.lieu_de_naissance}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_8" value="{{client.conjoint_partenaire.lieu_de_naissance}}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label class="w3-center" style="margin-left: 220px;"><b>Numéro de dossier</b></label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <div class="flex" style="justify-content: center;">
+                        <label class="w3-center"><b>A indiquer obligatoirement</b> (si attribué)&nbsp;:&nbsp;</label>
+                        <input class="w3-input w3-border" type="text" style="width: 300px;" name="d_9" value="{{client.numero_de_dossier}}">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Profession ou genre de l'activité</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_10" value="{{client.contribuable.profession}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_11" value="{{client.conjoint_partenaire.profession}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Téléphone (accessible le jour)</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_12" value="{{client.contribuable.telephone}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_13" value="{{client.conjoint_partenaire.telephone}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Courriel</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_14" value="{{client.contribuable.courriel}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_15" value="{{client.conjoint_partenaire.courriel}}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label class="w3-center"><b><u>Ancien</u></b> domicile ou séjour habituel à indiquer uniquement en cas de
+                        changement entre le 1/1/2019 et le 31/12/2019</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Numéro - rue</label>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_16" value="{{client.contribuable.domicile.actuel.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_17" value="{{client.contribuable.domicile.actuel.rue}}">
+                    </div>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_18" value="{{client.conjoint_partenaire.domicile.actuel.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_19" value="{{client.conjoint_partenaire.domicile.actuel.rue}}">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Code postal - localité</label>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_20" value="{{client.contribuable.domicile.actuel.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_21" value="{{client.contribuable.domicile.actuel.localite}}">
+                    </div>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_22" value="{{client.conjoint_partenaire.domicile.actuel.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_23" value="{{client.conjoint_partenaire.domicile.actuel.localite}}">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Pays</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_24" value="{{client.contribuable.domicile.actuel.pays}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_25" value="{{client.conjoint_partenaire.domicile.actuel.pays}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Du 1/1/2019 au</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_26" value="{{client.contribuable.domicile.ancien.du_au}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_27" value="{{client.conjoint_partenaire.domicile.ancien.du_au}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Numéro - rue</label>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_28" value="{{client.contribuable.domicile.ancien.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_29" value="{{client.contribuable.domicile.ancien.rue}}">
+                    </div>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_30" value="{{client.conjoint_partenaire.domicile.ancien.numero}}">
+                        <input class="w3-input w3-border" type="text" name="d_31" value="{{client.conjoint_partenaire.domicile.ancien.rue}}">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Code postal - localité</label>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_32" value="{{client.contribuable.domicile.ancien.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_33" value="{{client.contribuable.domicile.ancien.localite}}">
+                    </div>
+                </td>
+                <td>
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_34" value="{{client.conjoint_partenaire.domicile.ancien.code_postal}}">
+                        <input class="w3-input w3-border" type="text" name="d_35" value="{{client.conjoint_partenaire.domicile.ancien.localite}}">
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Pays</label>
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_36" value="{{client.contribuable.domicile.ancien.pays}}">
+                </td>
+                <td>
+                    <input class="w3-input w3-border" type="text" name="d_37" value="{{client.conjoint_partenaire.domicile.ancien.pays}}">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h2>Coordonnées bancaires</h2>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Titulaire du compte</label>
+                </td>
+                <td colspan="2">
+                    <input class="w3-input w3-border" type="text" name="d_38" value="{{client.coordonnes_bancaires.titulaire_du_compte}}">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Code IBAN</label>
+                </td>
+                <td colspan="2">
+                    <div class="flex">
+                        <input class="w3-input w3-border" type="text" name="d_39" value="{{client.coordonnes_bancaires.code_iban}}">
+                        <label style="width: 180px;margin: 10px 12px;">SWIFT BIC</label>
+                        <input class="w3-input w3-border" type="text" name="d_40" value="{{client.coordonnes_bancaires.swift_bic}}">
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<script>
+    $('.w3-dropdown-click').click(function() {
+        $('.left-nav > .w3-button').removeClass('active')
+        let el = $(this).children('.w3-dropdown-content')
+        if (el.is(":visible")) {
+            el.hide();
+            $(this).removeClass('active')
+        } else {
+            $('.w3-dropdown-content').hide();
+            $('.w3-dropdown-click').removeClass('active');
+            $(this).addClass('active');
+            el.show();
+        }
+    })
+    $('.left-nav > .w3-button').click(function() {
+        let x = this;
+        $('.left-nav > .w3-button, .w3-dropdown-click').removeClass('active');
+        $('.w3-dropdown-content').hide();
+        if (x.className.indexOf("active") == -1) {
+            x.className += " active";
+        } else {
+            x.className = x.className.replace(" active", "");
+        }
+    })
+</script>

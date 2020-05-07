@@ -10,11 +10,13 @@ app.config(function($routeProvider) {
         .when('/client', {
             templateUrl: 'pages/client.html',
             controller: 'ClientControler',
+            css: 'css/page1.css',
             activetab: 'client'
         })
         .when('/enfants', {
             templateUrl: 'pages/enfants.html',
             controller: 'EnfantsControler',
+            css: 'css/page2.css',
             activetab: 'client'
         })
         .when('/etat_civil', {
@@ -23,15 +25,6 @@ app.config(function($routeProvider) {
             activetab: 'client'
         })
         .otherwise({ redirectTo: '/' });
-});
-
-app.component('leftNav', {
-    templateUrl: '/components/leftnav.html',
-    controller: 'NavCtrl'
-});
-
-app.controller('NavCtrl', function($scope) {
-    $scope.id = activeClientId;
 });
 
 app.run(function($rootScope, $http) {
@@ -82,6 +75,46 @@ app.run(function($rootScope, $http) {
             notify('Something Went Wrong', 2);
         })
     }
+});
+
+app.directive('head', ['$rootScope','$compile',
+    function($rootScope, $compile){
+        return {
+            restrict: 'E',
+            link: function(scope, elem){
+                var html = '<link rel="stylesheet" ng-repeat="(routeCtrl, cssUrl) in routeStyles" ng-href="{{cssUrl}}" />';
+                elem.append($compile(html)(scope));
+                scope.routeStyles = {};
+                $rootScope.$on('$routeChangeStart', function (e, next, current) {
+                    if(current && current.$$route && current.$$route.css){
+                        if(!angular.isArray(current.$$route.css)){
+                            current.$$route.css = [current.$$route.css];
+                        }
+                        angular.forEach(current.$$route.css, function(sheet){
+                            delete scope.routeStyles[sheet];
+                        });
+                    }
+                    if(next && next.$$route && next.$$route.css){
+                        if(!angular.isArray(next.$$route.css)){
+                            next.$$route.css = [next.$$route.css];
+                        }
+                        angular.forEach(next.$$route.css, function(sheet){
+                            scope.routeStyles[sheet] = sheet;
+                        });
+                    }
+                });
+            }
+        };
+    }
+]);
+
+app.component('leftNav', {
+    templateUrl: '/components/leftnav.html',
+    controller: 'NavCtrl'
+});
+
+app.controller('NavCtrl', function($scope) {
+    $scope.id = activeClientId;
 });
 
 app.controller('ClientsListControler', function($scope, $http) {

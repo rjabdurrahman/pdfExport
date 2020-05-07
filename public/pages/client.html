@@ -1,4 +1,4 @@
-<div class="top-bar flex">
+<div class="top-bar flex" style="z-index: 9999;">
     <button class="w3-button">
         <span class="material-icons-outlined">
             save
@@ -9,269 +9,203 @@
         <span class="material-icons">refresh</span>&nbsp;Réinitialiser</button>
 </div>
 <div class="flex">
-    <div class="left-nav w3-bar-block">
+    <div style="z-index: 999" class="left-nav w3-bar-block">
         <left-nav></left-nav>
     </div>
-    <form name="identification" class="form-input">
-        <h2>signalétique</h2>
-        <table style="width: 100%;">
-            <tr>
-                <td style="width: 200px;"></td>
-                <td>
-                    <label class="w3-center">Contribuable</label>
-                </td>
-                <td>
-                    <label class="w3-center">Contribuable conjoint/partenaire</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Nom</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_1" value="{{client.contribuable.nom}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_2" value="{{client.conjoint_partenaire.nom}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Prénom</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_3" value="{{client.contribuable.prenom}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_4" value="{{client.conjoint_partenaire.prenom}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Date de naissance /<br> numéro d'identification</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_5" value="{{client.contribuable.date_de_naissance}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_6" value="{{client.conjoint_partenaire.date_de_naissance}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Lieu de naissance <br>(localité / pays)</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_7" value="{{client.contribuable.lieu_de_naissance}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_8" value="{{client.conjoint_partenaire.lieu_de_naissance}}">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <label class="w3-center" style="margin-left: 220px;"><b>Numéro de dossier</b></label>
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <div class="flex" style="justify-content: center;">
-                        <label class="w3-center"><b>A indiquer obligatoirement</b> (si attribué)&nbsp;:&nbsp;</label>
-                        <input class="w3-input w3-border" type="text" style="width: 300px;" name="d_9" value="{{client.numero_de_dossier}}">
+    <div class="anima-container-center-horizontal" style="justify-content: flex-start; padding-left: 22px;">
+        <div class="web19201 anima-screen ">
+            <img anima-src="./img/01@1x.png" class="a01-d2491689-43db-4f55-ae5b-eb9c2c29dd35-uAWi9p" src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" />
+            <div class="auto-flex-f2B8u6 anima-flexbox-container">
+                <div class="signaletique-2a7bb9c2-848d-4b49-96b1-c725373e41d0-MugxgX font-class-2">
+                    Signalétique
+                </div>
+                <div class="nom-07a3ef38-985b-47cc-b8a2-3e43229d1857-1uUsP4 font-class-1">
+                    Nom
+                </div>
+                <div class="prenom-a9caa3ea-9c46-46b7-9ee5-53280548e337-XfBgKn font-class-1">
+                    Prénom
+                </div>
+                <div class="date-de-naissance-numero-d-identification-7d3dca63-ecfa-4779-80b7-91772173278a-DZBmS8 font-class-1">
+                    Date de naissance /<br />numéro<br />d'identification
+                </div>
+                <div class="lieu-de-naissance-localite-pays-0f6dbcc8-24e1-43e9-b3a3-470436be742f-fMP4FS font-class-1">
+                    Lieu de naissance<br />(localité / pays)
+                </div>
+            </div>
+            <div class="auto-flex1-A9yKZG anima-flexbox-container">
+                <div class="profession-ou-genre-de-l-activite-f5150f1e-9de8-4c11-87db-e563eb2b9d51-0ErECq font-class-1">
+                    Profession ou genre<br />de l'activité
+                </div>
+                <div class="telephone-accessible-le-jour-4c55456b-ab30-4c37-8d73-6085a4b6eb51-7ZCfbW font-class-1">
+                    Téléphone<br />(accessible le jour)
+                </div>
+                <div class="courriel-9b307317-9b69-4587-8a77-7000ef595bb4-a7xHVQ font-class-1">
+                    Courriel
+                </div>
+                <div class="numero-rue-522e2219-02ea-4f62-8df2-a0ce155c3bc3-lKkRTB font-class-1">
+                    Numéro - rue
+                </div>
+                <div class="code-postal-localite-33841a60-3248-4b32-a46b-beb0ac04e85e-PJFrMJ font-class-1">
+                    Code postal -<br />localité
+                </div>
+                <div class="pays-893b2bd4-309c-4b63-b2c9-c994fbfac3a2-aJ0Fuw font-class-1">
+                    Pays
+                </div>
+                <div class="du-1-1-2019-au-6e30a4a3-0a26-4d5d-b02e-a9fc084b9816-FSjEmb font-class-1">
+                    Du 1/1/2019 au
+                </div>
+                <div class="numero-rue-09d15288-f1d5-44fe-9973-c179d8ea5af8-ZzFvlx font-class-1">
+                    Numéro - rue
+                </div>
+                <div class="code-postal-localite-60ee2765-4a1f-494f-aa50-6d9c9c489010-t3PIdE font-class-1">
+                    Code postal -<br />localité
+                </div>
+                <div class="pays-4350a400-974d-468b-9061-23ee6f61eb12-0zNfUd font-class-1">
+                    Pays
+                </div>
+            </div>
+            <div class="coordonnees-bancaires-e1096424-aeb3-4e3b-8ab3-3ab634a8f95a-LqQse9 font-class-2">
+                Coordonnées bancaires
+            </div>
+            <div class="auto-flex3-pvPqPx anima-flexbox-container">
+                <div class="titulaire-du-compte-607c4e71-2003-4304-bfec-b3b10892b38e-WMi2VX font-class-1">
+                    Titulaire du compte
+                </div>
+                <div class="code-iban-3fc3bf2c-e405-492d-93d4-13c59db2ef17-KG5tUq font-class-1">
+                    Code IBAN
+                </div>
+            </div>
+            <div class="auto-flex4-RvVjxy anima-flexbox-container">
+                <div class="rectangle-40-d4a8da3e-2026-469a-970f-570c937e1b94-zDlgcb">
+                </div>
+                <div class="swift-bic-52045c9e-e651-4e2a-94a8-add7103785b5-6IF5YG font-class-1">
+                    SWIFT BIC
+                </div>
+            </div>
+            <div class="domicile-ou-sejour-habituel-actuel-b2fa8ea0-f1b3-48bb-9a79-2e0092b3d32f-74gn0L font-class-3">
+                <span class="span0-74gn0L">Domicile ou séjour habituel </span><span class="span1-74gn0L">actuel</span>
+            </div>
+            <div class="auto-flex6-7QcUAp anima-flexbox-container">
+                <div class="auto-flex5-bd3VNN anima-flexbox-container">
+                    <div class="rectangle-2-18a8b22a-0081-4134-83fa-130145e2df1e-nxFiui">
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Profession ou genre de l'activité</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_10" value="{{client.contribuable.profession}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_11" value="{{client.conjoint_partenaire.profession}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Téléphone (accessible le jour)</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_12" value="{{client.contribuable.telephone}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_13" value="{{client.conjoint_partenaire.telephone}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Courriel</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_14" value="{{client.contribuable.courriel}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_15" value="{{client.conjoint_partenaire.courriel}}">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <label class="w3-center"><b><u>Ancien</u></b> domicile ou séjour habituel à indiquer uniquement en cas de
-                        changement entre le 1/1/2019 et le 31/12/2019</label>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Numéro - rue</label>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_16" value="{{client.contribuable.domicile.actuel.numero}}">
-                        <input class="w3-input w3-border" type="text" name="d_17" value="{{client.contribuable.domicile.actuel.rue}}">
+                    <input class="a-long-input-area-is-here-to-go-for-more-infomrationso-2525190d-fda0-4321-9a38-8a0a18dd96ba-WLh7gQ font-class-1" name="aLongInputAreaIsHereToGoForMoreInfomrationso69" placeholder="" />
+                </div>
+                <div class="rectangle-38-06c5d7db-05f1-4a2a-8871-4662c066f6b4-SnGIb5">
+                </div>
+                <div class="annee-mois-jour-77041345-4816-4371-9366-83c21352444a-7QQeYI font-class-1">
+                    Année            Mois       Jour
+                </div>
+                <div class="rectangle-3-f721ea60-0350-4a9b-9f6c-86b48a2980e3-U3Oz8Q">
+                </div>
+            </div>
+            <div class="numero-de-dossier-e6a6d19a-a5b9-45b9-ba90-69c14cf5327f-jDxTcj font-class-2">
+                Numéro de dossier
+            </div>
+            <div class="contribuable-fdb860d9-c634-4a91-be44-d89fc076edd7-DcgHSq font-class-1">
+                Contribuable
+            </div>
+            <div class="ancien-domicile-ou-sejour-habituel-a-indiquer-uniquement-en-cas-de-changement-entre-le-1-1-2019-et-le-31-12-2019-0c324d03-d3a4-45a3-9b74-61277a71cd11-jGwXQ7 font-class-3">
+                <span class="span0-jGwXQ7">Ancien</span><span class="span1-jGwXQ7"> domicile ou séjour habituel à
+                    indiquer uniquement en cas de changement entre le 1/1/2019 et le 31/12/2019</span>
+            </div>
+            <div class="a-indiquer-obligatoirement-si-attribue-639ce0d7-42dd-4c94-9e9f-6e9d8934301e-2cWR4l font-class-3">
+                <span class="span0-2cWR4l">A indiquer obligatoirement</span><span class="span1-2cWR4l"> (si attribué)
+                    :</span>
+            </div>
+            <div class="annee-mois-jour-b9b8a0eb-9ac4-4a55-b87a-15b92db1f723-R0KitT font-class-1">
+                Année            Mois       Jour
+            </div>
+            <div class="contribuable-conjoint-partenaire-4d36729c-4218-45d4-afbe-fc18a861f50a-wkePUi font-class-1">
+                Contribuable conjoint/partenaire
+            </div>
+            <div class="rectangle-4-ffba81c6-ea9e-4898-bea8-7303eb342afb-7Z2BE2">
+            </div>
+            <div class="auto-flex2-6NTaBf anima-flexbox-container">
+                <div class="rectangle-5-13394d5e-a497-4198-91f1-eff5e94ddb1a-Khgpx6">
+                </div>
+                <div class="rectangle-6-adaef858-3098-4e07-8e46-c439e9a992bc-dtskc8">
+                </div>
+                <div class="rectangle-7-377f2fdc-3d21-4b91-8448-662a224b916d-WHDefx">
+                </div>
+            </div>
+            <div class="auto-flex9-a4QiCZ anima-flexbox-container">
+                <div class="auto-flex7-nmFROT anima-flexbox-container">
+                    <div class="rectangle-9-7f560a3f-f0b5-450f-aa48-d0f9ad60852e-LebPjd">
                     </div>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_18" value="{{client.conjoint_partenaire.domicile.actuel.numero}}">
-                        <input class="w3-input w3-border" type="text" name="d_19" value="{{client.conjoint_partenaire.domicile.actuel.rue}}">
+                    <div class="rectangle-11-a0a74a24-de11-49b9-b666-2d81ee425eb2-KBI3yC">
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Code postal - localité</label>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_20" value="{{client.contribuable.domicile.actuel.code_postal}}">
-                        <input class="w3-input w3-border" type="text" name="d_21" value="{{client.contribuable.domicile.actuel.localite}}">
+                </div>
+                <div class="auto-flex8-Lu7VUu anima-flexbox-container">
+                    <div class="rectangle-10-34875c4c-ed51-460c-beee-306ecd90c9a3-HJCRMu">
                     </div>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_22" value="{{client.conjoint_partenaire.domicile.actuel.code_postal}}">
-                        <input class="w3-input w3-border" type="text" name="d_23" value="{{client.conjoint_partenaire.domicile.actuel.localite}}">
+                    <div class="rectangle-12-84de64bf-641f-4b15-8c92-44127adeaccc-hhAxls">
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Pays</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_24" value="{{client.contribuable.domicile.actuel.pays}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_25" value="{{client.conjoint_partenaire.domicile.actuel.pays}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Du 1/1/2019 au</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_26" value="{{client.contribuable.domicile.ancien.du_au}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_27" value="{{client.conjoint_partenaire.domicile.ancien.du_au}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Numéro - rue</label>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_28" value="{{client.contribuable.domicile.ancien.numero}}">
-                        <input class="w3-input w3-border" type="text" name="d_29" value="{{client.contribuable.domicile.ancien.rue}}">
+                </div>
+                <div class="rectangle-42-e76eb73f-52dc-4511-8f1f-8aa66c17013d-xy3pCa">
+                </div>
+            </div>
+            <div class="auto-flex12-ncc8x4 anima-flexbox-container">
+                <div class="rectangle-13-a2a1ff94-3de4-47a9-a00e-4464ba696d92-FVk5Ud">
+                </div>
+                <div class="auto-flex10-vKxgmT anima-flexbox-container">
+                    <div class="rectangle-15-01b15a70-c0b3-4c3f-9e6d-b077624273e8-pO8uRt">
                     </div>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 150px" name="d_30" value="{{client.conjoint_partenaire.domicile.ancien.numero}}">
-                        <input class="w3-input w3-border" type="text" name="d_31" value="{{client.conjoint_partenaire.domicile.ancien.rue}}">
+                    <div class="rectangle-17-6bf1e776-4d1a-49d1-8593-10b30fabf3e9-DuAonu">
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Code postal - localité</label>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_32" value="{{client.contribuable.domicile.ancien.code_postal}}">
-                        <input class="w3-input w3-border" type="text" name="d_33" value="{{client.contribuable.domicile.ancien.localite}}">
+                </div>
+                <div class="auto-flex11-qHmu6g anima-flexbox-container">
+                    <div class="rectangle-16-7baae51c-c5f0-42be-aa7b-096220f53ccc-bi3rE5">
                     </div>
-                </td>
-                <td>
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" style="width: 200px" name="d_34" value="{{client.conjoint_partenaire.domicile.ancien.code_postal}}">
-                        <input class="w3-input w3-border" type="text" name="d_35" value="{{client.conjoint_partenaire.domicile.ancien.localite}}">
+                    <div class="rectangle-18-180f5ffc-02d4-4ae2-af9f-50e46bc340fd-XPkxKZ">
                     </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Pays</label>
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_36" value="{{client.contribuable.domicile.ancien.pays}}">
-                </td>
-                <td>
-                    <input class="w3-input w3-border" type="text" name="d_37" value="{{client.conjoint_partenaire.domicile.ancien.pays}}">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="3">
-                    <h2>Coordonnées bancaires</h2>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Titulaire du compte</label>
-                </td>
-                <td colspan="2">
-                    <input class="w3-input w3-border" type="text" name="d_38" value="{{client.coordonnes_bancaires.titulaire_du_compte}}">
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label>Code IBAN</label>
-                </td>
-                <td colspan="2">
-                    <div class="flex">
-                        <input class="w3-input w3-border" type="text" name="d_39" value="{{client.coordonnes_bancaires.code_iban}}">
-                        <label style="width: 180px;margin: 10px 12px;">SWIFT BIC</label>
-                        <input class="w3-input w3-border" type="text" name="d_40" value="{{client.coordonnes_bancaires.swift_bic}}">
-                    </div>
-                </td>
-            </tr>
-        </table>
-    </form>
+                </div>
+                <div class="rectangle-14-924c7d15-8925-45eb-92a4-0e641725e7f0-owpJA3">
+                </div>
+            </div>
+            <div class="rectangle-19-1f5fbbf7-b377-4a76-88e7-d588a4096fab-DNstVb">
+            </div>
+            <div class="rectangle-20-eebfc19d-a344-4a8b-a13a-b5f8fcc88a93-a08aze">
+            </div>
+            <div class="rectangle-21-b49e0db9-17b5-4bf2-bd45-4314accd9873-RvIQ1J">
+            </div>
+            <div class="rectangle-22-e9ec4408-0f55-481b-8923-0a9fa3121509-Vfl7ML">
+            </div>
+            <div class="rectangle-23-8ec52965-dbd7-48e0-8424-7ee065d6df94-Or5QZy">
+            </div>
+            <div class="rectangle-24-44f35c72-b23e-4121-9ce3-967369d3897f-heSEWR">
+            </div>
+            <div class="rectangle-25-987ba81e-877c-4a34-a5c3-d555800176fd-fqrr5t">
+            </div>
+            <div class="rectangle-26-9a57e225-9dae-4ab5-9d29-6aa58ee84381-BMiDEz">
+            </div>
+            <div class="rectangle-27-b5882956-38ae-4af6-8553-0292b0f8363a-C9imcU">
+            </div>
+            <div class="rectangle-28-7152db0f-9499-4972-a7b0-4a7e3856c23f-KcqXFN">
+            </div>
+            <div class="rectangle-29-428f2491-d4ef-4301-afe5-f06b55cbfe50-cpUZ6t">
+            </div>
+            <div class="rectangle-30-d10f9202-2391-4305-95d8-a863a434c977-RkSX9O">
+            </div>
+            <div class="rectangle-31-b9eca57a-2e57-4105-8330-f3bf6b6be545-ExZWPo">
+            </div>
+            <div class="rectangle-32-ee29f579-33ec-46d8-8b27-b44ba58d2754-5b4n82">
+            </div>
+            <div class="rectangle-33-8b54cf07-20c2-45e0-8c22-b5589551c11e-pb9D81">
+            </div>
+            <div class="rectangle-34-3a1a6d93-4877-4d0c-8c07-cf6964837b40-kF7Cr6">
+            </div>
+            <div class="rectangle-35-d5e55596-02ea-40f4-9e78-accfbb7ea0b8-lmX9SR">
+            </div>
+            <div class="rectangle-36-ca68216d-be45-45ec-aa0a-d1ddd2e51111-xwvKjr">
+            </div>
+            <div class="rectangle-39-d54794e8-4e20-4889-9804-79cb917ff8ae-J8JcIg">
+            </div>
+            <div class="rectangle-41-387852b0-779d-4ed6-b0f5-6c2a8d5e916c-fk2d5X">
+            </div>
+            <div class="rectangle-43-ab4f57ab-a5ac-4926-9bdf-8ce7ec0d190d-fpNb7Y">
+            </div>
+            <input class="a-long-input-area-is-here-to-go-for-more-infomrationso-e5aab2e9-a0cf-476e-beed-57b693cbb0e0-bIJL6H font-class-1" name="aLongInputAreaIsHereToGoForMoreInfomrationso68" placeholder=" " />
+        </div>
+    </div>
 </div>
-
-<script>
-    $('.w3-dropdown-click').click(function() {
-        $('.left-nav > .w3-button').removeClass('active')
-        let el = $(this).children('.w3-dropdown-content')
-        if (el.is(":visible")) {
-            el.hide();
-            $(this).removeClass('active')
-        } else {
-            $('.w3-dropdown-content').hide();
-            $('.w3-dropdown-click').removeClass('active');
-            $(this).addClass('active');
-            el.show();
-        }
-    })
-    $('.left-nav > .w3-button').click(function() {
-        let x = this;
-        $('.left-nav > .w3-button, .w3-dropdown-click').removeClass('active');
-        $('.w3-dropdown-content').hide();
-        if (x.className.indexOf("active") == -1) {
-            x.className += " active";
-        } else {
-            x.className = x.className.replace(" active", "");
-        }
-    })
-</script>
