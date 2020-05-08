@@ -181,7 +181,7 @@ header {
     }
     
     input:focus {
-        border: solid 1px blue !important;
+        border: solid 1px $secondary-color !important;
         background-color: white;
     }
 }

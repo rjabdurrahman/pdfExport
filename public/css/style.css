@@ -177,7 +177,7 @@ header {
 }
 
 .form-input input:focus {
-  border: solid 1px blue !important;
+  border: solid 1px #6E9CEE !important;
   background-color: white;
 }
 
