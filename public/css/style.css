@@ -171,34 +171,13 @@ header {
   vertical-align: middle;
 }
 
-.form-input {
-  min-width: 600px;
-  margin-left: 60px;
-  margin-right: 65px;
-  margin-bottom: 40px;
-  width: 100%;
-  font-size: 14px;
-  color: black !important;
+.form-input input {
+  padding-left: 6px !important;
+  border: solid 1px gray !important;
 }
 
-.form-input table {
-  font-size: 14px;
-}
-
-.form-input table .w3-center {
-  display: block;
-}
-
-.form-input table td:nth-child(2) {
-  padding-right: 30px !important;
-}
-
-.form-input table td input {
-  padding: 6px !important;
-  background-color: #DFE2E5;
-}
-
-.form-input table td input:focus {
+.form-input input:focus {
+  border: solid 1px blue !important;
   background-color: white;
 }
 
