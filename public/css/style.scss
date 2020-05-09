@@ -103,14 +103,11 @@ header {
 }
 
 .left-nav {
-    padding-top: 12px;
     max-width: 300px;
     min-height: calc(100vh - 70.4px);
     font-size: 15px;
     background-color: #F4F5F6;
-
-    // overflow: scroll;
-    // height: 250px;
+    // background-color: gray;
     .w3-button {
         white-space: normal;
     }
@@ -133,9 +130,9 @@ header {
     }
 
     .active {
-        color: $secondary-color !important;
+        // color: $secondary-color !important;
         font-weight: 600;
-        background-color: wheat;
+        background-color: white;
     }
 
     .w3-button:hover {

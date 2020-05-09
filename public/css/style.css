@@ -102,7 +102,6 @@ header {
 }
 
 .left-nav {
-  padding-top: 12px;
   max-width: 300px;
   min-height: calc(100vh - 70.4px);
   font-size: 15px;
@@ -131,9 +130,8 @@ header {
 }
 
 .left-nav .active {
-  color: #6E9CEE !important;
   font-weight: 600;
-  background-color: wheat;
+  background-color: white;
 }
 
 .left-nav .w3-button:hover {
