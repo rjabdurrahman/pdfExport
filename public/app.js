@@ -22,6 +22,7 @@ app.config(function($routeProvider) {
         .when('/etat_civil', {
             templateUrl: 'pages/etat_civil.html',
             controller: 'EnfantsControler',
+            css: 'css/page3.css',
             activetab: 'client'
         })
         .otherwise({ redirectTo: '/' });

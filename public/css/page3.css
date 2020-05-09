@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Arial:700,400');
+@import url('https://fonts.googleapis.com/css?family=Arial:400,700');
 
 
-.a201902 {
+.a201903 {
   width               : 100%;
-  min-width           : 1050px;
+  min-width           : 1083px;
   height              : 100vh;
-  min-height          : 1476px;
+  min-height          : 1333px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -28,7 +28,25 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.a201902 .a10 {
+.a201903 .clibataire0 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 84px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .etatcivil1 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 38px;
   height              : auto;
@@ -46,1277 +64,59 @@ div {
   text-align          : left;
   line-height         : 27.0px;
 }
-.a201902 .nometprnomdelenfant1 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 98px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .demandedelamodrationdimptpourenfants2 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 82px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 579px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.a201902 .enfantsayantfaitpartiedumnagecontribuable3 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .datedenaissancenumrodidentification4 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 345px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.a201902 .spcificationdelaformationprofessionnelle5 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 90px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 749px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.a201902 .aenfantsgsdemoinsde21ansau112019ounsencoursdelanne6 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 138px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.a201902 .benfantsgsdaumoins21ansau112019etayantpoursuividefaoncontinuedestudesdeformationprofessionnelle7 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 330px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .cenfantsgsdaumoins21ansau112019jouissantdelallocationfamilialecontinueenfantshandicapsouinfirmes8 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 478px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .acocheruniquementaucasolamodrationdimptpourenfantsnapastaccordesouslaformedallocationfamilialeparlacaedaidefinanciredeletatpourtudessuprieuresoudaideauxvolontaires9 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 544px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .a101 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 544px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 27px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .danslecasdescontribuablesvivantenmnagesanstremarisquiontdesenfantscommunspourlesquelsaucuneallocationfamilialeaidefinancirepourtudessuprieuresouaideauxvolontairesnatpayelamodrationdimptpourenfantsousla11 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 584px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .a212 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 660px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .a313 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 744px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .a414 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1246px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .demandedelabonificationdimptpourenfant15 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1246px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .demandedelapplicationducrditdimptmonoparentalcim16 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 744px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .enfantsnayantpasfaitpartiedumnagecontribuable17 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 660px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 27.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 27.0px;
-}
-.a201902 .voirrubriquechargesextraordinairescepage18cases1801etsuivantes18 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 702px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .jedemandelecrditdimptmonoparentalpourpersonneappartenantlaclasse1aayantaumoinsunenfantappartenantaumnageetlaquellelecrditdimptmonoparentalnapastbonifiparlintermdiairedelemployeuroudunecaissedepensi19 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 786px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 75px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .nometprnomdelenfantenfantsvisssous1cidessus20 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 866px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .nometprnomdelenfant21 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1364px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .datedenaissancenumrodidentification22 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1356px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 345px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.a201902 .demandepourlabonificationdimptpourlesenfantspourlesquelsledroitunemodrationdimptaexpiren2017ouen2018audeldunrevenuimposableajustde76600labonificationdimptnestplusaccordesauflorsquelenombredenfan23 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1290px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 75px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .montantmensueldelallocationperue24 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 866px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 372px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : center;
-  line-height         : 16.0px;
-}
-.a201902 .parallocationsilconvientdecomprendrelesrentesalimentaireslepaiementdesfraisdentretiendducationetdeformationprofessionnelleetclesrentesorphelinsetlesprestationsfamilialesallocationsfamilialesnentrentpasenlignede25 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1040px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .lorsquaucunrevenunestdclardanslesrubriquescaispcmletdlesmoyensdesubsistancedoiventtreindiquscidessous26 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1096px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a201902 .rectangle427 {
+.a201903 .rectangle452 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 157px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle528 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 199px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle629 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 241px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle730 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 283px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle831 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 348px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle932 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 390px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1033 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 432px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1134 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 497px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1235 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 901px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1336 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 943px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1437 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 985px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1538 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1131px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 958px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1639 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1179px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 960px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1740 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 348px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 701px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1841 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 390px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 701px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle1942 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 432px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 701px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2043 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 283px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2144 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 241px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2245 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 199px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2346 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 157px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2447 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 348px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2548 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 390px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2649 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 432px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2750 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 497px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .annemoisjour51 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 228px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 362px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
-}
-.a201902 .annemoisjour52 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 186px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 362px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 10.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 10.0px;
-}
-.a201902 .rectangle2853 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1392px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle2954 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1434px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle3055 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1392px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle3156 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1434px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 39px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle3257 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 901px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 218px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle3358 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 943px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 218px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle3459 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 985px;
-  height              : 42px;
-  box-sizing          : border-box;
-  width               : 218px;
-  position            : absolute;
-  margin              : 0;
-  left                : 335px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle3560 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 784px;
+  top                 : 206px;
   height              : 20px;
   box-sizing          : border-box;
   width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 119px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(223, 226, 229, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a201902 .rectangle3661 {
+.a201903 .rectangle463 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1287px;
+  top                 : 176px;
   height              : 20px;
   box-sizing          : border-box;
   width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 39px;
+  left                : 119px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(223, 226, 229, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a201902 .rectangle4162 {
+.a201903 .rectangle474 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 359px;
+  top                 : 146px;
   height              : 20px;
   box-sizing          : border-box;
   width               : 20px;
   position            : absolute;
   margin              : 0;
-  left                : 589px;
+  left                : 119px;
   border-style        : solid;
   border-width        : 1px;
   border-color        : rgba(223, 226, 229, 1.0);
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a201902 .rectangle4263 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 443px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle4364 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 401px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .rectangle4465 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 508px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .a66 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 506px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .a67 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 442px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .a68 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 400px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .a69 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 358px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .rectangle4570 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 293px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .a71 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 292px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .rectangle4672 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 251px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .a73 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 250px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .rectangle4774 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 210px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .a75 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 208px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .rectangle4876 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 168px;
-  height              : 20px;
-  box-sizing          : border-box;
-  width               : 20px;
-  position            : absolute;
-  margin              : 0;
-  left                : 589px;
-  border-style        : solid;
-  border-width        : 1px;
-  border-color        : rgba(223, 226, 229, 1.0);
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a201902 .a77 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 166px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 615px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 23.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 23.0px;
-}
-.a201902 .e78 {
+.a201903 .enr5 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 975px;
+  left                : 1002px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1327,167 +127,1221 @@ div {
   text-align          : left;
   line-height         : 33.0px;
 }
-.a201902 .annemoisjour79 {
+.a201903 .marie6 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 270px;
+  top                 : 148px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 155px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour80 {
+.a201903 .divorce7 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 312px;
+  top                 : 178px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 155px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour81 {
+.a201903 .veufveuve8 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 378px;
+  top                 : 208px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 155px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour82 {
+.a201903 .rectangle499 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 377px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5010 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 347px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5111 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 317px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .envertudunedispenselgaleaccorde12 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 462px;
+  top                 : 320px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 155px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour83 {
+.a201903 .spare13 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 526px;
+  top                 : 272px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 139px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour84 {
+.a201903 .nonrsidentsremplirparlescontribuablesquinontpasleurdomicilefiscalouleursjourhabituelauluxembourg14 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1422px;
+  top                 : 430px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 27.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 27.0px;
+}
+.a201903 .electionfacultativedundomicileauluxembourgadressepourlanotificationdesbulletinsdimpt15 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 500px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.a201903 .electionfacultativedundomicileauluxembourgadressepourlanotificationdesbulletinsdimpt15 .span0 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a201903 .electionfacultativedundomicileauluxembourgadressepourlanotificationdesbulletinsdimpt15 .span1 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a201903 .pourlecontribuable16 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 536px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 330px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour85 {
+.a201903 .pourlecontribuableconjointpartenaire17 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1464px;
+  top                 : 536px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 728px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour86 {
+.a201903 .nometprnom18 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 420px;
+  top                 : 568px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 38px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
 }
-.a201902 .annemoisjour87 {
+.a201903 .datedenaissancenumrodidentification19 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 420px;
+  top                 : 610px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 362px;
+  left                : 38px;
   transform           : rotate(0deg);
-  opacity             : 0.0;
+  opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 10.0px;
+  font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 10.0px;
+  line-height         : 16.0px;
+}
+.a201903 .numrorue20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 684px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .codepostallocalit21 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 728px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 38px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .assimilationdunonrsidentaursident22 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 790px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 826px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span0 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span1 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-decoration     : underline;
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span2 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span3 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-decoration     : underline;
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span4 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span5 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-decoration     : underline;
+}
+.a201903 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc23 .span6 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a201903 .depuisle24 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 178px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 422px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .classedimpt25 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 114px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 717px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .le26 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 717px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .annemoisjour27 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 650px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 230px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .annemoisjour28 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 650px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 699px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .lecontribuablenonrsidentpeuttreassimilaucontribuablersidentsiaumoinsunedesconditionssuivantesestremplieencequiconcernelescontribuablesnonrsidentsmarisilsuffitquaumoinslundespouxsatisfaitlaconditionsousao29 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 902px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .rectangle5230 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 977px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .aumoins90desrevenusmondiauxsontimposablesauluxembourgpourcentagedterminerselonlescases325327lesrevenusprovenantduneoccupationsalariedontledroitdimpositionnerevientpasauluxembourgenvertuduneconventioncontr31 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 984px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .a32 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 980px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .b33 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1076px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .c34 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1118px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 52px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .rectangle5335 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1075px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5436 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1115px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .lesrevenusnetsannuelsnonsoumislimptsurlerevenuluxembourgeoissontinfrieurs1300037 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1076px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 83px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .lecontribuablenonrsidentayantsarsidencefiscaleenbelgiquepeutenvertudesdispositionsdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetreassimilauxcontribuablesrsidentssiplus38 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1120px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .dterminationduseuildesrevenusimposablesauluxembourg39 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1194px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .totaldesrevenusnonexonrsx10040 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1236px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .totaldesrevenusnonexonrsetexonrs41 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1282px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .lescontribuablesnonrsidentsdoiventindiquerleursrevenusdesourceluxembourgeoisedanslescolonnesrevenusnonexonrs42 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1316px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .x10043 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1248px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 774px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .a44 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1258px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 892px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .a45 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1258px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 987px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .a46 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1245px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 36px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.a201903 .a47 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1247px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 615px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 20.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 20.0px;
+}
+.a201903 .rectangle448 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 554px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : 187px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5549 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 671px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 187px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5650 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 671px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5751 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 723px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 305px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5852 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 723px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 187px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle5953 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 618px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : 187px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6054 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 554px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6155 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 671px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6256 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 671px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 771px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6357 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 723px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 310px;
+  position            : absolute;
+  margin              : 0;
+  left                : 771px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6458 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 723px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 118px;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6559 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 618px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 428px;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6660 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 171px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 497px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6761 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 102px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 829px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6862 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 343px;
+  height              : 30px;
+  box-sizing          : border-box;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 740px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle6963 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1223px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 616px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle7064 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1268px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 156px;
+  position            : absolute;
+  margin              : 0;
+  left                : 653px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle7165 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1244px;
+  height              : 42px;
+  box-sizing          : border-box;
+  width               : 78px;
+  position            : absolute;
+  margin              : 0;
+  left                : 907px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .rectangle7266 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 83px;
+  height              : 20px;
+  box-sizing          : border-box;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 119px;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(223, 226, 229, 1.0);
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .envertudunjugementdesparationdecorpsprononc67 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 350px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .envertudunedispensedelautoritjudiciaireaccorde68 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 380px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 155px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a201903 .a69 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 330px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 90.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 90.0px;
+}
+.a201903 .a70 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 133px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 330px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 90.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 90.0px;
+}
+.a201903 .a71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 306px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 628px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 90.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 90.0px;
+}
+.a201903 .a4b88a7789c6e8e0e12660877bcddcb7f72 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1247px;
+  height              : 36px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 542px;
+}
+.a201903 .a4b88a7789c6e8e0e12660877bcddcb7f72 .group20 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 36px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .a4b88a7789c6e8e0e12660877bcddcb7f72 .group20 .group10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 34px;
+  width               : 36px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a201903 .a4b88a7789c6e8e0e12660877bcddcb7f72 .group20 .group10 .path10 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : -1px;
+  height              : 36px;
+  width               : 34px;
+  position            : absolute;
+  margin              : 0;
+  left                : 1px;
+  transform           : rotate(0deg);
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {

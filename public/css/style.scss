@@ -172,14 +172,28 @@ header {
 }
 
 .form-input {
+    margin: 32px auto 164px auto;
+
     input {
         padding-left: 6px !important;
         border: solid 1px gray !important;
     }
-    
+
     input:focus {
         border: solid 1px $secondary-color !important;
         background-color: white;
+    }
+
+    input[type=checkbox] {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        &:checked {
+            background: #DFE2E5 url('../img/check.svg') no-repeat;
+            background-size: 20px 20px;
+            background-position: 50% 50%;
+        }
     }
 }
 

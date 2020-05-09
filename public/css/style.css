@@ -171,6 +171,10 @@ header {
   vertical-align: middle;
 }
 
+.form-input {
+  margin: 32px auto 164px auto;
+}
+
 .form-input input {
   padding-left: 6px !important;
   border: solid 1px gray !important;
@@ -179,6 +183,19 @@ header {
 .form-input input:focus {
   border: solid 1px #6E9CEE !important;
   background-color: white;
+}
+
+.form-input input[type=checkbox] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+}
+
+.form-input input[type=checkbox]:checked {
+  background: #DFE2E5 url("../img/check.svg") no-repeat;
+  background-size: 20px 20px;
+  background-position: 50% 50%;
 }
 
 input,
