@@ -11,25 +11,26 @@ app.config(function($routeProvider) {
             templateUrl: 'pages/client.html',
             controller: 'ClientControler',
             css: 'css/page1.css',
-            activetab: 'client'
+            activetab: 'page1'
         })
         .when('/enfants', {
             templateUrl: 'pages/enfants.html',
             controller: 'EnfantsControler',
             css: 'css/page2.css',
-            activetab: 'client'
+            activetab: 'page2'
         })
         .when('/etat_civil', {
             templateUrl: 'pages/etat_civil.html',
             controller: 'EnfantsControler',
             css: 'css/page3.css',
-            activetab: 'client'
+            activetab: 'page3'
         })
         .otherwise({ redirectTo: '/' });
 });
 
-app.run(function($rootScope, $http) {
+app.run(function($rootScope, $http, $route) {
     $rootScope.clients = [];
+    $rootScope.$route = $route;
 
     function loadClients() {
         $http({
@@ -114,8 +115,9 @@ app.component('leftNav', {
     controller: 'NavCtrl'
 });
 
-app.controller('NavCtrl', function($scope) {
+app.controller('NavCtrl', function($scope, $route) {
     $scope.id = activeClientId;
+    $scope.$route = $route
 });
 
 app.controller('ClientsListControler', function($scope, $http) {

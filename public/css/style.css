@@ -130,6 +130,14 @@ header {
   content: "\f107";
 }
 
+.left-nav .active {
+  color: #6E9CEE !important;
+}
+
+.left-nav .w3-button:hover {
+  background-color: #e1e1e1 !important;
+}
+
 .left-nav .w3-dropdown-content {
   background-color: #e1e1e1;
   position: relative;
