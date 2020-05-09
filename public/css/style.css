@@ -132,6 +132,8 @@ header {
 
 .left-nav .active {
   color: #6E9CEE !important;
+  font-weight: 600;
+  background-color: wheat;
 }
 
 .left-nav .w3-button:hover {

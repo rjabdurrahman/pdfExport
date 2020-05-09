@@ -134,6 +134,8 @@ header {
 
     .active {
         color: $secondary-color !important;
+        font-weight: 600;
+        background-color: wheat;
     }
 
     .w3-button:hover {
