@@ -7,8 +7,8 @@ app.config(function($routeProvider) {
             controller: 'ClientsListControler',
             activetab: 'home'
         })
-        .when('/client', {
-            templateUrl: 'pages/client.html',
+        .when('/identification', {
+            templateUrl: 'pages/identification.html',
             controller: 'ClientControler',
             css: 'css/page1.css',
             activetab: 'page1'
