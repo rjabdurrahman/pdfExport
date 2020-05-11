@@ -107,7 +107,8 @@ header {
     min-height: calc(100vh - 70.4px);
     font-size: 15px;
     background-color: #F4F5F6;
-    // background-color: gray;
+    // overflow: scroll;
+    // height: 250px;
     .w3-button {
         white-space: normal;
     }
@@ -182,7 +183,8 @@ header {
     }
 
     input:focus {
-        border: solid 1px $secondary-color !important;
+        // border: solid 1px $secondary-color !important;
+        border: 1px solid #305eb2 !important;
         background-color: white;
     }
 
