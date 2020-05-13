@@ -16,9 +16,35 @@ body {
     z-index: 99999;
 }
 
+#clientModal {
+    .footer {
+        text-align: right;
+        padding: 10px 19px;
+        button {
+            font-weight: bold;
+            font-size: 14px;
+            background-color: #25C1A0;
+            color: white;
+        }
+    }
+}
+
 .content-c {
+    display: flex !important;
+    justify-content: space-between !important;
     background-color: #6E9CEE;
     color: white;
+    align-items: center;
+    padding-left: 20px;
+
+    div.close {
+        align-self: start;
+    }
+
+    div.close:hover {
+        align-self: start;
+        background-color: red;
+    }
 }
 
 header {
@@ -111,6 +137,7 @@ header {
     min-height: calc(100vh - 70.4px);
     font-size: 15px;
     background-color: #F4F5F6;
+
     // overflow: scroll;
     // height: 250px;
     .w3-button {

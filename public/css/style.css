@@ -12,9 +12,44 @@ body {
   z-index: 99999;
 }
 
+#clientModal .footer {
+  text-align: right;
+  padding: 10px 19px;
+}
+
+#clientModal .footer button {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #25C1A0;
+  color: white;
+}
+
 .content-c {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-pack: justify !important;
+      -ms-flex-pack: justify !important;
+          justify-content: space-between !important;
   background-color: #6E9CEE;
   color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 20px;
+}
+
+.content-c div.close {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.content-c div.close:hover {
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+  background-color: red;
 }
 
 header {
