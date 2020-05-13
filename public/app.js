@@ -10,19 +10,19 @@ app.config(function($routeProvider) {
         .when('/identification', {
             templateUrl: 'pages/identification.html',
             controller: 'ClientControler',
-            css: 'css/page1.css',
+            // css: 'css/page1.css',
             activetab: 'page1'
         })
         .when('/enfants', {
             templateUrl: 'pages/enfants.html',
             controller: 'EnfantsControler',
-            css: 'css/page2.css',
+            // css: 'css/page2.css',
             activetab: 'page2'
         })
         .when('/etat_civil', {
             templateUrl: 'pages/etat_civil.html',
             controller: 'EnfantsControler',
-            css: 'css/page3.css',
+            // css: 'css/page3.css',
             activetab: 'page3'
         })
         .otherwise({ redirectTo: '/' });
@@ -79,36 +79,36 @@ app.run(function($rootScope, $http, $route) {
     }
 });
 
-app.directive('head', ['$rootScope','$compile',
-    function($rootScope, $compile){
-        return {
-            restrict: 'E',
-            link: function(scope, elem){
-                var html = '<link rel="stylesheet" ng-repeat="(routeCtrl, cssUrl) in routeStyles" ng-href="{{cssUrl}}" />';
-                elem.append($compile(html)(scope));
-                scope.routeStyles = {};
-                $rootScope.$on('$routeChangeStart', function (e, next, current) {
-                    if(current && current.$$route && current.$$route.css){
-                        if(!angular.isArray(current.$$route.css)){
-                            current.$$route.css = [current.$$route.css];
-                        }
-                        angular.forEach(current.$$route.css, function(sheet){
-                            delete scope.routeStyles[sheet];
-                        });
-                    }
-                    if(next && next.$$route && next.$$route.css){
-                        if(!angular.isArray(next.$$route.css)){
-                            next.$$route.css = [next.$$route.css];
-                        }
-                        angular.forEach(next.$$route.css, function(sheet){
-                            scope.routeStyles[sheet] = sheet;
-                        });
-                    }
-                });
-            }
-        };
-    }
-]);
+// app.directive('head', ['$rootScope','$compile',
+//     function($rootScope, $compile){
+//         return {
+//             restrict: 'E',
+//             link: function(scope, elem){
+//                 var html = '<link rel="stylesheet" ng-repeat="(routeCtrl, cssUrl) in routeStyles" ng-href="{{cssUrl}}" />';
+//                 elem.append($compile(html)(scope));
+//                 scope.routeStyles = {};
+//                 $rootScope.$on('$routeChangeStart', function (e, next, current) {
+//                     if(current && current.$$route && current.$$route.css){
+//                         if(!angular.isArray(current.$$route.css)){
+//                             current.$$route.css = [current.$$route.css];
+//                         }
+//                         angular.forEach(current.$$route.css, function(sheet){
+//                             delete scope.routeStyles[sheet];
+//                         });
+//                     }
+//                     if(next && next.$$route && next.$$route.css){
+//                         if(!angular.isArray(next.$$route.css)){
+//                             next.$$route.css = [next.$$route.css];
+//                         }
+//                         angular.forEach(next.$$route.css, function(sheet){
+//                             scope.routeStyles[sheet] = sheet;
+//                         });
+//                     }
+//                 });
+//             }
+//         };
+//     }
+// ]);
 
 app.component('leftNav', {
     templateUrl: '/components/leftnav.html',
