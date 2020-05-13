@@ -8,6 +8,10 @@ body {
   display: flex;
 }
 
+.w3-modal {
+  z-index: 99999;
+}
+
 .content-c {
   background-color: #6E9CEE;
   color: white;
