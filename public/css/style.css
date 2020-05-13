@@ -194,6 +194,8 @@ header {
 }
 
 .form-input input[type=checkbox] {
+  padding: 0 !important;
+  cursor: pointer;
   -webkit-appearance: none;
   -moz-appearance: none;
   -o-appearance: none;
