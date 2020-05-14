@@ -78,13 +78,15 @@ body {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
+  font-size: 26px;
+  padding: 0 15px !important;
 }
 
 .content-c div.close:hover {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
-  background-color: red;
+  background-color: #CF4044;
 }
 
 header {
