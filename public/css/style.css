@@ -14,7 +14,6 @@ body {
 
 #clientModal input[type=text], #clientModal input[type=email] {
   background-color: #DFE2E5;
-  padding: 6px 8px;
 }
 
 #clientModal input[type=text]:focus, #clientModal input[type=email]:focus {
@@ -42,9 +41,13 @@ body {
   border-right: 2px solid #DFE2E5;
 }
 
+#clientModal table td {
+  padding: 4px 0;
+}
+
 #clientModal .footer {
   text-align: right;
-  padding: 10px 35px;
+  padding: 10px 34px;
 }
 
 #clientModal .footer button {
@@ -52,6 +55,8 @@ body {
   font-size: 14px;
   background-color: #25C1A0;
   color: white;
+  padding-left: 22px;
+  padding-right: 22px;
 }
 
 .content-c {
@@ -402,7 +407,7 @@ input[type="text"]:disabled:hover {
 }
 
 .w3-modal-content {
-  width: 550px;
+  width: 640px;
   padding-bottom: 8px;
 }
 

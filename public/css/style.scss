@@ -18,7 +18,7 @@ body {
 #clientModal {
     input[type = text], input[type = email] {
         background-color: $in-color;
-        padding: 6px 8px;
+        // padding: 6px 8px;
         &:focus {
             background-color: white;
         }
@@ -37,14 +37,19 @@ body {
             }
         }
     }
+    table td {
+        padding: 4px 0;
+    }
     .footer {
         text-align: right;
-        padding: 10px 35px;
+        padding: 10px 34px;
         button {
             font-weight: bold;
             font-size: 14px;
             background-color: #25C1A0;
             color: white;
+            padding-left: 22px;
+            padding-right: 22px;
         }
     }
 }
@@ -375,7 +380,7 @@ input[type="text"]:disabled:hover {
 }
 
 .w3-modal-content {
-    width: 550px;
+    width: 640px;
     padding-bottom: 8px;
 }
 
