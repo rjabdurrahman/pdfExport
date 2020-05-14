@@ -45,27 +45,25 @@
         </div>
     </header>
     <!-- Client Add Modal -->
-    <div id="clientModal" class="w3-modal">
+    <div id="clientModal" class="w3-modal" style="display: block">
         <form name="client" class="w3-modal-content w3-animate-right w3-card-4">
             <div class="content-c" style="height: 50px;">
                 <div>
-                    <span class="material-icons-outlined">group_add</span>
+                    <span style="font-size: 28px; margin-top: 6px;" class="material-icons-outlined">person_add</span>
                 </div>
                 <div>Nouveau client</div>
                 <div class="close">
                     <span onclick="closeAddClientModal()" class="w3-button">&times;</span>
                 </div>
             </div>
+            <div class="select-user">
+                <label>Contribuable</label>
+                <label>Contribuable conjoint/partenaire</label>
+            </div>
             <div class="w3-container">
-                <table style="width: 100%;">
+                <table style="width: 100%; margin-top: 20px;">
                     <tr>
-                        <td style="width: 145px;"></td>
-                        <td>
-                            <div class="w3-center">Contribuable</div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
+                        <td style="width: 145px;">
                             <label>* Nom</label>
                         </td>
                         <td>
@@ -94,7 +92,7 @@
                             <label>&nbsp;Courriel</label>
                         </td>
                         <td>
-                            <input class="w3-input w3-border" type="text" name="prenom" required>
+                            <input class="w3-input w3-border" type="email" name="prenom" required>
                         </td>
 
                     </tr>
