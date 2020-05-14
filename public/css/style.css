@@ -26,6 +26,7 @@ body {
   display: -ms-flexbox;
   display: flex;
   background-color: #EAECEE;
+  border-bottom: 2px solid #DFE2E5;
 }
 
 #clientModal .select-user label {
@@ -43,7 +44,7 @@ body {
 
 #clientModal .footer {
   text-align: right;
-  padding: 10px 25px;
+  padding: 10px 35px;
 }
 
 #clientModal .footer button {

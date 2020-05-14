@@ -26,6 +26,7 @@ body {
     .select-user {
         display: flex;
         background-color: #EAECEE;
+        border-bottom: 2px solid $in-color;
         label {
             padding: 4px 0;
             display: block;
@@ -38,7 +39,7 @@ body {
     }
     .footer {
         text-align: right;
-        padding: 10px 25px;
+        padding: 10px 35px;
         button {
             font-weight: bold;
             font-size: 14px;
