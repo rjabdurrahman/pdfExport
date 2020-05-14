@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/page3.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
     <script src="js/jquery.min.js"></script>
     <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
@@ -45,15 +46,17 @@
         </div>
     </header>
     <!-- Client Add Modal -->
-    <div id="clientModal" class="w3-modal">
+    <div id="clientModal" class="w3-modal" style="display: block;">
         <form name="client" class="w3-modal-content w3-animate-right w3-card-4">
             <div class="content-c" style="height: 50px;">
                 <div>
                     <span style="font-size: 28px; margin-top: 6px;" class="material-icons-outlined">person_add</span>
                 </div>
                 <div>Nouveau client</div>
-                <div class="close">
-                    <span onclick="closeAddClientModal()" style="font-size: 22px;">&times;</span>
+                <div class="close" onclick="closeAddClientModal()">
+                    <span class="material-icons">
+                        close
+                    </span>
                 </div>
             </div>
             <div class="select-user">
@@ -65,7 +68,7 @@
                     <tbody>
                         <tr>
                             <td style="width: 145px;">
-                                <label>* Nom</label>
+                                <label class="star">Nom</label>
                             </td>
                             <td style="padding: 6px 0;">
                                 <input class="w3-input w3-border" type="text" name="nom" required>
@@ -73,7 +76,7 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>* Prénom</label>
+                                <label class="star">Prénom</label>
                             </td>
                             <td>
                                 <input class="w3-input w3-border" type="text" name="nom" required>
@@ -81,8 +84,8 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>&nbsp;&nbsp;Téléphone<br>
-                                    &nbsp;&nbsp;(accessible le jour)</label>
+                                <label>Téléphone<br>
+                                    (accessible le jour)</label>
                             </td>
                             <td>
                                 <input class="w3-input w3-border" type="text" name="nom" required>
@@ -90,12 +93,12 @@
                         </tr>
                         <tr>
                             <td>
-                                <label>&nbsp;&nbsp;Courriel</label>
+                                <label>Courriel</label>
                             </td>
                             <td>
                                 <input class="w3-input w3-border" type="email" name="prenom" required>
                             </td>
-    
+
                         </tr>
                     </tbody>
                 </table>

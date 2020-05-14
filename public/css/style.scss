@@ -37,6 +37,14 @@ body {
             }
         }
     }
+    label.star {
+        position: relative;
+        &::before {
+            content: "*";
+            position: absolute;
+            left: -6px;
+        }
+    }
     table td {
         padding: 4px 0;
     }
@@ -63,9 +71,11 @@ body {
     padding-left: 20px;
 
     div.close {
+        display: inline-flex;
+        vertical-align: middle;
         align-self: start;
         font-size: 26px;
-        padding: 0 15px !important;
+        padding: 8px 15px !important;
         cursor: pointer;
     }
 

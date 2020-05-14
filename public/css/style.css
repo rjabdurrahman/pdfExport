@@ -41,6 +41,16 @@ body {
   border-right: 2px solid #DFE2E5;
 }
 
+#clientModal label.star {
+  position: relative;
+}
+
+#clientModal label.star::before {
+  content: "*";
+  position: absolute;
+  left: -6px;
+}
+
 #clientModal table td {
   padding: 4px 0;
 }
@@ -75,11 +85,15 @@ body {
 }
 
 .content-c div.close {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  vertical-align: middle;
   -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
       align-self: start;
   font-size: 26px;
-  padding: 0 15px !important;
+  padding: 8px 15px !important;
+  cursor: pointer;
 }
 
 .content-c div.close:hover {
