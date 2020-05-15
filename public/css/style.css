@@ -49,6 +49,7 @@ body {
   content: "*";
   position: absolute;
   left: -6px;
+  color: red;
 }
 
 #clientModal table td {
