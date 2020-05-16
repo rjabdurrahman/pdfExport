@@ -12,6 +12,10 @@ body {
   z-index: 99999;
 }
 
+#clientModal input.err {
+  border: 1px solid red !important;
+}
+
 #clientModal input[type=text], #clientModal input[type=email] {
   background-color: #DFE2E5;
 }
@@ -49,7 +53,7 @@ body {
   content: "*";
   position: absolute;
   left: -6px;
-  color: red;
+  color: #CF4044;
 }
 
 #clientModal table td {

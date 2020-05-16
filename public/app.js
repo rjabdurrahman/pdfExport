@@ -1,6 +1,6 @@
 var app = angular.module('pdfApp', ['ngRoute']);
 
-app.config(function($routeProvider) {
+app.config(function ($routeProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'pages/clients_list.html',
@@ -34,7 +34,7 @@ app.config(function($routeProvider) {
         .otherwise({ redirectTo: '/' });
 });
 
-app.run(function($rootScope, $http, $route) {
+app.run(function ($rootScope, $http, $route) {
     $rootScope.clients = [];
     $rootScope.$route = $route;
 
@@ -42,44 +42,50 @@ app.run(function($rootScope, $http, $route) {
         $http({
             method: 'GET',
             url: '/api/clients'
-        }).then(function(res) {
+        }).then(function (res) {
             $rootScope.clients = res.data;
             $rootScope.$applyAsync();
-        }).catch(function(err) {
+        }).catch(function (err) {
             console.log(err);
         })
     };
 
     loadClients();
-    $rootScope.submitClient = function(e) {
-        let clientForm = document.forms['client'];
+    $rootScope.isErr = [];
+    $rootScope.submitClient = function (e) {
+        let clientForm = e.target;
         let client = {
             nom: clientForm['nom'].value,
-            prenom: clientForm['prenom'].value
+            prenom: clientForm['prenom'].value,
+            telephone: clientForm['telephone'].value,
+            courriel: clientForm['courriel'].value
         }
-        $http({
-            method: 'POST',
-            url: '/api/addclient',
-            data: client
-        }).then(function(res) {
-            notify('Client Added Successfully!', 1);
-            loadClients();
-            closeAddClientModal();
-            $rootScope.$applyAsync();
-        }).catch(function(err) {
-            notify('Something Went Wrong!', 2);
-        })
+        if(client.nom == '') $rootScope.isErr.push('nom');
+        if(client.prenom == '') $rootScope.isErr.push('prenom');
+        console.log(client)
+        // $http({
+        //     method: 'POST',
+        //     url: '/api/addclient',
+        //     data: client
+        // }).then(function(res) {
+        //     notify('Client Added Successfully!', 1);
+        //     loadClients();
+        //     closeAddClientModal();
+        //     $rootScope.$applyAsync();
+        // }).catch(function(err) {
+        //     notify('Something Went Wrong!', 2);
+        // })
     }
-    $rootScope.submitClientDelete = function(id) {
+    $rootScope.submitClientDelete = function (id) {
         let clientId = id;
         $http({
             method: 'POST',
             url: `/api/clientdelete/${clientId}`,
             data: {}
-        }).then(function(res) {
+        }).then(function (res) {
             loadClients();
             notify('Delete Client Successfully!', 1);
-        }).catch(function(err) {
+        }).catch(function (err) {
             notify('Something Went Wrong', 2);
         })
     }
@@ -121,30 +127,28 @@ app.component('leftNav', {
     controller: 'NavCtrl'
 });
 
-app.controller('NavCtrl', function($scope, $route) {
+app.controller('NavCtrl', function ($scope, $route) {
     $scope.id = activeClientId;
     $scope.$route = $route
 });
 
-app.controller('ClientsListControler', function($scope, $http) {
-    $scope.msg = 'Clients';
-});
+app.controller('ClientsListControler', function ($scope, $http) { });
 
-app.controller('ClientControler', function($scope, $rootScope, $http) {
+app.controller('ClientControler', function ($scope, $rootScope, $http) {
     let clientId = location.hash.replace('#/client?id=', '');
     activeClientId = clientId;
     $scope.client = {};
     $http({
         method: 'GET',
         url: `/api/client/${clientId}`
-    }).then(function(res) {
+    }).then(function (res) {
         $scope.client = res.data.signaletique;
         $scope.$applyAsync();
-    }).catch(function(err) {
+    }).catch(function (err) {
         console.log(err);
     })
 
-    $scope.ShortName = function(nom, prenom) {
+    $scope.ShortName = function (nom, prenom) {
         if (nom) {
             return {
                 nom: nom.length > 12 ? nom.substring(0, 13) + '...' : nom,
@@ -154,7 +158,7 @@ app.controller('ClientControler', function($scope, $rootScope, $http) {
         }
     }
 
-    $scope.submitClientIdnUpdate = function(e) {
+    $scope.submitClientIdnUpdate = function (e) {
         let identForm = document.forms['identification'];
         let client_signaletique = {
             signaletique: {
@@ -222,9 +226,9 @@ app.controller('ClientControler', function($scope, $rootScope, $http) {
             method: 'POST',
             url: `/api/identupdate/${clientId}`,
             data: client_signaletique
-        }).then(function(res) {
+        }).then(function (res) {
             notify('Updated Successfully!', 1);
-        }).catch(function(err) {
+        }).catch(function (err) {
             notify('Something Went Wrong', 2);
         })
     }

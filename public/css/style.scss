@@ -16,9 +16,11 @@ body {
 }
 
 #clientModal {
+    input.err {
+        border: 1px solid red !important;
+    }
     input[type = text], input[type = email] {
         background-color: $in-color;
-        // padding: 6px 8px;
         &:focus {
             background-color: white;
         }

@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="css/page2.css">
     <link rel="stylesheet" href="css/page3.css">
     <link rel="stylesheet" href="css/page4.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
@@ -48,7 +47,7 @@
     </header>
     <!-- Client Add Modal -->
     <div id="clientModal" class="w3-modal" style="display: block;">
-        <form name="client" class="w3-modal-content w3-animate-right w3-card-4">
+        <form ng-submit="submitClient($event)" class="w3-modal-content w3-animate-right w3-card-4">
             <div class="content-c" style="height: 50px;">
                 <div>
                     <span style="font-size: 28px; margin-top: 6px;" class="material-icons-outlined">person_add</span>
@@ -72,7 +71,7 @@
                                 <label class="star">Nom</label>
                             </td>
                             <td style="padding: 6px 0;">
-                                <input class="w3-input w3-border" type="text" name="nom" required>
+                                <input ng-class="{'err' : isErr.indexOf('nom') >= 0}" class="w3-input w3-border" type="text" name="nom">
                             </td>
                         </tr>
                         <tr>
@@ -80,7 +79,7 @@
                                 <label class="star">Prénom</label>
                             </td>
                             <td>
-                                <input class="w3-input w3-border" type="text" name="nom" required>
+                                <input ng-class="{'err' : isErr.indexOf('prenom') >= 0}" class="w3-input w3-border" type="text" name="prenom">
                             </td>
                         </tr>
                         <tr>
@@ -89,7 +88,7 @@
                                     (accessible le jour)</label>
                             </td>
                             <td>
-                                <input class="w3-input w3-border" type="text" name="nom" required>
+                                <input class="w3-input w3-border" type="text" name="telephone">
                             </td>
                         </tr>
                         <tr>
@@ -97,7 +96,7 @@
                                 <label>Courriel</label>
                             </td>
                             <td>
-                                <input class="w3-input w3-border" type="email" name="prenom" required>
+                                <input class="w3-input w3-border" type="email" name="courriel">
                             </td>
 
                         </tr>
@@ -105,7 +104,7 @@
                 </table>
             </div>
             <div class="footer">
-                <button type="submit" ng-click="submitClient($event)" class="w3-btn">Enregistrer</button>
+                <button type="submit" class="w3-btn">Enregistrer</button>
             </div>
         </form>
     </div>
