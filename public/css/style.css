@@ -13,14 +13,17 @@ body {
 }
 
 #clientModal input.err {
-  border: 1px solid red !important;
+  border: 1px solid #CF4044 !important;
+  background: white !important;
 }
 
-#clientModal input[type=text], #clientModal input[type=email] {
+#clientModal input[type=text],
+#clientModal input[type=email] {
   background-color: #DFE2E5;
 }
 
-#clientModal input[type=text]:focus, #clientModal input[type=email]:focus {
+#clientModal input[type=text]:focus,
+#clientModal input[type=email]:focus {
   background-color: white;
 }
 

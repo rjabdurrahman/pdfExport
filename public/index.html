@@ -71,7 +71,7 @@
                                 <label class="star">Nom</label>
                             </td>
                             <td style="padding: 6px 0;">
-                                <input ng-class="{'err' : isErr.indexOf('nom') >= 0}" class="w3-input w3-border" type="text" name="nom">
+                                <input ng-class="{'err' : isErr.indexOf('nom') >= 0}" onfocus="$(this).removeClass('err')" class="w3-input w3-border" type="text" name="nom">
                             </td>
                         </tr>
                         <tr>
@@ -79,7 +79,7 @@
                                 <label class="star">Prénom</label>
                             </td>
                             <td>
-                                <input ng-class="{'err' : isErr.indexOf('prenom') >= 0}" class="w3-input w3-border" type="text" name="prenom">
+                                <input ng-class="{'err' : isErr.indexOf('prenom') >= 0}" onfocus="$(this).removeClass('err')" class="w3-input w3-border" type="text" name="prenom">
                             </td>
                         </tr>
                         <tr>
