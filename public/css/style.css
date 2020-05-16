@@ -48,17 +48,6 @@ body {
   border-right: 2px solid #DFE2E5;
 }
 
-#clientModal label.star {
-  position: relative;
-}
-
-#clientModal label.star::before {
-  content: "*";
-  position: absolute;
-  left: -6px;
-  color: #CF4044;
-}
-
 #clientModal table td {
   padding: 4px 0;
 }
