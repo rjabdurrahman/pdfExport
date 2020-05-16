@@ -25,6 +25,12 @@ app.config(function($routeProvider) {
             // css: 'css/page3.css',
             activetab: 'page3'
         })
+        .when('/expouse', {
+            templateUrl: 'pages/expouse.html',
+            controller: 'EnfantsControler',
+            // css: 'css/page3.css',
+            activetab: 'page4'
+        })
         .otherwise({ redirectTo: '/' });
 });
 
