@@ -60,21 +60,27 @@ app.run(function ($rootScope, $http, $route) {
             telephone: clientForm['telephone'].value,
             courriel: clientForm['courriel'].value
         }
-        if(client.nom == '') $rootScope.isErr.push('nom');
-        if(client.prenom == '') $rootScope.isErr.push('prenom');
+        if(client.nom == '') {
+            $rootScope.isErr.push('nom');
+            return;
+        };
+        if(client.prenom == '') {
+            $rootScope.isErr.push('prenom');
+            return;
+        };
         console.log(client)
-        // $http({
-        //     method: 'POST',
-        //     url: '/api/addclient',
-        //     data: client
-        // }).then(function(res) {
-        //     notify('Client Added Successfully!', 1);
-        //     loadClients();
-        //     closeAddClientModal();
-        //     $rootScope.$applyAsync();
-        // }).catch(function(err) {
-        //     notify('Something Went Wrong!', 2);
-        // })
+        $http({
+            method: 'POST',
+            url: '/api/addclient',
+            data: client
+        }).then(function(res) {
+            notify('Client Added Successfully!', 1);
+            loadClients();
+            closeAddClientModal();
+            $rootScope.$applyAsync();
+        }).catch(function(err) {
+            notify('Something Went Wrong!', 2);
+        })
     }
     $rootScope.submitClientDelete = function (id) {
         let clientId = id;
