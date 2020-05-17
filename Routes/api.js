@@ -8,13 +8,14 @@ router.get('/', (req, res) => {
 })
 // Adding new client.......
 router.post('/addclient', (req, res) => {
-    res.send('HOMEPAGE');
     let idf = req.body;
     page1.signaletique.contribuable.nom = idf.nom;
     page1.signaletique.contribuable.prenom = idf.prenom;
+    page1.signaletique.contribuable.courriel = idf.courriel;
+    page1.signaletique.contribuable.telephone = idf.telephone;
     var clients = new Client(page1);
     clients.save();
-    console.log("new data inserted");
+    res.send({success: 'Client Added Successfully'});
 });
 //client info update
 router.post('/identupdate/:id', (req, res) => {
