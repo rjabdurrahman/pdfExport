@@ -19,16 +19,16 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>
+                    <tr ng-repeat="client in clients track by $index">
                         <td>8930230230</td>
                         <td>
                             <a href="#/identification?id={{client._id}}">
-                                DO ESPIRITO SANTO ESTEVES
+                                {{client.signaletique.contribuable.nom}}
                             </a>
                         </td>
-                        <td>Silva Umeria</td>
-                        <td>(+352) 691123451</td>
-                        <td>asadsoon114@gmail.com</td>
+                        <td>{{client.signaletique.contribuable.prenom}}</td>
+                        <td>{{client.signaletique.contribuable.telephone}}</td>
+                        <td>{{client.signaletique.contribuable.courriel}}</td>
                         <td>2019</td>
                         <td style="width: 50px;" class="w3-center">
                             <a href="#/client">
