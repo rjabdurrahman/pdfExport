@@ -406,6 +406,7 @@ input[type="text"]:disabled:hover {
 .table-container table tbody td {
   padding-top: 0px;
   vertical-align: middle;
+  border-bottom: 1px solid #f1f1f1 !important;
 }
 
 .table-container table .w3-btn {
