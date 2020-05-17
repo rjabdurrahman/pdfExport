@@ -6,7 +6,7 @@
     </div>
     <div>
         <div class="w3-responsive">
-            <table class="w3-table-all">
+            <table class="w3-table-all" style="border: 1px solid lightgray;">
                 <thead>
                     <tr>
                         <th style="width: 155px;">Numéro de dossier</th>
@@ -22,7 +22,7 @@
                     <tr ng-repeat="client in clients track by $index">
                         <td>8930230230</td>
                         <td>
-                            <a href="#/identification?id={{client._id}}">
+                            <a href="/#/identification?id={{client._id}}">
                                 {{client.signaletique.contribuable.nom}}
                             </a>
                         </td>
@@ -31,7 +31,7 @@
                         <td>{{client.signaletique.contribuable.courriel}}</td>
                         <td>2019</td>
                         <td style="width: 50px;" class="w3-center">
-                            <a href="#/identification?id={{client._id}}">
+                            <a href="/#/identification?id={{client._id}}">
                                 <span class="material-icons">
                                     create
                                 </span>

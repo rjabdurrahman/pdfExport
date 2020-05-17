@@ -1,6 +1,6 @@
 var app = angular.module('pdfApp', ['ngRoute']);
 
-app.config(function ($routeProvider) {
+app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
     $routeProvider
         .when('/', {
             templateUrl: 'pages/clients_list.html',
@@ -32,7 +32,13 @@ app.config(function ($routeProvider) {
             activetab: 'page4'
         })
         .otherwise({ redirectTo: '/' });
-});
+    if (window.history && window.history.pushState) {
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
+    }
+}]);
 
 app.run(function ($rootScope, $http, $route) {
     $rootScope.clients = [];
@@ -60,11 +66,11 @@ app.run(function ($rootScope, $http, $route) {
             telephone: clientForm['telephone'].value,
             courriel: clientForm['courriel'].value
         }
-        if(client.nom == '') {
+        if (client.nom == '') {
             $rootScope.isErr.push('nom');
             return;
         };
-        if(client.prenom == '') {
+        if (client.prenom == '') {
             $rootScope.isErr.push('prenom');
             return;
         };
@@ -73,12 +79,12 @@ app.run(function ($rootScope, $http, $route) {
             method: 'POST',
             url: '/api/addclient',
             data: client
-        }).then(function(res) {
+        }).then(function (res) {
             notify('Client Added Successfully!', 1);
             loadClients();
             closeAddClientModal();
             $rootScope.$applyAsync();
-        }).catch(function(err) {
+        }).catch(function (err) {
             notify('Something Went Wrong!', 2);
         })
     }
