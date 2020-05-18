@@ -16,20 +16,32 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
         .when('/enfants', {
             templateUrl: 'pages/enfants.html',
             controller: 'EnfantsControler',
-            // css: 'css/page2.css',
             activetab: 'page2'
         })
         .when('/etat_civil', {
             templateUrl: 'pages/etat_civil.html',
             controller: 'EnfantsControler',
-            // css: 'css/page3.css',
             activetab: 'page3'
         })
         .when('/expouse', {
             templateUrl: 'pages/expouse.html',
             controller: 'EnfantsControler',
-            // css: 'css/page3.css',
             activetab: 'page4'
+        })
+        .when('/page5', {
+            templateUrl: 'pages/page5.html',
+            controller: 'EnfantsControler',
+            activetab: 'page5'
+        })
+        .when('/page6', {
+            templateUrl: 'pages/page6.html',
+            controller: 'EnfantsControler',
+            activetab: 'page6'
+        })
+        .when('/page7', {
+            templateUrl: 'pages/page7.html',
+            controller: 'EnfantsControler',
+            activetab: 'page7'
         })
         .otherwise({ redirectTo: '/' });
     if (window.history && window.history.pushState) {

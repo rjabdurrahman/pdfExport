@@ -1,8 +1,8 @@
-.a01 {
+.a06 {
   width               : 100%;
-  min-width           : 1037px;
+  min-width           : 1061px;
   height              : 100vh;
-  min-height          : 1023px;
+  min-height          : 1129px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -25,649 +25,622 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.a01 .rectangle1400 {
+.a06 .rectangle6510 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 981px;
-  height              : 42px;
-  width               : 372px;
-  position            : absolute;
-  margin              : 0;
-  left                : 665px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1391 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 981px;
-  height              : 42px;
-  width               : 370px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1382 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 931px;
-  height              : 42px;
-  width               : 854px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1373 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 822px;
-  height              : 42px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 629px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1364 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 822px;
-  height              : 42px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1355 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 772px;
-  height              : 42px;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : 777px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1346 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 772px;
+  top                 : 1087px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 911px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle1337 {
+.a06 .rectangle6501 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 772px;
-  height              : 42px;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : 331px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle1328 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 772px;
+  top                 : 1087px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 751px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle1319 {
+.a06 .rectangle6492 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 722px;
-  height              : 42px;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 741px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle13010 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 722px;
-  height              : 42px;
-  width               : 112px;
-  position            : absolute;
-  margin              : 0;
-  left                : 629px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12911 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 722px;
-  height              : 42px;
-  width               : 296px;
-  position            : absolute;
-  margin              : 0;
-  left                : 295px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12812 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 722px;
-  height              : 42px;
-  width               : 112px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12713 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 672px;
-  height              : 42px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 629px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12614 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 672px;
-  height              : 42px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12515 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 603px;
-  height              : 42px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 629px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12416 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 603px;
-  height              : 42px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12317 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 553px;
-  height              : 42px;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : 777px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12218 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 553px;
+  top                 : 1087px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 579px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle12119 {
+.a06 .rectangle6483 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 553px;
-  height              : 42px;
-  width               : 260px;
-  position            : absolute;
-  margin              : 0;
-  left                : 331px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle12020 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 553px;
+  top                 : 1087px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 419px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11921 {
+.a06 .rectangle6474 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 503px;
+  top                 : 1022px;
   height              : 42px;
-  width               : 296px;
+  width               : 440px;
   position            : absolute;
   margin              : 0;
-  left                : 741px;
+  left                : 619px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11822 {
+.a06 .rectangle6456465 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 503px;
+  top                 : 968px;
   height              : 42px;
-  width               : 112px;
+  width               : 220px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 463px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11723 {
+.a06 .rectangle6466 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 503px;
+  top                 : 926px;
   height              : 42px;
-  width               : 296px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 295px;
+  left                : 579px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11624 {
+.a06 .rectangle6457 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 503px;
+  top                 : 926px;
   height              : 42px;
-  width               : 112px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 419px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11525 {
+.a06 .rectangle6436448 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 434px;
+  top                 : 863px;
   height              : 42px;
-  width               : 408px;
+  width               : 220px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 795px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11426 {
+.a06 .rectangle6449 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 434px;
+  top                 : 821px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 911px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11327 {
+.a06 .rectangle64310 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 384px;
+  top                 : 821px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 751px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11228 {
+.a06 .rectangle64211 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 384px;
+  top                 : 821px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 579px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11129 {
+.a06 .rectangle64112 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 334px;
+  top                 : 821px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 419px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle11030 {
+.a06 .rectangle64013 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 334px;
+  top                 : 765px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 911px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle10931 {
+.a06 .rectangle63914 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 294px;
-  height              : 32px;
-  width               : 406px;
-  position            : absolute;
-  margin              : 0;
-  left                : 407px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle10832 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 225px;
+  top                 : 765px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 751px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle10733 {
+.a06 .rectangle63815 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 225px;
+  top                 : 765px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 579px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle10634 {
+.a06 .rectangle63716 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 170px;
-  height              : 28px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 629px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle10535 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 170px;
-  height              : 28px;
-  width               : 408px;
-  position            : absolute;
-  margin              : 0;
-  left                : 183px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a01 .rectangle10436 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 108px;
+  top                 : 765px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 419px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle10337 {
+.a06 .rectangle63617 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 108px;
+  top                 : 715px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 911px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle10238 {
+.a06 .rectangle63518 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 58px;
+  top                 : 715px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 629px;
+  left                : 751px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .rectangle10139 {
+.a06 .rectangle63419 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 58px;
+  top                 : 715px;
   height              : 42px;
-  width               : 408px;
+  width               : 148px;
   position            : absolute;
   margin              : 0;
-  left                : 183px;
+  left                : 579px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a01 .swiftbic40 {
+.a06 .rectangle63320 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 715px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle63221 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 642px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle63122 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 642px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle63023 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 642px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62924 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 642px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62825 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 586px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62726 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 586px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62627 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 586px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62528 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 586px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62429 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 536px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62330 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 536px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62231 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 536px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62132 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 536px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle62033 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 458px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61934 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 458px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61835 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 458px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61736 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 458px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61637 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 401px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61538 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 401px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61439 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 401px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61340 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 401px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61241 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 351px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61142 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 351px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle61043 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 351px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60944 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 351px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60845 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 301px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60746 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 301px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60647 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 301px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60548 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 301px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60449 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 222px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 911px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60350 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 222px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 751px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60251 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 222px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 579px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .rectangle60152 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 222px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 419px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a06 .totalabcdedductionsrevenureporterlapage20cases2009201253 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 994px;
+  top                 : 1092px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 570px;
+  left                : 34px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .anciendomicileousjourhabituelindiqueruniquementencasdechangemententrele112019etle3112201941 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 652px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 200px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .anciendomicileousjourhabituelindiqueruniquementencasdechangemententrele112019etle3112201941 .span0 {
+.a06 .totalabcdedductionsrevenureporterlapage20cases2009201253 .span0 {
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
-  text-decoration     : underline;
 }
-.a01 .anciendomicileousjourhabituelindiqueruniquementencasdechangemententrele112019etle3112201941 .span1 {
+.a06 .totalabcdedductionsrevenureporterlapage20cases2009201253 .span1 {
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
 }
-.a01 .domicileousjourhabituelactuel42 {
+.a06 .dansqueletatpartielaccordsurleeeautrequeleluxembourgestcequevousexploitezuntablissementstableexerantuneactivitderechercheetdedveloppement54 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 482px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 489px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .domicileousjourhabituelactuel42 .span0 {
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-}
-.a01 .domicileousjourhabituelactuel42 .span1 {
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-decoration     : underline;
-}
-.a01 .aindiquerobligatoirementsiattribu43 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 302px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 105px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .aindiquerobligatoirementsiattribu43 .span0 {
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-}
-.a01 .aindiquerobligatoirementsiattribu43 .span1 {
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-}
-.a01 .numrodedossier44 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 274px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 538px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .annemoisjour45 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 202px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 669px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .annemoisjour46 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 202px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 223px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .contribuableconjointpartenaire47 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 720px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .contribuable48 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 38px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 342px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .codeiban49 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 994px;
+  top                 : 1024px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -683,9 +656,45 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .titulaireducompte50 {
+.a06 .exonrationselonlarticle50terlirjoindrelannexe76055 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 944px;
+  top                 : 932px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a56 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 930px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 65px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .adduire57 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 906px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -701,50 +710,32 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .coordonnesbancaires51 {
+.a06 .totalabcde58 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 896px;
+  top                 : 834px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 34px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
-  font-size           : 22.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 22.0px;
-}
-.a01 .pays52 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 836px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .codepostallocalit53 {
+.a06 .dpenses59 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 778px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 34px;
+  left                : 111px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -755,9 +746,81 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .numrorue54 {
+.a06 .a60 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 736px;
+  top                 : 778px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .montantbrutsuivantannexe61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 728px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a62 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 728px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .tantimes63 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 688px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .e64 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 688px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -773,9 +836,117 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .du112019au55 {
+.a06 .totalabcd65 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 686px;
+  top                 : 656px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .dpenses66 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 590px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a67 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 590px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .montantbrutsuivantannexe68 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 550px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a69 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 550px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .jetonsdeprsenceconseilscommunauxetc70 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 518px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .d71 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 518px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -791,9 +962,27 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .pays56 {
+.a06 .bnficedecessionoudecessationnoncomprissousabouccidessussuivantannexe72 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 616px;
+  top                 : 454px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .c73 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 452px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -809,9 +998,27 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .codepostallocalit57 {
+.a06 .partsdebnficedelexerciceencommundelaprofessionlibralesocitcivileetc74 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 558px;
+  top                 : 406px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .b75 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 406px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -827,9 +1034,171 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .numrorue58 {
+.a06 .dpensesdexploitationselonlemodle15276 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 516px;
+  top                 : 356px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a77 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 356px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 88px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .recettessuivantannexe78 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 314px;
+  height              : 19px;
+  width               : 188px;
+  position            : absolute;
+  margin              : 0;
+  left                : 111px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a79 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 314px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 86px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .comparaisondesrecettesetdesdpensestvacomprise80 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a281 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 268px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .bnficetablisuivantbilanetcomptedeprofitsetpertesjoints82 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 228px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a183 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 226px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 49px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .bnficeprovenantdelexerciceduneprofessionlibraleexercetitreindividuel84 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 176px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .a85 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 176px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -845,14 +1214,14 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .courriel59 {
+.a06 .dclarationsderetenuesdimptlasourceetdiversesdemandespage1986 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 448px;
+  top                 : 146px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 34px;
+  left                : 0px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -863,117 +1232,27 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a01 .tlphoneaccessiblelejour60 {
+.a06 .i87 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 390px;
+  top                 : 118px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 34px;
+  left                : 1053px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
+  font-weight         : 700;
   font-style          : normal;
-  font-size           : 16.0px;
+  font-size           : 22.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 16.0px;
+  line-height         : 22.0px;
 }
-.a01 .professionougenredelactivit61 {
+.a06 .dterminationdubnficeprovenantdelexerciceduneprofessionlibrale88 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 340px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .lieudenaissancelocalitpays62 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 230px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .datedenaissancenumrodidentification63 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 160px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .prnom64 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 122px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .nom65 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 72px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a01 .signaltique66 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 2px;
+  top                 : 118px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -988,6 +1267,132 @@ div {
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 22.0px;
+}
+.a06 .contribuableconjointpartenaire89 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 919px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a06 .contribuable90 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 780px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .revenusexonrs91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 808px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a06 .contribuableconjointpartenaire92 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 78px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 587px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a06 .contribuable93 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 448px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a06 .revenusnonexonrs94 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 453px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a06 .i95 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1051px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
 }
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
