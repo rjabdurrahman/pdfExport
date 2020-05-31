@@ -309,6 +309,10 @@ textarea {
   outline: none;
 }
 
+button:focus {
+  outline: none;
+}
+
 input.w3-input:focus,
 textarea.w3-input:focus,
 select:focus {
