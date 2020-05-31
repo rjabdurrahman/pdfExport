@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Arial:700,400');
+
+
 .a06 {
   width               : 100%;
   min-width           : 1061px;
   height              : 100vh;
-  min-height          : 1129px;
+  min-height          : 1088px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -25,9 +28,9 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.a06 .rectangle6510 {
+.a06 .a6510 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1087px;
+  top                 : 1046px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -36,9 +39,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6501 {
+.a06 .a6501 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1087px;
+  top                 : 1046px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -47,9 +50,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6492 {
+.a06 .a6492 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1087px;
+  top                 : 1046px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -58,9 +61,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6483 {
+.a06 .a6483 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1087px;
+  top                 : 1046px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -69,9 +72,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6474 {
+.a06 .a6474 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1022px;
+  top                 : 981px;
   height              : 42px;
   width               : 440px;
   position            : absolute;
@@ -80,9 +83,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6456465 {
+.a06 .a6456465 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 968px;
+  top                 : 927px;
   height              : 42px;
   width               : 220px;
   position            : absolute;
@@ -91,9 +94,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6466 {
+.a06 .a6466 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 926px;
+  top                 : 885px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -102,9 +105,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6457 {
+.a06 .a6457 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 926px;
+  top                 : 885px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -113,9 +116,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6436448 {
+.a06 .a6436448 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 863px;
+  top                 : 862px;
   height              : 42px;
   width               : 220px;
   position            : absolute;
@@ -124,9 +127,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle6449 {
+.a06 .a6449 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 821px;
+  top                 : 820px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -135,9 +138,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle64310 {
+.a06 .a64310 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 821px;
+  top                 : 820px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -146,9 +149,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle64211 {
+.a06 .a64211 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 821px;
+  top                 : 820px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -157,9 +160,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle64112 {
+.a06 .a64112 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 821px;
+  top                 : 820px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -168,9 +171,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle64013 {
+.a06 .a64013 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 765px;
+  top                 : 764px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -179,9 +182,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63914 {
+.a06 .a63914 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 765px;
+  top                 : 764px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -190,9 +193,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63815 {
+.a06 .a63815 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 765px;
+  top                 : 764px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -201,9 +204,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63716 {
+.a06 .a63716 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 765px;
+  top                 : 764px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -212,9 +215,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63617 {
+.a06 .a63617 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 715px;
+  top                 : 714px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -223,9 +226,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63518 {
+.a06 .a63518 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 715px;
+  top                 : 714px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -234,9 +237,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63419 {
+.a06 .a63419 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 715px;
+  top                 : 714px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -245,9 +248,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63320 {
+.a06 .a63320 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 715px;
+  top                 : 714px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -256,9 +259,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63221 {
+.a06 .a63221 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 642px;
+  top                 : 641px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -267,9 +270,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63122 {
+.a06 .a63122 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 642px;
+  top                 : 641px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -278,9 +281,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle63023 {
+.a06 .a63023 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 642px;
+  top                 : 641px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -289,9 +292,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62924 {
+.a06 .a62924 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 642px;
+  top                 : 641px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -300,9 +303,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62825 {
+.a06 .a62825 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 586px;
+  top                 : 585px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -311,9 +314,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62726 {
+.a06 .a62726 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 586px;
+  top                 : 585px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -322,9 +325,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62627 {
+.a06 .a62627 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 586px;
+  top                 : 585px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -333,9 +336,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62528 {
+.a06 .a62528 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 586px;
+  top                 : 585px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -344,9 +347,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62429 {
+.a06 .a62429 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 536px;
+  top                 : 535px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -355,9 +358,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62330 {
+.a06 .a62330 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 536px;
+  top                 : 535px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -366,9 +369,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62231 {
+.a06 .a62231 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 536px;
+  top                 : 535px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -377,9 +380,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62132 {
+.a06 .a62132 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 536px;
+  top                 : 535px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -388,9 +391,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle62033 {
+.a06 .a62033 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 458px;
+  top                 : 459px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -399,9 +402,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61934 {
+.a06 .a61934 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 458px;
+  top                 : 459px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -410,9 +413,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61835 {
+.a06 .a61835 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 458px;
+  top                 : 459px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -421,9 +424,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61736 {
+.a06 .a61736 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 458px;
+  top                 : 459px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -432,9 +435,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61637 {
+.a06 .a61637 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 401px;
+  top                 : 402px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -443,9 +446,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61538 {
+.a06 .a61538 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 401px;
+  top                 : 402px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -454,9 +457,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61439 {
+.a06 .a61439 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 401px;
+  top                 : 402px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -465,9 +468,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61340 {
+.a06 .a61340 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 401px;
+  top                 : 402px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -476,9 +479,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61241 {
+.a06 .a61241 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 351px;
+  top                 : 352px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -487,9 +490,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61142 {
+.a06 .a61142 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 351px;
+  top                 : 352px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -498,9 +501,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle61043 {
+.a06 .a61043 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 351px;
+  top                 : 352px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -509,9 +512,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60944 {
+.a06 .a60944 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 351px;
+  top                 : 352px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -520,9 +523,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60845 {
+.a06 .a60845 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 301px;
+  top                 : 302px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -531,9 +534,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60746 {
+.a06 .a60746 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 301px;
+  top                 : 302px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -542,9 +545,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60647 {
+.a06 .a60647 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 301px;
+  top                 : 302px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -553,9 +556,9 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60548 {
+.a06 .a60548 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 301px;
+  top                 : 302px;
   height              : 42px;
   width               : 148px;
   position            : absolute;
@@ -564,7 +567,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60449 {
+.a06 .a60449 {
   background-color    : rgba(223, 226, 229, 1.0);
   top                 : 222px;
   height              : 42px;
@@ -575,7 +578,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60350 {
+.a06 .a60350 {
   background-color    : rgba(223, 226, 229, 1.0);
   top                 : 222px;
   height              : 42px;
@@ -586,7 +589,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60251 {
+.a06 .a60251 {
   background-color    : rgba(223, 226, 229, 1.0);
   top                 : 222px;
   height              : 42px;
@@ -597,7 +600,7 @@ div {
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a06 .rectangle60152 {
+.a06 .a60152 {
   background-color    : rgba(223, 226, 229, 1.0);
   top                 : 222px;
   height              : 42px;
@@ -610,7 +613,7 @@ div {
 }
 .a06 .totalabcdedductionsrevenureporterlapage20cases2009201253 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1092px;
+  top                 : 1048px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -640,7 +643,7 @@ div {
 }
 .a06 .dansqueletatpartielaccordsurleeeautrequeleluxembourgestcequevousexploitezuntablissementstableexerantuneactivitderechercheetdedveloppement54 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1024px;
+  top                 : 984px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -658,7 +661,7 @@ div {
 }
 .a06 .exonrationselonlarticle50terlirjoindrelannexe76055 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 932px;
+  top                 : 886px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -676,7 +679,7 @@ div {
 }
 .a06 .a56 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 930px;
+  top                 : 886px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -694,7 +697,7 @@ div {
 }
 .a06 .adduire57 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 906px;
+  top                 : 866px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -784,7 +787,7 @@ div {
 }
 .a06 .a62 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 728px;
+  top                 : 726px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -838,7 +841,7 @@ div {
 }
 .a06 .totalabcd65 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 656px;
+  top                 : 654px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -856,7 +859,7 @@ div {
 }
 .a06 .dpenses66 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 590px;
+  top                 : 598px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -874,7 +877,7 @@ div {
 }
 .a06 .a67 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 590px;
+  top                 : 598px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -892,7 +895,7 @@ div {
 }
 .a06 .montantbrutsuivantannexe68 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 550px;
+  top                 : 548px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -910,7 +913,7 @@ div {
 }
 .a06 .a69 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 550px;
+  top                 : 548px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -964,7 +967,7 @@ div {
 }
 .a06 .bnficedecessionoudecessationnoncomprissousabouccidessussuivantannexe72 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 454px;
+  top                 : 456px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -982,7 +985,7 @@ div {
 }
 .a06 .c73 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 452px;
+  top                 : 454px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1000,7 +1003,7 @@ div {
 }
 .a06 .partsdebnficedelexerciceencommundelaprofessionlibralesocitcivileetc74 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 406px;
+  top                 : 408px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1036,7 +1039,7 @@ div {
 }
 .a06 .dpensesdexploitationselonlemodle15276 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 356px;
+  top                 : 358px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1072,7 +1075,7 @@ div {
 }
 .a06 .recettessuivantannexe78 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 314px;
+  top                 : 315px;
   height              : 19px;
   width               : 188px;
   position            : absolute;
@@ -1090,7 +1093,7 @@ div {
 }
 .a06 .a79 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 314px;
+  top                 : 316px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1144,7 +1147,7 @@ div {
 }
 .a06 .bnficetablisuivantbilanetcomptedeprofitsetpertesjoints82 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 228px;
+  top                 : 224px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1162,7 +1165,7 @@ div {
 }
 .a06 .a183 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 226px;
+  top                 : 222px;
   height              : auto;
   width               : auto;
   position            : absolute;

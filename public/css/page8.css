@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css?family=Arial:700,400');
+@import url('https://fonts.googleapis.com/css?family=Arial:400,700');
 
 
-.a05 {
+.a08 {
   width               : 100%;
-  min-width           : 1060px;
+  min-width           : 1061px;
   height              : 100vh;
-  min-height          : 1514px;
+  min-height          : 1066px;
   position            : relative;
   overflow            : hidden;
   margin              : 0px;
@@ -28,842 +28,515 @@ div {
 div {
   -webkit-text-size-adjust: none;
 }
-.a05 .a5680 {
+.a08 .a8460 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1472px;
+  top                 : 959px;
   height              : 42px;
-  width               : 148px;
+  width               : 162px;
   position            : absolute;
   margin              : 0;
-  left                : 910px;
+  left                : 329px;
   transform           : rotate(0deg);
   opacity             : 1.0;
 }
-.a05 .a5671 {
+.a08 .a8451 {
   background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1472px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5662 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1472px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5653 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1472px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 419px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5644 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1407px;
-  height              : 42px;
-  width               : 440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 618px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5625635 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1353px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 462px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5636 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1311px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5627 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1311px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5605618 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1261px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 462px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a5619 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1219px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a56010 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1219px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55855911 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1196px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 794px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55912 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55813 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55714 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55615 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55516 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1098px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55417 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1098px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55318 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1098px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55219 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1098px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55120 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1048px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a55021 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1048px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54922 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1048px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54823 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1048px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54724 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 998px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54625 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 998px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54526 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 998px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54427 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 998px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54328 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 914px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54229 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 914px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54130 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 914px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a54031 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 914px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53932 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 857px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53833 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 857px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53734 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 857px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53635 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 857px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53536 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 727px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53437 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 727px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53338 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 727px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53239 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 727px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53140 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 662px;
-  height              : 42px;
-  width               : 440px;
-  position            : absolute;
-  margin              : 0;
-  left                : 618px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52953041 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 608px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 462px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a53042 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 566px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52943 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 566px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52752844 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 543px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 794px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52845 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 501px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52746 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 501px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52647 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 501px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52548 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 501px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52449 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 445px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52350 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 445px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52251 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 445px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52152 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 445px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a52053 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 395px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51954 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 395px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51855 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 395px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51756 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 395px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51657 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 345px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51558 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 345px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51459 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 345px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51360 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 345px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51261 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 295px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51162 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 295px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a51063 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 295px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50964 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 295px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 419px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50865 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 211px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50766 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 211px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50667 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 211px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50568 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 211px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50469 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 910px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50370 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 750px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50271 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 578px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .a50172 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 154px;
-  height              : 42px;
-  width               : 148px;
-  position            : absolute;
-  margin              : 0;
-  left                : 418px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-}
-.a05 .totalabcddductionsrevenureporterlapage20cases2005200873 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1474px;
-  height              : auto;
-  width               : auto;
+  top                 : 930px;
+  height              : 20px;
+  width               : 20px;
   position            : absolute;
   margin              : 0;
   left                : 34px;
   transform           : rotate(0deg);
   opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
 }
-.a05 .totalabcddductionsrevenureporterlapage20cases2005200873 .span0 {
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
+.a08 .a8442 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 821px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
-.a05 .totalabcddductionsrevenureporterlapage20cases2005200873 .span1 {
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
+.a08 .a8433 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 821px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
 }
-.a05 .dansqueletatpartielaccordsurleeeautrequeleluxembourgestcequevousexploitezuntablissementstableexerantuneactivitderechercheetdedveloppement74 {
+.a08 .a8424 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 821px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a8415 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 821px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a8406 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 756px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a8397 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 756px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a8388 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 756px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a8379 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 756px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83610 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 665px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83511 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 665px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83412 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 665px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83313 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 665px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83214 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 603px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83115 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 603px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a83016 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 603px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82917 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 603px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82818 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 547px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82719 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 547px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82620 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 547px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82521 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 547px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82422 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 482px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82323 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 482px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82224 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 482px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82125 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 482px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a82026 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 417px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81927 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 417px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81828 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 417px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81729 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 417px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81630 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 352px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81531 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 352px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81432 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 352px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81333 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 352px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81234 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 280px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81135 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 280px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a81036 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 280px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80937 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 280px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80838 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 224px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80739 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 224px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80640 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 224px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80541 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 224px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80442 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 174px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 910px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80343 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 174px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 750px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80244 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 174px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 578px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .a80145 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 174px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 418px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a08 .labattementestapplicablelorsquelundesconjointspartenairesraliseunbnficecommercialunbnficeagricoleetforestierunbnficeprovenantdelexerciceduneprofessionlibraleouunrevenuduneoccupationsalarieetlorsquelautre46 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1410px;
+  top                 : 1016px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -873,123 +546,15 @@ div {
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
-  font-style          : normal;
+  font-style          : italic;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .exonrationselonlarticle50terlirjoindrelannexe76075 {
+.a08 .larentepensionexistedepuisle47 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1312px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a76 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1312px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 65px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .investissementsnouveauxenoutillageetmatrielproductifsainsiquenamnagementdelocauxarticle128terlir77 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1222px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a78 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1220px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 65px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .adduire79 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1200px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .totalabcd80 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1168px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 700;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .bnficedecessionoudecessationnoncomprissousabouccidessussuivantannexe81 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1100px;
+  top                 : 972px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1005,99 +570,9 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .d82 {
+.a08 .demandepourlabattementextraprofessionnelausensdelarticle129b2clirapplicableauxconjointsetpartenaires48 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 1098px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .dpensessuivantannexe83 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1048px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 111px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a84 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 1048px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 88px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .recettessuivantannexe85 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 998px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 111px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a86 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 998px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .bnficeforestier87 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 978px;
+  top                 : 930px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1113,104 +588,14 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .c88 {
+.a08 .p249 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 978px;
+  top                 : 894px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .partsdebnficeduneexploitationencommunsocitennomcollectifsocitcivileetc89 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 910px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .b90 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 908px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .bnficeduneexploitationagricoleindividuelleselonlemodle141ou14491 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 858px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a92 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 858px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a93 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 800px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 1042px;
+  left                : 1031px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1221,32 +606,14 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a05 .dclarationsderetenuesdimptlasourceetdiversesdemandespage1994 {
+.a08 .abattementextraprofessionnel50 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 828px;
+  top                 : 894px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .dterminationdubnficeagricoleetforestier95 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 800px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1257,9 +624,9 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a05 .totalabcddductionsrevenureporterlapage20cases2001200496 {
+.a08 .totalabcdductionsrevenureporterlapage20cases2017202051 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 728px;
+  top                 : 826px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1273,23 +640,23 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .totalabcddductionsrevenureporterlapage20cases2001200496 .span0 {
+.a08 .totalabcdductionsrevenureporterlapage20cases2017202051 .span0 {
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 700;
   font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
 }
-.a05 .totalabcddductionsrevenureporterlapage20cases2001200496 .span1 {
+.a08 .totalabcdductionsrevenureporterlapage20cases2017202051 .span1 {
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
 }
-.a05 .dansqueletatpartielaccordsurleeeautrequeleluxembourgestcequevousexploitezuntablissementstableexerantuneactivitderechercheetdedveloppement97 {
+.a08 .fraisdobtentionminimumforfaitairede300encasdedductiondesfraiseffectifslesdtailssontjoindreenannexe52 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 664px;
+  top                 : 758px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1305,14 +672,14 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .exonrationselonlarticle50terlirjoindrelannexe76098 {
+.a08 .adduire53 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 568px;
+  top                 : 738px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 86px;
+  left                : 34px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1323,31 +690,121 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .a99 {
+.a08 .totalabc54 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 566px;
+  top                 : 678px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 65px;
+  left                : 34px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
+  font-weight         : 700;
   font-style          : normal;
   font-size           : 16.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .adduire100 {
+.a08 .totalbc55 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 616px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .exemptionde50maximumart115no14lirouautresexemptions56 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 548px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .a57 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 548px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .arrragesderentesetdautresallocationsetavantagespriodiquesmontantbrutnoncomprissousaoubcidessus58 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 484px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .a59 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 482px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .c60 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 482px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
   left                : 34px;
   transform           : rotate(0deg);
   opacity             : 1.0;
@@ -1359,14 +816,104 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .totalabcd101 {
+.a08 .exemptionde50art115no14alir61 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 514px;
+  top                 : 418px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .a62 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 418px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 72px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .rentesviagresmensuellesrsultantduncontratdeprvoyancevieillessemontantbrut63 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 354px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 95px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .a64 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 352px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .b65 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 352px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
   left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a08 .totala66 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 294px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 70px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1377,9 +924,9 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .bnficedecessionoudecessationnoncomprissousabouccidessussuivantannexe102 {
+.a08 .pensionsetautresallocationsmontantbrutpayesparlesanciensemployeursouparlescaissesautonomesderetraite67 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 448px;
+  top                 : 176px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1395,9 +942,9 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .d103 {
+.a08 .a68 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 446px;
+  top                 : 174px;
   height              : auto;
   width               : auto;
   position            : absolute;
@@ -1413,230 +960,32 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .dpensessuivantannexe104 {
+.a08 .indiquerlescotisationsobligatoireslapage16cases16011604etlesretenuesdimptlasourcesurlespensionslapage19cases1925192669 {
   background-color    : rgba(255,255,255,0.0);
-  top                 : 396px;
+  top                 : 147px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 111px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
   font-weight         : 400;
   font-style          : normal;
-  font-size           : 16.0px;
+  font-size           : 14.0px;
   color               : rgba(0, 0, 0, 1.0);
   text-align          : left;
-  line-height         : 16.0px;
+  line-height         : 14.0px;
 }
-.a05 .a105 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 396px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 88px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .dpensesdductionforfaitairesiapplicable106 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 346px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 111px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a107 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 346px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 88px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .recettescommissionsdassurancesautrescommissionsetcsuivantannexe108 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 111px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a109 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 296px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 86px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .bnficedivers110 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 274px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .c111 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 274px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .partsdebnficeduneentreprisecommercialeencommunsocitennomcollectifsocitencommanditesimpleetc112 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 208px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .b113 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 206px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .bnficeduneentreprisecommercialeindividuelle114 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 156px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 70px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .a115 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 154px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 34px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .c116 {
+.a08 .p170 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 118px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1042px;
+  left                : 1031px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1647,32 +996,14 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a05 .dclarationsderetenuesdimptlasourceetdiversesdemandespage19117 {
-  background-color    : rgba(255,255,255,0.0);
-  top                 : 122px;
-  height              : auto;
-  width               : auto;
-  position            : absolute;
-  margin              : 0;
-  left                : 417px;
-  transform           : rotate(0deg);
-  opacity             : 1.0;
-  font-family         : "Arial", Helvetica, Arial, serif;
-  font-weight         : 400;
-  font-style          : normal;
-  font-size           : 16.0px;
-  color               : rgba(0, 0, 0, 1.0);
-  text-align          : left;
-  line-height         : 16.0px;
-}
-.a05 .dterminationdubnficecommercial118 {
+.a08 .dterminationdurevenunetrsultantdepensionsouderentes71 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 118px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 0px;
+  left                : 1px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;
@@ -1683,7 +1014,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a05 .contribuableconjointpartenaire119 {
+.a08 .contribuableconjointpartenaire72 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 78px;
   height              : auto;
@@ -1701,7 +1032,7 @@ div {
   text-align          : center;
   line-height         : 16.0px;
 }
-.a05 .contribuable120 {
+.a08 .contribuable73 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 86px;
   height              : auto;
@@ -1719,7 +1050,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .revenusexonrs121 {
+.a08 .revenusexonrs74 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 48px;
   height              : auto;
@@ -1737,7 +1068,7 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a05 .contribuableconjointpartenaire122 {
+.a08 .contribuableconjointpartenaire75 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 78px;
   height              : auto;
@@ -1755,7 +1086,7 @@ div {
   text-align          : center;
   line-height         : 16.0px;
 }
-.a05 .contribuable123 {
+.a08 .contribuable76 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 86px;
   height              : auto;
@@ -1773,7 +1104,7 @@ div {
   text-align          : left;
   line-height         : 16.0px;
 }
-.a05 .revenusnonexonrs124 {
+.a08 .revenusnonexonrs77 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 48px;
   height              : auto;
@@ -1791,14 +1122,14 @@ div {
   text-align          : left;
   line-height         : 22.0px;
 }
-.a05 .ca125 {
+.a08 .p78 {
   background-color    : rgba(255,255,255,0.0);
   top                 : 2px;
   height              : auto;
   width               : auto;
   position            : absolute;
   margin              : 0;
-  left                : 1010px;
+  left                : 1040px;
   transform           : rotate(0deg);
   opacity             : 1.0;
   font-family         : "Arial", Helvetica, Arial, serif;

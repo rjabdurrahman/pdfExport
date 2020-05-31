@@ -43,6 +43,11 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
             controller: 'EnfantsControler',
             activetab: 'page7'
         })
+        .when('/page8', {
+            templateUrl: 'pages/page8.html',
+            controller: 'EnfantsControler',
+            activetab: 'page8'
+        })
         .otherwise({ redirectTo: '/' });
     if (window.history && window.history.pushState) {
         $locationProvider.html5Mode({
