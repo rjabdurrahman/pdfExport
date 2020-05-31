@@ -12,4 +12,4 @@ app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 
-const server = app.listen(process.env.PORT || 3000, () => console.log(`Listenin on Port ${server.address().port}`));
+const server = app.listen(process.env.PORT || 3000, () => console.log(`Listening on Port ${server.address().port}`));
