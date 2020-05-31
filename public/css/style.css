@@ -48,6 +48,11 @@ body {
   border-right: 2px solid #DFE2E5;
 }
 
+#clientModal .select-user label.active {
+  -webkit-box-shadow: inset 0px 0px 15px -5px black;
+  box-shadow: inset 0px 0px 15px -5px black;
+}
+
 #clientModal table td {
   padding: 4px 0;
 }
