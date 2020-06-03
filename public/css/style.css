@@ -90,9 +90,7 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  vertical-align: middle;
   -ms-flex-item-align: start;
       align-self: start;
   font-size: 26px;
@@ -389,28 +387,16 @@ input[type="text"]:disabled:hover {
 .table-container table th {
   border: 1px solid white;
   padding: 0px 2px;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 100%;
+  vertical-align: middle;
 }
 
 .table-container table td a {
-  padding-top: 4px;
-  padding-bottom: 4px;
   color: black;
   text-decoration: none;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .table-container table td a img {
@@ -424,9 +410,8 @@ input[type="text"]:disabled:hover {
 
 .table-container table tbody td {
   padding-top: 0px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 100%;
+  vertical-align: middle;
   border-bottom: 1px solid #f1f1f1 !important;
 }
 
@@ -451,9 +436,7 @@ input[type="text"]:disabled:hover {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  vertical-align: middle;
 }
 
 .w3-btn.icon span {

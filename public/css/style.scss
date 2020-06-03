@@ -360,19 +360,15 @@ input[type="text"]:disabled:hover {
         th {
             border: 1px solid white;
             padding: 0px 2px;
-            align-items: stretch;
+            height: 100%;
             vertical-align: middle;
         }
 
         td {
             a {
-                padding-top: 4px;
-                padding-bottom: 4px;
                 color: black;
                 text-decoration: none;
                 display: inline-flex;
-                align-items: stretch;
-                vertical-align: middle;
 
                 img {
                     height: 24px;
@@ -388,6 +384,7 @@ input[type="text"]:disabled:hover {
         tbody {
             td {
                 padding-top: 0px;
+                height: 100%;
                 vertical-align: middle;
                 border-bottom: 1px solid #f1f1f1 !important;
             }
