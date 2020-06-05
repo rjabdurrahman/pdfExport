@@ -51,17 +51,17 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
         .when('/page9', {
             templateUrl: 'pages/page9.html',
             controller: 'EnfantsControler',
-            activetab: 'page8'
+            activetab: 'page9'
         })
         .when('/page10', {
             templateUrl: 'pages/page10.html',
             controller: 'EnfantsControler',
-            activetab: 'page8'
+            activetab: 'page10'
         })
         .when('/page11', {
             templateUrl: 'pages/page11.html',
             controller: 'EnfantsControler',
-            activetab: 'page8'
+            activetab: 'page11'
         })
         .otherwise({ redirectTo: '/' });
     if (window.history && window.history.pushState) {
