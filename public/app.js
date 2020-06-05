@@ -63,6 +63,21 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
             controller: 'EnfantsControler',
             activetab: 'page11'
         })
+        .when('/page12', {
+            templateUrl: 'pages/page12.html',
+            controller: 'EnfantsControler',
+            activetab: 'page12'
+        })
+        .when('/page13', {
+            templateUrl: 'pages/page13.html',
+            controller: 'EnfantsControler',
+            activetab: 'page13'
+        })
+        .when('/page14', {
+            templateUrl: 'pages/page14.html',
+            controller: 'EnfantsControler',
+            activetab: 'page14'
+        })
         .otherwise({ redirectTo: '/' });
     if (window.history && window.history.pushState) {
         $locationProvider.html5Mode({

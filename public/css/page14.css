@@ -1,0 +1,1651 @@
+.a14 {
+  width               : 100%;
+  min-width           : 1062px;
+  height              : 100vh;
+  min-height          : 1396px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.anima-full-width-a {
+  width               : 100%;
+}
+.anima-full-height-a {
+  height              : 100%;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.a14 .a14770 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1354px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14761 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1354px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14752 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1321px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 975px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14743 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1321px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 815px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14734 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1288px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 975px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14725 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1288px;
+  height              : 20px;
+  width               : 20px;
+  position            : absolute;
+  margin              : 0;
+  left                : 815px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14716 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1154px;
+  height              : 42px;
+  width               : 220px;
+  position            : absolute;
+  margin              : 0;
+  left                : 796px;
+  transform           : rotate(180deg);
+  opacity             : 1.0;
+}
+.a14 .a14707 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1154px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14698 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1088px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a14689 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1088px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146710 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1032px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146611 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1032px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146512 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1032px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146413 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 1032px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146314 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 990px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146215 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 990px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146116 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 990px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a146017 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 990px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145918 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 948px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145819 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 948px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145720 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 948px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145621 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 948px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145522 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 906px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145423 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 906px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145324 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 906px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145225 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 906px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145126 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 864px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a145027 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 864px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144928 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 864px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144829 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 864px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144730 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 822px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144631 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 822px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144532 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 822px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144433 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 822px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144334 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 780px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144235 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 780px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144136 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 780px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a144037 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 780px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143938 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 738px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143839 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 738px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143740 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 738px;
+  height              : 42px;
+  width               : 400px;
+  position            : absolute;
+  margin              : 0;
+  left                : 328px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143641 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 738px;
+  height              : 42px;
+  width               : 294px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143542 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 471px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143443 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 471px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143344 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 471px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143245 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 471px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143146 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 471px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a143047 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 429px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142948 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 429px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142849 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 429px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142750 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 429px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142651 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 429px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142552 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 387px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142453 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 387px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142354 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 387px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142255 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 387px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142156 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 387px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a142057 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 345px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141958 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 345px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141859 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 345px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141760 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 345px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141661 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 345px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141562 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141463 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141364 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141265 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141166 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 303px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a141067 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 261px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140968 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 261px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140869 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 261px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140770 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 261px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140671 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 261px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140572 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 219px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 912px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140473 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 219px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 752px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140374 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 219px;
+  height              : 42px;
+  width               : 148px;
+  position            : absolute;
+  margin              : 0;
+  left                : 580px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140275 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 219px;
+  height              : 42px;
+  width               : 248px;
+  position            : absolute;
+  margin              : 0;
+  left                : 332px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .a140176 {
+  background-color    : rgba(223, 226, 229, 1.0);
+  top                 : 219px;
+  height              : 42px;
+  width               : 298px;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+}
+.a14 .chaqueenfantdclencheunemajorationduplafondutiliserauchoixindiquerlenombredenfants77 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1356px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .lesinvestissementsenbesoinspersonnelsdhabitation78 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1322px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .a79 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1322px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .lacquisitiondunquipementprofessionnel80 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1288px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 196px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .a81 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1288px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 175px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .contribuableconjointpartenaire82 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1242px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 919px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .contribuable83 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1250px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 779px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .majorationplafondversementduneprimeuniqueautitreduneassurancetemporaireaudcscapitaldcroissantenvuedassurerleremboursementdunprtconsentipour84 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1242px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .majorationplafondversementduneprimeuniqueautitreduneassurancetemporaireaudcscapitaldcroissantenvuedassurerleremboursementdunprtconsentipour84 .span0 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-decoration     : underline;
+}
+.a14 .majorationplafondversementduneprimeuniqueautitreduneassurancetemporaireaudcscapitaldcroissantenvuedassurerleremboursementdunprtconsentipour84 .span1 {
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+}
+.a14 .lemontantlemoinslevsommedescases1468et1469ouplafondestinscriredanslacase147185 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1158px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 537px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .plafondde672majorlecaschantpourleconjointpourlepartenaireetpourchaqueenfantayantfaitpartiedumnage86 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1158px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .total87 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 1102px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 691px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .primesversesen2019taxesetfraiscompris88 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 700px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 820px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .risqueassurindiquerenoutreledbutetlafindeladurecontractuelledesassurancesencasdevie89 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 700px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 334px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .entreprisedassurancemutuelle90 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 708px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 63px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .contribuableconjointpartenaire91 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 660px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 920px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .contribuable92 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 668px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 781px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .cotisationsversesdessocitsdesecoursmutuelsreconnuesdontlebutestdassurerlesrisquesdemaladiedaccidentdincapacitdetravaildinfirmitdechmagedevieillesseoudedcs93 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 642px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .a294 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 640px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .primesversestitredassuranceencasdeviededcsdaccidentsdinvaliditdemaladieouderesponsabilitciviledescompagniesdassuranceagresetayantleursigedansunetatmembredelunioneuropennenesontpasdductibleslespr95 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 584px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 105px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .a196 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 582px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .primesdassuranceetcotisations97 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 546px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a14 .b98 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 546px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.a14 .b99 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 544px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a14 .intrtsdbiteurssubventionetbonificationdduites100 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 182px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 778px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .montantdeladetteau31122019101 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 182px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 586px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .relationconomiquedeladette102 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 341px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .nometadresseducrancier103 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 190px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 80px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .contribuableconjointpartenaire104 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 140px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 920px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 16.0px;
+}
+.a14 .contribuable105 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 148px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 781px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .enrelationconomiqueavecdesprtsdeconsommationfinanantdesvoituresdesbiensmeublesetclesintrtsdbiteursenrapportavecdesimmeublesbtisouenvoiedeconstructionsontinscrirelapage10cases10331047106 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 124px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 16.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 16.0px;
+}
+.a14 .intrtsdbiteurs107 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 102px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.a14 .a108 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 76px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 22.0px;
+}
+.a14 .b109 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 86px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a14 .dpensesspcialesdductiblescouvertesparleminimumforfaitaire110 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 34px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a14 .a1111 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 48px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 22.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 22.0px;
+}
+.a14 .ds112 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 2px;
+  height              : auto;
+  width               : auto;
+  position            : absolute;
+  margin              : 0;
+  left                : 1021px;
+  transform           : rotate(0deg);
+  opacity             : 1.0;
+  font-family         : "Arial", Helvetica, Arial, serif;
+  font-weight         : 700;
+  font-style          : normal;
+  font-size           : 28.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : left;
+  line-height         : 28.0px;
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events      : none;
+}
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events      : auto;
+}
+.anima-hidden,
+.anima-hidden * {
+  visibility          : hidden;
+  pointer-events      : none;
+}
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events      : auto;
+  visibility          : visible;
+}
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility          : hidden !important;
+}
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor              : pointer;
+}
+.anima-word-break {
+  overflow-wrap       : break-word;
+  word-wrap           : break-word;
+  word-break          : break-all;
+  word-break          : break-word;
+}
