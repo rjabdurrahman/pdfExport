@@ -302,12 +302,12 @@ select:focus {
 }
 
 input[type="text"]:disabled {
-    background: #fdf5e6;
+    background: #ffffff;
     color: black;
 }
 
 input[type="text"]:disabled:hover {
-    border: 1px solid #ccc !important;
+    cursor: not-allowed !important;
 }
 
 .w3-btn:hover {
