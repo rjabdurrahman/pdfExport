@@ -1,11 +1,9 @@
-<button onclick="$('page1').show();$('page2').hide();" class="w3-bar-item w3-button w3-padding-8">Identification</button>
-<button onclick="$('page1').hide();$('page2').show();" class="w3-bar-item w3-button w3-padding-8">Enfants</button>
-<a ng-class="{'active' : $route.current.activetab == 'page3'}" href="/#/etat_civil/?id="
-    class="w3-bar-item w3-button w3-padding-8">Etat civil /
-    Non-résidents</a>
-<a ng-class="{'active' : $route.current.activetab == 'page4'}" href="/#/expouse/?id="
-    class="w3-bar-item w3-button w3-padding-8">Options en
-    matière d’imposition collective et individuelle</a>
+<button onclick="navPage(1, this)" class="w3-bar-item w3-button w3-padding-8">Identification</button>
+<button onclick="navPage(2, this)" class="w3-bar-item w3-button w3-padding-8">Enfants</button>
+<button onclick="navPage(4, this)" class="w3-bar-item w3-button w3-padding-8">Etat civil /
+    Non-résidents</button>
+<button onclick="navPage(3, this)" class="w3-bar-item w3-button w3-padding-8">Options en
+    matière d’imposition collective et individuelle</button>
 <a ng-class="{'active' : $route.current.activetab == 'page5'}" href="/#/page5/?id=123" onclick="$('html, body').animate({
     scrollTop: $('#part1').offset().top
     }, 500)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
@@ -104,6 +102,7 @@
     })
     $('.left-nav > .w3-button').click(function () {
         let x = this;
+        console.log('this')
         $('.left-nav > .w3-button, .w3-dropdown-click').removeClass('active');
         $('.w3-dropdown-content').hide();
         if (x.className.indexOf("active") == -1) {

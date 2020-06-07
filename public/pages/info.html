@@ -23,8 +23,14 @@
     </div>
 </form>
 <script>
+    $('.form-input > *').hide();
     $('page1').show();
-    $('page2').hide();
+    function navPage(p, e) {
+        $('.form-input > *').hide();
+        $('page' + p).show();
+        $('.left-nav .w3-button').removeClass('active');
+        $(e).addClass('active');
+    }
     function submitInfo(e) {
         let form = e.target;
         console.log(form['in11'].value, form['in21'].value);
