@@ -230,6 +230,31 @@ app.component('page14', {
     controller: 'NavCtrl'
 });
 
+app.component('page15', {
+    templateUrl: '/pages/page15.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page16', {
+    templateUrl: '/pages/page16.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page17', {
+    templateUrl: '/pages/page17.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page19', {
+    templateUrl: '/pages/page19.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page20', {
+    templateUrl: '/pages/page20.html',
+    controller: 'NavCtrl'
+});
+
 app.controller('NavCtrl', function ($scope, $route) {
     $scope.id = activeClientId;
     $scope.$route = $route
