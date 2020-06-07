@@ -7,6 +7,12 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
             controller: 'ClientsListControler',
             activetab: 'home'
         })
+        .when('/info', {
+            templateUrl: 'pages/info.html',
+            controller: 'ClientControler',
+            // css: 'css/page1.css',
+            activetab: 'page1'
+        })
         .when('/identification', {
             templateUrl: 'pages/identification.html',
             controller: 'ClientControler',
@@ -149,40 +155,28 @@ app.run(function ($rootScope, $http, $route) {
         })
     }
 });
-
-// app.directive('head', ['$rootScope','$compile',
-//     function($rootScope, $compile){
-//         return {
-//             restrict: 'E',
-//             link: function(scope, elem){
-//                 var html = '<link rel="stylesheet" ng-repeat="(routeCtrl, cssUrl) in routeStyles" ng-href="{{cssUrl}}" />';
-//                 elem.append($compile(html)(scope));
-//                 scope.routeStyles = {};
-//                 $rootScope.$on('$routeChangeStart', function (e, next, current) {
-//                     if(current && current.$$route && current.$$route.css){
-//                         if(!angular.isArray(current.$$route.css)){
-//                             current.$$route.css = [current.$$route.css];
-//                         }
-//                         angular.forEach(current.$$route.css, function(sheet){
-//                             delete scope.routeStyles[sheet];
-//                         });
-//                     }
-//                     if(next && next.$$route && next.$$route.css){
-//                         if(!angular.isArray(next.$$route.css)){
-//                             next.$$route.css = [next.$$route.css];
-//                         }
-//                         angular.forEach(next.$$route.css, function(sheet){
-//                             scope.routeStyles[sheet] = sheet;
-//                         });
-//                     }
-//                 });
-//             }
-//         };
-//     }
-// ]);
-
 app.component('leftNav', {
     templateUrl: '/components/leftnav.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page1', {
+    templateUrl: '/pages/identification.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page2', {
+    templateUrl: '/pages/enfants.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page3', {
+    templateUrl: '/pages/etat_civil.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page4', {
+    templateUrl: '/pages/expouse.html',
     controller: 'NavCtrl'
 });
 

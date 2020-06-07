@@ -1,0 +1,32 @@
+<form onsubmit="submitInfo(event)">
+    <div class="top-bar flex" style="z-index: 9999;">
+        <button type="submit" class="w3-button">
+            <span class="material-icons-outlined">
+                save
+            </span>
+        </button>
+        <label>2019 - MUSTERMANN Max</label>
+        <button class="w3-button refresh">
+            <span class="material-icons">refresh</span>&nbsp;Réinitialiser
+        </button>
+    </div>
+    <div class="flex">
+        <div style="z-index: 999" class="left-nav w3-bar-block">
+            <left-nav></left-nav>
+        </div>
+        <div class="form-input">
+            <page1></page1>
+            <page2></page2>
+            <page3></page3>
+            <page4></page4>
+        </div>
+    </div>
+</form>
+<script>
+    $('page1').show();
+    $('page2').hide();
+    function submitInfo(e) {
+        let form = e.target;
+        console.log(form['in11'].value, form['in21'].value);
+    }
+</script>

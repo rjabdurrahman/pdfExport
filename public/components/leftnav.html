@@ -1,7 +1,5 @@
-<a ng-class="{'active' : $route.current.activetab == 'page1'}" href="/#/identification/?id=1234#part2"
-    class="w3-bar-item w3-button w3-padding-8">Identification</a>
-<a ng-class="{'active' : $route.current.activetab == 'page2'}" href="/#/enfants/?id="
-    class="w3-bar-item w3-button w3-padding-8">Enfants</a>
+<button onclick="$('page1').show();$('page2').hide();" class="w3-bar-item w3-button w3-padding-8">Identification</button>
+<button onclick="$('page1').hide();$('page2').show();" class="w3-bar-item w3-button w3-padding-8">Enfants</button>
 <a ng-class="{'active' : $route.current.activetab == 'page3'}" href="/#/etat_civil/?id="
     class="w3-bar-item w3-button w3-padding-8">Etat civil /
     Non-résidents</a>
