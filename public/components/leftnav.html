@@ -36,8 +36,7 @@
 
 <div class="w3-dropdown-click">
     <div class="flex">
-        <a ng-class="{'active' : $route.current.activetab == 'page13'}" href="/#/page13/?id="
-            class="w3-button w3-padding-8">Dépenses spéciales
+        <a class="w3-button w3-padding-8">Dépenses spéciales
             couvertes
             forfait</a>
         <span class="arrow"></span>
@@ -59,8 +58,8 @@
 </div>
 <div class="w3-dropdown-click">
     <div class="flex">
-        <a ng-class="{'active' : $route.current.activetab == 'page14'}" href="/#/page14/?id="
-            class="w3-button w3-padding-8">Dépenses spéciales en
+        <a class="w3-button w3-padding-8">Dépenses
+            spéciales en
             dehors
             forfait</a>
         <span class="arrow rotate"></span>
@@ -88,7 +87,7 @@
 
 <script>
     $('.w3-dropdown-click').click(function () {
-        $('.left-nav > .w3-button').removeClass('active')
+        $('.left-nav .w3-button').removeClass('active')
         let el = $(this).children('.w3-dropdown-content')
         if (el.is(":visible")) {
             el.hide();
@@ -98,17 +97,6 @@
             $('.w3-dropdown-click').removeClass('active');
             $(this).addClass('active');
             el.show();
-        }
-    })
-    $('.left-nav > .w3-button').click(function () {
-        let x = this;
-        console.log('this')
-        $('.left-nav > .w3-button, .w3-dropdown-click').removeClass('active');
-        $('.w3-dropdown-content').hide();
-        if (x.className.indexOf("active") == -1) {
-            x.className += " active";
-        } else {
-            x.className = x.className.replace(" active", "");
         }
     })
 </script>

@@ -28,8 +28,13 @@
     function navPage(p, e) {
         $('.form-input > *').hide();
         $('page' + p).show();
-        $('.left-nav .w3-button').removeClass('active');
-        $(e).addClass('active');
+        $('.left-nav .w3-button, .w3-dropdown-click').removeClass('active');
+        $('.w3-dropdown-content').hide();
+        if (e.className.indexOf("active") == -1) {
+            e.className += " active";
+        } else {
+            e.className = e.className.replace(" active", "");
+        }
     }
     function submitInfo(e) {
         let form = e.target;
