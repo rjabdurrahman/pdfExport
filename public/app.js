@@ -190,6 +190,46 @@ app.component('page6', {
     controller: 'NavCtrl'
 });
 
+app.component('page7', {
+    templateUrl: '/pages/page7.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page8', {
+    templateUrl: '/pages/page8.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page9', {
+    templateUrl: '/pages/page9.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page10', {
+    templateUrl: '/pages/page10.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page11', {
+    templateUrl: '/pages/page11.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page12', {
+    templateUrl: '/pages/page12.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page13', {
+    templateUrl: '/pages/page13.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page14', {
+    templateUrl: '/pages/page14.html',
+    controller: 'NavCtrl'
+});
+
 app.controller('NavCtrl', function ($scope, $route) {
     $scope.id = activeClientId;
     $scope.$route = $route

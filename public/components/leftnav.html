@@ -5,26 +5,26 @@
 <button onclick="navPage(4, this)" class="w3-bar-item w3-button w3-padding-8">Options en
     matière d’imposition collective et individuelle</button>
 <a onclick="navPage(5, this);$('html, body').animate({
-    scrollTop: $('#part1').offset().top
+    scrollTop: 0
     }, 500)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
     commercial</a>
 <a onclick="navPage(5, this);$('html, body').animate({
-    scrollTop: $('#part2').offset().top
+    scrollTop: $('#part5-2').offset().top
     }, 500)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
     agricole et forestier</a>
-<a class="w3-bar-item w3-button w3-padding-8">Bénéfice
+<a onclick="navPage(6, this)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
     profession libérale</a>
-<a class="w3-bar-item w3-button w3-padding-8">Occupation
+<a onclick="navPage(7, this)" class="w3-bar-item w3-button w3-padding-8">Occupation
     salariée</a>
-<a class="w3-bar-item w3-button w3-padding-8">Pension /
+<a onclick="navPage(8, this)" class="w3-bar-item w3-button w3-padding-8">Pension /
     Rente</a>
-<a class="w3-bar-item w3-button w3-padding-8">Capitaux
+<a onclick="navPage(9, this)" class="w3-bar-item w3-button w3-padding-8">Capitaux
     mobiliers</a>
-<a class="w3-bar-item w3-button w3-padding-8">Locations de
+<a onclick="navPage(10, this)" class="w3-bar-item w3-button w3-padding-8">Locations de
     biens</a>
-<a class="w3-bar-item w3-button w3-padding-8">Revenus nets
+<a onclick="navPage(11, this)" class="w3-bar-item w3-button w3-padding-8">Revenus nets
     divers</a>
-<a class="w3-bar-item w3-button w3-padding-8">Revenus
+<a onclick="navPage(12, this)" class="w3-bar-item w3-button w3-padding-8">Revenus
     extraordinaires</a>
 
 <div class="w3-dropdown-click">
@@ -35,9 +35,13 @@
         <span class="arrow"></span>
     </div>
     <div class="w3-dropdown-content">
-        <a class=" w3-bar-item w3-button">Arrérages de rentes et charges permanentes</a>
-        <a class=" w3-bar-item w3-button">Intérêts débiteurs</a>
-        <a class="w3-bar-item w3-button">Primes d’assurance et cotisations</a>
+        <a onclick="navPage(13, this)" class=" w3-bar-item w3-button">Arrérages de rentes et charges permanentes</a>
+        <a onclick="navPage(14, this);$('html, body').animate({
+            scrollTop: 0
+            }, 500)" class=" w3-bar-item w3-button">Intérêts débiteurs</a>
+        <a onclick="navPage(14, this);$('html, body').animate({
+            scrollTop: $('#part14-2').offset().top
+            }, 500)" class="w3-bar-item w3-button">Primes d’assurance et cotisations</a>
         <a class="w3-bar-item w3-button">Cotisations payées à titre personnel</a>
         <a class="w3-bar-item w3-button">Prévoyance-vieillesse</a>
         <a class="w3-bar-item w3-button">Epargne logement</a>
