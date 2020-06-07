@@ -180,6 +180,16 @@ app.component('page4', {
     controller: 'NavCtrl'
 });
 
+app.component('page5', {
+    templateUrl: '/pages/page5.html',
+    controller: 'NavCtrl'
+});
+
+app.component('page6', {
+    templateUrl: '/pages/page6.html',
+    controller: 'NavCtrl'
+});
+
 app.controller('NavCtrl', function ($scope, $route) {
     $scope.id = activeClientId;
     $scope.$route = $route
