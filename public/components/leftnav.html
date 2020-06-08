@@ -1,16 +1,16 @@
-<button onclick="navPage(1, this)" class="w3-bar-item w3-button w3-padding-8">Identification</button>
-<button onclick="navPage(2, this)" class="w3-bar-item w3-button w3-padding-8">Enfants</button>
-<button onclick="navPage(3, this)" class="w3-bar-item w3-button w3-padding-8">Etat civil /
+<button onclick="navPage(1, this)" class="np1 w3-bar-item w3-button w3-padding-8">Identification</button>
+<button onclick="navPage(2, this)" class="np2 w3-bar-item w3-button w3-padding-8">Enfants</button>
+<button onclick="navPage(3, this)" class="np3 w3-bar-item w3-button w3-padding-8">Etat civil /
     Non-résidents</button>
-<button onclick="navPage(4, this)" class="w3-bar-item w3-button w3-padding-8">Options en
+<button onclick="navPage(4, this)" class="np4 w3-bar-item w3-button w3-padding-8">Options en
     matière d’imposition collective et individuelle</button>
 <a onclick="navPage(5, this);$('html, body').animate({
     scrollTop: 0
-    }, 500)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
+    }, 500)" class="np5 w3-bar-item w3-button w3-padding-8">Bénéfice
     commercial</a>
 <a onclick="navPage(5, this);$('html, body').animate({
     scrollTop: $('#part5-2').offset().top
-    }, 500)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
+    }, 500)" class="np5 w3-bar-item w3-button w3-padding-8">Bénéfice
     agricole et forestier</a>
 <a onclick="navPage(6, this)" class="w3-bar-item w3-button w3-padding-8">Bénéfice
     profession libérale</a>
@@ -70,6 +70,12 @@
     imposable</a>
 
 <script>
+    if (localStorage.activePage) {
+        $('.np' + localStorage.activePage).addClass('active');
+    }
+    else {
+        $('.np1').addClass('active');
+    }
     $('.w3-dropdown-click').click(function () {
         $('.left-nav .w3-button').removeClass('active')
         let el = $(this).children('.w3-dropdown-content')

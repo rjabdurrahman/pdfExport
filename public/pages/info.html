@@ -39,10 +39,16 @@
 </form>
 <script>
     $('.form-input > *').hide();
-    $('page1').show();
+    if (localStorage.activePage) {
+        $('page' + localStorage.activePage).show();
+    }
+    else {
+        $('page1').show();
+    }
     function navPage(p, e) {
         $('.form-input > *').hide();
         $('page' + p).show();
+        localStorage.setItem('activePage', p);
         $('.left-nav .w3-button, .w3-dropdown-click').removeClass('active');
         $('.w3-dropdown-content').hide();
         if (e.className.indexOf("active") == -1) {
