@@ -59,6 +59,11 @@
     }
     function submitInfo(e) {
         let form = e.target;
-        console.log($(form).serializeArray());
+        let id = location.href.split('id=')[1];
+        axios.post('api/infoupdate/' + id, $(form).serializeArray())
+            .then(res => {
+                console.log(res.data)
+            })
+            .catch(err => console.log('Err', err.message));
     }
 </script>

@@ -1,5 +1,7 @@
 const router = require('express').Router();
 const Client = require('../Models/Client');
+let ObjectID = require('mongodb').ObjectID;
+let client = require('../assets/client');
 let page1 = require('../assets/page1');
 let page2 = require('../assets/page2');
 
@@ -9,21 +11,23 @@ router.get('/', (req, res) => {
 // Adding new client.......
 router.post('/addclient', (req, res) => {
     let idf = req.body;
-    page1.signaletique.contribuable.nom = idf.nom;
-    page1.signaletique.contribuable.prenom = idf.prenom;
-    page1.signaletique.contribuable.courriel = idf.courriel;
-    page1.signaletique.contribuable.telephone = idf.telephone;
-    var clients = new Client(page1);
+    client.signaletique.contribuable.nom = idf.nom;
+    client.signaletique.contribuable.prenom = idf.prenom;
+    client.signaletique.contribuable.courriel = idf.courriel;
+    client.signaletique.contribuable.telephone = idf.telephone;
+    var clients = new Client(client);
     clients.save();
     res.send({success: 'Client Added Successfully'});
 });
 //client info update
-router.post('/identupdate/:id', (req, res) => {
+router.post('/infoupdate/:id', (req, res) => {
     let id = req.params.id;
-    //console.log("update done!!!")
-    let idf = req.body;
-    let ObjectID = require('mongodb').ObjectID;
-    Client.findOneAndUpdate({ "_id": ObjectID(id) }, idf, { upsert: true }, (err, result) => {
+    let info = {};
+    console.log(req.body)
+    req.body.forEach(x => info[x.name] = x.value);
+    let data = {...page1(info), ...page2(info)};
+    console.log(data)
+    Client.findOneAndUpdate({ "_id": ObjectID(id) }, data, { upsert: true }, (err, result) => {
         if (err) res.send(err)
         else res.send(result)
     });
@@ -32,7 +36,6 @@ router.post('/identupdate/:id', (req, res) => {
 // client delete
 router.post('/clientdelete/:id', (req, res) => {
     let id = req.params.id;
-     let ObjectID = require('mongodb').ObjectID;
      Client.remove({ "_id": ObjectID(id) }, (err, result) => {
          if (err) res.send(err)
          else res.send(result)
