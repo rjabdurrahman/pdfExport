@@ -9,80 +9,9 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
         })
         .when('/info', {
             templateUrl: 'pages/info.html',
-            controller: 'ClientControler',
+            controller: 'InfoCtrl',
             // css: 'css/page1.css',
             activetab: 'page1'
-        })
-        .when('/identification', {
-            templateUrl: 'pages/identification.html',
-            controller: 'ClientControler',
-            // css: 'css/page1.css',
-            activetab: 'page1'
-        })
-        .when('/enfants', {
-            templateUrl: 'pages/enfants.html',
-            controller: 'EnfantsControler',
-            activetab: 'page2'
-        })
-        .when('/etat_civil', {
-            templateUrl: 'pages/etat_civil.html',
-            controller: 'EnfantsControler',
-            activetab: 'page3'
-        })
-        .when('/expouse', {
-            templateUrl: 'pages/expouse.html',
-            controller: 'EnfantsControler',
-            activetab: 'page4'
-        })
-        .when('/page5', {
-            templateUrl: 'pages/page5.html',
-            controller: 'EnfantsControler',
-            activetab: 'page5'
-        })
-        .when('/page6', {
-            templateUrl: 'pages/page6.html',
-            controller: 'EnfantsControler',
-            activetab: 'page6'
-        })
-        .when('/page7', {
-            templateUrl: 'pages/page7.html',
-            controller: 'EnfantsControler',
-            activetab: 'page7'
-        })
-        .when('/page8', {
-            templateUrl: 'pages/page8.html',
-            controller: 'EnfantsControler',
-            activetab: 'page8'
-        })
-        .when('/page9', {
-            templateUrl: 'pages/page9.html',
-            controller: 'EnfantsControler',
-            activetab: 'page9'
-        })
-        .when('/page10', {
-            templateUrl: 'pages/page10.html',
-            controller: 'EnfantsControler',
-            activetab: 'page10'
-        })
-        .when('/page11', {
-            templateUrl: 'pages/page11.html',
-            controller: 'EnfantsControler',
-            activetab: 'page11'
-        })
-        .when('/page12', {
-            templateUrl: 'pages/page12.html',
-            controller: 'EnfantsControler',
-            activetab: 'page12'
-        })
-        .when('/page13', {
-            templateUrl: 'pages/page13.html',
-            controller: 'EnfantsControler',
-            activetab: 'page13'
-        })
-        .when('/page14', {
-            templateUrl: 'pages/page14.html',
-            controller: 'EnfantsControler',
-            activetab: 'page14'
         })
         .otherwise({ redirectTo: '/' });
     if (window.history && window.history.pushState) {
@@ -255,9 +184,20 @@ app.component('page20', {
     controller: 'NavCtrl'
 });
 
-app.controller('NavCtrl', function ($scope, $route) {
-    $scope.id = activeClientId;
-    $scope.$route = $route
+app.controller('NavCtrl', function ($scope, $http) {
+    let clientId = location.href.split('id=')[1];
+    $scope.client = {};
+    $http({
+        method: 'GET',
+        url: `/api/client/${clientId}`
+    }).then(function (res) {
+        $scope.client = res.data;
+        console.log(res.data)
+        $scope.$applyAsync();
+    }).catch(function (err) {
+        console.log(err);
+    })
+    console.log($scope.client);
 });
 
 app.controller('ClientsListControler', function ($scope, $http) { });
