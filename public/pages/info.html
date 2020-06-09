@@ -59,6 +59,6 @@
     }
     function submitInfo(e) {
         let form = e.target;
-        console.log(form['in11'].value, form['in21'].value);
+        console.log($(form).serializeArray());
     }
 </script>
