@@ -1,0 +1,842 @@
+<form onsubmit="submitInfo(event)">
+    <div class="top-bar flex" style="z-index: 9999;">
+        <button type="submit" class="w3-button">
+            <span class="material-icons-outlined">
+                save
+            </span>
+        </button>
+        <label>2019 - {{client.signaletique.contribuable.nom}}</label>
+        <button class="w3-button refresh">
+            <span class="material-icons">refresh</span>&nbsp;Réinitialiser
+        </button>
+    </div>
+    <div class="flex">
+        <div style="z-index: 999; position: sticky; top: 0;" class="left-nav w3-bar-block">
+            <left-nav></left-nav>
+        </div>
+        <div class="form-input">
+            <div id="page1" class="a01 anima-word-break">
+                <div style="width: 1041px; height: 100%; position:relative; margin:auto;">
+                    <input name="1d40" type="text" class="a1400" value="v37">
+                    <input name="1d39" type="text" class="a1391" value="v36">
+                    <input name="1d38" type="text" class="a1382" value="v35">
+                    <input name="1d37" type="text" class="a1373" value="v34">
+                    <input name="1d36" type="text" class="a1364" value="v33">
+                    <input name="1d35" type="text" class="a1355" value="v32">
+                    <input name="1d34" type="text" class="a1346" value="v31">
+                    <input name="1d33" type="text" class="a1337" value="v30">
+                    <input name="1d32" type="text" class="a1328" value="v29">
+                    <input name="1d31" type="text" class="a1319" value="v28">
+                    <input name="1d30" type="text" class="a13010" value="v27">
+                    <input name="1d29" type="text" class="a12911" value="v26">
+                    <input name="1d28" type="text" class="a12812" value="v25">
+                    <input name="1d27" type="text" class="a12713" value="v24">
+                    <input name="1d26" type="text" class="a12614" value="v23">
+                    <input name="1d25" type="text" class="a12515" value="v22">
+                    <input name="1d24" type="text" class="a12416" value="v21">
+                    <input name="1d23" type="text" class="a12317" value="v20">
+                    <input name="1d22" type="text" class="a12218" value="v19">
+                    <input name="1d21" type="text" class="a12119" value="v18">
+                    <input name="1d20" type="text" class="a12020" value="v17">
+                    <input name="1d19" type="text" class="a11921" value="v16">
+                    <input name="1d18" type="text" class="a11822" value="v15">
+                    <input name="1d17" type="text" class="a11723" value="v14">
+                    <input name="1d16" type="text" class="a11624" value="v13">
+                    <input name="1d15" type="text" class="a11525" value="v12">
+                    <input name="1d14" type="text" class="a11426" value="v11">
+                    <input name="1d13" type="text" class="a11327" value="v10">
+                    <input name="1d12" type="text" class="a11228" value="v9">
+                    <input name="1d11" type="text" class="a11129" value="v8">
+                    <input name="1d10" type="text" class="a11030" value="v7">
+                    <input name="1d9" type="text" class="a10931" value="{{client.signaletique.numero_de_dossier}}">
+                    <input name="1d8" type="text" class="a10832"
+                        value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
+                    <input name="1d7" type="text" class="a10733"
+                        value="{{client.signaletique.contribuable.lieu_de_naissance}}">
+                    <input name="1d6" type="text" class="a10634"
+                        value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}">
+                    <input name="1d5" type="text" class="a10535"
+                        value="{{client.signaletique.contribuable.date_de_naissance}}">
+                    <input name="1d4" type="text" class="a10436"
+                        value="{{client.signaletique.conjoint_partenaire.prenom}}">
+                    <input name="1d3" type="text" class="a10337" value="{{client.signaletique.contribuable.prenom}}">
+                    <input name="1d2" type="text" class="a10238"
+                        value="{{client.signaletique.conjoint_partenaire.nom}}">
+                    <input name="1d1" type="text" name="in11" class="a10139"
+                        value="{{client.signaletique.contribuable.nom}}">
+                    <div class="swiftbic40">
+                        SWIFT BIC
+                    </div>
+                    <div
+                        class="anciendomicileousjourhabituelindiqueruniquementencasdechangemententrele112019etle3112201941">
+                        <span class="span0">Ancien</span><span class="span1"> domicile ou séjour habituel à indiquer
+                            uniquement en cas de changement entre le 1/1/2019 et le 31/12/2019</span>
+                    </div>
+                    <div class="domicileousjourhabituelactuel42">
+                        <span class="span0">Domicile ou séjour habituel </span><span class="span1">actuel</span>
+                    </div>
+                    <div class="aindiquerobligatoirementsiattribu43">
+                        <span class="span0">A indiquer obligatoirement</span><span class="span1"> (si attribué) :</span>
+                    </div>
+                    <div class="numrodedossier44">
+                        Numéro de dossier
+                    </div>
+                    <div class="jour45">
+                        Jour
+                    </div>
+                    <div class="mois46">
+                        Mois
+                    </div>
+                    <div class="anne47">
+                        Année
+                    </div>
+                    <div class="contribuableconjointpartenaire48">
+                        Contribuable conjoint/partenaire
+                    </div>
+                    <div class="jour49">
+                        Jour
+                    </div>
+                    <div class="mois50">
+                        Mois
+                    </div>
+                    <div class="anne51">
+                        Année
+                    </div>
+                    <div class="contribuable52">
+                        Contribuable
+                    </div>
+                    <div class="codeiban53">
+                        Code IBAN
+                    </div>
+                    <div class="titulaireducompte54">
+                        Titulaire du compte
+                    </div>
+                    <div class="coordonnesbancaires55">
+                        Coordonnées bancaires
+                    </div>
+                    <div class="pays56">
+                        Pays
+                    </div>
+                    <div class="codepostallocalit57">
+                        Code postal -<br>localité
+                    </div>
+                    <div class="numrorue58">
+                        Numéro - rue
+                    </div>
+                    <div class="du112019au59">
+                        Du 1/1/2019 au
+                    </div>
+                    <div class="pays60">
+                        Pays
+                    </div>
+                    <div class="codepostallocalit61">
+                        Code postal -<br>localité
+                    </div>
+                    <div class="numrorue62">
+                        Numéro - rue
+                    </div>
+                    <div class="courriel63">
+                        Courriel
+                    </div>
+                    <div class="tlphoneaccessiblelejour64">
+                        Téléphone<br>(accessible le jour)
+                    </div>
+                    <div class="professionougenredelactivit65">
+                        Profession ou genre<br>de l'activité
+                    </div>
+                    <div class="lieudenaissancelocalitpays66">
+                        Lieu de naissance<br>(localité / pays)
+                    </div>
+                    <div class="datedenaissancenumrodidentification67">
+                        Date de naissance /<br>numéro<br>d'identification
+                    </div>
+                    <div class="prnom68">
+                        Prénom
+                    </div>
+                    <div class="nom69">
+                        Nom
+                    </div>
+                    <div class="signaltique70">
+                        Signalétique
+                    </div>
+                </div>
+            </div>
+            <div class="a02 anima-word-break ">
+                <div style="width: 1045px; height: 100%; position:relative; margin:auto;">
+                    <input name="2d41" value="v31" type="text" class="a2410" />
+                    <input name="2d40" value="v30" type="text" class="a2401" />
+                    <input name="2d39" value="v29" type="text" class="a2392" />
+                    <input name="2d38" value="v28" type="text" class="a2383" />
+                    <input name="2d37" type="checkbox" class="a2374" />
+                    <input name="2d36" value="v27" type="text" class="a2365" />
+                    <input name="2d35" value="v26" type="text" class="a2356" />
+                    <input name="2d34" value="v25" type="text" class="a2347" />
+                    <input name="2d33" value="v24" type="text" class="a2338" />
+                    <input name="2d32" value="v23" type="text" class="a2329" />
+                    <input name="2d31" value="v22" type="text" class="a23110" />
+                    <input name="2d30" value="v21" type="text" class="a23011" />
+                    <input name="2d29" value="v20" type="text" class="a22912" />
+                    <input name="2d27" type="checkbox" class="a22813" />
+                    <input name="2d27" type="checkbox" class="a22714" />
+                    <input name="2d26" value="v19" type="text" class="a22615" />
+                    <input name="2d25" value="v18" type="text" class="a22516" />
+                    <input name="2d24" value="v17" type="text" class="a22417" />
+                    <input name="2d23" type="checkbox" class="a22318" />
+                    <input name="2d22" value="v16" type="text" class="a22219" />
+                    <input name="2d21" value="v15" type="text" class="a22120" />
+                    <input name="2d20" value="v14" type="text" class="a22021" />
+                    <input name="2d19" type="checkbox" class="a21922" />
+                    <input name="2d18" value="v13" type="text" class="a21823" />
+                    <input name="2d17" value="v12" type="text" class="a21724" />
+                    <input name="2d16" value="v11" type="text" class="a21625" />
+                    <input name="2d15" type="checkbox" class="a21526" />
+                    <input name="2d14" value="v10" type="text" class="a21427" />
+                    <input name="2d13" value="v9" type="text" class="a21328" />
+                    <input name="2d12" type="checkbox" class="a21229" />
+                    <input name="2d11" value="v8" type="text" class="a21130" />
+                    <input name="2d10" value="v7" type="text" class="a21031" />
+                    <input name="2d9" type="checkbox" class="a20932" />
+                    <input name="2d8" value="v6" type="text" class="a20833" />
+                    <input name="2d7" value="v5" type="text" class="a20734" />
+                    <input name="2d6" type="checkbox" class="a20635" />
+                    <input name="2d5" value="v4" type="text" class="a20536" />
+                    <input name="2d4" value="v3" type="text" class="a20437" />
+                    <input name="2d3" type="checkbox" class="a20338" />
+                    <input name="2d2" value="v2" type="text" class="a20239" />
+                    <input name="2d1" value="v1" type="text" name="in21" class="a20140" />
+                    <div class="annemoisjour41">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="annemoisjour42">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="datedenaissancenumrodidentification43">
+                        Date de naissance / numéro<br>d’identification
+                    </div>
+                    <div class="nometprnomdelenfant44">
+                        Nom et prénom de l'enfant
+                    </div>
+                    <div
+                        class="demandepourlabonificationdimptpourlesenfantspourlesquelsledroitunemodrationdimptaexpiren2017ouen2018audeldunrevenuimposableajustde76600labonificationdimptnestplusaccordesauflorsquelenombredenfan45">
+                        Demande pour la bonification d'impôt pour les enfants pour lesquels le droit à une modération
+                        d'impôt a expiré en 2017 ou en 2018.<br>Au-delà d'un revenu imposable ajusté de 76 600 €, la
+                        bonification d'impôt n'est plus accordée, sauf lorsque le nombre d'enfants <br>visés au point 1
+                        ci-dessus ainsi qu'au présent point dépasse 5 unités.
+                    </div>
+                    <div class="demandedelabonificationdimptpourenfant46">
+                        Demande de la bonification d’impôt pour enfant
+                    </div>
+                    <div class="a447">
+                        4.
+                    </div>
+                    <div
+                        class="lorsquaucunrevenunestdclardanslesrubriquescaispcmletdlesmoyensdesubsistancedoiventtreindiquscidessous48">
+                        Lorsqu'aucun revenu n'est déclaré dans les rubriques C/A, I, S, P, CM, L et D, les moyens de
+                        subsistance doivent être indiqués ci-<br>dessous:
+                    </div>
+                    <div
+                        class="parallocationsilconvientdecomprendrelesrentesalimentaireslepaiementdesfraisdentretiendducationetdeformationprofessionnelleetclesrentesorphelinsetlesprestationsfamilialesallocationsfamilialesnentrentpasenlignede49">
+                        * Par allocations, il convient de comprendre les rentes alimentaires, le paiement des frais
+                        d'entretien, d'éducation et de formation<br>professionnelle, etc. Les rentes-orphelins et les
+                        prestations familiales (allocations familiales) n'entrent pas en ligne de compte.
+                    </div>
+                    <div class="montantmensueldelallocationperue50">
+                        Montant mensuel de<br>l’allocation perçue *
+                    </div>
+                    <div class="nometprnomdelenfantenfantsvisssous1cidessus51">
+                        Nom et prénom de l'enfant (enfant(s)<br>visé(s) sous 1 ci-dessus)
+                    </div>
+                    <div
+                        class="jedemandelecrditdimptmonoparentalpourpersonneappartenantlaclasse1aayantaumoinsunenfantappartenantaumnageetlaquellelecrditdimptmonoparentalnapastbonifiparlintermdiairedelemployeuroudunecaissedepensi52">
+                        Je demande le crédit d'impôt monoparental pour personne appartenant à la classe 1a, ayant au
+                        moins
+                        un enfant appartenant au ménage <br>et à laquelle le crédit d'impôt monoparental n'a pas été
+                        bonifié
+                        par l'intermédiaire de l'employeur ou d'une caisse de pension. Le crédit<br>d'impôt n'est pas
+                        accordé lorsque les deux parents de l'enfant partagent, avec leur enfant, une habitation
+                        commune.
+                    </div>
+                    <div class="demandedelapplicationducrditdimptmonoparentalcim53">
+                        Demande de l’application du crédit d’impôt monoparental - CIM
+                    </div>
+                    <div class="a354">
+                        3.
+                    </div>
+                    <div class="voirrubriquechargesextraordinairescepage18cases1801etsuivantes55">
+                        Voir rubrique «charges extraordinaires» CE (page 18, cases 1801 et suivantes)
+                    </div>
+                    <div class="enfantsnayantpasfaitpartiedumnagecontribuable56">
+                        Enfants n’ayant pas fait partie du ménage contribuable
+                    </div>
+                    <div class="a257">
+                        2.
+                    </div>
+                    <div
+                        class="danslecasdescontribuablesvivantenmnagesanstremarisquiontdesenfantscommunspourlesquelsaucuneallocationfamilialeaidefinancirepourtudessuprieuresouaideauxvolontairesnatpayelamodrationdimptpourenfantsousla58">
+                        Dans le cas des contribuables vivant en ménage sans être mariés, qui ont des enfants communs
+                        pour
+                        lesquels aucune allocation familiale,<br>aide financière pour études supérieures ou aide aux
+                        volontaires n'a été payée, la modération d'impôt pour enfant sous la forme de<br>dégrèvement
+                        d'impôt
+                        sera accordée à un seul des parents (modèle 104).
+                    </div>
+                    <div
+                        class="acocheruniquementaucasolamodrationdimptpourenfantsnapastaccordesouslaformedallocationfamilialeparlacaedaidefinanciredeletatpourtudessuprieuresoudaideauxvolontaires59">
+                        A cocher uniquement au cas où la modération d'impôt pour enfants n'a pas été accordée sous la
+                        forme
+                        d'allocation familiale par la <br>CAE, d'aide financière de l'Etat pour études supérieures ou
+                        d'aide
+                        aux volontaires.
+                    </div>
+                    <div class="a60">
+                        *
+                    </div>
+                    <div class="a61">
+                        *
+                    </div>
+                    <div class="annemoisjour62">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div
+                        class="cenfantsgsdaumoins21ansau112019jouissantdelallocationfamilialecontinueenfantshandicapsouinfirmes63">
+                        c) Enfants âgés d'au moins 21 ans au 1/1/2019 jouissant de l'allocation familiale continuée
+                        (enfants
+                        handicapés ou infirmes)
+                    </div>
+                    <div class="a64">
+                        *
+                    </div>
+                    <div class="a65">
+                        *
+                    </div>
+                    <div class="a66">
+                        *
+                    </div>
+                    <div class="annemoisjour67">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="annemoisjour68">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="annemoisjour69">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div
+                        class="benfantsgsdaumoins21ansau112019etayantpoursuividefaoncontinuedestudesdeformationprofessionnelle70">
+                        b) Enfants âgés d'au moins 21 ans au 1/1/2019 et ayant poursuivi de façon continue des études de
+                        formation professionnelle
+                    </div>
+                    <div class="a71">
+                        *
+                    </div>
+                    <div class="a72">
+                        *
+                    </div>
+                    <div class="a73">
+                        *
+                    </div>
+                    <div class="a74">
+                        *
+                    </div>
+                    <div class="annemoisjour75">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="annemoisjour76">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="annemoisjour77">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="annemoisjour78">
+                        année&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;mois&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;jour
+                    </div>
+                    <div class="aenfantsgsdemoinsde21ansau112019ounsencoursdelanne79">
+                        a) Enfants âgés de moins de 21 ans au 1/1/2019 ou nés en cours de l’année
+                    </div>
+                    <div class="spcificationdelaformationprofessionnelle80">
+                        Spécification de la formation<br>professionnelle
+                    </div>
+                    <div class="demandedelamodrationdimptpourenfants81">
+                        Demande de la<br>modération d’impôt<br>pour enfants *
+                    </div>
+                    <div class="datedenaissancenumrodidentification82">
+                        Date de naissance / numéro<br>d’identification
+                    </div>
+                    <div class="nometprnomdelenfant83">
+                        Nom et prénom de l'enfant
+                    </div>
+                    <div class="enfantsayantfaitpartiedumnagecontribuable84">
+                        Enfants ayant fait partie du ménage contribuable
+                    </div>
+                    <div class="a185">
+                        1.
+                    </div>
+                    <div class="e86">
+                        E
+                    </div>
+                </div>
+            </div>
+            <div class="a03 anima-word-break ">
+                <div style="width: 1043px; height: 100%; position:relative; margin:auto;">
+                    <input type="text" class="a3270" />
+                    <input type="text" class="a3261" />
+                    <input type="text" class="a3252" />
+                    <input type="checkbox" class="a3243" />
+                    <input type="checkbox" class="a3234" />
+                    <input type="checkbox" class="a3225" />
+                    <input type="text" class="a3216" />
+                    <input type="text" class="a3207" />
+                    <input type="text" class="a3198" />
+                    <input type="text" class="a3189" />
+                    <input type="text" class="a31710" />
+                    <input type="text" class="a31611" />
+                    <input type="text" class="a31512" />
+                    <input type="text" class="a31413" />
+                    <input type="text" class="a31314" />
+                    <input type="text" class="a31215" />
+                    <input type="text" class="a31116" />
+                    <input type="text" class="a31017" />
+                    <input type="text" class="a30918" />
+                    <input type="checkbox" class="a30819" />
+                    <input type="checkbox" class="a30720" />
+                    <input type="checkbox" class="a30621" />
+                    <input type="text" class="a30522" />
+                    <input type="checkbox" class="a30423" />
+                    <input type="checkbox" class="a30324" />
+                    <input type="checkbox" class="a30225" />
+                    <input type="checkbox" class="a30126" />
+                    <input type="text" class="rectangleclassedimpt27" disabled />
+                    <div class="a28">
+                        %
+                    </div>
+                    <div class="a29">
+                        =
+                    </div>
+                    <div class="a30">
+                        _____________________
+                    </div>
+                    <div class="x10031">
+                        x 100
+                    </div>
+                    <div class="group132">
+                        <img alt="Image" class="path10" src="../img/arrow_03.png">
+                    </div>
+                    <div
+                        class="lescontribuablesnonrsidentsdoiventindiquerleursrevenusdesourceluxembourgeoisedanslescolonnesrevenusnonexonrs33">
+                        Les contribuables non résidents doivent indiquer leurs revenus de source luxembourgeoise dans
+                        les
+                        colonnes «revenus non exonérés».
+                    </div>
+                    <div class="totaldesrevenusnonexonrsetexonrs34">
+                        Total des revenus «non exonérés» et «exonérés»
+                    </div>
+                    <div class="a35">
+                        __________________________________________
+                    </div>
+                    <div class="totaldesrevenusnonexonrsx10036">
+                        Total des revenus «non exonérés»&nbsp;&nbsp;x&nbsp;&nbsp; 100
+                    </div>
+                    <div class="dterminationduseuildesrevenusimposablesauluxembourg37">
+                        Détermination du seuil des revenus imposables au Luxembourg
+                    </div>
+                    <div
+                        class="lecontribuablenonrsidentayantsarsidencefiscaleenbelgiquepeutenvertudesdispositionsdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetreassimilauxcontribuablesrsidentssiplus38">
+                        le contribuable non résident ayant sa résidence fiscale en Belgique peut, en vertu des
+                        dispositions
+                        de l'article 24 § 4a de la <br>convention contre les doubles impositions entre le Luxembourg et
+                        la
+                        Belgique, être assimilé aux contribuables résidents si plus de<br>50% des revenus professionnels
+                        de
+                        son ménage sont imposables au Luxembourg.
+                    </div>
+                    <div class="c39">
+                        C.
+                    </div>
+                    <div class="lesrevenusnetsannuelsnonsoumislimptsurlerevenuluxembourgeoissontinfrieurs1300040">
+                        les revenus nets annuels non soumis à l'impôt sur le revenu luxembourgeois sont inférieurs à 13
+                        000
+                        €;
+                    </div>
+                    <div class="b41">
+                        B.
+                    </div>
+                    <div
+                        class="aumoins90desrevenusmondiauxsontimposablesauluxembourgpourcentagedterminerselonlescases325327lesrevenusprovenantduneoccupationsalariedontledroitdimpositionnerevientpasauluxembourgenvertuduneconventioncontr42">
+                        au moins 90% des revenus mondiaux sont imposables au Luxembourg (pourcentage à déterminer selon
+                        les
+                        cases 325 à 327)<br>(les revenus provenant d'une occupation salariée, dont le droit d'imposition
+                        ne
+                        revient pas au Luxembourg, en vertu d'une <br>convention contre les doubles impositions, sont à
+                        assimiler aux revenus imposables au Grand-Duché uniquement à<br>concurrence du revenu non
+                        imposable
+                        au Luxembourg correspondant au maximum à 50 jours de travail);
+                    </div>
+                    <div class="a43">
+                        A.
+                    </div>
+                    <div
+                        class="lecontribuablenonrsidentpeuttreassimilaucontribuablersidentsiaumoinsunedesconditionssuivantesestremplieencequiconcernelescontribuablesnonrsidentsmarisilsuffitquaumoinslundespouxsatisfaitlaconditionsousao44">
+                        Le contribuable non résident peut être assimilé au contribuable résident si au moins une des
+                        conditions suivantes est remplie (en ce qui<br>concerne les contribuables non résidents mariés
+                        il
+                        suffit qu’au moins l’un des époux satisfait à la condition sous A. ou B. et que la<br>demande
+                        est
+                        faite conjointement) :
+                    </div>
+                    <div
+                        class="demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45">
+                        <span class="span0">Demande pour l'application des dispositions de l'article 157ter L.I.R. et de
+                            l'article 24 § 4a de la convention contre les doubles<br>impositions entre le Luxembourg et
+                            la
+                            Belgique. Tous les </span><span class="span1">revenus de source luxembourgeoise</span><span
+                            class="span2"> (revenus non exonérés) </span><span class="span3">et de source
+                            non<br>luxembourgeoise</span><span class="span4"> (revenus exonérés) du contribuable et le
+                            cas
+                            échéant de son conjoint / partenaire </span><span class="span5">doivent être
+                            déclarés</span><span class="span6">.</span>
+                    </div>
+                    <div class="assimilationdunonrsidentaursident46">
+                        Assimilation du non-résident au résident
+                    </div>
+                    <div class="jour47">
+                        Jour
+                    </div>
+                    <div class="mois48">
+                        Mois
+                    </div>
+                    <div class="anne49">
+                        Année
+                    </div>
+                    <div class="pourlecontribuableconjointpartenaire50">
+                        Pour le contribuable conjoint/partenaire
+                    </div>
+                    <div class="jour51">
+                        Jour
+                    </div>
+                    <div class="mois52">
+                        Mois
+                    </div>
+                    <div class="anne53">
+                        Année
+                    </div>
+                    <div class="pourlecontribuable54">
+                        Pour le contribuable
+                    </div>
+                    <div class="codepostallocalit55">
+                        Code postal -<br>localité
+                    </div>
+                    <div class="numrorue56">
+                        Numéro - rue
+                    </div>
+                    <div class="datedenaissancenumrodidentification57">
+                        Date de naissance /<br>numéro<br>d’identification
+                    </div>
+                    <div class="nometprnom58">
+                        Nom et prénom
+                    </div>
+                    <div class="electionfacultativedundomicileauluxembourgadressepourlanotificationdesbulletinsdimpt59">
+                        <span class="span0">Election facultative d'un domicile au Luxembourg</span><span class="span1">
+                            (adresse pour la notification des bulletins d'impôt)</span>
+                    </div>
+                    <div
+                        class="nonrsidentsremplirparlescontribuablesquinontpasleurdomicilefiscalouleursjourhabituelauluxembourg60">
+                        Non-résidents (à remplir par les contribuables qui n'ont pas leur domicile fiscal ou leur
+                        séjour<br>habituel au Luxembourg)
+                    </div>
+                    <div class="le61">
+                        le:
+                    </div>
+                    <div class="classedimpt62">
+                        Classe d'impôt:
+                    </div>
+                    <div class="a63">
+                        }
+                    </div>
+                    <div class="depuisle64">
+                        depuis le:
+                    </div>
+                    <div class="a65">
+                        }
+                    </div>
+                    <div class="envertudunedispensedelautoritjudiciaireaccorde66">
+                        - en vertu d'une dispense de l'autorité judiciaire accordée
+                    </div>
+                    <div class="envertudunjugementdesparationdecorpsprononc67">
+                        - en vertu d'un jugement de séparation de corps prononcé
+                    </div>
+                    <div class="envertudunedispenselgaleaccorde68">
+                        - en vertu d'une dispense légale accordée
+                    </div>
+                    <div class="spare69">
+                        Séparé(e):
+                    </div>
+                    <div class="veufveuve70">
+                        Veuf / veuve
+                    </div>
+                    <div class="divorce71">
+                        Divorcé(e)
+                    </div>
+                    <div class="marie72">
+                        Marié(e)
+                    </div>
+                    <div class="clibataire73">
+                        Célibataire
+                    </div>
+                    <div class="etatcivil74">
+                        Etat civil
+                    </div>
+                    <div class="enr75">
+                        E/NR
+                    </div>
+                </div>
+            </div>
+            <div class="a04 anima-word-break ">
+                <div style="width: 1076px; height: 100%; position:relative; margin:auto;">
+                    <input type="text" class="rectangledate0" />
+                    <input type="text" class="rectanglelieu1" />
+                    <input type="text" class="a4262" />
+                    <input type="text" class="a4253" />
+                    <input type="text" class="a4244" />
+                    <input type="text" class="a4235" />
+                    <input type="text" class="a4226" />
+                    <input type="text" class="a4217" />
+                    <input type="text" class="a4208" />
+                    <input type="text" class="a4199" />
+                    <input type="text" class="a41810" />
+                    <input type="text" class="a41711" />
+                    <input type="text" class="a41612" />
+                    <input type="text" class="a41513" />
+                    <input type="text" class="a41414" />
+                    <input type="text" class="a41315" />
+                    <input type="checkbox" class="a41216" />
+                    <input type="checkbox" class="a41117" />
+                    <input type="checkbox" class="a41018" />
+                    <input type="checkbox" class="a40919" />
+                    <input type="checkbox" class="a40820" />
+                    <input type="checkbox" class="a40721" />
+                    <input type="checkbox" class="a40622" />
+                    <input type="checkbox" class="a40523" />
+                    <input type="checkbox" class="a40424" />
+                    <input type="text" class="a40325" />
+                    <input type="checkbox" class="a40226" />
+                    <input type="checkbox" class="a40127" />
+                    <div class="le28">
+                        , le
+                    </div>
+                    <div
+                        class="adfautderemplissagedescases423426ladministrationadmetunerpartitionde50chacundescontribuablecontribuableconjointpartenaireletauxdepourcentagedescases423et424ainsiquedescases425et426doittrede100larp29">
+                        A défaut de remplissage des cases 423 à 426, l'Administration admet une répartition de 50% à
+                        chacun
+                        des contribuable / contribuable conjoint /<br>partenaire. Le taux de pourcentage des cases 423
+                        et
+                        424, ainsi que des cases 425 et 426 doit être de 100%. La répartition des avances
+                        communes<br>payées
+                        se fait sous réserve de l'article 154 (7) L.I.R.
+                    </div>
+                    <div class="a30">
+                        %
+                    </div>
+                    <div class="a31">
+                        %
+                    </div>
+                    <div class="tauxderpartitiondurevenuimposableajustcommunmondialrallouer32">
+                        Taux de répartition du revenu imposable ajusté<br>commun mondial à réallouer
+                    </div>
+                    <div class="encasdedemandepouruneimpositionselonlarticle3ter3lirremplirlescases425et426ciaprs33">
+                        En cas de demande pour une imposition selon l'article 3ter (3) L.I.R., remplir les cases 425 et
+                        426
+                        ci-après.
+                    </div>
+                    <div class="a34">
+                        %
+                    </div>
+                    <div class="a35">
+                        %
+                    </div>
+                    <div
+                        class="tauxderpartitiondesavancescommunespayesetnonpayesdundossiercommundelannedimposition201936">
+                        Taux de répartition des avances communes payées et<br>non payées d'un dossier commun de
+                        l'année<br>d'imposition 2019
+                    </div>
+                    <div class="jour37">
+                        Jour
+                    </div>
+                    <div class="mois38">
+                        Mois
+                    </div>
+                    <div class="anne39">
+                        Année
+                    </div>
+                    <div class="contribuableconjointpartenaire40">
+                        Contribuable conjoint/partenaire
+                    </div>
+                    <div class="jour41">
+                        Jour
+                    </div>
+                    <div class="mois42">
+                        Mois
+                    </div>
+                    <div class="anne43">
+                        Année
+                    </div>
+                    <div class="contribuable44">
+                        Contribuable
+                    </div>
+                    <div class="swiftbic45">
+                        SWIFT BIC
+                    </div>
+                    <div class="codeiban46">
+                        Code IBAN
+                    </div>
+                    <div class="titulaireducompte47">
+                        Titulaire du compte
+                    </div>
+                    <div class="ndossierindividuel48">
+                        N° dossier<br>individuel
+                    </div>
+                    <div class="datedenaissancenumrodidentification49">
+                        Date de naissance /<br>numéro<br>d’identification
+                    </div>
+                    <div class="encasdedemandepouruneimpositionselonlesarticles3ter2et3ter3lir50">
+                        En cas de demande pour une imposition selon les articles 3ter (2) et 3ter (3) L.I.R.:
+                    </div>
+                    <div class="informationscomplmentaires51">
+                        Informations complémentaires
+                    </div>
+                    <div
+                        class="lespartenairesquinedemandentconjointementniuneimpositionindividuelleavecrallocationjusquauplustardle31mars2020niuneimpositioncollectivejusquauplustardle31dcembre2020sontimposssparmentdaprslergimededroitcommu52">
+                        Les partenaires qui ne demandent conjointement ni une imposition individuelle avec réallocation
+                        jusqu'au plus tard le 31 mars 2020, ni une imposition<br>collective jusqu'au plus tard le 31
+                        décembre 2020 sont imposés séparément d'après le régime de droit commun, à moins qu'ils ne
+                        demandent
+                        une<br>imposition collective.
+                    </div>
+                    <div
+                        class="afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases32232453">
+                        <span class="span0">Afin de pouvoir choisir l'imposition individuelle pure ou l'imposition
+                            individuelle avec réallocation, les </span><span class="span1">contribuables non
+                            résidents</span><span class="span2"> doivent <br>remplir au moins une des conditions
+                            d'assimilation aux contribuables résidents, page 3 cases 322 à 324.</span>
+                    </div>
+                    <div
+                        class="adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher54">
+                        <span class="span0">A défaut de cocher la case 409 et l'une des cases 410 à 412, les
+                        </span><span class="span1">contribuables mariés</span><span class="span2"> seront imposés
+                            collectivement à
+                            moins qu'ils n'aient exprimés<br>conjointement avant le 31 mars 2020 un autre choix. Dans ce
+                            cas, la case 406 est à cocher.</span>
+                    </div>
+                    <div class="limpositionindividuelleavecrallocationselonlarticle3ter3lirremplircases41342655">
+                        l'imposition individuelle avec réallocation selon l'article 3ter (3) L.I.R. (remplir cases 413 à
+                        426)
+                    </div>
+                    <div class="limpositionindividuellepureselonlarticle3ter2lir56">
+                        l'imposition individuelle pure selon l'article 3ter (2) L.I.R.
+                    </div>
+                    <div class="limpositioncollectiveselonlarticle3lir57">
+                        l'imposition collective selon l'article 3 L.I.R.
+                    </div>
+                    <div class="pourlannedimposition2019nousdemandons58">
+                        pour l'année d'imposition 2019 nous demandons:
+                    </div>
+                    <div class="ou59">
+                        ou
+                    </div>
+                    <div class="parmyguichetlu60">
+                        par myguichet.lu
+                    </div>
+                    <div class="parcourrier61">
+                        par courrier
+                    </div>
+                    <div class="pourlannedimposition2019nousconfirmonsnotrechoixexprimendernierlieu62">
+                        Pour l'année d'imposition 2019 nous confirmons notre choix exprimé en dernier lieu:
+                    </div>
+                    <div class="impositionindividuellersidentsetnonrsidentsassimils63">
+                        Imposition individuelle (résidents et non-résidents assimilés)
+                    </div>
+                    <div
+                        class="lademandeestvalablementformulelorsquelaprsenterubriquepartenairesestremplieetlorsqueladclarationpourlimptsurlerevenuestintroduiteetsigneparchacundespartenaires64">
+                        La demande est valablement formulée lorsque la présente rubrique «partenaires» est remplie et
+                        lorsque la déclaration pour l'impôt sur le<br>revenu est introduite et signée par chacun des
+                        partenaires.
+                    </div>
+                    <div class="djprsent65">
+                        déjà présenté
+                    </div>
+                    <div class="enannexe66">
+                        en annexe
+                    </div>
+                    <div class="documenttabliparlesautoritscomptentes67">
+                        Document établi par les autorités compétentes :
+                    </div>
+                    <div class="datedeladclarationdupartenariat68">
+                        Date de la déclaration du partenariat :
+                    </div>
+                    <div
+                        class="nousdemandonslimpositioncollectiveausensdesarticles3biset157ter5lirpourlannedimposition2019nousdclaronsquenousavonspartagundomicilecommunouunersidencecommuneetquelepartenariataexistdudbutlafindelan69">
+                        Nous demandons l'imposition collective au sens des articles 3bis et 157ter (5) L.I.R. pour
+                        l'année
+                        d'imposition 2019. Nous déclarons que nous<br>avons partagé un domicile commun ou une résidence
+                        commune et que le partenariat a existé du début à la fin de l'année d'imposition 2019.
+                    </div>
+                    <div class="partenairesrsidentsetnonrsidents70">
+                        Partenaires (résidents et non-résidents)
+                    </div>
+                    <div
+                        class="ensignantlaprsentedclarationpourlimptsurlerevenuensembleaveclecontribuablersidentlapersonnenonrsidentedemandetreimposecollectivementavecsonconjointenvertudelarticle3dlirettreimposecommesielleavait71">
+                        En signant la présente déclaration pour l'impôt sur le revenu ensemble avec le contribuable
+                        résident, la personne non résidente demande à <br>être imposée collectivement avec son conjoint
+                        en
+                        vertu de l'article 3 d) L.I.R. et à être imposée comme si elle avait été contribuable
+                        résident<br>(article 6 (4) L.I.R.). Les revenus annuels du conjoint non résident sont à
+                        justifier
+                        par des documents probants.
+                    </div>
+                    <div
+                        class="nousdemandonslimpositioncollectiveausensdelarticle3dlirpourlannedimposition2019nousdclaronsquaumoins90desrevenusprofessionnelsdenotremnagesontralisspendantlannedimpositionparlecontribuablersidentaulux72">
+                        Nous demandons l'imposition collective au sens de l'article 3 d) L.I.R. pour l'année
+                        d'imposition
+                        2019. Nous déclarons qu'au moins 90% des<br>revenus professionnels de notre ménage sont réalisés
+                        pendant l'année d'imposition par le contribuable résident au Luxembourg.
+                    </div>
+                    <div class="epouxdontlunestcontribuablersidentetlautreunepersonnenonrsidente73">
+                        Epoux dont l'un est contribuable résident et l'autre une personne non résidente
+                    </div>
+                    <div class="o74">
+                        O
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<script>
+    $('.form-input > *').hide();
+    if (localStorage.activePage) {
+        $('#page' + localStorage.activePage).show();
+    }
+    else {
+        $('#page1').show();
+    }
+    function navPage(p, e) {
+        $('.form-input > *').hide();
+        $('#page' + p).show();
+        localStorage.setItem('activePage', p);
+        $('.left-nav .w3-button, .w3-dropdown-click').removeClass('active');
+        $('.w3-dropdown-content').hide();
+        if (e.className.indexOf("active") == -1) {
+            e.className += " active";
+        } else {
+            e.className = e.className.replace(" active", "");
+        }
+    }
+    function submitInfo(e) {
+        let form = e.target;
+        let id = location.href.split('id=')[1];
+        axios.post('api/infoupdate/' + id, $(form).serializeArray())
+            .then(res => {
+                console.log(res.data)
+            })
+            .catch(err => console.log('Err', err.message));
+    }
+</script>
