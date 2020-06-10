@@ -4,92 +4,92 @@ module.exports = function(info) {
             a: [
                 {
                     nom: info['2d1'],
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: ''
+                    prenom: info['2d2'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d']
                 },
                 {
-                    nom: '',
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: ''
+                    nom: info['2d'],
+                    prenom: info['2d'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d']
                 },
                 {
-                    nom: '',
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: ''
+                    nom: info['2d'],
+                    prenom: info['2d'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d']
                 },
                 {
-                    nom: '',
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: ''
+                    nom: info['2d'],
+                    prenom: info['2d'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d']
                 }
             ],
             b: [
                 {
-                    nom: '',
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: '',
-                    specification_formation: ''
+                    nom: info['2d'],
+                    prenom: info['2d'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d'],
+                    specification_formation: info['2d']
                 },
                 {
-                    nom: '',
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: '',
-                    specification_formation: ''
+                    nom: info['2d'],
+                    prenom: info['2d'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d'],
+                    specification_formation: info['2d']
                 },
                 {
-                    nom: '',
-                    prenom: '',
-                    date_de_naissance: '',
-                    demande_moderation: '',
-                    specification_formation: ''
+                    nom: info['2d'],
+                    prenom: info['2d'],
+                    date_de_naissance: info['2d'],
+                    demande_moderation: info['2d'],
+                    specification_formation: info['2d']
                 }
             ],
             c: {
-                nom: '',
-                prenom: '',
-                date_de_naissance: '',
-                demande_moderation: ''
+                nom: info['2d'],
+                prenom: info['2d'],
+                date_de_naissance: info['2d'],
+                demande_moderation: info['2d']
             }, demande_cim: {
-                is_demande_cim: '',
+                is_demande_cim: info['2d'],
                 table: [
                     {
-                        nom_prenom: '',
-                        montant_mensuel_allocation: ''
+                        nom_prenom: info['2d'],
+                        montant_mensuel_allocation: info['2d']
                     },
                     {
-                        nom_prenom: '',
-                        montant_mensuel_allocation: ''
+                        nom_prenom: info['2d'],
+                        montant_mensuel_allocation: info['2d']
                     },
                     {
-                        nom_prenom: '',
-                        montant_mensuel_allocation: ''
+                        nom_prenom: info['2d'],
+                        montant_mensuel_allocation: info['2d']
                     }
                 ],
                 moyens_subsistance: [
                     {
-                        subsistance1: ''
+                        subsistance1: info['2d']
                     },
                     {
-                        subsistance2: ''
+                        subsistance2: info['2d']
                     }
                 ]
             },
             demande_bonification_impot: {
-                is_demande_bonification_impot: '',
+                is_demande_bonification_impot: info['2d'],
                 table: [
                     {
-                        nom_prenom: '',
-                        date_de_naissance: ''
+                        nom_prenom: info['2d'],
+                        date_de_naissance: info['2d']
                     },
                     {
-                        nom_prenom: '',
-                        date_de_naissance: ''
+                        nom_prenom: info['2d'],
+                        date_de_naissance: info['2d']
                     }
                 ]
             }

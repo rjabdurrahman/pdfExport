@@ -20,7 +20,7 @@
                 </thead>
                 <tbody>
                     <tr ng-repeat="client in clients track by $index">
-                        <td>8930230230</td>
+                        <td>{{client.signaletique.numero_de_dossier}}</td>
                         <td>
                             <a href="/#/info?id={{client._id}}">
                                 {{client.signaletique.contribuable.nom}}
