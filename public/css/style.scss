@@ -46,9 +46,7 @@ body {
             }
 
             &.active {
-                -webkit-box-shadow: inset 0px 0px 15px -5px rgba(0, 0, 0, 1);
-                -moz-box-shadow: inset 0px 0px 15px -5px rgba(0, 0, 0, 1);
-                box-shadow: inset 0px 0px 15px -5px rgba(0, 0, 0, 1);
+                font-weight: bold;
             }
         }
     }
@@ -417,3 +415,5 @@ input[type="text"]:disabled:hover {
         font-size: 16px;
     }
 }
+
+@import 'page1', 'page2', 'page3', 'page4', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11', 'page12', 'page13', 'page14', 'page15', 'page16', 'page17', 'page18', 'page19', 'page20'
