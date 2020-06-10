@@ -49,8 +49,7 @@ body {
 }
 
 #clientModal .select-user label.active {
-  -webkit-box-shadow: inset 0px 0px 15px -5px black;
-  box-shadow: inset 0px 0px 15px -5px black;
+  font-weight: bold;
 }
 
 #clientModal table td {
