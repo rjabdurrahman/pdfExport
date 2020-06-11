@@ -10,7 +10,6 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
         .when('/info', {
             templateUrl: 'pages/info1.html',
             controller: 'InfoCtrl',
-            // css: 'css/page1.css',
             activetab: 'page1'
         })
         .otherwise({ redirectTo: '/' });

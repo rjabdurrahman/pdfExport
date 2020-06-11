@@ -1,40 +1,61 @@
 <div id="page1" class="a01 anima-word-break ">
     <div style="width: 1041px; height: 100%; position:relative; margin:auto;">
-        <input name="1d40" type="text" class="a1400" value="v37">
-        <input name="1d39" type="text" class="a1391" value="v36">
-        <input name="1d38" type="text" class="a1382" value="v35">
-        <input name="1d37" type="text" class="a1373" value="v34">
-        <input name="1d36" type="text" class="a1364" value="v33">
-        <input name="1d35" type="text" class="a1355" value="v32">
-        <input name="1d34" type="text" class="a1346" value="v31">
-        <input name="1d33" type="text" class="a1337" value="v30">
-        <input name="1d32" type="text" class="a1328" value="v29">
-        <input name="1d31" type="text" class="a1319" value="v28">
-        <input name="1d30" type="text" class="a13010" value="v27">
-        <input name="1d29" type="text" class="a12911" value="v26">
-        <input name="1d28" type="text" class="a12812" value="v25">
-        <input name="1d27" type="text" class="a12713" value="v24">
-        <input name="1d26" type="text" class="a12614" value="v23">
-        <input name="1d25" type="text" class="a12515" value="v22">
-        <input name="1d24" type="text" class="a12416" value="v21">
-        <input name="1d23" type="text" class="a12317" value="v20">
-        <input name="1d22" type="text" class="a12218" value="v19">
-        <input name="1d21" type="text" class="a12119" value="v18">
-        <input name="1d20" type="text" class="a12020" value="v17">
-        <input name="1d19" type="text" class="a11921" value="v16">
-        <input name="1d18" type="text" class="a11822" value="v15">
-        <input name="1d17" type="text" class="a11723" value="v14">
-        <input name="1d16" type="text" class="a11624" value="v13">
-        <input name="1d15" type="text" class="a11525" value="v12">
+        <input name="1d40" type="text" class="a1400" value="{{client.signaletique.coordonnes_bancaires.swift_bic}}">
+        <input name="1d39" type="text" class="a1391" value="{{client.signaletique.coordonnes_bancaires.code_iban}}">
+        <input name="1d38" type="text" class="a1382"
+            value="{{client.signaletique.coordonnes_bancaires.titulaire_du_compte}}">
+        <input name="1d37" type="text" class="a1373"
+            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.pays}}">
+        <input name="1d36" type="text" class="a1364" value="{{client.signaletique.contribuable.domicile.ancien.pays}}">
+        <input name="1d35" type="text" class="a1355"
+            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.localite}}">
+        <input name="1d34" type="text" class="a1346"
+            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.code_postal}}">
+        <input name="1d33" type="text" class="a1337"
+            value="{{client.signaletique.contribuable.domicile.ancien.localite}}">
+        <input name="1d32" type="text" class="a1328"
+            value="{{client.signaletique.contribuable.domicile.ancien.code_postal}}">
+        <input name="1d31" type="text" class="a1319"
+            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.rue}}">
+        <input name="1d30" type="text" class="a13010"
+            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.numero}}">
+        <input name="1d29" type="text" class="a12911" value="{{client.signaletique.contribuable.domicile.ancien.rue}}">
+        <input name="1d28" type="text" class="a12812"
+            value="{{client.signaletique.contribuable.domicile.ancien.numero}}">
+        <input name="1d27" type="text" class="a12713"
+            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.du_au}}">
+        <input name="1d26" type="text" class="a12614"
+            value="{{client.signaletique.contribuable.domicile.ancien.du_au}}">
+        <input name="1d25" type="text" class="a12515"
+            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}">
+        <input name="1d24" type="text" class="a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}">
+        <input name="1d23" type="text" class="a12317"
+            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.localite}}">
+        <input name="1d22" type="text" class="a12218"
+            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.code_postal}}">
+        <input name="1d21" type="text" class="a12119"
+            value="{{client.signaletique.contribuable.domicile.actuel.localite}}">
+        <input name="1d20" type="text" class="a12020"
+            value="{{client.signaletique.contribuable.domicile.actuel.code_postal}}">
+        <input name="1d19" type="text" class="a11921"
+            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.rue}}">
+        <input name="1d18" type="text" class="a11822"
+            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.numero}}">
+        <input name="1d17" type="text" class="a11723" value="{{client.signaletique.contribuable.domicile.actuel.rue}}">
+        <input name="1d16" type="text" class="a11624"
+            value="{{client.signaletique.contribuable.domicile.actuel.numero}}">
+        <input name="1d15" type="text" class="a11525" value="{{client.signaletique.conjoint_partenaire.courriel}}">
         <input name="1d14" type="text" class="a11426" value="{{client.signaletique.contribuable.courriel}}">
-        <input name="1d13" type="text" class="a11327" value="v10">
+        <input name="1d13" type="text" class="a11327" value="{{client.signaletique.conjoint_partenaire.telephone}}">
         <input name="1d12" type="text" class="a11228" value="{{client.signaletique.contribuable.telephone}}">
-        <input name="1d11" type="text" class="a11129" value="v8">
+        <input name="1d11" type="text" class="a11129" value="{{client.signaletique.conjoint_partenaire.profession}}">
         <input name="1d10" type="text" class="a11030" value="{{client.signaletique.contribuable.profession}}">
         <input name="1d9" type="text" class="a10931" value="{{client.signaletique.numero_de_dossier}}">
-        <input name="1d8" type="text" class="a10832" value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
+        <input name="1d8" type="text" class="a10832"
+            value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
         <input name="1d7" type="text" class="a10733" value="{{client.signaletique.contribuable.lieu_de_naissance}}">
-        <input name="1d6" type="text" class="a10634" value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}">
+        <input name="1d6" type="text" class="a10634"
+            value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}">
         <input name="1d5" type="text" class="a10535" value="{{client.signaletique.contribuable.date_de_naissance}}">
         <input name="1d4" type="text" class="a10436" value="{{client.signaletique.conjoint_partenaire.prenom}}">
         <input name="1d3" type="text" class="a10337" value="{{client.signaletique.contribuable.prenom}}">
