@@ -12,7 +12,8 @@
     "devDependencies": {},
     "scripts": {
         "start": "node index",
-        "dev": "nodemon index"
+        "dev": "nodemon index",
+        "html": "node dev/html-compile"
     },
     "repository": {
         "type": "git",

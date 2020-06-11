@@ -3732,6 +3732,13 @@
     </div>
 </form>
 <script>
+    window.onbeforeunload = function (e) {
+            e = e || window.event;
+            if (e) {
+                e.returnValue = 'Sure?';
+            }
+            return 'Sure?';
+        };
     $('.form-input > *').hide();
     if (localStorage.activePage) {
         $('#page' + localStorage.activePage).show();
