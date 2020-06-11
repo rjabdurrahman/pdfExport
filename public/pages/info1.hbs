@@ -6,9 +6,9 @@
             </span>
         </button>
         <label>2019 - {{client.signaletique.contribuable.nom}}</label>
-        <button class="w3-button refresh">
+        <a onclick="resetPage()" class="w3-button refresh">
             <span class="material-icons">refresh</span>&nbsp;Réinitialiser
-        </button>
+        </a>
     </div>
     <div class="flex">
         <div style="z-index: 999;" class="left-nav w3-bar-block">
@@ -67,5 +67,8 @@
                 console.log(res.data)
             })
             .catch(err => console.log('Err', err.message));
+    }
+    function resetPage() {
+        clearForm('.form-input #page' + localStorage.activePage);
     }
 </script>

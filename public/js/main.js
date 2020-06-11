@@ -37,9 +37,11 @@ function lsExGJInit(vname, data) {
     return lsGet(vname) ? lsGetJ(vname) : data;
 }
 
-function clearForms() {
-    $(':input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
-    $(':checkbox, :radio').prop('checked', false);
+function clearForm(target) {
+    console.log('clear')
+    $(target + ' input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
+    $(target + ' checkbox').prop('checked', false);
+    $(target + ' radio').prop('checked', false);
 }
 
 var activeClientId = '';
