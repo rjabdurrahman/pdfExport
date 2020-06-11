@@ -23,22 +23,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 }]);
 
 app.run(function ($rootScope, $http, $route) {
-    $rootScope.clients = [];
     $rootScope.$route = $route;
-
-    function loadClients() {
-        $http({
-            method: 'GET',
-            url: '/api/clients'
-        }).then(function (res) {
-            $rootScope.clients = res.data;
-            $rootScope.$applyAsync();
-        }).catch(function (err) {
-            console.log(err);
-        })
-    };
-
-    loadClients();
     $rootScope.isErr = [];
     $rootScope.submitClient = function (e) {
         let clientForm = e.target;
@@ -95,7 +80,24 @@ app.controller('NavCtrl', function ($scope, $http) {
     console.log('Nav page');
 });
 
-app.controller('ClientsListControler', function ($scope, $http) { });
+app.controller('ClientsListControler', function ($scope, $http) {
+    $scope.clients = clients || [];
+
+    function loadClients() {
+        $http({
+            method: 'GET',
+            url: '/api/clients'
+        }).then(function (res) {
+            $scope.clients = res.data;
+            clients = res.data;
+            $scope.$applyAsync();
+        }).catch(function (err) {
+            console.log(err);
+        })
+    };
+
+    loadClients();
+});
 
 app.controller('ClientControler', function ($scope, $rootScope, $http) {
     let clientId = location.hash.replace('#/client?id=', '');
