@@ -1,0 +1,1143 @@
+.a18 {
+  width: 100%;
+  min-width: 1062px;
+  height: 100vh;
+  min-height: 1011px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.anima-full-width-a {
+  width: 100%;
+}
+
+.anima-full-height-a {
+  height: 100%;
+}
+
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.a18 .a18010 {
+  background-color: #dfe2e5;
+  top: 47px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .checkbox61 {
+  background-color: #dfe2e5;
+  top: 849px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 254px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .checkbox52 {
+  background-color: #dfe2e5;
+  top: 849px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .checkbox43 {
+  background-color: #dfe2e5;
+  top: 783px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 254px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .checkbox34 {
+  background-color: #dfe2e5;
+  top: 783px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .checkbox25 {
+  background-color: #dfe2e5;
+  top: 717px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 254px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .checkbox16 {
+  background-color: #dfe2e5;
+  top: 717px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a18367 {
+  background-color: #dfe2e5;
+  top: 976px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a18358 {
+  background-color: #dfe2e5;
+  top: 838px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 290px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a18349 {
+  background-color: #dfe2e5;
+  top: 838px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 72px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a183310 {
+  background-color: #dfe2e5;
+  top: 772px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 290px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a183211 {
+  background-color: #dfe2e5;
+  top: 772px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 72px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a183112 {
+  background-color: #dfe2e5;
+  top: 706px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 290px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a183013 {
+  background-color: #dfe2e5;
+  top: 706px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 72px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182914 {
+  background-color: #dfe2e5;
+  top: 511px;
+  height: 42px;
+  width: 272px;
+  position: absolute;
+  margin: 0;
+  left: 730px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182815 {
+  background-color: #dfe2e5;
+  top: 511px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182716 {
+  background-color: #dfe2e5;
+  top: 511px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182617 {
+  background-color: #dfe2e5;
+  top: 511px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182518 {
+  background-color: #dfe2e5;
+  top: 469px;
+  height: 42px;
+  width: 272px;
+  position: absolute;
+  margin: 0;
+  left: 730px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182419 {
+  background-color: #dfe2e5;
+  top: 469px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182320 {
+  background-color: #dfe2e5;
+  top: 469px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182221 {
+  background-color: #dfe2e5;
+  top: 469px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182122 {
+  background-color: #dfe2e5;
+  top: 427px;
+  height: 42px;
+  width: 272px;
+  position: absolute;
+  margin: 0;
+  left: 730px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182023 {
+  background-color: #dfe2e5;
+  top: 427px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181924 {
+  background-color: #dfe2e5;
+  top: 427px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181825 {
+  background-color: #dfe2e5;
+  top: 427px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181726 {
+  background-color: #dfe2e5;
+  top: 385px;
+  height: 42px;
+  width: 272px;
+  position: absolute;
+  margin: 0;
+  left: 730px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181627 {
+  background-color: #dfe2e5;
+  top: 385px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181528 {
+  background-color: #dfe2e5;
+  top: 385px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181429 {
+  background-color: #dfe2e5;
+  top: 385px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181330 {
+  background-color: #dfe2e5;
+  top: 292px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181231 {
+  background-color: #dfe2e5;
+  top: 292px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181132 {
+  background-color: #dfe2e5;
+  top: 292px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181033 {
+  background-color: #dfe2e5;
+  top: 250px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180934 {
+  background-color: #dfe2e5;
+  top: 250px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180835 {
+  background-color: #dfe2e5;
+  top: 250px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180736 {
+  background-color: #dfe2e5;
+  top: 208px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180637 {
+  background-color: #dfe2e5;
+  top: 208px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180538 {
+  background-color: #dfe2e5;
+  top: 208px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180439 {
+  background-color: #dfe2e5;
+  top: 166px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 582px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180340 {
+  background-color: #dfe2e5;
+  top: 166px;
+  height: 42px;
+  width: 248px;
+  position: absolute;
+  margin: 0;
+  left: 334px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180241 {
+  background-color: #dfe2e5;
+  top: 166px;
+  height: 42px;
+  width: 298px;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .demandepourunebonificationdimptpourinvestissementencapitalrisqueartvidelaloidu22dcembre1993loriginalducertificatmisparlesministresayantdansleursattributionslesfinancesetleconomieestjoindre42 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 978px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 72px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .investissementencapitalrisque43 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 940px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a18 .veuillezindiquerlemontantdelabattementrduitdetouteaidedirectedeletatoudunorganismepublicluxembourgeoisoutranger44 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 892px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .unevoitureautomobilepersonneslectriquehybriderechargeable45 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 852px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 479px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .a46 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 852px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 458px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .uncycleavecousanspdalageassist47 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 786px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 479px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .a48 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 786px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 458px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .unevoitureautomobilepersonneszromissionsderoulementquifonctionneexclusivementllectricitouexclusivementavecunepilecombustiblehydrogne49 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 708px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 479px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .a50 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 706px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 458px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .contribuableconjointpartenaire51 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 668px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 298px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a18 .contribuable52 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 676px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 101px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .demandepourunabattementderevenuimposablepourmobilitdurableselonlarticle129dlirpourlacquisitiondunvhiculeneufciaprs53 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 622px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .mobilitdurable54 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 584px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a18 .enfantsgsdaumoins21ansau112019dontjaisupportprincipalementplusde50lesfraisdentretienetlesdpensesrelativesauxtudes55 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 348px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .b56 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 346px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .enfantsgsdemoinsde21ansau112019ounsencoursdelannedontjaisupportprincipalementplusde50lesfraisdentretienetdducation57 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 128px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 66px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .a58 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 128px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .spcificationdelaformationprofessionnelle59 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 90px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 766px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a18 .montantannueldesfrais60 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 90px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 586px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a18 .datedenaissancendidentification61 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 90px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 377px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a18 .nometprnomdelenfant62 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 98px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 91px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune63 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 48px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune63 .span0 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune63 .span1 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune63 .span2 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a18 .ce64 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1021px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28.0px;
+  color: black;
+  text-align: left;
+  line-height: 28.0px;
+}
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events: none;
+}
+
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events: auto;
+}
+
+.anima-hidden,
+.anima-hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility: hidden !important;
+}
+
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor: pointer;
+}
+
+.anima-word-break {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
+/*# sourceMappingURL=page18.css.map */
