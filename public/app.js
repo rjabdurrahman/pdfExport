@@ -63,6 +63,7 @@ app.run(function ($rootScope, $http, $route) {
             data: client
         }).then(function (res) {
             notify('Client Added Successfully!', 1);
+            $(clientForm)[0].reset();
             loadClients();
             closeAddClientModal();
             $rootScope.$applyAsync();
@@ -84,103 +85,9 @@ app.run(function ($rootScope, $http, $route) {
         })
     }
 });
+
 app.component('leftNav', {
     templateUrl: '/components/leftnav.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page1', {
-    templateUrl: '/pages/identification.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page2', {
-    templateUrl: '/pages/enfants.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page3', {
-    templateUrl: '/pages/etat_civil.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page4', {
-    templateUrl: '/pages/expouse.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page5', {
-    templateUrl: '/pages/page5.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page6', {
-    templateUrl: '/pages/page6.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page7', {
-    templateUrl: '/pages/page7.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page8', {
-    templateUrl: '/pages/page8.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page9', {
-    templateUrl: '/pages/page9.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page10', {
-    templateUrl: '/pages/page10.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page11', {
-    templateUrl: '/pages/page11.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page12', {
-    templateUrl: '/pages/page12.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page13', {
-    templateUrl: '/pages/page13.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page14', {
-    templateUrl: '/pages/page14.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page15', {
-    templateUrl: '/pages/page15.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page16', {
-    templateUrl: '/pages/page16.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page17', {
-    templateUrl: '/pages/page17.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page19', {
-    templateUrl: '/pages/page19.html',
-    controller: 'NavCtrl'
-});
-
-app.component('page20', {
-    templateUrl: '/pages/page20.html',
     controller: 'NavCtrl'
 });
 

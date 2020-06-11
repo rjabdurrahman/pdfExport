@@ -50,7 +50,7 @@
                     <span style="font-size: 28px; margin-top: 6px;" class="material-icons-outlined">person_add</span>
                 </div>
                 <div>Nouveau client</div>
-                <div class="close" onclick="closeAddClientModal()">
+                <div class="close" onclick="closeAddClientModal();$('#clientModal>form')[0].reset();">
                     <span class="material-icons">
                         close
                     </span>
