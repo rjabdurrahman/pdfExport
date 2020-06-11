@@ -29,7 +29,7 @@ router.post('/infoupdate/:id', (req, res) => {
     let info = {};
     console.log(req.body)
     req.body.forEach(x => info[x.name] = x.value);
-    let data = {...page1(info), ...page2(info), ...page3(info), ...page4(info), ...page5(info)};
+    let data = {...page1(info), ...page2(info), ...page3(info), ...page4(info), ...page5(info), ...page6(info)};
     console.log(data)
     Client.findOneAndUpdate({ "_id": ObjectID(id) }, data, { upsert: true }, (err, result) => {
         if (err) res.send(err)
