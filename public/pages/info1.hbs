@@ -74,6 +74,9 @@
     $('input').keyup(function () {
         isSaveAlive(true);
     })
+    $('input[type="checkbox"]').change(function () {
+        isSaveAlive(true);
+    })
     /* window.onbeforeunload = function (e) {
         e = e || window.event;
         if (e) {
