@@ -88,8 +88,7 @@ app.controller('ClientsListControler', function ($scope, $http) {
             method: 'GET',
             url: '/api/clients'
         }).then(function (res) {
-            $scope.clients = res.data;
-            clients = res.data;
+            $scope.clients = clients = res.data;
             $scope.$applyAsync();
         }).catch(function (err) {
             console.log(err);
