@@ -1,4 +1,8 @@
 let clients = [];
+function isSaveAlive(val) {
+    document.querySelector('#submitInfoBtn').disabled = !val;
+}
+
 if (!location.href.includes('/info')) localStorage.setItem('activePage', 1);
 $('a').click(function () {
     console.log('clicked')
