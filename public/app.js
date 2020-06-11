@@ -8,7 +8,7 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
             activetab: 'home'
         })
         .when('/info', {
-            templateUrl: 'pages/info.html',
+            templateUrl: 'pages/info1.html',
             controller: 'InfoCtrl',
             // css: 'css/page1.css',
             activetab: 'page1'

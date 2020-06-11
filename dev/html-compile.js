@@ -3,7 +3,7 @@ const config = require('./html-config.json');
 let importsRegx = /{{<.+}}$/gm
 let html = '';
 let dir = config.rootDir;
-fs.readFile(dir + 'info1.html', 'UTF-8', (err, text) => {
+fs.readFile(dir + 'info1.hbs', 'UTF-8', (err, text) => {
     if (err) console.log(err.message)
     html = text
     for (e of text.match(importsRegx)) {
