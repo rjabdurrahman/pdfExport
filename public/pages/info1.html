@@ -4206,13 +4206,17 @@
         }
     }
     function submitInfo(e) {
+        isSaveAlive(false);
         let form = e.target;
         let id = location.href.split('id=')[1];
         axios.post('api/infoupdate/' + id, $(form).serializeArray())
             .then(res => {
-                console.log(res.data)
+                if(!res.err) notify('Updated Successfully!', 1);
             })
-            .catch(err => console.log('Err', err.message));
+            .catch(err => {
+                notify(err.message, 2);
+                isSaveAlive(true);
+            });
     }
     function resetPage() {
         clearForm('.form-input #page' + localStorage.activePage);
