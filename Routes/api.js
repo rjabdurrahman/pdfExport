@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const Client = require('../Models/Client');
 let ObjectID = require('mongodb').ObjectID;
+let serializeInfo = require('../assets/serializeInfo');
 let client = require('../assets/client');
 let page1 = require('../assets/page1');
 let page2 = require('../assets/page2');
@@ -66,7 +67,17 @@ router.get('/clients', (req, res) => {
 // Genterate PDF
 router.get('/pdf/:id', (req, res) => {
     let id = req.params.id;
-    res.send('Your Id is:' + id)
+    let serialData = serializeInfo({
+        signaletique: {
+            numero_de_dossier: '83393927292',
+            contribuable: {
+                nom: 'Rahman',
+                prenom: 'Abdur'
+            }
+        }
+    });
+    console.log(serialData)
+    res.send('Your Id is:' + id);
     // Client.findById(id, (err, client) => {
     //     if (err) res.send(err)
     //     else res.send(client)

@@ -1,0 +1,47 @@
+// const _ = require('lodash');
+module.exports = function serializeInfo(client) {
+    return {
+        // Page 1
+        ['1d40']: client.signaletique.coordonnes_bancaires.swift_bic,
+        ['1d39']: client.signaletique.coordonnes_bancaires.code_iban,
+        ['1d38']: client.signaletique.coordonnes_bancaires.titulaire_du_compte,
+        ['1d37']: client.signaletique.conjoint_partenaire.domicile.ancien.pays,
+        ['1d36']: client.signaletique.contribuable.domicile.ancien.pays,
+        ['1d35']: client.signaletique.conjoint_partenaire.domicile.ancien.localite,
+        ['1d34']: client.signaletique.conjoint_partenaire.domicile.ancien.code_postal,
+        ['1d33']: client.signaletique.contribuable.domicile.ancien.localite,
+        ['1d32']: client.signaletique.contribuable.domicile.ancien.code_postal,
+        ['1d31']: client.signaletique.conjoint_partenaire.domicile.ancien.rue,
+        ['1d30']: client.signaletique.conjoint_partenaire.domicile.ancien.numero,
+        ['1d29']: client.signaletique.contribuable.domicile.ancien.rue,
+        ['1d28']: client.signaletique.contribuable.domicile.ancien.numero,
+        ['1d27']: client.signaletique.conjoint_partenaire.domicile.ancien.du_au,
+        ['1d26']: client.signaletique.contribuable.domicile.ancien.du_au,
+        ['1d25']: client.signaletique.conjoint_partenaire.domicile.actuel.pays,
+        ['1d24']: client.signaletique.contribuable.domicile.actuel.pays,
+        ['1d23']: client.signaletique.conjoint_partenaire.domicile.actuel.localite,
+        ['1d22']: client.signaletique.conjoint_partenaire.domicile.actuel.code_postal,
+        ['1d21']: client.signaletique.contribuable.domicile.actuel.localite,
+        ['1d20']: client.signaletique.contribuable.domicile.actuel.code_postal,
+        ['1d19']: client.signaletique.conjoint_partenaire.domicile.actuel.rue,
+        ['1d18']: client.signaletique.conjoint_partenaire.domicile.actuel.numero,
+        ['1d17']: client.signaletique.contribuable.domicile.actuel.rue,
+        ['1d16']: client.signaletique.contribuable.domicile.actuel.numero,
+        ['1d15']: client.signaletique.conjoint_partenaire.courriel,
+        ['1d14']: client.signaletique.contribuable.courriel,
+        ['1d13']: client.signaletique.conjoint_partenaire.telephone,
+        ['1d12']: client.signaletique.contribuable.telephone,
+        ['1d11']: client.signaletique.conjoint_partenaire.profession,
+        ['1d10']: client.signaletique.contribuable.profession,
+        ['1d9']: client.signaletique.numero_de_dossier,
+        ['1d8']: client.signaletique.conjoint_partenaire.lieu_de_naissance,
+        ['1d7']: client.signaletique.contribuable.lieu_de_naissance,
+        ['1d6']: client.signaletique.conjoint_partenaire.date_de_naissance,
+        ['1d5']: client.signaletique.contribuable.date_de_naissance,
+        ['1d4']: client.signaletique.conjoint_partenaire.prenom,
+        ['1d3']: client.signaletique.contribuable.prenom,
+        ['1d2']: client.signaletique.conjoint_partenaire.nom,
+        ['1d1']: client.signaletique.contribuable.nom
+        // Page 2
+    }
+}
