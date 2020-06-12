@@ -11,7 +11,8 @@
         </a>
     </div>
     <div class="flex">
-        <div style="z-index: 999;" class="left-nav w3-bar-block">
+        <div style="position: sticky; top: 50px; height: calc(100vh - 50px); overflow: scroll;"
+            class="left-nav w3-bar-block">
             <left-nav></left-nav>
         </div>
         <div class="form-input">
@@ -65,7 +66,7 @@
         let id = location.href.split('id=')[1];
         axios.post('api/infoupdate/' + id, $(form).serializeArray())
             .then(res => {
-                if(!res.err) notify('Updated Successfully!', 1);
+                if (!res.err) notify('Updated Successfully!', 1);
             })
             .catch(err => {
                 notify(err.message, 2);
