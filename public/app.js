@@ -23,7 +23,19 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
 
 app.run(function ($rootScope, $http, $route) {
     $rootScope.$route = $route;
-    $rootScope.isErr = [];
+    $rootScope.clients = [];
+    $rootScope.loadClients = function () {
+        $http({
+            method: 'GET',
+            url: '/api/clients'
+        }).then(function (res) {
+            $rootScope.clients = res.data;
+            $rootScope.$applyAsync();
+        }).catch(function (err) {
+            console.log(err);
+        })
+    };
+    $rootScope.loadClients();
     $rootScope.submitClient = function (e) {
         let clientForm = e.target;
         let client = {
@@ -32,15 +44,6 @@ app.run(function ($rootScope, $http, $route) {
             telephone: clientForm['telephone'].value,
             courriel: clientForm['courriel'].value
         }
-        if (client.nom == '') {
-            $rootScope.isErr.push('nom');
-            return;
-        };
-        if (client.prenom == '') {
-            $rootScope.isErr.push('prenom');
-            return;
-        };
-        console.log(client)
         $http({
             method: 'POST',
             url: '/api/addclient',
@@ -48,8 +51,8 @@ app.run(function ($rootScope, $http, $route) {
         }).then(function (res) {
             notify('Client Added Successfully!', 1);
             $(clientForm)[0].reset();
-            loadClients();
             closeAddClientModal();
+            $rootScope.loadClients();
             $rootScope.$applyAsync();
         }).catch(function (err) {
             notify('Something Went Wrong!', 2);
@@ -79,20 +82,6 @@ app.controller('NavCtrl', function ($scope, $http) {
     console.log('Nav page');
 });
 
-app.controller('ClientsListControler', function ($scope, $http) {
-    $scope.clients = clients || [];
-
-    function loadClients() {
-        $http({
-            method: 'GET',
-            url: '/api/clients'
-        }).then(function (res) {
-            $scope.clients = clients = res.data;
-            $scope.$applyAsync();
-        }).catch(function (err) {
-            console.log(err);
-        })
-    };
-
-    loadClients();
+app.controller('ClientsListControler', function ($rootScope, $http) {
+    $rootScope.loadClients();
 });

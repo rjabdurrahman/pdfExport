@@ -1,4 +1,3 @@
-let clients = [];
 function isSaveAlive(val) {
     document.querySelector('#submitInfoBtn').disabled = !val;
 }
