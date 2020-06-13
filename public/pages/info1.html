@@ -5,7 +5,7 @@
                 save
             </span>
         </button>
-        <label>2019 - {{client.signaletique.contribuable.nom}}</label>
+        <label>2019 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
         <a onclick="resetPage()" class="w3-button refresh">
             <span class="material-icons">refresh</span>&nbsp;Réinitialiser
         </a>
@@ -4224,6 +4224,7 @@
     }
     function resetPage() {
         clearForm('.form-input #page' + localStorage.activePage);
+        isSaveAlive(true);
     }
     $('input').keyup(function () {
         isSaveAlive(true);
