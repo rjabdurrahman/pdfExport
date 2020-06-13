@@ -51,6 +51,9 @@
     function navPage(p, e) {
         $('.form-input > *').hide();
         $('#page' + p).show();
+        $('html, body').animate({
+            scrollTop: 0
+        }, 300);
         localStorage.setItem('activePage', p);
         $('.left-nav .w3-button, .w3-dropdown-click').removeClass('active');
         $('.w3-dropdown-content').hide();
