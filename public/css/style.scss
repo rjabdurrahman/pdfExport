@@ -183,6 +183,22 @@ header {
     min-height: calc(100vh - 70.4px);
     font-size: 15px;
     background-color: #F4F5F6;
+
+    a {
+        display: flex !important;
+        padding-left: 12px !important;
+        span {
+            display: inline-flex;
+            font-size: 16px;
+            height: 100%;
+            align-self: center;
+            margin-right: 4px;
+            color: #F4F5F6;
+        }
+        label {
+            display: inline-block;
+        }
+    }
     
     .w3-button {
         white-space: normal;
