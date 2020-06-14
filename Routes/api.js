@@ -102,7 +102,7 @@ router.get('/pdf/:id', (req, res) => {
                 //     return;
                 // }
                 // res.send(`stdout: ${stdout}`);
-                res.sendFile('../pdf/client_files/abc.pdf');
+                res.sendFile(__dirname + '../pdf/client_files/abc.pdf');
             });
         }
     });
