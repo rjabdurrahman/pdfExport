@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const path = require('path');
 const fs = require('fs');
 const { exec } = require("child_process");
 const Client = require('../Models/Client');
@@ -102,7 +103,7 @@ router.get('/pdf/:id', (req, res) => {
                 //     return;
                 // }
                 // res.send(`stdout: ${stdout}`);
-                res.sendFile(__dirname + '../pdf/client_files/abc.pdf');
+                res.sendFile(path.resolve('./pdf/client_files/abc.pdf'));
             });
         }
     });
