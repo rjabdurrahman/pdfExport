@@ -91,9 +91,19 @@ router.get('/pdf/:id', (req, res) => {
             for (f in serialData) {
                 fdfText = fdfText.replace(f, serialData[f]);
             }
-            // console.log(fdfText)
             fs.writeFileSync('./pdf/data_bind.fdf', fdfText, 'utf8');
-            res.send(client);
+            exec(`chmod u+x /app/vendor/pdftk/bin/pdftk && pdftk ./pdf/2019.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
+                if (error) {
+                    res.send(`error: ${error.message}`);
+                    return;
+                }
+                // if (stderr) {
+                //     res.send(`stderr: ${stderr}`);
+                //     return;
+                // }
+                // res.send(`stdout: ${stdout}`);
+                res.sendFile(__dirname + `/pdf/client_files/abc.pdf`);
+            });
         }
     });
 })
