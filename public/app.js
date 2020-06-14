@@ -82,6 +82,19 @@ app.controller('NavCtrl', function ($scope, $http) {
     console.log('Nav page');
 });
 
-app.controller('ClientsListControler', function ($rootScope, $http) {
+app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     $rootScope.loadClients();
+    $scope.deleteClient = function (e) {
+        console.log('Id is', e.target.id);
+        $http.post('api/delete/' + e.target.id)
+            .then(res => {
+                if (!res.data.err)
+                    notify('Deleted Successfully!', 1);
+                else notify(res.data.err.message, 2);
+                $rootScope.loadClients();
+            })
+            .catch(err => {
+                notify(err.message, 2);
+            })
+    }
 });

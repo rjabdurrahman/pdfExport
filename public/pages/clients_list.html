@@ -31,18 +31,17 @@
                         <td>{{client.signaletique.contribuable.courriel}}</td>
                         <td>2019</td>
                         <td style="width: 50px;" class="w3-center">
-                            <a href="/#/info?id={{client._id}}">
+                            <a style="text-decoration: none;" href="/#/info?id={{client._id}}">
                                 <span class="material-icons">
                                     create
                                 </span>
                             </a>
                         </td>
                         <td style="width: 50px;" class="w3-center">
-                            <a href="#" class="w3-text-red">
-                                <span class="material-icons">
-                                    delete
-                                </span>
-                            </a>
+                            <span style="cursor: pointer;" id="{{client._id}}" ng-click="deleteClient($event)"
+                                class="w3-text-red material-icons">
+                                delete
+                            </span>
                         </td>
                         <td style="width: 50px;" class="w3-center">
                             <a href="#">
