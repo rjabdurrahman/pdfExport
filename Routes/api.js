@@ -101,8 +101,8 @@ router.get('/pdf/:id', (req, res) => {
                 //     res.send(`stderr: ${stderr}`);
                 //     return;
                 // }
-                // res.send(`stdout: ${stdout}`);
-                res.sendFile(__dirname + `/pdf/client_files/abc.pdf`);
+                res.send(`stdout: ${stdout}`);
+                // res.sendFile('./pdf/client_files/abc.pdf');
             });
         }
     });
