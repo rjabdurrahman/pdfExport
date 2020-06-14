@@ -1,7 +1,9 @@
 const router = require('express').Router();
+const fs = require('fs');
 const Client = require('../Models/Client');
 let ObjectID = require('mongodb').ObjectID;
 let serializeInfo = require('../assets/serializeInfo');
+let fdfText = require('../pdf/fdfText');
 let client = require('../assets/client');
 let page1 = require('../assets/page1');
 let page2 = require('../assets/page2');
@@ -67,12 +69,15 @@ router.get('/clients', (req, res) => {
 // Genterate PDF
 router.get('/pdf/:id', (req, res) => {
     let id = req.params.id;
-    // res.send('Your Id is:' + id);
     Client.findById(id, (err, client) => {
         if (err) res.send(err)
         else {
             let serialData = serializeInfo(client._doc);
-            console.log(serialData)
+            for(f in serialData) {
+                fdfText = fdfText.replace(f, serialData[f]);
+            }
+            // console.log(fdfText)
+            fs.writeFileSync('./pdf/data_bind.fdf', fdfText, 'utf8');
             res.send(client);
         }
     });
