@@ -92,18 +92,22 @@ router.get('/pdf/:id', (req, res) => {
             for (f in serialData) {
                 fdfText = fdfText.replace(f, serialData[f]);
             }
-            fs.writeFileSync('./pdf/data_bind.fdf', fdfText, 'utf8');
-            exec(`chmod u+x /app/vendor/pdftk/bin/pdftk && pdftk ./pdf/2019.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
-                if (error) {
-                    res.send(`error: ${error.message}`);
-                    return;
+            fs.writeFile('./pdf/data_bind.fdf', fdfText, 'utf8', function (err) {
+                if (err) res.send(err.message)
+                else {
+                    exec(`chmod u+x /app/vendor/pdftk/bin/pdftk && pdftk ./pdf/2019.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
+                        if (error) {
+                            res.send(`error: ${error.message}`);
+                            return;
+                        }
+                        // if (stderr) {
+                        //     res.send(`stderr: ${stderr}`);
+                        //     return;
+                        // }
+                        // res.send(`stdout: ${stdout}`);
+                        res.sendFile(path.resolve('./pdf/client_files/abc.pdf'));
+                    });
                 }
-                // if (stderr) {
-                //     res.send(`stderr: ${stderr}`);
-                //     return;
-                // }
-                // res.send(`stdout: ${stdout}`);
-                res.sendFile(path.resolve('./pdf/client_files/abc.pdf'));
             });
         }
     });
