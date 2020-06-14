@@ -16,6 +16,7 @@
     "scripts": {
         "start": "node index",
         "dev": "nodemon index",
+        "push": "git push heroku master",
         "html": "node dev/html-compile"
     },
     "repository": {
