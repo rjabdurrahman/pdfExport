@@ -67,21 +67,15 @@ router.get('/clients', (req, res) => {
 // Genterate PDF
 router.get('/pdf/:id', (req, res) => {
     let id = req.params.id;
-    let serialData = serializeInfo({
-        signaletique: {
-            numero_de_dossier: '83393927292',
-            contribuable: {
-                nom: 'Rahman',
-                prenom: 'Abdur'
-            }
+    // res.send('Your Id is:' + id);
+    Client.findById(id, (err, client) => {
+        if (err) res.send(err)
+        else {
+            let serialData = serializeInfo(client._doc);
+            console.log(serialData)
+            res.send(client);
         }
     });
-    console.log(serialData)
-    res.send('Your Id is:' + id);
-    // Client.findById(id, (err, client) => {
-    //     if (err) res.send(err)
-    //     else res.send(client)
-    // });
 })
 
 module.exports = router;
