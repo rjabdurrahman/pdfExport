@@ -1,5 +1,6 @@
 const router = require('express').Router();
 const fs = require('fs');
+const { exec } = require("child_process");
 const Client = require('../Models/Client');
 let ObjectID = require('mongodb').ObjectID;
 let serializeInfo = require('../assets/serializeInfo');
@@ -66,6 +67,20 @@ router.get('/clients', (req, res) => {
     });
 })
 
+router.get('/pdftest', (req, res) => {
+    exec("chmod u+x /app/vendor/pdftk/bin/pdftk && pdftk", (error, stdout, stderr) => {
+        if (error) {
+            res.send(`error: ${error.message}`);
+            return;
+        }
+        if (stderr) {
+            res.send(`stderr: ${stderr}`);
+            return;
+        }
+        res.send(`stdout: ${stdout}`);
+    });
+});
+
 // Genterate PDF
 router.get('/pdf/:id', (req, res) => {
     let id = req.params.id;
@@ -73,7 +88,7 @@ router.get('/pdf/:id', (req, res) => {
         if (err) res.send(err)
         else {
             let serialData = serializeInfo(client._doc);
-            for(f in serialData) {
+            for (f in serialData) {
                 fdfText = fdfText.replace(f, serialData[f]);
             }
             // console.log(fdfText)
