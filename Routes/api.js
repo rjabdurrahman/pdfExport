@@ -89,10 +89,11 @@ router.get('/pdf/:id', (req, res) => {
         if (err) res.send(err)
         else {
             let serialData = serializeInfo(client._doc);
+            let newFdfTxt = fdfText + '';
             for (f in serialData) {
-                fdfText = fdfText.replace(f, serialData[f]);
+                newFdfTxt = newFdfTxt.replace(f, serialData[f]);
             }
-            fs.writeFile('./pdf/data_bind.fdf', fdfText, 'utf8', function (err) {
+            fs.writeFile('./pdf/data_bind.fdf', newFdfTxt, 'utf8', function (err) {
                 if (err) res.send(err.message)
                 else {
                     exec(`chmod u+x /app/vendor/pdftk/bin/pdftk && pdftk ./pdf/2019.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
