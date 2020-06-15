@@ -91,7 +91,7 @@ router.get('/pdf/:id', (req, res) => {
             let serialData = serializeInfo(client._doc);
             let newFdfTxt = fdfText + '';
             for (f in serialData) {
-                newFdfTxt = newFdfTxt.replace(f, serialData[f]);
+                newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), serialData[f]);
             }
             fs.writeFile('./pdf/data_bind.fdf', newFdfTxt, 'utf8', function (err) {
                 if (err) res.send(err.message)

@@ -71,6 +71,10 @@
         }
     }
     function submitInfo(e) {
+        let serialized = $('input:checkbox').map(function () {
+            return { name: this.name, value: this.checked ? this.value : "false" };
+        });
+        console.log(serialized)
         isSaveAlive(false);
         let form = e.target;
         let id = location.href.split('id=')[1];
