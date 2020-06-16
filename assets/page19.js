@@ -1,5 +1,62 @@
 module.exports = function(info){
     return {
-        
+        diverse_demandes:{
+            is_selon_report1: info['19d'],
+            is_selon_report2: info['19d'],
+            is_selon_report3: info['19d'],
+            is_le_certificat: info['19d'],
+            contrib: {
+                is_Benefice_commercial: info['19d'],
+                is_Benefice_agricole: info['19d'],
+                is_Benefice_provenant: info['19d'],
+                montant2: info['19d'],
+                montant2: info['19d'],
+                selon_report1: info['19d'],
+                cal1: info['19d'],
+                selon_report2: info['19d'],
+                cal2: info['19d'],
+                selon_report3: info['19d'],
+                cal3: info['19d'],
+                le_certificat: info['19d'],
+                cal4: info['19d'],
+                salaires: info['19d'],
+                pensions: info['19d'],
+                capitaux : info['19d'],
+                cal5: info['19d'],
+                impositions: info['19d'],
+                cal6: info['19d'],
+                annexe: info['19d'],
+                cal7: info['19d'],
+                mobilie: info['19d'],
+                cal8: info['19d'],
+                tantiemes: info['19d']
+            },
+            joint_contrib: {
+                is_Benefice_commercial: info['19d'],
+                is_Benefice_agricole: info['19d'],
+                is_Benefice_provenant: info['19d'],
+                montant2: info['19d'],
+                montant2: info['19d'],
+                selon_report1: info['19d'],
+                cal1: info['19d'],
+                selon_report2: info['19d'],
+                cal2: info['19d'],
+                selon_report3: info['19d'],
+                cal3: info['19d'],
+                le_certificat: info['19d'],
+                cal4: info['19d'],
+                salaires: info['19d'],
+                pensions: info['19d'],
+                capitaux : info['19d'],
+                cal5: info['19d'],
+                impositions: info['19d'],
+                cal6: info['19d'],
+                annexe: info['19d'],
+                cal7: info['19d'],
+                mobilie: info['19d'],
+                cal8: info['19d'],
+                tantiemes: info['19d']
+            }
+        }
     }
 }
