@@ -84,6 +84,10 @@ module.exports = function serializeInfo(client) {
         ['2d4']: _.get(client, 'enfants.a["0"].demande_moderation', 'Off'),
         ['2d8']: _.get(client, 'enfants.a["0"].demande_moderation', 'Off'),
         ['2d12']: _.get(client, 'enfants.a["0"].demande_moderation', 'Off'),
-        ['2d16']: _.get(client, 'enfants.a["0"].demande_moderation', 'Off')
+        ['2d16']: _.get(client, 'enfants.a["0"].demande_moderation', 'Off'),
+        ['2d20']: _.get(client, 'enfants.b["0"].demande_moderation', 'Off'),
+        ['2d25']: _.get(client, 'enfants.b["0"].demande_moderation', 'Off'),
+        ['2d30']: _.get(client, 'enfants.b["0"].demande_moderation', 'Off'),
+        ['2d35']: _.get(client, 'enfants.c.demande_moderation', 'Off')
     }
 }
