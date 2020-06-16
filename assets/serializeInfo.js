@@ -80,6 +80,10 @@ module.exports = function serializeInfo(client) {
         ['2d5']: _.get(client, 'client.enfants.a["1"].nom', ''),
         ['2d3']: _.get(client, 'client.enfants.a["0"].date_de_naissance', ''),
         ['2d2']: _.get(client, 'client.enfants.a["0"].prenom', ''),
-        ['2d1']: _.get(client, 'client.enfants.a["0"].nom', '')
+        ['2d1']: _.get(client, 'client.enfants.a["0"].nom', ''),
+        ['2d4']: _.get(client, 'client.enfants.a["0"].demande_moderation', 'Off'),
+        ['2d8']: _.get(client, 'client.enfants.a["0"].demande_moderation', 'Off'),
+        ['2d12']: _.get(client, 'client.enfants.a["0"].demande_moderation', 'Off'),
+        ['2d16']: _.get(client, 'client.enfants.a["0"].demande_moderation', 'Off')
     }
 }
