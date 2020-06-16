@@ -6,25 +6,25 @@ module.exports = function(info) {
                     nom: info['2d1'],
                     prenom: info['2d2'],
                     date_de_naissance: info['2d3'],
-                    demande_moderation: info['2d']
+                    demande_moderation: info['2d4'] ? info['2d4'] : 'Off'
                 },
                 {
                     nom: info['2d5'],
                     prenom: info['2d6'],
                     date_de_naissance: info['2d7'],
-                    demande_moderation: info['2d']
+                    demande_moderation: info['2d8'] ? info['2d8'] : 'Off'
                 },
                 {
                     nom: info['2d9'],
                     prenom: info['2d10'],
                     date_de_naissance: info['2d11'],
-                    demande_moderation: info['2d']
+                    demande_moderation: info['2d12'] ? info['2d12'] : 'Off'
                 },
                 {
                     nom: info['2d13'],
                     prenom: info['2d14'],
                     date_de_naissance: info['2d15'],
-                    demande_moderation: info['2d']
+                    demande_moderation: info['2d16'] ? info['2d16'] : 'Off'
                 }
             ],
             b: [
@@ -32,14 +32,14 @@ module.exports = function(info) {
                     nom: info['2d17'],
                     prenom: info['2d18'],
                     date_de_naissance: info['2d19'],
-                    demande_moderation: info['2d'],
+                    demande_moderation: info['2d20'] ? info['2d20'] : 'Off',
                     specification_formation: info['2d21']
                 },
                 {
                     nom: info['2d22'],
                     prenom: info['2d23'],
                     date_de_naissance: info['2d24'],
-                    demande_moderation: info['2d'],
+                    demande_moderation: info['2d24'] ? info['2d24'] : 'Off',
                     specification_formation: info['2d26']
                 },
                 {

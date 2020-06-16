@@ -73,8 +73,14 @@
     function submitInfo(e) {
         isSaveAlive(false);
         let form = e.target;
+        let info = $(form).serializeArray();
+        $('input:checkbox').each(function () {
+            let idx = info.findIndex(x => x.name == this.name);
+            if (idx > -1) info[idx].value = this.checked ? 'Yes' : 'Off';
+        });
+        console.log(info)
         let id = location.href.split('id=')[1];
-        axios.post('api/infoupdate/' + id, $(form).serializeArray())
+        axios.post('api/infoupdate/' + id, info)
             .then(res => {
                 if (!res.err) notify('Updated Successfully!', 1);
             })
