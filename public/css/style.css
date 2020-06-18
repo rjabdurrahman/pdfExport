@@ -218,6 +218,12 @@ header {
   color: #F4F5F6;
 }
 
+.left-nav a span.done {
+  color: #25C1A0;
+  -webkit-filter: brightness(1.1);
+          filter: brightness(1.1);
+}
+
 .left-nav a label {
   display: inline-block;
 }

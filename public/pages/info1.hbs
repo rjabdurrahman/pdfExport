@@ -72,6 +72,7 @@
     }
     function submitInfo(e) {
         isSaveAlive(false);
+        checkDone()
         let form = e.target;
         let info = $(form).serializeArray();
         $('input:checkbox').each(function () {
