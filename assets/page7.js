@@ -1,92 +1,88 @@
 module.exports = function (info) {
     return {
         occup_salariee: {
-            rev_non_expo: {
+            rev_non_exo: {
                 contribuable: {
-                    a: info['7d'],
-                    b: info['7d'],
-                    c: info['7d'],
-                    d: info['7d'],
-                    d_extra: info['7d'],
-                    e: info['7d'],
+                    premier_contrat: info['7d'],
+                    deuxieme_contrat: info['7d'],
+                    prestations: info['7d'],
+                    autres: info['7d'],
+                    autres_texte: info['7d'],
+                    salaire_brut: info['7d'],
                     a_deduire: {
-                        a: {
-                            Salaires: info['7d'],
-                            Suppléments: info['7d'],
-                            Autres: info['7d']
-                        },
-                        a_extra: info['7d'],
-                        b: info['7d'],
-                        c: info['7d'],
-                        deductions: info['7d']
+                        salaires: info['7d'],
+                        supplements: info['7d'],
+                        autres_exemptions: info['7d'],
+                        autres_exemptions_texte: info['7d'],
+                        frais_obtention: info['7d'],
+                        frais_de_deplacement: info['7d'],
+                        design_lieu_travail: info['7d']
                     }
                 },
                 conjoint_partenaire: {
-                    a: info['7d'],
-                    b: info['7d'],
-                    c: info['7d'],
-                    d: info['7d'],
-                    e: info['7d'],
+                    premier_contrat: info['7d'],
+                    deuxieme_contrat: info['7d'],
+                    prestations: info['7d'],
+                    autres: info['7d'],
+                    autres_texte: info['7d'],
+                    salaire_brut: info['7d'],
                     a_deduire: {
-                        a: {
-                            Salaires: info['7d'],
-                            Suppléments: info['7d'],
-                            Autres: info['7d']
-                        },
-                        b: info['7d'],
-                        c: info['7d'],
-                        deductions: info['7d']
+                        salaires: info['7d'],
+                        supplements: info['7d'],
+                        autres_exemptions: info['7d'],
+                        autres_exemptions_texte: info['7d'],
+                        frais_obtention: info['7d'],
+                        frais_de_deplacement: info['7d'],
+                        design_lieu_travail: info['7d']
                     }
-
                 }
             },
-            rev_expo: {
+            rev_exo: {
                 contribuable: {
-                    a: info['7d'],
-                    b: info['7d'],
-                    c: info['7d'],
-                    d: info['7d'],
-                    e: info['7d'],
+                    premier_contrat: info['7d'],
+                    deuxieme_contrat: info['7d'],
+                    prestations: info['7d'],
+                    autres: info['7d'],
+                    autres_texte: info['7d'],
+                    salaire_brut: info['7d'],
                     a_deduire: {
-                        a: {
-                            Salaires: info['7d'],
-                            Suppléments: info['7d'],
-                            Autres: info['7d']
-                        },
-                        b: info['7d'],
-                        c: info['7d'],
-                        deductions: info['7d']
+                        salaires: info['7d'],
+                        supplements: info['7d'],
+                        autres_exemptions: info['7d'],
+                        autres_exemptions_texte: info['7d'],
+                        frais_obtention: info['7d'],
+                        frais_de_deplacement: info['7d'],
+                        design_lieu_travail: info['7d']
                     }
                 },
                 conjoint_partenaire: {
-                    a: info['7d'],
-                    b: info['7d'],
-                    c: info['7d'],
-                    d: info['7d'],
-                    e: info['7d'],
+                    premier_contrat: info['7d'],
+                    deuxieme_contrat: info['7d'],
+                    prestations: info['7d'],
+                    autres: info['7d'],
+                    autres_texte: info['7d'],
+                    salaire_brut: info['7d'],
                     a_deduire: {
-                        a: {
-                            Salaires: info['7d'],
-                            Suppléments: info['7d'],
-                            Autres: info['7d']
-                        },
-                        b: info['7d'],
-                        c: info['7d'],
-                        deductions: info['7d']
+                        salaires: info['7d'],
+                        supplements: info['7d'],
+                        autres_exemptions: info['7d'],
+                        autres_exemptions_texte: info['7d'],
+                        frais_obtention: info['7d'],
+                        frais_de_deplacement: info['7d'],
+                        design_lieu_travail: info['7d']
                     }
-
                 }
             }
         },
-        plusieurs: {
-            er_lieu1: {
+        plusieurs_lieux: {
+            lieu1: {
                 contribuable: {
                     localite: info['7d'],
                     periode: {
                         du: info['7d'],
                         au: info['7d']
                     },
-                    frequency: {
+                    frequence: {
                         jour: info['7d'],
                         is_par_semaine: info['7d'],
                         is_par_mois: info['7d']
@@ -98,21 +94,21 @@ module.exports = function (info) {
                         du: info['7d'],
                         au: info['7d']
                     },
-                    frequency: {
+                    frequence: {
                         jour: info['7d'],
                         is_par_semaine: info['7d'],
                         is_par_mois: info['7d']
                     }
                 }
             },
-            er_lieu2: {
+            lieu2: {
                 contribuable: {
                     localite: info['7d'],
                     periode: {
                         du: info['7d'],
                         au: info['7d']
                     },
-                    frequency: {
+                    frequence: {
                         jour: info['7d'],
                         is_par_semaine: info['7d'],
                         is_par_mois: info['7d']
@@ -124,7 +120,7 @@ module.exports = function (info) {
                         du: info['7d'],
                         au: info['7d']
                     },
-                    frequency: {
+                    frequence: {
                         jour: info['7d'],
                         is_par_semaine: info['7d'],
                         is_par_mois: info['7d']
