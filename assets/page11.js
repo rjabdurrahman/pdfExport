@@ -68,7 +68,7 @@ module.exports = function (info) {
                     r1: {
                         acquisition: info['11d'],
                         cession: info['11d'],
-                        nature: info['11d'],
+                        nature_bien: info['11d'],
                         situation: info['11d'],
                         superficie: info['11d'],
                         adresse: info['11d'],
@@ -77,7 +77,7 @@ module.exports = function (info) {
                     r2: {
                         acquisition: info['11d'],
                         cession: info['11d'],
-                        nature: info['11d'],
+                        nature_bien: info['11d'],
                         situation: info['11d'],
                         superficie: info['11d'],
                         adresse: info['11d'],
@@ -86,7 +86,7 @@ module.exports = function (info) {
                     r3: {
                         acquisition: info['11d'],
                         cession: info['11d'],
-                        nature: info['11d'],
+                        nature_bien: info['11d'],
                         situation: info['11d'],
                         superficie: info['11d'],
                         adresse: info['11d'],
@@ -95,7 +95,7 @@ module.exports = function (info) {
                     r4: {
                         acquisition: info['11d'],
                         cession: info['11d'],
-                        nature: info['11d'],
+                        nature_bien: info['11d'],
                         situation: info['11d'],
                         superficie: info['11d'],
                         adresse: info['11d'],
@@ -104,7 +104,7 @@ module.exports = function (info) {
                     r5: {
                         acquisition: info['11d'],
                         cession: info['11d'],
-                        nature: info['11d'],
+                        nature_bien: info['11d'],
                         situation: info['11d'],
                         superficie: info['11d'],
                         adresse: info['11d'],

@@ -1,128 +1,133 @@
 module.exports = function(info){
     return {
-        dep_spe1: {
-            table_Interets:{
+        depenses_speciales: {
+            interets_debiteurs_table1:{
                 r1: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 },
                 r2: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 },
                 r3: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 },
                 r4: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 },
                 r5: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 },
                 r6: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 },
                 r7: {
                     adresse: info['14d'],
                     relation: info['14d'],
-                    montant: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
+                    montant: info['14d']
                 }
             },
-            table_primes: {
-                r1: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r2: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r3: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r4: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r5: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r6: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r7: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r8: {
-                    Entreprise: info['14d'],
-                    Risque: info['14d'],
-                    contribuable: info['14d'],
-                    conjoint_partenaire: info['14d']
-                },
-                r9: {
-                    total1: info['14d'],
-                    total2: info['14d']
-                },
-                r10: {
-                    plafond : info['14d'],
-                    le_montant : info['14d']
-                }
-            },
-            majoration: {
+            interets_debiteurs_table2: {
                 contribuable: {
-                    is_lacquisition: info['14d'],
-                    is_investissements: info['14d'],
-                    chaque: info['14d'] 
+                    r1: info['14d'],
+                    r2: info['14d'],
+                    r3: info['14d'],
+                    r4: info['14d'],
+                    r5: info['14d'],
+                    r6: info['14d'],
+                    r7: info['14d']
                 },
                 conjoint_partenaire: {
-                    is_lacquisition: info['14d'],
+                    r1: info['14d'],
+                    r2: info['14d'],
+                    r3: info['14d'],
+                    r4: info['14d'],
+                    r5: info['14d'],
+                    r6: info['14d'],
+                    r7: info['14d']
+                }
+            },
+            primes_table1: {
+                r1: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r2: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r3: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r4: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r5: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r6: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r7: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                },
+                r8: {
+                    entreprise: info['14d'],
+                    risque: info['14d']
+                }
+            },
+            primes_table2: {
+                contribuable: {
+                    r1: info['14d'],
+                    r2: info['14d'],
+                    r3: info['14d'],
+                    r4: info['14d'],
+                    r5: info['14d'],
+                    r6: info['14d'],
+                    r7: info['14d'],
+                    r8: info['14d']
+                },
+                conjoint_partenaire: {
+                    r1: info['14d'],
+                    r2: info['14d'],
+                    r3: info['14d'],
+                    r4: info['14d'],
+                    r5: info['14d'],
+                    r6: info['14d'],
+                    r7: info['14d'],
+                    r8: info['14d']
+                }
+            },
+            plafond_672: info['14d'],
+            montant_moins_eleve: info['14d'],
+            majoration_plafond: {
+                contribuable: {
+                    is_acquisition: info['14d'],
                     is_investissements: info['14d'],
-                    chaque: info['14d'] 
+                    nombre_enfants: info['14d'] 
+                },
+                conjoint_partenaire: {
+                    is_acquisition: info['14d'],
+                    is_investissements: info['14d'],
+                    nombre_enfants: info['14d'] 
                 }
             }
-
         }
     }
 }
