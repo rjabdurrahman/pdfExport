@@ -1,9 +1,9 @@
 
 module.exports = function(info){
     return {
-        ben_comrcial: {
-            drter_ben_com: {
-                rev_non_expo: {
+        benefice_commercial: {
+            determination_benefice_commercial: {
+                revenus_non_exoneres: {
                     contribuable: {
                         benefice_entreprise: info['5d1'],
                         parts_benefice: info['5d5'],
@@ -23,7 +23,7 @@ module.exports = function(info){
                         exoneration: info['5d31']
                     }
                 },
-                rev_expo: {
+                revenus_exoneres: {
                     contribuable: {
                         benefice_entreprise: info['5d3'],
                         parts_benefice: info['5d7'],
@@ -43,8 +43,8 @@ module.exports = function(info){
                 },
                 etat_partie: info['5d33']
             },
-            deter_ben_agri: {
-                rev_non_expo: {
+            determination_benefice_agricole_et_forestier: {
+                rev_non_exo: {
                     contribuable: {
                         benefice_agricole: info['5d38'],
                         parts_benefice: info['5d42'],
@@ -64,7 +64,7 @@ module.exports = function(info){
                         exoneration: info['5d67']
                     }
                 },
-                rev_expo: {
+                rev_exo: {
                     contribuable: {
                         benefice_agricole: info['5d40'],
                         parts_benefice: info['5d44'],
