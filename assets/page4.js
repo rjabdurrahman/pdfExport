@@ -2,12 +2,12 @@
 module.exports = function(info){
     return {
         options: {
-            epoux_contribuale: {
+            epoux_contribuable: {
                 is_imposition_collective: info['4d']
             },
             partenaires: {
                 is_imposition_collective: info['4d'],
-                is_declaration_partenariat: info['4d3'],
+                is_date_declaration_partenariat: info['4d3'],
                 is_annexe: info['4d'],
                 is_deja_presente: info['4d']
             },
