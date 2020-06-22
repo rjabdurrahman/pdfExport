@@ -1,68 +1,76 @@
 module.exports = function (info) {
     return {
         rev_nets_divers: {
-            rev_non_expo: {
+            rev_non_exo: {
                 contribuable: {
-                    a: info['11d'],
-                    b: info['11d'],
-                    c: info['11d'],
-                    d: info['11d'],
-                    e: info['11d'],
-                    f: info['11d']
+                    revenu_cession: info['11d'],
+                    revenu_plus_values: {
+                        benefice_speculation: info['11d'],
+                        benefice_cession: info['11d']
+                    },
+                    revenu_prestations: {
+                        recettes: info['11d'],
+                        frais_obtention: info['11d']
+                    },
+                    remboursement: info['11d'],
+                    autre_remboursement: info['11d'],
+                    total: info['11d']
                 },
                 conjoint_partenaire: {
-                    a: info['11d'],
-                    b: {
-                        speculation: info['11d'],
-                        cession: info['11d']
+                    revenu_cession: info['11d'],
+                    revenu_plus_values: {
+                        benefice_speculation: info['11d'],
+                        benefice_cession: info['11d']
                     },
-                    c: {
+                    revenu_prestations: {
                         recettes: info['11d'],
-                        frais: info['11d']
+                        frais_obtention: info['11d']
                     },
-                    d: info['11d'],
-                    e: {
-                        autre: info['11d'],
-                        revenu: info['11d']
-                    }
+                    remboursement: info['11d'],
+                    autre_remboursement: info['11d'],
+                    total: info['11d']
                 },
                 totalCal: info['11d']
             },
-            rev_expo: {
+            rev_exo: {
                 contribuable: {
-                    a: info['11d'],
-                    b: info['11d'],
-                    c: info['11d'],
-                    d: info['11d'],
-                    e: info['11d'],
-                    f: info['11d']
+                    revenu_cession: info['11d'],
+                    revenu_plus_values: {
+                        benefice_speculation: info['11d'],
+                        benefice_cession: info['11d']
+                    },
+                    revenu_prestations: {
+                        recettes: info['11d'],
+                        frais_obtention: info['11d']
+                    },
+                    remboursement: info['11d'],
+                    autre_remboursement: info['11d'],
+                    total: info['11d']
                 },
                 conjoint_partenaire: {
-                    a: info['11d'],
-                    b: {
-                        speculation: info['11d'],
-                        cession: info['11d']
+                    revenu_cession: info['11d'],
+                    revenu_plus_values: {
+                        benefice_speculation: info['11d'],
+                        benefice_cession: info['11d']
                     },
-                    c: {
+                    revenu_prestations: {
                         recettes: info['11d'],
-                        frais: info['11d']
+                        frais_obtention: info['11d']
                     },
-                    d: info['11d'],
-                    e: {
-                        autre: info['11d'],
-                        revenu: info['11d']
-                    }
+                    remboursement: info['11d'],
+                    autre_remboursement: info['11d'],
+                    total: info['11d']
                 },
                 totalCal: info['11d']
             },
-            interets: {
+            acquisitions_et_cessions: {
                 table: {
                     r1: {
                         acquisition: info['11d'],
                         cession: info['11d'],
                         nature: info['11d'],
-                        situation : info['11d'],
-                        Superficie: info['11d'],
+                        situation: info['11d'],
+                        superficie: info['11d'],
                         adresse: info['11d'],
                         prix: info['11d']
                     },
@@ -70,8 +78,8 @@ module.exports = function (info) {
                         acquisition: info['11d'],
                         cession: info['11d'],
                         nature: info['11d'],
-                        situation : info['11d'],
-                        Superficie: info['11d'],
+                        situation: info['11d'],
+                        superficie: info['11d'],
                         adresse: info['11d'],
                         prix: info['11d']
                     },
@@ -79,8 +87,8 @@ module.exports = function (info) {
                         acquisition: info['11d'],
                         cession: info['11d'],
                         nature: info['11d'],
-                        situation : info['11d'],
-                        Superficie: info['11d'],
+                        situation: info['11d'],
+                        superficie: info['11d'],
                         adresse: info['11d'],
                         prix: info['11d']
                     },
@@ -88,8 +96,8 @@ module.exports = function (info) {
                         acquisition: info['11d'],
                         cession: info['11d'],
                         nature: info['11d'],
-                        situation : info['11d'],
-                        Superficie: info['11d'],
+                        situation: info['11d'],
+                        superficie: info['11d'],
                         adresse: info['11d'],
                         prix: info['11d']
                     },
@@ -97,8 +105,8 @@ module.exports = function (info) {
                         acquisition: info['11d'],
                         cession: info['11d'],
                         nature: info['11d'],
-                        situation : info['11d'],
-                        Superficie: info['11d'],
+                        situation: info['11d'],
+                        superficie: info['11d'],
                         adresse: info['11d'],
                         prix: info['11d']
                     }

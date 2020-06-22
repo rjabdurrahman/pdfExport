@@ -3,8 +3,7 @@ module.exports = function (info) {
         arrerages: {
             is_demande: info['13d'],
             contribuable: {
-                dus: info['13d'],
-                duscal: info['13d'],
+                obligation: info['13d'],
                 payes: {
                     loccasion: info['13d'],
                     loccasioncal: info['13d'],
