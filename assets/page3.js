@@ -42,7 +42,7 @@ module.exports = function(info){
                 },
                 calculation: {
                     total_revenus_non_exoneres: info['3d26'],
-                    total_revenus_non_exonores_et_exoneres: info['3d27'],
+                    total_revenus_non_exoneres_et_exoneres: info['3d27'],
                     pourcentage: info['3d']
                 }
             }
