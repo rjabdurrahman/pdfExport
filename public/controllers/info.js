@@ -1,12 +1,15 @@
 function checkDone() {
     $('.a01, .a02, .a03, .a04').each(function (i) {
         let pageNo = this.id.replace('page', '');
+        let isDone = false;
+        let element = document.querySelector('left-nav:first-child').children[pageNo - 1].firstElementChild;
         $('#' + this.id + ' input:text').each(function (j) {
             if (this.value) {
-                let element = document.querySelector('left-nav:first-child').children[pageNo - 1].firstElementChild;
+                isDone = true
                 $(element).addClass('done')
             }
         })
+        if (!isDone) $(element).removeClass('done');
     })
 }
 app.controller('InfoCtrl', function ($scope, $http) {
