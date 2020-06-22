@@ -1,5 +1,5 @@
 function checkDone() {
-    $('.a01, .a02').each(function (i) {
+    $('.a01, .a02, .a03, .a04').each(function (i) {
         let pageNo = this.id.replace('page', '');
         $('#' + this.id + ' input:text').each(function (j) {
             if (this.value) {
@@ -10,7 +10,6 @@ function checkDone() {
     })
 }
 app.controller('InfoCtrl', function ($scope, $http) {
-    $scope.name = "Some data";
     let clientId = location.href.split('id=')[1];
     $scope.client = {};
     $http({
