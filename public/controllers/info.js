@@ -1,9 +1,10 @@
 function checkDone() {
     $('.a01, .a02').each(function (i) {
+        let pageNo = this.id.replace('page', '');
         $('#' + this.id + ' input:text').each(function (j) {
             if (this.value) {
-                // $(menuClass).addClass('done')
-                console.dir($('.left-nav'))
+                let element = document.querySelector('left-nav:first-child').children[pageNo - 1].firstElementChild;
+                $(element).addClass('done')
             }
         })
     })
