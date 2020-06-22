@@ -1,70 +1,70 @@
-module.exports = function(info){
+module.exports = function (info) {
     return {
         capitaux: {
-            rev_non_expo: {
+            rev_non_exo: {
                 contribuable: {
-                    b: info['9d'],
+                    revenus_passibles: info['9d'],
                     c: {
-                        a: info['9d'],
-                        b: info['9d'],
-                        c: info['9d'],
-                        d: info['9d']
+                        produits_valeurs_double_imp: info['9d'],
+                        produits_valeurs_non_vises: info['9d'],
+                        revenus_alloues: info['9d'],
+                        interets_obligations: info['9d']
                     },
-                    d: info['9d'],
+                    autres_revenus: info['9d'],
                     totalBCD: info['9d'],
                     a_deduire: {
-                        frais: info['9d'],
+                        frais_obtention: info['9d'],
                         tranche: info['9d'],
-                        totalBCD: info['9d']
+                        totalBCD_deductions: info['9d']
                     }
                 },
                 conjoint_partenaire: {
-                    b: info['9d'],
+                    revenus_passibles: info['9d'],
                     c: {
-                        a: info['9d'],
-                        b: info['9d'],
-                        c: info['9d'],
-                        d: info['9d']
+                        produits_valeurs_double_imp: info['9d'],
+                        produits_valeurs_non_vises: info['9d'],
+                        revenus_alloues: info['9d'],
+                        interets_obligations: info['9d']
                     },
-                    d: info['9d'],
+                    autres_revenus: info['9d'],
                     totalBCD: info['9d'],
                     a_deduire: {
-                        frais: info['9d'],
+                        frais_obtention: info['9d'],
                         tranche: info['9d'],
-                        totalBCD: info['9d']
+                        totalBCD_deductions: info['9d']
                     }
                 },
                 totalBCD_cal: info['9d']
             },
-            rev_expo: {
+            rev_exo: {
                 contribuable: {
                     c: {
-                        a: info['9d'],
-                        b: info['9d'],
-                        c: info['9d'],
-                        d: info['9d']
+                        produits_valeurs_double_imp: info['9d'],
+                        produits_valeurs_non_vises: info['9d'],
+                        revenus_alloues: info['9d'],
+                        interets_obligations: info['9d']
                     },
-                    d: info['9d'],
+                    autres_revenus: info['9d'],
                     totalBCD: info['9d'],
                     a_deduire: {
-                        frais: info['9d'],
+                        frais_obtention: info['9d'],
                         tranche: info['9d'],
-                        totalBCD: info['9d']
+                        totalBCD_deductions: info['9d']
                     }
                 },
                 conjoint_partenaire: {
                     c: {
-                        a: info['9d'],
-                        b: info['9d'],
-                        c: info['9d'],
-                        d: info['9d']
+                        produits_valeurs_double_imp: info['9d'],
+                        produits_valeurs_non_vises: info['9d'],
+                        revenus_alloues: info['9d'],
+                        interets_obligations: info['9d']
                     },
-                    d: info['9d'],
+                    autres_revenus: info['9d'],
                     totalBCD: info['9d'],
                     a_deduire: {
-                        frais: info['9d'],
+                        frais_obtention: info['9d'],
                         tranche: info['9d'],
-                        totalBCD: info['9d']
+                        totalBCD_deductions: info['9d']
                     }
                 },
                 totalBCD_cal: info['9d']

@@ -1,89 +1,97 @@
 module.exports = function (info) {
     return {
         location: {
-            rev_non_expo: {
+            rev_non_exo: {
                 contribuable: {
-                    a: info['10d'],
-                    b: info['10d'],
-                    c: info['10d'],
-                    d: info['10d'],
-                    e: info['10d'],
+                    revenu_location: info['10d'],
+                    parts_revenu: info['10d'],
+                    revenu_concession: info['10d'],
+                    revenu_redevances: info['10d'],
+                    perte_location: info['10d'],
                     f: {
-                        Interets: info['10d'],
-                        part: info['10d'],
+                        interets_debiteurs: info['10d'],
+                        part_non_deduite: info['10d'],
                         total: info['10d']
                     }
                 },
                 conjoint_partenaire: {
-                    a: info['10d'],
-                    b: info['10d'],
-                    c: info['10d'],
-                    d: info['10d'],
-                    e: info['10d'],
+                    revenu_location: info['10d'],
+                    parts_revenu: info['10d'],
+                    revenu_concession: info['10d'],
+                    revenu_redevances: info['10d'],
+                    perte_location: info['10d'],
                     f: {
-                        Interets: info['10d'],
-                        part: info['10d'],
+                        interets_debiteurs: info['10d'],
+                        part_non_deduite: info['10d'],
                         total: info['10d']
                     }
                 },
                 totalCal: info['10d']
             },
-            rev_expo: {
+            rev_exo: {
                 contribuable: {
-                    a: info['10d'],
-                    b: info['10d'],
-                    c: info['10d'],
-                    d: info['10d'],
-                    e: info['10d'],
+                    revenu_location: info['10d'],
+                    parts_revenu: info['10d'],
+                    revenu_concession: info['10d'],
+                    revenu_redevances: info['10d'],
+                    perte_location: info['10d'],
                     f: {
-                        Interets: info['10d'],
-                        part: info['10d'],
+                        interets_debiteurs: info['10d'],
+                        part_non_deduite: info['10d'],
                         total: info['10d']
                     }
                 },
                 conjoint_partenaire: {
-                    a: info['10d'],
-                    b: info['10d'],
-                    c: info['10d'],
-                    d: info['10d'],
-                    e: info['10d'],
+                    revenu_location: info['10d'],
+                    parts_revenu: info['10d'],
+                    revenu_concession: info['10d'],
+                    revenu_redevances: info['10d'],
+                    perte_location: info['10d'],
                     f: {
-                        Interets: info['10d'],
-                        part: info['10d'],
+                        interets_debiteurs: info['10d'],
+                        part_non_deduite: info['10d'],
                         total: info['10d']
                     }
                 },
                 totalCal: info['10d']
             },
-            interets: {
-                table: {
+            interets_debiteurs: {
+                table1: {
                     r1: {
-                        d1: info['10d'],
-                        d2: info['10d'],
-                        d3: info['10d'],
-                        d4: info['10d'],
-                        d5: info['10d']
+                        etablissement: info['10d'],
+                        relation: info['10d'],
+                        dette: info['10d']
                     },
                     r2: {
-                        d1: info['10d'],
-                        d2: info['10d'],
-                        d3: info['10d'],
-                        d4: info['10d'],
-                        d5: info['10d']
+                        etablissement: info['10d'],
+                        relation: info['10d'],
+                        dette: info['10d']
                     },
                     r3: {
-                        d1: info['10d'],
-                        d2: info['10d'],
-                        d3: info['10d'],
-                        d4: info['10d'],
-                        d5: info['10d']
+                        etablissement: info['10d'],
+                        relation: info['10d'],
+                        dette: info['10d']
                     }
                 },
+
+                table2: {
+                    contribuable: {
+                        interets_debiteurs1: info['10d'],
+                        interets_debiteurs2: info['10d'],
+                        interets_debiteurs3: info['10d']
+                    },
+                    conjoint_partenaire: {
+                        interets_debiteurs1: info['10d'],
+                        interets_debiteurs2: info['10d'],
+                        interets_debiteurs3: info['10d']
+                    }
+                },
+
                 habitationA: {
                     habitation: info['10d'],
                     numero: info['10d'],
                     rue: info['10d'],
-                    occupee: info['10d'],
+                    date_occupation: info['10d'],
                     interets: {
                         contribuable: info['10d'],
                         conjoint_partenaire: info['10d']
@@ -93,7 +101,7 @@ module.exports = function (info) {
                     habitation: info['10d'],
                     numero: info['10d'],
                     rue: info['10d'],
-                    occupee: info['10d'],
+                    date_occupation: info['10d'],
                     interets: {
                         contribuable: info['10d'],
                         conjoint_partenaire: info['10d']
