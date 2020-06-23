@@ -620,18 +620,18 @@
         <input name="4d15" type="text" value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel}}" class="a41513" />
         <input name="4d14" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" class="a41414" />
         <input name="4d13" type="text" value="{{client.options.informations_complementaires.contribuable.date_de_naissance}}" class="a41315" />
-        <input name="4d12" type="checkbox" class="a41216" />
-        <input name="4d11" type="checkbox" class="a41117" />
-        <input name="4d10" type="checkbox" class="a41018" />
-        <input name="4d9" type="checkbox" class="a40919" />
-        <input name="4d8" type="checkbox" class="a40820" />
-        <input name="4d7" type="checkbox" class="a40721" />
-        <input name="4d6" type="checkbox" class="a40622" />
-        <input name="4d5" type="checkbox" class="a40523" />
-        <input name="4d4" type="checkbox" class="a40424" />
+        <input name="4d12" type="checkbox" class="a41216"  ng-checked="client.options.imposition_individuelle.is_imposition_individuelle_reallocation == 'Yes'"/>
+        <input name="4d11" type="checkbox" class="a41117"  ng-checked="client.options.imposition_individuelle.is_imposition_individuelle_pure == 'Yes'"/>
+        <input name="4d10" type="checkbox" class="a41018"  ng-checked="client.options.imposition_individuelle.is_imposition_collective == 'Yes'"/>
+        <input name="4d9" type="checkbox" class="a40919"  ng-checked="client.options.imposition_individuelle.is_annee_imposition == 'Yes'"/>
+        <input name="4d8" type="checkbox" class="a40820"  ng-checked="client.options.imposition_individuelle.is_myguichet_lu == 'Yes'"/>
+        <input name="4d7" type="checkbox" class="a40721"  ng-checked="client.options.imposition_individuelle.is_courrier == 'Yes'"/>
+        <input name="4d6" type="checkbox" class="a40622"  ng-checked="client.options.imposition_individuelle.is_confirmation_choix == 'Yes'"/>
+        <input name="4d5" type="checkbox" class="a40523"  ng-checked="client.options.partenaires.is_deja_presente == 'Yes'"/>
+        <input name="4d4" type="checkbox" class="a40424"  ng-checked="client.options.partenaires.is_annexe == 'Yes'"/>
         <input name="4d3" type="text" value="{{client.options.partenaires.is_date_declaration_partenariat}}" class="a40325" />
-        <input name="4d2" type="checkbox" class="a40226" />
-        <input name="4d1" type="checkbox" class="a40127" />
+        <input name="4d2" type="checkbox" class="a40226"  ng-checked="client.options.partenaires.is_imposition_collective == 'Yes'"/>
+        <input name="4d1" type="checkbox" class="a40127"  ng-checked="client.options.epoux_contribuable.is_imposition_collective == 'Yes'"/>
         <div class="le28">
             , le
         </div>
