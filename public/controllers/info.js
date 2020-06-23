@@ -3,8 +3,8 @@ function checkDone() {
         let pageNo = this.id.replace('page', '');
         let isDone = false;
         let element = document.querySelector('left-nav:first-child').children[pageNo - 1].firstElementChild;
-        $('#' + this.id + ' input:text').each(function (j) {
-            if (this.value) {
+        $(`#${this.id} input:text, #${this.id} input:checkbox`).each(function (j) {
+            if ((this.type == 'text' && this.value) || (this.type == 'checkbox' && this.checked)) {
                 isDone = true
                 $(element).addClass('done')
             }
