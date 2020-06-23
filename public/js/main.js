@@ -43,8 +43,7 @@ function lsExGJInit(vname, data) {
 function clearForm(target) {
     console.log('clear')
     $(target + ' input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
-    $(target + ' checkbox').prop('checked', false);
-    $(target + ' radio').prop('checked', false);
+    $(target + ' input:checkbox').prop('checked', false);
 }
 
 var activeClientId = '';
