@@ -3,9 +3,9 @@
         <input name="3d28" type="text" class="a3270" disabled/>
         <input name="3d27" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres}}" type="text" class="a3261" />
         <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="text" class="a3252" />
-        <input name="3d25" type="checkbox" class="a3243" />
-        <input name="3d24" type="checkbox" class="a3234" />
-        <input name="3d23" type="checkbox" class="a3225" />
+        <input name="3d25" type="checkbox" class="a3243" ng-checked="client.etat_civil.assimilation.c.revenus_professionels == 'Yes'" />
+        <input name="3d24" type="checkbox" class="a3234" ng-checked="client.etat_civil.assimilation.b.revenus_nets_annuels == 'Yes'" />
+        <input name="3d23" type="checkbox" class="a3225" ng-checked="client.etat_civil.assimilation.a.revenus_mondiaux == 'Yes'" />
         <input name="3d22" value="{{client.etat_civil.non_residents.conjoint_partenaire.localite}}" type="text" class="a3216" />
         <input name="3d21" value="{{client.etat_civil.non_residents.conjoint_partenaire.code_postal}}" type="text" class="a3207" />
         <input name="3d20" value="{{client.etat_civil.non_residents.contribuable.localite}}" type="text" class="a3198" />
@@ -19,15 +19,15 @@
         <input name="3d12" value="{{client.etat_civil.non_residents.conjoint_partenaire.nom_prenom}}" type="text" class="a31116" />
         <input name="3d11" value="{{client.etat_civil.non_residents.contribuable.nom_prenom}}" type="text" class="a31017" />
         <input name="3d10" value="{{client.etat_civil.separe_e.is_le}}" type="text" class="a30918" />
-        <input name="3d9" type="checkbox" class="a30819" />
-        <input name="3d8" type="checkbox" class="a30720" />
-        <input name="3d7" type="checkbox" class="a30621" />
-        <input name="3d6" value="{{client.etat_civil.is_depuis_le}}" type="text" class="a30522" />
-        <input name="3d5" type="checkbox" class="a30423" />
-        <input name="3d4" type="checkbox" class="a30324" />
-        <input name="3d3" type="checkbox" class="a30225" />
-        <input name="3d2" type="checkbox" class="a30126" />
-        <input name="3d1" type="text" class="rectangleclassedimpt27" disabled />
+        <input name="3d8" type="checkbox" class="a30819" ng-checked="client.etat_civil.separe_e.is_dispense_autorite_judiciaire == 'Yes'" />
+        <input name="3d7" type="checkbox" class="a30720" ng-checked="client.etat_civil.separe_e.is_jugement_separation == 'Yes'" />
+        <input name="3d6" type="checkbox" class="a30621" ng-checked="client.etat_civil.separe_e.is_dispense_legale == 'Yes'" />
+        <input name="3d5" value="{{client.etat_civil.is_depuis_le}}" type="text" class="a30522" />
+        <input name="3d4" type="checkbox" class="a30423" ng-checked="client.etat_civil.is_veuf_veuve == 'Yes'" />
+        <input name="3d3" type="checkbox" class="a30324" ng-checked="client.etat_civil.is_divorce_e == 'Yes'" />
+        <input name="3d2" type="checkbox" class="a30225" ng-checked="client.etat_civil.is_marie_e == 'Yes'" />
+        <input name="3d1" type="checkbox" class="a30126" ng-checked="client.etat_civil.is_celibataire == 'Yes'" />
+        <input name="3d9" type="text" class="rectangleclassedimpt27" disabled />
         <div class="a28">
             %
         </div>

@@ -1,15 +1,15 @@
 module.exports = function(info){
     return {
         etat_civil: {
-            is_celibataire: info['3d'],
-            is_marie_e: info['3d'],
-            is_divorce_e: info['3d'],
-            is_veuf_veuve: info['3d'],
-            is_depuis_le: info['3d6'],
+            is_celibataire: info['3d1'] ? info['3d1'] : 'Off',
+            is_marie_e: info['3d2'] ? info['3d2'] : 'Off',
+            is_divorce_e: info['3d3'] ? info['3d3'] : 'Off',
+            is_veuf_veuve: info['3d4'] ? info['3d4'] : 'Off',
+            is_depuis_le: info['3d5'],
             separe_e: {
-                is_dispense_legale: info['3d'],
-                is_jugement_separation: info['3d'],
-                is_dispense_autorite_judiciaire: info['3d'],
+                is_dispense_legale: info['3d6'] ? info['3d6'] : 'Off',
+                is_jugement_separation: info['3d7'] ? info['3d7'] : 'Off',
+                is_dispense_autorite_judiciaire: info['3d8'] ? info['3d8'] : 'Off',
                 is_le: info['3d10']
             },
             non_residents: {
@@ -32,13 +32,13 @@ module.exports = function(info){
             },
             assimilation: {
                 a: {
-                    revenus_mondiaux: info['3d']
+                    revenus_mondiaux: info['3d23'] ? info['3d23'] : 'Off'
                 },
                 b: {
-                    revenus_nets_annuels: info['3d']
+                    revenus_nets_annuels: info['3d24'] ? info['3d24'] : 'Off'
                 },
                 c: {
-                    revenus_professionels: info['3d']
+                    revenus_professionels: info['3d25'] ? info['3d25'] : 'Off'
                 },
                 calculation: {
                     total_revenus_non_exoneres: info['3d26'],
