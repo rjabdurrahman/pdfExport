@@ -39,14 +39,14 @@ module.exports = function(info) {
                     nom: info['2d22'],
                     prenom: info['2d23'],
                     date_de_naissance: info['2d24'],
-                    demande_moderation: info['2d24'] ? info['2d24'] : 'Off',
+                    demande_moderation: info['2d25'] ? info['2d25'] : 'Off',
                     specification_formation: info['2d26']
                 },
                 {
                     nom: info['2d27'],
                     prenom: info['2d28'],
                     date_de_naissance: info['2d29'],
-                    demande_moderation: info['2d'],
+                    demande_moderation: info['2d30'] ? info['2d30'] : 'Off',
                     specification_formation: info['2d31']
                 }
             ],
@@ -54,10 +54,10 @@ module.exports = function(info) {
                 nom: info['2d32'],
                 prenom: info['2d33'],
                 date_de_naissance: info['2d34'],
-                demande_moderation: info['2d']
+                demande_moderation: info['2d35']
             },
             demande_cim: {
-                is_demande_cim: info['2d'],
+                is_demande_cim: info['2d36'] ? info['2d36'] : 'Off',
                 table: [
                     {
                         nom_prenom: info['2d37'],
@@ -82,7 +82,7 @@ module.exports = function(info) {
                 ]
             },
             demande_bonification_impot: {
-                is_demande_bonification_impot: info['2d'],
+                is_demande_bonification_impot: info['2d45'] ? info['2d45'] : 'Off',
                 table: [
                     {
                         nom_prenom: info['2d46'],
