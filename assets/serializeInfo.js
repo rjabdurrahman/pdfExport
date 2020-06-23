@@ -42,6 +42,7 @@ module.exports = function serializeInfo(client) {
         ['1d3']: _.get(client, 'signaletique.contribuable.prenom', ''),
         ['1d2']: _.get(client, 'signaletique.conjoint_partenaire.nom', ''),
         ['1d1']: _.get(client, 'signaletique.contribuable.nom', ''),
+        // Page 2
         ['2d49']: _.get(client, 'enfants.demande_bonification_impot.table[1].date_de_naissance', ''),
         ['2d48']: _.get(client, 'enfants.demande_bonification_impot.table[1].nom_prenom', ''),
         ['2d47']: _.get(client, 'enfants.demande_bonification_impot.table[0].date_de_naissance', ''),
@@ -88,6 +89,23 @@ module.exports = function serializeInfo(client) {
         ['2d20']: _.get(client, 'enfants.b[0].demande_moderation', 'Off'),
         ['2d25']: _.get(client, 'enfants.b[0].demande_moderation', 'Off'),
         ['2d30']: _.get(client, 'enfants.b[0].demande_moderation', 'Off'),
-        ['2d35']: _.get(client, 'enfants.c.demande_moderation', 'Off')
+        ['2d35']: _.get(client, 'enfants.c.demande_moderation', 'Off'),
+        // Page 3
+        ['3d27']: _.get(client, 'etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres', ''),
+        ['3d26']: _.get(client, 'etat_civil.assimilation.calculation.total_revenus_non_exoneres', ''),
+        ['3d22']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.localite', ''),
+        ['3d21']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.code_postal', ''),
+        ['3d20']: _.get(client, 'etat_civil.non_residents.contribuable.localite', ''),
+        ['3d19']: _.get(client, 'etat_civil.non_residents.contribuable.code_postal', ''),
+        ['3d18']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.rue', ''),
+        ['3d17']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.numero', ''),
+        ['3d16']: _.get(client, 'etat_civil.non_residents.contribuable.rue', ''),
+        ['3d15']: _.get(client, 'etat_civil.non_residents.contribuable.numero', ''),
+        ['3d14']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.date_de_naissance', ''),
+        ['3d13']: _.get(client, 'etat_civil.non_residents.contribuable.date_de_naissance', ''),
+        ['3d12']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.nom_prenom', ''),
+        ['3d11']: _.get(client, 'etat_civil.non_residents.contribuable.nom_prenom', ''),
+        ['3d10']: _.get(client, 'etat_civil.separe_e.is_le', ''),
+        ['3d5']: _.get(client, 'etat_civil.is_depuis_le', '')
     }
 }
