@@ -1,15 +1,16 @@
 function checkDone() {
-    $('.a01, .a02, .a03, .a04').each(function (i) {
+    $('.a01, .a02, .a03, .a04, .a05, .a06').each(function (i) {
         let pageNo = this.id.replace('page', '');
         let isDone = false;
-        let element = document.querySelector('left-nav:first-child').children[pageNo - 1].firstElementChild;
+        let element = $(`.np${pageNo}`).children(1);
+        console.log(element)
         $(`#${this.id} input:text, #${this.id} input:checkbox`).each(function (j) {
             if ((this.type == 'text' && this.value) || (this.type == 'checkbox' && this.checked)) {
                 isDone = true
-                $(element).addClass('done')
+                element.addClass('done')
             }
         })
-        if (!isDone) $(element).removeClass('done');
+        if (!isDone) element.removeClass('done');
     })
 }
 app.controller('InfoCtrl', function ($scope, $http) {
