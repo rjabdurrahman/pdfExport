@@ -3,7 +3,6 @@ function checkDone() {
         let pageNo = this.id.replace('page', '');
         let isDone = false;
         let element = $(`.np${pageNo}`).children(1);
-        console.log(element)
         $(`#${this.id} input:text, #${this.id} input:checkbox`).each(function (j) {
             if ((this.type == 'text' && this.value) || (this.type == 'checkbox' && this.checked)) {
                 isDone = true
