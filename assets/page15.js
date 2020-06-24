@@ -1,98 +1,91 @@
-module.exports = function(info){
+module.exports = function (info) {
     return {
-        dep_spe2: {
-            c: {
-                contrib: {
+        depenses_speciales: {
+            cotisations_payees: {
+                contribuable: {
                     cotisations: info['15d']
                 },
-                jon_contrib: {
+                conjoint_partenaire: {
                     cotisations: info['15d']
-                },
-                cal: info['15d']
-            },
-            table_d:{
-                r1: {
-                    entreprise: info['15d'],
-                    debut: info['15d'],
-                    fin: info['15d'],
-                    primes1: info['15d'],
-                    primes2: info['15d']
-                },
-                r2: {
-                    entreprise: info['15d'],
-                    debut: info['15d'],
-                    fin: info['15d'],
-                    primes1: info['15d'],
-                    primes2: info['15d']
-                },
-                r3: {
-                    entreprise: info['15d'],
-                    debut: info['15d'],
-                    fin: info['15d'],
-                    primes1: info['15d'],
-                    primes2: info['15d']
-                },
-                r4: {
-                    entreprise: info['15d'],
-                    debut: info['15d'],
-                    fin: info['15d'],
-                    primes1: info['15d'],
-                    primes2: info['15d']
-                },
-                r5: {
-                    total1: info['15d'],
-                    total2: info['15d']
-                },
-                r6: {
-                    plafond: info['15d']
-                },
-                r7: {
-                    cal: info['15d']
                 }
             },
-            table_e: {
-                r1: {
-                    caisse: info['15d'],
-                    souscripteur: info['15d'],
-                    debut: info['15d'],
-                    cotisations1: info['15d'],
-                    cotisations2: info['15d']
+            prevoyance_vieillesse_t1: [
+                {
+                    entreprise: info['15d'],
+                    debut_contrat: info['15d'],
+                    fin_contrat: info['15d']
                 },
-                r2: {
-                    caisse: info['15d'],
-                    souscripteur: info['15d'],
-                    debut: info['15d'],
-                    cotisations1: info['15d'],
-                    cotisations2: info['15d']
+                {
+                    entreprise: info['15d'],
+                    debut_contrat: info['15d'],
+                    fin_contrat: info['15d']
                 },
-                r3: {
-                    caisse: info['15d'],
-                    souscripteur: info['15d'],
-                    debut: info['15d'],
-                    cotisations1: info['15d'],
-                    cotisations2: info['15d']
+                {
+                    entreprise: info['15d'],
+                    debut_contrat: info['15d'],
+                    fin_contrat: info['15d']
                 },
-                r4: {
-                    caisse: info['15d'],
-                    souscripteur: info['15d'],
-                    debut: info['15d'],
-                    cotisations1: info['15d'],
-                    cotisations2: info['15d']
-                },
-                r5: {
-                    total1: info['15d'],
-                    total2: info['15d']
-                },
-                r6: {
-                    plafond: info['15d']
-                },
-                r7: {
-                    total_des: info['15d']
-                },
-                r8: {
-                    montant: info['15d']
+                {
+                    entreprise: info['15d'],
+                    debut_contrat: info['15d'],
+                    fin_contrat: info['15d']
                 }
-            }
+            ],
+            prevoyance_vieillesse_t2: {
+                contribuable: {
+                    primes_versees_1: info['14d'],
+                    primes_versees_2: info['14d'],
+                    primes_versees_3: info['14d'],
+                    primes_versees_4: info['14d'],
+                    plafond_3200: info['14d']
+                },
+                conjoint_partenaire: {
+                    primes_versees_1: info['14d'],
+                    primes_versees_2: info['14d'],
+                    primes_versees_3: info['14d'],
+                    primes_versees_4: info['14d'],
+                    plafond_3200: info['14d']
+                }
+            },
+            epargne_logement_t1: [
+                {
+                    caisse: info['15d'],
+                    souscripteur: info['15d'],
+                    debut_contrat: info['15d'],
+                },
+                {
+                    caisse: info['15d'],
+                    souscripteur: info['15d'],
+                    debut_contrat: info['15d'],
+                },
+                {
+                    caisse: info['15d'],
+                    souscripteur: info['15d'],
+                    debut_contrat: info['15d'],
+                },
+                {
+                    caisse: info['15d'],
+                    souscripteur: info['15d'],
+                    debut_contrat: info['15d'],
+                }
+            ],
+            epargne_logement_t2: {
+                contribuable: {
+                    cotisations_versees1: info['14d'],
+                    cotisations_versees2: info['14d'],
+                    cotisations_versees3: info['14d'],
+                    cotisations_versees4: info['14d'],
+                    plafond_672_1344: info['14d']
+                },
+                conjoint_partenaire: {
+                    cotisations_versees1: info['14d'],
+                    cotisations_versees2: info['14d'],
+                    cotisations_versees3: info['14d'],
+                    cotisations_versees4: info['14d'],
+                    plafond_672_1344: info['14d']
+                }
+            },
+            last: info['14d']
         }
     }
 }
