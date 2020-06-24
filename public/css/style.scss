@@ -98,7 +98,8 @@ header {
 }
 
 #notification {
-    position: absolute;
+    position: fixed;
+    z-index: 9999;
     right: 10px;
     top: 10px;
     padding-left: 42px;
