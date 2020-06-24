@@ -93,6 +93,7 @@ module.exports = function serializeInfo(client) {
         ['x2d36x']: _.get(client, 'enfants.demande_cim.is_demande_cim', 'Off'),
         ['x2d45x']: _.get(client, 'enfants.demande_bonification_impot.is_demande_bonification_impot', 'Off'),
         // Page 3
+        ['x3d28x']: _.get(client, 'etat_civil.assimilation.calculation.pourcentage', ''),
         ['x3d27x']: _.get(client, 'etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres', ''),
         ['x3d26x']: _.get(client, 'etat_civil.assimilation.calculation.total_revenus_non_exoneres', ''),
         ['x3d22x']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.localite', ''),

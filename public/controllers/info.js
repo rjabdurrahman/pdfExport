@@ -1,5 +1,5 @@
 function checkDone() {
-    $('.a01, .a02, .a03, .a04, .a05, .a06').each(function (i) {
+    $('.a01, .a02, .a03, .a04, .a05, .a06, .a07, .a08, .a09').each(function (i) {
         let pageNo = this.id.replace('page', '');
         let isDone = false;
         let element = $(`.np${pageNo}`).children(1);
