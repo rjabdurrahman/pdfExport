@@ -83,7 +83,7 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d769'],
-                            is_par_semaine: info['7d7'],
+                            s_par_semaine: info['7d7'],
                             is_par_mois: info['7d7']
                         }
                     },

@@ -14,6 +14,7 @@ let page4 = require('../assets/page4');
 let page5 = require('../assets/page5');
 let page6 = require('../assets/page6');
 let page7 = require('../assets/page7');
+let page8 = require('../assets/page8');
 
 router.get('/', (req, res) => {
     res.send('API is live');
@@ -35,7 +36,7 @@ router.post('/infoupdate/:id', (req, res) => {
     let info = {};
     console.log(req.body)
     req.body.forEach(x => info[x.name] = x.value);
-    let data = { ...page1(info), ...page2(info), ...page3(info), ...page4(info), ...page5(info), ...page6(info), ...page7(info)};
+    let data = { ...page1(info), ...page2(info), ...page3(info), ...page4(info), ...page5(info), ...page6(info), ...page7(info), ...page8(info)};
     console.log(data)
     Client.findOneAndUpdate({ "_id": ObjectID(id) }, data, { upsert: true }, (err, result) => {
         if (err) res.send(err)
