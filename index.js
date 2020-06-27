@@ -26,8 +26,8 @@ app.get('/logout', (req, res) => {
 })
 
 app.use('/api', apiRoute);
+app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', function (req, res) {
-    app.use(express.static(path.join(__dirname, 'public')));
     if (req.cookies.user) res.sendFile(path.join(__dirname, 'public', 'index.html'));
     else res.sendFile(path.join(__dirname, 'public/login', 'index.html'));
 });
