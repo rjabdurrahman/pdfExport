@@ -49,7 +49,7 @@ app.run(function ($rootScope, $http, $route) {
             url: '/api/addclient',
             data: client
         }).then(function (res) {
-            notify('Client Added Successfully!', 1);
+            notify('( Mise à jour )', 1);
             $(clientForm)[0].reset();
             closeAddClientModal();
             $rootScope.loadClients();
