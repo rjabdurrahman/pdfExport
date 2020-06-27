@@ -16,7 +16,7 @@ app.post('/login', function (req, res) {
     let user = _.find(users, req.body)
     console.log(user)
     if (user) {
-        res.cookie('user', user)
+        res.cookie('user', user, { maxAge: 360000 })
         res.redirect('/')
     }
     else res.send('Login Failed');
@@ -28,14 +28,13 @@ app.get('/logout', (req, res) => {
 
 app.use('/api', apiRoute);
 app.get('/', function (req, res) {
-    console.log(req.cookies)
     app.use(express.static(path.join(__dirname, 'public')));
     if (req.cookies.user) res.sendFile(path.join(__dirname, 'public', 'index.html'));
     else res.sendFile(path.join(__dirname, 'public/login', 'index.html'));
 });
 
-app.use(function (req, res) {
-    res.send('404 Page not Fount!');
-})
+// app.use(function (req, res) {
+//     res.send('404 Page not Fount!');
+// })
 
 const server = app.listen(process.env.PORT || 3000, () => console.log(`Listening on Port ${server.address().port}`));
