@@ -1246,8 +1246,8 @@
 </div>
             <div id="page7" class="a07 anima-word-break ">
     <div style="width: 1071px; height: 100%; position:relative; margin:auto;">
-        <input name="7d7" type="checkbox" class="a778parmois0" />
-        <input name="7d7" type="checkbox" class="a778parsemaine1" />
+        <input name="7d7" type="checkbox" class="a778parmois0" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'"/>
+        <input name="7d7" type="checkbox" class="a778parsemaine1" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'"/>
         <input name="7d778" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour}}" class="a778jours2" />
         <input name="7d7" type="checkbox" class="a777parmois3" />
         <input name="7d7" type="checkbox" class="a777parsemaine4" />
@@ -1258,11 +1258,11 @@
         <input name="7d773" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.du}}" class="a7739" />
         <input name="7d772" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.localite}}" class="a77210" />
         <input name="7d771" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.localite}}" class="a77111" />
-        <input name="7d7" type="checkbox" class="a770parmois12" />
-        <input name="7d7" type="checkbox" class="a770parsemaine13" />
+        <input name="7d7" type="checkbox" class="a770parmois12"  ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
+        <input name="7d7" type="checkbox" class="a770parsemaine13"  ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
         <input name="7d770" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.jour}}" class="a770jours14" />
-        <input name="7d7" type="checkbox" class="a769parmois15" />
-        <input name="7d7" type="checkbox" class="a769parsemaine16" />
+        <input name="7d7" type="checkbox" class="a769parmois15"  ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
+        <input name="7d7" type="checkbox" class="a769parsemaine16"  ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
         <input name="7d769" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.jour}}" class="a769jours17" />
         <input name="7d768" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.au}}" class="a76818" />
         <input name="7d767" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.du}}" class="a76719" />
@@ -1557,7 +1557,7 @@
             <div id="page8" class="a08 anima-word-break ">
     <div style="width: 1061px; height: 100%; position:relative; margin:auto;">
         <input name="8d846" type="text" value="{{client.pension.abattement_extra_pro.rente_date}}" class="a8460" />
-        <input name="8d845" type="checkbox" class="a8451" />
+        <input name="8d845" type="checkbox" class="a8451" ng-checked="client.pension.abattement_extra_pro.is_demande == 'Yes'" />
         <input name="8d844" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a_deduire.totalABC}}" class="a8442" />
         <input name="8d843" type="text" value="{{client.pension.rev_exo.contribuable.a_deduire.totalABC}}" class="a8433" />
         <input name="8d842" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a_deduire.totalABC}}" class="a8424" />

@@ -83,8 +83,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d769'],
-                            s_par_semaine: info['7d7'],
-                            is_par_mois: info['7d7']
+                            s_par_semaine: info['7d769b'],
+                            is_par_mois: info['7d769c']
                         }
                     },
                     conjoint_partenaire: {
@@ -95,8 +95,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d770'],
-                            is_par_semaine: info['7d7'],
-                            is_par_mois: info['7d7']
+                            is_par_semaine: info['7d770b'],
+                            is_par_mois: info['7d770c']
                         }
                     }
                 },
@@ -109,8 +109,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d777'],
-                            is_par_semaine: info['7d7'],
-                            is_par_mois: info['7d7']
+                            is_par_semaine: info['7d777b'],
+                            is_par_mois: info['7d777c']
                         }
                     },
                     conjoint_partenaire: {
@@ -121,8 +121,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d778'],
-                            is_par_semaine: info['7d7'],
-                            is_par_mois: info['7d7']
+                            is_par_semaine: info['7d778b'],
+                            is_par_mois: info['7d778c']
                         }
                     }
                 }

@@ -13,7 +13,9 @@
         "mongoose": "^5.9.9",
         "path": "^0.12.7"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "nodemon": "^2.0.4"
+    },
     "scripts": {
         "start": "node index",
         "dev": "nodemon index",
