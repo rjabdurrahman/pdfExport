@@ -1246,8 +1246,8 @@
 </div>
             <div id="page7" class="a07 anima-word-break ">
     <div style="width: 1071px; height: 100%; position:relative; margin:auto;">
-        <input name="7d7" type="checkbox" class="a778parmois0" />
-        <input name="7d7" type="checkbox" class="a778parsemaine1" />
+        <input name="7d7" type="checkbox" class="a778parmois0" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'"/>
+        <input name="7d7" type="checkbox" class="a778parsemaine1" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'"/>
         <input name="7d778" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour}}" class="a778jours2" />
         <input name="7d7" type="checkbox" class="a777parmois3" />
         <input name="7d7" type="checkbox" class="a777parsemaine4" />
@@ -1258,11 +1258,11 @@
         <input name="7d773" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.du}}" class="a7739" />
         <input name="7d772" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.localite}}" class="a77210" />
         <input name="7d771" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.localite}}" class="a77111" />
-        <input name="7d7" type="checkbox" class="a770parmois12" />
-        <input name="7d7" type="checkbox" class="a770parsemaine13" />
+        <input name="7d7" type="checkbox" class="a770parmois12" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
+        <input name="7d7" type="checkbox" class="a770parsemaine13" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
         <input name="7d770" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.jour}}" class="a770jours14" />
-        <input name="7d7" type="checkbox" class="a769parmois15" />
-        <input name="7d7" type="checkbox" class="a769parsemaine16" />
+        <input name="7d7" type="checkbox" class="a769parmois15" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
+        <input name="7d7" type="checkbox" class="a769parsemaine16" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'" />
         <input name="7d769" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.jour}}" class="a769jours17" />
         <input name="7d768" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.au}}" class="a76818" />
         <input name="7d767" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.du}}" class="a76719" />
@@ -1557,7 +1557,7 @@
             <div id="page8" class="a08 anima-word-break ">
     <div style="width: 1061px; height: 100%; position:relative; margin:auto;">
         <input name="8d846" type="text" value="{{client.pension.abattement_extra_pro.rente_date}}" class="a8460" />
-        <input name="8d845" type="checkbox" class="a8451" />
+        <input name="8d845" type="checkbox" class="a8451" ng-checked="client.pension.abattement_extra_pro.is_demande == 'Yes'" />
         <input name="8d844" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a_deduire.totalABC}}" class="a8442" />
         <input name="8d843" type="text" value="{{client.pension.rev_exo.contribuable.a_deduire.totalABC}}" class="a8433" />
         <input name="8d842" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a_deduire.totalABC}}" class="a8424" />
@@ -2326,20 +2326,20 @@
 </div>
             <div id="page12" class="a12 anima-word-break ">
     <div style="width: 1070px; height: 100%; position:relative; margin:auto;">
-        <input name="12d1227" type="text" value="V27" class="a122112220" />
+        <input name="12d1227" type="text" value="" class="a122112220" disabled/>
         <input name="12d1226" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_133}}" class="a12221" />
         <input name="12d1225" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_133}}" class="a12212" />
-        <input name="12d1224" type="text" value="V24" class="a121912203" />
+        <input name="12d1224" type="text" value="" class="a121912203" disabled/>
         <input name="12d1223" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_132_pourcentage_25}}" class="a12204" />
         <input name="12d1222" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_132_pourcentage_25}}" class="a12195" />
-        <input name="12d1221" type="text" value="V21" class="a121712186" />
+        <input name="12d1221" type="text" value="" class="a121712186" disabled/>
         <input name="12d1220" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_132_pourcentage_50}}" class="a12187" />
         <input name="12d1219" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_132_pourcentage_50}}" class="a12178" />
-        <input name="12d1218" type="text" value="V18" class="a121512169" />
+        <input name="12d1218" type="text" value="" class="a121512169" disabled/>
         <input name="12d1217" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_132_etalement}}" class="a121610" />
         <input name="12d1216" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_132_etalement}}" class="a121511" />
-        <input name="12d1215" type="text" value="V15" class="a121412" />
-        <input name="12d1214" type="text" value="V14" class="a121313" />
+        <input name="12d1215" type="text" value="" class="a121412" disabled/>
+        <input name="12d1214" type="text" value="" class="a121313" disabled/>
         <input name="12d1213" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.r4}}" class="a121214" />
         <input name="12d1212" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.contribuable.r4}}" class="a121115" />
         <input name="12d1211" type="text" value="{{client.rev_extraordinaires_ord.nature_revenus.r4}}" class="a121016" />
@@ -2352,7 +2352,7 @@
         <input name="12d1204" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.r1}}" class="a120323" />
         <input name="12d1203" type="text" value="{{client.rev_extraordinaires_ord.rev_non_expo.table.contribuable.r1}}" class="a120224" />
         <input name="12d1202" type="text" value="{{client.rev_extraordinaires_ord.nature_revenus.r1}}" class="a120125" />
-        <input name="12d1201" type="checkbox" class="checkbox26" />
+        <input name="12d1201" type="checkbox" class="checkbox26" ng-checked="client.rev_extraordinaires_ord.is_demande == 'Yes'"/>
         <div class="applicationdelarticle133lir27">
             Application de l'article 133 L.I.R.
         </div>
@@ -2432,7 +2432,7 @@
         <input name="13d1313" type="text" value="V13" class="a1308130930" />
         <input name="13d1312" type="text" value="{{client.arrerages.conjoint_partenaire.paiements.decision_avant}}" class="a130931" />
         <input name="13d1311" type="text" value="{{client.arrerages.contribuable.paiements.decision_avant}}" class="a130832" />
-        <input name="13d1310" type="checkbox" class="a130733" />
+        <input name="13d1310" type="checkbox" class="a130733" ng-checked="client.arrerages.is_demande == 'Yes'"/>
         <input name="13d1309" type="text" value="V9" class="a1305130634" />
         <input name="13d1308" type="text" value="{{client.arrerages.conjoint_partenaire.paiements.decision_apres}}" class="a130635" />
         <input name="13d1307" type="text" value="{{client.arrerages.contribuable.paiements.decision_apres}}" class="a130536" />

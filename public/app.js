@@ -13,12 +13,12 @@ app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $lo
             activetab: 'page1'
         })
         .otherwise({ redirectTo: '/' });
-    if (window.history && window.history.pushState) {
-        $locationProvider.html5Mode({
-            enabled: true,
-            requireBase: false
-        });
-    }
+    // if (window.history && window.history.pushState) {
+    //     $locationProvider.html5Mode({
+    //         enabled: true,
+    //         requireBase: false
+    //     });
+    // }
 }]);
 
 app.run(function ($rootScope, $http, $route) {
