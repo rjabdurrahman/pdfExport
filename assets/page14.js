@@ -1,6 +1,6 @@
 module.exports = function(info){
     return {
-        depenses_speciales: {
+        depenses_speciales14: {
             interets_debiteurs_table1:{
                 r1: {
                     adresse: info['14d1401'],

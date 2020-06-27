@@ -1,6 +1,6 @@
 module.exports = function (info) {
     return {
-        depenses_speciales: {
+        depenses_speciales15: {
             cotisations_payees: {
                 contribuable: {
                     cotisations: info['15d1501']
