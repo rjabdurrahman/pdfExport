@@ -14,7 +14,6 @@ app.use(express.urlencoded({ extended: false }));
 
 app.post('/login', function (req, res) {
     let user = _.find(users, req.body)
-    console.log(user)
     if (user) {
         res.cookie('user', user, { maxAge: 360000 })
         res.redirect('/')
