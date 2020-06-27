@@ -1,7 +1,7 @@
 module.exports = function (info) {
     return {
         arrerages: {
-            is_demande: info['13d13'],
+            is_demande: info['13d1310'],
             contribuable: {
                 obligation_particuliere: info['13d1301'],
                 paiements: {
