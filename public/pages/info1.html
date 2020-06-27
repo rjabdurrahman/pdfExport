@@ -3918,7 +3918,7 @@
         let id = location.href.split('id=')[1];
         axios.post('api/infoupdate/' + id, info)
             .then(res => {
-                if (!res.err) notify('Updated Successfully!', 1);
+                if (!res.err) notify('Mise à jour', 1);
             })
             .catch(err => {
                 notify(err.message, 2);

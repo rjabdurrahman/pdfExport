@@ -109,13 +109,45 @@ header {
 }
 
 #notification {
+  display: none;
   position: fixed;
   z-index: 9999;
   right: 10px;
-  top: 10px;
-  padding-left: 42px;
+  top: 8px;
+  color: white;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+#notification div {
+  padding-left: 32px;
   padding-right: 42px;
-  display: none;
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#notification div span {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+#notification div h6 {
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+
+#notification.success {
+  background: #25C1A0;
+}
+
+#notification.error {
+  background: #CF4044;
 }
 
 .top-nav {
