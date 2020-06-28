@@ -2,49 +2,49 @@ module.exports = function(info){
     return {
         charges_extraordinaires_17: {
             abattement:{
-                is_abattement: info['17d'],
+                is_abattement: info['17d17'],
                 detail_charges: {
-                    contribuable: info['17d'],
-                    conjoint_partenaire: info['17d']
+                    contribuable: info['17d1702'],
+                    conjoint_partenaire: info['17d1703']
                 },
                 table: {
-                    r1: info['17d'],
-                    r2: info['17d'],
-                    r3: info['17d'],
-                    r4: info['17d'],
-                    r5: info['17d'],
-                    r6: info['17d'],
-                    r7: info['17d'],
-                    r8: info['17d']
+                    r1: info['17d1705'],
+                    r2: info['17d1706'],
+                    r3: info['17d1707'],
+                    r4: info['17d1708'],
+                    r5: info['17d1709'],
+                    r6: info['17d1710'],
+                    r7: info['17d1711'],
+                    r8: info['17d1712']
                 }
                 
             },
             abattements_forfaitaires1: {
-                is_invalidite: info['17d'],
+                is_invalidite: info['17d17'],
                 contribuable: {
-                    is_en_annexe: info['17d'],
-                    is_deja_presente: info['17d'],
-                    taux: info['17d']
+                    is_en_annexe: info['17d17'],
+                    is_deja_presente: info['17d17'],
+                    taux: info['17d1716']
                 },
                 conjoint_partenaire: {
-                    is_en_annexe: info['17d'],
-                    is_deja_presente: info['17d'],
-                    taux: info['17d']
+                    is_en_annexe: info['17d17'],
+                    is_deja_presente: info['17d17'],
+                    taux: info['17d1719']
                 }
             },
             abattements_forfaitaires2: {
-                is_frais_domestiques: info['17d'],
+                is_frais_domestiques: info['17d17'],
                 contribuable: {
-                    nom: info['17d'],
-                    montant_mensuel: info['17d'],
-                    pendant_mois: info['17d'],
-                    montant_annuel: info['17d']
+                    nom: info['17d1721'],
+                    montant_mensuel: info['17d1723'],
+                    pendant_mois: info['17d1725'],
+                    montant_annuel: info['17d1727']
                 },
                 conjoint_partenaire: {
-                    nom: info['17d'],
-                    montant_mensuel: info['17d'],
-                    pendant_mois: info['17d'],
-                    montant_annuel: info['17d']
+                    nom: info['17d1722'],
+                    montant_mensuel: info['17d1724'],
+                    pendant_mois: info['17d1726'],
+                    montant_annuel: info['17d1728']
                 }
             }
         },
