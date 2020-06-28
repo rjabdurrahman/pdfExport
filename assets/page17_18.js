@@ -2,7 +2,7 @@ module.exports = function(info){
     return {
         charges_extraordinaires_17: {
             abattement:{
-                is_abattement: info['17d17'],
+                is_abattement1: info['17d17'],
                 detail_charges: {
                     contribuable: info['17d1702'],
                     conjoint_partenaire: info['17d1703']
@@ -46,6 +46,80 @@ module.exports = function(info){
                     pendant_mois: info['17d1726'],
                     montant_annuel: info['17d1728']
                 }
+            },
+            is_abattement1: info['17d17']
+            ,
+            enfants_moins_21: [
+                {
+                    nom: info['17d1729'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d1730'],
+                    montant: info['17d1731']
+                },
+                {
+                    nom: info['17d1732'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d1733'],
+                    montant: info['17d1734']
+                },
+                {
+                    nom: info['17d1735'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d1736'],
+                    montant: info['17d1737']
+                },
+                {
+                    nom: info['17d176'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d3'],
+                    montant: info['17d4']
+                }
+            ],
+            enfants_plus_21: [
+                {
+                    nom: info['17d1'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d3'],
+                    montant: info['17d4'],
+                    formation: info['17d']
+                },
+                {
+                    nom: info['17d1'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d3'],
+                    montant: info['17d4'],
+                    formation: info['17d']
+                },
+                {
+                    nom: info['17d1'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d3'],
+                    montant: info['17d4'],
+                    formation: info['17d']
+                },
+                {
+                    nom: info['17d1'],
+                    prenom: info['17d2'],
+                    date_de_naissance: info['17d3'],
+                    montant: info['17d4'],
+                    formation: info['17d']
+                }
+            ],
+            mobilite_durable: {
+                contribuable: [
+                    {
+                        is_voiture: info['17d'],
+                        voiture: info['17d']
+                    },
+                    {
+                        is_cycle: info['17d'],
+                        cycle: info['17d']
+                    },
+                    {
+                        is_voiture_electrique: info['17d'],
+                        voiture_electrique: info['17d']
+                    }
+                ]
             }
         },
         charges_extraordinaires_18: {
