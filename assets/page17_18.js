@@ -46,157 +46,97 @@ module.exports = function(info){
                     pendant_mois: info['17d1726'],
                     montant_annuel: info['17d1728']
                 }
-            },
-            is_abattement1: info['17d17']
-            ,
-            enfants_moins_21: [
-                {
-                    nom: info['17d1729'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d1730'],
-                    montant: info['17d1731']
-                },
-                {
-                    nom: info['17d1732'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d1733'],
-                    montant: info['17d1734']
-                },
-                {
-                    nom: info['17d1735'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d1736'],
-                    montant: info['17d1737']
-                },
-                {
-                    nom: info['17d176'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d3'],
-                    montant: info['17d4']
-                }
-            ],
-            enfants_plus_21: [
-                {
-                    nom: info['17d1'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d3'],
-                    montant: info['17d4'],
-                    formation: info['17d']
-                },
-                {
-                    nom: info['17d1'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d3'],
-                    montant: info['17d4'],
-                    formation: info['17d']
-                },
-                {
-                    nom: info['17d1'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d3'],
-                    montant: info['17d4'],
-                    formation: info['17d']
-                },
-                {
-                    nom: info['17d1'],
-                    prenom: info['17d2'],
-                    date_de_naissance: info['17d3'],
-                    montant: info['17d4'],
-                    formation: info['17d']
-                }
-            ],
-            mobilite_durable: {
-                contribuable: [
-                    {
-                        is_voiture: info['17d'],
-                        voiture: info['17d']
-                    },
-                    {
-                        is_cycle: info['17d'],
-                        cycle: info['17d']
-                    },
-                    {
-                        is_voiture_electrique: info['17d'],
-                        voiture_electrique: info['17d']
-                    }
-                ]
             }
         },
         charges_extraordinaires_18: {
-            is_abattement: info['18d'],
+            is_abattement: info['18d18'],
             enfants_moins_21: [
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4']
+                    nom: info['18d1801'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1802'],
+                    montant: info['18d1803']
                 },
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4']
+                    nom: info['18d1804'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1805'],
+                    montant: info['18d1806']
                 },
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4']
+                    nom: info['18d1807'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1808'],
+                    montant: info['18d1809']
                 },
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4']
+                    nom: info['18d1810'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1811'],
+                    montant: info['18d1812']
                 }
             ],
             enfants_plus_21: [
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4'],
-                    formation: info['18d']
+                    nom: info['18d1813'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1814'],
+                    montant: info['18d1815'],
+                    formation: info['18d1816']
                 },
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4'],
-                    formation: info['18d']
+                    nom: info['18d1817'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1818'],
+                    montant: info['18d1819'],
+                    formation: info['18d1820']
                 },
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4'],
-                    formation: info['18d']
+                    nom: info['18d1821'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1822'],
+                    montant: info['18d1823'],
+                    formation: info['18d1824']
                 },
                 {
-                    nom: info['18d1'],
-                    prenom: info['18d2'],
-                    date_de_naissance: info['18d3'],
-                    montant: info['18d4'],
-                    formation: info['18d']
+                    nom: info['18d1825'],
+                    prenom: info['18d18'],
+                    date_de_naissance: info['18d1826'],
+                    montant: info['18d1827'],
+                    formation: info['18d1828']
                 }
             ],
             mobilite_durable: {
                 contribuable: [
                     {
-                        is_voiture: info['18d'],
-                        voiture: info['18d']
+                        is_voiture: info['18d18'],
+                        voiture: info['18d1829']
                     },
                     {
-                        is_cycle: info['18d'],
-                        cycle: info['18d']
+                        is_cycle: info['18d18'],
+                        cycle: info['18d1831']
                     },
                     {
-                        is_voiture_electrique: info['18d'],
-                        voiture_electrique: info['18d']
+                        is_voiture_electrique: info['18d18'],
+                        voiture_electrique: info['18d1833']
+                    }
+                ],
+                conjoint_partenaire: [
+                    {
+                        is_voiture: info['18d18'],
+                        voiture: info['18d1830']
+                    },
+                    {
+                        is_cycle: info['18d18'],
+                        cycle: info['18d1832']
+                    },
+                    {
+                        is_voiture_electrique: info['18d18'],
+                        voiture_electrique: info['18d1834']
                     }
                 ]
             },
-            is_investissement: info['18d']
+            is_investissement: info['18d18']
         }
     }
 }
