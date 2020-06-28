@@ -3261,6 +3261,7 @@
         </div>
     </div>
 </div>
+<<<<<<< HEAD
 
 <div class="a18 anima-word-break" style="margin-top: 32px;">
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
@@ -3394,6 +3395,8 @@
         </div>
     </div>
 </div>
+=======
+>>>>>>> 3e7a2f9e8f20738eeb9fc4358a8a2dcfae3d5a57
                 <div style="margin-top: 42px;" class="a18 anima-word-break ">
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
         <input type="checkbox" class="a18010" />
@@ -3885,13 +3888,20 @@
     else {
         $('#page1').show();
     }
-    /*$('.left-nav').scroll(function (e) {
-        if ($(document).scrollT() > 0) {
+    /* $('.left-nav').scroll(function (e) {
+        if ($(this).scrollTop() == 0) {
+            console.log('bottom')
+            $('window').animate({
+                scrollTop: '0px'
+            }, 0)
+        }
+        else if ($(this).scrollTop() > 0) {
+            console.log('top')
             $('html, body').animate({
                 scrollTop: '92px'
             }, 300)
         }
-    })*/
+    }) */
     function navPage(p, e) {
         $('.form-input > *').hide();
         $('#page' + p).show();
