@@ -4,84 +4,84 @@ module.exports = function (info) {
             cotisations_obligatoires: {
                 rev_non_exo: {
                     contribuable: {
-                        prelevements: info['16d']
+                        prelevements: info['16d1605']
                     },
                     conjoint_partenaire: {
-                        prelevements: info['16d']
+                        prelevements: info['16d1606']
                     }
                 },
                 rev_exo: {
                     contribuable: {
-                        prelevements: info['16d']
+                        prelevements: info['16d1608']
                     },
                     conjoint_partenaire: {
-                        prelevements: info['16d']
+                        prelevements: info['16d1609']
                     }
                 }
             },
             regimes_complementaires: {
                 rev_non_exo: {
                     contribuable: {
-                        cotisations: info['16d'],
-                        contributions: info['16d'],
+                        cotisations: info['16d1611'],
+                        contributions: info['16d1617'],
                         affiliation: {
-                            is_oui: info['16d'],
-                            is_non: info['16d']
+                            is_oui: info['16d16'],
+                            is_non: info['16d16']
                         }
                     },
                     conjoint_partenaire: {
-                        cotisations: info['16d'],
-                        contributions: info['16d'],
+                        cotisations: info['16d1612'],
+                        contributions: info['16d1618'],
                         affiliation: {
-                            is_oui: info['16d'],
-                            is_non: info['16d']
+                            is_oui: info['16d16'],
+                            is_non: info['16d16']
                         }
                     }
                 },
                 rev_exo: {
                     contribuable: {
-                        cotisations: info['16d']
+                        cotisations: info['16d1614']
                     },
                     conjoint_partenaire: {
-                        cotisations: info['16d']
+                        cotisations: info['16d1615']
                     }
                 }
             },
             liberalites: {
                 report_2017: {
-                    contribuable: info['16d'],
-                    conjoint_partenaire: info['16d']
+                    contribuable: info['16d1620'],
+                    conjoint_partenaire: info['16d1621']
                 },
                 report_2018: {
-                    contribuable: info['16d'],
-                    conjoint_partenaire: info['16d']
+                    contribuable: info['16d1623'],
+                    conjoint_partenaire: info['16d1624']
                 },
                 beneficiaire: {
-                    r1: info['16d'],
-                    r2: info['16d'],
-                    r3: info['16d'],
-                    r4: info['16d'],
-                    r5: info['16d'],
-                    r6: info['16d']
+                    r1: info['16d1626'],
+                    r2: info['16d1629'],
+                    r3: info['16d1632'],
+                    r4: info['16d1635'],
+                    r5: info['16d1638'],
+                    r6: info['16d1641']
                 },
                 liberalites_2019: {
                     contribuable: {
-                        r1: info['14d'],
-                        r2: info['14d'],
-                        r3: info['14d'],
-                        r4: info['14d'],
-                        r5: info['14d'],
-                        r6: info['14d'],
-                        total_liberalites: info['14d']
+                        r1: info['16d1627'],
+                        r2: info['16d1630'],
+                        r3: info['16d1633'],
+                        r4: info['16d1636'],
+                        r5: info['16d1639'],
+                        r6: info['16d1642'],
+                        total_liberalites: info['16d1644']
                     },
                     conjoint_partenaire: {
-                        r1: info['14d'],
-                        r2: info['14d'],
-                        r3: info['14d'],
-                        r4: info['14d'],
-                        r5: info['14d'],
-                        r6: info['14d'],
-                        total_liberalites: info['14d']
+                        r1: info['16d1628'],
+                        r2: info['16d1631'],
+                        r3: info['16d1634'],
+                        r4: info['16d1637'],
+                        r5: info['16d1640'],
+                        r6: info['16d1643'],
+                        total_liberalites: info['16d1645']
                     }
                 }
             },
@@ -89,18 +89,18 @@ module.exports = function (info) {
                 pertes_reportables: {
                     rev_non_exo: {
                         contribuable: {
-                            total_pertes: info['16d']
+                            total_pertes: info['16d1647']
                         },
                         conjoint_partenaire: {
-                            total_pertes: info['16d']
+                            total_pertes: info['16d1648']
                         }
                     },
                     rev_exo: {
                         contribuable: {
-                            total_pertes: info['16d']
+                            total_pertes: info['16d1650']
                         },
                         conjoint_partenaire: {
-                            total_pertes: info['16d']
+                            total_pertes: info['16d1651']
                         }
                     }
                 }
