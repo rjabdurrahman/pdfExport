@@ -4,8 +4,7 @@ function isSaveAlive(val) {
 
 if (!location.href.includes('/info')) localStorage.setItem('activePage', 1);
 $('a').click(function () {
-    console.log('clicked')
-    if (!location.href.includes('/info')) localStorage.activePage = 1;
+    localStorage.activePage = 1;
 });
 
 function $print(data) {
