@@ -3135,14 +3135,14 @@
         <input name="17d1723" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_mensuel}}" class="a17225">
         <input name="17d1722" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.nom}}" class="a17216">
         <input name="17d1721" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.nom}}" class="a17207">
-        <input name="17d1720" type="checkbox" class="a17198">
+        <input name="17d1720" type="checkbox" class="a17198" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.is_frais_domestiques == 'Yes'">
         <input name="17d1719" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux}}" class="a17189">
-        <input name="17d1718" type="checkbox" class="a171710">
-        <input name="17d1717" type="checkbox" class="a171611">
+        <input name="17d1718" type="checkbox" class="a171710" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_deja_presente == 'Yes'">
+        <input name="17d1717" type="checkbox" class="a171611" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe == 'Yes'">
         <input name="17d1716" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux}}" class="a171512">
-        <input name="17d1715" type="checkbox" class="a171413">
-        <input name="17d1714" type="checkbox" class="a171314">
-        <input name="17d1713" type="checkbox" class="a171215">
+        <input name="17d1715" type="checkbox" class="a171413" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_deja_presente == 'Yes'">
+        <input name="17d1714" type="checkbox" class="a171314" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe == 'Yes'">
+        <input name="17d1713" type="checkbox" class="a171215" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite == 'Yes'">
         <input name="17d1712" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r8}}" class="a171116">
         <input name="17d1711" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r7}}" class="a171017">
         <input name="17d1710" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r6}}" class="a170918">
@@ -3154,7 +3154,7 @@
         <input name="17d1704" type="text" value="V4" class="a1702170324">
         <input name="17d1703" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.conjoint_partenaire}}" class="a170325">
         <input name="17d1702" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.contribuable}}" class="a170226">
-        <input name="17d1701" type="checkbox" class="a170127">
+        <input name="17d1701" type="checkbox" class="a170127" ng-checked="client.charges_extraordinaires_17.abattement.is_abattement1 == 'Yes'">
         <div class="montantannueldesfrais28">
             Montant annuel des frais
         </div>
@@ -3263,14 +3263,14 @@
 </div>
                 <div style="margin-top: 42px;" class="a18 anima-word-break ">
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
-        <input name="18d1842" type="checkbox" ng-checked="" class="a18010" />
-        <input name="18d1841" type="checkbox" ng-checked="" class="checkbox61" />
-        <input name="18d1840" type="checkbox" ng-checked="" class="checkbox52" />
-        <input name="18d1839" type="checkbox" ng-checked="" class="checkbox43" />
-        <input name="18d1838" type="checkbox" ng-checked="" class="checkbox34" />
-        <input name="18d1837" type="checkbox" ng-checked="" class="checkbox25" />
-        <input name="18d1836" type="checkbox" ng-checked="" class="checkbox16" />
-        <input name="18d1835" type="checkbox" ng-checked="" class="a18367" />
+        <input name="18d1842" type="checkbox" class="a18010" ng-checked="client.charges_extraordinaires_18.is_abattement == 'Yes'"/>
+        <input name="18d1841" type="checkbox" class="checkbox61" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['2'].is_voiture_electrique == 'Yes'"/>
+        <input name="18d1840" type="checkbox" class="checkbox52" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['2'].is_voiture_electrique == 'Yes'"/>
+        <input name="18d1839" type="checkbox" class="checkbox43" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['1'].is_cycle == 'Yes'"/>
+        <input name="18d1838" type="checkbox" class="checkbox34" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['1'].is_cycle == 'Yes'"/>
+        <input name="18d1837" type="checkbox" class="checkbox25" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['0'].is_voiture == 'Yes'"/>
+        <input name="18d1836" type="checkbox" class="checkbox16" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['0'].is_voiture == 'Yes'"/>
+        <input name="18d1835" type="checkbox" class="a18367" ng-checked="client.charges_extraordinaires_18.is_investissement == 'Yes'"/>
         <input name="18d1834" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['2'].voiture_electrique}}" class="a18358" />
         <input name="18d1833" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.contribuable['2'].voiture_electrique}}" class="a18349" />
         <input name="18d1832" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['1'].cycle}}" class="a183310" />

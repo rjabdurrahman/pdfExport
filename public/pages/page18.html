@@ -1,13 +1,13 @@
 <div style="margin-top: 42px;" class="a18 anima-word-break ">
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
-        <input name="18d1842" type="checkbox" ng-checked="" class="a18010" />
-        <input name="18d1841" type="checkbox" ng-checked="" class="checkbox61" />
-        <input name="18d1840" type="checkbox" ng-checked="" class="checkbox52" />
-        <input name="18d1839" type="checkbox" ng-checked="" class="checkbox43" />
-        <input name="18d1838" type="checkbox" ng-checked="" class="checkbox34" />
-        <input name="18d1837" type="checkbox" ng-checked="" class="checkbox25" />
-        <input name="18d1836" type="checkbox" ng-checked="" class="checkbox16" />
-        <input name="18d1835" type="checkbox" ng-checked="" class="a18367" />
+        <input name="18d1842" type="checkbox" class="a18010" ng-checked="client.charges_extraordinaires_18.is_abattement == 'Yes'"/>
+        <input name="18d1841" type="checkbox" class="checkbox61" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['2'].is_voiture_electrique == 'Yes'"/>
+        <input name="18d1840" type="checkbox" class="checkbox52" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['2'].is_voiture_electrique == 'Yes'"/>
+        <input name="18d1839" type="checkbox" class="checkbox43" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['1'].is_cycle == 'Yes'"/>
+        <input name="18d1838" type="checkbox" class="checkbox34" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['1'].is_cycle == 'Yes'"/>
+        <input name="18d1837" type="checkbox" class="checkbox25" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['0'].is_voiture == 'Yes'"/>
+        <input name="18d1836" type="checkbox" class="checkbox16" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['0'].is_voiture == 'Yes'"/>
+        <input name="18d1835" type="checkbox" class="a18367" ng-checked="client.charges_extraordinaires_18.is_investissement == 'Yes'"/>
         <input name="18d1834" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['2'].voiture_electrique}}" class="a18358" />
         <input name="18d1833" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.contribuable['2'].voiture_electrique}}" class="a18349" />
         <input name="18d1832" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['1'].cycle}}" class="a183310" />

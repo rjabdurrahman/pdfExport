@@ -2,7 +2,7 @@ module.exports = function(info){
     return {
         charges_extraordinaires_17: {
             abattement:{
-                is_abattement1: info['17d17'],
+                is_abattement1: info['17d1701'] ? info['17d1701'] : 'Off',
                 detail_charges: {
                     contribuable: info['17d1702'],
                     conjoint_partenaire: info['17d1703']
@@ -20,20 +20,20 @@ module.exports = function(info){
                 
             },
             abattements_forfaitaires1: {
-                is_invalidite: info['17d17'],
+                is_invalidite: info['17d1713'] ? info['17d1713'] : 'Off',
                 contribuable: {
-                    is_en_annexe: info['17d17'],
-                    is_deja_presente: info['17d17'],
+                    is_en_annexe: info['17d1714'] ? info['17d1714'] : 'Off',
+                    is_deja_presente: info['17d1715'] ? info['17d1715'] : 'Off',
                     taux: info['17d1716']
                 },
                 conjoint_partenaire: {
-                    is_en_annexe: info['17d17'],
-                    is_deja_presente: info['17d17'],
+                    is_en_annexe: info['17d1717'] ? info['17d1717'] : 'Off',
+                    is_deja_presente: info['17d1718'] ? info['17d1718'] : 'Off',
                     taux: info['17d1719']
                 }
             },
             abattements_forfaitaires2: {
-                is_frais_domestiques: info['17d17'],
+                is_frais_domestiques: info['17d1720'] ? info['17d1720'] : 'Off',
                 contribuable: {
                     nom: info['17d1721'],
                     montant_mensuel: info['17d1723'],
@@ -49,7 +49,7 @@ module.exports = function(info){
             }
         },
         charges_extraordinaires_18: {
-            is_abattement: info['18d18'],
+            is_abattement: info['18d1842'] ? info['18d1842'] : 'Off',
             enfants_moins_21: [
                 {
                     nom: info['18d1801'],
@@ -109,34 +109,34 @@ module.exports = function(info){
             mobilite_durable: {
                 contribuable: [
                     {
-                        is_voiture: info['18d18'],
+                        is_voiture: info['18d1836'] ? info['18d1836'] : 'Off',
                         voiture: info['18d1829']
                     },
                     {
-                        is_cycle: info['18d18'],
+                        is_cycle: info['18d1838'] ? info['18d1838'] : 'Off',
                         cycle: info['18d1831']
                     },
                     {
-                        is_voiture_electrique: info['18d18'],
+                        is_voiture_electrique: info['18d1840'] ? info['18d1840'] : 'Off',
                         voiture_electrique: info['18d1833']
                     }
                 ],
                 conjoint_partenaire: [
                     {
-                        is_voiture: info['18d18'],
+                        is_voiture: info['18d1837'] ? info['18d1837'] : 'Off',
                         voiture: info['18d1830']
                     },
                     {
-                        is_cycle: info['18d18'],
+                        is_cycle: info['18d1839'] ? info['18d1839'] : 'Off',
                         cycle: info['18d1832']
                     },
                     {
-                        is_voiture_electrique: info['18d18'],
+                        is_voiture_electrique: info['18d1841'] ? info['18d1841'] : 'Off',
                         voiture_electrique: info['18d1834']
                     }
                 ]
             },
-            is_investissement: info['18d18']
+            is_investissement: info['18d1835'] ? info['18d1835'] : 'Off'
         }
     }
 }
