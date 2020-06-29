@@ -1,10 +1,7 @@
 module.exports = function(info){
     return {
         etat_civil: {
-            is_celibataire: info['3d1'] ? info['3d1'] : 'Off',
-            is_marie_e: info['3d2'] ? info['3d2'] : 'Off',
-            is_divorce_e: info['3d3'] ? info['3d3'] : 'Off',
-            is_veuf_veuve: info['3d4'] ? info['3d4'] : 'Off',
+            status: info['3d1'],
             is_depuis_le: info['3d5'],
             separe_e: {
                 is_dispense_legale: info['3d6'] ? info['3d6'] : 'Off',
