@@ -13,17 +13,17 @@ body {
 }
 
 #clientModal input.err {
-  border: 1px solid #CF4044 !important;
+  border: 1px solid #cf4044 !important;
   background: white !important;
 }
 
-#clientModal input[type=text],
-#clientModal input[type=email] {
-  background-color: #DFE2E5;
+#clientModal input[type="text"],
+#clientModal input[type="email"] {
+  background-color: #dfe2e5;
 }
 
-#clientModal input[type=text]:focus,
-#clientModal input[type=email]:focus {
+#clientModal input[type="text"]:focus,
+#clientModal input[type="email"]:focus {
   background-color: white;
 }
 
@@ -31,8 +31,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #EAECEE;
-  border-bottom: 2px solid #DFE2E5;
+  background-color: #eaecee;
+  border-bottom: 2px solid #dfe2e5;
 }
 
 #clientModal .select-user label {
@@ -45,7 +45,7 @@ body {
 }
 
 #clientModal .select-user label:first-child {
-  border-right: 2px solid #DFE2E5;
+  border-right: 2px solid #dfe2e5;
 }
 
 #clientModal .select-user label.active {
@@ -64,7 +64,7 @@ body {
 #clientModal .footer button {
   font-weight: bold;
   font-size: 14px;
-  background-color: #25C1A0;
+  background-color: #25c1a0;
   color: white;
   padding-left: 22px;
   padding-right: 22px;
@@ -77,7 +77,7 @@ body {
   -webkit-box-pack: justify !important;
       -ms-flex-pack: justify !important;
           justify-content: space-between !important;
-  background-color: #6E9CEE;
+  background-color: #6e9cee;
   color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -101,7 +101,7 @@ body {
   -ms-flex-item-align: start;
       -ms-grid-row-align: start;
       align-self: start;
-  background-color: #CF4044;
+  background-color: #cf4044;
 }
 
 header {
@@ -143,11 +143,11 @@ header {
 }
 
 #notification.success {
-  background: #25C1A0;
+  background: #25c1a0;
 }
 
 #notification.error {
-  background: #CF4044;
+  background: #cf4044;
 }
 
 .top-nav {
@@ -155,7 +155,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: white;
-  background-color: #0D2D67 !important;
+  background-color: #0d2d67 !important;
   padding-left: 50px;
   padding-right: 30px;
 }
@@ -229,7 +229,7 @@ header {
   max-width: 300px;
   min-height: calc(100vh - 70.4px);
   font-size: 15px;
-  background-color: #F4F5F6;
+  background-color: #f4f5f6;
 }
 
 .left-nav a {
@@ -248,11 +248,11 @@ header {
   -ms-flex-item-align: center;
       align-self: center;
   margin-right: 4px;
-  color: #F4F5F6;
+  color: #f4f5f6;
 }
 
 .left-nav a span.done {
-  color: #25C1A0;
+  color: #25c1a0;
   -webkit-filter: brightness(1.1);
           filter: brightness(1.1);
 }
@@ -283,11 +283,11 @@ header {
 }
 
 .left-nav .active {
-  background-color: #DFE2E5;
+  background-color: #dfe2e5;
 }
 
 .left-nav .w3-button:hover {
-  background-color: #DFE2E5 !important;
+  background-color: #dfe2e5 !important;
 }
 
 .left-nav .w3-dropdown-content {
@@ -301,7 +301,7 @@ header {
   position: sticky;
   top: 0;
   height: 50px;
-  background-color: #6E9CEE;
+  background-color: #6e9cee;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -324,7 +324,7 @@ header {
 }
 
 .top-bar .refresh {
-  background-color: #CF4044;
+  background-color: #cf4044;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -348,7 +348,7 @@ header {
   background-color: white;
 }
 
-.form-input input[type=checkbox] {
+.form-input input[type="checkbox"] {
   padding: 0 !important;
   cursor: pointer;
   -webkit-appearance: none;
@@ -357,10 +357,23 @@ header {
   appearance: none;
 }
 
-.form-input input[type=checkbox]:checked {
-  background: #DFE2E5 url("../img/check.svg") no-repeat;
+.form-input input[type="checkbox"]:checked {
+  background: #dfe2e5 url("../img/check.svg") no-repeat;
   background-size: 20px 20px;
   background-position: 50% 50%;
+}
+
+.form-input input[type="radio"] {
+  display: none;
+}
+
+.form-input label {
+  border: 1px solid gray;
+}
+
+.form-input input[type="radio"]:checked + label::before {
+  font-family: "Material Icons";
+  content: "\e5cc";
 }
 
 input,
@@ -413,7 +426,7 @@ input[type="text"]:disabled:hover {
 }
 
 .table-container .top button {
-  background-color: #6E9CEE;
+  background-color: #6e9cee;
   color: white;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -432,11 +445,11 @@ input[type="text"]:disabled:hover {
   background-repeat: no-repeat;
   background-position: 4px 8px;
   background-size: 25px;
-  border-color: #6E9CEE !important;
+  border-color: #6e9cee !important;
 }
 
 .table-container table thead tr {
-  background-color: #D1D4D5 !important;
+  background-color: #d1d4d5 !important;
 }
 
 .table-container table thead th {

@@ -1,7 +1,7 @@
-$primary-color: #0D2D67;
-$secondary-color: #6E9CEE;
-$opt-color: #D1D4D5;
-$in-color: #DFE2E5;
+$primary-color: #0d2d67;
+$secondary-color: #6e9cee;
+$opt-color: #d1d4d5;
+$in-color: #dfe2e5;
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -17,12 +17,12 @@ body {
 
 #clientModal {
     input.err {
-        border: 1px solid #CF4044 !important;
+        border: 1px solid #cf4044 !important;
         background: white !important;
     }
 
-    input[type=text],
-    input[type=email] {
+    input[type="text"],
+    input[type="email"] {
         background-color: $in-color;
 
         &:focus {
@@ -32,7 +32,7 @@ body {
 
     .select-user {
         display: flex;
-        background-color: #EAECEE;
+        background-color: #eaecee;
         border-bottom: 2px solid $in-color;
 
         label {
@@ -62,7 +62,7 @@ body {
         button {
             font-weight: bold;
             font-size: 14px;
-            background-color: #25C1A0;
+            background-color: #25c1a0;
             color: white;
             padding-left: 22px;
             padding-right: 22px;
@@ -73,7 +73,7 @@ body {
 .content-c {
     display: flex !important;
     justify-content: space-between !important;
-    background-color: #6E9CEE;
+    background-color: #6e9cee;
     color: white;
     align-items: center;
     padding-left: 20px;
@@ -89,7 +89,7 @@ body {
 
     div.close:hover {
         align-self: start;
-        background-color: #CF4044;
+        background-color: #cf4044;
     }
 }
 
@@ -127,11 +127,11 @@ header {
     }
 
     &.success {
-        background: #25C1A0;
+        background: #25c1a0;
     }
 
     &.error {
-        background: #CF4044;
+        background: #cf4044;
     }
 }
 
@@ -211,7 +211,7 @@ header {
     max-width: 300px;
     min-height: calc(100vh - 70.4px);
     font-size: 15px;
-    background-color: #F4F5F6;
+    background-color: #f4f5f6;
 
     a {
         display: flex !important;
@@ -223,11 +223,11 @@ header {
             height: 100%;
             align-self: center;
             margin-right: 4px;
-            color: #F4F5F6;
+            color: #f4f5f6;
         }
 
         span.done {
-            color: #25C1A0;
+            color: #25c1a0;
             filter: brightness(1.1);
         }
 
@@ -294,7 +294,7 @@ header {
     }
 
     .refresh {
-        background-color: #CF4044;
+        background-color: #cf4044;
         display: inline-flex;
         align-items: center;
         height: 100%;
@@ -315,7 +315,7 @@ header {
         background-color: white;
     }
 
-    input[type=checkbox] {
+    input[type="checkbox"] {
         padding: 0 !important;
         cursor: pointer;
         -webkit-appearance: none;
@@ -324,10 +324,22 @@ header {
         appearance: none;
 
         &:checked {
-            background: $in-color url('../img/check.svg') no-repeat;
+            background: $in-color url("../img/check.svg") no-repeat;
             background-size: 20px 20px;
             background-position: 50% 50%;
         }
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+    label {
+        border: 1px solid gray;
+    }
+    input[type="radio"]:checked + label::before {
+        font-family: "Material Icons";
+        content: "\e5cc";
+        // background-color: black !important;
     }
 }
 
@@ -384,7 +396,7 @@ input[type="text"]:disabled:hover {
             width: 300px;
             margin-right: 45px;
             padding-left: 30px;
-            background-image: url('../img/search_icon.svg');
+            background-image: url("../img/search_icon.svg");
             background-repeat: no-repeat;
             background-position: 4px 8px;
             background-size: 25px;
@@ -467,4 +479,5 @@ input[type="text"]:disabled:hover {
     }
 }
 
-@import 'page1', 'page2', 'page3', 'page4', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9', 'page10', 'page11', 'page12', 'page13', 'page14', 'page15', 'page16', 'page17', 'page18', 'page19', 'page20'
+@import "page1", "page2", "page3", "page4", "page4", "page5", "page6", "page7", "page8", "page9", "page10", "page11",
+    "page12", "page13", "page14", "page15", "page16", "page17", "page18", "page19", "page20";
