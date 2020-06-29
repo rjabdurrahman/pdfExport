@@ -42,10 +42,10 @@
         <input name="3d6" type="checkbox" class="a30621"
             ng-checked="client.etat_civil.separe_e.is_dispense_legale == 'Yes'" />
         <input name="3d5" value="{{client.etat_civil.is_depuis_le}}" type="text" class="a30522" />
-        <input name="3d1" type="radio" class="a30423" value="celibataire" />
-        <input name="3d1" type="radio" class="a30324" value="marie" />
-        <input name="3d1" type="radio" class="a30225" value="divorce" />
-        <input name="3d1" type="radio" class="a30126" value="separe" />
+        <input name="3d1" type="radio" class="a30423" value="celibataire" ng-checked="client.etat_civil.status == celibataire" />
+        <input name="3d1" type="radio" class="a30324" value="marie" ng-checked="client.etat_civil.status == marie" />
+        <input name="3d1" type="radio" class="a30225" value="divorce" ng-checked="client.etat_civil.status == divorce" />
+        <input name="3d1" type="radio" class="a30126" value="separe" ng-checked="client.etat_civil.status == separe" />
         <input name="3d9" type="text" class="rectangleclassedimpt27" disabled />
         <div class="a28">
             %
