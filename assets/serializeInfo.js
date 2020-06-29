@@ -113,6 +113,9 @@ module.exports = function serializeInfo(client) {
         ['x3d4x']: _.get(client, 'etat_civil.is_veuf_veuve', 'Off'),
         ['x3d3x']: _.get(client, 'etat_civil.is_divorce_e', 'Off'),
         ['x3d2x']: _.get(client, 'etat_civil.is_marie_e', 'Off'),
-        ['x3d1x']: _.get(client, 'etat_civil.is_celibataire', 'Off')
+        ['x3d1x']: _.get(client, 'etat_civil.is_celibataire', 'Off'),
+        ['x3d23x']: _.get(client, 'etat_civil.assimilation.a.revenus_mondiaux', 'Off'),
+        ['x3d24x']: _.get(client, 'etat_civil.assimilation.b.revenus_nets_annuels', 'Off'),
+        ['x3d25x']: _.get(client, 'etat_civil.assimilation.c.revenus_professionels', 'Off')
     }
 }
