@@ -90,7 +90,7 @@ module.exports = function (info) {
                 }
             },
             abattement_extra_pro: {
-                is_demande: info['8d845'],
+                is_demande: info['8d845'] ? info['8d845'] : 'Off',
                 rente_date: info['8d846']  
             } 
         }
