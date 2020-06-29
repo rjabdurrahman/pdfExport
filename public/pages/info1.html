@@ -2963,10 +2963,10 @@
         <input name="16d1607" type="text" value="V7" class="a1601160246">
         <input name="16d1606" type="text" value="{{client.depenses_speciales.cotisations_obligatoires.rev_non_exo.conjoint_partenaire.prelevements}}" class="a160247">
         <input name="16d1605" type="text" value="{{client.depenses_speciales.cotisations_obligatoires.rev_non_exo.contribuable.prelevements}}" class="a160148">
-        <input name="16d1604" type="checkbox" class="checkbox449">
-        <input name="16d1603" type="checkbox" class="checkbox350">
-        <input name="16d1602" type="checkbox" class="checkbox251">
-        <input name="16d1601" type="checkbox" class="checkbox152">
+        <input name="16d1604" type="checkbox" class="checkbox449" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_non == 'Yes'">
+        <input name="16d1603" type="checkbox" class="checkbox350" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui == 'Yes'">
+        <input name="16d1602" type="checkbox" class="checkbox251" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_non == 'Yes'">
+        <input name="16d1601" type="checkbox" class="checkbox152" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui == 'Yes'">
         <div class="totaldesdpensesspcialesdductiblesreporterlapage20case2037dpensesspciales53">
             Total des dépenses spéciales déductibles (à reporter à la page 20, case 2037 «dépenses spéciales»)
         </div>
