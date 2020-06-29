@@ -83,8 +83,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d769'],
-                            s_par_semaine: info['7d769b'],
-                            is_par_mois: info['7d769c']
+                            is_par_semaine: info['7d779'] ?info['7d779'] : 'Off' ,
+                            is_par_mois: info['7d780'] ?info['7d780'] : 'Off'
                         }
                     },
                     conjoint_partenaire: {
@@ -95,8 +95,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d770'],
-                            is_par_semaine: info['7d770b'],
-                            is_par_mois: info['7d770c']
+                            is_par_semaine: info['7d781'] ?info['7d781'] : 'Off',
+                            is_par_mois: info['7d782'] ?info['7d782'] : 'Off'
                         }
                     }
                 },
@@ -109,8 +109,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d777'],
-                            is_par_semaine: info['7d777b'],
-                            is_par_mois: info['7d777c']
+                            is_par_semaine: info['7d783'] ?info['7d783'] : 'Off',
+                            is_par_mois: info['7d784'] ?info['7d784'] : 'Off'
                         }
                     },
                     conjoint_partenaire: {
@@ -121,8 +121,8 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d778'],
-                            is_par_semaine: info['7d778b'],
-                            is_par_mois: info['7d778c']
+                            is_par_semaine: info['7d785'] ?info['7d785'] : 'Off',
+                            is_par_mois: info['7d786'] ?info['7d786'] : 'Off'
                         }
                     }
                 }
