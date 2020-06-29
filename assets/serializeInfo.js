@@ -109,6 +109,7 @@ module.exports = function serializeInfo(client) {
         ['x3d12x']: _.get(client, 'etat_civil.non_residents.conjoint_partenaire.nom_prenom', ''),
         ['x3d11x']: _.get(client, 'etat_civil.non_residents.contribuable.nom_prenom', ''),
         ['x3d10x']: _.get(client, 'etat_civil.separe_e.is_le', ''),
+        ['x3d5x']: _.get(client, 'etat_civil.is_depuis_le', ''),
         ['x3d4x']: _.get(client, 'etat_civil.is_veuf_veuve', ''),
         ['x3d3x']: _.get(client, 'etat_civil.is_divorce_e', ''),
         ['x3d2x']: _.get(client, 'etat_civil.is_marie_e', ''),
