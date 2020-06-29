@@ -1,7 +1,7 @@
 module.exports = function (info) {
     return {
         rev_extraordinaires_ord: {
-            is_demande: info['12d1201'],
+            is_demande: info['12d1201'] ? info['12d1201'] : 'Off',
             nature_revenus: {
                 r1: info['12d1202'],
                 r2: info['12d1205'],
