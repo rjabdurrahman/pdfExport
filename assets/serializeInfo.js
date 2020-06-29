@@ -116,6 +116,9 @@ module.exports = function serializeInfo(client) {
         ['x3d1x']: _.get(client, 'etat_civil.is_celibataire', 'Off'),
         ['x3d23x']: _.get(client, 'etat_civil.assimilation.a.revenus_mondiaux', 'Off'),
         ['x3d24x']: _.get(client, 'etat_civil.assimilation.b.revenus_nets_annuels', 'Off'),
-        ['x3d25x']: _.get(client, 'etat_civil.assimilation.c.revenus_professionels', 'Off')
+        ['x3d25x']: _.get(client, 'etat_civil.assimilation.c.revenus_professionels', 'Off'),
+        ['x3d6x']: _.get(client, 'etat_civil.separe_e.is_dispense_legale', 'Off'),
+        ['x3d7x']: _.get(client, 'etat_civil.separe_e.is_jugement_separation', 'Off'),
+        ['x3d8x']: _.get(client, 'etat_civil.separe_e.is_dispense_autorite_judiciaire', 'Off')
     }
 }
