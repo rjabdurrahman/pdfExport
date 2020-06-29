@@ -1916,7 +1916,7 @@ let fdfText = `%FDF-1.2
 /T (0407)
 >> 
 <<
-/V (Yes)
+/V (Célibataire)
 /T (0301)
 >> 
 <<
