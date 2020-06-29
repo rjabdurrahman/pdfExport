@@ -118,13 +118,13 @@ module.exports = function(info){
             montant_moins_eleve: info['14d1471'],
             majoration_plafond: {
                 contribuable: {
-                    is_acquisition: info['14d14'],
-                    is_investissements: info['14d14'],
+                    is_acquisition: info['14d1472'] ? info['14d1472'] : 'Off',
+                    is_investissements: info['14d1474'] ? info['14d1474'] : 'Off',
                     nombre_enfants: info['14d1476'] 
                 },
                 conjoint_partenaire: {
-                    is_acquisition: info['14d14'],
-                    is_investissements: info['14d14'],
+                    is_acquisition: info['14d1473'] ? info['14d1473'] : 'Off',
+                    is_investissements: info['14d1475'] ? info['14d1475'] : 'Off',
                     nombre_enfants: info['14d1477'] 
                 }
             }

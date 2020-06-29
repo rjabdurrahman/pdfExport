@@ -3,23 +3,23 @@ module.exports = function (info) {
         retenues_impot_diverses_demandes: {
             cat1: {
                 contribuable: {
-                    is_benefice_commercial: info['19d19'],
-                    is_benef_agricole: info['19d19'],
-                    is_benef_pro_liberale: info['19d19'],
+                    is_benefice_commercial: info['19d1912'] ? info['19d1912'] : 'Off',
+                    is_benef_agricole: info['19d1913'] ? info['19d1913'] : 'Off',
+                    is_benef_pro_liberale: info['19d1916'] ? info['19d1916'] : 'Off',
                     montant_non_deduit: info['19d1918'],
                     montant_deduit: info['19d1920']
                 },
                 conjoint_partenaire: {
-                    is_benefice_commercial: info['19d19'],
-                    is_benef_agricole: info['19d19'],
-                    is_benef_pro_liberale: info['19d19'],
+                    is_benefice_commercial: info['19d1914'] ? info['19d1914'] : 'Off',
+                    is_benef_agricole: info['19d1915'] ? info['19d1915'] : 'Off',
+                    is_benef_pro_liberale: info['19d1917'] ? info['19d1917'] : 'Off',
                     montant_non_deduit: info['19d1919'],
                     montant_deduit: info['19d1921']
                 }
             },
             cat2: {
-                is_report_91: info['19d19'],
-                is_report_92: info['19d19'],
+                is_report_91: info['19d1922'] ? info['19d1922'] : 'Off',
+                is_report_92: info['19d1926'] ? info['19d1926'] : 'Off',
                 contribuable: {
                     report_91: info['19d1923'],
                     report_92: info['19d1927']
@@ -30,7 +30,7 @@ module.exports = function (info) {
                 }
             },
             cat3: {
-                is_report_14: info['19d19'],
+                is_report_14: info['19d1930'] ? info['19d1930'] : 'Off',
                 contribuable: {
                     report_14: info['19d1931']
                 },
@@ -39,7 +39,7 @@ module.exports = function (info) {
                 }
             },
             cat4: {
-                is_certificat: info['19d19'],
+                is_certificat: info['19d1934'] ? info['19d1934'] : 'Off',
                 contribuable: {
                     abat_speciale_agricole: info['19d1935']
                 },

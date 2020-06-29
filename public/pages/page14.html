@@ -2,10 +2,10 @@
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
         <input name="14d1477" type="text" value="{{client.depenses_speciales14.majoration_plafond.conjoint_partenaire.nombre_enfants}}" class="a14770" />
         <input name="14d1476" type="text" value="{{client.depenses_speciales14.majoration_plafond.contribuable.nombre_enfants}}" class="a14761" />
-        <input name="14d1475" type="checkbox" class="a14752" />
-        <input name="14d1474" type="checkbox" class="a14743" />
-        <input name="14d1473" type="checkbox" class="a14734" />
-        <input name="14d1472" type="checkbox" class="a14725" />
+        <input name="14d1475" type="checkbox" class="a14752" ng-checked="client.depenses_speciales14.majoration_plafond.conjoint_partenaire.is_investissements == 'Yes'"/>
+        <input name="14d1474" type="checkbox" class="a14743" ng-checked="client.depenses_speciales14.majoration_plafond.contribuable.is_investissements == 'Yes'"/>
+        <input name="14d1473" type="checkbox" class="a14734" ng-checked="client.depenses_speciales14.majoration_plafond.conjoint_partenaire.is_acquisition == 'Yes'"/>
+        <input name="14d1472" type="checkbox" class="a14725" ng-checked="client.depenses_speciales14.majoration_plafond.contribuable.is_acquisition == 'Yes'"/>
         <input name="14d1471" type="text" value="{{client.depenses_speciales14.montant_moins_eleve}}" class="a14716" />
         <input name="14d1470" type="text" value="{{client.depenses_speciales14.plafond_672}}" class="a14707" />
         <input name="14d1469" type="text" value="V69" class="a14698" />
