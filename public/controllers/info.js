@@ -12,6 +12,11 @@ function checkDone() {
         if (!isDone) element.removeClass('done');
     })
 }
+
+function radioCheck(info) {
+    if(info.etat_civil.status) $(`[value=${info.etat_civil.status}]`).attr('checked', true)
+}
+
 app.controller('InfoCtrl', function ($scope, $http) {
     let clientId = location.href.split('id=')[1];
     $scope.client = {};
@@ -21,6 +26,7 @@ app.controller('InfoCtrl', function ($scope, $http) {
     }).then(function (res) {
         $scope.client = res.data;
         console.log(res.data)
+        radioCheck(res.data);
         $scope.$applyAsync();
         setTimeout(checkDone, 500);
     }).catch(function (err) {
