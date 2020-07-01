@@ -34,7 +34,7 @@ app.run(function ($rootScope, $http, $route) {
       url: '/api/clients'
     })
       .then(function (res) {
-        $rootScope.clients = res.data
+        $rootScope.clients = res.data;
         $('a').click(function (e) {
           if(this.href.includes('/info?id')) $('.load-overlay').show();
         })
