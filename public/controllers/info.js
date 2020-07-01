@@ -24,6 +24,7 @@ app.controller('InfoCtrl', function ($scope, $http) {
         method: 'GET',
         url: `/api/client/${clientId}`
     }).then(function (res) {
+        $('.load-overlay').hide();
         $scope.client = res.data;
         console.log(res.data)
         radioCheck(res.data);
