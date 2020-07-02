@@ -318,6 +318,10 @@ header {
         background-color: white;
     }
 
+    input[type = text].number {
+        text-align: right;
+    }
+
     input[type="checkbox"] {
         padding: 0 !important;
         cursor: pointer;
@@ -486,7 +490,7 @@ input[type="text"]:disabled:hover {
 }
 
 .load-overlay {
-    position: absolute;
+    position: fixed;
     top: 92px;
     height: calc(100vh - 92px);
     width: 100%;
