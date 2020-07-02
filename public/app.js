@@ -1,100 +1,114 @@
-var app = angular.module('pdfApp', ['ngRoute']);
+var app = angular.module('pdfApp', ['ngRoute'])
 
-app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+app.config([
+  '$routeProvider',
+  '$locationProvider',
+  function ($routeProvider, $locationProvider) {
     $routeProvider
-        .when('/', {
-            templateUrl: 'pages/clients_list.html',
-            controller: 'ClientsListControler',
-            activetab: 'home'
-        })
-        .when('/info', {
-            templateUrl: 'pages/info1.html',
-            controller: 'InfoCtrl',
-            activetab: 'page1'
-        })
-        .otherwise({ redirectTo: '/' });
+      .when('/', {
+        templateUrl: 'pages/clients_list.html',
+        controller: 'ClientsListControler',
+        activetab: 'home'
+      })
+      .when('/info', {
+        templateUrl: 'pages/info1.html',
+        controller: 'InfoCtrl',
+        activetab: 'page1'
+      })
+      .otherwise({ redirectTo: '/' })
     // if (window.history && window.history.pushState) {
     //     $locationProvider.html5Mode({
     //         enabled: true,
     //         requireBase: false
     //     });
     // }
-}]);
+  }
+])
 
 app.run(function ($rootScope, $http, $route) {
-    $rootScope.$route = $route;
-    $rootScope.clients = [];
-    $rootScope.loadClients = function () {
-        $http({
-            method: 'GET',
-            url: '/api/clients'
-        }).then(function (res) {
-            $rootScope.clients = res.data;
-            $rootScope.$applyAsync();
-        }).catch(function (err) {
-            console.log(err);
+  $rootScope.$route = $route
+  $rootScope.clients = []
+  $rootScope.loadClients = function () {
+    $http({
+      method: 'GET',
+      url: '/api/clients'
+    })
+      .then(function (res) {
+        $rootScope.clients = res.data;
+        $('a').click(function (e) {
+          if(this.href.includes('/info?id')) $('.load-overlay').show();
         })
-    };
-    $rootScope.loadClients();
-    $rootScope.submitClient = function (e) {
-        let clientForm = e.target;
-        let client = {
-            nom: clientForm['nom'].value,
-            prenom: clientForm['prenom'].value,
-            telephone: clientForm['telephone'].value,
-            courriel: clientForm['courriel'].value
-        }
-        $http({
-            method: 'POST',
-            url: '/api/addclient',
-            data: client
-        }).then(function (res) {
-            notify('Création Client', 1);
-            $(clientForm)[0].reset();
-            closeAddClientModal();
-            $rootScope.loadClients();
-            $rootScope.$applyAsync();
-        }).catch(function (err) {
-            notify('Something Went Wrong!', 2);
-        })
+        $rootScope.$applyAsync()
+      })
+      .catch(function (err) {
+        console.log(err)
+      })
+  }
+  $rootScope.loadClients()
+  $rootScope.submitClient = function (e) {
+    let clientForm = e.target
+    let client = {
+      nom: clientForm['nom'].value,
+      prenom: clientForm['prenom'].value,
+      telephone: clientForm['telephone'].value,
+      courriel: clientForm['courriel'].value
     }
-    $rootScope.submitClientDelete = function (id) {
-        let clientId = id;
-        $http({
-            method: 'POST',
-            url: `/api/clientdelete/${clientId}`,
-            data: {}
-        }).then(function (res) {
-            loadClients();
-            notify('Delete Client Successfully!', 1);
-        }).catch(function (err) {
-            notify('Something Went Wrong', 2);
-        })
-    }
-});
+    $http({
+      method: 'POST',
+      url: '/api/addclient',
+      data: client
+    })
+      .then(function (res) {
+        notify('Création Client', 1)
+        $(clientForm)[0].reset()
+        closeAddClientModal()
+        $rootScope.loadClients()
+        $rootScope.$applyAsync()
+      })
+      .catch(function (err) {
+        notify('Something Went Wrong!', 2)
+      })
+  }
+  $rootScope.submitClientDelete = function (id) {
+    let clientId = id
+    $http({
+      method: 'POST',
+      url: `/api/clientdelete/${clientId}`,
+      data: {}
+    })
+      .then(function (res) {
+        loadClients()
+        notify('Delete Client Successfully!', 1)
+      })
+      .catch(function (err) {
+        notify('Something Went Wrong', 2)
+      })
+  }
+})
 
 app.component('leftNav', {
-    templateUrl: '/components/leftnav.html',
-    controller: 'NavCtrl'
-});
+  templateUrl: '/components/leftnav.html',
+  controller: 'NavCtrl'
+})
 
 app.controller('NavCtrl', function ($scope, $http) {
-    console.log('Nav page');
-});
+  console.log('Nav page')
+})
 
 app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
-    $rootScope.loadClients();
-    $scope.deleteClient = function (e) {
-        console.log('Id is', e.target.id);
-        $http.post('api/delete/' + e.target.id)
-            .then(res => {
-                if (!res.data.err)
-                    notify('Deleted Successfully!', 1);
-                else notify(res.data.err.message, 2);
-                $rootScope.loadClients();
-            })
-            .catch(err => {
-                notify(err.message, 2);
-            })
-    }
-});
+  $('.load-overlay').hide()
+  $rootScope.loadClients()
+  $scope.deleteClient = function (e) {
+    console.log('Id is', e.target.id)
+    $http
+      .post('api/delete/' + e.target.id)
+      .then(res => {
+        if (!res.data.err) notify('Deleted Successfully!', 1)
+        else notify(res.data.err.message, 2)
+        $rootScope.loadClients()
+      })
+      .catch(err => {
+        notify(err.message, 2)
+      })
+  }
+})
