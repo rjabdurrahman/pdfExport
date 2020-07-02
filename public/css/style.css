@@ -367,13 +367,13 @@ header {
   display: none;
 }
 
-.form-input label {
+.form-input input[type="radio"] + label {
   border: 1px solid gray;
+  cursor: pointer;
 }
 
-.form-input input[type="radio"]:checked + label::before {
-  font-family: "Material Icons";
-  content: "\e5cc";
+.form-input input[type="radio"]:checked + label {
+  background-color: gray;
 }
 
 input,

@@ -333,13 +333,14 @@ header {
     input[type="radio"] {
         display: none;
     }
-    label {
+    
+    input[type="radio"] + label {
         border: 1px solid gray;
+        cursor: pointer;
     }
-    input[type="radio"]:checked + label::before {
-        font-family: "Material Icons";
-        content: "\e5cc";
-        // background-color: black !important;
+
+    input[type="radio"]:checked + label {
+        background-color: gray;
     }
 }
 
