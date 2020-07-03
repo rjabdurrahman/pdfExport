@@ -8,9 +8,11 @@ $('a').click(function () {
 });
 
 function spaceMaker(e, def) {
+    let val = e.target.value
+    let len = val.length;
+    if(len == 1) e.target.value = ' '.repeat(def[0]) + val
     for(l in def) {
-        console.log(l)
-        if(e.target.value.replace(' ', '').length == l) e.target.value += ' '.repeat(def[l]);
+        if(val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l]);
     }
 }
 
