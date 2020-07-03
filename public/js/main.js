@@ -14,6 +14,12 @@ function spaceMaker(e, def) {
     for(l in def) {
         if(val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l]);
     }
+    // for(l in def) {
+    //     let arr = e.target.value.replace(/\s/g, '').split('');
+    //     arr.splice(l, 0, ' '.repeat(def[l]));
+    //     console.log(arr)
+    //     e.target.value = arr.join('')
+    // }
 }
 
 function $print(data) {
