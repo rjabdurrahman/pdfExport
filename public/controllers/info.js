@@ -1,11 +1,17 @@
-function checkDone () {
+function checkDone() {
   $(
-    '.a01, .a02, .a03, .a04, .a05, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a14, .a15'
+    '.a01, .a02, .a03, .a04, .a05, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a14, .a15, .a16, .a19, .a17, .a20'
   ).each(function (i) {
-    let pageNo = this.id.replace('page', '')
     let isDone = false
-    let element = $(`.np${pageNo}`).children(1)
-    $(`#${this.id} input:text, #${this.id} input:checkbox`).each(function (j) {
+    let pageNo;
+    if (i == 17) {
+      pageNo = 17;
+    }
+    else {
+      pageNo = this.id.replace('page', '')
+    }
+    let element = $(`.np${pageNo}`).children(1);
+    $(`#page${pageNo} input:text, #page${pageNo} input:checkbox`).each(function (j) {
       if (
         (this.type == 'text' && this.value) ||
         (this.type == 'checkbox' && this.checked)
@@ -18,7 +24,7 @@ function checkDone () {
   })
 }
 
-function radioCheck (info) {
+function radioCheck(info) {
   if (info.etat_civil.status)
     $(`[value=${info.etat_civil.status}]`).attr('checked', true)
 }

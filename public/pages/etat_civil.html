@@ -1,11 +1,11 @@
 <div id="page3" class="a03 anima-word-break ">
     <div style="width: 1043px; height: 100%; position:relative; margin:auto;">
-        <input name="3d28" type="text" class="a3270"
+        <input name="3d28" type="text" class="a3270 number"
             value="{{client.etat_civil.assimilation.calculation.pourcentage}}" />
         <input name="3d27" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres}}"
-            type="text" class="a3261" />
+            type="text" class="a3261 number" />
         <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="text"
-            class="a3252" />
+            class="a3252 number" />
         <input name="3d25" type="checkbox" class="a3243"
             ng-checked="client.etat_civil.assimilation.c.revenus_professionels == 'Yes'" />
         <input name="3d24" type="checkbox" class="a3234"
@@ -42,10 +42,14 @@
         <input name="3d6" type="checkbox" class="a30621"
             ng-checked="client.etat_civil.separe_e.is_dispense_legale == 'Yes'" />
         <input name="3d5" value="{{client.etat_civil.is_depuis_le}}" type="text" class="a30522" />
-        <input name="3d1" type="radio" class="a30423" value="veuf" />
-        <input name="3d1" type="radio" class="a30324" value="divorce" />
-        <input name="3d1" type="radio" class="a30225" value="marie" />
-        <input name="3d1" type="radio" class="a30126" value="celibataire" />
+        <input name="3d1" id="3d4" type="radio" class="a30423" value="veuf" />
+        <label for="3d4" class="a30423"></label>
+        <input name="3d1" id="3d3" type="radio" class="a30324" value="divorce" />
+        <label for="3d3" class="a30324"></label>
+        <input name="3d1" id="3d2" type="radio" class="a30225" value="marie" />
+        <label for="3d2" class="a30225"></label>
+        <input name="3d1" id="3d1" type="radio" value="celibataire" />
+        <label for="3d1" class="a30126"></label>
         <input name="3d9" type="text" class="rectangleclassedimpt27" disabled />
         <div class="a28">
             %
