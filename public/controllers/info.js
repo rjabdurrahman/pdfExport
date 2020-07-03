@@ -1,19 +1,20 @@
-function checkDone() {
+function checkDone () {
   $(
     '.a01, .a02, .a03, .a04, .a05, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a14, .a15, .a16, .a19, .a17, .a20'
   ).each(function (i) {
     let isDone = false
-    let pageNo;
+    let pageNo
     if (i == 17) {
-      pageNo = 17;
-    }
-    else {
+      pageNo = 17
+    } else {
       pageNo = this.id.replace('page', '')
     }
-    let element = $(`.np${pageNo}`).children(1);
-    $(`#page${pageNo} input:text, #page${pageNo} input:checkbox`).each(function (j) {
+    let element = $(`.np${pageNo}`).children(1)
+    $(
+      `#page${pageNo} input:text, #page${pageNo} input[type=number], #page${pageNo} input:checkbox`
+    ).each(function (j) {
       if (
-        (this.type == 'text' && this.value) ||
+        ((this.type == 'text' || this.type == 'number') && this.value) ||
         (this.type == 'checkbox' && this.checked)
       ) {
         isDone = true
@@ -24,7 +25,7 @@ function checkDone() {
   })
 }
 
-function radioCheck(info) {
+function radioCheck (info) {
   if (info.etat_civil.status)
     $(`[value=${info.etat_civil.status}]`).attr('checked', true)
 }
@@ -37,7 +38,7 @@ app.controller('InfoCtrl', function ($scope, $http) {
     url: `/api/client/${clientId}`
   })
     .then(function (res) {
-      $('.load-overlay').hide();
+      $('.load-overlay').hide()
       $scope.client = res.data
       console.log(res.data)
       radioCheck(res.data)
