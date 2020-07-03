@@ -1,93 +1,122 @@
-function isSaveAlive(val) {
-    document.querySelector('#submitInfoBtn').disabled = !val;
+function isSaveAlive (val) {
+  document.querySelector('#submitInfoBtn').disabled = !val
 }
 
-if (!location.href.includes('/info')) localStorage.setItem('activePage', 1);
+if (!location.href.includes('/info')) localStorage.setItem('activePage', 1)
 $('a').click(function () {
-    localStorage.activePage = 1;
-});
+  localStorage.activePage = 1
+})
 
-function spaceMaker(e, def) {
-    if (e.keyCode == 8) {
-        e.target.value = ' '.repeat(def[0]) + e.target.value.trim();
-        return;
-    }
-    let val = e.target.value
-    let len = val.length;
-    if (len == 1) e.target.value = ' '.repeat(def[0]) + val
-    for (l in def) {
-        if (val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l]);
-    }
-    // for(l in def) {
-    //     let arr = e.target.value.replace(/\s/g, '').split('');
-    //     arr.splice(l, 0, ' '.repeat(def[l]));
-    //     console.log(arr)
-    //     e.target.value = arr.join('')
-    // }
+function spaceMaker (e, def) {
+  if (e.keyCode == 8) {
+    e.target.value = ' '.repeat(def[0]) + e.target.value.trim()
+    return
+  }
+  let val = e.target.value
+  let len = val.length
+  if (len == 1) e.target.value = ' '.repeat(def[0]) + val
+  for (l in def) {
+    if (val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l])
+  }
+  // for(l in def) {
+  //     let arr = e.target.value.replace(/\s/g, '').split('');
+  //     arr.splice(l, 0, ' '.repeat(def[l]));
+  //     console.log(arr)
+  //     e.target.value = arr.join('')
+  // }
 }
 
-function $print(data) {
-    console.log(data);
+function valueCal (adds, subs, result) {
+  let res = 0
+  adds.forEach(x => {
+    res += Number($(`[name=${x}]`).val());
+  })
+  subs.forEach(x => {
+    res -= Number($(`[name=${x}]`).val());
+  })
+  $(`[name=${result}]`).val(res);
 }
 
-function $js(id) {
-    return document.getElementById(id);
+function $print (data) {
+  console.log(data)
 }
 
-function $sn(name) {
-    return document.getElementsByName(name);
+function $js (id) {
+  return document.getElementById(id)
 }
 
-function lsSet(vname, data) {
-    localStorage.setItem(vname, data);
+function $sn (name) {
+  return document.getElementsByName(name)
 }
 
-function lsSetJ(vname, data) {
-    localStorage.setItem(vname, JSON.stringify(data));
+function lsSet (vname, data) {
+  localStorage.setItem(vname, data)
 }
 
-function lsGet(vname) {
-    return localStorage.getItem(vname);
+function lsSetJ (vname, data) {
+  localStorage.setItem(vname, JSON.stringify(data))
 }
 
-function lsGetJ(vname) {
-    return JSON.parse(localStorage.getItem(vname));
+function lsGet (vname) {
+  return localStorage.getItem(vname)
 }
 
-function lsExGJInit(vname, data) {
-    return lsGet(vname) ? lsGetJ(vname) : data;
+function lsGetJ (vname) {
+  return JSON.parse(localStorage.getItem(vname))
 }
 
-function clearForm(target) {
-    console.log('clear')
-    $(target + ' input').not(':button, :submit, :reset, :hidden, :checkbox, :radio').val('');
-    $(target + ' input:checkbox').prop('checked', false);
+function lsExGJInit (vname, data) {
+  return lsGet(vname) ? lsGetJ(vname) : data
 }
 
-var activeClientId = '';
+function clearForm (target) {
+  console.log('clear')
+  $(target + ' input')
+    .not(':button, :submit, :reset, :hidden, :checkbox, :radio')
+    .val('')
+  $(target + ' input:checkbox').prop('checked', false)
+}
+
+var activeClientId = ''
 
 // Notifer
-function notify(msg, t) {
-    if (t == 1) {
-        $('#notification').html(`<div class="contain">
+function notify (msg, t) {
+  if (t == 1) {
+    $('#notification')
+      .html(
+        `<div class="contain">
         <span class="material-icons">
             check_circle
         </span>
         <h6>${msg}</h6>
-    </div>`).removeClass('error').addClass('success').fadeIn(200).delay(1000).fadeOut(200);
-    }
+    </div>`
+      )
+      .removeClass('error')
+      .addClass('success')
+      .fadeIn(200)
+      .delay(1000)
+      .fadeOut(200)
+  }
 
-    if (t == 2) {
-        $('#notification').html(`<div class="contain">
+  if (t == 2) {
+    $('#notification')
+      .html(
+        `<div class="contain">
         <span class="material-icons">
             check_circle
         </span>
         <h6>${msg}</h6>
-    </div>`).removeClass('success').addClass('error').fadeIn(200).delay(1000).fadeOut(200);
-    }
+    </div>`
+      )
+      .removeClass('success')
+      .addClass('error')
+      .fadeIn(200)
+      .delay(1000)
+      .fadeOut(200)
+  }
 }
 
 // Checker
-function getChValue(val) {
-    return val ? 'Yes' : 'Off';
+function getChValue (val) {
+  return val ? 'Yes' : 'Off'
 }
