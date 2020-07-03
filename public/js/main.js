@@ -7,6 +7,13 @@ $('a').click(function () {
     localStorage.activePage = 1;
 });
 
+function spaceMaker(e, def) {
+    for(l in def) {
+        console.log(l)
+        if(e.target.value.replace(' ', '').length == l) e.target.value += ' '.repeat(def[l]);
+    }
+}
+
 function $print(data) {
     console.log(data);
 }
