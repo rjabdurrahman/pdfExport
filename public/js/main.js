@@ -8,11 +8,15 @@ $('a').click(function () {
 });
 
 function spaceMaker(e, def) {
+    if (e.keyCode == 8) {
+        e.target.value = ' '.repeat(def[0]) + e.target.value.trim();
+        return;
+    }
     let val = e.target.value
     let len = val.length;
-    if(len == 1) e.target.value = ' '.repeat(def[0]) + val
-    for(l in def) {
-        if(val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l]);
+    if (len == 1) e.target.value = ' '.repeat(def[0]) + val
+    for (l in def) {
+        if (val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l]);
     }
     // for(l in def) {
     //     let arr = e.target.value.replace(/\s/g, '').split('');
