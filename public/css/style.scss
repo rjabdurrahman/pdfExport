@@ -384,12 +384,12 @@ select:focus {
 	border: 1px solid #014387 !important;
 }
 
-input[type='text']:disabled {
+input[type='text']:disabled, input[type='number']:disabled {
 	background: #ffffff;
 	color     : black;
 }
 
-input[type='text']:disabled:hover {
+input[type='text']:disabled:hover, input[type='number']:disabled:hover {
 	cursor: not-allowed !important;
 }
 
