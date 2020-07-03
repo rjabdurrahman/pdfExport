@@ -28,13 +28,18 @@ function spaceMaker (e, def) {
 
 function valueCal (adds, subs, result) {
   let res = 0
+  let ec = ''
   adds.forEach(x => {
-    res += Number($(`[name=${x}]`).val());
+    ec += $(`[name=${x}]`).val()
+    res += Number($(`[name=${x}]`).val())
   })
   subs.forEach(x => {
-    res -= Number($(`[name=${x}]`).val());
+    ec += $(`[name=${x}]`).val()
+    res -= Number($(`[name=${x}]`).val())
   })
-  $(`[name=${result}]`).val(res);
+  console.log(ec)
+  if (ec) $(`[name=${result}]`).val(res)
+  else $(`[name=${result}]`).val('')
 }
 
 function $print (data) {
