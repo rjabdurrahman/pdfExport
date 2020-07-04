@@ -12,8 +12,8 @@ module.exports = function(info){
                         depenses_annexe: info['5d17'],
                         benefice_cessation: info['5d21'],
                         totalABCD : 
-                        Number(info['5d1']) + Number(info['5d5']) + Number(info['5d9']) 
-                        - Number(info['5d13']) - Number(info['5d17']),
+                        (Number(info['5d1']) + Number(info['5d5']) + Number(info['5d9']) 
+                        - Number(info['5d13']) - Number(info['5d17']) + Number(info['5d21'])) || '',
                         exoneration: info['5d30']
                     },
                     conjoint_partenaire: {
