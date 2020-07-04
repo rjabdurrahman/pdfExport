@@ -5,12 +5,12 @@ module.exports = function(info){
             determination_benefice_commercial: {
                 revenus_non_exoneres: {
                     contribuable: {
-                        benefice_entreprise: info['5d1'],
-                        parts_benefice: info['5d5'],
-                        recettes: info['5d9'],
-                        depenses_forfaitaires: info['5d13'],
-                        depenses_annexe: info['5d17'],
-                        benefice_cessation: info['5d21'],
+                        benefice_entreprise: Number(info['5d1']),
+                        parts_benefice: Number(info['5d5']),
+                        recettes: Number(info['5d9']),
+                        depenses_forfaitaires: Number(info['5d13']),
+                        depenses_annexe: Number(info['5d17']),
+                        benefice_cessation: Number(info['5d21']),
                         totalABCD : 
                         (Number(info['5d1']) + Number(info['5d5']) + Number(info['5d9']) 
                         - Number(info['5d13']) - Number(info['5d17']) + Number(info['5d21'])) || '',
