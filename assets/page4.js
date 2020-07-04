@@ -7,18 +7,14 @@ module.exports = function(info){
             },
             partenaires: {
                 is_imposition_collective: info['4d2'] ? info['4d2'] : 'Off',
-                is_date_declaration_partenariat: info['4d3'],
-                is_annexe: info['4d4'] ? info['4d4'] : 'Off',
-                is_deja_presente: info['4d5'] ? info['4d5'] : 'Off'
+                date_declaration_partenariat: info['4d3'],
+                check1: info['4d4']
             },
             imposition_individuelle: {
                 is_confirmation_choix: info['4d6'] ? info['4d6'] : 'Off',
-                is_courrier: info['4d7'] ? info['4d7'] : 'Off',
-                is_myguichet_lu: info['4d8'] ? info['4d8'] : 'Off',
-                is_annee_imposition: info['4d9'] ? info['4d9'] : 'Off',
-                is_imposition_collective: info['4d10'] ? info['4d10'] : 'Off',
-                is_imposition_individuelle_pure: info['4d11'] ? info['4d11'] : 'Off',
-                is_imposition_individuelle_reallocation: info['4d12'] ? info['4d12'] : 'Off'
+                check2: info['4d7'],
+                is_annee_imposition_2019: info['4d9'] ? info['4d9'] : 'Off',
+                check3: info['4d10']
             },
             informations_complementaires: {
                 contribuable: {
