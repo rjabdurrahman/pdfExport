@@ -39,9 +39,12 @@ div {
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(0);
   opacity: 1.0;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
 }
 
 .a15 .a15511 {
@@ -52,8 +55,8 @@ div {
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
   opacity: 1.0;
 }
 

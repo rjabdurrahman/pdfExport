@@ -92,15 +92,19 @@ div {
   opacity             : 1.0;
 }
 .a14 .a14716 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1154px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 796px;
-  transform           : rotate(180deg);
-  opacity             : 1.0;
+  background-color: rgba(223, 226, 229, 1.0);
+  top: 1154px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  transform: rotate(0);
+  opacity: 1.0;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
 }
 .a14 .a14707 {
   background-color    : rgba(223, 226, 229, 1.0);

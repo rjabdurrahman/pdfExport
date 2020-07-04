@@ -26,15 +26,19 @@ div {
   -webkit-text-size-adjust: none;
 }
 .a15 .a15520 {
-  background-color    : rgba(223, 226, 229, 1.0);
-  top                 : 1235px;
-  height              : 42px;
-  width               : 220px;
-  position            : absolute;
-  margin              : 0;
-  left                : 796px;
-  transform           : rotate(180deg);
-  opacity             : 1.0;
+  background-color: rgba(223, 226, 229, 1.0);
+  top: 1235px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  transform: rotate(0);
+  opacity: 1.0;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
 }
 .a15 .a15511 {
   background-color    : rgba(223, 226, 229, 1.0);
@@ -44,7 +48,7 @@ div {
   position            : absolute;
   margin              : 0;
   left                : 796px;
-  transform           : rotate(180deg);
+  transform           : rotate(0);
   opacity             : 1.0;
 }
 .a15 .a15502 {
