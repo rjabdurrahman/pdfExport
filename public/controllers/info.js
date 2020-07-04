@@ -31,6 +31,7 @@ function radioCheck (info) {
 }
 
 app.controller('InfoCtrl', function ($scope, $http) {
+  $('.load-overlay').show();
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
   $http({
