@@ -7588,7 +7588,7 @@ div {
 
 .a05 .a55855911 {
   background-color: #dfe2e5;
-  top: 1195.5px;
+  top: 1194.5px;
   height: 42px;
   width: 220px;
   position: absolute;
@@ -7978,7 +7978,7 @@ div {
 
 .a05 .a52953041 {
   background-color: #dfe2e5;
-  top: 607.5px;
+  top: 606.5px;
   height: 42px;
   width: 220px;
   position: absolute;
@@ -24110,9 +24110,12 @@ div {
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(0);
   opacity: 1.0;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
 }
 
 .a15 .a15511 {
@@ -24123,8 +24126,8 @@ div {
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
   opacity: 1.0;
 }
 
@@ -25792,9 +25795,12 @@ div {
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  transform: rotate(0);
   opacity: 1.0;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
 }
 
 .a16 .a16348 {
