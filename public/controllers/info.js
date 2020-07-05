@@ -27,11 +27,23 @@ function checkDone () {
 
 function radioCheck (info) {
   if (info.etat_civil.status)
-    $(`[value=${info.etat_civil.status}]`).attr('checked', true)
+    $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
+  if (info.options.partenaires.check1)
+    $(`#page4 :radio[value=${info.options.partenaires.check1}]`).attr('checked', true)
+  if (info.options.imposition_individuellecheck2)
+    $(`#page4 :radio[value=${info.options.imposition_individuelle.check2}]`).attr(
+      'checked',
+      true
+    )
+  if (info.options.imposition_individuelle.check3)
+    $(`#page4 :radio[value=${info.options.imposition_individuelle.check3}]`).attr(
+      'checked',
+      true
+    )
 }
 
 app.controller('InfoCtrl', function ($scope, $http) {
-  $('.load-overlay').show();
+  $('.load-overlay').show()
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
   $http({
