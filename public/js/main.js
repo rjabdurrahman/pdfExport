@@ -5,26 +5,7 @@ function isSaveAlive (val) {
 if (!location.href.includes('/info')) localStorage.setItem('activePage', 1)
 $('a').click(function () {
   localStorage.activePage = 1
-})
-
-function spaceMaker (e, def) {
-  if (e.keyCode == 8) {
-    e.target.value = ' '.repeat(def[0]) + e.target.value.trim()
-    return
-  }
-  let val = e.target.value
-  let len = val.length
-  if (len == 1) e.target.value = ' '.repeat(def[0]) + val
-  for (l in def) {
-    if (val.replace(/\s/g, '').length == l) e.target.value += ' '.repeat(def[l])
-  }
-  // for(l in def) {
-  //     let arr = e.target.value.replace(/\s/g, '').split('');
-  //     arr.splice(l, 0, ' '.repeat(def[l]));
-  //     console.log(arr)
-  //     e.target.value = arr.join('')
-  // }
-}
+});
 
 function valueCal (adds, subs, result) {
   let res = 0

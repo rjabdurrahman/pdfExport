@@ -40,9 +40,9 @@
         <input name="1d29" type="text" class="a12911" value="{{client.signaletique.contribuable.domicile.ancien.rue}}">
         <input name="1d28" type="text" class="a12812"
             value="{{client.signaletique.contribuable.domicile.ancien.numero}}">
-        <input name="1d27" type="text" class="a12713"
+        <input name="1d27" type="text" class="date a12713"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.du_au}}">
-        <input name="1d26" type="date" class="a12614"
+        <input name="1d26" type="text" class="date a12614"
             value="{{client.signaletique.contribuable.domicile.ancien.du_au}}">
         <input name="1d25" type="text" class="a12515"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}">
@@ -68,13 +68,13 @@
         <input name="1d12" type="text" class="a11228" value="{{client.signaletique.contribuable.telephone}}">
         <input name="1d11" type="text" class="a11129" value="{{client.signaletique.conjoint_partenaire.profession}}">
         <input name="1d10" type="text" class="a11030" value="{{client.signaletique.contribuable.profession}}">
-        <input name="1d9" type="text" class="a10931" value="{{client.signaletique.numero_de_dossier}}" minlength="11" maxlength="11" style="text-align: center; letter-spacing: 4px;">
+        <input name="1d9" type="number" class="a10931" value="{{client.signaletique.numero_de_dossier}}" minlength="11" maxlength="11" style="text-align: center; letter-spacing: 4px;">
         <input name="1d8" type="text" class="a10832"
             value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
         <input name="1d7" type="text" class="a10733" value="{{client.signaletique.contribuable.lieu_de_naissance}}">
-        <input name="1d6" type="number" class="a10634"
-            value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}" style="text-align: left !important;" />
-        <input name="1d5" type="number" class="a10535" value="{{client.signaletique.contribuable.date_de_naissance}}" style="text-align: left !important;" />
+        <input name="1d6" type="number" class="a10634 a_left"
+            value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}" />
+        <input name="1d5" type="number" class="a10535 a_left" value="{{client.signaletique.contribuable.date_de_naissance}}" />
         <input name="1d4" type="text" class="a10436" value="{{client.signaletique.conjoint_partenaire.prenom}}">
         <input name="1d3" type="text" class="a10337" value="{{client.signaletique.contribuable.prenom}}">
         <input name="1d2" type="text" class="a10238" value="{{client.signaletique.conjoint_partenaire.nom}}">
@@ -3836,7 +3836,7 @@
     $('input').keyup(function () {
         isSaveAlive(true);
     })
-    $('input:checkbox, input:radio').change(function () {
+    $('input:checkbox, input:radio, input.date').change(function () {
         isSaveAlive(true);
     })
     /* window.onbeforeunload = function (e) {
