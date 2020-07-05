@@ -30,7 +30,7 @@ function radioCheck (info) {
     $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
   if (info.options.partenaires.check1)
     $(`#page4 :radio[value=${info.options.partenaires.check1}]`).attr('checked', true)
-  if (info.options.imposition_individuellecheck2)
+  if (info.options.imposition_individuelle.check2)
     $(`#page4 :radio[value=${info.options.imposition_individuelle.check2}]`).attr(
       'checked',
       true
