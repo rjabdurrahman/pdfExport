@@ -321,7 +321,15 @@ header {
 	}
 
 	input[type='number'] {
-		text-align: right !important;
+		text-align: right;
+	}
+
+	input.a_left {
+		text-align: left !important;
+	}
+
+	input.a_right {
+		text-align: right;
 	}
 
 	/* Remove Arrow */

@@ -28,15 +28,15 @@ function checkDone () {
 function radioCheck (info) {
   if (info.etat_civil.status)
     $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
-  if (info.options.partenaires.check1)
-    $(`#page4 :radio[value=${info.options.partenaires.check1}]`).attr('checked', true)
-  if (info.options.imposition_individuelle.check2)
-    $(`#page4 :radio[value=${info.options.imposition_individuelle.check2}]`).attr(
+  if (info.options.partenaires.sl_document)
+    $(`#page4 :radio[value=${info.options.partenaires.sl_document}]`).attr('checked', true)
+  if (info.options.imposition_individuelle.sl_envoi)
+    $(`#page4 :radio[value=${info.options.imposition_individuelle.sl_envoi}]`).attr(
       'checked',
       true
     )
-  if (info.options.imposition_individuelle.check3)
-    $(`#page4 :radio[value=${info.options.imposition_individuelle.check3}]`).attr(
+  if (info.options.imposition_individuelle.sl_imposition)
+    $(`#page4 :radio[value=${info.options.imposition_individuelle.sl_imposition}]`).attr(
       'checked',
       true
     )
