@@ -37,7 +37,6 @@ function valueCal (adds, subs, result) {
     ec += $(`[name=${x}]`).val()
     res -= Number($(`[name=${x}]`).val())
   })
-  console.log(ec)
   if (ec) $(`[name=${result}]`).val(res)
   else $(`[name=${result}]`).val('')
 }
