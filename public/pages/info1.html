@@ -177,9 +177,9 @@
 </div>
             <div id="page2" class="a02 anima-word-break ">
     <div style="width: 1045px; height: 100%; position:relative; margin:auto;">
-        <input name="2d49" value="{{client.enfants.demande_bonification_impot.table[1].date_de_naissance}}" type="text" class="a2410">
+        <input name="2d49" value="{{client.enfants.demande_bonification_impot.table[1].date_de_naissance}}" type="number" class="a_left a2410">
         <input name="2d48" value="{{client.enfants.demande_bonification_impot.table[1].nom_prenom}}" type="text" class="a2401">
-        <input name="2d47" value="{{client.enfants.demande_bonification_impot.table[0].date_de_naissance}}" type="text" class="a2392">
+        <input name="2d47" value="{{client.enfants.demande_bonification_impot.table[0].date_de_naissance}}" type="number" class="a_left a2392">
         <input name="2d46" value="{{client.enfants.demande_bonification_impot.table[0].nom_prenom}}" type="text" class="a2383">
         <input name="2d45" type="checkbox" class="a2374" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'">
         <input name="2d44" value="{{client.enfants.demande_cim.moyens_subsistance[1].subsistance2}}" type="text" class="a2365">
@@ -188,26 +188,26 @@
         <input name="2d41" value="{{client.enfants.demande_cim.table[2].nom_prenom}}" type="text" class="a2338">
         <input name="2d40" value="{{client.enfants.demande_cim.table[1].montant_mensuel_allocation}}" type="text" class="a2329">
         <input name="2d39" value="{{client.enfants.demande_cim.table[1].nom_prenom}}" type="text" class="a23110">
-        <input name="2d38" value="{{client.enfants.demande_cim.table[0].montant_mensuel_allocation}}" type="text" class="a23011">
+        <input name="2d38" value="{{client.enfants.demande_cim.table[0].montant_mensuel_allocation}}" type="number" class="a_left a23011">
         <input name="2d37" value="{{client.enfants.demande_cim.table[0].nom_prenom}}" type="text" class="a22912">
         <input name="2d36" type="checkbox" class="a22813" ng-checked="client.enfants.demande_cim.is_demande_cim == 'Yes'">
         <input name="2d35" type="checkbox" class="a22714" ng-checked="client.enfants.c.demande_moderation == 'Yes'">
         <input name="2d34" value="{{client.enfants.c.date_de_naissance}}" type="text" class="a22615">
-        <input name="2d33" value="{{client.enfants.c.prenom}}" type="text" class="a225216">
+        <input name="2d33" value="{{client.enfants.c.prenom}}" type="number" class="a_left a225216">
         <input name="2d32" value="{{client.enfants.c.nom}}" type="text" class="a225117">
         <input name="2d31" value="{{client.enfants.b[2].specification_formation}}" type="text" class="a22418">
         <input name="2d30" type="checkbox" class="a22319" ng-checked="client.enfants.b[2].demande_moderation == 'Yes'">
-        <input name="2d29" value="{{client.enfants.b[2].date_de_naissance}}" type="text" class="a22220">
+        <input name="2d29" value="{{client.enfants.b[2].date_de_naissance}}" type="number" class="a_left a22220">
         <input name="2d28" value="{{client.enfants.b[2].prenom}}" type="text" class="a221221">
         <input name="2d27" value="{{client.enfants.b[2].nom}}" type="text" class="a221122">
         <input name="2d26" value="{{client.enfants.b[1].specification_formation}}" type="text" class="a22023">
         <input name="2d25" type="checkbox" class="a21924" ng-checked="client.enfants.b[1].demande_moderation == 'Yes'">
-        <input name="2d24" value="{{client.enfants.b[1].date_de_naissance}}" type="text" class="a21825">
+        <input name="2d24" value="{{client.enfants.b[1].date_de_naissance}}" type="number" class="a_left a21825">
         <input name="2d23" value="{{client.enfants.b[1].prenom}}" type="text" class="a217226">
         <input name="2d22" value="{{client.enfants.b[1].nom}}" type="text" class="a217127">
         <input name="2d21" value="{{client.enfants.b[0].specification_formation}}" type="text" class="a21628">
         <input name="2d20" type="checkbox" class="a21529" ng-checked="client.enfants.b[0].demande_moderation == 'Yes'">
-        <input name="2d19" value="{{client.enfants.b[0].date_de_naissance}}" type="text" class="a21430">
+        <input name="2d19" value="{{client.enfants.b[0].date_de_naissance}}" type="number" class="a_left a21430">
         <input name="2d18" value="{{client.enfants.b[0].prenom}}" type="text" class="a213231">
         <input name="2d17" value="{{client.enfants.b[0].nom}}" type="text" class="a213132">
         <input name="2d16" type="checkbox" class="a21233" ng-checked="client.enfants.a[3].demande_moderation == 'Yes'">
@@ -390,12 +390,12 @@
 </div>
             <div id="page3" class="a03 anima-word-break ">
     <div style="width: 1043px; height: 100%; position:relative; margin:auto;">
-        <input name="3d28" type="text" class="a3270 number"
-            value="{{client.etat_civil.assimilation.calculation.pourcentage}}" />
+        <input name="3d28" type="number" class="a3270"
+            value="{{client.etat_civil.assimilation.calculation.pourcentage | number:2}}" />
         <input name="3d27" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres}}"
-            type="text" class="a3261 number" />
-        <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="text"
-            class="a3252 number" />
+            type="number" class="a3261" />
+        <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="number"
+            class="a3252" />
         <input name="3d25" type="checkbox" class="a3243"
             ng-checked="client.etat_civil.assimilation.c.revenus_professionels == 'Yes'" />
         <input name="3d24" type="checkbox" class="a3234"
@@ -416,10 +416,10 @@
             class="a31611" />
         <input name="3d16" value="{{client.etat_civil.non_residents.contribuable.rue}}" type="text" class="a31512" />
         <input name="3d15" value="{{client.etat_civil.non_residents.contribuable.numero}}" type="text" class="a31413" />
-        <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="text"
-            class="a31314" />
-        <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="text"
-            class="a31215" />
+        <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="number"
+            class="a_left a31314" />
+        <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="number"
+            class="a_left a31215" />
         <input name="3d12" value="{{client.etat_civil.non_residents.conjoint_partenaire.nom_prenom}}" type="text"
             class="a31116" />
         <input name="3d11" value="{{client.etat_civil.non_residents.contribuable.nom_prenom}}" type="text"
@@ -628,10 +628,10 @@
     <div style="width: 1076px; height: 100%; position:relative; margin:auto;">
         <input name="4d28" type="text" value="{{client.options.signature.date}}" class="rectangledate0" />
         <input name="4d27" type="text" value="{{client.options.signature.lieu}}" class="rectanglelieu1" />
-        <input name="4d26" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}" class="a4262" />
-        <input name="4d25" type="text" value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}" class="a4253" />
-        <input name="4d24" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}" class="a4244" />
-        <input name="4d23" type="text" value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}" class="a4235" />
+        <input name="4d26" type="number" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}" class="a_left a4262" />
+        <input name="4d25" type="number" value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}" class="a_left a4253" />
+        <input name="4d24" type="number" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}" class="a_left a4244" />
+        <input name="4d23" type="number" value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}" class="a_left a4235" />
         <input name="4d22" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.swift_bic}}" class="a4226" />
         <input name="4d21" type="text" value="{{client.options.informations_complementaires.contribuable.swift_bic}}" class="a4217" />
         <input name="4d20" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.code_iban}}" class="a4208" />
@@ -640,8 +640,8 @@
         <input name="4d17" type="text" value="{{client.options.informations_complementaires.contribuable.titulaire_du_compte}}" class="a41711" />
         <input name="4d16" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel}}" class="a41612" />
         <input name="4d15" type="text" value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel}}" class="a41513" />
-        <input name="4d14" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" class="a41414" />
-        <input name="4d13" type="text" value="{{client.options.informations_complementaires.contribuable.date_de_naissance}}" class="a41315" />
+        <input name="4d14" type="number" value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" class="a_left a41414" />
+        <input name="4d13" type="number" value="{{client.options.informations_complementaires.contribuable.date_de_naissance}}" class="a_left a41315" />
         <input name="4d10" id="4d12" type="radio" class="a41216" value="3" />
         <label for="4d12" class="a41216"></label>
         <input name="4d10" id="4d11" type="radio" class="a41117" value="2" />
