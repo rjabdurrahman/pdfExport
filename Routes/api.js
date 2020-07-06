@@ -114,11 +114,6 @@ router.get('/pdf/:id', (req, res) => {
                             res.send(`error: ${error.message}`);
                             return;
                         }
-                        // if (stderr) {
-                        //     res.send(`stderr: ${stderr}`);
-                        //     return;
-                        // }
-                        // res.send(`stdout: ${stdout}`);
                         res.sendFile(path.resolve('./pdf/client_files/abc.pdf'));
                     });
                 }
