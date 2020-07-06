@@ -101,9 +101,14 @@
         clearForm('.form-input #page' + localStorage.activePage);
         isSaveAlive(true);
     }
-    $('input').keyup(function () {
-        isSaveAlive(true);
-    })
+    let fVal = '';
+    $('input:text, input[type=number]').focus(function (e) {
+        fVal = e.target.value;
+    });
+    $('input:text, input[type=number]').keyup(function (e) {
+        if (e.target.value != fVal)
+            isSaveAlive(true);
+    });
     $('input:checkbox, input:radio, input.date').change(function () {
         isSaveAlive(true);
     })

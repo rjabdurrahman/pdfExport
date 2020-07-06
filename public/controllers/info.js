@@ -44,7 +44,7 @@ function radioCheck (info) {
 }
 
 app.controller('InfoCtrl', function ($scope, $http) {
-  $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
+  $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' });
   $('.load-overlay').show()
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
