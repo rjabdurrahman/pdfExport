@@ -349,6 +349,107 @@ module.exports = function serializeInfo (client) {
       'etat_civil.separe_e.is_dispense_autorite_judiciaire',
       'Off'
     ),
+    // Page 4
+    ['x4d28x']: _.get(client, 'options.signature.date', ''),
+    ['x4d27x']: _.get(client, 'options.signature.lieu', ''),
+    ['x4d26x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable',
+      ''
+    ),
+    ['x4d25x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.taux_revenu_imposable',
+      ''
+    ),
+    ['x4d24x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.taux_avances_communes',
+      ''
+    ),
+    ['x4d23x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.taux_avances_communes',
+      ''
+    ),
+    ['x4d22x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.swift_bic',
+      ''
+    ),
+    ['x4d21x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.swift_bic',
+      ''
+    ),
+    ['x4d20x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.code_iban',
+      ''
+    ),
+    ['x4d19x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.code_iban',
+      ''
+    ),
+    ['x4d18x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.titulaire_du_compte',
+      ''
+    ),
+    ['x4d17x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.titulaire_du_compte',
+      ''
+    ),
+    ['x4d16x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel',
+      ''
+    ),
+    ['x4d15x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.numero_dossier_individuel',
+      ''
+    ),
+    ['x4d14x']: _.get(
+      client,
+      'options.informations_complementaires.conjoint_partenaire.date_de_naissance',
+      ''
+    ),
+    ['x4d13x']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.date_de_naissance',
+      ''
+    ),
+    ['x4d10x']: _.get(client, ''),
+    ['x4d9x']: _.get(
+      client,
+      'options.imposition_individuelle.is_annee_imposition_2019',
+      ''
+    ),
+    ['x4d7x']: _.get(client, ''),
+    ['x4d6x']: _.get(
+      client,
+      'options.imposition_individuelle.is_confirmation_choix',
+      ''
+    ),
+    ['x4d4x']: _.get(client, ''),
+    ['x4d3x']: _.get(
+      client,
+      'options.partenaires.date_declaration_partenariat',
+      ''
+    ),
+    ['x4d2x']: _.get(
+      client,
+      'options.partenaires.is_imposition_collective',
+      ''
+    ),
+    ['x4d1x']: _.get(
+      client,
+      'options.epoux_contribuable.is_imposition_collective',
+      ''
+    ),
     // Page 5
     ['x5d69x']: _.get(
       client,

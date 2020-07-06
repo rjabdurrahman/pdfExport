@@ -329,7 +329,11 @@ header {
 	}
 
 	input.a_right {
-		text-align: right;
+		text-align: right !important;
+	}
+
+	input.tac {
+		text-align: center !important;
 	}
 
 	/* Remove Arrow */

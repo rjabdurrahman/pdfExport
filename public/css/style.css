@@ -33444,7 +33444,11 @@ header {
 }
 
 .form-input input.a_right {
-  text-align: right;
+  text-align: right !important;
+}
+
+.form-input input.tac {
+  text-align: center !important;
 }
 
 .form-input input::-webkit-outer-spin-button,
