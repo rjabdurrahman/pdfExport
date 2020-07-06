@@ -422,19 +422,19 @@ module.exports = function serializeInfo (client) {
       'options.informations_complementaires.contribuable.date_de_naissance',
       ''
     ),
-    ['x4d10x']: _.get(client, ''),
+    ['x4d10x']: _.get(client, 'options.imposition_individuelle.sl_imposition'),
     ['x4d9x']: _.get(
       client,
       'options.imposition_individuelle.is_annee_imposition_2019',
       ''
     ),
-    ['x4d7x']: _.get(client, ''),
+    ['x4d7x']: _.get(client, 'options.imposition_individuelle.sl_envoi'),
     ['x4d6x']: _.get(
       client,
       'options.imposition_individuelle.is_confirmation_choix',
       ''
     ),
-    ['x4d4x']: _.get(client, ''),
+    ['x4d4x']: _.get(client, 'options.partenaires.sl_document'),
     ['x4d3x']: _.get(
       client,
       'options.partenaires.date_declaration_partenariat',
