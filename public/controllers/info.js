@@ -26,21 +26,21 @@ function checkDone () {
 }
 
 function radioCheck (info) {
-  if (info.etat_civil.status)
-    $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
-  if (info.options.partenaires.sl_document)
-    $(`#page4 :radio[value=${info.options.partenaires.sl_document}]`).attr(
-      'checked',
-      true
-    )
-  if (info.options.imposition_individuelle.sl_envoi)
-    $(
-      `#page4 :radio[value=${info.options.imposition_individuelle.sl_envoi}]`
-    ).attr('checked', true)
-  if (info.options.imposition_individuelle.sl_imposition)
-    $(
-      `#page4 :radio[value=${info.options.imposition_individuelle.sl_imposition}]`
-    ).attr('checked', true)
+  // if (info.etat_civil.status)
+  //   $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
+  // if (info.options.partenaires.sl_document)
+  //   $(`#page4 :radio[value=${info.options.partenaires.sl_document}]`).attr(
+  //     'checked',
+  //     true
+  //   )
+  // if (info.options.imposition_individuelle.sl_envoi)
+  //   $(
+  //     `#page4 :radio[value=${info.options.imposition_individuelle.sl_envoi}]`
+  //   ).attr('checked', true)
+  // if (info.options.imposition_individuelle.sl_imposition)
+  //   $(
+  //     `#page4 :radio[value=${info.options.imposition_individuelle.sl_imposition}]`
+  //   ).attr('checked', true)
 }
 
 app.controller('InfoCtrl', function ($scope, $http) {
