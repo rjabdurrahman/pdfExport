@@ -5,16 +5,13 @@ module.exports = function(info){
             determination_benefice_commercial: {
                 revenus_non_exoneres: {
                     contribuable: {
-                        benefice_entreprise: Number(info['5d1']),
-                        parts_benefice: Number(info['5d5']),
-                        recettes: Number(info['5d9']),
-                        depenses_forfaitaires: Number(info['5d13']),
-                        depenses_annexe: Number(info['5d17']),
-                        benefice_cessation: Number(info['5d21']),
-                        totalABCD : 
-                        (Number(info['5d1']) + Number(info['5d5']) + Number(info['5d9']) 
-                        - Number(info['5d13']) - Number(info['5d17']) + Number(info['5d21'])) || '',
-                        exoneration: info['5d30']
+                        benefice_entreprise: info['5d1'],
+                        parts_benefice: info['5d5'],
+                        recettes: info['5d9'],
+                        depenses_forfaitaires: info['5d13'],
+                        depenses_annexe: info['5d17'],
+                        benefice_cessation: info['5d21'],
+                        totalABCD : 0
                     },
                     conjoint_partenaire: {
                         benefice_entreprise: info['5d2'],
@@ -23,10 +20,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d14'],
                         depenses_annexe: info['5d18'],
                         benefice_cessation: info['5d22'],
-                        totalABCD : 
-                        (Number(info['5d2']) + Number(info['5d6']) + Number(info['5d10']) 
-                        - Number(info['5d14']) - Number(info['5d18']) + Number(info['5d22'])) || '',
-                        exoneration: info['5d31']
+                        totalABCD : 0
                     }
                 },
                 revenus_exoneres: {
@@ -37,9 +31,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d15'],
                         depenses_annexe: info['5d19'],
                         benefice_cessation: info['5d23'],
-                        totalABCD : 
-                        (Number(info['5d3']) + Number(info['5d7']) + Number(info['5d11']) 
-                        - Number(info['5d15']) - Number(info['5d19']) + Number(info['5d23'])) || ''
+                        totalABCD : 0
                     },
                     conjoint_partenaire: {
                         benefice_entreprise: info['5d4'],
@@ -48,9 +40,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d16'],
                         depenses_annexe: info['5d20'],
                         benefice_cessation: info['5d24'],
-                        totalABCD : 
-                        (Number(info['5d4']) + Number(info['5d8']) + Number(info['5d12']) 
-                        - Number(info['5d16']) - Number(info['5d20']) + Number(info['5d24'])) || ''
+                        totalABCD : 0
                     }
                 },
                 etat_partie: info['5d33']
