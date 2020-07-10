@@ -101,10 +101,10 @@
         clearForm('.form-input #page' + localStorage.activePage);
         isSaveAlive(true);
     }
-    $('input:text, input[type=number]').keyup(function (e) {
+    $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
         isSaveAlive(true);
     });
-    $('input:checkbox, input:radio, input.date').change(function () {
+    $('.form-input input:checkbox, .form-input input:radio, .form-input input.date').change(function () {
         isSaveAlive(true);
     })
     /* window.onbeforeunload = function (e) {

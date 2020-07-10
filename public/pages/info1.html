@@ -3833,15 +3833,10 @@
         clearForm('.form-input #page' + localStorage.activePage);
         isSaveAlive(true);
     }
-    let fVal = '';
-    $('input:text, input[type=number]').focus(function (e) {
-        fVal = e.target.value;
+    $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
+        isSaveAlive(true);
     });
-    $('input:text, input[type=number]').keyup(function (e) {
-        if (e.target.value != fVal)
-            isSaveAlive(true);
-    });
-    $('input:checkbox, input:radio, input.date').change(function () {
+    $('.form-input input:checkbox, .form-input input:radio, .form-input input.date').change(function () {
         isSaveAlive(true);
     })
     /* window.onbeforeunload = function (e) {
