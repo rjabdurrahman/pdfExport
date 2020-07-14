@@ -144,7 +144,7 @@ let fdfText = `%FDF-1.2
 /T (0208)
 >> 
 <<
-/V (data_34)
+/V (x20d2002x)
 /T (p16SignDate)
 >> 
 <<
@@ -1460,7 +1460,7 @@ let fdfText = `%FDF-1.2
 /T (0526)
 >> 
 <<
-/V (-64,00)
+/V (x5d25x)
 /T (0525)
 >> 
 <<
@@ -3950,13 +3950,36 @@ let fdfText = `%FDF-1.2
 /T (F)
 >>]
 >>
+/JavaScript 
+    << 
+    /Doc 2 0 R
+    /After (confirmSend();)
+    >>
 >>
-endobj 
+endobj
+2 0 obj
+[ 
+(confirmSend) 3 0 R
+]
+endobj
+3 0 obj
+<<
+>>
+stream
+function confirmSend()
+{
+    for (var i = 0; i < this.numFields; i++)
+    {
+        this.getField(getNthFieldName(i)).readonly=true;
+    }
+}
+endstream
+endobj
 trailer
 
 <<
 /Root 1 0 R
 >>
 %%EOF
-/V (data_759)`;
-module.exports = fdfText;
+/V (data_759)`
+module.exports = fdfText

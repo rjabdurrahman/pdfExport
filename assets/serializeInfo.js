@@ -715,6 +715,11 @@ module.exports = function serializeInfo (client) {
       client,
       'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.benefice_entreprise',
       ''
+    ),
+    ['x20d2002x']: _.get(
+      client,
+      'revenu_imposable.date',
+      ''
     )
   }
 }
