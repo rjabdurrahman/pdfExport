@@ -33509,12 +33509,21 @@ select:focus {
   border: 1px solid #014387 !important;
 }
 
-input[type='text']:disabled, input[type='number']:disabled {
+input[type='text']:-moz-read-only, input[type='number']:-moz-read-only {
   background: #ffffff;
   color: black;
 }
 
-input[type='text']:disabled:hover, input[type='number']:disabled:hover {
+input[type='text']:read-only, input[type='number']:read-only {
+  background: #ffffff;
+  color: black;
+}
+
+input[type='text']:-moz-read-only:hover, input[type='number']:-moz-read-only:hover {
+  cursor: not-allowed !important;
+}
+
+input[type='text']:read-only:hover, input[type='number']:read-only:hover {
   cursor: not-allowed !important;
 }
 

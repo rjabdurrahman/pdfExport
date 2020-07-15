@@ -11,14 +11,14 @@ function valueCal (adds, subs, result) {
   let res = 0
   let ec = ''
   adds.forEach(x => {
-    ec += $(`[name=${x}]`).val()
-    res += Number($(`[name=${x}]`).val())
+    ec += $(`[name=${x}]`).val().replace(',', '.')
+    res += Number($(`[name=${x}]`).val().replace(',', '.'))
   })
   subs.forEach(x => {
-    ec += $(`[name=${x}]`).val()
-    res -= Number($(`[name=${x}]`).val())
+    ec += $(`[name=${x}]`).val().replace(',', '.')
+    res -= Number($(`[name=${x}]`).val().replace(',', '.'))
   })
-  if (ec) $(`[name=${result}]`).val(res)
+  if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
   else $(`[name=${result}]`).val('')
 }
 
