@@ -54,7 +54,9 @@ app.controller('InfoCtrl', function ($scope, $http) {
   })
   $('.num').blur(function (value) {
     let val = $(this).val();
-    if(val.indexOf(',') == -1) $(this).val(val + ',00')
+    if(/^\d+$/.test(val)) $(this).val(val + ',00')
+    else if(/^\d+,$/.test(val)) $(this).val(val + '00')
+    else if(/^\d+,\d{1}$/.test(val)) $(this).val(val + '0')
   })
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
