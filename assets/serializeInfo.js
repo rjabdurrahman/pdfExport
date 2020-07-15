@@ -402,14 +402,24 @@ module.exports = function serializeInfo (client) {
       'options.informations_complementaires.contribuable.titulaire_du_compte',
       ''
     ),
-    ['x4d16x']: _.get(
+    ['x4d16ax']: _.get(
       client,
-      'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel',
+      'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a',
       ''
     ),
-    ['x4d15x']: _.get(
+    ['x4d16bx']: _.get(
       client,
-      'options.informations_complementaires.contribuable.numero_dossier_individuel',
+      'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a',
+      ''
+    ),
+    ['x4d15ax']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.numero_dossier_individuel_a',
+      ''
+    ),
+    ['x4d15bx']: _.get(
+      client,
+      'options.informations_complementaires.contribuable.numero_dossier_individuel_b',
       ''
     ),
     ['x4d14x']: _.get(
@@ -589,6 +599,21 @@ module.exports = function serializeInfo (client) {
     ['x5d30x']: _.get(
       client,
       'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.exoneration',
+      ''
+    ),
+    ['x5d28x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.totalABCD',
+      ''
+    ),
+    ['x5d27x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.totalABCD',
+      ''
+    ),
+    ['x5d26x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.totalABCD',
       ''
     ),
     ['x5d25x']: _.get(

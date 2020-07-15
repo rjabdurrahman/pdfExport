@@ -19,7 +19,8 @@ module.exports = function(info){
             informations_complementaires: {
                 contribuable: {
                     date_de_naissance: info['4d13'],
-                    numero_dossier_individuel: info['4d15'],
+                    numero_dossier_individuel_a: info['4d15a'],
+                    numero_dossier_individuel_b: info['4d15b'],
                     titulaire_du_compte: info['4d17'],
                     code_iban: info['4d19'],
                     swift_bic: info['4d21'],
@@ -28,7 +29,8 @@ module.exports = function(info){
                 },
                 conjoint_partenaire: {
                     date_de_naissance: info['4d14'],
-                    numero_dossier_individuel: info['4d16'],
+                    numero_dossier_individuel_a: info['4d16a'],
+                    numero_dossier_individuel_b: info['4d16b'],
                     titulaire_du_compte: info['4d18'],
                     code_iban: info['4d20'],
                     swift_bic: info['4d22'],
