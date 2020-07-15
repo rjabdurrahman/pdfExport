@@ -405,6 +405,10 @@ input[type='text']:disabled:hover, input[type='number']:disabled:hover {
 	cursor: not-allowed !important;
 }
 
+input.num {
+	text-align: right;
+}
+
 .w3-btn:hover {
 	box-shadow: none !important;
 	filter    : brightness(1.2);

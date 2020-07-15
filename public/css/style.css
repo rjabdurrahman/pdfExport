@@ -33518,6 +33518,10 @@ input[type='text']:disabled:hover, input[type='number']:disabled:hover {
   cursor: not-allowed !important;
 }
 
+input.num {
+  text-align: right;
+}
+
 .w3-btn:hover {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
