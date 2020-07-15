@@ -191,26 +191,86 @@ div {
   background-color: #dfe2e5;
   top: 1027px;
   height: 30px;
-  width: 408px;
+  width: 48px;
+  position: absolute;
+  margin: 0;
+  left: 811px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.a04 .a41612_a {
+  background-color: #dfe2e5;
+  top: 1027px;
+  height: 30px;
+  width: 180px;
   position: absolute;
   margin: 0;
   left: 631px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
+  border-right: none !important;
+}
+
+.a04 .a41612_b {
+  background-color: #dfe2e5;
+  top: 1027px;
+  height: 30px;
+  width: 180px;
+  position: absolute;
+  margin: 0;
+  left: 859px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  border-left: none !important;
 }
 
 .a04 .a41513 {
   background-color: #dfe2e5;
   top: 1027px;
   height: 30px;
-  width: 408px;
+  width: 48px;
+  position: absolute;
+  margin: 0;
+  left: 365px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.a04 .a41513a {
+  background-color: #dfe2e5;
+  top: 1027px;
+  height: 30px;
+  width: 180px;
   position: absolute;
   margin: 0;
   left: 185px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
+  border-right: none !important;
+}
+
+.a04 .a41513b {
+  background-color: #dfe2e5;
+  top: 1027px;
+  height: 30px;
+  width: 180px;
+  position: absolute;
+  margin: 0;
+  left: 413px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  border-left: none !important;
 }
 
 .a04 .a41414 {
