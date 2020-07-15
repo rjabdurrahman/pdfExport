@@ -47,10 +47,14 @@ app.controller('InfoCtrl', function ($scope, $http) {
   $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
   $('.load-overlay').show()
   $('.num').inputFilter(function (value) {
-    return /^\d*,*\d*$/.test(value) // Allow digits only, using a RegExp
+    return /^\d*,*\d*$/.test(value)
   })
   $('.numo').inputFilter(function (value) {
-    return /^\d*$/.test(value) // Allow digits only, using a RegExp
+    return /^\d*$/.test(value)
+  })
+  $('.num').blur(function (value) {
+    let val = $(this).val();
+    if(val.indexOf(',') == -1) $(this).val(val + ',00')
   })
   let clientId = location.href.split('id=')[1]
   $scope.client = {}

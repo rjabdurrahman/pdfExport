@@ -27,11 +27,11 @@
         <input name="1d36" type="text" class="a1364" value="{{client.signaletique.contribuable.domicile.ancien.pays}}">
         <input name="1d35" type="text" class="a1355"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.localite}}">
-        <input name="1d34" type="number" class="a_left a1346"
+        <input name="1d34" type="text" class="numo a_left a1346"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.code_postal}}">
         <input name="1d33" type="text" class="a1337"
             value="{{client.signaletique.contribuable.domicile.ancien.localite}}">
-        <input name="1d32" type="number" class="a_left a1328"
+        <input name="1d32" type="text" class="numo a_left a1328"
             value="{{client.signaletique.contribuable.domicile.ancien.code_postal}}">
         <input name="1d31" type="text" class="a1319"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.rue}}">
@@ -49,11 +49,11 @@
         <input name="1d24" type="text" class="a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}">
         <input name="1d23" type="text" class="a12317"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.localite}}">
-        <input name="1d22" type="number" class="a_left a12218"
+        <input name="1d22" type="text" class="numo a_left a12218"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.code_postal}}">
         <input name="1d21" type="text" class="a12119"
             value="{{client.signaletique.contribuable.domicile.actuel.localite}}">
-        <input name="1d20" type="number" class="a_left a12020"
+        <input name="1d20" type="text" class="numo a_left a12020"
             value="{{client.signaletique.contribuable.domicile.actuel.code_postal}}">
         <input name="1d19" type="text" class="a11921"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.rue}}">
@@ -68,13 +68,13 @@
         <input name="1d12" type="text" class="a11228" value="{{client.signaletique.contribuable.telephone}}">
         <input name="1d11" type="text" class="a11129" value="{{client.signaletique.conjoint_partenaire.profession}}">
         <input name="1d10" type="text" class="a11030" value="{{client.signaletique.contribuable.profession}}">
-        <input name="1d9" type="number" class="a10931" value="{{client.signaletique.numero_de_dossier}}" minlength="11" maxlength="11" style="text-align: center; letter-spacing: 4px;">
+        <input name="1d9" type="text" class="numo a_center a10931" value="{{client.signaletique.numero_de_dossier}}" minlength="11" maxlength="11" style="text-align: center; letter-spacing: 4px;">
         <input name="1d8" type="text" class="a10832"
             value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
         <input name="1d7" type="text" class="a10733" value="{{client.signaletique.contribuable.lieu_de_naissance}}">
-        <input name="1d6" type="number" class="a10634 a_left"
+        <input name="1d6" type="text" class="numo a10634 a_left"
             value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}" />
-        <input name="1d5" type="number" class="a10535 a_left" value="{{client.signaletique.contribuable.date_de_naissance}}" />
+        <input name="1d5" type="text" class="numo a10535 a_left" value="{{client.signaletique.contribuable.date_de_naissance}}" />
         <input name="1d4" type="text" class="a10436" value="{{client.signaletique.conjoint_partenaire.prenom}}">
         <input name="1d3" type="text" class="a10337" value="{{client.signaletique.contribuable.prenom}}">
         <input name="1d2" type="text" class="a10238" value="{{client.signaletique.conjoint_partenaire.nom}}">
@@ -177,9 +177,9 @@
 </div>
             <div id="page2" class="a02 anima-word-break ">
     <div style="width: 1045px; height: 100%; position:relative; margin:auto;">
-        <input name="2d49" value="{{client.enfants.demande_bonification_impot.table[1].date_de_naissance}}" type="number" class="a_left a2410">
+        <input name="2d49" value="{{client.enfants.demande_bonification_impot.table[1].date_de_naissance}}" type="text" class="numo a_left a2410">
         <input name="2d48" value="{{client.enfants.demande_bonification_impot.table[1].nom_prenom}}" type="text" class="a2401">
-        <input name="2d47" value="{{client.enfants.demande_bonification_impot.table[0].date_de_naissance}}" type="number" class="a_left a2392">
+        <input name="2d47" value="{{client.enfants.demande_bonification_impot.table[0].date_de_naissance}}" type="text" class="numo a_left a2392">
         <input name="2d46" value="{{client.enfants.demande_bonification_impot.table[0].nom_prenom}}" type="text" class="a2383">
         <input name="2d45" type="checkbox" class="a2374" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'">
         <input name="2d44" value="{{client.enfants.demande_cim.moyens_subsistance[1].subsistance2}}" type="text" class="a2365">
@@ -188,42 +188,42 @@
         <input name="2d41" value="{{client.enfants.demande_cim.table[2].nom_prenom}}" type="text" class="a2338">
         <input name="2d40" value="{{client.enfants.demande_cim.table[1].montant_mensuel_allocation}}" type="text" class="a2329">
         <input name="2d39" value="{{client.enfants.demande_cim.table[1].nom_prenom}}" type="text" class="a23110">
-        <input name="2d38" value="{{client.enfants.demande_cim.table[0].montant_mensuel_allocation}}" type="number" class="a_left a23011">
+        <input name="2d38" value="{{client.enfants.demande_cim.table[0].montant_mensuel_allocation}}" type="text" class="numo a_left a23011">
         <input name="2d37" value="{{client.enfants.demande_cim.table[0].nom_prenom}}" type="text" class="a22912">
         <input name="2d36" type="checkbox" class="a22813" ng-checked="client.enfants.demande_cim.is_demande_cim == 'Yes'">
         <input name="2d35" type="checkbox" class="a22714" ng-checked="client.enfants.c.demande_moderation == 'Yes'">
         <input name="2d34" value="{{client.enfants.c.date_de_naissance}}" type="text" class="a22615">
-        <input name="2d33" value="{{client.enfants.c.prenom}}" type="number" class="a_left a225216">
+        <input name="2d33" value="{{client.enfants.c.prenom}}" type="text" class="numo a_left a225216">
         <input name="2d32" value="{{client.enfants.c.nom}}" type="text" class="a225117">
         <input name="2d31" value="{{client.enfants.b[2].specification_formation}}" type="text" class="a22418">
         <input name="2d30" type="checkbox" class="a22319" ng-checked="client.enfants.b[2].demande_moderation == 'Yes'">
-        <input name="2d29" value="{{client.enfants.b[2].date_de_naissance}}" type="number" class="a_left a22220">
+        <input name="2d29" value="{{client.enfants.b[2].date_de_naissance}}" type="text" class="numo a_left a22220">
         <input name="2d28" value="{{client.enfants.b[2].prenom}}" type="text" class="a221221">
         <input name="2d27" value="{{client.enfants.b[2].nom}}" type="text" class="a221122">
         <input name="2d26" value="{{client.enfants.b[1].specification_formation}}" type="text" class="a22023">
         <input name="2d25" type="checkbox" class="a21924" ng-checked="client.enfants.b[1].demande_moderation == 'Yes'">
-        <input name="2d24" value="{{client.enfants.b[1].date_de_naissance}}" type="number" class="a_left a21825">
+        <input name="2d24" value="{{client.enfants.b[1].date_de_naissance}}" type="text" class="numo a_left a21825">
         <input name="2d23" value="{{client.enfants.b[1].prenom}}" type="text" class="a217226">
         <input name="2d22" value="{{client.enfants.b[1].nom}}" type="text" class="a217127">
         <input name="2d21" value="{{client.enfants.b[0].specification_formation}}" type="text" class="a21628">
         <input name="2d20" type="checkbox" class="a21529" ng-checked="client.enfants.b[0].demande_moderation == 'Yes'">
-        <input name="2d19" value="{{client.enfants.b[0].date_de_naissance}}" type="number" class="a_left a21430">
+        <input name="2d19" value="{{client.enfants.b[0].date_de_naissance}}" type="text" class="numo a_left a21430">
         <input name="2d18" value="{{client.enfants.b[0].prenom}}" type="text" class="a213231">
         <input name="2d17" value="{{client.enfants.b[0].nom}}" type="text" class="a213132">
         <input name="2d16" type="checkbox" class="a21233" ng-checked="client.enfants.a[3].demande_moderation == 'Yes'">
-        <input name="2d15" value="{{client.enfants.a[3].date_de_naissance}}" type="number" class="a_left a21134">
+        <input name="2d15" value="{{client.enfants.a[3].date_de_naissance}}" type="text" class="numo a_left a21134">
         <input name="2d14" value="{{client.enfants.a[3].prenom}}" type="text" class="a210235">
         <input name="2d13" value="{{client.enfants.a[3].nom}}" type="text" class="a210136">
         <input name="2d12" type="checkbox" class="a20937" ng-checked="client.enfants.a[2].demande_moderation == 'Yes'">
-        <input name="2d11" value="{{client.enfants.a[2].date_de_naissance}}" type="number" class="a_left a20838">
+        <input name="2d11" value="{{client.enfants.a[2].date_de_naissance}}" type="text" class="numo a_left a20838">
         <input name="2d10" value="{{client.enfants.a[2].prenom}}" type="text" class="a207239">
         <input name="2d9" value="{{client.enfants.a[2].nom}}" type="text" class="a207140">
         <input name="2d8" type="checkbox" class="a20641" ng-checked="client.enfants.a[1].demande_moderation == 'Yes'">
-        <input name="2d7" value="{{client.enfants.a[1].date_de_naissance}}" type="number" class="a_left a20542">
+        <input name="2d7" value="{{client.enfants.a[1].date_de_naissance}}" type="text" class="numo a_left a20542">
         <input name="2d6" value="{{client.enfants.a[1].prenom}}" type="text" class="a204243">
         <input name="2d5" value="{{client.enfants.a[1].nom}}" type="text" class="a204144">
         <input name="2d4" type="checkbox" class="a20345" ng-checked="client.enfants.a[0].demande_moderation == 'Yes'">
-        <input name="2d3" value="{{client.enfants.a[0].date_de_naissance}}" type="number" class="a_left a20246">
+        <input name="2d3" value="{{client.enfants.a[0].date_de_naissance}}" type="text" class="numo a_left a20246">
         <input name="2d2" value="{{client.enfants.a[0].prenom}}" type="text" class="a201247">
         <input name="2d1" value="{{client.enfants.a[0].nom}}" type="text" class="a201148">
         <div class="annemoisjour49">
