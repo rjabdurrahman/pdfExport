@@ -33559,15 +33559,15 @@ header {
   text-align: right;
 }
 
-.form-input input.a_left {
+.form-input input.t_left {
   text-align: left !important;
 }
 
-.form-input input.a_right {
+.form-input input.t_right {
   text-align: right !important;
 }
 
-.form-input input.tac {
+.form-input input.t_center {
   text-align: center !important;
 }
 
@@ -33782,9 +33782,5 @@ input.num {
           align-items: center;
   font-size: 22px;
   background-color: rgba(255, 255, 255, 0.7);
-}
-
-.text-c {
-  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

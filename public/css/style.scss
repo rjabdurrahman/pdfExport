@@ -324,15 +324,15 @@ header {
 		text-align: right;
 	}
 
-	input.a_left {
+	input.t_left {
 		text-align: left !important;
 	}
 
-	input.a_right {
+	input.t_right {
 		text-align: right !important;
 	}
 
-	input.tac {
+	input.t_center {
 		text-align: center !important;
 	}
 
@@ -529,8 +529,4 @@ input.num {
 	align-items     : center;
 	font-size       : 22px;
 	background-color: rgba(255, 255, 255, 0.7);
-}
-
-.text-c {
-	text-align: center;
 }

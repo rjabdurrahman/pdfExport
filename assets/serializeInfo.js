@@ -409,7 +409,7 @@ module.exports = function serializeInfo (client) {
     ),
     ['x4d16bx']: _.get(
       client,
-      'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a',
+      'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_b',
       ''
     ),
     ['x4d15ax']: _.get(

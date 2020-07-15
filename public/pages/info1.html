@@ -390,12 +390,11 @@
 </div>
             <div id="page3" class="a03 anima-word-break ">
     <div style="width: 1043px; height: 100%; position:relative; margin:auto;">
-        <input name="3d28" type="number" class="a3270"
-            value="{{client.etat_civil.assimilation.calculation.pourcentage | number:2}}" />
+        <input name="3d28" type="text" class="num a3270"
+            value="{{client.etat_civil.assimilation.calculation.pourcentage}}" />
         <input name="3d27" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres}}"
-            type="number" class="a3261" />
-        <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="number"
-            class="a3252" />
+            type="text" class="num a3261" />
+        <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="text" class="num a3252" />
         <input name="3d25" type="checkbox" class="a3243"
             ng-checked="client.etat_civil.assimilation.c.revenus_professionels == 'Yes'" />
         <input name="3d24" type="checkbox" class="a3234"
@@ -416,10 +415,10 @@
             class="a31611" />
         <input name="3d16" value="{{client.etat_civil.non_residents.contribuable.rue}}" type="text" class="a31512" />
         <input name="3d15" value="{{client.etat_civil.non_residents.contribuable.numero}}" type="text" class="a31413" />
-        <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="number"
-            class="a_left a31314" />
-        <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="number"
-            class="a_left a31215" />
+        <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="text"
+       num      class="a_left a31314" />
+        <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="text"
+       num      class="a_left a31215" />
         <input name="3d12" value="{{client.etat_civil.non_residents.conjoint_partenaire.nom_prenom}}" type="text"
             class="a31116" />
         <input name="3d11" value="{{client.etat_civil.non_residents.contribuable.nom_prenom}}" type="text"
@@ -628,24 +627,24 @@
     <div style="width: 1076px; height: 100%; position:relative; margin:auto;">
         <input name="4d28" type="text" value="{{client.options.signature.date}}" class="rectangledate0" />
         <input name="4d27" type="text" value="{{client.options.signature.lieu}}" class="rectanglelieu1" />
-        <input name="4d26" type="number" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}" class="a_left a4262" />
-        <input name="4d25" type="number" value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}" class="a_left a4253" />
-        <input name="4d24" type="number" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}" class="a_left a4244" />
-        <input name="4d23" type="number" value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}" class="a_left a4235" />
+        <input name="4d26" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}" class="numo a_left a4262" />
+        <input name="4d25" type="text" value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}" class="numo a_left a4253" />
+        <input name="4d24" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}" class="numo a_left a4244" />
+        <input name="4d23" type="text" value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}" class="numo a_left a4235" />
         <input name="4d22" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.swift_bic}}" class="a4226" />
         <input name="4d21" type="text" value="{{client.options.informations_complementaires.contribuable.swift_bic}}" class="a4217" />
         <input name="4d20" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.code_iban}}" class="a4208" />
         <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}" class="a4199" />
         <input name="4d18" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.titulaire_du_compte}}" class="a41810" />
         <input name="4d17" type="text" value="{{client.options.informations_complementaires.contribuable.titulaire_du_compte}}" class="a41711" />
-        <input name="4d16a" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a}}" class="a41612_a" />
-        <input name="4d16" type="text" value="01" class="a41612 text-c" readonly/>
-        <input name="4d16b" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_b}}" class="a41612_b" />
-        <input name="4d15a" type="text" value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_a}}" class="a41513a" />
-        <input name="4d15" type="text" value="01" class="a41513 text-c" readonly/>
-        <input name="4d15b" type="text" value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_b}}" class="a41513b" />
-        <input name="4d14" type="number" value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" class="a_left a41414" />
-        <input name="4d13" type="number" value="{{client.options.informations_complementaires.contribuable.date_de_naissance}}" class="a_left a41315" />
+        <input name="4d16a" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a}}" class="numo a41612_a" />
+        <input name="4d16" type="text" value="01" class="a41612 t-center" readonly/>
+        <input name="4d16b" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_b}}" class="numo a41612_b" />
+        <input name="4d15a" type="text" value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_a}}" class="numo a41513a" />
+        <input name="4d15" type="text" value="01" class="a41513 t-center" readonly/>
+        <input name="4d15b" type="text" value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_b}}" class="numo a41513b" />
+        <input name="4d14" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" class="numo a_left a41414" />
+        <input name="4d13" type="text" value="{{client.options.informations_complementaires.contribuable.date_de_naissance}}" class="numo a_left a41315" />
         <input name="4d10" id="4d12" type="radio" class="a41216" value="3ter3" />
         <label for="4d12" class="a41216"></label>
         <input name="4d10" id="4d11" type="radio" class="a41117" value="3ter" />
@@ -887,7 +886,7 @@
         <input name="5d32" type="text" class="num a52953041" readonly />
         <input name="5d31" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.exoneration}}" type="text" class="num a53042" />
         <input name="5d30" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.exoneration}}" type="text" class="num a52943" />
-        <input name="5d29" type="text" class="num a52752844" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.totalABCD}}" />
+        <input name="5d29" type="text" class="num a52752844" readonly />
         <input name="5d28" type="text" class="num a52845" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.totalABCD}}" />
         <input name="5d27" type="text" class="num a52746" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.totalABCD}}" />
         <input name="5d26" type="text" class="num a52647" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.totalABCD}}" />

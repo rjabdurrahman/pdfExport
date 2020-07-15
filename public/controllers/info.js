@@ -49,6 +49,9 @@ app.controller('InfoCtrl', function ($scope, $http) {
   $('.num').inputFilter(function (value) {
     return /^\d*,*\d*$/.test(value) // Allow digits only, using a RegExp
   })
+  $('.numo').inputFilter(function (value) {
+    return /^\d*$/.test(value) // Allow digits only, using a RegExp
+  })
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
   $http({
