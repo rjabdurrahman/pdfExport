@@ -26,26 +26,29 @@ function checkDone () {
 }
 
 function radioCheck (info) {
-  // if (info.etat_civil.status)
-  //   $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
-  // if (info.options.partenaires.sl_document)
-  //   $(`#page4 :radio[value=${info.options.partenaires.sl_document}]`).attr(
-  //     'checked',
-  //     true
-  //   )
-  // if (info.options.imposition_individuelle.sl_envoi)
-  //   $(
-  //     `#page4 :radio[value=${info.options.imposition_individuelle.sl_envoi}]`
-  //   ).attr('checked', true)
-  // if (info.options.imposition_individuelle.sl_imposition)
-  //   $(
-  //     `#page4 :radio[value=${info.options.imposition_individuelle.sl_imposition}]`
-  //   ).attr('checked', true)
+  if (_.get(info, 'etat_civil.status'))
+    $(`#page3 :radio[value=${info.etat_civil.status}]`).attr('checked', true)
+  if (info.options.partenaires.sl_document)
+    $(`#page4 :radio[value=${info.options.partenaires.sl_document}]`).attr(
+      'checked',
+      true
+    )
+  if (_.get(info, 'options.imposition_individuelle.sl_envoi'))
+    $(
+      `#page4 :radio[value=${info.options.imposition_individuelle.sl_envoi}]`
+    ).attr('checked', true)
+  if (_.get(info, 'options.imposition_individuelle.sl_imposition'))
+    $(
+      `#page4 :radio[value=${info.options.imposition_individuelle.sl_imposition}]`
+    ).attr('checked', true)
 }
 
 app.controller('InfoCtrl', function ($scope, $http) {
-  $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' });
+  $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
   $('.load-overlay').show()
+  $('.number').inputFilter(function (value) {
+    return /^\d*$/.test(value) // Allow digits only, using a RegExp
+  })
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
   $http({

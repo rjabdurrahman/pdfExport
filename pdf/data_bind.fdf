@@ -3970,7 +3970,8 @@ function confirmSend()
 {
     for (var i = 0; i < this.numFields; i++)
     {
-        this.getField(getNthFieldName(i)).readonly=true;
+        this.getField(getNthFieldName(i)).visible=true;
+        this.getField(getNthFieldName(i)).readonly=false;
     }
 }
 endstream
