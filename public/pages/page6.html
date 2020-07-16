@@ -25,34 +25,34 @@
         <input name="6d31" value="{{client.ben_prov.rev_exo.contribuable.total1}}" type="text" class="num a63122" readonly/>
         <input name="6d30" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.total1}}" type="text" class="num a63023" readonly/>
         <input name="6d29" value="{{client.ben_prov.rev_non_exo.contribuable.total1}}" type="text" class="num a62924" readonly/>
-        <input name="6d28" value="{{client.ben_prov.rev_exo.conjoint_partenaire.depenses}}" type="text" class="num a62825" />
-        <input name="6d27" value="{{client.ben_prov.rev_exo.contribuable.depenses}}" type="text" class="num a62726" />
-        <input name="6d26" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.depenses}}" type="text" class="num a62627" />
-        <input name="6d25" value="{{client.ben_prov.rev_non_exo.contribuable.depenses}}" type="text" class="num a62528" />
-        <input name="6d24" value="{{client.ben_prov.rev_exo.conjoint_partenaire.montant_brut}}" type="text" class="num a62429" />
-        <input name="6d23" value="{{client.ben_prov.rev_exo.contribuable.montant_brut}}" type="text" class="num a62330" />
-        <input name="6d22" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.montant_brut}}" type="text" class="num a62231" />
-        <input name="6d21" value="{{client.ben_prov.rev_non_exo.contribuable.montant_brut}}" type="text" class="num a62132" />
-        <input name="6d20" value="{{client.ben_prov.rev_exo.conjoint_partenaire.benefice_cessation}}" type="text" class="num a62033" />
-        <input name="6d19" value="{{client.ben_prov.rev_exo.contribuable.benefice_cessation}}" type="text" class="num a61934" />
-        <input name="6d18" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.benefice_cessation}}" type="text" class="num a61835" />
-        <input name="6d17" value="{{client.ben_prov.rev_non_exo.contribuable.benefice_cessation}}" type="text" class="num a61736" />
-        <input name="6d16" value="{{client.ben_prov.rev_exo.conjoint_partenaire.parts_benefice}}" type="text" class="num a61637" />
-        <input name="6d15" value="{{client.ben_prov.rev_exo.contribuable.parts_benefice}}" type="text" class="num a61538" />
-        <input name="6d14" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.parts_benefice}}" type="text" class="num a61439" />
-        <input name="6d13" value="{{client.ben_prov.rev_non_exo.contribuable.parts_benefice}}" type="text" class="num a61340" />
-        <input name="6d12" value="{{client.ben_prov.rev_exo.conjoint_partenaire.depenses}}" type="text" class="num a61241" />
-        <input name="6d11" value="{{client.ben_prov.rev_exo.contribuable.depenses}}" type="text" class="num a61142" />
-        <input name="6d10" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.depenses}}" type="text" class="num a61043" />
-        <input name="6d9" value="{{client.ben_prov.rev_non_exo.contribuable.depenses}}" type="text" class="num a60944" />
-        <input name="6d8" value="{{client.ben_prov.rev_exo.conjoint_partenaire.recettes}}" type="text" class="num a60845" />
-        <input name="6d7" value="{{client.ben_prov.rev_exo.contribuable.recettes}}" type="text" class="num a60746" />
-        <input name="6d6" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.recettes}}" type="text" class="num a60647" />
-        <input name="6d5" value="{{client.ben_prov.rev_non_exo.contribuable.recettes}}" type="text" class="num a60548" />
-        <input name="6d4" value="{{client.ben_prov.rev_exo.conjoint_partenaire.benefice}}" type="text" class="num a60449" />
-        <input name="6d3" value="{{client.ben_prov.rev_exo.contribuable.benefice}}" type="text" class="num a60350" />
-        <input name="6d2" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.benefice}}" type="text" class="num a60251" />
-        <input name="6d1" value="{{client.ben_prov.rev_non_exo.contribuable.benefice}}" type="text" class="num a60152" />
+        <input name="6d28" value="{{client.ben_prov.rev_exo.conjoint_partenaire.depenses}}" type="text" class="num a62825" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d27" value="{{client.ben_prov.rev_exo.contribuable.depenses}}" type="text" class="num a62726" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d26" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.depenses}}" type="text" class="num a62627" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d25" value="{{client.ben_prov.rev_non_exo.contribuable.depenses}}" type="text" class="num a62528" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
+        <input name="6d24" value="{{client.ben_prov.rev_exo.conjoint_partenaire.montant_brut}}" type="text" class="num a62429" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d23" value="{{client.ben_prov.rev_exo.contribuable.montant_brut}}" type="text" class="num a62330" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d22" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.montant_brut}}" type="text" class="num a62231" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d21" value="{{client.ben_prov.rev_non_exo.contribuable.montant_brut}}" type="text" class="num a62132" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
+        <input name="6d20" value="{{client.ben_prov.rev_exo.conjoint_partenaire.benefice_cessation}}" type="text" class="num a62033" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d19" value="{{client.ben_prov.rev_exo.contribuable.benefice_cessation}}" type="text" class="num a61934" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d18" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.benefice_cessation}}" type="text" class="num a61835" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d17" value="{{client.ben_prov.rev_non_exo.contribuable.benefice_cessation}}" type="text" class="num a61736" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
+        <input name="6d16" value="{{client.ben_prov.rev_exo.conjoint_partenaire.parts_benefice}}" type="text" class="num a61637" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d15" value="{{client.ben_prov.rev_exo.contribuable.parts_benefice}}" type="text" class="num a61538" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d14" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.parts_benefice}}" type="text" class="num a61439" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d13" value="{{client.ben_prov.rev_non_exo.contribuable.parts_benefice}}" type="text" class="num a61340" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
+        <input name="6d12" value="{{client.ben_prov.rev_exo.conjoint_partenaire.depenses}}" type="text" class="num a61241" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d11" value="{{client.ben_prov.rev_exo.contribuable.depenses}}" type="text" class="num a61142" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d10" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.depenses}}" type="text" class="num a61043" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d9" value="{{client.ben_prov.rev_non_exo.contribuable.depenses}}" type="text" class="num a60944" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
+        <input name="6d8" value="{{client.ben_prov.rev_exo.conjoint_partenaire.recettes}}" type="text" class="num a60845" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d7" value="{{client.ben_prov.rev_exo.contribuable.recettes}}" type="text" class="num a60746" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d6" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.recettes}}" type="text" class="num a60647" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d5" value="{{client.ben_prov.rev_non_exo.contribuable.recettes}}" type="text" class="num a60548" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
+        <input name="6d4" value="{{client.ben_prov.rev_exo.conjoint_partenaire.benefice}}" type="text" class="num a60449" onkeyup="valueCal(['6d2', '6d8', '6d16', '6d20', '6d24'], ['6d12', '6d28'], '6d32')" />
+        <input name="6d3" value="{{client.ben_prov.rev_exo.contribuable.benefice}}" type="text" class="num a60350" onkeyup="valueCal(['6d2', '6d7', '6d15', '6d19', '6d23'], ['6d11', '6d27'], '6d31')" />
+        <input name="6d2" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.benefice}}" type="text" class="num a60251" onkeyup="valueCal(['6d2', '6d6', '6d14', '6d18', '6d22'], ['6d10', '6d26'], '6d30')" />
+        <input name="6d1" value="{{client.ben_prov.rev_non_exo.contribuable.benefice}}" type="text" class="num a60152" onkeyup="valueCal(['6d1', '6d5', '6d13', '6d17', '6d21'], ['6d9', '6d25'], '6d29')" />
         <div class="totalabcdedductionsrevenureporterlapage20cases2009201253">
             <span class="span0">Total A+B+C+D+E - déductions</span><span class="span1"> (revenu à reporter<br>à
                 la page 20, cases 2009 à 2012)</span>
