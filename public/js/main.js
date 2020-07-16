@@ -19,7 +19,8 @@ function valueCal (adds, subs, result) {
     res -= Number($(`[name=${x}]`).val().replace(',', '.'))
   })
   if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
-  else $(`[name=${result}]`).val('')
+  else $(`[name=${result}]`).val('');
+  isSaveAlive(true);
 }
 
 // Restricts input for the set of matched elements to the given inputFilter function.

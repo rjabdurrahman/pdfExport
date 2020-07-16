@@ -36,7 +36,8 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d15'],
                         depenses_annexe: info['5d19'],
                         benefice_cessation: info['5d23'],
-                        totalABCD : info['5d27']
+                        totalABCD : info['5d27'],
+                        total: info['5d36']
                     },
                     conjoint_partenaire: {
                         benefice_entreprise: info['5d4'],
@@ -45,7 +46,8 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d16'],
                         depenses_annexe: info['5d20'],
                         benefice_cessation: info['5d24'],
-                        totalABCD : info['5d28']
+                        totalABCD : info['5d28'],
+                        total: info['5d37']
                     },
                     total: info['5d29']
                 },
