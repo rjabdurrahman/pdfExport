@@ -12,7 +12,8 @@ module.exports = function(info){
                         depenses_annexe: info['5d17'],
                         benefice_cessation: info['5d21'],
                         totalABCD: info['5d25'],
-                        exoneration: info['5d30']
+                        exoneration: info['5d30'],
+                        total: info['5d34']
                     },
                     conjoint_partenaire: {
                         benefice_entreprise: info['5d2'],
@@ -22,8 +23,10 @@ module.exports = function(info){
                         depenses_annexe: info['5d18'],
                         benefice_cessation: info['5d22'],
                         totalABCD : info['5d26'],
-                        exoneration: info['5d31']
-                    }
+                        exoneration: info['5d31'],
+                        total: info['5d35']
+                    },
+                    exonerationTotal: info['5d32']
                 },
                 revenus_exoneres: {
                     contribuable: {
@@ -43,7 +46,8 @@ module.exports = function(info){
                         depenses_annexe: info['5d20'],
                         benefice_cessation: info['5d24'],
                         totalABCD : info['5d28']
-                    }
+                    },
+                    total: info['5d29']
                 },
                 etat_partie: info['5d33']
             },
