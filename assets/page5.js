@@ -62,7 +62,9 @@ module.exports = function(info){
                         depenses: info['5d50'],
                         benefice_cessation: info['5d54'],
                         investissements: info['5d63'],
-                        exoneration: info['5d66']
+                        exoneration: info['5d66'],
+                        totalABCD: info['5d58'],
+                        total: info['5d70']
                     },
                     conjoint_partenaire: {
                         benefice_agricole: info['5d39'],
@@ -71,8 +73,12 @@ module.exports = function(info){
                         depenses: info['5d51'],
                         benefice_cessation: info['5d55'],
                         investissements: info['5d64'],
-                        exoneration: info['5d67']
-                    }
+                        exoneration: info['5d67'],
+                        totalABCD: info['5d59'],
+                        total: info['5d71']
+                    },
+                    investissements_total: info['5d65'],
+                    exoneration_total: info['5d68']
                 },
                 rev_exo: {
                     contribuable: {
@@ -80,15 +86,20 @@ module.exports = function(info){
                         parts_benefice: info['5d44'],
                         recettes: info['5d48'],
                         depenses: info['5d52'],
-                        benefice_cessation: info['5d56']
+                        benefice_cessation: info['5d56'],
+                        totalABCD: info['5d60'],
+                        total: info['5d72']
                     },
                     conjoint_partenaire: {
                         benefice_agricole: info['5d41'],
                         parts_benefice: info['5d45'],
                         recettes: info['5d49'],
                         depenses: info['5d53'],
-                        benefice_cessation: info['5d57']
-                    }
+                        benefice_cessation: info['5d57'],
+                        totalABCD: info['5d61'],
+                        total: info['5d73']
+                    },
+                    total: info['5d62']
                 },
                 etat_partie: info['5d69']
             }
