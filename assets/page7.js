@@ -83,7 +83,7 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d769'],
-                            par_mois_semaine: info['7d780']
+                            par_mois_semaine: info['7d779']
                         }
                     },
                     conjoint_partenaire: {
@@ -94,7 +94,7 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d770'],
-                            par_mois_semaine: info['7d782']
+                            par_mois_semaine: info['7d781']
                         }
                     }
                 },
@@ -107,7 +107,7 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d777'],
-                            par_mois_semaine: info['7d784']
+                            par_mois_semaine: info['7d783']
                         }
                     },
                     conjoint_partenaire: {
@@ -118,7 +118,7 @@ module.exports = function (info) {
                         },
                         frequence: {
                             jour: info['7d778'],
-                            par_mois_semaine: info['7d786']
+                            par_mois_semaine: info['7d785']
                         }
                     }
                 }

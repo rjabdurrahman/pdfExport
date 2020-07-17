@@ -43,19 +43,19 @@ function radioCheck (info) {
     ).attr('checked', true)
   if (_.get(info, 'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine'))
     $(
-      `#page7 :radio[value=${occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine}]`
+      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine}]`
     ).attr('checked', true)
   if (_.get(info, 'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.par_mois_semaine'))
     $(
-      `#page7 :radio[value=${occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine}]`
+      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine}]`
     ).attr('checked', true)
   if (_.get(info, 'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine'))
     $(
-      `#page7 :radio[value=${occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine}]`
+      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine}]`
     ).attr('checked', true)
   if (_.get(info, 'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.is_par_semaine'))
     $(
-      `#page7 :radio[value=${occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.is_par_semaine}]`
+      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.is_par_semaine}]`
     ).attr('checked', true)
 }
 
