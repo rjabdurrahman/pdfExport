@@ -549,6 +549,7 @@ div {
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
+  z-index: 100;
 }
 
 .a09 .totalbcddductionsrevenureporterlapage20cases2021202440 {
@@ -963,6 +964,7 @@ div {
   color: black;
   text-align: left;
   line-height: 16.0px;
+  z-index: 99;
 }
 
 .a09 .revenuspassiblesdelaretenuedimptlasourceluxembourgeoiseproduitsdactionsdepartsdecapitaldepartsbnficiairesoudautresparticipationsprovenantdorganismescaractrecollectifetautresproduitsmontantbrutexemptionde5057 .span0 {
