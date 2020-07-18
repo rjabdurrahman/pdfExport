@@ -80,6 +80,12 @@
 <script>
     if (localStorage.activePage) {
         $('.np' + localStorage.activePage).addClass('active');
+        if(localStorage.activePage == 5) {
+            if(localStorage.activePagePart == 2)
+            $('.np' + localStorage.activePage).eq(0).removeClass('active')
+            if(localStorage.activePagePart == 1)
+            $('.np' + localStorage.activePage).eq(1).removeClass('active')
+        };
         if(localStorage.activePage == 13 || localStorage.activePage == 14 || localStorage.activePage == 15 || localStorage.activePage == 16) {
             $('.np' + localStorage.activePage).parent().show();
         }
