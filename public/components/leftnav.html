@@ -56,10 +56,18 @@
         <span class="arrow rotate"></span>
     </div>
     <div class="w3-dropdown-content">
-        <a onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Cotisations obligatoires</label></a>
-        <a onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Régime complémentaire</label></a>
-        <a onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Libéralités</label></a>
-        <a onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Pertes d’exploitation reportables</label></a>
+        <a onclick="navPage(16, this);$('html, body').animate({
+            scrollTop: 0
+            }, 500)" class="np16 w3-bar-item w3-button">Cotisations obligatoires</label></a>
+        <a onclick="navPage(16, this);$('html, body').animate({
+            scrollTop: $('.rgimescomplmentaires84').offset().top - 70
+            }, 500)" onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Régime complémentaire</label></a>
+        <a onclick="navPage(16, this);$('html, body').animate({
+            scrollTop: $('.libralits72').offset().top - 70
+            }, 500)" onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Libéralités</label></a>
+        <a onclick="navPage(16, this);$('html, body').animate({
+            scrollTop: $('.libralits72').offset().top - 70
+            }, 500)" onclick="navPage(16, this)" class="np16 w3-bar-item w3-button">Pertes d’exploitation reportables</label></a>
     </div>
 </div>
 <a onclick="navPage(17, this)" class="np17 w3-bar-item w3-button w3-padding-8"><span class="material-icons">verified_user</span><label>Charges
@@ -72,6 +80,9 @@
 <script>
     if (localStorage.activePage) {
         $('.np' + localStorage.activePage).addClass('active');
+        if(localStorage.activePage == 13 || localStorage.activePage == 14 || localStorage.activePage == 15 || localStorage.activePage == 16) {
+            $('.np' + localStorage.activePage).parent().show();
+        }
     }
     else {
         $('.np1').addClass('active');
