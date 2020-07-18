@@ -33458,7 +33458,7 @@ header {
   color: #f4f5f6;
 }
 
-.left-nav a span.done {
+.left-nav a.done > span {
   color: #25c1a0;
   -webkit-filter: brightness(1.1);
           filter: brightness(1.1);
@@ -33466,10 +33466,6 @@ header {
 
 .left-nav a label {
   display: inline-block;
-}
-
-.left-nav .w3-dropdown-content a {
-  border-left: 4px solid white;
 }
 
 .left-nav .w3-button {
@@ -33502,9 +33498,18 @@ header {
 }
 
 .left-nav .w3-dropdown-content {
-  background-color: #e1e1e1;
+  background-color: white;
+  border-right: 1px solid #e1e1e1;
   position: relative;
   padding-left: 22px;
+}
+
+.left-nav .w3-dropdown-content a {
+  border-left: 4px solid #e1e1e1;
+}
+
+.left-nav .w3-dropdown-content a.done {
+  border-color: #25c1a0;
 }
 
 .top-bar {

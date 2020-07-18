@@ -9,7 +9,7 @@ function checkDone () {
     } else {
       pageNo = this.id.replace('page', '')
     }
-    let element = $(`.np${pageNo}`).children(1)
+    let element = $(`.np${pageNo}`);
     $(
       `#page${pageNo} input:text, #page${pageNo} input[type=number], #page${pageNo} input:checkbox`
     ).each(function (j) {

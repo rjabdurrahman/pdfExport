@@ -230,19 +230,13 @@ header {
 			color       : #f4f5f6;
 		}
 
-		span.done {
+		&.done>span {
 			color : #25c1a0;
 			filter: brightness(1.1);
 		}
 
 		label {
 			display: inline-block;
-		}
-	}
-
-	.w3-dropdown-content {
-		a {
-			border-left: 4px solid white;
 		}
 	}
 
@@ -277,9 +271,18 @@ header {
 	}
 
 	.w3-dropdown-content {
-		background-color: #e1e1e1;
+		background-color: white;
+		border-right: 1px solid #e1e1e1;
 		position        : relative;
 		padding-left    : 22px;
+
+		a {
+			border-left: 4px solid #e1e1e1;
+
+			&.done {
+				border-color: #25c1a0;
+			}
+		}
 	}
 }
 
