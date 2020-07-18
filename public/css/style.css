@@ -33468,6 +33468,10 @@ header {
   display: inline-block;
 }
 
+.left-nav .w3-dropdown-content a {
+  border-left: 4px solid white;
+}
+
 .left-nav .w3-button {
   white-space: normal;
 }
@@ -33631,21 +33635,25 @@ select:focus {
   border: 1px solid #014387 !important;
 }
 
-input[type='text']:-moz-read-only, input[type='number']:-moz-read-only {
+input[type='text']:-moz-read-only,
+input[type='number']:-moz-read-only {
   background: #ffffff;
   color: black;
 }
 
-input[type='text']:read-only, input[type='number']:read-only {
+input[type='text']:read-only,
+input[type='number']:read-only {
   background: #ffffff;
   color: black;
 }
 
-input[type='text']:-moz-read-only:hover, input[type='number']:-moz-read-only:hover {
+input[type='text']:-moz-read-only:hover,
+input[type='number']:-moz-read-only:hover {
   cursor: not-allowed !important;
 }
 
-input[type='text']:read-only:hover, input[type='number']:read-only:hover {
+input[type='text']:read-only:hover,
+input[type='number']:read-only:hover {
   cursor: not-allowed !important;
 }
 

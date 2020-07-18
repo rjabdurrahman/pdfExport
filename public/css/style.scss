@@ -240,6 +240,12 @@ header {
 		}
 	}
 
+	.w3-dropdown-content {
+		a {
+			border-left: 4px solid white;
+		}
+	}
+
 	.w3-button {
 		white-space: normal;
 	}
@@ -396,12 +402,14 @@ select:focus {
 	border: 1px solid #014387 !important;
 }
 
-input[type='text']:read-only, input[type='number']:read-only {
+input[type='text']:read-only,
+input[type='number']:read-only {
 	background: #ffffff;
 	color     : black;
 }
 
-input[type='text']:read-only:hover, input[type='number']:read-only:hover {
+input[type='text']:read-only:hover,
+input[type='number']:read-only:hover {
 	cursor: not-allowed !important;
 }
 
