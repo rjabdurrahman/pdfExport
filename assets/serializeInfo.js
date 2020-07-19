@@ -488,12 +488,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d57x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.benefice_cessation',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.benefice_cessation',
       ''
     ),
     ['x5d56x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.benefice_cessation',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.benefice_cessation',
       ''
     ),
     ['x5d55x']: _.get(
@@ -508,12 +508,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d53x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.depenses',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.depenses',
       ''
     ),
     ['x5d52x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.depenses',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.depenses',
       ''
     ),
     ['x5d51x']: _.get(
@@ -528,12 +528,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d49x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.recettes',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.recettes',
       ''
     ),
     ['x5d48x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.recettes',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.recettes',
       ''
     ),
     ['x5d47x']: _.get(
@@ -548,12 +548,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d45x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.parts_benefice',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.parts_benefice',
       ''
     ),
     ['x5d44x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.parts_benefice',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.parts_benefice',
       ''
     ),
     ['x5d43x']: _.get(
@@ -568,12 +568,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d41x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.benefice_agricole',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.benefice_agricole',
       ''
     ),
     ['x5d40x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.benefice_agricole',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.benefice_agricole',
       ''
     ),
     ['x5d39x']: _.get(
