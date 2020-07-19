@@ -15,16 +15,21 @@ function checkDone () {
     ).each(function (j) {
       if (
         ((this.type == 'text' || this.type == 'number') && this.value) ||
-        (this.type == 'checkbox' && this.checked) || (this.type == 'radio' && this.checked)
+        (this.type == 'checkbox' && this.checked) ||
+        (this.type == 'radio' && this.checked)
       ) {
         isDone = true
         element.addClass('done')
       }
     })
     if (!isDone) element.removeClass('done')
-  });
+  })
   console.log()
-  $('.w3-dropdown-content').has('a.done').prevAll().children('a').addClass('done');
+  $('.w3-dropdown-content')
+    .has('a.done')
+    .prevAll()
+    .children('a')
+    .addClass('done')
 }
 
 function radioCheck (info) {
@@ -96,7 +101,12 @@ function pageInit () {
     else if (/^\d+,$/.test(val)) $(this).val(val + '00')
     else if (/^\d+,\d{1}$/.test(val)) $(this).val(val + '0')
   })
-  pageCalculation();
+  // $('.form-input input:radio').click(function (e) {
+  //   if (this.checked) {
+  //     $(this).prop('checked', false)
+  //   }
+  // })
+  pageCalculation()
 }
 
 function afterDataLoaded (info) {
