@@ -1,7 +1,6 @@
 function pageCalculation() {
     $(sel('3d26,3d27')).keyup(function(e) {
-        let v = Number($(sel('3d28')).val().replace(',', '.')) / Number($(sel('3d28')).val().replace(',', '.')) * 100;
-        console.log(v);
+        let v = Number($(sel('3d26')).val().replace(',', '.')) / Number($(sel('3d27')).val().replace(',', '.')) * 100;
         $(sel('3d28')).val(v);
     })
     $(sel('13d1301,13d1302,13d1304,13d1305,13d1307,13d1308,13d1311,13d1312,14d1471,15d1501,15d1502,15d1526,15d1527,15d1551,15d1552')).keyup(function (e) {
