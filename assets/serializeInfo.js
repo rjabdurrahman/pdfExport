@@ -879,7 +879,7 @@ module.exports = function serializeInfo (client) {
       'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut'
     ),
     ['x6d21x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut'),
-    ['x6d20']: _.get(
+    ['x6d20x']: _.get(
       client,
       'ben_prov.rev_exo.conjoint_partenaire.benefice_cessation'
     ),
