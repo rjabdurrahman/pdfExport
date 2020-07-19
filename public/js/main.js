@@ -79,6 +79,7 @@ function clearForm (target) {
     .not(':button, :submit, :reset, :hidden, :checkbox, :radio')
     .val('')
   $(target + ' input:checkbox').prop('checked', false)
+  $(target + ' input:radio').prop('checked', false)
 }
 
 var activeClientId = ''
