@@ -488,12 +488,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d57x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.conjoint_partenaire.benefice_cessation',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.benefice_cessation',
       ''
     ),
     ['x5d56x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.contribuable.benefice_cessation',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.benefice_cessation',
       ''
     ),
     ['x5d55x']: _.get(
@@ -508,12 +508,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d53x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.conjoint_partenaire.depenses',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.depenses',
       ''
     ),
     ['x5d52x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.contribuable.depenses',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.depenses',
       ''
     ),
     ['x5d51x']: _.get(
@@ -528,12 +528,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d49x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.conjoint_partenaire.recettes',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.recettes',
       ''
     ),
     ['x5d48x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.contribuable.recettes',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.recettes',
       ''
     ),
     ['x5d47x']: _.get(
@@ -548,12 +548,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d45x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.conjoint_partenaire.parts_benefice',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.parts_benefice',
       ''
     ),
     ['x5d44x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.contribuable.parts_benefice',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.parts_benefice',
       ''
     ),
     ['x5d43x']: _.get(
@@ -568,12 +568,12 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d41x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.conjoint_partenaire.benefice_agricole',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.conjoint_partenaire.benefice_agricole',
       ''
     ),
     ['x5d40x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_expo.contribuable.benefice_agricole',
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exp.contribuable.benefice_agricole',
       ''
     ),
     ['x5d39x']: _.get(
@@ -741,10 +741,90 @@ module.exports = function serializeInfo (client) {
       'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.benefice_entreprise',
       ''
     ),
-    ['x20d2002x']: _.get(
+    ['x20d2002x']: _.get(client, 'revenu_imposable.date', ''),
+    ['x5d73x']: _.get(
       client,
-      'revenu_imposable.date',
-      ''
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total'
+    ),
+    ['x5d72x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total'
+    ),
+    ['x5d71x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total'
+    ),
+    ['x5d70x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total'
+    ),
+    ['x5d68x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.exoneration_total'
+    ),
+    ['x5d65x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.investissements_total'
+    ),
+    ['x5d62x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.total'
+    ),
+    ['x5d61x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.totalABCD'
+    ),
+    ['x5d60x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.totalABCD'
+    ),
+    ['x5d59x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.totalABCD'
+    ),
+    ['x5d58x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.totalABCD'
+    ),
+    ['x5d37x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total'
+    ),
+    ['x5d36x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total'
+    ),
+    ['x5d35x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total'
+    ),
+    ['x5d34x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total'
+    ),
+    ['x5d32x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.exonerationTotal'
+    ),
+    ['x5d29x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.total'
+    ),
+    ['x5d28x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.totalABCD'
+    ),
+    ['x5d27x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.totalABCD'
+    ),
+    ['x5d26x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.totalABCD'
+    ),
+    ['x5d25x']: _.get(
+      client,
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.totalABCD'
     )
   }
 }
