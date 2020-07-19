@@ -104,12 +104,12 @@ router.get('/pdf/:id', (req, res) => {
             for (f in serialData) {
                 newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), serialData[f]);
             }
-            fs.writeFile('./pdf/data_bind.fdf', newFdfTxt, 'utf8', function (err) {
+            fs.writeFile('./pdf/data_bind.fdf', newFdfTxt, 'binary', function (err) {
                 if (err) res.send(err.message)
                 else {
                     let prefix = '';
                     if(process.platform != 'win32') prefix = 'chmod u+x /app/vendor/pdftk/bin/pdftk && ';
-                    exec(`${prefix}pdftk ./pdf/2019_editable.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
+                    exec(`${prefix}pdftk ./pdf/2019_editable.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf need_appearances`, (error, stdout, stderr) => {
                         if (error) {
                             res.send(`error: ${error.message}`);
                             return;
