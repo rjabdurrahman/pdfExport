@@ -1,18 +1,18 @@
 <div class="a17 anima-word-break">
     <div style="width: 1044px; height: 100%; position:relative; margin:auto;">
-        <input name="17d1728" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_annuel}}" class="a17270">
-        <input name="17d1727" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_annuel}}" class="a17261">
-        <input name="17d1726" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.pendant_mois}}" class="a17252">
-        <input name="17d1725" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.pendant_mois}}" class="a17243">
-        <input name="17d1724" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_mensuel}}" class="a17234">
-        <input name="17d1723" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_mensuel}}" class="a17225">
+        <input name="17d1728" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_annuel}}" class="a17270 num">
+        <input name="17d1727" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_annuel}}" class="a17261 num">
+        <input name="17d1726" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.pendant_mois}}" class="a17252 num">
+        <input name="17d1725" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.pendant_mois}}" class="a17243 num">
+        <input name="17d1724" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_mensuel}}" class="a17234 num">
+        <input name="17d1723" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_mensuel}}" class="a17225 num">
         <input name="17d1722" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.nom}}" class="a17216">
         <input name="17d1721" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.nom}}" class="a17207">
         <input name="17d1720" type="checkbox" class="a17198" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.is_frais_domestiques == 'Yes'">
-        <input name="17d1719" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux}}" class="a17189">
+        <input name="17d1719" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux}}" class="a17189 num">
         <input name="17d1718" type="checkbox" class="a171710" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_deja_presente == 'Yes'">
         <input name="17d1717" type="checkbox" class="a171611" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe == 'Yes'">
-        <input name="17d1716" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux}}" class="a171512">
+        <input name="17d1716" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux}}" class="a171512 num">
         <input name="17d1715" type="checkbox" class="a171413" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_deja_presente == 'Yes'">
         <input name="17d1714" type="checkbox" class="a171314" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe == 'Yes'">
         <input name="17d1713" type="checkbox" class="a171215" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite == 'Yes'">
@@ -24,9 +24,9 @@
         <input name="17d1707" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r3}}" class="a170621">
         <input name="17d1706" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r2}}" class="a170522">
         <input name="17d1705" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r1}}" class="a170423">
-        <input name="17d1704" type="text" value="" class="a1702170324" disabled>
-        <input name="17d1703" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.conjoint_partenaire}}" class="a170325">
-        <input name="17d1702" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.contribuable}}" class="a170226">
+        <input name="17d1704" type="text" value="" class="a1702170324" readonly>
+        <input name="17d1703" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.conjoint_partenaire}}" class="a170325 num" onkeyup="valueCal(['17d1702', '17d1703'], [], '17d1704')">
+        <input name="17d1702" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.contribuable}}" class="a170226 num" onkeyup="valueCal(['17d1702', '17d1703'], [], '17d1704')">
         <input name="17d1701" type="checkbox" class="a170127" ng-checked="client.charges_extraordinaires_17.abattement.is_abattement1 == 'Yes'">
         <div class="montantannueldesfrais28">
             Montant annuel des frais
