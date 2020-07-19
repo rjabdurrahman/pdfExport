@@ -22,7 +22,9 @@ function checkDone () {
       }
     })
     if (!isDone) element.removeClass('done')
-  })
+  });
+  console.log()
+  $('.w3-dropdown-content').has('a.done').prevAll().children('a').addClass('done');
 }
 
 function radioCheck (info) {
@@ -94,6 +96,7 @@ function pageInit () {
     else if (/^\d+,$/.test(val)) $(this).val(val + '00')
     else if (/^\d+,\d{1}$/.test(val)) $(this).val(val + '0')
   })
+  pageCalculation();
 }
 
 function afterDataLoaded (info) {
