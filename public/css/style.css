@@ -33641,13 +33641,15 @@ select:focus {
 }
 
 input[type='text']:-moz-read-only,
-input[type='number']:-moz-read-only {
+input[type='number']:-moz-read-only,
+input[type='text']:disabled {
   background: #ffffff;
   color: black;
 }
 
 input[type='text']:read-only,
-input[type='number']:read-only {
+input[type='number']:read-only,
+input[type='text']:disabled {
   background: #ffffff;
   color: black;
 }
