@@ -8,15 +8,19 @@ module.exports = function (info) {
                     prestations: info['7d709'],
                     autres: info['7d714'],
                     autres_texte: info['7d713'],
+                    totalABCD:info['7d718'],
+                    totalABCDE:info['7d726'],
                     salaire_brut: info['7d722'],
                     a_deduire: {
-                        salaires: info['7d730'],
+                        salaires: info['7d73.0'],
                         supplements: info['7d734'],
                         autres_exemptions: info['7d738'],
                         autres_exemptions_texte: info['7d742'],
                         frais_obtention: info['7d743'],
                         frais_de_deplacement: info['7d747'],
-                        design_lieu_travail: info['7d751']
+                        design_lieu_travail: info['7d751'],
+                        total_deduction:info['7d755'],
+                        totalABCDE:info['7d759']
                     }
                 },
                 conjoint_partenaire: {
@@ -24,6 +28,8 @@ module.exports = function (info) {
                     deuxieme_contrat: info['7d706'],
                     prestations: info['7d710'],
                     autres: info['7d715'],
+                    totalABCD:info['7d719'],
+                    totalABCDE:info['7d727'],
                     autres_texte: info['7d713'],
                     salaire_brut: info['7d723'],
                     a_deduire: {
@@ -33,7 +39,9 @@ module.exports = function (info) {
                         autres_exemptions_texte: info['7d742'],
                         frais_obtention: info['7d744'],
                         frais_de_deplacement: info['7d748'],
-                        design_lieu_travail: info['7d752']
+                        design_lieu_travail: info['7d752'],
+                        total_deduction:info['7d756'],
+                        totalABCDE:info['7d760']
                     }
                 }
             },
@@ -43,6 +51,8 @@ module.exports = function (info) {
                     deuxieme_contrat: info['7d707'],
                     prestations: info['7d711'],
                     autres: info['7d716'],
+                    totalABCD:info['7d720'],
+                    totalABCDE:info['7d728'],
                     autres_texte: info['7d713'],
                     salaire_brut: info['7d724'],
                     a_deduire: {
@@ -52,7 +62,9 @@ module.exports = function (info) {
                         autres_exemptions_texte: info['7d742'],
                         frais_obtention: info['7d745'],
                         frais_de_deplacement: info['7d749'],
-                        design_lieu_travail: info['7d753']
+                        design_lieu_travail: info['7d753'],
+                        total_deduction:info['7d757'],
+                        totalABCDE:info['7d761']
                     }
                 },
                 conjoint_partenaire: {
@@ -60,6 +72,8 @@ module.exports = function (info) {
                     deuxieme_contrat: info['7d708'],
                     prestations: info['7d712'],
                     autres: info['7d717'],
+                    totalABCD:info['7d721'],
+                    totalABCDE:info['7d729'],
                     autres_texte: info['7d713'],
                     salaire_brut: info['7d725'],
                     a_deduire: {
@@ -69,7 +83,9 @@ module.exports = function (info) {
                         autres_exemptions_texte: info['7d742'],
                         frais_obtention: info['7d746'],
                         frais_de_deplacement: info['7d750'],
-                        design_lieu_travail: info['7d754']
+                        design_lieu_travail: info['7d754'],
+                        total_deduction:info['7d758'],
+                        totalABCDE:info['7d762']
                     }
                 }
             },
