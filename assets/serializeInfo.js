@@ -1359,6 +1359,11 @@ module.exports = function serializeInfo (client) {
       client,
       'pension.rev_non_exo.contribuable.a.pensions',
       ''
+    ),
+    ['x8d845x']: _.get(
+      client,
+      'pension.abattement_extra_pro.is_demande',
+      'Off'
     )
   }
 }
