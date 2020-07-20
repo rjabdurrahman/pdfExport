@@ -1847,6 +1847,344 @@ module.exports = function serializeInfo (client) {
       client,
       'location.rev_non_exo.contribuable.revenu_location',
       ''
+    ),
+    // Page 11
+    ['x11d1169x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.prix',
+      ''
+    ),
+    ['x11d1168x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.adresse',
+      ''
+    ),
+    ['x11d1167x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.superficie',
+      ''
+    ),
+    ['x11d1166x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.situation',
+      ''
+    ),
+    ['x11d1165x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.nature_bien',
+      ''
+    ),
+    ['x11d1164x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.cession',
+      ''
+    ),
+    ['x11d1163x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r5.acquisition',
+      ''
+    ),
+    ['x11d1162x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.prix',
+      ''
+    ),
+    ['x11d1161x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.adresse',
+      ''
+    ),
+    ['x11d1160x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.superficie',
+      ''
+    ),
+    ['x11d1159x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.situation',
+      ''
+    ),
+    ['x11d1158x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.nature_bien',
+      ''
+    ),
+    ['x11d1157x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.cession',
+      ''
+    ),
+    ['x11d1156x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r4.acquisition',
+      ''
+    ),
+    ['x11d1155x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.prix',
+      ''
+    ),
+    ['x11d1154x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.adresse',
+      ''
+    ),
+    ['x11d1153x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.superficie',
+      ''
+    ),
+    ['x11d1152x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.situation',
+      ''
+    ),
+    ['x11d1151x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.nature_bien',
+      ''
+    ),
+    ['x11d1150x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.cession',
+      ''
+    ),
+    ['x11d1149x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r3.acquisition',
+      ''
+    ),
+    ['x11d1148x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.prix',
+      ''
+    ),
+    ['x11d1147x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.adresse',
+      ''
+    ),
+    ['x11d1146x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.superficie',
+      ''
+    ),
+    ['x11d1145x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.situation',
+      ''
+    ),
+    ['x11d1144x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.nature_bien',
+      ''
+    ),
+    ['x11d1143x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.cession',
+      ''
+    ),
+    ['x11d1142x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r2.acquisition',
+      ''
+    ),
+    ['x11d1141x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.prix',
+      ''
+    ),
+    ['x11d1140x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.adresse',
+      ''
+    ),
+    ['x11d1139x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.superficie',
+      ''
+    ),
+    ['x11d1138x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.situation',
+      ''
+    ),
+    ['x11d1137x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.nature_bien',
+      ''
+    ),
+    ['x11d1136x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.cession',
+      ''
+    ),
+    ['x11d1135x']: _.get(
+      client,
+      'rev_nets_divers.acquisitions_et_cessions.table.r1.acquisition',
+      ''
+    ),
+    ['x11d1134x']: _.get(client, 'rev_nets_divers.rev_exo.totalCal', ''),
+    ['x11d1133x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.total',
+      ''
+    ),
+    ['x11d1132x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.total',
+      ''
+    ),
+    ['x11d1131x']: _.get(client, 'rev_nets_divers.rev_non_exo.totalCal', ''),
+    ['x11d1130x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.total',
+      ''
+    ),
+    ['x11d1129x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.total',
+      ''
+    ),
+    ['x11d1128x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.autre_remboursement',
+      ''
+    ),
+    ['x11d1127x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.autre_remboursement',
+      ''
+    ),
+    ['x11d1126x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.autre_remboursement',
+      ''
+    ),
+    ['x11d1125x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.autre_remboursement',
+      ''
+    ),
+    ['x11d1124x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.remboursement',
+      ''
+    ),
+    ['x11d1123x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.remboursement',
+      ''
+    ),
+    ['x11d1122x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.remboursement',
+      ''
+    ),
+    ['x11d1121x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.remboursement',
+      ''
+    ),
+    ['x11d1120x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.revenu_prestations.frais_obtention',
+      ''
+    ),
+    ['x11d1119x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.revenu_prestations.frais_obtention',
+      ''
+    ),
+    ['x11d1118x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.revenu_prestations.frais_obtention',
+      ''
+    ),
+    ['x11d1117x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.revenu_prestations.frais_obtention',
+      ''
+    ),
+    ['x11d1116x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.revenu_prestations.recettes',
+      ''
+    ),
+    ['x11d1115x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.revenu_prestations.recettes',
+      ''
+    ),
+    ['x11d1114x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.revenu_prestations.recettes',
+      ''
+    ),
+    ['x11d1113x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.revenu_prestations.recettes',
+      ''
+    ),
+    ['x11d1112x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.revenu_plus_values.benefice_cession',
+      ''
+    ),
+    ['x11d1111x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.revenu_plus_values.benefice_cession',
+      ''
+    ),
+    ['x11d1110x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.revenu_plus_values.benefice_cession',
+      ''
+    ),
+    ['x11d1109x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.revenu_plus_values.benefice_cession',
+      ''
+    ),
+    ['x11d1108x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.revenu_plus_values.benefice_speculation',
+      ''
+    ),
+    ['x11d1107x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.revenu_plus_values.benefice_speculation',
+      ''
+    ),
+    ['x11d1106x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.revenu_plus_values.benefice_speculation',
+      ''
+    ),
+    ['x11d1105x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.revenu_plus_values.benefice_speculation',
+      ''
+    ),
+    ['x11d1104x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.conjoint_partenaire.revenu_cession',
+      ''
+    ),
+    ['x11d1103x']: _.get(
+      client,
+      'rev_nets_divers.rev_exo.contribuable.revenu_cession',
+      ''
+    ),
+    ['x11d1102x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.conjoint_partenaire.revenu_cession',
+      ''
+    ),
+    ['x11d1101x']: _.get(
+      client,
+      'rev_nets_divers.rev_non_exo.contribuable.revenu_cession',
+      ''
     )
   }
 }
