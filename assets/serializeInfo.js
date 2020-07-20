@@ -829,7 +829,10 @@ module.exports = function serializeInfo (client) {
     // Page 6
     ['x6d53x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total3'),
     ['x6d52x']: _.get(client, 'ben_prov.rev_exo.contribuable.total3'),
-    ['x6d51x']: _.get(client, 'ben_prov.rev_non_exo.conjoint_partenaire.total3'),
+    ['x6d51x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.conjoint_partenaire.total3'
+    ),
     ['x6d50x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total3'),
     ['x6d49x']: _.get(client, 'ben_prov.etat_partie'),
     ['x6d47x']: _.get(
@@ -839,7 +842,10 @@ module.exports = function serializeInfo (client) {
     ['x6d46x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.exoneration'),
     ['x6d44x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total2'),
     ['x6d43x']: _.get(client, 'ben_prov.rev_exo.contribuable.total2'),
-    ['x6d42x']: _.get(client, 'ben_prov.rev_non_exo.conjoint_partenaire.total2'),
+    ['x6d42x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.conjoint_partenaire.total2'
+    ),
     ['x6d41x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total2'),
     ['x6d40x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses'),
     ['x6d39x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses'),
@@ -860,7 +866,10 @@ module.exports = function serializeInfo (client) {
     ['x6d33x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut'),
     ['x6d32x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total1'),
     ['x6d31x']: _.get(client, 'ben_prov.rev_exo.contribuable.total1'),
-    ['x6d30x']: _.get(client, 'ben_prov.rev_non_exo.conjoint_partenaire.total1'),
+    ['x6d30x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.conjoint_partenaire.total1'
+    ),
     ['x6d29x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total1'),
     ['x6d28x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses'),
     ['x6d27x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses'),
@@ -883,7 +892,10 @@ module.exports = function serializeInfo (client) {
       client,
       'ben_prov.rev_exo.conjoint_partenaire.benefice_cessation'
     ),
-    ['x6d19x']: _.get(client, 'ben_prov.rev_exo.contribuable.benefice_cessation'),
+    ['x6d19x']: _.get(
+      client,
+      'ben_prov.rev_exo.contribuable.benefice_cessation'
+    ),
     ['x6d18x']: _.get(
       client,
       'ben_prov.rev_non_exo.conjoint_partenaire.benefice_cessation'
@@ -901,7 +913,10 @@ module.exports = function serializeInfo (client) {
       client,
       'ben_prov.rev_non_exo.conjoint_partenaire.parts_benefice'
     ),
-    ['x6d13x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.parts_benefice'),
+    ['x6d13x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.contribuable.parts_benefice'
+    ),
     ['x6d12x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses'),
     ['x6d11x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses'),
     ['x6d10x']: _.get(
@@ -911,12 +926,20 @@ module.exports = function serializeInfo (client) {
     ['x6d9x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses'),
     ['x6d8x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.recettes'),
     ['x6d7x']: _.get(client, 'ben_prov.rev_exo.contribuable.recettes'),
-    ['x6d6x']: _.get(client, 'ben_prov.rev_non_exo.conjoint_partenaire.recettes'),
+    ['x6d6x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.conjoint_partenaire.recettes'
+    ),
     ['x6d5x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.recettes'),
     ['x6d4x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.benefice'),
     ['x6d3x']: _.get(client, 'ben_prov.rev_exo.contribuable.benefice'),
-    ['x6d2x']: _.get(client, 'ben_prov.rev_non_exo.conjoint_partenaire.benefice'),
+    ['x6d2x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.conjoint_partenaire.benefice'
+    ),
     ['x6d1x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.benefice'),
+    ['x6d45x']: _.get(client, 'ben_prov.rev_exo.totalABCDE'),
+    ['x6d48x']: _.get(client, 'ben_prov.rev_non_exo.exoneration_total'),
     // Page 7
     ['x7d778x']: _.get(
       client,
@@ -1107,7 +1130,10 @@ module.exports = function serializeInfo (client) {
       client,
       'occup_salariee.rev_non_exo.conjoint_partenaire.autres'
     ),
-    ['x7d714x']: _.get(client, 'occup_salariee.rev_non_exo.contribuable.autres'),
+    ['x7d714x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.contribuable.autres'
+    ),
     ['x7d713x']: _.get(
       client,
       'occup_salariee.rev_non_exo.contribuable.autres_texte'
@@ -1116,7 +1142,10 @@ module.exports = function serializeInfo (client) {
       client,
       'occup_salariee.rev_exo.conjoint_partenaire.prestations'
     ),
-    ['x7d711x']: _.get(client, 'occup_salariee.rev_exo.contribuable.prestations'),
+    ['x7d711x']: _.get(
+      client,
+      'occup_salariee.rev_exo.contribuable.prestations'
+    ),
     ['x7d710x']: _.get(
       client,
       'occup_salariee.rev_non_exo.conjoint_partenaire.prestations'
@@ -1156,6 +1185,180 @@ module.exports = function serializeInfo (client) {
     ['x7d701x']: _.get(
       client,
       'occup_salariee.rev_non_exo.contribuable.premier_contrat'
+    ),
+    // Page 8
+    ['x8d846x']: _.get(client, 'pension.abattement_extra_pro.rente_date', ''),
+    ['x8d844x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.a_deduire.totalABC',
+      ''
+    ),
+    ['x8d843x']: _.get(
+      client,
+      'pension.rev_exo.contribuable.a_deduire.totalABC',
+      ''
+    ),
+    ['x8d842x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.a_deduire.totalABC',
+      ''
+    ),
+    ['x8d841x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.a_deduire.totalABC',
+      ''
+    ),
+    ['x8d840x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.a_deduire.frais_obtention',
+      ''
+    ),
+    ['x8d839x']: _.get(
+      client,
+      'pension.rev_exo.contribuable.a_deduire.frais_obtention',
+      ''
+    ),
+    ['x8d838x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.a_deduire.frais_obtention',
+      ''
+    ),
+    ['x8d837x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.a_deduire.frais_obtention',
+      ''
+    ),
+    ['x8d836x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.totalABC',
+      ''
+    ),
+    ['x8d835x']: _.get(client, 'pension.rev_exo.contribuable.totalABC', ''),
+    ['x8d834x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.totalABC',
+      ''
+    ),
+    ['x8d833x']: _.get(client, 'pension.rev_non_exo.contribuable.totalABC', ''),
+    ['x8d832x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.totalBC',
+      ''
+    ),
+    ['x8d831x']: _.get(client, 'pension.rev_exo.contribuable.totalBC', ''),
+    ['x8d830x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.totalBC',
+      ''
+    ),
+    ['x8d829x']: _.get(client, 'pension.rev_non_exo.contribuable.totalBC', ''),
+    ['x8d828x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.c.exemption',
+      ''
+    ),
+    ['x8d827x']: _.get(client, 'pension.rev_exo.contribuable.c.exemption', ''),
+    ['x8d826x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.c.exemption',
+      ''
+    ),
+    ['x8d825x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.c.exemption',
+      ''
+    ),
+    ['x8d824x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.c.arrerages',
+      ''
+    ),
+    ['x8d823x']: _.get(client, 'pension.rev_exo.contribuable.c.arrerages', ''),
+    ['x8d822x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.c.arrerages',
+      ''
+    ),
+    ['x8d821x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.c.arrerages',
+      ''
+    ),
+    ['x8d820x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.b.exemption',
+      ''
+    ),
+    ['x8d819x']: _.get(client, 'pension.rev_exo.contribuable.b.exemption', ''),
+    ['x8d818x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.b.exemption',
+      ''
+    ),
+    ['x8d817x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.b.exemption',
+      ''
+    ),
+    ['x8d816x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.b.rentes',
+      ''
+    ),
+    ['x8d815x']: _.get(client, 'pension.rev_exo.contribuable.b.rentes', ''),
+    ['x8d814x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.b.rentes',
+      ''
+    ),
+    ['x8d813x']: _.get(client, 'pension.rev_non_exo.contribuable.b.rentes', ''),
+    ['x8d812x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.a.total',
+      ''
+    ),
+    ['x8d811x']: _.get(client, 'pension.rev_exo.contribuable.a.total', ''),
+    ['x8d810x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.a.total',
+      ''
+    ),
+    ['x8d809x']: _.get(client, 'pension.rev_non_exo.contribuable.a.total', ''),
+    ['x8d808x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.a.pensions_extra',
+      ''
+    ),
+    ['x8d807x']: _.get(
+      client,
+      'pension.rev_exo.contribuable.a.pensions_extra',
+      ''
+    ),
+    ['x8d806x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.a.pensions_extra',
+      ''
+    ),
+    ['x8d805x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.a.pensions_extra',
+      ''
+    ),
+    ['x8d804x']: _.get(
+      client,
+      'pension.rev_exo.conjoint_partenaire.a.pensions',
+      ''
+    ),
+    ['x8d803x']: _.get(client, 'pension.rev_exo.contribuable.a.pensions', ''),
+    ['x8d802x']: _.get(
+      client,
+      'pension.rev_non_exo.conjoint_partenaire.a.pensions',
+      ''
+    ),
+    ['x8d801x']: _.get(
+      client,
+      'pension.rev_non_exo.contribuable.a.pensions',
+      ''
     )
   }
 }
