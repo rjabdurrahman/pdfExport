@@ -4,7 +4,7 @@ function checkDone () {
   ).each(function (i) {
     let isDone = false
     let pageNo
-    if (i == 17) {
+    if (i == 16) {
       pageNo = 17
     } else {
       pageNo = this.id.replace('page', '')
