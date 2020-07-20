@@ -917,6 +917,8 @@ module.exports = function serializeInfo (client) {
     ['x6d3x']: _.get(client, 'ben_prov.rev_exo.contribuable.benefice'),
     ['x6d2x']: _.get(client, 'ben_prov.rev_non_exo.conjoint_partenaire.benefice'),
     ['x6d1x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.benefice'),
+    ['x6d45x']: _.get(client, 'ben_prov.rev_exo.totalABCDE'),
+    ['x6d48x']: _.get(client, 'ben_prov.rev_non_exo.exoneration_total'),
     // Page 7
     ['x7d778x']: _.get(
       client,
