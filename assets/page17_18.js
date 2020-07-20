@@ -5,7 +5,8 @@ module.exports = function(info){
                 is_abattement1: info['17d1701'] ? info['17d1701'] : 'Off',
                 detail_charges: {
                     contribuable: info['17d1702'],
-                    conjoint_partenaire: info['17d1703']
+                    conjoint_partenaire: info['17d1703'],
+                    total: info['17d1704']
                 },
                 table: {
                     r1: info['17d1705'],
