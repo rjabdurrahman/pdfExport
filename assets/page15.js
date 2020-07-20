@@ -91,7 +91,8 @@ module.exports = function (info) {
                     cotisations_versees_total: info['15d1550']
                 }
             },
-            total_depenses_speciales: info['15d1553']
+            total_depenses_speciales: info['15d1553'],
+            total_depenses_speciales_1: info['15d1554']
         }
     }
 }
