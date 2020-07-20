@@ -7,7 +7,8 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     cotisations: info['15d1502']
-                }
+                },
+                total: info['15d1503']
             },
             prevoyance_vieillesse_t1: [
                 {
@@ -37,13 +38,16 @@ module.exports = function (info) {
                     primes_versees_2: info['15d1512'],
                     primes_versees_3: info['15d1517'],
                     primes_versees_4: info['15d1522'],
-                    plafond_3200: info['15d1526']
+                    primes_versees_total: info['15d1524'],
+                    plafond_3200: info['15d1526'],
+                    plafond_3200_total: info['15d1528']
                 },
                 conjoint_partenaire: {
                     primes_versees_1: info['15d1508'],
                     primes_versees_2: info['15d1513'],
                     primes_versees_3: info['15d1518'],
                     primes_versees_4: info['15d1523'],
+                    primes_versees_total: info['15d1525'],
                     plafond_3200: info['15d1527']
                 }
             },
@@ -75,14 +79,16 @@ module.exports = function (info) {
                     cotisations_versees2: info['15d1537'],
                     cotisations_versees3: info['15d1542'],
                     cotisations_versees4: info['15d1547'],
-                    plafond_672_1344: info['15d1551']
+                    plafond_672_1344: info['15d1551'],
+                    cotisations_versees_total: info['15d1549']
                 },
                 conjoint_partenaire: {
                     cotisations_versees1: info['15d1533'],
                     cotisations_versees2: info['15d1538'],
                     cotisations_versees3: info['15d1543'],
                     cotisations_versees4: info['15d1548'],
-                    plafond_672_1344: info['15d1552']
+                    plafond_672_1344: info['15d1552'],
+                    cotisations_versees_total: info['15d1550']
                 }
             },
             total_depenses_speciales: info['15d1553']

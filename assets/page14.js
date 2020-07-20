@@ -101,7 +101,8 @@ module.exports = function(info){
                     r5: info['14d1454'],
                     r6: info['14d1458'],
                     r7: info['14d1462'],
-                    r8: info['14d1466']
+                    r8: info['14d1466'],
+                    total: info['14d1468'],
                 },
                 conjoint_partenaire: {
                     r1: info['14d1439'],
@@ -111,7 +112,8 @@ module.exports = function(info){
                     r5: info['14d1455'],
                     r6: info['14d1459'],
                     r7: info['14d1463'],
-                    r8: info['14d1467']
+                    r8: info['14d1467'],
+                    total: info['14d1469']
                 }
             },
             plafond_672: info['14d1470'],
