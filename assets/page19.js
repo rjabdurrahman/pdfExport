@@ -27,7 +27,9 @@ module.exports = function (info) {
                 conjoint_partenaire: {
                     report_91: info['19d1924'],
                     report_92: info['19d1928']
-                }
+                },
+                report_91_total: info['19d1925'],
+                report_92_total: info['19d1929']
             },
             cat3: {
                 is_report_14: info['19d1930'] ? info['19d1930'] : 'Off',
@@ -36,7 +38,9 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     report_14: info['19d1932']
-                }
+                },
+                report_14_total: info['19d1933']
+
             },
             cat4: {
                 is_certificat: info['19d1934'] ? info['19d1934'] : 'Off',
@@ -45,7 +49,9 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     abat_speciale_agricole: info['19d1936']
-                }
+                },
+                total: info['19d1937']
+                
             },
             cat5: {
                 contribuable: {
@@ -69,7 +75,9 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     revenus_capitaux: info['19d1943']
-                }
+                },
+                total: info['19d1944']
+
             },
             cat8: {
                 contribuable: {
@@ -77,7 +85,8 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     impot_etranger_conv: info['19d1946']
-                }
+                },
+                total: info['19d1947']
             },
             cat9: {
                 contribuable: {
@@ -85,7 +94,8 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     impot_etranger_annexe: info['19d1949']
-                }
+                },
+                total: info['19d1950']
             },
             cat10: {
                 contribuable: {
@@ -93,7 +103,8 @@ module.exports = function (info) {
                 },
                 conjoint_partenaire: {
                     retenue_impot: info['19d1952']
-                }
+                },
+                total: info['19d1953']
             },
             cat11: {
                 contribuable: {
