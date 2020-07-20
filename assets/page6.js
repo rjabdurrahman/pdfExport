@@ -32,7 +32,8 @@ module.exports = function(info){
                     total2: info['6d42'],
                     total3: info['6d51'],
                     exoneration: info['6d47']
-                }
+                },
+                exoneration_total: info['6d48']
             },
             rev_exo: {
                 contribuable: {
@@ -62,7 +63,8 @@ module.exports = function(info){
                     depenses: info['6d40'],
                     total2: info['6d44'],
                     total3: info['6d53']
-                }
+                },
+                totalABCDE: info['6d45']
             },
             etat_partie: info['6d49']
         }
