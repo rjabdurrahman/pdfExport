@@ -2185,6 +2185,134 @@ module.exports = function serializeInfo (client) {
       client,
       'rev_nets_divers.rev_non_exo.contribuable.revenu_cession',
       ''
-    )
+    ),
+    // Page 12
+    ['x12d1227x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.article_133_total',
+      ''
+    ),
+    ['x12d1226x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_133',
+      ''
+    ),
+    ['x12d1225x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_133',
+      ''
+    ),
+    ['x12d1224x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.article_132_pourcentage_25_total',
+      ''
+    ),
+    ['x12d1223x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_132_pourcentage_25',
+      ''
+    ),
+    ['x12d1222x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_132_pourcentage_25',
+      ''
+    ),
+    ['x12d1221x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.article_132_pourcentage_50_total',
+      ''
+    ),
+    ['x12d1220x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_132_pourcentage_50',
+      ''
+    ),
+    ['x12d1219x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_132_pourcentage_50',
+      ''
+    ),
+    ['x12d1218x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.article_132_etalement_total',
+      ''
+    ),
+    ['x12d1217x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.article_132_etalement',
+      ''
+    ),
+    ['x12d1216x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.article_132_etalement',
+      ''
+    ),
+    ['x12d1215x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.totaux',
+      ''
+    ),
+    ['x12d1214x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.totaux',
+      ''
+    ),
+    ['x12d1213x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.r4',
+      ''
+    ),
+    ['x12d1212x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.r4',
+      ''
+    ),
+    ['x12d1211x']: _.get(
+      client,
+      'rev_extraordinaires_ord.nature_revenus.r4',
+      ''
+    ),
+    ['x12d1210x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.r3',
+      ''
+    ),
+    ['x12d1209x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.r3',
+      ''
+    ),
+    ['x12d1208x']: _.get(
+      client,
+      'rev_extraordinaires_ord.nature_revenus.r3',
+      ''
+    ),
+    ['x12d1207x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.r2',
+      ''
+    ),
+    ['x12d1206x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.r2',
+      ''
+    ),
+    ['x12d1205x']: _.get(
+      client,
+      'rev_extraordinaires_ord.nature_revenus.r2',
+      ''
+    ),
+    ['x12d1204x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.conjoint_partenaire.r1',
+      ''
+    ),
+    ['x12d1203x']: _.get(
+      client,
+      'rev_extraordinaires_ord.rev_non_expo.table.contribuable.r1',
+      ''
+    ),
+    ['x12d1202x']: _.get(client, 'rev_extraordinaires_ord.nature_revenus.r1', ''),
+    ['x12d1201x']: _.get(client, 'rev_extraordinaires_ord.is_demande', 'Off')
   }
 }
