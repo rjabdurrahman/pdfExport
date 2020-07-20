@@ -24,7 +24,6 @@ function checkDone () {
     })
     if (!isDone) element.removeClass('done')
   })
-  console.log()
   $('.w3-dropdown-content')
     .has('a.done')
     .prevAll()
@@ -100,12 +99,18 @@ function pageInit () {
     if (/^\d+$/.test(val)) $(this).val(val + ',00')
     else if (/^\d+,$/.test(val)) $(this).val(val + '00')
     else if (/^\d+,\d{1}$/.test(val)) $(this).val(val + '0')
-  })
-  // $('.form-input input:radio').click(function (e) {
-  //   if (this.checked) {
-  //     $(this).prop('checked', false)
-  //   }
-  // })
+  });
+  // Radio Button Unchecking
+  $('.form-input label[for]').click(function (e) {
+    e.preventDefault();
+    if ($(this).prev()[0].checked) {
+      $(this).prev()[0].checked = false;
+    }
+    else {
+      $(this).prev()[0].checked = true;
+    }
+    isSaveAlive(true);
+  });
   pageCalculation()
 }
 
