@@ -4,10 +4,14 @@ module.exports = function (info) {
             is_demande: info['13d1310'] ? info['13d1310'] : 'Off',
             contribuable: {
                 obligation_particuliere: info['13d1301'],
+                obligation_particuliere_total: info['13d1303'],
                 paiements: {
                     occasion: info['13d1304'],
+                    occasion_total: info['13d1306'],
                     decision_apres: info['13d1307'],
-                    decision_avant: info['13d1311']
+                    decision_apres_total: info['13d1309'],
+                    decision_avant: info['13d1311'],
+                    decision_avant_total: info['13d1313']
                 }
             },
             conjoint_partenaire: {
