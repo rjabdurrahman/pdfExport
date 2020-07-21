@@ -3976,7 +3976,17 @@ module.exports = function serializeInfo (client) {
       client,
       'retenues_impot_diverses_demandes.cat1.contribuable.is_benefice_commercial',
       ''
-    )
+    ),
     // Page 20
+    ['x20d2002x']: _.get(
+      client,
+      'revenu_imposable.date}}" class="date rectangledate9',
+      ''
+    ),
+    ['x20d2001x']: _.get(
+      client,
+      'revenu_imposable.lieu}}" class="rectanglelieu10',
+      ''
+    )
   }
 }
