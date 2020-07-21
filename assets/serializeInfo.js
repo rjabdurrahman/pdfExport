@@ -2489,6 +2489,659 @@ module.exports = function serializeInfo (client) {
       client,
       'arrerages.contribuable.obligation_particuliere',
       ''
+    ),
+    // Page 14
+    ['x14d1477x']: _.get(
+      client,
+      'depenses_speciales14.majoration_plafond.conjoint_partenaire.nombre_enfants',
+      ''
+    ),
+    ['x14d1476x']: _.get(
+      client,
+      'depenses_speciales14.majoration_plafond.contribuable.nombre_enfants',
+      ''
+    ),
+    ['x14d1475x']: _.get(
+      client,
+      'depenses_speciales14.majoration_plafond.conjoint_partenaire.is_investissements',
+      ''
+    ),
+    ['x14d1474x']: _.get(
+      client,
+      'depenses_speciales14.majoration_plafond.contribuable.is_investissements',
+      ''
+    ),
+    ['x14d1473x']: _.get(
+      client,
+      'depenses_speciales14.majoration_plafond.conjoint_partenaire.is_acquisition',
+      ''
+    ),
+    ['x14d1472x']: _.get(
+      client,
+      'depenses_speciales14.majoration_plafond.contribuable.is_acquisition',
+      ''
+    ),
+    ['x14d1471x']: _.get(
+      client,
+      'depenses_speciales14.montant_moins_eleve',
+      ''
+    ),
+    ['x14d1470x']: _.get(client, 'depenses_speciales14.plafond_672', ''),
+    ['x14d1469x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.total',
+      ''
+    ),
+    ['x14d1468x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.total',
+      ''
+    ),
+    ['x14d1467x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r8',
+      ''
+    ),
+    ['x14d1466x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r8',
+      ''
+    ),
+    ['x14d1465x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r8.risque',
+      ''
+    ),
+    ['x14d1464x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r8.entreprise',
+      ''
+    ),
+    ['x14d1463x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r7',
+      ''
+    ),
+    ['x14d1462x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r7',
+      ''
+    ),
+    ['x14d1461x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r7.risque',
+      ''
+    ),
+    ['x14d1460x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r7.entreprise',
+      ''
+    ),
+    ['x14d1459x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r6',
+      ''
+    ),
+    ['x14d1458x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r6',
+      ''
+    ),
+    ['x14d1457x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r6.risque',
+      ''
+    ),
+    ['x14d1456x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r6.entreprise',
+      ''
+    ),
+    ['x14d1455x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r5',
+      ''
+    ),
+    ['x14d1454x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r5',
+      ''
+    ),
+    ['x14d1453x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r5.risque',
+      ''
+    ),
+    ['x14d1452x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r5.entreprise',
+      ''
+    ),
+    ['x14d1451x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r4',
+      ''
+    ),
+    ['x14d1450x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r4',
+      ''
+    ),
+    ['x14d1449x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r4.risque',
+      ''
+    ),
+    ['x14d1448x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r4.entreprise',
+      ''
+    ),
+    ['x14d1447x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r3',
+      ''
+    ),
+    ['x14d1446x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r3',
+      ''
+    ),
+    ['x14d1445x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r3.risque',
+      ''
+    ),
+    ['x14d1444x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r3.entreprise',
+      ''
+    ),
+    ['x14d1443x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r2',
+      ''
+    ),
+    ['x14d1442x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r2',
+      ''
+    ),
+    ['x14d1441x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r2.risque',
+      ''
+    ),
+    ['x14d1440x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r2.entreprise',
+      ''
+    ),
+    ['x14d1439x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.conjoint_partenaire.r1',
+      ''
+    ),
+    ['x14d1438x']: _.get(
+      client,
+      'depenses_speciales14.primes_table2.contribuable.r1',
+      ''
+    ),
+    ['x14d1437x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r1.risque',
+      ''
+    ),
+    ['x14d1436x']: _.get(
+      client,
+      'depenses_speciales14.primes_table1.r1.entreprise',
+      ''
+    ),
+    ['x14d1435x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r7',
+      ''
+    ),
+    ['x14d1434x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r7',
+      ''
+    ),
+    ['x14d1433x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r7.montant',
+      ''
+    ),
+    ['x14d1432x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r7.relation',
+      ''
+    ),
+    ['x14d1431x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r7.adresse',
+      ''
+    ),
+    ['x14d1430x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r6',
+      ''
+    ),
+    ['x14d1429x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r6',
+      ''
+    ),
+    ['x14d1428x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r6.montant',
+      ''
+    ),
+    ['x14d1427x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r6.relation',
+      ''
+    ),
+    ['x14d1426x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r6.adresse',
+      ''
+    ),
+    ['x14d1425x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r5',
+      ''
+    ),
+    ['x14d1424x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r5',
+      ''
+    ),
+    ['x14d1423x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r5.montant',
+      ''
+    ),
+    ['x14d1422x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r5.relation',
+      ''
+    ),
+    ['x14d1421x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r5.adresse',
+      ''
+    ),
+    ['x14d1420x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r4',
+      ''
+    ),
+    ['x14d1419x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r4',
+      ''
+    ),
+    ['x14d1418x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r4.montant',
+      ''
+    ),
+    ['x14d1417x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r4.relation',
+      ''
+    ),
+    ['x14d1416x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r4.adresse',
+      ''
+    ),
+    ['x14d1415x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r3',
+      ''
+    ),
+    ['x14d1414x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r3',
+      ''
+    ),
+    ['x14d1413x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r3.montant',
+      ''
+    ),
+    ['x14d1412x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r3.relation',
+      ''
+    ),
+    ['x14d1411x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r3.adresse',
+      ''
+    ),
+    ['x14d1410x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r2',
+      ''
+    ),
+    ['x14d1409x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r2',
+      ''
+    ),
+    ['x14d1408x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r2.montant',
+      ''
+    ),
+    ['x14d1407x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r2.relation',
+      ''
+    ),
+    ['x14d1406x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r2.adresse',
+      ''
+    ),
+    ['x14d1405x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.conjoint_partenaire.r1',
+      ''
+    ),
+    ['x14d1404x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table2.contribuable.r1',
+      ''
+    ),
+    ['x14d1403x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r1.montant',
+      ''
+    ),
+    ['x14d1402x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r1.relation',
+      ''
+    ),
+    ['x14d1401x']: _.get(
+      client,
+      'depenses_speciales14.interets_debiteurs_table1.r1.adresse',
+      ''
+    ),
+    // Page 15
+    ['x15d1554x']: _.get(
+      client,
+      'depenses_speciales15.total_depenses_speciales_1',
+      ''
+    ),
+    ['x15d1553x']: _.get(
+      client,
+      'depenses_speciales15.total_depenses_speciales',
+      ''
+    ),
+    ['x15d1552x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.plafond_672_1344',
+      ''
+    ),
+    ['x15d1551x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.contribuable.plafond_672_1344',
+      ''
+    ),
+    ['x15d1550x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees_total',
+      ''
+    ),
+    ['x15d1549x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees_total',
+      ''
+    ),
+    ['x15d1548x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees4',
+      ''
+    ),
+    ['x15d1547x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees4',
+      ''
+    ),
+    ['x15d1546x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[3].debut_contrat',
+      ''
+    ),
+    ['x15d1545x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[3].souscripteur',
+      ''
+    ),
+    ['x15d1544x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[3].caisse',
+      ''
+    ),
+    ['x15d1543x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees3',
+      ''
+    ),
+    ['x15d1542x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees3',
+      ''
+    ),
+    ['x15d1541x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[2].debut_contrat',
+      ''
+    ),
+    ['x15d1540x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[2].souscripteur',
+      ''
+    ),
+    ['x15d1539x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[2].caisse',
+      ''
+    ),
+    ['x15d1538x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees2',
+      ''
+    ),
+    ['x15d1537x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees2',
+      ''
+    ),
+    ['x15d1536x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[1].debut_contrat',
+      ''
+    ),
+    ['x15d1535x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[1].souscripteur',
+      ''
+    ),
+    ['x15d1534x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[1].caisse',
+      ''
+    ),
+    ['x15d1533x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees1',
+      ''
+    ),
+    ['x15d1532x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees1',
+      ''
+    ),
+    ['x15d1531x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[0].debut_contrat',
+      ''
+    ),
+    ['x15d1530x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[0].souscripteur',
+      ''
+    ),
+    ['x15d1529x']: _.get(
+      client,
+      'depenses_speciales15.epargne_logement_t1[0].caisse',
+      ''
+    ),
+    ['x15d1528x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200_total',
+      ''
+    ),
+    ['x15d1527x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.plafond_3200',
+      ''
+    ),
+    ['x15d1526x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200',
+      ''
+    ),
+    ['x15d1525x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_total',
+      ''
+    ),
+    ['x15d1524x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_total',
+      ''
+    ),
+    ['x15d1523x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_4',
+      ''
+    ),
+    ['x15d1522x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_4',
+      ''
+    ),
+    ['x15d1521x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[3].fin_contrat',
+      ''
+    ),
+    ['x15d1520x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[3].debut_contrat',
+      ''
+    ),
+    ['x15d1519x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[3].entreprise',
+      ''
+    ),
+    ['x15d1518x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_3',
+      ''
+    ),
+    ['x15d1517x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_3',
+      ''
+    ),
+    ['x15d1516x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[2].fin_contrat',
+      ''
+    ),
+    ['x15d1515x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[2].debut_contrat',
+      ''
+    ),
+    ['x15d1514x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[2].entreprise',
+      ''
+    ),
+    ['x15d1513x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_2',
+      ''
+    ),
+    ['x15d1512x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_2',
+      ''
+    ),
+    ['x15d1511x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[1].fin_contrat',
+      ''
+    ),
+    ['x15d1510x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[1].debut_contrat',
+      ''
+    ),
+    ['x15d1509x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[1].entreprise',
+      ''
+    ),
+    ['x15d1508x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_1',
+      ''
+    ),
+    ['x15d1507x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_1',
+      ''
+    ),
+    ['x15d1506x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[0].fin_contrat',
+      ''
+    ),
+    ['x15d1505x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[0].debut_contrat',
+      ''
+    ),
+    ['x15d1504x']: _.get(
+      client,
+      'depenses_speciales15.prevoyance_vieillesse_t1[0].entreprise',
+      ''
+    ),
+    ['x15d1503x']: _.get(
+      client,
+      'depenses_speciales15.cotisations_payees.total',
+      ''
+    ),
+    ['x15d1502x']: _.get(
+      client,
+      'depenses_speciales15.cotisations_payees.conjoint_partenaire.cotisations',
+      ''
+    ),
+    ['x15d1501x']: _.get(
+      client,
+      'depenses_speciales15.cotisations_payees.contribuable.cotisations',
+      ''
     )
   }
 }
