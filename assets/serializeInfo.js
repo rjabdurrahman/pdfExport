@@ -2312,7 +2312,103 @@ module.exports = function serializeInfo (client) {
       'rev_extraordinaires_ord.rev_non_expo.table.contribuable.r1',
       ''
     ),
-    ['x12d1202x']: _.get(client, 'rev_extraordinaires_ord.nature_revenus.r1', ''),
-    ['x12d1201x']: _.get(client, 'rev_extraordinaires_ord.is_demande', 'Off')
+    ['x12d1202x']: _.get(
+      client,
+      'rev_extraordinaires_ord.nature_revenus.r1',
+      ''
+    ),
+    ['x12d1201x']: _.get(client, 'rev_extraordinaires_ord.is_demande', 'Off'),
+    // Page 13
+    ['x13d1343x']: _.get(client, 'arrerages.table.r6.charges2', ''),
+    ['x13d1342x']: _.get(client, 'arrerages.table.r6.charges1', ''),
+    ['x13d1341x']: _.get(client, 'arrerages.table.r6.deduction', ''),
+    ['x13d1340x']: _.get(client, 'arrerages.table.r6.nature_rente', ''),
+    ['x13d1339x']: _.get(client, 'arrerages.table.r6.adresse', ''),
+    ['x13d1338x']: _.get(client, 'arrerages.table.r5.charges2', ''),
+    ['x13d1337x']: _.get(client, 'arrerages.table.r5.charges1', ''),
+    ['x13d1336x']: _.get(client, 'arrerages.table.r5.deduction', ''),
+    ['x13d1335x']: _.get(client, 'arrerages.table.r5.nature_rente', ''),
+    ['x13d1334x']: _.get(client, 'arrerages.table.r5.adresse', ''),
+    ['x13d1333x']: _.get(client, 'arrerages.table.r4.charges2', ''),
+    ['x13d1332x']: _.get(client, 'arrerages.table.r4.charges1', ''),
+    ['x13d1331x']: _.get(client, 'arrerages.table.r4.deduction', ''),
+    ['x13d1330x']: _.get(client, 'arrerages.table.r4.nature_rente', ''),
+    ['x13d1329x']: _.get(client, 'arrerages.table.r4.adresse', ''),
+    ['x13d1328x']: _.get(client, 'arrerages.table.r3.charges2', ''),
+    ['x13d1327x']: _.get(client, 'arrerages.table.r3.charges1', ''),
+    ['x13d1326x']: _.get(client, 'arrerages.table.r3.deduction', ''),
+    ['x13d1325x']: _.get(client, 'arrerages.table.r3.nature_rente', ''),
+    ['x13d1324x']: _.get(client, 'arrerages.table.r3.adresse', ''),
+    ['x13d1323x']: _.get(client, 'arrerages.table.r2.charges2', ''),
+    ['x13d1322x']: _.get(client, 'arrerages.table.r2.charges1', ''),
+    ['x13d1321x']: _.get(client, 'arrerages.table.r2.deduction', ''),
+    ['x13d1320x']: _.get(client, 'arrerages.table.r2.nature_rente', ''),
+    ['x13d1319x']: _.get(client, 'arrerages.table.r2.adresse', ''),
+    ['x13d1318x']: _.get(client, 'arrerages.table.r1.charges2', ''),
+    ['x13d1317x']: _.get(client, 'arrerages.table.r1.charges1', ''),
+    ['x13d1316x']: _.get(client, 'arrerages.table.r1.deduction', ''),
+    ['x13d1315x']: _.get(client, 'arrerages.table.r1.nature_rente', ''),
+    ['x13d1314x']: _.get(client, 'arrerages.table.r1.adresse', ''),
+    ['x13d1313x']: _.get(
+      client,
+      'arrerages.contribuable.paiements.decision_avant_total',
+      ''
+    ),
+    ['x13d1312x']: _.get(
+      client,
+      'arrerages.conjoint_partenaire.paiements.decision_avant',
+      ''
+    ),
+    ['x13d1311x']: _.get(
+      client,
+      'arrerages.contribuable.paiements.decision_avant',
+      ''
+    ),
+    ['x13d1310x']: _.get(client, 'arrerages.is_demande', ''),
+    ['x13d1309x']: _.get(
+      client,
+      'arrerages.contribuable.paiements.decision_apres_total',
+      ''
+    ),
+    ['x13d1308x']: _.get(
+      client,
+      'arrerages.conjoint_partenaire.paiements.decision_apres',
+      ''
+    ),
+    ['x13d1307x']: _.get(
+      client,
+      'arrerages.contribuable.paiements.decision_apres',
+      ''
+    ),
+    ['x13d1306x']: _.get(
+      client,
+      'arrerages.contribuable.paiements.occasion_total',
+      ''
+    ),
+    ['x13d1305x']: _.get(
+      client,
+      'arrerages.conjoint_partenaire.paiements.occasion',
+      ''
+    ),
+    ['x13d1304x']: _.get(
+      client,
+      'arrerages.contribuable.paiements.occasion',
+      ''
+    ),
+    ['x13d1303x']: _.get(
+      client,
+      'arrerages.contribuable.obligation_particuliere_total',
+      ''
+    ),
+    ['x13d1302x']: _.get(
+      client,
+      'arrerages.conjoint_partenaire.obligation_particuliere',
+      ''
+    ),
+    ['x13d1301x']: _.get(
+      client,
+      'arrerages.contribuable.obligation_particuliere',
+      ''
+    )
   }
 }
