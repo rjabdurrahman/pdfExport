@@ -3142,6 +3142,841 @@ module.exports = function serializeInfo (client) {
       client,
       'depenses_speciales15.cotisations_payees.contribuable.cotisations',
       ''
+    ),
+    // Page 16
+    ['x16d1652x']: _.get(
+      client,
+      'depenses_speciales.pertes_exploitation.pertes_reportables.rev_exo.total_pertes_total',
+      ''
+    ),
+    ['x16d1651x']: _.get(
+      client,
+      'depenses_speciales.pertes_exploitation.pertes_reportables.rev_exo.conjoint_partenaire.total_pertes',
+      ''
+    ),
+    ['x16d1650x']: _.get(
+      client,
+      'depenses_speciales.pertes_exploitation.pertes_reportables.rev_exo.contribuable.total_pertes',
+      ''
+    ),
+    ['x16d1649x']: _.get(
+      client,
+      'depenses_speciales.pertes_exploitation.pertes_reportables.rev_non_exo.total_pertes_total',
+      ''
+    ),
+    ['x16d1648x']: _.get(
+      client,
+      'depenses_speciales.pertes_exploitation.pertes_reportables.rev_non_exo.conjoint_partenaire.total_pertes',
+      ''
+    ),
+    ['x16d1647x']: _.get(
+      client,
+      'depenses_speciales.pertes_exploitation.pertes_reportables.rev_non_exo.contribuable.total_pertes',
+      ''
+    ),
+    ['x16d1646x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.total_plus_total',
+      ''
+    ),
+    ['x16d1645x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.total_liberalites',
+      ''
+    ),
+    ['x16d1644x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.total_liberalites',
+      ''
+    ),
+    ['x16d1643x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.r6',
+      ''
+    ),
+    ['x16d1642x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.r6',
+      ''
+    ),
+    ['x16d1641x']: _.get(
+      client,
+      'depenses_speciales.liberalites.beneficiaire.r6',
+      ''
+    ),
+    ['x16d1640x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.r5',
+      ''
+    ),
+    ['x16d1639x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.r5',
+      ''
+    ),
+    ['x16d1638x']: _.get(
+      client,
+      'depenses_speciales.liberalites.beneficiaire.r5',
+      ''
+    ),
+    ['x16d1637x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.r4',
+      ''
+    ),
+    ['x16d1636x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.r4',
+      ''
+    ),
+    ['x16d1635x']: _.get(
+      client,
+      'depenses_speciales.liberalites.beneficiaire.r4',
+      ''
+    ),
+    ['x16d1634x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.r3',
+      ''
+    ),
+    ['x16d1633x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.r3',
+      ''
+    ),
+    ['x16d1632x']: _.get(
+      client,
+      'depenses_speciales.liberalites.beneficiaire.r3',
+      ''
+    ),
+    ['x16d1631x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.r2',
+      ''
+    ),
+    ['x16d1630x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.r2',
+      ''
+    ),
+    ['x16d1629x']: _.get(
+      client,
+      'depenses_speciales.liberalites.beneficiaire.r2',
+      ''
+    ),
+    ['x16d1628x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.conjoint_partenaire.r1',
+      ''
+    ),
+    ['x16d1627x']: _.get(
+      client,
+      'depenses_speciales.liberalites.liberalites_2019.contribuable.r1',
+      ''
+    ),
+    ['x16d1626x']: _.get(
+      client,
+      'depenses_speciales.liberalites.beneficiaire.r1',
+      ''
+    ),
+    ['x16d1625x']: _.get(
+      client,
+      'depenses_speciales.liberalites.report_2018.total',
+      ''
+    ),
+    ['x16d1624x']: _.get(
+      client,
+      'depenses_speciales.liberalites.report_2018.conjoint_partenaire',
+      ''
+    ),
+    ['x16d1623x']: _.get(
+      client,
+      'depenses_speciales.liberalites.report_2018.contribuable',
+      ''
+    ),
+    ['x16d1622x']: _.get(
+      client,
+      'depenses_speciales.liberalites.report_2017.total',
+      ''
+    ),
+    ['x16d1621x']: _.get(
+      client,
+      'depenses_speciales.liberalites.report_2017.conjoint_partenaire',
+      ''
+    ),
+    ['x16d1620x']: _.get(
+      client,
+      'depenses_speciales.liberalites.report_2017.contribuable',
+      ''
+    ),
+    ['x16d1619x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.contributions_total',
+      ''
+    ),
+    ['x16d1618x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.contributions',
+      ''
+    ),
+    ['x16d1617x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.contributions',
+      ''
+    ),
+    ['x16d1616x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_exo.contribuable.cotisations_total',
+      ''
+    ),
+    ['x16d1615x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_exo.conjoint_partenaire.cotisations',
+      ''
+    ),
+    ['x16d1614x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_exo.contribuable.cotisations',
+      ''
+    ),
+    ['x16d1613x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.cotisations_total',
+      ''
+    ),
+    ['x16d1612x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.cotisations',
+      ''
+    ),
+    ['x16d1611x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.cotisations',
+      ''
+    ),
+    ['x16d1610x']: _.get(
+      client,
+      'depenses_speciales.cotisations_obligatoires.rev_exo.total',
+      ''
+    ),
+    ['x16d1609x']: _.get(
+      client,
+      'depenses_speciales.cotisations_obligatoires.rev_exo.conjoint_partenaire.prelevements',
+      ''
+    ),
+    ['x16d1608x']: _.get(
+      client,
+      'depenses_speciales.cotisations_obligatoires.rev_exo.contribuable.prelevements',
+      ''
+    ),
+    ['x16d1607x']: _.get(
+      client,
+      'depenses_speciales.cotisations_obligatoires.rev_non_exo.total',
+      ''
+    ),
+    ['x16d1606x']: _.get(
+      client,
+      'depenses_speciales.cotisations_obligatoires.rev_non_exo.conjoint_partenaire.prelevements',
+      ''
+    ),
+    ['x16d1605x']: _.get(
+      client,
+      'depenses_speciales.cotisations_obligatoires.rev_non_exo.contribuable.prelevements',
+      ''
+    ),
+    ['x16d1604x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_non',
+      ''
+    ),
+    ['x16d1603x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui',
+      ''
+    ),
+    ['x16d1602x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_non',
+      ''
+    ),
+    ['x16d1601x']: _.get(
+      client,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui',
+      ''
+    ),
+    // Page 17
+    ['x17d1728x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_annuel',
+      ''
+    ),
+    ['x17d1727x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_annuel',
+      ''
+    ),
+    ['x17d1726x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.pendant_mois',
+      ''
+    ),
+    ['x17d1725x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.pendant_mois',
+      ''
+    ),
+    ['x17d1724x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_mensuel',
+      ''
+    ),
+    ['x17d1723x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_mensuel',
+      ''
+    ),
+    ['x17d1722x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.nom',
+      ''
+    ),
+    ['x17d1721x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.nom',
+      ''
+    ),
+    ['x17d1720x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.is_frais_domestiques',
+      ''
+    ),
+    ['x17d1719x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux',
+      ''
+    ),
+    ['x17d1718x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_deja_presente',
+      ''
+    ),
+    ['x17d1717x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe',
+      ''
+    ),
+    ['x17d1716x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux',
+      ''
+    ),
+    ['x17d1715x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_deja_presente',
+      ''
+    ),
+    ['x17d1714x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe',
+      ''
+    ),
+    ['x17d1713x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite',
+      ''
+    ),
+    ['x17d1712x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r8',
+      ''
+    ),
+    ['x17d1711x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r7',
+      ''
+    ),
+    ['x17d1710x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r6',
+      ''
+    ),
+    ['x17d1709x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r5',
+      ''
+    ),
+    ['x17d1708x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r4',
+      ''
+    ),
+    ['x17d1707x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r3',
+      ''
+    ),
+    ['x17d1706x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r2',
+      ''
+    ),
+    ['x17d1705x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.table.r1',
+      ''
+    ),
+    ['x17d1704x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.detail_charges.total',
+      ''
+    ),
+    ['x17d1703x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.detail_charges.conjoint_partenaire',
+      ''
+    ),
+    ['x17d1702x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.detail_charges.contribuable',
+      ''
+    ),
+    ['x17d1701x']: _.get(
+      client,
+      'charges_extraordinaires_17.abattement.is_abattement1',
+      ''
+    ),
+    // Page 18
+    ['x18d1842x']: _.get(
+      client,
+      'charges_extraordinaires_18.is_abattement',
+      ''
+    ),
+    ['x18d1841x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[2].is_voiture_electrique',
+      ''
+    ),
+    ['x18d1840x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.contribuable[2].is_voiture_electrique',
+      ''
+    ),
+    ['x18d1839x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[1].is_cycle',
+      ''
+    ),
+    ['x18d1838x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.contribuable[1].is_cycle',
+      ''
+    ),
+    ['x18d1837x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[0].is_voiture',
+      ''
+    ),
+    ['x18d1836x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.contribuable[0].is_voiture',
+      ''
+    ),
+    ['x18d1835x']: _.get(
+      client,
+      'charges_extraordinaires_18.is_investissement',
+      ''
+    ),
+    ['x18d1834x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[2].voiture_electrique',
+      ''
+    ),
+    ['x18d1833x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.contribuable[2].voiture_electrique',
+      ''
+    ),
+    ['x18d1832x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[1].cycle',
+      ''
+    ),
+    ['x18d1831x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.contribuable[1].cycle',
+      ''
+    ),
+    ['x18d1830x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[0].voiture',
+      ''
+    ),
+    ['x18d1829x']: _.get(
+      client,
+      'charges_extraordinaires_18.mobilite_durable.contribuable[0].voiture',
+      ''
+    ),
+    ['x18d1828x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[3].formation',
+      ''
+    ),
+    ['x18d1827x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[3].montant',
+      ''
+    ),
+    ['x18d1826x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[3].date_de_naissance',
+      ''
+    ),
+    ['x18d1825x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[3].nom',
+      ''
+    ),
+    ['x18d1824x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[2].formation',
+      ''
+    ),
+    ['x18d1823x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[2].montant',
+      ''
+    ),
+    ['x18d1822x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[2].date_de_naissance',
+      ''
+    ),
+    ['x18d1821x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[2].nom',
+      ''
+    ),
+    ['x18d1820x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[1].formation',
+      ''
+    ),
+    ['x18d1819x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[1].montant',
+      ''
+    ),
+    ['x18d1818x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[1].date_de_naissance',
+      ''
+    ),
+    ['x18d1817x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[1].nom',
+      ''
+    ),
+    ['x18d1816x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[0].formation',
+      ''
+    ),
+    ['x18d1815x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[0].montant',
+      ''
+    ),
+    ['x18d1814x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[0].date_de_naissance',
+      ''
+    ),
+    ['x18d1813x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[0].nom',
+      ''
+    ),
+    ['x18d1812x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[3].montant',
+      ''
+    ),
+    ['x18d1811x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[3].date_de_naissance',
+      ''
+    ),
+    ['x18d1810x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[3].nom',
+      ''
+    ),
+    ['x18d1809x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[2].montant',
+      ''
+    ),
+    ['x18d1808x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[2].date_de_naissance',
+      ''
+    ),
+    ['x18d1807x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[2].nom',
+      ''
+    ),
+    ['x18d1806x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[1].montant',
+      ''
+    ),
+    ['x18d1805x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[1].date_de_naissance',
+      ''
+    ),
+    ['x18d1804x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[1].nom',
+      ''
+    ),
+    ['x18d1803x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[0].montant',
+      ''
+    ),
+    ['x18d1802x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[0].date_de_naissance',
+      ''
+    ),
+    ['x18d1801x']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[0].nom',
+      ''
+    ),
+    // Page 19
+    ['x19d1955x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat11.conjoint_partenaire.tantiemes',
+      ''
+    ),
+    ['x19d1954x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat11.contribuable.tantiemes',
+      ''
+    ),
+    ['x19d1953x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat10.total',
+      ''
+    ),
+    ['x19d1952x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat10.conjoint_partenaire.retenue_impot',
+      ''
+    ),
+    ['x19d1951x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat10.contribuable.retenue_impot',
+      ''
+    ),
+    ['x19d1950x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat9.total',
+      ''
+    ),
+    ['x19d1949x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat9.conjoint_partenaire.impot_etranger_annexe',
+      ''
+    ),
+    ['x19d1948x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat9.contribuable.impot_etranger_annexe',
+      ''
+    ),
+    ['x19d1947x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat8.total',
+      ''
+    ),
+    ['x19d1946x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat8.conjoint_partenaire.impot_etranger_conv',
+      ''
+    ),
+    ['x19d1945x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat8.contribuable.impot_etranger_conv',
+      ''
+    ),
+    ['x19d1944x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat7.total',
+      ''
+    ),
+    ['x19d1943x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat7.conjoint_partenaire.revenus_capitaux',
+      ''
+    ),
+    ['x19d1942x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat7.contribuable.revenus_capitaux',
+      ''
+    ),
+    ['x19d1941x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat6.conjoint_partenaire.pensions',
+      ''
+    ),
+    ['x19d1940x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat6.contribuable.pensions',
+      ''
+    ),
+    ['x19d1939x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat5.conjoint_partenaire.salaires',
+      ''
+    ),
+    ['x19d1938x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat5.contribuable.salaires',
+      ''
+    ),
+    ['x19d1937x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat4.total',
+      ''
+    ),
+    ['x19d1936x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat4.conjoint_partenaire.abat_speciale_agricole',
+      ''
+    ),
+    ['x19d1935x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat4.contribuable.abat_speciale_agricole',
+      ''
+    ),
+    ['x19d1934x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat4.is_certificat',
+      ''
+    ),
+    ['x19d1933x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat3.report_14_total',
+      ''
+    ),
+    ['x19d1932x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat3.conjoint_partenaire.report_14',
+      ''
+    ),
+    ['x19d1931x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat3.contribuable.report_14',
+      ''
+    ),
+    ['x19d1930x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat3.is_report_14',
+      ''
+    ),
+    ['x19d1929x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.report_92_total',
+      ''
+    ),
+    ['x19d1928x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.conjoint_partenaire.report_92',
+      ''
+    ),
+    ['x19d1927x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.contribuable.report_92',
+      ''
+    ),
+    ['x19d1926x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.is_report_92',
+      ''
+    ),
+    ['x19d1925x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.report_91_total',
+      ''
+    ),
+    ['x19d1924x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.conjoint_partenaire.report_91',
+      ''
+    ),
+    ['x19d1923x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.contribuable.report_91',
+      ''
+    ),
+    ['x19d1922x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat2.is_report_91',
+      ''
+    ),
+    ['x19d1921x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.conjoint_partenaire.montant_deduit',
+      ''
+    ),
+    ['x19d1920x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.contribuable.montant_deduit',
+      ''
+    ),
+    ['x19d1919x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.conjoint_partenaire.montant_non_deduit',
+      ''
+    ),
+    ['x19d1918x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.contribuable.montant_non_deduit',
+      ''
+    ),
+    ['x19d1917x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benef_pro_liberale',
+      ''
+    ),
+    ['x19d1916x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.contribuable.is_benef_pro_liberale',
+      ''
+    ),
+    ['x19d1915x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benef_agricole',
+      ''
+    ),
+    ['x19d1914x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benefice_commercial',
+      ''
+    ),
+    ['x19d1913x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.contribuable.is_benef_agricole',
+      ''
+    ),
+    ['x19d1912x']: _.get(
+      client,
+      'retenues_impot_diverses_demandes.cat1.contribuable.is_benefice_commercial',
+      ''
     )
+    // Page 20
   }
 }
