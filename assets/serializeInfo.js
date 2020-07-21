@@ -1186,6 +1186,86 @@ module.exports = function serializeInfo (client) {
       client,
       'occup_salariee.rev_non_exo.contribuable.premier_contrat'
     ),
+    ['x7d762x']: _.get(
+      client,
+      'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.totalABCDE',
+      ''
+    ),
+    ['x7d761x']: _.get(
+      client,
+      'occup_salariee.rev_exo.contribuable.a_deduire.totalABCDE',
+      ''
+    ),
+    ['x7d760x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.totalABCDE',
+      ''
+    ),
+    ['x7d759x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.contribuable.a_deduire.totalABCDE',
+      ''
+    ),
+    ['x7d758x']: _.get(
+      client,
+      'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.total_deduction',
+      ''
+    ),
+    ['x7d757x']: _.get(
+      client,
+      'occup_salariee.rev_exo.contribuable.a_deduire.total_deduction',
+      ''
+    ),
+    ['x7d756x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.total_deduction',
+      ''
+    ),
+    ['x7d755x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.contribuable.a_deduire.total_deduction',
+      ''
+    ),
+    ['x7d729x']: _.get(
+      client,
+      'occup_salariee.rev_exo.conjoint_partenaire.totalABCDE',
+      ''
+    ),
+    ['x7d728x']: _.get(
+      client,
+      'occup_salariee.rev_exo.contribuable.totalABCDE',
+      ''
+    ),
+    ['x7d727x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.conjoint_partenaire.totalABCDE',
+      ''
+    ),
+    ['x7d726x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.contribuable.totalABCDE',
+      ''
+    ),
+    ['x7d721x']: _.get(
+      client,
+      'occup_salariee.rev_exo.conjoint_partenaire.totalABCD',
+      ''
+    ),
+    ['x7d720x']: _.get(
+      client,
+      'occup_salariee.rev_exo.contribuable.totalABCD',
+      ''
+    ),
+    ['x7d719x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.conjoint_partenaire.totalABCD',
+      ''
+    ),
+    ['x7d718x']: _.get(
+      client,
+      'occup_salariee.rev_non_exo.contribuable.totalABCD',
+      ''
+    ),
     // Page 8
     ['x8d846x']: _.get(client, 'pension.abattement_extra_pro.rente_date', ''),
     ['x8d844x']: _.get(
