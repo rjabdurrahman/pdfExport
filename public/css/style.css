@@ -28971,14 +28971,27 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a182617 {
+.a18 .a182617_a {
   background-color: #dfe2e5;
   top: 511px;
   height: 42px;
-  width: 298px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182617_b {
+  background-color: #dfe2e5;
+  top: 511px;
+  height: 42px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
@@ -29023,14 +29036,27 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a182221 {
+.a18 .a182221_a {
   background-color: #dfe2e5;
   top: 469px;
   height: 42px;
-  width: 298px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a182221_b {
+  background-color: #dfe2e5;
+  top: 469px;
+  height: 42px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
@@ -29075,14 +29101,27 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a181825 {
+.a18 .a181825_a {
   background-color: #dfe2e5;
   top: 427px;
   height: 42px;
-  width: 298px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181825_b {
+  background-color: #dfe2e5;
+  top: 427px;
+  height: 42px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
@@ -29127,14 +29166,27 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a181429 {
+.a18 .a181429_a {
   background-color: #dfe2e5;
   top: 385px;
   height: 42px;
-  width: 298px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181429_b {
+  background-color: #dfe2e5;
+  top: 385px;
+  height: 42px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
@@ -29166,11 +29218,24 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a181132 {
+.a18 .a181132_b {
   background-color: #dfe2e5;
   top: 292px;
   height: 42px;
-  width: 298px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a181132_a {
+  background-color: #dfe2e5;
+  top: 292px;
+  height: 42px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
@@ -29205,11 +29270,24 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a180835 {
+.a18 .a180835_b {
   background-color: #dfe2e5;
   top: 250px;
   height: 42px;
-  width: 298px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180835_a {
+  background-color: #dfe2e5;
+  top: 250px;
+  height: 42px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
@@ -29244,14 +29322,27 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a180538 {
+.a18 .a180538_a {
   background-color: #dfe2e5;
   top: 208px;
   height: 42px;
-  width: 298px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180538_b {
+  background-color: #dfe2e5;
+  top: 208px;
+  height: 42px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
   -webkit-transform: rotate(0deg);
           transform: rotate(0deg);
   opacity: 1.0;
@@ -29283,11 +29374,24 @@ div {
   opacity: 1.0;
 }
 
-.a18 .a180241 {
+.a18 .a180241_b {
   background-color: #dfe2e5;
   top: 166px;
   height: 42px;
-  width: 298px;
+  width: 149px;
+  position: absolute;
+  margin: 0;
+  left: 185px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a18 .a180241_a {
+  background-color: #dfe2e5;
+  top: 166px;
+  height: 42px;
+  width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
