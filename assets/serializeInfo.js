@@ -3631,9 +3631,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_plus_21[3].date_de_naissance',
       ''
     ),
-    ['x18d1825x']: _.get(
+    ['x18d1825_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_plus_21[3].nom',
+      ''
+    ),
+    ['x18d1825_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[3].prenom',
       ''
     ),
     ['x18d1824x']: _.get(
@@ -3651,9 +3656,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_plus_21[2].date_de_naissance',
       ''
     ),
-    ['x18d1821x']: _.get(
+    ['x18d1821_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_plus_21[2].nom',
+      ''
+    ),
+    ['x18d1821_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[2].prenom',
       ''
     ),
     ['x18d1820x']: _.get(
@@ -3671,9 +3681,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_plus_21[1].date_de_naissance',
       ''
     ),
-    ['x18d1817x']: _.get(
+    ['x18d1817_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_plus_21[1].nom',
+      ''
+    ),
+    ['x18d1817_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[1].prenom',
       ''
     ),
     ['x18d1816x']: _.get(
@@ -3691,9 +3706,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_plus_21[0].date_de_naissance',
       ''
     ),
-    ['x18d1813x']: _.get(
+    ['x18d1813_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_plus_21[0].nom',
+      ''
+    ),
+    ['x18d1813_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_plus_21[0].prenom',
       ''
     ),
     ['x18d1812x']: _.get(
@@ -3706,9 +3726,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_moins_21[3].date_de_naissance',
       ''
     ),
-    ['x18d1810x']: _.get(
+    ['x18d1810_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_moins_21[3].nom',
+      ''
+    ),
+    ['x18d1810_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[3].prenom',
       ''
     ),
     ['x18d1809x']: _.get(
@@ -3721,9 +3746,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_moins_21[2].date_de_naissance',
       ''
     ),
-    ['x18d1807x']: _.get(
+    ['x18d1807_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_moins_21[2].nom',
+      ''
+    ),
+    ['x18d1807_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[2].prenom',
       ''
     ),
     ['x18d1806x']: _.get(
@@ -3736,9 +3766,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_moins_21[1].date_de_naissance',
       ''
     ),
-    ['x18d1804x']: _.get(
+    ['x18d1804_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_moins_21[1].nom',
+      ''
+    ),
+    ['x18d1804_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[1].prenom',
       ''
     ),
     ['x18d1803x']: _.get(
@@ -3751,9 +3786,14 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_18.enfants_moins_21[0].date_de_naissance',
       ''
     ),
-    ['x18d1801x']: _.get(
+    ['x18d1801_ax']: _.get(
       client,
       'charges_extraordinaires_18.enfants_moins_21[0].nom',
+      ''
+    ),
+    ['x18d1801_bx']: _.get(
+      client,
+      'charges_extraordinaires_18.enfants_moins_21[0].prenom',
       ''
     ),
     // Page 19

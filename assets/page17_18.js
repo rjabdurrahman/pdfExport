@@ -53,55 +53,55 @@ module.exports = function(info){
             is_abattement: info['18d1842'] ? info['18d1842'] : 'Off',
             enfants_moins_21: [
                 {
-                    nom: info['18d1801'],
-                    prenom: info['18d18'],
+                    nom: info['18d1801_a'],
+                    prenom: info['18d1801_b'],
                     date_de_naissance: info['18d1802'],
                     montant: info['18d1803']
                 },
                 {
-                    nom: info['18d1804'],
-                    prenom: info['18d18'],
+                    nom: info['18d1804_a'],
+                    prenom: info['18d1804_b'],
                     date_de_naissance: info['18d1805'],
                     montant: info['18d1806']
                 },
                 {
-                    nom: info['18d1807'],
-                    prenom: info['18d18'],
+                    nom: info['18d1807_a'],
+                    prenom: info['18d1807_b'],
                     date_de_naissance: info['18d1808'],
                     montant: info['18d1809']
                 },
                 {
-                    nom: info['18d1810'],
-                    prenom: info['18d18'],
+                    nom: info['18d1810_a'],
+                    prenom: info['18d1810_b'],
                     date_de_naissance: info['18d1811'],
                     montant: info['18d1812']
                 }
             ],
             enfants_plus_21: [
                 {
-                    nom: info['18d1813'],
-                    prenom: info['18d18'],
+                    nom: info['18d1813_a'],
+                    prenom: info['18d1813_b'],
                     date_de_naissance: info['18d1814'],
                     montant: info['18d1815'],
                     formation: info['18d1816']
                 },
                 {
-                    nom: info['18d1817'],
-                    prenom: info['18d18'],
+                    nom: info['18d1817_a'],
+                    prenom: info['18d1817_b'],
                     date_de_naissance: info['18d1818'],
                     montant: info['18d1819'],
                     formation: info['18d1820']
                 },
                 {
-                    nom: info['18d1821'],
-                    prenom: info['18d18'],
+                    nom: info['18d1821_a'],
+                    prenom: info['18d1821_b'],
                     date_de_naissance: info['18d1822'],
                     montant: info['18d1823'],
                     formation: info['18d1824']
                 },
                 {
-                    nom: info['18d1825'],
-                    prenom: info['18d18'],
+                    nom: info['18d1825_a'],
+                    prenom: info['18d1825_b'],
                     date_de_naissance: info['18d1826'],
                     montant: info['18d1827'],
                     formation: info['18d1828']
