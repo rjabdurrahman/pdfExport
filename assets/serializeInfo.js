@@ -4020,12 +4020,12 @@ module.exports = function serializeInfo (client) {
     // Page 20
     ['x20d2002x']: _.get(
       client,
-      'revenu_imposable.date}}" class="date rectangledate9',
+      'revenu_imposable.date',
       ''
     ),
     ['x20d2001x']: _.get(
       client,
-      'revenu_imposable.lieu}}" class="rectanglelieu10',
+      'revenu_imposable.lieu',
       ''
     )
   }
