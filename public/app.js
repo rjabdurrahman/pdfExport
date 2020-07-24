@@ -37,7 +37,7 @@ app.run(function ($rootScope, $http, $route) {
     })
       .then(function (res) {
         $rootScope.clients = res.data
-        $rootScope.loadingClients = false;
+        $rootScope.loadingClients = false
         $('a').click(function (e) {
           if (this.href.includes('/info?id')) $('.load-overlay').show()
         })
@@ -101,6 +101,15 @@ app.controller('NavCtrl', function ($scope, $http) {
 app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   $('.load-overlay').hide()
   $rootScope.loadClients()
+  $scope.search = function (e) {
+    let clients = $rootScope.clients.map(x => {
+      // return {...x.signaletique.contribuable, ...x.signaletique}
+      return (
+        Object.values(x.signaletique.contribuable).join('') + x.signaletique
+      )
+    })
+    console.log(clients)
+  }
   $scope.deleteClient = function (e) {
     console.log('Id is', e.target.id)
     $http
