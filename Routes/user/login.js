@@ -1,5 +1,5 @@
 const _ = require('lodash');
-let users = require('./../assets/users.json');
+let users = require('./../../assets/users.json');
 
 module.exports = function (req, res) {
     let user = _.find(users, req.body)
