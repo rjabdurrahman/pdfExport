@@ -1,11 +1,13 @@
 const _ = require('lodash');
-let users = require('./../../assets/users.json');
+const User = require('../../Models/User');
 
 module.exports = function (req, res) {
-    let user = _.find(users, req.body)
-    if (user) {
-        res.cookie('user', user, { maxAge: 865000000 })
-        res.redirect('/')
-    }
-    else res.send('Login Failed');
+    User.find(req.body, (err, result) => {
+        if(err) res.send(err)
+        else if(result.length > 0) {
+                res.cookie('user', result, { maxAge: 865000000 })
+                res.redirect('/')
+        }
+        else res.send('Login Failed');
+    })
 }
