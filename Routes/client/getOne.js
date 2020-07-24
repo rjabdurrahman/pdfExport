@@ -1,3 +1,5 @@
+const Client = require('../../Models/Client');
+
 module.exports = (req, res) => {
     let id = req.params.id;
     Client.findById(id, (err, client) => {

@@ -1,3 +1,4 @@
+const Client = require('../../Models/Client');
 let client = require('../../assets/client');
 
 module.exports = (req, res) => {

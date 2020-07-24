@@ -1,9 +1,4 @@
 const router = require('express').Router();
-const path = require('path');
-const fs = require('fs');
-const { exec } = require("child_process");
-const Client = require('../Models/Client');
-let ObjectID = require('mongodb').ObjectID;
 const addClient = require('./client/add')
 const deleteClient = require('./client/delete')
 const getOneClient = require('./client/getOne')

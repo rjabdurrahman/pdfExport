@@ -1,3 +1,5 @@
+const Client = require('../../Models/Client');
+
 module.exports = (req, res) => {
     Client.find((err, result) => {
         if (err) res.send(err)

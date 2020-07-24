@@ -1,3 +1,7 @@
+const path = require('path');
+const fs = require('fs');
+const { exec } = require("child_process");
+const Client = require('../Models/Client');
 let serializeInfo = require('../assets/serializeInfo');
 let fdfText = require('../pdf/fdfText');
 
