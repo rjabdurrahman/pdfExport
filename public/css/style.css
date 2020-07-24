@@ -33485,7 +33485,6 @@ header {
 .top-nav .arrow:hover,
 .top-nav a:hover {
   cursor: pointer;
-  opacity: 0.7;
 }
 
 .top-nav a label {
@@ -33526,6 +33525,13 @@ header {
   margin-top: 8px;
   margin-left: 12px;
   cursor: pointer;
+}
+
+.top-nav .user .arrow .w3-dropdown-content {
+  right: 40px;
+  background-color: white !important;
+  opacity: 1;
+  margin-top: 5px;
 }
 
 .left-nav::-webkit-scrollbar {

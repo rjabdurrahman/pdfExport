@@ -39,9 +39,16 @@
             </div>
             <div class="w3-bar-item user">
                 <div class="letters">YE</div>
-                <div onclick="location.href='/logout'" class="arrow">
+                <div class="w3-dropdown-hover arrow">
                     <span class="material-icons">keyboard_arrow_down</span>
-                </div>
+                    <div class="w3-dropdown-content w3-bar-block w3-border">
+                      <a href="/profile" class="w3-bar-item w3-button">Profile</a>
+                      <a href="/logout" class="w3-bar-item w3-button">Log Out</a>
+                    </div>
+                  </div>
+                <!-- <div onclick="location.href='/logout'" class="arrow">
+                    <span class="material-icons">keyboard_arrow_down</span>
+                </div> -->
             </div>
         </div>
     </header>
