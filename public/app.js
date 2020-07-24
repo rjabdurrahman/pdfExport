@@ -28,15 +28,18 @@ app.config([
 app.run(function ($rootScope, $http, $route) {
   $rootScope.$route = $route
   $rootScope.clients = []
+  $rootScope.loadingClients = false
   $rootScope.loadClients = function () {
+    $rootScope.loadingClients = true
     $http({
       method: 'GET',
       url: '/api/clients'
     })
       .then(function (res) {
-        $rootScope.clients = res.data;
+        $rootScope.clients = res.data
+        $rootScope.loadingClients = false;
         $('a').click(function (e) {
-          if(this.href.includes('/info?id')) $('.load-overlay').show();
+          if (this.href.includes('/info?id')) $('.load-overlay').show()
         })
         $rootScope.$applyAsync()
       })

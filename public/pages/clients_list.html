@@ -54,6 +54,11 @@
                             </a>
                         </td>
                     </tr>
+                    <tr ng-if="loadingClients">
+                        <td colspan="11">
+                            <div style="text-align: center; padding: 4px 8px;">Loading...</div>
+                        </td>
+                    </tr>
                 </tbody>
             </table>
             <!-- <div ng-show="!load" class="w3-pale-blue" style="padding: 12px; text-align: center;"><img src="img/loader.gif" alt="Loading..." style="height: 25px; width: 25px;"></div>
