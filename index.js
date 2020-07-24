@@ -2,11 +2,9 @@ const express = require('express');
 const app = express();
 const path = require('path')
 const cookieParser = require('cookie-parser');
-const _ = require('lodash');
 const connectDB = require('./config');
 app.use(cookieParser());
 connectDB();
-const users = require('./assets/users.json');
 const userLogin = require('./Routes/login')
 const userLogOut = require('./Routes/logout')
 const apiRoute = require('./Routes/api');
