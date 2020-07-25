@@ -847,23 +847,23 @@ module.exports = function serializeInfo (client) {
       'ben_prov.rev_non_exo.conjoint_partenaire.total2'
     ),
     ['x6d41x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total2'),
-    ['x6d40x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses'),
-    ['x6d39x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses'),
+    ['x6d40x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses_e'),
+    ['x6d39x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_e'),
     ['x6d38x']: _.get(
       client,
-      'ben_prov.rev_non_exo.conjoint_partenaire.depenses'
+      'ben_prov.rev_non_exo.conjoint_partenaire.depenses_e'
     ),
-    ['x6d37x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses'),
+    ['x6d37x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_e'),
     ['x6d36x']: _.get(
       client,
-      'ben_prov.rev_exo.conjoint_partenaire.montant_brut'
+      'ben_prov.rev_exo.conjoint_partenaire.montant_brut_e'
     ),
-    ['x6d35x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut'),
+    ['x6d35x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut_e'),
     ['x6d34x']: _.get(
       client,
-      'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut'
+      'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_e'
     ),
-    ['x6d33x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut'),
+    ['x6d33x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut_e'),
     ['x6d32x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total1'),
     ['x6d31x']: _.get(client, 'ben_prov.rev_exo.contribuable.total1'),
     ['x6d30x']: _.get(
@@ -871,23 +871,23 @@ module.exports = function serializeInfo (client) {
       'ben_prov.rev_non_exo.conjoint_partenaire.total1'
     ),
     ['x6d29x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total1'),
-    ['x6d28x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses'),
-    ['x6d27x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses'),
+    ['x6d28x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses_d'),
+    ['x6d27x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_d'),
     ['x6d26x']: _.get(
       client,
-      'ben_prov.rev_non_exo.conjoint_partenaire.depenses'
+      'ben_prov.rev_non_exo.conjoint_partenaire.depenses_d'
     ),
-    ['x6d25x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses'),
+    ['x6d25x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_d'),
     ['x6d24x']: _.get(
       client,
-      'ben_prov.rev_exo.conjoint_partenaire.montant_brut'
+      'ben_prov.rev_exo.conjoint_partenaire.montant_brut_d'
     ),
-    ['x6d23x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut'),
+    ['x6d23x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut_d'),
     ['x6d22x']: _.get(
       client,
-      'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut'
+      'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_d'
     ),
-    ['x6d21x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut'),
+    ['x6d21x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut_d'),
     ['x6d20x']: _.get(
       client,
       'ben_prov.rev_exo.conjoint_partenaire.benefice_cessation'
@@ -917,13 +917,13 @@ module.exports = function serializeInfo (client) {
       client,
       'ben_prov.rev_non_exo.contribuable.parts_benefice'
     ),
-    ['x6d12x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses'),
-    ['x6d11x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses'),
+    ['x6d12x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses_a'),
+    ['x6d11x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_a'),
     ['x6d10x']: _.get(
       client,
-      'ben_prov.rev_non_exo.conjoint_partenaire.depenses'
+      'ben_prov.rev_non_exo.conjoint_partenaire.depenses_a'
     ),
-    ['x6d9x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses'),
+    ['x6d9x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_a'),
     ['x6d8x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.recettes'),
     ['x6d7x']: _.get(client, 'ben_prov.rev_exo.contribuable.recettes'),
     ['x6d6x']: _.get(
