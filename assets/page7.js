@@ -12,7 +12,7 @@ module.exports = function (info) {
                     totalABCDE:info['7d726'],
                     salaire_brut: info['7d722'],
                     a_deduire: {
-                        salaires: info['7d73.0'],
+                        salaires: info['7d730'],
                         supplements: info['7d734'],
                         autres_exemptions: info['7d738'],
                         autres_exemptions_texte: info['7d742'],
