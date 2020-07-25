@@ -50,39 +50,35 @@ function radioCheck (info) {
   if (
     _.get(
       info,
-      'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine'
-    )
+      'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.par_mois_semaine'
+    ) == 'semaine'
   )
-    $(
-      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine}]`
-    ).attr('checked', true)
+    $(`#page7 :radio[id="7d779"]`).attr('checked', true)
+  else $(`#page7 :radio[id="7d780"]`).attr('checked', true)
+  if (
+    _.get(
+      info,
+      'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.par_mois_semaine'
+    ) == 'semaine'
+  )
+    $(`#page7 :radio[id="7d781"]`).attr('checked', true)
+  else $(`#page7 :radio[id="7d782"]`).attr('checked', true)
   if (
     _.get(
       info,
       'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.par_mois_semaine'
-    )
+    ) == 'semaine'
   )
-    $(
-      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine}]`
-    ).attr('checked', true)
+    $(`#page7 :radio[id="7d783"]`).attr('checked', true)
+  else $(`#page7 :radio[id="7d784"]`).attr('checked', true)
   if (
     _.get(
       info,
-      'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine'
-    )
+      'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine'
+    ) == 'semaine'
   )
-    $(
-      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.is_par_semaine}]`
-    ).attr('checked', true)
-  if (
-    _.get(
-      info,
-      'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.is_par_semaine'
-    )
-  )
-    $(
-      `#page7 :radio[value=${info.occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.is_par_semaine}]`
-    ).attr('checked', true)
+    $(`#page7 :radio[id="7d785"]`).attr('checked', true)
+  else $(`#page7 :radio[id="7d786"]`).attr('checked', true)
 }
 
 function pageInit () {
@@ -99,18 +95,17 @@ function pageInit () {
     if (/^\d+$/.test(val)) $(this).val(val + ',00')
     else if (/^\d+,$/.test(val)) $(this).val(val + '00')
     else if (/^\d+,\d{1}$/.test(val)) $(this).val(val + '0')
-  });
+  })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {
-    e.preventDefault();
+    e.preventDefault()
     if ($(this).prev()[0].checked) {
-      $(this).prev()[0].checked = false;
+      $(this).prev()[0].checked = false
+    } else {
+      $(this).prev()[0].checked = true
     }
-    else {
-      $(this).prev()[0].checked = true;
-    }
-    isSaveAlive(true);
-  });
+    isSaveAlive(true)
+  })
   pageCalculation()
 }
 
