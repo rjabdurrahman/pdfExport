@@ -941,6 +941,22 @@ module.exports = function serializeInfo (client) {
     ['x6d45x']: _.get(client, 'ben_prov.rev_exo.totalABCDE'),
     ['x6d48x']: _.get(client, 'ben_prov.rev_non_exo.exoneration_total'),
     // Page 7
+    ['x7d785x']: _.get(
+      client,
+      'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine'
+    ),
+    ['x7d783x']: _.get(
+      client,
+      'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.par_mois_semaine'
+    ),
+    ['x7d781x']: _.get(
+      client,
+      'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.par_mois_semaine'
+    ),
+    ['x7d779x']: _.get(
+      client,
+      'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.par_mois_semaine'
+    ),
     ['x7d778x']: _.get(
       client,
       'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour'
