@@ -116,7 +116,7 @@ function pageInit () {
   $('.load-overlay').show()
   $('.num').focus(function () {
     $(this).inputFilter(function (value) {
-      return /^\d*,*\d*$/.test(value)
+      return /^[-]{0,1}\d*,*\d*$/.test(value)
     })
   })
   $('.numo').inputFilter(function (value) {
