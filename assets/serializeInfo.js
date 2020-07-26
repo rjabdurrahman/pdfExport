@@ -4,17 +4,17 @@ module.exports = function serializeInfo (client) {
     // Page 1
     ['x1d40x']: _.get(
       client,
-      'signaletique.coordonnes_bancaires.swift_bic',
+      'signaletique.coordonnees_bancaires.swift_bic',
       ''
     ),
     ['x1d39x']: _.get(
       client,
-      'signaletique.coordonnes_bancaires.code_iban',
+      'signaletique.coordonnees_bancaires.code_iban',
       ''
     ),
     ['x1d38x']: _.get(
       client,
-      'signaletique.coordonnes_bancaires.titulaire_du_compte',
+      'signaletique.coordonnees_bancaires.titulaire_du_compte',
       ''
     ),
     ['x1d37x']: _.get(
@@ -200,13 +200,13 @@ module.exports = function serializeInfo (client) {
       'enfants.demande_cim.table[1].montant_mensuel_allocation',
       ''
     ),
-    ['x2d39x']: _.get(client, 'enfants.demande_cim.table[1].nom_prenom', ''),
+    ['x2d39x']: _.get(client, 'enfants.demande_cim.tableau[1].nom_prenom', ''),
     ['x2d38x']: _.get(
       client,
       'enfants.demande_cim.table[0].montant_mensuel_allocation',
       ''
     ),
-    ['x2d37x']: _.get(client, 'enfants.demande_cim.table[0].nom_prenom', ''),
+    ['x2d37x']: _.get(client, 'enfants.demande_cim.tableau[0].nom_prenom', ''),
     ['x2d34x']: _.get(client, 'enfants.c.date_de_naissance', ''),
     ['x2d33x']: _.get(client, 'enfants.c.prenom', ''),
     ['x2d32x']: _.get(client, 'enfants.c.nom', ''),
@@ -234,14 +234,14 @@ module.exports = function serializeInfo (client) {
     ['x2d3x']: _.get(client, 'enfants.a[0].date_de_naissance', ''),
     ['x2d2x']: _.get(client, 'enfants.a[0].prenom', ''),
     ['x2d1x']: _.get(client, 'enfants.a[0].nom', ''),
-    ['x2d4x']: _.get(client, 'enfants.a[0].demande_moderation', 'Off'),
-    ['x2d8x']: _.get(client, 'enfants.a[1].demande_moderation', 'Off'),
-    ['x2d12x']: _.get(client, 'enfants.a[2].demande_moderation', 'Off'),
-    ['x2d16x']: _.get(client, 'enfants.a[3].demande_moderation', 'Off'),
-    ['x2d20x']: _.get(client, 'enfants.b[0].demande_moderation', 'Off'),
-    ['x2d25x']: _.get(client, 'enfants.b[1].demande_moderation', 'Off'),
-    ['x2d30x']: _.get(client, 'enfants.b[2].demande_moderation', 'Off'),
-    ['x2d35x']: _.get(client, 'enfants.c.demande_moderation', 'Off'),
+    ['x2d4x']: _.get(client, 'enfants.a[0].is_demande_moderation', 'Off'),
+    ['x2d8x']: _.get(client, 'enfants.a[1].is_demande_moderation', 'Off'),
+    ['x2d12x']: _.get(client, 'enfants.a[2].is_demande_moderation', 'Off'),
+    ['x2d16x']: _.get(client, 'enfants.a[3].is_demande_moderation', 'Off'),
+    ['x2d20x']: _.get(client, 'enfants.b[0].is_demande_moderation', 'Off'),
+    ['x2d25x']: _.get(client, 'enfants.b[1].is_demande_moderation', 'Off'),
+    ['x2d30x']: _.get(client, 'enfants.b[2].is_demande_moderation', 'Off'),
+    ['x2d35x']: _.get(client, 'enfants.c.is_demande_moderation', 'Off'),
     ['x2d36x']: _.get(client, 'enfants.demande_cim.is_demande_cim', 'Off'),
     ['x2d45x']: _.get(
       client,
@@ -322,7 +322,7 @@ module.exports = function serializeInfo (client) {
     ),
     ['x3d10x']: _.get(client, 'etat_civil.separe_e.is_le', ''),
     ['x3d5x']: _.get(client, 'etat_civil.is_depuis_le', ''),
-    ['x3d1x']: _.get(client, 'etat_civil.status', ''),
+    ['x3d1x']: _.get(client, 'etat_civil.statut', ''),
     ['x3d23x']: _.get(
       client,
       'etat_civil.assimilation.a.revenus_mondiaux',
@@ -335,7 +335,7 @@ module.exports = function serializeInfo (client) {
     ),
     ['x3d25x']: _.get(
       client,
-      'etat_civil.assimilation.c.revenus_professionels',
+      'etat_civil.assimilation.c.revenus_professionnels',
       'Off'
     ),
     ['x3d6x']: _.get(client, 'etat_civil.separe_e.is_dispense_legale', 'Off'),

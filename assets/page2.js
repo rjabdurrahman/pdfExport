@@ -58,7 +58,7 @@ module.exports = function(info) {
             },
             demande_cim: {
                 is_demande_cim: info['2d36'] ? info['2d36'] : 'Off',
-                tableau: [
+                table: [
                     {
                         nom_prenom: info['2d37'],
                         montant_mensuel_allocation: info['2d38']
@@ -83,7 +83,7 @@ module.exports = function(info) {
             },
             demande_bonification_impot: {
                 is_demande_bonification_impot: info['2d45'] ? info['2d45'] : 'Off',
-                tableau: [
+                table: [
                     {
                         nom_prenom: info['2d46'],
                         date_de_naissance: info['2d47']
