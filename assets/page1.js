@@ -54,7 +54,7 @@ module.exports = function (info) {
                     }
                 }
             },
-            coordonnes_bancaires: {
+            coordonnees_bancaires: {
                 titulaire_du_compte: info['1d38'],
                 code_iban: info['1d39'],
                 swift_bic: info['1d40']
