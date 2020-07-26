@@ -1,5 +1,5 @@
 {
     "rootDir": "./public/pages/",
     "outDir": "./public/pages/",
-    "output": "info1.html"
+    "output": "info.html"
 }
