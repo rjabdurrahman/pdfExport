@@ -1,7 +1,7 @@
 module.exports = function(info){
     return {
         etat_civil: {
-            status: info['3d1'],
+            statut: info['3d1'],
             is_depuis_le: info['3d5'],
             separe_e: {
                 is_dispense_legale: info['3d6'] ? info['3d6'] : 'Off',
@@ -35,7 +35,7 @@ module.exports = function(info){
                     revenus_nets_annuels: info['3d24'] ? info['3d24'] : 'Off'
                 },
                 c: {
-                    revenus_professionels: info['3d25'] ? info['3d25'] : 'Off'
+                    revenus_professionnels: info['3d25'] ? info['3d25'] : 'Off'
                 },
                 calculation: {
                     total_revenus_non_exoneres: info['3d26'],
