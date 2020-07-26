@@ -19,9 +19,10 @@
             <div id="page1" class="a01 anima-word-break ">
     <div style="width: 1041px; height: 100%; position:relative; margin:auto;">
         <input name="1d40" type="text" class="a1400" value="{{client.signaletique.coordonnees_bancaires.swift_bic}}">
-        <input name="1d39" type="text" class="a1391" onfocus="$(this).inputFilter(function (value) {
-            return /^[A-Z]{0,2}\d*$/.test(value)
-          })" value="{{client.signaletique.coordonnees_bancaires.code_iban}}">
+        <input name="1d39" type="text" class="a1391" value="{{client.signaletique.coordonnees_bancaires.code_iban}}">
+        <!-- onfocus="$(this).inputFilter(function (value) {
+            return /^[A-Z]{0,2}\d{0,2}\s{0,1}(\d{0,4}\s{1})*\d{0,4}$/.test(value)
+          })" -->
         <input name="1d38" type="text" class="a1382"
             value="{{client.signaletique.coordonnees_bancaires.titulaire_du_compte}}">
         <input name="1d37" type="text" class="a1373"
@@ -73,12 +74,11 @@
             value="{{client.signaletique.contribuable.domicile.actuel.numero}}">
         <input name="1d15" type="text" class="a11525" value="{{client.signaletique.conjoint_partenaire.courriel}}">
         <input name="1d14" type="text" class="a11426" value="{{client.signaletique.contribuable.courriel}}">
-        <input name="1d13" type="text" class="a11327" onfocus="$(this).inputFilter(function (value) {
+        <input name="1d13" type="text" class="a11327" value="{{client.signaletique.conjoint_partenaire.telephone}}">
+        <!-- onfocus="$(this).inputFilter(function (value) {
             return /^[+]{0,1}\d*$/.test(value)
-          })" value="{{client.signaletique.conjoint_partenaire.telephone}}">
-        <input name="1d12" type="text" onfocus="$(this).inputFilter(function (value) {
-            return /^[+]{0,1}\d*$/.test(value)
-          })" class="a11228" value="{{client.signaletique.contribuable.telephone}}">
+          })" -->
+        <input name="1d12" type="text" class="a11228" value="{{client.signaletique.contribuable.telephone}}">
         <input name="1d11" type="text" class="a11129" value="{{client.signaletique.conjoint_partenaire.profession}}">
         <input name="1d10" type="text" class="a11030" value="{{client.signaletique.contribuable.profession}}">
         <input name="1d9" type="text" class="numo t_center a10931" value="{{client.signaletique.numero_de_dossier}}"
@@ -649,9 +649,7 @@
         <input name="4d22" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.swift_bic}}" class="a4226" />
         <input name="4d21" type="text" value="{{client.options.informations_complementaires.contribuable.swift_bic}}" class="a4217" />
         <input name="4d20" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.code_iban}}" class="a4208" />
-        <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}" onfocus="$(this).inputFilter(function (value) {
-            return /^[A-Z]{0,2}\d*$/.test(value)
-          })" class="a4199" />
+        <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}" class="a4199" />
         <input name="4d18" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.titulaire_du_compte}}" class="a41810" />
         <input name="4d17" type="text" value="{{client.options.informations_complementaires.contribuable.titulaire_du_compte}}" class="a41711" />
         <input name="4d16a" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a}}" class="numo a41612_a" />
