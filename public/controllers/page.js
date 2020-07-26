@@ -24,11 +24,17 @@ function checkDone () {
     })
     if (!isDone) element.removeClass('done')
   })
-  $('.w3-dropdown-content')
-    .has('a.done')
-    .prevAll()
-    .children('a')
-    .addClass('done')
+  if ($('.w3-dropdown-content').has('a.done').length > 0)
+    $('.w3-dropdown-content')
+      .has('a.done')
+      .prevAll()
+      .children('a')
+      .addClass('done')
+  else
+    $('.w3-dropdown-content')
+      .prevAll()
+      .children('a')
+      .removeClass('done')
 }
 
 function radioCheck (info) {
