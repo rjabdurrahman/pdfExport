@@ -447,7 +447,7 @@ module.exports = function serializeInfo (client) {
     ['x4d4x']: _.get(client, 'options.partenaires.sl_document'),
     ['x4d3x']: _.get(
       client,
-      'options.partenaires.date_declaration_partenariat',
+      'options.partenaires.declaration_partenariat',
       ''
     ),
     ['x4d2x']: _.get(

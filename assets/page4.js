@@ -7,7 +7,7 @@ module.exports = function(info){
             },
             partenaires: {
                 is_imposition_collective: info['4d2'] ? info['4d2'] : 'Off',
-                date_declaration_partenariat: info['4d3'],
+                declaration_partenariat: info['4d3'],
                 sl_document: info['4d4']
             },
             imposition_individuelle: {
