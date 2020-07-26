@@ -1,7 +1,9 @@
 <div id="page1" class="a01 anima-word-break ">
     <div style="width: 1041px; height: 100%; position:relative; margin:auto;">
         <input name="1d40" type="text" class="a1400" value="{{client.signaletique.coordonnes_bancaires.swift_bic}}">
-        <input name="1d39" type="text" class="a1391" value="{{client.signaletique.coordonnes_bancaires.code_iban}}">
+        <input name="1d39" type="text" class="a1391" onfocus="$(this).inputFilter(function (value) {
+            return /^[A-Z]{0,2}\d*$/.test(value)
+          })" value="{{client.signaletique.coordonnes_bancaires.code_iban}}">
         <input name="1d38" type="text" class="a1382"
             value="{{client.signaletique.coordonnes_bancaires.titulaire_du_compte}}">
         <input name="1d37" type="text" class="a1373"
