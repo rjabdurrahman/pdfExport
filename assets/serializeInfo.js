@@ -445,11 +445,7 @@ module.exports = function serializeInfo (client) {
       ''
     ),
     ['x4d4x']: _.get(client, 'options.partenaires.sl_document'),
-    ['x4d3x']: _.get(
-      client,
-      'options.partenaires.declaration_partenariat',
-      ''
-    ),
+    ['x4d3x']: _.get(client, 'options.partenaires.declaration_partenariat', ''),
     ['x4d2x']: _.get(
       client,
       'options.partenaires.is_imposition_collective',
@@ -603,22 +599,22 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d28x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.totalABCD',
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total_abcd',
       ''
     ),
     ['x5d27x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.totalABCD',
+      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total_abcd',
       ''
     ),
     ['x5d26x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.totalABCD',
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total_abcd',
       ''
     ),
     ['x5d25x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.totalABCD',
+      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total_abcd',
       ''
     ),
     ['x5d24x']: _.get(
@@ -772,19 +768,19 @@ module.exports = function serializeInfo (client) {
     ),
     ['x5d61x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.totalABCD'
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total_abcd'
     ),
     ['x5d60x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.totalABCD'
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total_abcd'
     ),
     ['x5d59x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.totalABCD'
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total_abcd'
     ),
     ['x5d58x']: _.get(
       client,
-      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.totalABCD'
+      'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total_abcd'
     ),
     ['x5d37x']: _.get(
       client,
@@ -810,22 +806,6 @@ module.exports = function serializeInfo (client) {
       client,
       'benefice_commercial.determination_benefice_commercial.revenus_exoneres.total'
     ),
-    ['x5d28x']: _.get(
-      client,
-      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.totalABCD'
-    ),
-    ['x5d27x']: _.get(
-      client,
-      'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.totalABCD'
-    ),
-    ['x5d26x']: _.get(
-      client,
-      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.totalABCD'
-    ),
-    ['x5d25x']: _.get(
-      client,
-      'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.totalABCD'
-    ),
     // Page 6
     ['x6d53x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total3'),
     ['x6d52x']: _.get(client, 'ben_prov.rev_exo.contribuable.total3'),
@@ -847,7 +827,10 @@ module.exports = function serializeInfo (client) {
       'ben_prov.rev_non_exo.conjoint_partenaire.total2'
     ),
     ['x6d41x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total2'),
-    ['x6d40x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses_e'),
+    ['x6d40x']: _.get(
+      client,
+      'ben_prov.rev_exo.conjoint_partenaire.depenses_e'
+    ),
     ['x6d39x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_e'),
     ['x6d38x']: _.get(
       client,
@@ -863,7 +846,10 @@ module.exports = function serializeInfo (client) {
       client,
       'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_e'
     ),
-    ['x6d33x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut_e'),
+    ['x6d33x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.contribuable.montant_brut_e'
+    ),
     ['x6d32x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total1'),
     ['x6d31x']: _.get(client, 'ben_prov.rev_exo.contribuable.total1'),
     ['x6d30x']: _.get(
@@ -871,7 +857,10 @@ module.exports = function serializeInfo (client) {
       'ben_prov.rev_non_exo.conjoint_partenaire.total1'
     ),
     ['x6d29x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total1'),
-    ['x6d28x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses_d'),
+    ['x6d28x']: _.get(
+      client,
+      'ben_prov.rev_exo.conjoint_partenaire.depenses_d'
+    ),
     ['x6d27x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_d'),
     ['x6d26x']: _.get(
       client,
@@ -887,7 +876,10 @@ module.exports = function serializeInfo (client) {
       client,
       'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_d'
     ),
-    ['x6d21x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.montant_brut_d'),
+    ['x6d21x']: _.get(
+      client,
+      'ben_prov.rev_non_exo.contribuable.montant_brut_d'
+    ),
     ['x6d20x']: _.get(
       client,
       'ben_prov.rev_exo.conjoint_partenaire.benefice_cessation'
@@ -917,7 +909,10 @@ module.exports = function serializeInfo (client) {
       client,
       'ben_prov.rev_non_exo.contribuable.parts_benefice'
     ),
-    ['x6d12x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.depenses_a'),
+    ['x6d12x']: _.get(
+      client,
+      'ben_prov.rev_exo.conjoint_partenaire.depenses_a'
+    ),
     ['x6d11x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_a'),
     ['x6d10x']: _.get(
       client,
@@ -4034,15 +4029,7 @@ module.exports = function serializeInfo (client) {
       ''
     ),
     // Page 20
-    ['x20d2002x']: _.get(
-      client,
-      'revenu_imposable.date',
-      ''
-    ),
-    ['x20d2001x']: _.get(
-      client,
-      'revenu_imposable.lieu',
-      ''
-    )
+    ['x20d2002x']: _.get(client, 'revenu_imposable.date', ''),
+    ['x20d2001x']: _.get(client, 'revenu_imposable.lieu', '')
   }
 }

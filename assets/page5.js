@@ -11,7 +11,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d13'],
                         depenses_annexe: info['5d17'],
                         benefice_cessation: info['5d21'],
-                        totalABCD: info['5d25'],
+                        total_abcd: info['5d25'],
                         exoneration: info['5d30'],
                         total: info['5d34']
                     },
@@ -22,7 +22,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d14'],
                         depenses_annexe: info['5d18'],
                         benefice_cessation: info['5d22'],
-                        totalABCD : info['5d26'],
+                        total_abcd : info['5d26'],
                         exoneration: info['5d31'],
                         total: info['5d35']
                     },
@@ -36,7 +36,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d15'],
                         depenses_annexe: info['5d19'],
                         benefice_cessation: info['5d23'],
-                        totalABCD : info['5d27'],
+                        total_abcd : info['5d27'],
                         total: info['5d36']
                     },
                     conjoint_partenaire: {
@@ -46,7 +46,7 @@ module.exports = function(info){
                         depenses_forfaitaires: info['5d16'],
                         depenses_annexe: info['5d20'],
                         benefice_cessation: info['5d24'],
-                        totalABCD : info['5d28'],
+                        total_abcd : info['5d28'],
                         total: info['5d37']
                     },
                     total: info['5d29']
@@ -63,7 +63,7 @@ module.exports = function(info){
                         benefice_cessation: info['5d54'],
                         investissements: info['5d63'],
                         exoneration: info['5d66'],
-                        totalABCD: info['5d58'],
+                        total_abcd: info['5d58'],
                         total: info['5d70']
                     },
                     conjoint_partenaire: {
@@ -74,7 +74,7 @@ module.exports = function(info){
                         benefice_cessation: info['5d55'],
                         investissements: info['5d64'],
                         exoneration: info['5d67'],
-                        totalABCD: info['5d59'],
+                        total_abcd: info['5d59'],
                         total: info['5d71']
                     },
                     investissements_total: info['5d65'],
@@ -87,7 +87,7 @@ module.exports = function(info){
                         recettes: info['5d48'],
                         depenses: info['5d52'],
                         benefice_cessation: info['5d56'],
-                        totalABCD: info['5d60'],
+                        total_abcd: info['5d60'],
                         total: info['5d72']
                     },
                     conjoint_partenaire: {
@@ -96,7 +96,7 @@ module.exports = function(info){
                         recettes: info['5d49'],
                         depenses: info['5d53'],
                         benefice_cessation: info['5d57'],
-                        totalABCD: info['5d61'],
+                        total_abcd: info['5d61'],
                         total: info['5d73']
                     },
                     total: info['5d62']

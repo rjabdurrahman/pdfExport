@@ -199,11 +199,11 @@
         <input name="2d45" type="checkbox" class="a2374" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'">
         <input name="2d44" value="{{client.enfants.demande_cim.moyens_subsistance[1].subsistance2}}" type="text" class="a2365">
         <input name="2d43" value="{{client.enfants.demande_cim.moyens_subsistance[0].subsistance1}}" type="text" class="a2356">
-        <input name="2d42" value="{{client.enfants.demande_cim.table[2].montant_mensuel_allocation}}" type="text" class="numo a2347">
+        <input name="2d42" value="{{client.enfants.demande_cim.table[2].montant_mensuel_allocation}}" type="text" class="num a2347">
         <input name="2d41" value="{{client.enfants.demande_cim.table[2].nom_prenom}}" type="text" class="a2338">
-        <input name="2d40" value="{{client.enfants.demande_cim.table[1].montant_mensuel_allocation}}" type="text" class="numo a2329">
+        <input name="2d40" value="{{client.enfants.demande_cim.table[1].montant_mensuel_allocation}}" type="text" class="num a2329">
         <input name="2d39" value="{{client.enfants.demande_cim.table[1].nom_prenom}}" type="text" class="a23110">
-        <input name="2d38" value="{{client.enfants.demande_cim.table[0].montant_mensuel_allocation}}" type="text" class="numo a_left a23011">
+        <input name="2d38" value="{{client.enfants.demande_cim.table[0].montant_mensuel_allocation}}" type="text" class="num a_left a23011">
         <input name="2d37" value="{{client.enfants.demande_cim.table[0].nom_prenom}}" type="text" class="a22912">
         <input name="2d36" type="checkbox" class="a22813" ng-checked="client.enfants.demande_cim.is_demande_cim == 'Yes'">
         <input name="2d35" type="checkbox" class="a22714" ng-checked="client.enfants.c.is_demande_moderation == 'Yes'">
@@ -642,10 +642,10 @@
     <div style="width: 1076px; height: 100%; position:relative; margin:auto;">
         <input name="4d28" type="text" value="{{client.options.signature.date}}" class="date t-center rectangledate0" />
         <input name="4d27" type="text" value="{{client.options.signature.lieu}}" class="rectanglelieu1" />
-        <input name="4d26" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}" class="numo a_left a4262" />
-        <input name="4d25" type="text" value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}" class="numo a_left a4253" />
-        <input name="4d24" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}" class="numo a_left a4244" />
-        <input name="4d23" type="text" value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}" class="numo a_left a4235" />
+        <input name="4d26" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}" class="num t_left a4262" />
+        <input name="4d25" type="text" value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}" class="num t_left a4253" />
+        <input name="4d24" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}" class="num t_left a4244" />
+        <input name="4d23" type="text" value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}" class="num t_left a4235" />
         <input name="4d22" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.swift_bic}}" class="a4226" />
         <input name="4d21" type="text" value="{{client.options.informations_complementaires.contribuable.swift_bic}}" class="a4217" />
         <input name="4d20" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.code_iban}}" class="a4208" />
@@ -869,10 +869,10 @@
         <input name="5d64" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.investissements}}" type="text" class="num a5619" onkeyup="valueCal(['5d63', '5d64'], [], '5d65');valueCal(['5d59'], ['5d64', '5d67'], '5d71')" />
         <input name="5d63" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.investissements}}" type="text" class="num a56010" onkeyup="valueCal(['5d63', '5d64'], [], '5d65');valueCal(['5d58'], ['5d63', '5d66'], '5d70')" />
         <input name="5d62" type="text" class="num t_center a55855911" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.total}}" readonly />
-        <input name="5d61" type="text" class="num a55912" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.totalABCD}}" readonly />
-        <input name="5d60" type="text" class="num a55813" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.totalABCD}}" readonly />
-        <input name="5d59" type="text" class="num a55714" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.totalABCD}}" readonly />
-        <input name="5d58" type="text" class="num a55615" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.totalABCD}}" readonly />
+        <input name="5d61" type="text" class="num a55912" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total_abcd}}" readonly />
+        <input name="5d60" type="text" class="num a55813" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total_abcd}}" readonly />
+        <input name="5d59" type="text" class="num a55714" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total_abcd}}" readonly />
+        <input name="5d58" type="text" class="num a55615" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total_abcd}}" readonly />
         <input name="5d57" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.benefice_cessation}}" type="text" class="num a55516" onkeyup="valueCal(['5d41', '5d45', '5d49', '5d57'], ['5d53'], '5d61');valueCal(['5d60', '5d61'], [], '5d62');valueCal(['5d61'], [], '5d73')" />
         <input name="5d56" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.benefice_cessation}}" type="text" class="num a55417" onkeyup="valueCal(['5d40', '5d44', '5d48', '5d56'], ['5d52'], '5d60');valueCal(['5d60', '5d61'], [], '5d62');valueCal(['5d60'], [], '5d72')" />
         <input name="5d55" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.benefice_cessation}}" type="text" class="num a55318" onkeyup="valueCal(['5d39', '5d43', '5d47', '5d55'], ['5d51'], '5d59');valueCal(['5d59'], ['5d64', '5d67'], '5d71')" />
@@ -902,10 +902,10 @@
         <input name="5d31" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.exoneration}}" type="text" class="num a53042" onkeyup="valueCal(['5d30', '5d31'], [], '5d32');valueCal(['5d26'], ['5d31'], '5d35')" />
         <input name="5d30" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.exoneration}}" type="text" class="num a52943" onkeyup="valueCal(['5d30', '5d31'], [], '5d32');valueCal(['5d25'], ['5d30'], '5d34')" />
         <input name="5d29" type="text" class="num t_center a52752844" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.total}}" />
-        <input name="5d28" type="text" class="num a52845" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.totalABCD}}" />
-        <input name="5d27" type="text" class="num a52746" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.totalABCD}}" />
-        <input name="5d26" type="text" class="num a52647" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.totalABCD}}" />
-        <input name="5d25" type="text" class="num a52548" readonly  value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.totalABCD}}"/>
+        <input name="5d28" type="text" class="num a52845" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total_abcd}}" />
+        <input name="5d27" type="text" class="num a52746" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total_abcd}}" />
+        <input name="5d26" type="text" class="num a52647" readonly value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total_abcd}}" />
+        <input name="5d25" type="text" class="num a52548" readonly  value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total_abcd}}"/>
         <input name="5d24" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.benefice_cessation}}" type="text" class="num a52449" onkeyup="valueCal(['5d4', '5d8', '5d12', '5d24'], ['5d16', '5d20'], '5d28');valueCal(['5d28'], [], '5d37');valueCal(['5d27', '5d28'], [], '5d29')"/>
         <input name="5d23" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.benefice_cessation}}" type="text" class="num a52350" onkeyup="valueCal(['5d3', '5d7', '5d11', '5d23'], ['5d15', '5d19'], '5d27');valueCal(['5d27'], [], '5d36');valueCal(['5d27', '5d28'], [], '5d29')"/>
         <input name="5d22" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.benefice_cessation}}" type="text" class="num a52251" onkeyup="valueCal(['5d2', '5d6', '5d10', '5d22'], ['5d14', '5d18'], '5d26');valueCal(['5d26'], ['5d31'], '5d35') "/>
@@ -1298,12 +1298,12 @@
         <label for="7d786" class="a778parmois0"></label>
         <input name="7d785" id="7d785" type="radio" value="semaine"/>
         <label for="7d785" class="a778parsemaine1"></label>
-        <input name="7d778" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour}}" class="numo a778jours2" />
+        <input name="7d778" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour}}" class="num a778jours2" />
         <input name="7d783" id="7d784" type="radio" value="mois" />
         <label for="7d784" class="a777parmois3"></label>
         <input name="7d783" id="7d783" type="radio" value="semaine"/>
         <label for="7d783" class="a777parsemaine4"></label>
-        <input name="7d777" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.jour}}" class="numo a777jours5" />
+        <input name="7d777" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.jour}}" class="num a777jours5" />
         <input name="7d776" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.periode.au}}" class="date t_center a7766" />
         <input name="7d775" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.periode.du}}" class="date t_center a7757" />
         <input name="7d774" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.au}}" class="date t_center a7748" />
@@ -1314,12 +1314,12 @@
         <label for="7d782" class="a770parmois12"></label>
         <input name="7d781" id="7d781" type="radio" value="semaine" />
         <label for="7d781" class="a770parsemaine13"></label>
-        <input name="7d770" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.jour}}" class="numo a770jours14" />
+        <input name="7d770" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.jour}}" class="num a770jours14" />
         <input name="7d779" id="7d780" type="radio" value="mois" />
         <label for="7d780" class="a769parmois15"></label>
         <input name="7d779" id="7d779" type="radio" value="semaine" />
         <label for="7d779" class="a769parsemaine16"></label>
-        <input name="7d769" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.jour}}" class="numo a769jours17" />
+        <input name="7d769" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.jour}}" class="num a769jours17" />
         <input name="7d768" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.au}}" class="date t_center a76818" />
         <input name="7d767" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.du}}" class="date t_center a76719" />
         <input name="7d766" type="text" value="{{client.occup_salariee.plusieurs_lieux.lieu1.contribuable.periode.au}}" class="date t_center a76620" />
