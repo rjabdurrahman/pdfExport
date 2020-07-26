@@ -438,14 +438,14 @@
             class="a31116" />
         <input name="3d11" value="{{client.etat_civil.non_residents.contribuable.nom_prenom}}" type="text"
             class="a31017" />
-        <input name="3d10" value="{{client.etat_civil.separe_e.is_le}}" type="text" class="date a-center a30918" />
+        <input name="3d10" value="{{client.etat_civil.separe_e.is_le}}" type="text" class="date t_center a30918" />
         <input name="3d8" type="checkbox" class="a30819"
             ng-checked="client.etat_civil.separe_e.is_dispense_autorite_judiciaire == 'Yes'" />
         <input name="3d7" type="checkbox" class="a30720"
             ng-checked="client.etat_civil.separe_e.is_jugement_separation == 'Yes'" />
         <input name="3d6" type="checkbox" class="a30621"
             ng-checked="client.etat_civil.separe_e.is_dispense_legale == 'Yes'" />
-        <input name="3d5" value="{{client.etat_civil.is_depuis_le}}" type="text" class="date a-center a30522" />
+        <input name="3d5" value="{{client.etat_civil.is_depuis_le}}" type="text" class="date t_center a30522" />
         <input name="3d1" id="3d4" type="radio" class="a30423" value="veuf" />
         <label for="3d4" class="a30423"></label>
         <input name="3d1" id="3d3" type="radio" class="a30324" value="divorce" />
@@ -649,7 +649,9 @@
         <input name="4d22" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.swift_bic}}" class="a4226" />
         <input name="4d21" type="text" value="{{client.options.informations_complementaires.contribuable.swift_bic}}" class="a4217" />
         <input name="4d20" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.code_iban}}" class="a4208" />
-        <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}" class="a4199" />
+        <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}" onfocus="$(this).inputFilter(function (value) {
+            return /^[A-Z]{0,2}\d*$/.test(value)
+          })" class="a4199" />
         <input name="4d18" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.titulaire_du_compte}}" class="a41810" />
         <input name="4d17" type="text" value="{{client.options.informations_complementaires.contribuable.titulaire_du_compte}}" class="a41711" />
         <input name="4d16a" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a}}" class="numo a41612_a" />
