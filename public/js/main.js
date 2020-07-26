@@ -19,7 +19,7 @@ function valueCal (adds, subs, result) {
     res -= Number($(`[name=${x}]`).val().replace(',', '.'))
   })
   if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
-  // if (ec) $(`[name=${result}]`).val(Number(res.toFixed(2)).toLocaleString())
+  // if (ec) $(`[name=${result}]`).val(Number(res.toFixed(2)).toLocaleString().replace(/[.]/g, 'd').replace(/[,]/g, 'c'))
   else $(`[name=${result}]`).val('');
   isSaveAlive(true);
 }
