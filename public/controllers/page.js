@@ -125,10 +125,10 @@ function pageInit () {
   })
   $('.num').blur(function (value) {
     let val = $(this).val()
-    if (/^\d+$/.test(val)) $(this).val(Number(val).toLocaleString('fr-FR').replace(/\s/g, '.') + ',00')
-    else if (/^\d+[,]$/.test(val)) $(this).val(Number(val).toLocaleString('fr-FR').replace(/\s/g, '.') + '00')
-    else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(Number(val).toLocaleString('fr-FR').replace(/\s/g, '.') + '0')
-    else if (/^\d+[,]\d{1,2}$/.test(val)) $(this).val(Number(val.replace(',','.')).toLocaleString('fr-FR').replace(/\s/g, '.'))
+    if (/^\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
+    else if (/^\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
+    else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
+    else if (/^\d+[,]\d{2}$/.test(val)) $(this).val(frNumber(val));
   })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {

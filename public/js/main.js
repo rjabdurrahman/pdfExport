@@ -24,6 +24,10 @@ function valueCal (adds, subs, result) {
   isSaveAlive(true);
 }
 
+function frNumber(val) {
+  return Number(val.replace(',','.')).toLocaleString('fr-FR').replace(/\s/g, '.')
+}
+
 // Restricts input for the set of matched elements to the given inputFilter function.
 (function($) {
   $.fn.inputFilter = function(inputFilter) {
