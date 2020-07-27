@@ -129,7 +129,8 @@ function pageInit () {
     if (/^\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
     else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
-    else if (/^\d+[,]\d{2}$/.test(val)) $(this).val(frNumber(val));
+    else if (/^\d+[,][1-9]{2}$/.test(val)) $(this).val(frNumber(val));
+    else if (/^\d+[,][0]{2}$/.test(val)) $(this).val(frNumber(val)+',00');
   })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {
