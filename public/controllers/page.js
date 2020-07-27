@@ -114,7 +114,7 @@ function radioCheck (info) {
 function pageInit () {
   $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
   $('.load-overlay').show()
-  $('.num').focus(function () {
+  $('.num:not([readonly]').focus(function () {
     $(this).val($(this).val().replace(/[.]/g, ''));
     $(this).inputFilter(function (value) {
       return /^[-]{0,1}\d*,*\d{0,2}$/.test(value)
@@ -123,7 +123,7 @@ function pageInit () {
   $('.numo').inputFilter(function (value) {
     return /^\d*$/.test(value)
   })
-  $('.num').blur(function (value) {
+  $('.num:not([readonly]').blur(function (value) {
     let val = $(this).val()
     if (/^\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
