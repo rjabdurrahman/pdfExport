@@ -20,7 +20,12 @@ function valueCal (adds, subs, result) {
   })
   // if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
   if (ec) {
-    $(`[name=${result}]`).val(frNumber(res.toString()))
+    let strRes = res.toString();
+    if(strRes.split('.').length == 1) $(`[name=${result}]`).val(frNumber(strRes) + ',00')
+    if(strRes.split('.').length == 2) {
+      if(strRes.split('.')[1].length == 1) $(`[name=${result}]`).val(frNumber(strRes) + '0');
+      if(strRes.split('.')[1].length == 2) $(`[name=${result}]`).val(frNumber(strRes));
+    }
   }
   else $(`[name=${result}]`).val('');
   isSaveAlive(true);
