@@ -125,7 +125,6 @@ function pageInit () {
   })
   $('.num:not([readonly]').blur(function (value) {
     let val = $(this).val()
-    console.log(val)
     if (/^\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
     else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
