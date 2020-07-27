@@ -72,7 +72,6 @@
             }, 300);
         }
         localStorage.setItem('activePage', p);
-        console.log(e.textContent.includes('commercial'))
         if (p == 5 && e.textContent.includes('commercial')) localStorage.setItem('activePagePart', 1)
         if (p == 5 && e.textContent.includes('agricole')) localStorage.setItem('activePagePart', 2)
         $('.left-nav .w3-button, .w3-dropdown-click').removeClass('active');
