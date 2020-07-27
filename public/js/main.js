@@ -11,15 +11,17 @@ function valueCal (adds, subs, result) {
   let res = 0
   let ec = ''
   adds.forEach(x => {
-    ec += $(`[name=${x}]`).val().replace(',', '.')
-    res += Number($(`[name=${x}]`).val().replace(',', '.'))
+    ec += $(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.')
+    res += Number($(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.'))
   })
   subs.forEach(x => {
-    ec += $(`[name=${x}]`).val().replace(',', '.')
-    res -= Number($(`[name=${x}]`).val().replace(',', '.'))
+    ec += $(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.')
+    res -= Number($(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.'))
   })
   // if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
-  if (ec) $(`[name=${result}]`).val(frNumber(res.toString()))
+  if (ec) {
+    $(`[name=${result}]`).val(frNumber(res.toString()))
+  }
   else $(`[name=${result}]`).val('');
   isSaveAlive(true);
 }
