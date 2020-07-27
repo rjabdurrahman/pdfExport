@@ -115,8 +115,9 @@ function pageInit () {
   $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
   $('.load-overlay').show()
   $('.num').focus(function () {
+    $(this).val($(this).val().replace(/[.]/g, ''));
     $(this).inputFilter(function (value) {
-      return /^[-]{0,1}\d*,*\d*$/.test(value)
+      return /^[-]{0,1}\d*,*\d{0,2}$/.test(value)
     })
   })
   $('.numo').inputFilter(function (value) {
@@ -124,9 +125,10 @@ function pageInit () {
   })
   $('.num').blur(function (value) {
     let val = $(this).val()
-    if (/^\d+$/.test(val)) $(this).val(val + ',00')
-    else if (/^\d+[,]$/.test(val)) $(this).val(val + '00')
-    else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(val + '0')
+    if (/^\d+$/.test(val)) $(this).val(Number(val).toLocaleString('fr-FR').replace(/\s/g, '.') + ',00')
+    else if (/^\d+[,]$/.test(val)) $(this).val(Number(val).toLocaleString('fr-FR').replace(/\s/g, '.') + '00')
+    else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(Number(val).toLocaleString('fr-FR').replace(/\s/g, '.') + '0')
+    else if (/^\d+[,]\d{1,2}$/.test(val)) $(this).val(Number(val.replace(',','.')).toLocaleString('fr-FR').replace(/\s/g, '.'))
   })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {
