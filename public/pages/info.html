@@ -3197,11 +3197,11 @@
         <input name="17d1721" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.nom}}" class="a17207">
         <input name="17d1720" type="checkbox" class="a17198" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.is_frais_domestiques == 'Yes'">
         <input name="17d1719" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux}}" class="a17189 num">
-        <input name="17d1718" type="checkbox" class="a171710" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_deja_presente == 'Yes'">
-        <input name="17d1717" type="checkbox" class="a171611" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe == 'Yes'">
+        <input name="17d1718" type="checkbox" class="a171710" onchange="$('[name=17d1717]')[0].checked = false" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_deja_presente == 'Yes'">
+        <input name="17d1717" type="checkbox" class="a171611" onchange="$('[name=17d1718]')[0].checked = false" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe == 'Yes'">
         <input name="17d1716" type="text" value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux}}" class="a171512 num">
-        <input name="17d1715" type="checkbox" class="a171413" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_deja_presente == 'Yes'">
-        <input name="17d1714" type="checkbox" class="a171314" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe == 'Yes'">
+        <input name="17d1715" type="checkbox" onchange="$('[name=17d1714]')[0].checked = false" class="a171413" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_deja_presente == 'Yes'">
+        <input name="17d1714" type="checkbox" onchange="$('[name=17d1715]')[0].checked = false" class="a171314" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe == 'Yes'">
         <input name="17d1713" type="checkbox" class="a171215" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite == 'Yes'">
         <input name="17d1712" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r8}}" class="a171116">
         <input name="17d1711" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r7}}" class="a171017">
