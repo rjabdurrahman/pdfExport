@@ -49,10 +49,14 @@
         <input name="16d1607" type="text" value="{{client.depenses_speciales.cotisations_obligatoires.rev_non_exo.total}}" class="num a1601160246" readonly>
         <input name="16d1606" type="text" value="{{client.depenses_speciales.cotisations_obligatoires.rev_non_exo.conjoint_partenaire.prelevements}}" class="num a160247" onkeyup="valueCal(['16d1605', '16d1606'], [], '16d1607')" >
         <input name="16d1605" type="text" value="{{client.depenses_speciales.cotisations_obligatoires.rev_non_exo.contribuable.prelevements}}" class="num a160148" onkeyup="valueCal(['16d1605', '16d1606'], [], '16d1607')" >
-        <input name="16d1604" type="checkbox" class="checkbox449" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_non == 'Yes'">
-        <input name="16d1603" type="checkbox" class="checkbox350" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui == 'Yes'">
-        <input name="16d1602" type="checkbox" class="checkbox251" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_non == 'Yes'">
-        <input name="16d1601" type="checkbox" class="checkbox152" ng-checked="client.depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui == 'Yes'">
+        <input name="16d1603" id="16d1604" type="radio" >
+        <label for="16d1604" class="checkbox449"></label>
+        <input name="16d1603" id="16d1603" type="radio" >
+        <label for="16d1603" class="checkbox350"></label>
+        <input name="16d1601" id="16d1602" type="radio" value="myguichet">
+        <label for="16d1602" class="checkbox251"></label>
+        <input name="16d1601" id="16d1601" type="radio" value="courrier">
+        <label for="16d1601" class="checkbox152"></label>
         <div class="totaldesdpensesspcialesdductiblesreporterlapage20case2037dpensesspciales53">
             Total des dépenses spéciales déductibles (à reporter à la page 20, case 2037 «dépenses spéciales»)
         </div>
