@@ -51,7 +51,6 @@ module.exports = function (info) {
                     abat_speciale_agricole: info['19d1936']
                 },
                 total: info['19d1937']
-                
             },
             cat5: {
                 contribuable: {
