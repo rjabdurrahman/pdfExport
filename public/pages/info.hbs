@@ -103,6 +103,7 @@
     }
     function resetPage() {
         clearForm('.form-input #page' + localStorage.activePage);
+        dependedValCal();
         isSaveAlive(true);
     }
     $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
