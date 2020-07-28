@@ -109,13 +109,45 @@ function radioCheck (info) {
     ) == 'mois'
   )
     $(`#page7 :radio[id="7d786"]`).attr('checked', true)
+  if (
+    _.get(
+      info,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui_non'
+    ) == 'courrier'
+  )
+    $(`#page16 :radio[id="16d1601"]`).attr('checked', true)
+  else if (
+    _.get(
+      info,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui_non'
+    ) == 'myguichet'
+  )
+    $(`#page16 :radio[id="16d1602"]`).attr('checked', true)
+  if (
+    _.get(
+      info,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui_non'
+    ) == 'courrier'
+  )
+    $(`#page16 :radio[id="16d1603"]`).attr('checked', true)
+  else if (
+    _.get(
+      info,
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui_non'
+    ) == 'myguichet'
+  )
+    $(`#page16 :radio[id="16d1604"]`).attr('checked', true)
 }
 
 function pageInit () {
   $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
   $('.load-overlay').show()
   $('.num:not([readonly]').focus(function () {
-    $(this).val($(this).val().replace(/[.]/g, ''));
+    $(this).val(
+      $(this)
+        .val()
+        .replace(/[.]/g, '')
+    )
     $(this).inputFilter(function (value) {
       return /^[-]{0,1}\d*,*\d{0,2}$/.test(value)
     })
@@ -128,8 +160,8 @@ function pageInit () {
     if (/^\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
     else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
-    else if (/^\d+[,][1-9]{2}$/.test(val)) $(this).val(frNumber(val));
-    else if (/^\d+[,][0]{2}$/.test(val)) $(this).val(frNumber(val)+',00');
+    else if (/^\d+[,][1-9]{2}$/.test(val)) $(this).val(frNumber(val))
+    else if (/^\d+[,][0]{2}$/.test(val)) $(this).val(frNumber(val) + ',00')
   })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {
