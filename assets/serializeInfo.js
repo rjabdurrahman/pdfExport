@@ -200,13 +200,13 @@ module.exports = function serializeInfo (client) {
       'enfants.demande_cim.table[1].montant_mensuel_allocation',
       ''
     ),
-    ['x2d39x']: _.get(client, 'enfants.demande_cim.tableau[1].nom_prenom', ''),
+    ['x2d39x']: _.get(client, 'enfants.demande_cim.table[1].nom_prenom', ''),
     ['x2d38x']: _.get(
       client,
       'enfants.demande_cim.table[0].montant_mensuel_allocation',
       ''
     ),
-    ['x2d37x']: _.get(client, 'enfants.demande_cim.tableau[0].nom_prenom', ''),
+    ['x2d37x']: _.get(client, 'enfants.demande_cim.table[0].nom_prenom', ''),
     ['x2d34x']: _.get(client, 'enfants.c.date_de_naissance', ''),
     ['x2d33x']: _.get(client, 'enfants.c.prenom', ''),
     ['x2d32x']: _.get(client, 'enfants.c.nom', ''),
