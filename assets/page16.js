@@ -29,16 +29,14 @@ module.exports = function (info) {
                         contributions: info['16d1617'],
                         contributions_total: info['16d1619'],
                         affiliation: {
-                            is_oui: info['16d1601'] ? info['16d1601'] : 'Off',
-                            is_non: info['16d1602'] ? info['16d1602'] : 'Off'
+                            is_oui_non: info['16d1601']
                         }
                     },
                     conjoint_partenaire: {
                         cotisations: info['16d1612'],
                         contributions: info['16d1618'],
                         affiliation: {
-                            is_oui: info['16d1603'] ? info['16d1603'] : 'Off',
-                            is_non: info['16d1604'] ? info['16d1604'] : 'Off'
+                            is_oui_non: info['16d1603']
                         }
                     }
                 },
