@@ -3950,31 +3950,7 @@ let fdfText = `%FDF-1.2
 /T (F)
 >>]
 >>
-/JavaScript 
-    << 
-    /Doc 2 0 R
-    /After (confirmSend();)
-    >>
 >>
-endobj
-2 0 obj
-[ 
-(confirmSend) 3 0 R
-]
-endobj
-3 0 obj
-<<
->>
-stream
-function confirmSend()
-{
-    for (var i = 0; i < this.numFields; i++)
-    {
-        this.getField(getNthFieldName(i)).visible=true;
-        this.getField(getNthFieldName(i)).readonly=false;
-    }
-}
-endstream
 endobj
 trailer
 
