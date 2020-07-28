@@ -1,3 +1,2 @@
 node_modules
-/pdf/client_files/*
-/pdf/data_bind.fdf
+pdf/data_bind.fdf
