@@ -112,8 +112,8 @@ module.exports = function (info) {
                         total_pertes_total: info['16d1652']
                     }
                 }
-            }
-
+            },
+            total_des_depenses: info['16d1653']
         }
 
     }
