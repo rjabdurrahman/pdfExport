@@ -33732,6 +33732,11 @@ header {
   background-position: 50% 50%;
 }
 
+.form-input textarea {
+  resize: none;
+  padding: 4px;
+}
+
 input,
 select,
 option,
