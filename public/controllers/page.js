@@ -137,6 +137,34 @@ function radioCheck (info) {
     ) == 'myguichet'
   )
     $(`#page16 :radio[id="16d1604"]`).attr('checked', true)
+  if (
+    _.get(
+      info,
+      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe_deja_presente'
+    ) == 'annexe'
+  )
+    $(`#page17 :radio[id="17d1714"]`).attr('checked', true)
+  else if (
+    _.get(
+      info,
+      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe_deja_presente'
+    ) == 'deja_presente'
+  )
+    $(`#page17 :radio[id="17d1715"]`).attr('checked', true)
+  if (
+    _.get(
+      info,
+      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe_deja_presente'
+    ) == 'annexe'
+  )
+    $(`#page17 :radio[id="17d1717"]`).attr('checked', true)
+  else if (
+    _.get(
+      info,
+      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe_deja_presente'
+    ) == 'deja_presente'
+  )
+    $(`#page17 :radio[id="17d1718"]`).attr('checked', true)
 }
 
 function pageInit () {
