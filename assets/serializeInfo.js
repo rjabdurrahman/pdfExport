@@ -3395,24 +3395,14 @@ module.exports = function serializeInfo (client) {
       'depenses_speciales.cotisations_obligatoires.rev_non_exo.contribuable.prelevements',
       ''
     ),
-    ['x16d1604x']: _.get(
-      client,
-      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_non',
-      ''
-    ),
     ['x16d1603x']: _.get(
       client,
-      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui',
-      ''
-    ),
-    ['x16d1602x']: _.get(
-      client,
-      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_non',
+      'depenses_speciales.regimes_complementaires.rev_non_exo.conjoint_partenaire.affiliation.is_oui_non',
       ''
     ),
     ['x16d1601x']: _.get(
       client,
-      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui',
+      'depenses_speciales.regimes_complementaires.rev_non_exo.contribuable.affiliation.is_oui_non',
       ''
     ),
     // Page 17
