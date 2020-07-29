@@ -11,10 +11,10 @@ function checkDone () {
     }
     let element = $(`.np${pageNo}`)
     $(
-      `#page${pageNo} input:text, #page${pageNo} input[type=number], #page${pageNo} input:checkbox, #page${pageNo} input:radio`
+      `#page${pageNo} input:text, #page${pageNo} input[type=number], #page${pageNo} input:checkbox, #page${pageNo} input:radio, #page${pageNo} textarea`
     ).each(function (j) {
       if (
-        ((this.type == 'text' || this.type == 'number') && this.value) ||
+        ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
         (this.type == 'checkbox' && this.checked) ||
         (this.type == 'radio' && this.checked)
       ) {
