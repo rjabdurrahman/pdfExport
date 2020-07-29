@@ -42,6 +42,11 @@ function pageCalculation () {
   ).keyup(function (e) {
     dependedValCal()
   })
+  $('.form-input input')
+    .not(':disabled')
+    .keypress(function (e) {
+      grandCalculation();
+    })
 }
 
 function dependedValCal () {
@@ -59,7 +64,7 @@ function dependedValCal () {
     ],
     [],
     '15d1553'
-  );
+  )
   valueCal(
     [
       '16d1605',
@@ -79,5 +84,74 @@ function dependedValCal () {
     ],
     [],
     '16d1653'
+  )
+}
+
+function grandCalculation() {
+  valueCal(
+    [
+      '5d34',
+      '5d70',
+      '6d50',
+      '7d759',
+      '8d841',
+      '9d935',
+      '10d1029',
+      '11d1129'
+    ],
+    [],
+    '20d2033'
+  )
+  valueCal(
+    [
+      '5d35',
+      '5d71',
+      '6d51',
+      '7d760',
+      '8d842',
+      '9d936',
+      '10d1030',
+      '11d1130'
+    ],
+    [],
+    '20d2034'
+  )
+  valueCal(
+    [
+      '5d36',
+      '5d72',
+      '6d52',
+      '7d761',
+      '8d843',
+      '9d938',
+      '10d1032',
+      '11d1132'
+    ],
+    [],
+    '20d2035'
+  )
+  valueCal(
+    [
+      '5d37',
+      '5d73',
+      '6d53',
+      '7d762',
+      '8d844',
+      '9d939',
+      '10d1033',
+      '11d1133'
+    ],
+    [],
+    '20d2036'
+  )
+  valueCal(
+    [
+      '20d2033',
+      '20d2034',
+      '20d2035',
+      '20d2036'
+    ],
+    [],
+    '20d2038'
   )
 }
