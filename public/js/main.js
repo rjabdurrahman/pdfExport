@@ -12,11 +12,11 @@ function valueCal (adds, subs, result) {
   let ec = ''
   adds.forEach(x => {
     ec += $(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.')
-    res += Number($(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.'))
+    res += Number($(`[name=${x}]`).not(':disabled').val().replace(/[.]/g, '').replace(',', '.'))
   })
   subs.forEach(x => {
     ec += $(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.')
-    res -= Number($(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.'))
+    res -= Number($(`[name=${x}]`).not(':disabled').val().replace(/[.]/g, '').replace(',', '.'))
   })
   // if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
   if(result == '16d1653') {
