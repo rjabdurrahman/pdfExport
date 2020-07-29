@@ -35,6 +35,13 @@ function pageCalculation () {
   ).keyup(function (e) {
     dependedValCal()
   })
+  $(
+    sel(
+      '16d1605,16d1606,16d1611,16d1612,16d1617,16d1618,16d1620,16d1621,16d1623,16d1624,16d1644,16d1645,16d1647,16d1648'
+    )
+  ).keyup(function (e) {
+    dependedValCal()
+  })
 }
 
 function dependedValCal () {
@@ -52,5 +59,25 @@ function dependedValCal () {
     ],
     [],
     '15d1553'
+  );
+  valueCal(
+    [
+      '16d1605',
+      '16d1606',
+      '16d1611',
+      '16d1612',
+      '16d1617',
+      '16d1618',
+      '16d1620',
+      '16d1621',
+      '16d1623',
+      '16d1624',
+      '16d1644',
+      '16d1645',
+      '16d1647',
+      '16d1648'
+    ],
+    [],
+    '16d1653'
   )
 }
