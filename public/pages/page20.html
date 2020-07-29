@@ -12,7 +12,8 @@
         <input name="20d2002" type="text" value="{{client.revenu_imposable.date}}" class="date rectangledate9" />
         <input name="20d2001" type="text" value="{{client.revenu_imposable.lieu}}" class="rectanglelieu10" />
         <input type="text" class="a203811 num" disabled />
-        <input type="text" class="a203712 num" disabled />
+        <input name="16d1653" type="text" value="{{client.depenses_speciales.total_des_depenses}}" class="a203712 t_center" disabled>
+        <!-- <input type="text" class="a203712 num" disabled /> -->
         <input type="text" class="a203613 num" disabled />
         <input type="text" class="a203514 num" disabled />
         <input type="text" class="a203415 num" disabled />
@@ -29,26 +30,46 @@
         <input type="text" class="a202326 num" disabled />
         <input type="text" class="a202227 num" disabled />
         <input type="text" class="a202128 num" disabled />
-        <input type="text" class="a202029 num" disabled />
+        <input name="8d844" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a_deduire.totalABC}}" class="num a202029" disabled/>
+        <input name="8d843" type="text" value="{{client.pension.rev_exo.contribuable.a_deduire.totalABC}}" class="num a201930" disabled/>
+        <input name="8d842" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a_deduire.totalABC}}" class="num a201831" disabled/>
+        <input name="8d841" type="text" value="{{client.pension.rev_non_exo.contribuable.a_deduire.totalABC}}" class="num a201732" disabled/>
+        <!-- <input type="text" class="a202029 num" disabled />
         <input type="text" class="a201930 num" disabled />
         <input type="text" class="a201831 num" disabled />
-        <input type="text" class="a201732 num" disabled />
-        <input type="text" class="a201633 num" disabled />
+        <input type="text" class="a201732 num" disabled /> -->
+        <input name="7d762" type="text" value="{{client.occup_salariee.rev_exo.conjoint_partenaire.a_deduire.totalABCDE}}" class="num a201633" disabled />
+        <input name="7d761" type="text" value="{{client.occup_salariee.rev_exo.contribuable.a_deduire.totalABCDE}}" class="num a201534" disabled />
+        <input name="7d760" type="text" value="{{client.occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.totalABCDE}}" class="num a201435" disabled />
+        <input name="7d759" type="text" value="{{client.occup_salariee.rev_non_exo.contribuable.a_deduire.totalABCDE}}" class="num a201336" disabled />
+        <!-- <input type="text" class="a201633 num" disabled />
         <input type="text" class="a201534 num" disabled />
         <input type="text" class="a201435 num" disabled />
-        <input type="text" class="a201336 num" disabled />
-        <input type="text" class="a201237 num" disabled />
+        <input type="text" class="a201336 num" disabled /> -->
+        <input name="6d53" value="{{client.ben_prov.rev_exo.conjoint_partenaire.total3}}" type="text" class="num a201237" disabled/>
+        <input name="6d52" value="{{client.ben_prov.rev_exo.contribuable.total3}}" type="text" class="num a201138" disabled/>
+        <input name="6d51" value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.total3}}" type="text" class="num a201039" disabled/>
+        <input name="6d50" value="{{client.ben_prov.rev_non_exo.contribuable.total3}}" type="text" class="num a200940" disabled/>
+        <!-- <input type="text" class="a201237 num" disabled />
         <input type="text" class="a201138 num" disabled />
         <input type="text" class="a201039 num" disabled />
-        <input type="text" class="a200940 num" disabled />
-        <input type="text" class="a200841 num" disabled />
+        <input type="text" class="a200940 num" disabled /> -->
+        <input name="5d73" type="text" class="num a200841" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total}}" disabled />
+        <input name="5d72" type="text" class="num a200742" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total}}" disabled />
+        <input name="5d71" type="text" class="num a200643" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total}}" disabled />
+        <input name="5d70" type="text" class="num a200544" value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total}}" disabled />
+        <!-- <input type="text" class="a200841 num" disabled />
         <input type="text" class="a200742 num" disabled />
         <input type="text" class="a200643 num" disabled />
-        <input type="text" class="a200544 num" disabled />
-        <input type="text" class="a200445 num" disabled />
-        <input type="text" class="a200346 num" disabled />
-        <input type="text" class="a200247 num" disabled />
-        <input type="text" class="a200148 num" disabled />
+        <input type="text" class="a200544 num" disabled /> -->
+        <input name="5d37" type="text" class="num a200445" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total}}" disabled />
+        <input name="5d36" type="text" class="num a200346" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total}}" disabled />
+        <input name="5d35" type="text" class="num a200247" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total}}" disabled />
+        <input name="5d34" type="text" class="num a200148" value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total}}" disabled />
+        <!-- <input name="5d37" type="text" class="a200445 num" disabled />
+        <input name="5d36" type="text" class="a200346 num" disabled />
+        <input name="5d35" type="text" class="a200247 num" disabled />
+        <input name="5d34" type="text" class="a200148 num" disabled /> -->
         <div class="crditdimptmonoparental49">
             Crédit d'impôt monoparental
         </div>
