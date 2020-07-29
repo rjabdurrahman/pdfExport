@@ -23,13 +23,11 @@ module.exports = function(info){
             abattements_forfaitaires1: {
                 is_invalidite: info['17d1713'] ? info['17d1713'] : 'Off',
                 contribuable: {
-                    is_en_annexe: info['17d1714'] ? info['17d1714'] : 'Off',
-                    is_deja_presente: info['17d1715'] ? info['17d1715'] : 'Off',
+                    is_en_annexe_deja_presente: info['17d1714'],
                     taux: info['17d1716']
                 },
                 conjoint_partenaire: {
-                    is_en_annexe: info['17d1717'] ? info['17d1717'] : 'Off',
-                    is_deja_presente: info['17d1718'] ? info['17d1718'] : 'Off',
+                    is_en_annexe_deja_presente: info['17d1717'],
                     taux: info['17d1719']
                 }
             },

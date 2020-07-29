@@ -3456,14 +3456,9 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux',
       ''
     ),
-    ['x17d1718x']: _.get(
-      client,
-      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_deja_presente',
-      ''
-    ),
     ['x17d1717x']: _.get(
       client,
-      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe',
+      'charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.is_en_annexe_deja_presente',
       ''
     ),
     ['x17d1716x']: _.get(
@@ -3471,14 +3466,9 @@ module.exports = function serializeInfo (client) {
       'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux',
       ''
     ),
-    ['x17d1715x']: _.get(
-      client,
-      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_deja_presente',
-      ''
-    ),
     ['x17d1714x']: _.get(
       client,
-      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe',
+      'charges_extraordinaires_17.abattements_forfaitaires1.contribuable.is_en_annexe_deja_presente',
       ''
     ),
     ['x17d1713x']: _.get(
