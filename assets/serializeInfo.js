@@ -3155,6 +3155,11 @@ module.exports = function serializeInfo (client) {
       ''
     ),
     // Page 16
+    ['x16d1653x']: _.get(
+      client,
+      'depenses_speciales.total_des_depenses',
+      ''
+    ),
     ['x16d1652x']: _.get(
       client,
       'depenses_speciales.pertes_exploitation.pertes_reportables.rev_exo.total_pertes_total',
