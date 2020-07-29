@@ -3155,11 +3155,7 @@ module.exports = function serializeInfo (client) {
       ''
     ),
     // Page 16
-    ['x16d1653x']: _.get(
-      client,
-      'depenses_speciales.total_des_depenses',
-      ''
-    ),
+    ['x16d1653x']: _.get(client, 'depenses_speciales.total_des_depenses', ''),
     ['x16d1652x']: _.get(
       client,
       'depenses_speciales.pertes_exploitation.pertes_reportables.rev_exo.total_pertes_total',
@@ -4015,6 +4011,11 @@ module.exports = function serializeInfo (client) {
     ),
     // Page 20
     ['x20d2002x']: _.get(client, 'revenu_imposable.date', ''),
-    ['x20d2001x']: _.get(client, 'revenu_imposable.lieu', '')
+    ['x20d2001x']: _.get(client, 'revenu_imposable.lieu', ''),
+    ['x20d2038x']: _.get(client, 'revenu_imposable.total_cal', ''),
+    ['x20d2036x']: _.get(client, 'revenu_imposable.total.c4', ''),
+    ['x20d2035x']: _.get(client, 'revenu_imposable.total.c3', ''),
+    ['x20d2034x']: _.get(client, 'revenu_imposable.total.c2', ''),
+    ['x20d2033x']: _.get(client, 'revenu_imposable.total.c1', '')
   }
 }
