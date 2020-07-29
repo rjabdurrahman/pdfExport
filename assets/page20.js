@@ -8,7 +8,8 @@ module.exports = function (info) {
                 c4: info['20d2036']
             },
             lieu: info['20d2001'],
-            date: info['20d2002']
+            date: info['20d2002'],
+            total_cal: info['20d2038']
         }
     }
 }
