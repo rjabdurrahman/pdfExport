@@ -1,3 +1,4 @@
+var clientsCopy = [];
 function isSaveAlive (val) {
   document.querySelector('#submitInfoBtn').disabled = !val
 }

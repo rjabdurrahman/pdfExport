@@ -1,6 +1,6 @@
 <div class="table-container">
     <div class="top">
-        <input class="w3-input w3-border" type="text" placeholder="Recherche" ng-keyup="search($event)">
+        <input class="w3-input w3-border" type="text" placeholder="Recherche" ng-disabled="!searchable" ng-keyup="search($event)">
         <button class="w3-btn icon" onclick="openAddClientModal()"><span style="font-size: 22px;"
                 class="material-icons-outlined">person_add</span>&nbsp;&nbsp;Création</button>
     </div>

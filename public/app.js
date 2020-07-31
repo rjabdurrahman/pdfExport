@@ -29,6 +29,7 @@ app.run(function ($rootScope, $http, $route) {
   $rootScope.$route = $route
   $rootScope.clients = []
   $rootScope.loadingClients = false
+  $rootScope.searchable = false
   $rootScope.loadClients = function () {
     $rootScope.loadingClients = true
     $http({
@@ -38,6 +39,8 @@ app.run(function ($rootScope, $http, $route) {
       .then(function (res) {
         $rootScope.clients = res.data
         $rootScope.loadingClients = false
+        clientsCopy = JSON.parse(JSON.stringify($rootScope.clients));
+        $rootScope.searchable = true
         $('a').click(function (e) {
           if (this.href.includes('/info?id')) $('.load-overlay').show()
         })
@@ -101,14 +104,13 @@ app.controller('NavCtrl', function ($scope, $http) {
 app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   $('.load-overlay').hide()
   $rootScope.loadClients()
-  let clientsCopy = JSON.parse(JSON.stringify($rootScope.clients));
   $scope.search = function (e) {
-    let clients = clientsCopy.find(x => {
+    let clients = clientsCopy.filter(x => {
       let str = x.signaletique.numero_de_dossier + x.signaletique.contribuable.nom + x.signaletique.contribuable.prenom + x.signaletique.contribuable.telephone + x.signaletique.contribuable.courriel;
+      console.log(str)
       return new RegExp(e.target.value.toLowerCase()).test(str.toLowerCase())
     });
-    if(e.target.value.length < 1) $rootScope.clients = clientsCopy;
-    else $rootScope.clients = [clients];
+    $rootScope.clients = clients;
     $rootScope.$applyAsync();
   }
   $scope.deleteClient = function (e) {
