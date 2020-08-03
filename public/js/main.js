@@ -24,7 +24,8 @@ function valueCal (adds, subs, result) {
     res += Number($(`[name=15d1553]`).val().replace(/[.]/g, '').replace(',', '.')) > Number($(`[name=15d1554]`).val().replace(/[.]/g, '').replace(',', '.')) ? Number($(`[name=15d1553]`).val().replace(/[.]/g, '').replace(',', '.')) : Number($(`[name=15d1554]`).val().replace(/[.]/g, '').replace(',', '.'))
   }
   if (ec || (result == '16d1653' && ($(`[name=15d1553]`).val() || $(`[name=15d1554]`).val()))) {
-    let strRes = res.toString();
+    let strRes = res.toFixed(2).toString();
+    console.log(strRes)
     if(strRes.split('.').length == 1) $(`[name=${result}]`).val(frNumber(strRes) + ',00')
     if(strRes.split('.').length == 2) {
       if(strRes.split('.')[1].length == 1) $(`[name=${result}]`).val(frNumber(strRes) + '0');
