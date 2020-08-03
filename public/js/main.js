@@ -27,9 +27,9 @@ function valueCal (adds, subs, result) {
     let strRes = (Math.round( res * 100 ) / 100).toFixed(2).toString();
     // console.log('Str Res', strRes)
     // $(`[name=${result}]`).val(frNumber(strRes))
-    if(/^\d*[.][0]{2}$/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes) + ',00')
-    else if(/^\d*[.]\d[0]{1}/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes) + '0')
-    else if(/^\d*[.]\d\d/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes))
+    if(/^[-]*\d*[.][0]{2}$/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes) + ',00')
+    else if(/^[-]*\d*[.]\d[0]{1}/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes) + '0')
+    else if(/^[-]*\d*[.]\d\d/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes))
   }
   else $(`[name=${result}]`).val('');
   isSaveAlive(true);
