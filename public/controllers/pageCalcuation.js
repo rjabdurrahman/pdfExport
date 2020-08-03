@@ -12,11 +12,13 @@ function pageCalculation () {
       (Number(
         $(sel('3d26'))
           .val()
+          .replace('.', '')
           .replace(',', '.')
       ) /
         Number(
           $(sel('3d27'))
             .val()
+            .replace('.', '')
             .replace(',', '.')
         )) *
       100

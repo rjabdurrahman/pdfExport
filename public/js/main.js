@@ -27,11 +27,6 @@ function valueCal (adds, subs, result) {
     let strRes = res.toFixed(2).toString();
     if(/^\d*[.][0]{2}$/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes) + ',00')
     else if(/^\d*[.]\d[0]{1}/g.test(strRes)) $(`[name=${result}]`).val(frNumber(strRes) + '0')
-    // if(strRes.split('.').length == 1) $(`[name=${result}]`).val(frNumber(strRes) + ',00')
-    // if(strRes.split('.').length == 2) {
-    //   if(strRes.split('.')[1].length == 1) $(`[name=${result}]`).val(frNumber(strRes) + '0');
-    //   if(strRes.split('.')[1].length == 2) $(`[name=${result}]`).val(frNumber(strRes));
-    // }
   }
   else $(`[name=${result}]`).val('');
   isSaveAlive(true);
