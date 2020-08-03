@@ -147,10 +147,9 @@ function grandCalculation() {
   valueCal(
     [
       '20d2033',
-      '20d2034',
-      '16d1653'
+      '20d2034'
     ],
-    [],
+    ['16d1653'],
     '20d2038'
   )
 }
