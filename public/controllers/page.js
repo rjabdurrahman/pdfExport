@@ -40,7 +40,7 @@ function checkDone () {
 function radioCheck (info) {
   if (_.get(info, 'etat_civil.statut'))
     $(`#page3 :radio[value=${info.etat_civil.statut}]`).attr('checked', true)
-  if (info.options.partenaires.sl_document)
+  if (_.get(info, 'options.partenaires.sl_document'))
     $(`#page4 :radio[value=${info.options.partenaires.sl_document}]`).attr(
       'checked',
       true
