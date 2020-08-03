@@ -186,12 +186,12 @@ function pageInit () {
   $('.num:not([readonly]').blur(function (value) {
     let val = $(this).val()
     console.log(frNumber(val))
-    if (/^\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
-    else if (/^\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
-    else if (/^\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
-    else if (/^\d+[,][0]{2}$/.test(val)) $(this).val(frNumber(val) + ',00')
-    else if (/^\d+[,]\d[0]$/.test(val)) $(this).val(frNumber(val) + '0')
-    else if (/^\d+[,][0-9]{2}$/.test(val)) $(this).val(frNumber(val))
+    if (/^[-]{0,1}\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
+    else if (/^[-]{0,1}\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
+    else if (/^[-]{0,1}\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
+    else if (/^[-]{0,1}\d+[,][0]{2}$/.test(val)) $(this).val(frNumber(val) + ',00')
+    else if (/^[-]{0,1}\d+[,]\d[0]$/.test(val)) $(this).val(frNumber(val) + '0')
+    else if (/^[-]{0,1}\d+[,][0-9]{2}$/.test(val)) $(this).val(frNumber(val))
   })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {
