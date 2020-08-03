@@ -44,7 +44,7 @@ function pageCalculation () {
   })
   $('.form-input input')
     .not(':disabled')
-    .keypress(function (e) {
+    .focusout(function (e) {
       grandCalculation();
     })
 }
