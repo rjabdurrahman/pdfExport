@@ -35,6 +35,55 @@ function checkDone () {
       .prevAll()
       .children('a')
       .removeClass('done')
+  // checkNotDone()
+}
+
+function checkNotDone() {
+  console.log('called')
+  $(
+    `.part16_p1 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
+  ).each(function (j) {
+    if (
+      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
+      (this.type == 'checkbox' && this.checked) ||
+      (this.type == 'radio' && this.checked)
+    ) {
+      $('.nv16_1').removeClass('done')
+    }
+  })
+  $(
+    `.part16_p2 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
+  ).each(function (j) {
+    if (
+      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
+      (this.type == 'checkbox' && this.checked) ||
+      (this.type == 'radio' && this.checked)
+    ) {
+      $('.nv16_2').removeClass('done')
+    }
+  })
+  $(
+    `.part16_p3 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
+  ).each(function (j) {
+    if (
+      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
+      (this.type == 'checkbox' && this.checked) ||
+      (this.type == 'radio' && this.checked)
+    ) {
+      $('.nv16_3').removeClass('done')
+    }
+  })
+  $(
+    `.part16_p4 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
+  ).each(function (j) {
+    if (
+      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
+      (this.type == 'checkbox' && this.checked) ||
+      (this.type == 'radio' && this.checked)
+    ) {
+      $('.nv16_4').removeClass('done')
+    }
+  })
 }
 
 function radioCheck (info) {
