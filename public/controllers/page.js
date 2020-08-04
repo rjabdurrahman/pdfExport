@@ -62,6 +62,13 @@ function subMenuDoneChecker(selector, checkPoint) {
 }
 
 function subMenuDone () {
+  subMenuDoneChecker('.page5_p1', '.nv5_1');
+  subMenuDoneChecker('.page5_p2', '.nv5_2');
+  subMenuDoneChecker('.page14_p1', '.nv14_1');
+  subMenuDoneChecker('.page14_p2', '.nv14_2');
+  subMenuDoneChecker('.page15_p1', '.nv15_1');
+  subMenuDoneChecker('.page15_p2', '.nv15_2');
+  subMenuDoneChecker('.page15_p3', '.nv15_3');
   subMenuDoneChecker('.page16_p1', '.nv16_1');
   subMenuDoneChecker('.page16_p2', '.nv16_2');
   subMenuDoneChecker('.page16_p3', '.nv16_3');
