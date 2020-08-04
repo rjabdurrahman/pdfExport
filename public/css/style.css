@@ -33915,4 +33915,8 @@ input.num {
   font-size: 22px;
   background-color: rgba(255, 255, 255, 0.7);
 }
+
+.not-refresh {
+  color: blue;
+}
 /*# sourceMappingURL=style.css.map */

@@ -92,7 +92,7 @@ function lsExGJInit (vname, data) {
 function clearForm (target) {
   console.log('clear')
   $(target + ' input')
-    .not(':button, :submit, :reset, :hidden, :checkbox, :radio')
+    .not('.not-refresh, :button, :submit, :reset, :hidden, :checkbox, :radio')
     .val('')
   $(target + ' input:checkbox').prop('checked', false)
   $(target + ' input:radio').prop('checked', false)
