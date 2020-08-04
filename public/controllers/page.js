@@ -1,10 +1,10 @@
 function checkDone () {
   $(
-    '.a01, .a02, .a03, .a04, .a05, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a14, .a15, .a16, .a17, .a19, .a20'
+    '.a01, .a02, .a03, .a04, .a05, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a14, .a15, .a17, .a19, .a20'
   ).each(function (i) {
     let isDone = false
     let pageNo
-    if (i == 16) {
+    if (i == 15) {
       pageNo = 17
     } else {
       pageNo = this.id.replace('page', '')
@@ -14,7 +14,10 @@ function checkDone () {
       `#page${pageNo} input:text, #page${pageNo} input[type=number], #page${pageNo} input:checkbox, #page${pageNo} input:radio, #page${pageNo} textarea`
     ).each(function (j) {
       if (
-        ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
+        ((this.type == 'text' ||
+          this.type == 'number' ||
+          this.type == 'textarea') &&
+          this.value) ||
         (this.type == 'checkbox' && this.checked) ||
         (this.type == 'radio' && this.checked)
       ) {
@@ -35,55 +38,34 @@ function checkDone () {
       .prevAll()
       .children('a')
       .removeClass('done')
-  // checkNotDone()
+  subMenuDone()
 }
 
-function checkNotDone() {
-  console.log('called')
+function subMenuDoneChecker(selector, checkPoint) {
+  let isDone = false;
   $(
-    `.part16_p1 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
+    `${selector} input:text, ${selector} input[type=number], ${selector} input:checkbox, ${selector} input:radio, ${selector} textarea`
   ).each(function (j) {
     if (
-      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
+      ((this.type == 'text' ||
+        this.type == 'number' ||
+        this.type == 'textarea') &&
+        this.value) ||
       (this.type == 'checkbox' && this.checked) ||
       (this.type == 'radio' && this.checked)
     ) {
-      $('.nv16_1').removeClass('done')
+      isDone = true
+      $(checkPoint).addClass('done')
     }
   })
-  $(
-    `.part16_p2 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
-  ).each(function (j) {
-    if (
-      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
-      (this.type == 'checkbox' && this.checked) ||
-      (this.type == 'radio' && this.checked)
-    ) {
-      $('.nv16_2').removeClass('done')
-    }
-  })
-  $(
-    `.part16_p3 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
-  ).each(function (j) {
-    if (
-      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
-      (this.type == 'checkbox' && this.checked) ||
-      (this.type == 'radio' && this.checked)
-    ) {
-      $('.nv16_3').removeClass('done')
-    }
-  })
-  $(
-    `.part16_p4 input:text, part16_p1 input:checkbox, part16_p1 input:radio, part16_p1 textarea`
-  ).each(function (j) {
-    if (
-      ((this.type == 'text' || this.type == 'number' || this.type == 'textarea') && this.value) ||
-      (this.type == 'checkbox' && this.checked) ||
-      (this.type == 'radio' && this.checked)
-    ) {
-      $('.nv16_4').removeClass('done')
-    }
-  })
+  if (!isDone) $(checkPoint).removeClass('done')
+}
+
+function subMenuDone () {
+  subMenuDoneChecker('.page16_p1', '.nv16_1');
+  subMenuDoneChecker('.page16_p2', '.nv16_2');
+  subMenuDoneChecker('.page16_p3', '.nv16_3');
+  subMenuDoneChecker('.page16_p4', '.nv16_4');
 }
 
 function radioCheck (info) {
@@ -238,7 +220,8 @@ function pageInit () {
     if (/^[-]{0,1}\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^[-]{0,1}\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
     else if (/^[-]{0,1}\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
-    else if (/^[-]{0,1}\d+[,][0]{2}$/.test(val)) $(this).val(frNumber(val) + ',00')
+    else if (/^[-]{0,1}\d+[,][0]{2}$/.test(val))
+      $(this).val(frNumber(val) + ',00')
     else if (/^[-]{0,1}\d+[,]\d[0]$/.test(val)) $(this).val(frNumber(val) + '0')
     else if (/^[-]{0,1}\d+[,][0-9]{2}$/.test(val)) $(this).val(frNumber(val))
   })
