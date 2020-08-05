@@ -215,7 +215,7 @@ function pageInit () {
         .replace(/[.]/g, '')
     )
     $(this).inputFilter(function (value) {
-      return /^[-]{0,1}\d*,*\d{0,2}$/.test(value)
+      return /^[-]{0,1}\d*[,]{0,1}\d{0,2}$/.test(value)
     })
   })
   $('.numo').inputFilter(function (value) {
@@ -224,6 +224,11 @@ function pageInit () {
   $('.num:not([readonly]').blur(function (value) {
     let val = $(this).val()
     console.log(frNumber(val))
+    // if(/^[-]{0,1}\d+[,]{1}[0-9]{2}$/.test(frNumber(val).replace(/[.]/g, ''))) {
+    //   $(this).val(frNumber(val));
+    //   $(this).attr('value', frNumber(val))
+    //   return;
+    // } 
     if (/^[-]{0,1}\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^[-]{0,1}\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
     else if (/^[-]{0,1}\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
