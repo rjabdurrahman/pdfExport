@@ -33923,4 +33923,19 @@ input.num {
 .not-refresh:focus {
   background-color: #ffffff !important;
 }
+
+.like-input {
+  text-align: center !important;
+  background-color: white !important;
+  border: 1px solid gray;
+  display: -webkit-inline-box !important;
+  display: -ms-inline-flexbox !important;
+  display: inline-flex !important;
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
 /*# sourceMappingURL=style.css.map */
