@@ -206,6 +206,21 @@ header {
 				margin-top      : 5px;
 			}
 		}
+
+		.menu-items {
+			z-index      : 99999;
+			&::before {
+				content            : '';
+				height             : 10;
+				width              : 10;
+				border             : 10px solid transparent;
+				position           : absolute;
+				top: -20px;
+				right: 7px;
+				border-bottom-color: white;
+			}
+		}
+
 	}
 }
 
@@ -563,10 +578,10 @@ input.num {
 }
 
 .like-input {
-	text-align: center !important;
+	text-align      : center !important;
 	background-color: white !important;
-	border: 1px solid gray;
-	display: inline-flex !important;
-	align-items: center !important;
-	justify-content: center;
+	border          : 1px solid gray;
+	display         : inline-flex !important;
+	align-items     : center !important;
+	justify-content : center;
 }
