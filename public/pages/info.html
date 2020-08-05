@@ -2793,8 +2793,8 @@
             <div id="page15" class="a15 anima-word-break ">
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
         <input name="15d1553" type="text" value="{{client.depenses_speciales15.total_depenses_speciales}}" class="num a15511" readonly />
+        <input name="15d1554" type="text" value="{{client.depenses_speciales15.total_depenses_speciales_1}}" class="num a15520" />
         <div class="page15_p3">
-            <input name="15d1554" type="text" value="{{client.depenses_speciales15.total_depenses_speciales_1}}" class="num a15520" />
             <input name="15d1552" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.plafond_672_1344}}" class="num a15502" />
             <input name="15d1551" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.plafond_672_1344}}" class="num a15493" />
             <input name="15d1550" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees_total}}" class="num a15484" readonly />
@@ -3938,15 +3938,12 @@
     $('.form-input input:checkbox, .form-input input.date').change(function () {
         isSaveAlive(true);
     })
-    /* window.onbeforeunload = function (e) {
-        e = e || window.event;
-        if (e) {
-            if (!$('#submitInfoBtn')[0].disabled)
-                e.returnValue = 'Sure?';
-        }
-        if (!$('#submitInfoBtn')[0].disabled) {
-            return 'Sure?';
-        }
-        else return false;
-    }; */
+    window.addEventListener("beforeunload", function (e) {
+        if($('#submitInfoBtn')[0].disabled) return undefined;
+        var confirmationMessage = 'It looks like you have been editing something. '
+            + 'If you leave before saving, your changes will be lost.';
+
+        (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+        return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+    });
 </script>

@@ -112,15 +112,12 @@
     $('.form-input input:checkbox, .form-input input.date').change(function () {
         isSaveAlive(true);
     })
-    /* window.onbeforeunload = function (e) {
-        e = e || window.event;
-        if (e) {
-            if (!$('#submitInfoBtn')[0].disabled)
-                e.returnValue = 'Sure?';
-        }
-        if (!$('#submitInfoBtn')[0].disabled) {
-            return 'Sure?';
-        }
-        else return false;
-    }; */
+    window.addEventListener("beforeunload", function (e) {
+        if($('#submitInfoBtn')[0].disabled) return undefined;
+        var confirmationMessage = 'It looks like you have been editing something. '
+            + 'If you leave before saving, your changes will be lost.';
+
+        (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+        return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+    });
 </script>
