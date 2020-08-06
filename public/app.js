@@ -15,6 +15,11 @@ app.config([
         controller: 'InfoCtrl',
         activetab: 'page1'
       })
+      .when('/profile', {
+        templateUrl: 'pages/profile.html',
+        controller: 'ProfileCtrl',
+        activetab: 'profile'
+      })
       .otherwise({ redirectTo: '/' })
     // if (window.history && window.history.pushState) {
     //     $locationProvider.html5Mode({
@@ -126,4 +131,8 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
         notify(err.message, 2)
       })
   }
+})
+
+app.controller('ProfileCtrl', function ($scope, $http) {
+  console.log('Profile page')
 })
