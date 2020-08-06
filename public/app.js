@@ -44,7 +44,7 @@ app.run(function ($rootScope, $http, $route) {
       .then(function (res) {
         $rootScope.clients = res.data
         $rootScope.loadingClients = false
-        clientsCopy = JSON.parse(JSON.stringify($rootScope.clients));
+        clientsCopy = JSON.parse(JSON.stringify($rootScope.clients))
         $rootScope.searchable = true
         $('a').click(function (e) {
           if (this.href.includes('/info?id')) $('.load-overlay').show()
@@ -80,19 +80,22 @@ app.run(function ($rootScope, $http, $route) {
         notify('Something Went Wrong!', 2)
       })
   }
-  $rootScope.submitClientDelete = function (id) {
-    let clientId = id
-    $http({
-      method: 'POST',
-      url: `/api/clientdelete/${clientId}`,
-      data: {}
-    })
-      .then(function (res) {
-        loadClients()
-        notify('Delete Client Successfully!', 1)
+  $rootScope.onDelete = null
+  $rootScope.deleteAction = function (e) {
+    $rootScope.onDelete = JSON.parse(e.target.id)
+    $rootScope.$applyAsync()
+  }
+  $rootScope.deleteClient = function () {
+    $('#clientDeleteModal').hide();
+    $http
+      .post('api/delete/' + $rootScope.onDelete._id)
+      .then(res => {
+        if (!res.data.err) notify('Deleted Successfully!', 1)
+        else notify(res.data.err.message, 2)
+        $rootScope.loadClients()
       })
-      .catch(function (err) {
-        notify('Something Went Wrong', 2)
+      .catch(err => {
+        notify(err.message, 2)
       })
   }
 })
@@ -111,25 +114,17 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   $rootScope.loadClients()
   $scope.search = function (e) {
     let clients = clientsCopy.filter(x => {
-      let str = x.signaletique.numero_de_dossier + x.signaletique.contribuable.nom + x.signaletique.contribuable.prenom + x.signaletique.contribuable.telephone + x.signaletique.contribuable.courriel;
+      let str =
+        x.signaletique.numero_de_dossier +
+        x.signaletique.contribuable.nom +
+        x.signaletique.contribuable.prenom +
+        x.signaletique.contribuable.telephone +
+        x.signaletique.contribuable.courriel
       console.log(str)
       return new RegExp(e.target.value.toLowerCase()).test(str.toLowerCase())
-    });
-    $rootScope.clients = clients;
-    $rootScope.$applyAsync();
-  }
-  $scope.deleteClient = function (e) {
-    console.log('Id is', e.target.id)
-    $http
-      .post('api/delete/' + e.target.id)
-      .then(res => {
-        if (!res.data.err) notify('Deleted Successfully!', 1)
-        else notify(res.data.err.message, 2)
-        $rootScope.loadClients()
-      })
-      .catch(err => {
-        notify(err.message, 2)
-      })
+    })
+    $rootScope.clients = clients
+    $rootScope.$applyAsync()
   }
 })
 
