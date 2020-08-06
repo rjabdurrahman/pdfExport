@@ -33381,6 +33381,19 @@ body {
   padding-right: 22px;
 }
 
+#clientDeleteModal form {
+  width: 450px !important;
+}
+
+#clientDeleteModal .footer button {
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #25c1a0;
+  color: white;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 .content-c {
   display: -webkit-box !important;
   display: -ms-flexbox !important;

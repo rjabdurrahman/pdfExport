@@ -74,6 +74,23 @@ body {
 	}
 }
 
+#clientDeleteModal {
+	form {
+		width: 450px !important;
+	}
+
+	.footer {
+		button {
+			font-weight     : bold;
+			font-size       : 14px;
+			background-color: #25c1a0;
+			color           : white;
+			padding-left    : 22px;
+			padding-right   : 22px;
+		}
+	}
+}
+
 .content-c {
 	display         : flex !important;
 	justify-content : space-between !important;
@@ -208,15 +225,16 @@ header {
 		}
 
 		.menu-items {
-			z-index      : 99999;
+			z-index: 99999;
+
 			&::before {
 				content            : '';
 				height             : 10;
 				width              : 10;
 				border             : 10px solid transparent;
 				position           : absolute;
-				top: -20px;
-				right: 7px;
+				top                : -20px;
+				right              : 7px;
 				border-bottom-color: white;
 			}
 		}
