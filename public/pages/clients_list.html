@@ -28,7 +28,9 @@
                         </td>
                         <td>{{client.signaletique.contribuable.prenom}}</td>
                         <td>{{client.signaletique.contribuable.telephone}}</td>
-                        <td>{{client.signaletique.contribuable.courriel}}</td>
+                        <td>
+                            <a href="mailto:{{client.signaletique.contribuable.courriel}}">{{client.signaletique.contribuable.courriel}}</a>
+                        </td>
                         <td>2019</td>
                         <td style="width: 50px;" class="w3-center">
                             <a style="text-decoration: none;" href="/#/info?id={{client._id}}">
