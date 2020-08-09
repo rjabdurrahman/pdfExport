@@ -33863,6 +33863,7 @@ input.num {
 .table-container table thead th {
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 
 .table-container table td,
