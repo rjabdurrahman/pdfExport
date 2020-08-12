@@ -13,15 +13,15 @@ function valueCal (adds, subs, result) {
   let ec = ''
   adds.forEach(x => {
     ec += $(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.')
-    res += Number($(`[name=${x}]`).not(':disabled').val().replace(/[.]/g, '').replace(',', '.'))
+    res += Number($(`[name=${x}]`).not(':disabled').val().replace(/[.]/g, ',').replace(',', '.'))
   })
   subs.forEach(x => {
     ec += $(`[name=${x}]`).val().replace(/[.]/g, '').replace(',', '.')
-    res -= Number($(`[name=${x}]`).not(':disabled').val().replace(/[.]/g, '').replace(',', '.'))
+    res -= Number($(`[name=${x}]`).not(':disabled').val().replace(/[.]/g, ',').replace(',', '.'))
   })
   // if (ec) $(`[name=${result}]`).val(res.toFixed(2).toString().replace('.', ','))
   if(result == '16d1653') {
-    res += Number($(`[name=15d1553]`).val().replace(/[.]/g, '').replace(',', '.')) > Number($(`[name=15d1554]`).val().replace(/[.]/g, '').replace(',', '.')) ? Number($(`[name=15d1553]`).val().replace(/[.]/g, '').replace(',', '.')) : Number($(`[name=15d1554]`).val().replace(/[.]/g, '').replace(',', '.'))
+    res += Number($(`[name=15d1553]`).val().replace(/[.]/g, ',').replace(',', '.')) > Number($(`[name=15d1554]`).val().replace(/[.]/g, '').replace(',', '.')) ? Number($(`[name=15d1553]`).val().replace(/[.]/g, '').replace(',', '.')) : Number($(`[name=15d1554]`).val().replace(/[.]/g, '').replace(',', '.'))
   }
   if (ec || (result == '16d1653' && ($(`[name=15d1553]`).val() || $(`[name=15d1554]`).val()))) {
     let strRes = (Math.round( res * 100 ) / 100).toFixed(2).toString();
