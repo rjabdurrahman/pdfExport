@@ -215,13 +215,14 @@ function pageInit () {
         .replace(/[.]/g, '')
     )
     $(this).inputFilter(function (value) {
-      return /^[-]{0,1}\d*[,]{0,1}\d{0,2}$/.test(value)
+      return /^[-]{0,1}\d*[,.]{0,1}\d{0,2}$/.test(value)
     })
   })
   $('.numo').inputFilter(function (value) {
     return /^\d*$/.test(value)
   })
-  $('.num:not([readonly]').blur(function (value) {
+  $('.num:not([readonly]').blur(function (e) {
+    e.target.value = e.target.value.replace('.', ',')
     let val = $(this).val()
     console.log(frNumber(val))
     // if(/^[-]{0,1}\d+[,]{1}[0-9]{2}$/.test(frNumber(val).replace(/[.]/g, ''))) {
