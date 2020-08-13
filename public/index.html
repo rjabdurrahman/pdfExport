@@ -39,7 +39,7 @@
             </div>
             <div class="w3-bar-item user">
                 <div class="letters">YE</div>
-                <div class="w3-dropdown-hover arrow">
+                <div class="w3-dropdown-menu arrow">
                     <span class="material-icons">keyboard_arrow_down</span>
                     <div class="w3-dropdown-content w3-bar-block w3-border menu-items">
                       <a href="#/profile" class="w3-bar-item w3-button">Profile</a>
@@ -134,6 +134,9 @@
         function closeAddClientModal() {
             document.getElementById('clientModal').style.display = 'none';
         }
+        $('.w3-dropdown-menu').click(function(e) {
+            $(this).children('.w3-dropdown-content').toggle();
+        })
     </script>
 </body>
 
