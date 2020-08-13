@@ -44,6 +44,7 @@ app.run(function ($rootScope, $http, $route) {
       .then(function (res) {
         $rootScope.clients = res.data
         $rootScope.loadingClients = false
+        $('.load-overlay').hide()
         clientsCopy = JSON.parse(JSON.stringify($rootScope.clients))
         $rootScope.searchable = true
         $('a').click(function (e) {
@@ -86,7 +87,7 @@ app.run(function ($rootScope, $http, $route) {
     $rootScope.$applyAsync()
   }
   $rootScope.deleteClient = function () {
-    $('#clientDeleteModal').hide();
+    $('#clientDeleteModal').hide()
     $http
       .post('api/delete/' + $rootScope.onDelete._id)
       .then(res => {
@@ -110,7 +111,7 @@ app.controller('NavCtrl', function ($scope, $http) {
 })
 
 app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
-  $('.load-overlay').hide()
+  $('.load-overlay').show()
   $rootScope.loadClients()
   $scope.search = function (e) {
     let clients = clientsCopy.filter(x => {
@@ -130,4 +131,5 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
 
 app.controller('ProfileCtrl', function ($scope, $http) {
   console.log('Profile page')
+  $('')
 })
