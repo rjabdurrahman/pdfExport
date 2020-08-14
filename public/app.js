@@ -142,9 +142,9 @@ app.controller('ProfileCtrl', function ($scope, $http) {
   $scope.updateProfile = function (e) {
     e.preventDefault()
     $http
-      .post('api/profile')
+      .post('api/profile', $(e.target).serializeArray())
       .then(res => {
-        console.log($(e.target).serializeArray())
+        console.log(res.data)
       })
       .catch(err => console.log(err))
   }
