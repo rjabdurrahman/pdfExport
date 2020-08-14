@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="pdfApp">
+<html lang="fr" ng-app="pdfApp">
 
 <head>
     <meta charset="UTF-8">
@@ -38,7 +38,7 @@
                 </a>
             </div>
             <div class="w3-bar-item user">
-                <div class="letters">YE</div>
+                <div class="letters">...</div>
                 <div class="w3-dropdown-menu arrow">
                     <span class="material-icons">keyboard_arrow_down</span>
                     <div class="w3-dropdown-content w3-bar-block w3-border menu-items">
@@ -136,6 +136,13 @@
         }
         $('.w3-dropdown-menu').click(function(e) {
             $(this).children('.w3-dropdown-content').toggle();
+        })
+        axios.get('http://localhost:3000/api/profile')
+        .then(res => {
+            $('.letters').html(res.data.firstName[0] + res.data.lastName[0])
+        })
+        .catch(err => {
+            alert(err.message)
         })
     </script>
 </body>

@@ -1,4 +1,5 @@
 const router = require('express').Router();
+const getProfile = require('./profile')
 const addClient = require('./client/add')
 const deleteClient = require('./client/delete')
 const getOneClient = require('./client/getOne')
@@ -10,6 +11,7 @@ const infoUpdate = require('./infoUpdate');
 router.get('/', (req, res) => {
     res.send('API is live');
 });
+router.get('/profile', getProfile)
 // Adding new client.......
 router.post('/addclient', addClient);
 //client info update
