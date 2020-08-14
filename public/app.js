@@ -130,13 +130,21 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
 })
 
 app.controller('ProfileCtrl', function ($scope, $http) {
-  console.log('Profile page')
+  $scope.profile = {}
+  $http
+    .get('api/profile')
+    .then(res => {
+      $scope.profile = res.data
+    })
+    .catch(err => {
+      console.log(err)
+    })
   $scope.updateProfile = function (e) {
     e.preventDefault()
     $http
       .post('api/profile')
       .then(res => {
-        console.log(res.data)
+        console.log($(e.target).serializeArray())
       })
       .catch(err => console.log(err))
   }
