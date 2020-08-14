@@ -132,6 +132,12 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
 app.controller('ProfileCtrl', function ($scope, $http) {
   console.log('Profile page')
   $scope.updateProfile = function (e) {
-    console.log(e.target)
+    e.preventDefault()
+    $http
+      .post('api/profile')
+      .then(res => {
+        console.log(res.data)
+      })
+      .catch(err => console.log(err))
   }
 })
