@@ -82,8 +82,8 @@
         <input name="1d12" type="text" class="a11228" value="{{client.signaletique.contribuable.telephone}}">
         <input name="1d11" type="text" class="a11129" value="{{client.signaletique.conjoint_partenaire.profession}}">
         <input name="1d10" type="text" class="a11030" value="{{client.signaletique.contribuable.profession}}">
-        <input name="1d9" type="text" class="numo t_center a10931 not-refresh" value="{{client.signaletique.numero_de_dossier}}"
-            minlength="11" maxlength="11" style="text-align: center;padding-left: 13px !important;letter-spacing: 28.5px;">
+        <input name="1d9" type="text" class="numo a10931 not-refresh" value="{{client.signaletique.numero_de_dossier}}"
+            minlength="11" maxlength="11" style="padding-left: 13px !important;letter-spacing: 28.5px; margin-right: -28.5px;">
         <input name="1d8" type="text" class="a10832"
             value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
         <input name="1d7" type="text" class="a10733" value="{{client.signaletique.contribuable.lieu_de_naissance}}">
@@ -267,8 +267,12 @@
             </div>
             <div class=signaltique104 id=9c80b058-1b02-4abb-b5b9-bdcff1f0a678
                 data-id=9c80b058-1b02-4abb-b5b9-bdcff1f0a678> Signalétique</div>
-            <input class=bureau105 />
-            </input>
+            <select class=bureau105>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
         </div>
     </div>
             <div id="page2" class="a02 anima-word-break ">
