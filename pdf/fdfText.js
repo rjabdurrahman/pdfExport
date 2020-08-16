@@ -1804,7 +1804,7 @@ let fdfText = `%FDF-1.2
 /T (0643)
 >> 
 <<
-/V (Bureau d'imposition:)
+/V (DI)
 /T (Bureaux_d_imposition)
 >> 
 <<
