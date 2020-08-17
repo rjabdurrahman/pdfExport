@@ -1,6 +1,16 @@
 const _ = require('lodash')
 module.exports = function serializeInfo (client) {
   return {
+    ['x0d1x']: _.get(
+      client,
+      'Bureaux_d_imposition',
+      ''
+    ),
+    ['x0d2x']: _.get(
+      client,
+      'Bureaux_d_imposition_adress',
+      ''
+    ),
     // Page 1
     ['x1d40x']: _.get(
       client,

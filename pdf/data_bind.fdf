@@ -456,7 +456,7 @@
 /T (Internet_Guichet)
 >> 
 <<
-/V ()
+/V (1, Grand-rue, Clervauxboîte postale 26, L-9701 Clervaux (+352) 247-52479pphcle@co.etat.lu)
 /T (bureau_adress)
 >>]
 /T (X)
@@ -1804,7 +1804,7 @@
 /T (0643)
 >> 
 <<
-/V (DI)
+/V (CL)
 /T (Bureaux_d_imposition)
 >> 
 <<

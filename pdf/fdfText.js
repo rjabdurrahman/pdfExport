@@ -456,7 +456,7 @@ let fdfText = `%FDF-1.2
 /T (Internet_Guichet)
 >> 
 <<
-/V ()
+/V (x0d2x)
 /T (bureau_adress)
 >>]
 /T (X)
@@ -1804,7 +1804,7 @@ let fdfText = `%FDF-1.2
 /T (0643)
 >> 
 <<
-/V (DI)
+/V (x0d1x)
 /T (Bureaux_d_imposition)
 >> 
 <<
