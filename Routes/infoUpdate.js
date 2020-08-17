@@ -26,6 +26,7 @@ module.exports = (req, res) => {
   let info = {}
   req.body.forEach(x => (info[x.name] = x.value))
   let data = {
+    Bureaux_d_imposition: info['0d1'],
     ...page1(info),
     ...page2(info),
     ...page3(info),
