@@ -1,0 +1,164 @@
+<div id="page8" class="a08 anima-word-break ">
+    <div style="width: 1061px; height: 100%; position:relative; margin:auto;">
+        <input name="8d846" type="text" value="{{client.pension.abattement_extra_pro.rente_date}}" class="date t_center a8460" />
+        <input name="8d845" type="checkbox" class="a8451" ng-checked="client.pension.abattement_extra_pro.is_demande == 'Yes'" />
+        <input name="8d844" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a_deduire.totalABC}}" class="num a8442" readonly/>
+        <input name="8d843" type="text" value="{{client.pension.rev_exo.contribuable.a_deduire.totalABC}}" class="num a8433" readonly/>
+        <input name="8d842" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a_deduire.totalABC}}" class="num a8424" readonly/>
+        <input name="8d841" type="text" value="{{client.pension.rev_non_exo.contribuable.a_deduire.totalABC}}" class="num a8415" readonly/>
+        <input name="8d840" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a_deduire.frais_obtention}}" class="num a8406" onkeyup="valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d839" type="text" value="{{client.pension.rev_exo.contribuable.a_deduire.frais_obtention}}" class="num a8397" onkeyup="valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d838" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a_deduire.frais_obtention}}" class="num a8388" onkeyup="valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d837" type="text" value="{{client.pension.rev_non_exo.contribuable.a_deduire.frais_obtention}}" class="num a8379" onkeyup="valueCal(['8d833'], ['8d837'], '8d841')" />
+        <input name="8d836" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.totalABC}}" class="num a83610" readonly/>
+        <input name="8d835" type="text" value="{{client.pension.rev_exo.contribuable.totalABC}}" class="num a83511" readonly/>
+        <input name="8d834" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.totalABC}}" class="num a83412" readonly/>
+        <input name="8d833" type="text" value="{{client.pension.rev_non_exo.contribuable.totalABC}}" class="num a83313" readonly/>
+        <input name="8d832" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.totalBC}}" class="num a83214" readonly/>
+        <input name="8d831" type="text" value="{{client.pension.rev_exo.contribuable.totalBC}}" class="num a83115" readonly/>
+        <input name="8d830" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.totalBC}}" class="num a83016" readonly/>
+        <input name="8d829" type="text" value="{{client.pension.rev_non_exo.contribuable.totalBC}}" class="num a82917" readonly/>
+        <input name="8d828" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.c.exemption}}" class="num a82818" onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d827" type="text" value="{{client.pension.rev_exo.contribuable.c.exemption}}" class="num a82719" onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d826" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.c.exemption}}" class="num a82620" onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d825" type="text" value="{{client.pension.rev_non_exo.contribuable.c.exemption}}" class="num a82521" onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')" />
+        <input name="8d824" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.c.arrerages}}" class="num a82422" onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d823" type="text" value="{{client.pension.rev_exo.contribuable.c.arrerages}}" class="num a82323" onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d822" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.c.arrerages}}" class="num a82224" onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d821" type="text" value="{{client.pension.rev_non_exo.contribuable.c.arrerages}}" class="num a82125" onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')" />
+        <input name="8d820" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.b.exemption}}" class="num a82026" onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d819" type="text" value="{{client.pension.rev_exo.contribuable.b.exemption}}" class="num a81927" onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d818" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.b.exemption}}" class="num a81828" onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d817" type="text" value="{{client.pension.rev_non_exo.contribuable.b.exemption}}" class="num a81729" onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')" />
+        <input name="8d816" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.b.rentes}}" class="num a81630" onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d815" type="text" value="{{client.pension.rev_exo.contribuable.b.rentes}}" class="num a81531" onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d814" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.b.rentes}}" class="num a81432" onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d813" type="text" value="{{client.pension.rev_non_exo.contribuable.b.rentes}}" class="num a81333" onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')" />
+        <input name="8d812" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a.total}}" class="num a81234" readonly/>
+        <input name="8d811" type="text" value="{{client.pension.rev_exo.contribuable.a.total}}" class="num a81135" readonly/>
+        <input name="8d810" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a.total}}" class="num a81036" readonly/>
+        <input name="8d809" type="text" value="{{client.pension.rev_non_exo.contribuable.a.total}}" class="num a80937" readonly />
+        <input name="8d808" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a.pensions_extra}}" class="num a80838" onkeyup="valueCal(['8d804', '8d808'], [], '8d812');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d807" type="text" value="{{client.pension.rev_exo.contribuable.a.pensions_extra}}" class="num a80739" onkeyup="valueCal(['8d803', '8d807'], [], '8d811');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d806" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a.pensions_extra}}" class="num a80640" onkeyup="valueCal(['8d802', '8d806'], [], '8d810');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d805" type="text" value="{{client.pension.rev_non_exo.contribuable.a.pensions_extra}}" class="num a80541" onkeyup="valueCal(['8d801', '8d805'], [], '8d809');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')" />
+        <input name="8d804" type="text" value="{{client.pension.rev_exo.conjoint_partenaire.a.pensions}}" class="num a80442" onkeyup="valueCal(['8d804', '8d808'], [], '8d812');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844')" />
+        <input name="8d803" type="text" value="{{client.pension.rev_exo.contribuable.a.pensions}}" class="num a80343" onkeyup="valueCal(['8d803', '8d807'], [], '8d811');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843')" />
+        <input name="8d802" type="text" value="{{client.pension.rev_non_exo.conjoint_partenaire.a.pensions}}" class="num a80244" onkeyup="valueCal(['8d802', '8d806'], [], '8d810');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')" />
+        <input name="8d801" type="text" value="{{client.pension.rev_non_exo.contribuable.a.pensions}}" class="num a80145" onkeyup="valueCal(['8d801', '8d805'], [], '8d809');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')" />
+        <div
+            class="labattementestapplicablelorsquelundesconjointspartenairesraliseunbnficecommercialunbnficeagricoleetforestierunbnficeprovenantdelexerciceduneprofessionlibraleouunrevenuduneoccupationsalarieetlorsquelautre46">
+            L'abattement est applicable lorsque l'un des conjoints / partenaires réalise un bénéfice commercial,
+            un bénéfice agricole et forestier, un<br>bénéfice provenant de l'exercice d'une profession libérale
+            ou un revenu d'une occupation salariée et lorsque l'autre réalise depuis moins de <br>36 mois (au
+            début de l'année d'imposition) un revenu résultant de pensions ou de rentes.
+        </div>
+        <div class="larentepensionexistedepuisle47">
+            La rente / pension existe depuis le
+        </div>
+        <div
+            class="demandepourlabattementextraprofessionnelausensdelarticle129b2clirapplicableauxconjointsetpartenaires48">
+            Demande pour l'abattement extra-professionnel au sens de l'article 129b (2) c) L.I.R. applicable aux
+            conjoints et partenaires
+        </div>
+        <div class="p249">
+            P2
+        </div>
+        <div class="abattementextraprofessionnel50">
+            Abattement extra-professionnel
+        </div>
+        <div class="totalabcdductionsrevenureporterlapage20cases2017202051">
+            <span class="span0">Total A+B+C - déductions </span><span class="span1">(revenu à reporter à
+                la<br>page 20, cases 2017 à 2020)</span>
+        </div>
+        <div
+            class="fraisdobtentionminimumforfaitairede300encasdedductiondesfraiseffectifslesdtailssontjoindreenannexe52">
+            Frais d'obtention (minimum forfaitaire de 300 €). En<br>cas de déduction des frais effectifs, les
+            détails sont à<br>joindre en annexe
+        </div>
+        <div class="adduire53">
+            A déduire:
+        </div>
+        <div class="totalabc54">
+            Total A+B+C
+        </div>
+        <div class="totalbc55">
+            Total B+C
+        </div>
+        <div class="exemptionde50maximumart115no14lirouautresexemptions56">
+            Exemption de 50% maximum (art. 115, no<br>14 L.I.R.) ou autres exemptions
+        </div>
+        <div class="a57">
+            -
+        </div>
+        <div
+            class="arrragesderentesetdautresallocationsetavantagespriodiquesmontantbrutnoncomprissousaoubcidessus58">
+            Arrérages de rentes et d'autres allocations<br>et avantages périodiques (montant brut)<br>non
+            compris sous A. ou B. ci-dessus
+        </div>
+        <div class="a59">
+            +
+        </div>
+        <div class="c60">
+            C.
+        </div>
+        <div class="exemptionde50art115no14alir61">
+            Exemption de 50% (art. 115, no 14a L.I.R.)
+        </div>
+        <div class="a62">
+            -
+        </div>
+        <div class="rentesviagresmensuellesrsultantduncontratdeprvoyancevieillessemontantbrut63">
+            Rentes viagères mensuelles résultant d'un<br>contrat de prévoyance-vieillesse (montant<br>brut)
+        </div>
+        <div class="a64">
+            +
+        </div>
+        <div class="b65">
+            B.
+        </div>
+        <div class="totala66">
+            Total A
+        </div>
+        <div
+            class="pensionsetautresallocationsmontantbrutpayesparlesanciensemployeursouparlescaissesautonomesderetraite67">
+            Pensions et autres allocations (montant brut)<br>payées par les anciens employeurs ou par
+            les<br>caisses autonomes de retraite
+        </div>
+        <div class="a68">
+            A.
+        </div>
+        <div
+            class="indiquerlescotisationsobligatoireslapage16cases16011604etlesretenuesdimptlasourcesurlespensionslapage19cases1925192669">
+            (indiquer les cotisations obligatoires à la page 16, cases 1601 à 1604 et les retenues d'impôt à la
+            source sur les pensions à la page 19, cases 1925 à 1926)
+        </div>
+        <div class="p170">
+            P1
+        </div>
+        <div class="dterminationdurevenunetrsultantdepensionsouderentes71">
+            Détermination du revenu net résultant de pensions ou de rentes
+        </div>
+        <div class="contribuableconjointpartenaire72">
+            Contribuable<br>conjoint/partenaire
+        </div>
+        <div class="contribuable73">
+            Contribuable
+        </div>
+        <div class="revenusexonrs74">
+            Revenus exonérés
+        </div>
+        <div class="contribuableconjointpartenaire75">
+            Contribuable<br>conjoint/partenaire
+        </div>
+        <div class="contribuable76">
+            Contribuable
+        </div>
+        <div class="revenusnonexonrs77">
+            Revenus non exonérés
+        </div>
+        <div class="p78">
+            P
+        </div>
+    </div>
+</div>
