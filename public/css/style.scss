@@ -429,6 +429,21 @@ header {
 		resize : none;
 		padding: 4px;
 	}
+
+	input {
+
+		&.cell-in0 {
+			letter-spacing: 23px;
+			padding-left  : 11px !important;
+		}
+
+		&.cell-in1 {
+			margin-left   : -2px;
+			letter-spacing: 9px;
+			padding-bottom: 14px !important;
+			padding-right : 0 !important;
+		}
+	}
 }
 
 input,
@@ -508,7 +523,7 @@ input.num {
 			th {
 				padding-top   : 10px;
 				padding-bottom: 10px;
-				text-align: center;
+				text-align    : center;
 			}
 		}
 

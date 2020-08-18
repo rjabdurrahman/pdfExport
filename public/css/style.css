@@ -35712,6 +35712,18 @@ header {
   padding: 4px;
 }
 
+.form-input input.cell-in0 {
+  letter-spacing: 23px;
+  padding-left: 11px !important;
+}
+
+.form-input input.cell-in1 {
+  margin-left: -2px;
+  letter-spacing: 9px;
+  padding-bottom: 14px !important;
+  padding-right: 0 !important;
+}
+
 input,
 select,
 option,

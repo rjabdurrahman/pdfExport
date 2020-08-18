@@ -88,12 +88,10 @@
         <input name="1d8" type="text" class="a10832"
             value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}">
         <input name="1d7" type="text" class="a10733" value="{{client.signaletique.contribuable.lieu_de_naissance}}">
-        <input name="1d6" type="text" class="numo a10634 t_left"
-            value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}" maxlength="13"
-            style="letter-spacing: 23px; padding-left: 11px !important;" />
-        <input name="1d5" type="text" class="numo a10535 a_left"
-            value="{{client.signaletique.contribuable.date_de_naissance}}" maxlength="13"
-            style="letter-spacing: 23px; padding-left: 11px !important;" />
+        <input name="1d6" type="text" class="numo cell-in0 a10634 t_left"
+            value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}" maxlength="13" />
+        <input name="1d5" type="text" class="numo cell-in0 a10535 a_left"
+            value="{{client.signaletique.contribuable.date_de_naissance}}" maxlength="13" />
         <input name="1d4" type="text" class="a10436" value="{{client.signaletique.conjoint_partenaire.prenom}}">
         <input name="1d3" type="text" class="a10337 not-refresh" value="{{client.signaletique.contribuable.prenom}}">
         <input name="1d2" type="text" class="a10238" value="{{client.signaletique.conjoint_partenaire.nom}}">
@@ -454,9 +452,9 @@
 </script>
             <div id="page2" class="a02 anima-word-break">
         <div style="width: 1045px; height: 100%; position:relative; margin:auto;">
-            <input name="2d49" value="{{client.enfants.demande_bonification_impot.table[1].date_de_naissance}}" type="text" class="numo a_left a2410">
+            <input name="2d49" value="{{client.enfants.demande_bonification_impot.table[1].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a2410">
             <input name="2d48" value="{{client.enfants.demande_bonification_impot.table[1].nom_prenom}}" type="text" class="a2401">
-            <input name="2d47" value="{{client.enfants.demande_bonification_impot.table[0].date_de_naissance}}" type="text" class="numo a_left a2392">
+            <input name="2d47" value="{{client.enfants.demande_bonification_impot.table[0].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a2392">
             <input name="2d46" value="{{client.enfants.demande_bonification_impot.table[0].nom_prenom}}" type="text" class="a2383">
             <input name="2d45" type="checkbox" class="a2374" ng-checked="client.enfants.demande_bonification_impot.is_demande_bonification_impot == 'Yes'">
             <input name="2d44" value="{{client.enfants.demande_cim.moyens_subsistance[1].subsistance2}}" type="text" class="a2365">
@@ -469,38 +467,38 @@
             <input name="2d37" value="{{client.enfants.demande_cim.table[0].nom_prenom}}" type="text" class="a22912">
             <input name="2d36" type="checkbox" class="a22813" ng-checked="client.enfants.demande_cim.is_demande_cim == 'Yes'">
             <input name="2d35" type="checkbox" class="a22714" ng-checked="client.enfants.c.is_demande_moderation == 'Yes'">
-            <input name="2d34" value="{{client.enfants.c.date_de_naissance}}" type="text" class="numo a_left a22615">
+            <input name="2d34" value="{{client.enfants.c.date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a22615">
             <input name="2d33" value="{{client.enfants.c.prenom}}" type="text" class="a225216">
             <input name="2d32" value="{{client.enfants.c.nom}}" type="text" class="a225117">
             <input name="2d31" value="{{client.enfants.b[2].specification_formation}}" type="text" class="a22418">
             <input name="2d30" type="checkbox" class="a22319" ng-checked="client.enfants.b[2].is_demande_moderation == 'Yes'">
-            <input name="2d29" value="{{client.enfants.b[2].date_de_naissance}}" type="text" class="numo a_left a22220">
+            <input name="2d29" value="{{client.enfants.b[2].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a22220">
             <input name="2d28" value="{{client.enfants.b[2].prenom}}" type="text" class="a221221">
             <input name="2d27" value="{{client.enfants.b[2].nom}}" type="text" class="a221122">
             <input name="2d26" value="{{client.enfants.b[1].specification_formation}}" type="text" class="a22023">
             <input name="2d25" type="checkbox" class="a21924" ng-checked="client.enfants.b[1].is_demande_moderation == 'Yes'">
-            <input name="2d24" value="{{client.enfants.b[1].date_de_naissance}}" type="text" class="numo a_left a21825">
+            <input name="2d24" value="{{client.enfants.b[1].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a21825">
             <input name="2d23" value="{{client.enfants.b[1].prenom}}" type="text" class="a217226">
             <input name="2d22" value="{{client.enfants.b[1].nom}}" type="text" class="a217127">
             <input name="2d21" value="{{client.enfants.b[0].specification_formation}}" type="text" class="a21628">
             <input name="2d20" type="checkbox" class="a21529" ng-checked="client.enfants.b[0].is_demande_moderation == 'Yes'">
-            <input name="2d19" value="{{client.enfants.b[0].date_de_naissance}}" type="text" class="numo a_left a21430">
+            <input name="2d19" value="{{client.enfants.b[0].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a21430">
             <input name="2d18" value="{{client.enfants.b[0].prenom}}" type="text" class="a213231">
             <input name="2d17" value="{{client.enfants.b[0].nom}}" type="text" class="a213132">
             <input name="2d16" type="checkbox" class="a21233" ng-checked="client.enfants.a[3].is_demande_moderation == 'Yes'">
-            <input name="2d15" value="{{client.enfants.a[3].date_de_naissance}}" type="text" class="numo a_left a21134">
+            <input name="2d15" value="{{client.enfants.a[3].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a21134">
             <input name="2d14" value="{{client.enfants.a[3].prenom}}" type="text" class="a210235">
             <input name="2d13" value="{{client.enfants.a[3].nom}}" type="text" class="a210136">
             <input name="2d12" type="checkbox" class="a20937" ng-checked="client.enfants.a[2].is_demande_moderation == 'Yes'">
-            <input name="2d11" value="{{client.enfants.a[2].date_de_naissance}}" type="text" class="numo a_left a20838">
+            <input name="2d11" value="{{client.enfants.a[2].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a20838">
             <input name="2d10" value="{{client.enfants.a[2].prenom}}" type="text" class="a207239">
             <input name="2d9" value="{{client.enfants.a[2].nom}}" type="text" class="a207140">
             <input name="2d8" type="checkbox" class="a20641" ng-checked="client.enfants.a[1].is_demande_moderation == 'Yes'">
-            <input name="2d7" value="{{client.enfants.a[1].date_de_naissance}}" type="text" class="numo a_left a20542">
+            <input name="2d7" value="{{client.enfants.a[1].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a20542">
             <input name="2d6" value="{{client.enfants.a[1].prenom}}" type="text" class="a204243">
             <input name="2d5" value="{{client.enfants.a[1].nom}}" type="text" class="a204144">
             <input name="2d4" type="checkbox" class="a20345" ng-checked="client.enfants.a[0].is_demande_moderation == 'Yes'">
-            <input name="2d3" value="{{client.enfants.a[0].date_de_naissance}}" type="text" class="numo a_left a20246">
+            <input name="2d3" value="{{client.enfants.a[0].date_de_naissance}}" type="text" maxlength="13" class="numo a_left cell-in1 a20246">
             <input name="2d2" value="{{client.enfants.a[0].prenom}}" type="text" class="a201247">
             <input name="2d1" value="{{client.enfants.a[0].nom}}" type="text" class="a201148">
             <div class=jour49 id=4416f3aa-7607-420f-8eb6-fc2654acacbe data-id=4416f3aa-7607-420f-8eb6-fc2654acacbe> jour
@@ -1053,10 +1051,8 @@
                 class="a31611" />
             <input name="3d16" value="{{client.etat_civil.non_residents.contribuable.rue}}" type="text" class="a31512" />
             <input name="3d15" value="{{client.etat_civil.non_residents.contribuable.numero}}" type="text" class="a31413" />
-            <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="text"
-        num      class="numo a_left a31314" />
-            <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="text"
-        num      class="numo a_left a31215" />
+            <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="text" maxlength="13" class="numo cell-in0 a_left a31314" />
+            <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="text" maxlength="13" class="numo cell-in0 a_left a31215" />
             <input name="3d12" value="{{client.etat_civil.non_residents.conjoint_partenaire.nom_prenom}}" type="text"
                 class="a31116" />
             <input name="3d11" value="{{client.etat_civil.non_residents.contribuable.nom_prenom}}" type="text"
