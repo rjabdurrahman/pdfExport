@@ -6620,11 +6620,37 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41612 {
+.a04 .a416b12 {
   background-color: #dfe2e5;
   top: 1024px;
   height: 30px;
-  width: 408px;
+  width: 183px;
+  position: absolute;
+  margin: 0;
+  left: 856px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a41613 {
+  background-color: white;
+  top: 1024px;
+  height: 30px;
+  width: 62px;
+  position: absolute;
+  margin: 0;
+  left: 794px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a416a14 {
+  background-color: #dfe2e5;
+  top: 1024px;
+  height: 30px;
+  width: 163px;
   position: absolute;
   margin: 0;
   left: 631px;
@@ -6633,11 +6659,37 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41513 {
+.a04 .a415b15 {
   background-color: #dfe2e5;
   top: 1024px;
   height: 30px;
-  width: 408px;
+  width: 183px;
+  position: absolute;
+  margin: 0;
+  left: 410px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a41516 {
+  background-color: white;
+  top: 1024px;
+  height: 30px;
+  width: 62px;
+  position: absolute;
+  margin: 0;
+  left: 348px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a415a17 {
+  background-color: #dfe2e5;
+  top: 1024px;
+  height: 30px;
+  width: 163px;
   position: absolute;
   margin: 0;
   left: 185px;
@@ -6646,7 +6698,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41414 {
+.a04 .a41418 {
   background-color: #dfe2e5;
   top: 969px;
   height: 28px;
@@ -6659,7 +6711,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41315 {
+.a04 .a41319 {
   background-color: #dfe2e5;
   top: 969px;
   height: 28px;
@@ -6672,7 +6724,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41216 {
+.a04 .a41220 {
   background-color: #dfe2e5;
   top: 649px;
   height: 20px;
@@ -6685,7 +6737,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41117 {
+.a04 .a41121 {
   background-color: #dfe2e5;
   top: 617px;
   height: 20px;
@@ -6698,7 +6750,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41018 {
+.a04 .a41022 {
   background-color: #dfe2e5;
   top: 585px;
   height: 20px;
@@ -6711,7 +6763,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40919 {
+.a04 .a40923 {
   background-color: #dfe2e5;
   top: 553px;
   height: 20px;
@@ -6724,7 +6776,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40820 {
+.a04 .a40824 {
   background-color: #dfe2e5;
   top: 502px;
   height: 20px;
@@ -6737,7 +6789,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40721 {
+.a04 .a40725 {
   background-color: #dfe2e5;
   top: 502px;
   height: 20px;
@@ -6750,7 +6802,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40622 {
+.a04 .a40626 {
   background-color: #dfe2e5;
   top: 470px;
   height: 20px;
@@ -6763,7 +6815,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40523 {
+.a04 .a40527 {
   background-color: #dfe2e5;
   top: 336px;
   height: 20px;
@@ -6776,7 +6828,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40424 {
+.a04 .a40428 {
   background-color: #dfe2e5;
   top: 310px;
   height: 20px;
@@ -6789,7 +6841,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40325 {
+.a04 .a40329 {
   background-color: #dfe2e5;
   top: 312px;
   height: 42px;
@@ -6802,7 +6854,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40226 {
+.a04 .a40230 {
   background-color: #dfe2e5;
   top: 251px;
   height: 20px;
@@ -6815,7 +6867,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40127 {
+.a04 .a40131 {
   background-color: #dfe2e5;
   top: 84px;
   height: 20px;
@@ -6828,7 +6880,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .le28 {
+.a04 .le32 {
   background-color: rgba(255, 255, 255, 0);
   top: 1432px;
   height: auto;
@@ -6848,7 +6900,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .adfautderemplissagedescases423426ladministrationadmetunerpartitionde50chacundescontribuablecontribuableconjointpartenaireletauxdepourcentagedescases423et424ainsiquedescases425et426doittrede100larp29 {
+.a04 .adfautderemplissagedescases423426ladministrationadmetunerpartitionde50chacundescontribuablecontribuableconjointpartenaireletauxdepourcentagedescases423et424ainsiquedescases425et426doittrede100larp33 {
   background-color: rgba(255, 255, 255, 0);
   top: 1352px;
   height: auto;
@@ -6868,7 +6920,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a30 {
+.a04 .a34 {
   background-color: rgba(255, 255, 255, 0);
   top: 1320px;
   height: auto;
@@ -6888,7 +6940,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a31 {
+.a04 .a35 {
   background-color: rgba(255, 255, 255, 0);
   top: 1318px;
   height: auto;
@@ -6908,7 +6960,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .tauxderpartitiondurevenuimposableajustcommunmondialrallouer32 {
+.a04 .tauxderpartitiondurevenuimposableajustcommunmondialrallouer36 {
   background-color: rgba(255, 255, 255, 0);
   top: 1295px;
   height: auto;
@@ -6928,7 +6980,7 @@ div {
   line-height: 14.0px;
 }
 
-.a04 .encasdedemandepouruneimpositionselonlarticle3ter3lirremplirlescases425et426ciaprs33 {
+.a04 .encasdedemandepouruneimpositionselonlarticle3ter3lirremplirlescases425et426ciaprs37 {
   background-color: rgba(255, 255, 255, 0);
   top: 1264px;
   height: auto;
@@ -6948,7 +7000,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a34 {
+.a04 .a38 {
   background-color: rgba(255, 255, 255, 0);
   top: 1236px;
   height: auto;
@@ -6968,7 +7020,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a35 {
+.a04 .a39 {
   background-color: rgba(255, 255, 255, 0);
   top: 1236px;
   height: auto;
@@ -6988,7 +7040,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .tauxderpartitiondesavancescommunespayesetnonpayesdundossiercommundelannedimposition201936 {
+.a04 .tauxderpartitiondesavancescommunespayesetnonpayesdundossiercommundelannedimposition201940 {
   background-color: rgba(255, 255, 255, 0);
   top: 1213px;
   height: auto;
@@ -7008,46 +7060,6 @@ div {
   line-height: 14.0px;
 }
 
-.a04 .line4837 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 1007px;
-}
-
-.a04 .line4738 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 976px;
-}
-
-.a04 .line4639 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 944px;
-}
-
-.a04 .line4540 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 913px;
-}
-
 .a04 .line4441 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
@@ -7055,7 +7067,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 882px;
+  left: 1002px;
 }
 
 .a04 .line4342 {
@@ -7065,7 +7077,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 850px;
+  left: 965px;
 }
 
 .a04 .line4243 {
@@ -7075,7 +7087,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 819px;
+  left: 929px;
 }
 
 .a04 .line4144 {
@@ -7085,7 +7097,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 787px;
+  left: 892px;
 }
 
 .a04 .line4045 {
@@ -7095,40 +7107,100 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 756px;
+  left: 855px;
 }
 
-.a04 .line3946 {
+.a04 .a146 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 836px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line3947 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 725px;
+  left: 825px;
 }
 
-.a04 .line3847 {
+.a04 .a048 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 806px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line3849 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 693px;
+  left: 794px;
 }
 
-.a04 .line3748 {
+.a04 .line3750 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 662px;
+  left: 753px;
 }
 
-.a04 .jour49 {
+.a04 .line3651 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1024px;
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  margin: 0;
+  left: 712px;
+}
+
+.a04 .line3552 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1024px;
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  margin: 0;
+  left: 671px;
+}
+
+.a04 .jour53 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -7148,7 +7220,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .mois50 {
+.a04 .mois54 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -7168,7 +7240,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .anne51 {
+.a04 .anne55 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -7188,7 +7260,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .line3652 {
+.a04 .line3456 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7198,7 +7270,7 @@ div {
   left: 1007px;
 }
 
-.a04 .line3553 {
+.a04 .line3357 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7208,7 +7280,7 @@ div {
   left: 976px;
 }
 
-.a04 .line3454 {
+.a04 .line3258 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7218,7 +7290,7 @@ div {
   left: 944px;
 }
 
-.a04 .line3355 {
+.a04 .line3159 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7228,7 +7300,7 @@ div {
   left: 913px;
 }
 
-.a04 .line3256 {
+.a04 .line3060 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7238,7 +7310,7 @@ div {
   left: 882px;
 }
 
-.a04 .line3157 {
+.a04 .line2961 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7248,7 +7320,7 @@ div {
   left: 850px;
 }
 
-.a04 .line3058 {
+.a04 .line2862 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7258,7 +7330,7 @@ div {
   left: 819px;
 }
 
-.a04 .line2959 {
+.a04 .line2763 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7268,7 +7340,7 @@ div {
   left: 787px;
 }
 
-.a04 .line2860 {
+.a04 .line2664 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7278,7 +7350,7 @@ div {
   left: 756px;
 }
 
-.a04 .line2761 {
+.a04 .line2565 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7288,7 +7360,7 @@ div {
   left: 725px;
 }
 
-.a04 .line2662 {
+.a04 .line2466 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7298,7 +7370,7 @@ div {
   left: 693px;
 }
 
-.a04 .line2563 {
+.a04 .line2367 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7308,7 +7380,7 @@ div {
   left: 662px;
 }
 
-.a04 .contribuableconjointpartenaire64 {
+.a04 .contribuableconjointpartenaire68 {
   background-color: rgba(255, 255, 255, 0);
   top: 936px;
   height: auto;
@@ -7328,127 +7400,147 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .line2465 {
+.a04 .line2269 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 561px;
+  left: 556px;
 }
 
-.a04 .line2366 {
+.a04 .line2170 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 530px;
+  left: 519px;
 }
 
-.a04 .line2267 {
+.a04 .line2071 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 498px;
+  left: 483px;
 }
 
-.a04 .line2168 {
+.a04 .line1972 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 467px;
+  left: 446px;
 }
 
-.a04 .line2069 {
+.a04 .line1873 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 436px;
+  left: 410px;
 }
 
-.a04 .line1970 {
+.a04 .a174 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 390px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line1775 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 404px;
+  left: 379px;
 }
 
-.a04 .line1871 {
+.a04 .a076 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 360px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line1677 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 373px;
+  left: 348px;
 }
 
-.a04 .line1772 {
+.a04 .line1578 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 341px;
+  left: 307px;
 }
 
-.a04 .line1673 {
+.a04 .line1479 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 310px;
+  left: 266px;
 }
 
-.a04 .line1574 {
+.a04 .line1380 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 279px;
+  left: 225px;
 }
 
-.a04 .line1475 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 247px;
-}
-
-.a04 .line1376 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 216px;
-}
-
-.a04 .jour77 {
+.a04 .jour81 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -7468,7 +7560,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .mois78 {
+.a04 .mois82 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -7488,7 +7580,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .anne79 {
+.a04 .anne83 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -7508,7 +7600,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .line1280 {
+.a04 .line1284 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7518,7 +7610,7 @@ div {
   left: 561px;
 }
 
-.a04 .line1181 {
+.a04 .line1185 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7528,7 +7620,7 @@ div {
   left: 530px;
 }
 
-.a04 .line1082 {
+.a04 .line1086 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7538,7 +7630,7 @@ div {
   left: 498px;
 }
 
-.a04 .line983 {
+.a04 .line987 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7548,7 +7640,7 @@ div {
   left: 467px;
 }
 
-.a04 .line884 {
+.a04 .line888 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7558,7 +7650,7 @@ div {
   left: 436px;
 }
 
-.a04 .line785 {
+.a04 .line789 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7568,7 +7660,7 @@ div {
   left: 404px;
 }
 
-.a04 .line686 {
+.a04 .line690 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7578,7 +7670,7 @@ div {
   left: 373px;
 }
 
-.a04 .line587 {
+.a04 .line591 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7588,7 +7680,7 @@ div {
   left: 341px;
 }
 
-.a04 .line488 {
+.a04 .line492 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7598,7 +7690,7 @@ div {
   left: 310px;
 }
 
-.a04 .line389 {
+.a04 .line393 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7608,7 +7700,7 @@ div {
   left: 279px;
 }
 
-.a04 .line290 {
+.a04 .line294 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7618,7 +7710,7 @@ div {
   left: 247px;
 }
 
-.a04 .line191 {
+.a04 .line195 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -7628,7 +7720,7 @@ div {
   left: 216px;
 }
 
-.a04 .contribuable92 {
+.a04 .contribuable96 {
   background-color: rgba(255, 255, 255, 0);
   top: 936px;
   height: auto;
@@ -7648,7 +7740,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .swiftbic93 {
+.a04 .swiftbic97 {
   background-color: rgba(255, 255, 255, 0);
   top: 1174px;
   height: auto;
@@ -7668,7 +7760,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .codeiban94 {
+.a04 .codeiban98 {
   background-color: rgba(255, 255, 255, 0);
   top: 1124px;
   height: auto;
@@ -7688,7 +7780,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .titulaireducompte95 {
+.a04 .titulaireducompte99 {
   background-color: rgba(255, 255, 255, 0);
   top: 1074px;
   height: auto;
@@ -7708,7 +7800,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .ndossierindividuel96 {
+.a04 .ndossierindividuel100 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: auto;
@@ -7728,7 +7820,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .datedenaissancenumrodidentification97 {
+.a04 .datedenaissancenumrodidentification101 {
   background-color: rgba(255, 255, 255, 0);
   top: 960px;
   height: auto;
@@ -7748,7 +7840,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .encasdedemandepouruneimpositionselonlesarticles3ter2et3ter3lir98 {
+.a04 .encasdedemandepouruneimpositionselonlesarticles3ter2et3ter3lir102 {
   background-color: rgba(255, 255, 255, 0);
   top: 908px;
   height: auto;
@@ -7768,7 +7860,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .informationscomplmentaires99 {
+.a04 .informationscomplmentaires103 {
   background-color: rgba(255, 255, 255, 0);
   top: 876px;
   height: auto;
@@ -7788,7 +7880,7 @@ div {
   line-height: 18.0px;
 }
 
-.a04 .lespartenairesquinedemandentconjointementniuneimpositionindividuelleavecrallocationjusquauplustardle31mars2020niuneimpositioncollectivejusquauplustardle31dcembre2020sontimposssparmentdaprslergimededroitcommu100 {
+.a04 .lespartenairesquinedemandentconjointementniuneimpositionindividuelleavecrallocationjusquauplustardle31mars2020niuneimpositioncollectivejusquauplustardle31dcembre2020sontimposssparmentdaprslergimededroitcommu104 {
   background-color: rgba(255, 255, 255, 0);
   top: 794px;
   height: auto;
@@ -7808,7 +7900,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 {
   background-color: rgba(255, 255, 255, 0);
   top: 742px;
   height: auto;
@@ -7826,7 +7918,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 .span0 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span0 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -7834,7 +7926,7 @@ div {
   color: black;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 .span1 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span1 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
@@ -7842,7 +7934,7 @@ div {
   color: black;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 .span2 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span2 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -7850,7 +7942,7 @@ div {
   color: black;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 {
   background-color: rgba(255, 255, 255, 0);
   top: 692px;
   height: auto;
@@ -7868,7 +7960,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 .span0 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span0 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -7876,7 +7968,7 @@ div {
   color: black;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 .span1 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span1 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
@@ -7884,7 +7976,7 @@ div {
   color: black;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 .span2 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span2 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -7892,7 +7984,7 @@ div {
   color: black;
 }
 
-.a04 .limpositionindividuelleavecrallocationselonlarticle3ter3lirremplircases413426103 {
+.a04 .limpositionindividuelleavecrallocationselonlarticle3ter3lirremplircases413426107 {
   background-color: rgba(255, 255, 255, 0);
   top: 650px;
   height: auto;
@@ -7912,7 +8004,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .limpositionindividuellepureselonlarticle3ter2lir104 {
+.a04 .limpositionindividuellepureselonlarticle3ter2lir108 {
   background-color: rgba(255, 255, 255, 0);
   top: 618px;
   height: auto;
@@ -7932,7 +8024,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .limpositioncollectiveselonlarticle3lir105 {
+.a04 .limpositioncollectiveselonlarticle3lir109 {
   background-color: rgba(255, 255, 255, 0);
   top: 586px;
   height: auto;
@@ -7952,7 +8044,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .pourlannedimposition2019nousdemandons106 {
+.a04 .pourlannedimposition2019nousdemandons110 {
   background-color: rgba(255, 255, 255, 0);
   top: 554px;
   height: auto;
@@ -7972,7 +8064,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .ou107 {
+.a04 .ou111 {
   background-color: rgba(255, 255, 255, 0);
   top: 524px;
   height: auto;
@@ -7992,7 +8084,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .parmyguichetlu108 {
+.a04 .parmyguichetlu112 {
   background-color: rgba(255, 255, 255, 0);
   top: 502px;
   height: auto;
@@ -8012,7 +8104,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .parcourrier109 {
+.a04 .parcourrier113 {
   background-color: rgba(255, 255, 255, 0);
   top: 502px;
   height: auto;
@@ -8032,7 +8124,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .pourlannedimposition2019nousconfirmonsnotrechoixexprimendernierlieu110 {
+.a04 .pourlannedimposition2019nousconfirmonsnotrechoixexprimendernierlieu114 {
   background-color: rgba(255, 255, 255, 0);
   top: 470px;
   height: auto;
@@ -8052,7 +8144,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .impositionindividuellersidentsetnonrsidentsassimils111 {
+.a04 .impositionindividuellersidentsetnonrsidentsassimils115 {
   background-color: rgba(255, 255, 255, 0);
   top: 434px;
   height: auto;
@@ -8072,7 +8164,7 @@ div {
   line-height: 22.0px;
 }
 
-.a04 .lademandeestvalablementformulelorsquelaprsenterubriquepartenairesestremplieetlorsqueladclarationpourlimptsurlerevenuestintroduiteetsigneparchacundespartenaires112 {
+.a04 .lademandeestvalablementformulelorsquelaprsenterubriquepartenairesestremplieetlorsqueladclarationpourlimptsurlerevenuestintroduiteetsigneparchacundespartenaires116 {
   background-color: rgba(255, 255, 255, 0);
   top: 370px;
   height: auto;
@@ -8092,7 +8184,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .djprsent113 {
+.a04 .djprsent117 {
   background-color: rgba(255, 255, 255, 0);
   top: 336px;
   height: auto;
@@ -8112,7 +8204,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .enannexe114 {
+.a04 .enannexe118 {
   background-color: rgba(255, 255, 255, 0);
   top: 310px;
   height: auto;
@@ -8132,7 +8224,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .documenttabliparlesautoritscomptentes115 {
+.a04 .documenttabliparlesautoritscomptentes119 {
   background-color: rgba(255, 255, 255, 0);
   top: 324px;
   height: auto;
@@ -8152,7 +8244,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .datedeladclarationdupartenariat116 {
+.a04 .datedeladclarationdupartenariat120 {
   background-color: rgba(255, 255, 255, 0);
   top: 324px;
   height: auto;
@@ -8172,7 +8264,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .nousdemandonslimpositioncollectiveausensdesarticles3biset157ter5lirpourlannedimposition2019nousdclaronsquenousavonspartagundomicilecommunouunersidencecommuneetquelepartenariataexistdudbutlafindelan117 {
+.a04 .nousdemandonslimpositioncollectiveausensdesarticles3biset157ter5lirpourlannedimposition2019nousdclaronsquenousavonspartagundomicilecommunouunersidencecommuneetquelepartenariataexistdudbutlafindelan121 {
   background-color: rgba(255, 255, 255, 0);
   top: 252px;
   height: auto;
@@ -8192,7 +8284,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .partenairesrsidentsetnonrsidents118 {
+.a04 .partenairesrsidentsetnonrsidents122 {
   background-color: rgba(255, 255, 255, 0);
   top: 216px;
   height: auto;
@@ -8212,7 +8304,7 @@ div {
   line-height: 22.0px;
 }
 
-.a04 .ensignantlaprsentedclarationpourlimptsurlerevenuensembleaveclecontribuablersidentlapersonnenonrsidentedemandetreimposecollectivementavecsonconjointenvertudelarticle3dlirettreimposecommesielleavait119 {
+.a04 .ensignantlaprsentedclarationpourlimptsurlerevenuensembleaveclecontribuablersidentlapersonnenonrsidentedemandetreimposecollectivementavecsonconjointenvertudelarticle3dlirettreimposecommesielleavait123 {
   background-color: rgba(255, 255, 255, 0);
   top: 134px;
   height: auto;
@@ -8232,7 +8324,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .nousdemandonslimpositioncollectiveausensdelarticle3dlirpourlannedimposition2019nousdclaronsquaumoins90desrevenusprofessionnelsdenotremnagesontralisspendantlannedimpositionparlecontribuablersidentaulux120 {
+.a04 .nousdemandonslimpositioncollectiveausensdelarticle3dlirpourlannedimposition2019nousdclaronsquaumoins90desrevenusprofessionnelsdenotremnagesontralisspendantlannedimpositionparlecontribuablersidentaulux124 {
   background-color: rgba(255, 255, 255, 0);
   top: 86px;
   height: auto;
@@ -8252,7 +8344,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .epouxdontlunestcontribuablersidentetlautreunepersonnenonrsidente121 {
+.a04 .epouxdontlunestcontribuablersidentetlautreunepersonnenonrsidente125 {
   background-color: rgba(255, 255, 255, 0);
   top: 48px;
   height: auto;
@@ -8272,7 +8364,7 @@ div {
   line-height: 22.0px;
 }
 
-.a04 .o122 {
+.a04 .o126 {
   background-color: rgba(255, 255, 255, 0);
   top: 2px;
   height: auto;
@@ -8481,11 +8573,37 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41612 {
+.a04 .a416b12 {
   background-color: #dfe2e5;
   top: 1024px;
   height: 30px;
-  width: 408px;
+  width: 183px;
+  position: absolute;
+  margin: 0;
+  left: 856px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a41613 {
+  background-color: white;
+  top: 1024px;
+  height: 30px;
+  width: 62px;
+  position: absolute;
+  margin: 0;
+  left: 794px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a416a14 {
+  background-color: #dfe2e5;
+  top: 1024px;
+  height: 30px;
+  width: 163px;
   position: absolute;
   margin: 0;
   left: 631px;
@@ -8494,11 +8612,37 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41513 {
+.a04 .a415b15 {
   background-color: #dfe2e5;
   top: 1024px;
   height: 30px;
-  width: 408px;
+  width: 183px;
+  position: absolute;
+  margin: 0;
+  left: 410px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a41516 {
+  background-color: white;
+  top: 1024px;
+  height: 30px;
+  width: 62px;
+  position: absolute;
+  margin: 0;
+  left: 348px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+}
+
+.a04 .a415a17 {
+  background-color: #dfe2e5;
+  top: 1024px;
+  height: 30px;
+  width: 163px;
   position: absolute;
   margin: 0;
   left: 185px;
@@ -8507,7 +8651,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41414 {
+.a04 .a41418 {
   background-color: #dfe2e5;
   top: 969px;
   height: 28px;
@@ -8520,7 +8664,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41315 {
+.a04 .a41319 {
   background-color: #dfe2e5;
   top: 969px;
   height: 28px;
@@ -8533,7 +8677,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41216 {
+.a04 .a41220 {
   background-color: #dfe2e5;
   top: 649px;
   height: 20px;
@@ -8546,7 +8690,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41117 {
+.a04 .a41121 {
   background-color: #dfe2e5;
   top: 617px;
   height: 20px;
@@ -8559,7 +8703,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a41018 {
+.a04 .a41022 {
   background-color: #dfe2e5;
   top: 585px;
   height: 20px;
@@ -8572,7 +8716,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40919 {
+.a04 .a40923 {
   background-color: #dfe2e5;
   top: 553px;
   height: 20px;
@@ -8585,7 +8729,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40820 {
+.a04 .a40824 {
   background-color: #dfe2e5;
   top: 502px;
   height: 20px;
@@ -8598,7 +8742,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40721 {
+.a04 .a40725 {
   background-color: #dfe2e5;
   top: 502px;
   height: 20px;
@@ -8611,7 +8755,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40622 {
+.a04 .a40626 {
   background-color: #dfe2e5;
   top: 470px;
   height: 20px;
@@ -8624,7 +8768,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40523 {
+.a04 .a40527 {
   background-color: #dfe2e5;
   top: 336px;
   height: 20px;
@@ -8637,7 +8781,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40424 {
+.a04 .a40428 {
   background-color: #dfe2e5;
   top: 310px;
   height: 20px;
@@ -8650,7 +8794,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40325 {
+.a04 .a40329 {
   background-color: #dfe2e5;
   top: 312px;
   height: 42px;
@@ -8663,7 +8807,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40226 {
+.a04 .a40230 {
   background-color: #dfe2e5;
   top: 251px;
   height: 20px;
@@ -8676,7 +8820,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .a40127 {
+.a04 .a40131 {
   background-color: #dfe2e5;
   top: 84px;
   height: 20px;
@@ -8689,7 +8833,7 @@ div {
   opacity: 1.0;
 }
 
-.a04 .le28 {
+.a04 .le32 {
   background-color: rgba(255, 255, 255, 0);
   top: 1432px;
   height: auto;
@@ -8709,7 +8853,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .adfautderemplissagedescases423426ladministrationadmetunerpartitionde50chacundescontribuablecontribuableconjointpartenaireletauxdepourcentagedescases423et424ainsiquedescases425et426doittrede100larp29 {
+.a04 .adfautderemplissagedescases423426ladministrationadmetunerpartitionde50chacundescontribuablecontribuableconjointpartenaireletauxdepourcentagedescases423et424ainsiquedescases425et426doittrede100larp33 {
   background-color: rgba(255, 255, 255, 0);
   top: 1352px;
   height: auto;
@@ -8729,7 +8873,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a30 {
+.a04 .a34 {
   background-color: rgba(255, 255, 255, 0);
   top: 1320px;
   height: auto;
@@ -8749,7 +8893,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a31 {
+.a04 .a35 {
   background-color: rgba(255, 255, 255, 0);
   top: 1318px;
   height: auto;
@@ -8769,7 +8913,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .tauxderpartitiondurevenuimposableajustcommunmondialrallouer32 {
+.a04 .tauxderpartitiondurevenuimposableajustcommunmondialrallouer36 {
   background-color: rgba(255, 255, 255, 0);
   top: 1295px;
   height: auto;
@@ -8789,7 +8933,7 @@ div {
   line-height: 14.0px;
 }
 
-.a04 .encasdedemandepouruneimpositionselonlarticle3ter3lirremplirlescases425et426ciaprs33 {
+.a04 .encasdedemandepouruneimpositionselonlarticle3ter3lirremplirlescases425et426ciaprs37 {
   background-color: rgba(255, 255, 255, 0);
   top: 1264px;
   height: auto;
@@ -8809,7 +8953,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a34 {
+.a04 .a38 {
   background-color: rgba(255, 255, 255, 0);
   top: 1236px;
   height: auto;
@@ -8829,7 +8973,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .a35 {
+.a04 .a39 {
   background-color: rgba(255, 255, 255, 0);
   top: 1236px;
   height: auto;
@@ -8849,7 +8993,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .tauxderpartitiondesavancescommunespayesetnonpayesdundossiercommundelannedimposition201936 {
+.a04 .tauxderpartitiondesavancescommunespayesetnonpayesdundossiercommundelannedimposition201940 {
   background-color: rgba(255, 255, 255, 0);
   top: 1213px;
   height: auto;
@@ -8869,46 +9013,6 @@ div {
   line-height: 14.0px;
 }
 
-.a04 .line4837 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 1007px;
-}
-
-.a04 .line4738 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 976px;
-}
-
-.a04 .line4639 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 944px;
-}
-
-.a04 .line4540 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 913px;
-}
-
 .a04 .line4441 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
@@ -8916,7 +9020,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 882px;
+  left: 1002px;
 }
 
 .a04 .line4342 {
@@ -8926,7 +9030,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 850px;
+  left: 965px;
 }
 
 .a04 .line4243 {
@@ -8936,7 +9040,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 819px;
+  left: 929px;
 }
 
 .a04 .line4144 {
@@ -8946,7 +9050,7 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 787px;
+  left: 892px;
 }
 
 .a04 .line4045 {
@@ -8956,40 +9060,100 @@ div {
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 756px;
+  left: 855px;
 }
 
-.a04 .line3946 {
+.a04 .a146 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 836px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line3947 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 725px;
+  left: 825px;
 }
 
-.a04 .line3847 {
+.a04 .a048 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 806px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line3849 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 693px;
+  left: 794px;
 }
 
-.a04 .line3748 {
+.a04 .line3750 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 662px;
+  left: 753px;
 }
 
-.a04 .jour49 {
+.a04 .line3651 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1024px;
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  margin: 0;
+  left: 712px;
+}
+
+.a04 .line3552 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1024px;
+  height: 30px;
+  width: 1px;
+  position: absolute;
+  margin: 0;
+  left: 671px;
+}
+
+.a04 .jour53 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -9009,7 +9173,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .mois50 {
+.a04 .mois54 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -9029,7 +9193,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .anne51 {
+.a04 .anne55 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -9049,7 +9213,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .line3652 {
+.a04 .line3456 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9059,7 +9223,7 @@ div {
   left: 1007px;
 }
 
-.a04 .line3553 {
+.a04 .line3357 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9069,7 +9233,7 @@ div {
   left: 976px;
 }
 
-.a04 .line3454 {
+.a04 .line3258 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9079,7 +9243,7 @@ div {
   left: 944px;
 }
 
-.a04 .line3355 {
+.a04 .line3159 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9089,7 +9253,7 @@ div {
   left: 913px;
 }
 
-.a04 .line3256 {
+.a04 .line3060 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9099,7 +9263,7 @@ div {
   left: 882px;
 }
 
-.a04 .line3157 {
+.a04 .line2961 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9109,7 +9273,7 @@ div {
   left: 850px;
 }
 
-.a04 .line3058 {
+.a04 .line2862 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9119,7 +9283,7 @@ div {
   left: 819px;
 }
 
-.a04 .line2959 {
+.a04 .line2763 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9129,7 +9293,7 @@ div {
   left: 787px;
 }
 
-.a04 .line2860 {
+.a04 .line2664 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9139,7 +9303,7 @@ div {
   left: 756px;
 }
 
-.a04 .line2761 {
+.a04 .line2565 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9149,7 +9313,7 @@ div {
   left: 725px;
 }
 
-.a04 .line2662 {
+.a04 .line2466 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9159,7 +9323,7 @@ div {
   left: 693px;
 }
 
-.a04 .line2563 {
+.a04 .line2367 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9169,7 +9333,7 @@ div {
   left: 662px;
 }
 
-.a04 .contribuableconjointpartenaire64 {
+.a04 .contribuableconjointpartenaire68 {
   background-color: rgba(255, 255, 255, 0);
   top: 936px;
   height: auto;
@@ -9189,127 +9353,147 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .line2465 {
+.a04 .line2269 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 561px;
+  left: 556px;
 }
 
-.a04 .line2366 {
+.a04 .line2170 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 530px;
+  left: 519px;
 }
 
-.a04 .line2267 {
+.a04 .line2071 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 498px;
+  left: 483px;
 }
 
-.a04 .line2168 {
+.a04 .line1972 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 467px;
+  left: 446px;
 }
 
-.a04 .line2069 {
+.a04 .line1873 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 436px;
+  left: 410px;
 }
 
-.a04 .line1970 {
+.a04 .a174 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 390px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line1775 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 404px;
+  left: 379px;
 }
 
-.a04 .line1871 {
+.a04 .a076 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1032px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 360px;
+  -webkit-transform: rotate(0);
+          transform: rotate(0);
+  opacity: 1.0;
+  font-family: 'Arial', Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15.0px;
+  color: black;
+  text-align: left;
+  line-height: 15.0px;
+}
+
+.a04 .line1677 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 373px;
+  left: 348px;
 }
 
-.a04 .line1772 {
+.a04 .line1578 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 341px;
+  left: 307px;
 }
 
-.a04 .line1673 {
+.a04 .line1479 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 310px;
+  left: 266px;
 }
 
-.a04 .line1574 {
+.a04 .line1380 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: 30px;
   width: 1px;
   position: absolute;
   margin: 0;
-  left: 279px;
+  left: 225px;
 }
 
-.a04 .line1475 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 247px;
-}
-
-.a04 .line1376 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 216px;
-}
-
-.a04 .jour77 {
+.a04 .jour81 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -9329,7 +9513,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .mois78 {
+.a04 .mois82 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -9349,7 +9533,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .anne79 {
+.a04 .anne83 {
   background-color: rgba(255, 255, 255, 0);
   top: 1002px;
   height: auto;
@@ -9369,7 +9553,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .line1280 {
+.a04 .line1284 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9379,7 +9563,7 @@ div {
   left: 561px;
 }
 
-.a04 .line1181 {
+.a04 .line1185 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9389,7 +9573,7 @@ div {
   left: 530px;
 }
 
-.a04 .line1082 {
+.a04 .line1086 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9399,7 +9583,7 @@ div {
   left: 498px;
 }
 
-.a04 .line983 {
+.a04 .line987 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9409,7 +9593,7 @@ div {
   left: 467px;
 }
 
-.a04 .line884 {
+.a04 .line888 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9419,7 +9603,7 @@ div {
   left: 436px;
 }
 
-.a04 .line785 {
+.a04 .line789 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9429,7 +9613,7 @@ div {
   left: 404px;
 }
 
-.a04 .line686 {
+.a04 .line690 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9439,7 +9623,7 @@ div {
   left: 373px;
 }
 
-.a04 .line587 {
+.a04 .line591 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9449,7 +9633,7 @@ div {
   left: 341px;
 }
 
-.a04 .line488 {
+.a04 .line492 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9459,7 +9643,7 @@ div {
   left: 310px;
 }
 
-.a04 .line389 {
+.a04 .line393 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9469,7 +9653,7 @@ div {
   left: 279px;
 }
 
-.a04 .line290 {
+.a04 .line294 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9479,7 +9663,7 @@ div {
   left: 247px;
 }
 
-.a04 .line191 {
+.a04 .line195 {
   background-color: rgba(255, 255, 255, 0);
   top: 969px;
   height: 28px;
@@ -9489,7 +9673,7 @@ div {
   left: 216px;
 }
 
-.a04 .contribuable92 {
+.a04 .contribuable96 {
   background-color: rgba(255, 255, 255, 0);
   top: 936px;
   height: auto;
@@ -9509,7 +9693,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .swiftbic93 {
+.a04 .swiftbic97 {
   background-color: rgba(255, 255, 255, 0);
   top: 1174px;
   height: auto;
@@ -9529,7 +9713,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .codeiban94 {
+.a04 .codeiban98 {
   background-color: rgba(255, 255, 255, 0);
   top: 1124px;
   height: auto;
@@ -9549,7 +9733,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .titulaireducompte95 {
+.a04 .titulaireducompte99 {
   background-color: rgba(255, 255, 255, 0);
   top: 1074px;
   height: auto;
@@ -9569,7 +9753,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .ndossierindividuel96 {
+.a04 .ndossierindividuel100 {
   background-color: rgba(255, 255, 255, 0);
   top: 1024px;
   height: auto;
@@ -9589,7 +9773,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .datedenaissancenumrodidentification97 {
+.a04 .datedenaissancenumrodidentification101 {
   background-color: rgba(255, 255, 255, 0);
   top: 960px;
   height: auto;
@@ -9609,7 +9793,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .encasdedemandepouruneimpositionselonlesarticles3ter2et3ter3lir98 {
+.a04 .encasdedemandepouruneimpositionselonlesarticles3ter2et3ter3lir102 {
   background-color: rgba(255, 255, 255, 0);
   top: 908px;
   height: auto;
@@ -9629,7 +9813,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .informationscomplmentaires99 {
+.a04 .informationscomplmentaires103 {
   background-color: rgba(255, 255, 255, 0);
   top: 876px;
   height: auto;
@@ -9649,7 +9833,7 @@ div {
   line-height: 18.0px;
 }
 
-.a04 .lespartenairesquinedemandentconjointementniuneimpositionindividuelleavecrallocationjusquauplustardle31mars2020niuneimpositioncollectivejusquauplustardle31dcembre2020sontimposssparmentdaprslergimededroitcommu100 {
+.a04 .lespartenairesquinedemandentconjointementniuneimpositionindividuelleavecrallocationjusquauplustardle31mars2020niuneimpositioncollectivejusquauplustardle31dcembre2020sontimposssparmentdaprslergimededroitcommu104 {
   background-color: rgba(255, 255, 255, 0);
   top: 794px;
   height: auto;
@@ -9669,7 +9853,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 {
   background-color: rgba(255, 255, 255, 0);
   top: 742px;
   height: auto;
@@ -9687,7 +9871,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 .span0 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span0 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -9695,7 +9879,7 @@ div {
   color: black;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 .span1 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span1 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
@@ -9703,7 +9887,7 @@ div {
   color: black;
 }
 
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324101 .span2 {
+.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span2 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -9711,7 +9895,7 @@ div {
   color: black;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 {
   background-color: rgba(255, 255, 255, 0);
   top: 692px;
   height: auto;
@@ -9729,7 +9913,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 .span0 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span0 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -9737,7 +9921,7 @@ div {
   color: black;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 .span1 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span1 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
@@ -9745,7 +9929,7 @@ div {
   color: black;
 }
 
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher102 .span2 {
+.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span2 {
   font-family: 'Arial', Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
@@ -9753,7 +9937,7 @@ div {
   color: black;
 }
 
-.a04 .limpositionindividuelleavecrallocationselonlarticle3ter3lirremplircases413426103 {
+.a04 .limpositionindividuelleavecrallocationselonlarticle3ter3lirremplircases413426107 {
   background-color: rgba(255, 255, 255, 0);
   top: 650px;
   height: auto;
@@ -9773,7 +9957,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .limpositionindividuellepureselonlarticle3ter2lir104 {
+.a04 .limpositionindividuellepureselonlarticle3ter2lir108 {
   background-color: rgba(255, 255, 255, 0);
   top: 618px;
   height: auto;
@@ -9793,7 +9977,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .limpositioncollectiveselonlarticle3lir105 {
+.a04 .limpositioncollectiveselonlarticle3lir109 {
   background-color: rgba(255, 255, 255, 0);
   top: 586px;
   height: auto;
@@ -9813,7 +9997,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .pourlannedimposition2019nousdemandons106 {
+.a04 .pourlannedimposition2019nousdemandons110 {
   background-color: rgba(255, 255, 255, 0);
   top: 554px;
   height: auto;
@@ -9833,7 +10017,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .ou107 {
+.a04 .ou111 {
   background-color: rgba(255, 255, 255, 0);
   top: 524px;
   height: auto;
@@ -9853,7 +10037,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .parmyguichetlu108 {
+.a04 .parmyguichetlu112 {
   background-color: rgba(255, 255, 255, 0);
   top: 502px;
   height: auto;
@@ -9873,7 +10057,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .parcourrier109 {
+.a04 .parcourrier113 {
   background-color: rgba(255, 255, 255, 0);
   top: 502px;
   height: auto;
@@ -9893,7 +10077,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .pourlannedimposition2019nousconfirmonsnotrechoixexprimendernierlieu110 {
+.a04 .pourlannedimposition2019nousconfirmonsnotrechoixexprimendernierlieu114 {
   background-color: rgba(255, 255, 255, 0);
   top: 470px;
   height: auto;
@@ -9913,7 +10097,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .impositionindividuellersidentsetnonrsidentsassimils111 {
+.a04 .impositionindividuellersidentsetnonrsidentsassimils115 {
   background-color: rgba(255, 255, 255, 0);
   top: 434px;
   height: auto;
@@ -9933,7 +10117,7 @@ div {
   line-height: 22.0px;
 }
 
-.a04 .lademandeestvalablementformulelorsquelaprsenterubriquepartenairesestremplieetlorsqueladclarationpourlimptsurlerevenuestintroduiteetsigneparchacundespartenaires112 {
+.a04 .lademandeestvalablementformulelorsquelaprsenterubriquepartenairesestremplieetlorsqueladclarationpourlimptsurlerevenuestintroduiteetsigneparchacundespartenaires116 {
   background-color: rgba(255, 255, 255, 0);
   top: 370px;
   height: auto;
@@ -9953,7 +10137,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .djprsent113 {
+.a04 .djprsent117 {
   background-color: rgba(255, 255, 255, 0);
   top: 336px;
   height: auto;
@@ -9973,7 +10157,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .enannexe114 {
+.a04 .enannexe118 {
   background-color: rgba(255, 255, 255, 0);
   top: 310px;
   height: auto;
@@ -9993,7 +10177,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .documenttabliparlesautoritscomptentes115 {
+.a04 .documenttabliparlesautoritscomptentes119 {
   background-color: rgba(255, 255, 255, 0);
   top: 324px;
   height: auto;
@@ -10013,7 +10197,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .datedeladclarationdupartenariat116 {
+.a04 .datedeladclarationdupartenariat120 {
   background-color: rgba(255, 255, 255, 0);
   top: 324px;
   height: auto;
@@ -10033,7 +10217,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .nousdemandonslimpositioncollectiveausensdesarticles3biset157ter5lirpourlannedimposition2019nousdclaronsquenousavonspartagundomicilecommunouunersidencecommuneetquelepartenariataexistdudbutlafindelan117 {
+.a04 .nousdemandonslimpositioncollectiveausensdesarticles3biset157ter5lirpourlannedimposition2019nousdclaronsquenousavonspartagundomicilecommunouunersidencecommuneetquelepartenariataexistdudbutlafindelan121 {
   background-color: rgba(255, 255, 255, 0);
   top: 252px;
   height: auto;
@@ -10053,7 +10237,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .partenairesrsidentsetnonrsidents118 {
+.a04 .partenairesrsidentsetnonrsidents122 {
   background-color: rgba(255, 255, 255, 0);
   top: 216px;
   height: auto;
@@ -10073,7 +10257,7 @@ div {
   line-height: 22.0px;
 }
 
-.a04 .ensignantlaprsentedclarationpourlimptsurlerevenuensembleaveclecontribuablersidentlapersonnenonrsidentedemandetreimposecollectivementavecsonconjointenvertudelarticle3dlirettreimposecommesielleavait119 {
+.a04 .ensignantlaprsentedclarationpourlimptsurlerevenuensembleaveclecontribuablersidentlapersonnenonrsidentedemandetreimposecollectivementavecsonconjointenvertudelarticle3dlirettreimposecommesielleavait123 {
   background-color: rgba(255, 255, 255, 0);
   top: 134px;
   height: auto;
@@ -10093,7 +10277,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .nousdemandonslimpositioncollectiveausensdelarticle3dlirpourlannedimposition2019nousdclaronsquaumoins90desrevenusprofessionnelsdenotremnagesontralisspendantlannedimpositionparlecontribuablersidentaulux120 {
+.a04 .nousdemandonslimpositioncollectiveausensdelarticle3dlirpourlannedimposition2019nousdclaronsquaumoins90desrevenusprofessionnelsdenotremnagesontralisspendantlannedimpositionparlecontribuablersidentaulux124 {
   background-color: rgba(255, 255, 255, 0);
   top: 86px;
   height: auto;
@@ -10113,7 +10297,7 @@ div {
   line-height: 16.0px;
 }
 
-.a04 .epouxdontlunestcontribuablersidentetlautreunepersonnenonrsidente121 {
+.a04 .epouxdontlunestcontribuablersidentetlautreunepersonnenonrsidente125 {
   background-color: rgba(255, 255, 255, 0);
   top: 48px;
   height: auto;
@@ -10133,7 +10317,7 @@ div {
   line-height: 22.0px;
 }
 
-.a04 .o122 {
+.a04 .o126 {
   background-color: rgba(255, 255, 255, 0);
   top: 2px;
   height: auto;
@@ -38145,6 +38329,16 @@ header {
   letter-spacing: 7px;
   padding-bottom: 14px !important;
   padding-right: 0 !important;
+}
+
+.form-input input.cell-in3 {
+  letter-spacing: 28px;
+  padding-left: 15px !important;
+}
+
+.form-input input.cell-in4 {
+  letter-spacing: 32px;
+  padding-left: 16px !important;
 }
 
 input,

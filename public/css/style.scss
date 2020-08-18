@@ -430,25 +430,35 @@ header {
 		padding: 4px;
 	}
 
-	input {
+	input.cell- {
 
-		&.cell-in0 {
+		&in0 {
 			letter-spacing: 23px;
 			padding-left  : 11px !important;
 		}
 
-		&.cell-in1 {
+		&in1 {
 			margin-left   : -2px;
 			letter-spacing: 9px;
 			padding-bottom: 14px !important;
 			padding-right : 0 !important;
 		}
 
-		&.cell-in2 {
+		&in2 {
 			margin-left   : -3px;
 			letter-spacing: 7px;
 			padding-bottom: 14px !important;
 			padding-right : 0 !important;
+		}
+		
+		&in3 {
+			letter-spacing: 28px;
+			padding-left: 15px !important;
+		}
+
+		&in4 {
+			letter-spacing: 32px;
+			padding-left: 16px !important;
 		}
 	}
 }
