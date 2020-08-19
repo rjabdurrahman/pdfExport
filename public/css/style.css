@@ -38334,11 +38334,13 @@ header {
 .form-input input.cell-in3 {
   letter-spacing: 28px;
   padding-left: 15px !important;
+  padding-top: 2px;
 }
 
 .form-input input.cell-in4 {
   letter-spacing: 32px;
   padding-left: 16px !important;
+  padding-top: 2px;
 }
 
 input,
