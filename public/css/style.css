@@ -38428,6 +38428,13 @@ header {
   padding-right: 0 !important;
 }
 
+.form-input input.cell-in15 {
+  padding-left: 3px !important;
+  letter-spacing: 7px;
+  padding-bottom: 14px !important;
+  padding-right: 0 !important;
+}
+
 .form-input input.cell-in3 {
   letter-spacing: 28px;
   padding-left: 15px !important;
