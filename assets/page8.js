@@ -87,7 +87,8 @@ module.exports = function (info) {
                         frais_obtention: info['8d840'],
                         totalABC: info['8d844']
                     }
-                }
+                },
+                total: info['8d843_44']
             },
             abattement_extra_pro: {
                 is_demande: info['8d845'] ? info['8d845'] : 'Off',
