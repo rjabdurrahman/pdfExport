@@ -1289,6 +1289,11 @@ module.exports = function serializeInfo (client) {
     ),
     // Page 8
     ['x8d846x']: _.get(client, 'pension.abattement_extra_pro.rente_date', ''),
+    ['x8d843_44x']: _.get(
+      client,
+      'pension.rev_exo.total',
+      ''
+    ),
     ['x8d844x']: _.get(
       client,
       'pension.rev_exo.conjoint_partenaire.a_deduire.totalABC',
