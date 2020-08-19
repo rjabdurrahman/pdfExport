@@ -438,29 +438,29 @@ header {
 		}
 
 		&in1 {
-			margin-left   : -2px;
+			padding-left: 3px !important;
 			letter-spacing: 9px;
 			padding-bottom: 14px !important;
 			padding-right : 0 !important;
 		}
 
-		&in2 {
-			margin-left   : -3px;
-			letter-spacing: 7px;
-			padding-bottom: 14px !important;
-			padding-right : 0 !important;
-		}
-		
 		&in3 {
 			letter-spacing: 28px;
-			padding-left: 15px !important;
-			padding-top: 2px;
+			padding-left  : 15px !important;
+			padding-top   : 2px;
 		}
 
 		&in4 {
 			letter-spacing: 32px;
-			padding-left: 16px !important;
-			padding-top: 2px;
+			padding-left  : 16px !important;
+			padding-top   : 2px;
+		}
+
+		&in18 {
+			padding-left  : 6px !important;
+			letter-spacing: 10.5px;
+			padding-bottom: 14px !important;
+			padding-right : 0 !important;
 		}
 	}
 }
