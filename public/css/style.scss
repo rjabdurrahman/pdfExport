@@ -360,7 +360,6 @@ header {
 		padding-left : 6px !important;
 		padding-right: 6px !important;
 		border       : solid 1px gray !important;
-		background-color: #f1f4ff;
 	}
 
 	input:focus {
@@ -439,14 +438,14 @@ header {
 		}
 
 		&in1 {
-			padding-left: 3px !important;
+			padding-left  : 3px !important;
 			letter-spacing: 9px;
 			padding-bottom: 14px !important;
 			padding-right : 0 !important;
 		}
 
 		&in15 {
-			padding-left   : 3px !important;
+			padding-left  : 3px !important;
 			letter-spacing: 7px;
 			padding-bottom: 14px !important;
 			padding-right : 0 !important;
@@ -630,8 +629,8 @@ input.num {
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
-.not-refresh {
-	background-color: rgba(223, 226, 229, 1.0) !important;
+.refreshable {
+	background-color: #f4f5f6;
 
 	&:focus {
 		background-color: #ffffff !important;
