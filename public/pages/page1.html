@@ -1,12 +1,12 @@
 <div id="page1" class="a01 anima-word-break " id=7aec32a7-440c-462b-8a34-1b29f408c57e
     data-id=7aec32a7-440c-462b-8a34-1b29f408c57e>
     <div style="width: 1041px; height: 100%; position:relative; margin:auto;">
-        <input name="1d40" type="text" class="a1400" value="{{client.signaletique.coordonnees_bancaires.swift_bic}}">
-        <input name="1d39" type="text" class="a1391" value="{{client.signaletique.coordonnees_bancaires.code_iban}}">
+        <input name="1d40" type="text" class="a1400 not-refresh" value="{{client.signaletique.coordonnees_bancaires.swift_bic}}">
+        <input name="1d39" type="text" class="a1391 not-refresh" value="{{client.signaletique.coordonnees_bancaires.code_iban}}">
         <!-- onfocus="$(this).inputFilter(function (value) {
             return /^[A-Z]{0,2}\d{0,2}\s{0,1}(\d{0,4}\s{1})*\d{0,4}$/.test(value)
           })" -->
-        <input name="1d38" type="text" class="a1382"
+        <input name="1d38" type="text" class="a1382 not-refresh"
             value="{{client.signaletique.coordonnees_bancaires.titulaire_du_compte}}">
         <input name="1d37" type="text" class="a1373"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.pays}}">
@@ -30,7 +30,7 @@
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.du_au}}">
         <input name="1d26" type="text" class="date a12614"
             value="{{client.signaletique.contribuable.domicile.ancien.du_au}}">
-        <input name="1d25" type="text" class="a12515"
+        <input name="1d25" type="text" class="a12515 not-refresh"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}">
         <!-- <select name="" class="a12416">
             <option value=""></option>
@@ -39,21 +39,21 @@
             <option value="BELGIQUE">BELGIQUE</option>
             <option value="FRANCE">FRANCE</option>
         </select> -->
-        <input name="1d24" type="text" class="a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}">
-        <input name="1d23" type="text" class="a12317"
+        <input name="1d24" type="text" class="a12416 not-refresh" value="{{client.signaletique.contribuable.domicile.actuel.pays}}">
+        <input name="1d23" type="text" class="a12317 not-refresh"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.localite}}">
-        <input name="1d22" type="text" class="numo t_left a12218"
+        <input name="1d22" type="text" class="numo t_left a12218 not-refresh"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.code_postal}}">
-        <input name="1d21" type="text" class="a12119"
+        <input name="1d21" type="text" class="a12119 not-refresh"
             value="{{client.signaletique.contribuable.domicile.actuel.localite}}">
-        <input name="1d20" type="text" class="numo t_left a12020"
+        <input name="1d20" type="text" class="numo t_left a12020 not-refresh"
             value="{{client.signaletique.contribuable.domicile.actuel.code_postal}}">
-        <input name="1d19" type="text" class="a11921"
+        <input name="1d19" type="text" class="a11921 not-refresh"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.rue}}">
-        <input name="1d18" type="text" class="a11822"
+        <input name="1d18" type="text" class="a11822 not-refresh"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.numero}}">
-        <input name="1d17" type="text" class="a11723" value="{{client.signaletique.contribuable.domicile.actuel.rue}}">
-        <input name="1d16" type="text" class="a11624"
+        <input name="1d17" type="text" class="a11723 not-refresh" value="{{client.signaletique.contribuable.domicile.actuel.rue}}">
+        <input name="1d16" type="text" class="a11624 not-refresh"
             value="{{client.signaletique.contribuable.domicile.actuel.numero}}">
         <input name="1d15" type="text" class="a11525 not-refresh" value="{{client.signaletique.conjoint_partenaire.courriel}}">
         <input name="1d14" type="text" class="a11426 not-refresh" value="{{client.signaletique.contribuable.courriel}}">
@@ -256,178 +256,178 @@
         let selectedText = e.target.options[e.target.selectedIndex].text
         let adressfeld = document.getElementsByName('0d2')[0]
         if (selectedText == "Bureau d'imposition:") {
-            adressfeld.value = "\n"
+            adressfeld.value = ""
 
         }
 
         if (selectedText == "Bureau d'imposition Capellen") {
-            adressfeld.value = "\n55, rue du Kiem, Capellen\nboîte postale 42, L-8301 Capellen \n(+352) 247-52490\npphcap@co.etat.lu"
+            adressfeld.value = "55, rue du Kiem, Capellen\nboîte postale 42, L-8301 Capellen \n(+352) 247-52490\npphcap@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Clervaux") {
-            adressfeld.value = "\n1, Grand-rue, Clervaux\nboîte postale 26, L-9701 Clervaux \n(+352) 247-52479\npphcle@co.etat.lu"
+            adressfeld.value = "1, Grand-rue, Clervaux\nboîte postale 26, L-9701 Clervaux \n(+352) 247-52479\npphcle@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Diekirch") {
-            adressfeld.value = "\n2, rue Clairefontaine, Diekirch\nboîte postale 155, L-9202 Diekirch\n(+352) 247-52481\npphdie@co.etat.lu"
+            adressfeld.value = "2, rue Clairefontaine, Diekirch\nboîte postale 155, L-9202 Diekirch\n(+352) 247-52481\npphdie@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Differdange") {
-            adressfeld.value = "\n23, Grand-rue, Differdange\nboîte postale 14, L-4501 Differdange\n(+352) 247-52486\npphdif@co.etat.lu"
+            adressfeld.value = "23, Grand-rue, Differdange\nboîte postale 14, L-4501 Differdange\n(+352) 247-52486\npphdif@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Dudelange") {
-            adressfeld.value = "\n16-18, rue Jean Jaurès, Dudelange\nboîte postale 80, L-3401 Dudelange\n(+352) 247-52485\npphdud@co.etat.lu"
+            adressfeld.value = "16-18, rue Jean Jaurès, Dudelange\nboîte postale 80, L-3401 Dudelange\n(+352) 247-52485\npphdud@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Echternach") {
-            adressfeld.value = "\n4, rue du Pont, Echternach\nboîte postale 7, L-6401 Echternach\n(+352) 247-52482\npphech@co.etat.lu"
+            adressfeld.value = "4, rue du Pont, Echternach\nboîte postale 7, L-6401 Echternach\n(+352) 247-52482\npphech@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Esch-sur-Alzette 1") {
-            adressfeld.value = "\n13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch1@co.etat.lu"
+            adressfeld.value = "13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch1@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Esch-sur-Alzette 2") {
-            adressfeld.value = "\n13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch2@co.etat.lu"
+            adressfeld.value = "13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch2@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Esch-sur-Alzette 3") {
-            adressfeld.value = "\n13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch3@co.etat.lu"
+            adressfeld.value = "13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch3@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Ettelbruck") {
-            adressfeld.value = "\n10, Place Marie-Thérèse, Ettelbruck\nboîte postale 197, L-9002 Ettelbruck\n(+352) 247-52478\npphett@co.etat.lu"
+            adressfeld.value = "10, Place Marie-Thérèse, Ettelbruck\nboîte postale 197, L-9002 Ettelbruck\n(+352) 247-52478\npphett@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Grevenmacher") {
-            adressfeld.value = "\n6, rue de la Gare, Grevenmacher\nboîte postale 21, L-6701 Grevenmacher\n(+352) 247-52483\npphgre@co.etat.lu"
+            adressfeld.value = "6, rue de la Gare, Grevenmacher\nboîte postale 21, L-6701 Grevenmacher\n(+352) 247-52483\npphgre@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 1 et 4") {
-            adressfeld.value = "\n9, rue du Commerce\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux1@co.etat.lu"
+            adressfeld.value = "9, rue du Commerce\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux1@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 2") {
-            adressfeld.value = "\n111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux2@co.etat.lu"
+            adressfeld.value = "111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux2@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 3") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux3@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux3@co.etat.lu"
 
         }
 
         if (selectedText == "Bureau d'imposition Luxembourg 5") {
-            adressfeld.value = "\n9, rue du Commerce, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux5@co.etat.lu"
+            adressfeld.value = "9, rue du Commerce, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux5@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 6") {
-            adressfeld.value = "\n111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux6@co.etat.lu"
+            adressfeld.value = "111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux6@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 7") {
-            adressfeld.value = "\n111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux7@co.etat.lu"
+            adressfeld.value = "111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux7@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 8") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux8@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux8@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg 9") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux9@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux9@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg X") {
-            adressfeld.value = "\n21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\n pphluxx@co.etat.lu"
+            adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\n pphluxx@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg Y") {
-            adressfeld.value = "\n21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\npphluxy@co.etat.lu"
+            adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\npphluxy@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Luxembourg Z") {
-            adressfeld.value = "\n21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\npphluxz@co.etat.lu"
+            adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\npphluxz@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Mersch") {
-            adressfeld.value = "\n3, rue Grande-Duchesse Charlotte, Mersch\nboîte postale 89, L-7501 Mersch\n(+352) 247-52489\npphmer@co.etat.lu"
+            adressfeld.value = "3, rue Grande-Duchesse Charlotte, Mersch\nboîte postale 89, L-7501 Mersch\n(+352) 247-52489\npphmer@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Pétange") {
-            adressfeld.value = "\n2, Place du Marché, Pétange\nboîte postale 22, L-4701 Pétange\n(+352) 247-52487\npphpet@co.etat.lu"
+            adressfeld.value = "2, Place du Marché, Pétange\nboîte postale 22, L-4701 Pétange\n(+352) 247-52487\npphpet@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Redange-sur-Attert") {
-            adressfeld.value = "\n74, Grand-rue, Redange-sur-Attert\nboîte postale 11, L-8501 Redange-sur-Attert\n(+352) 247-52488\npphred@co.etat.lu"
+            adressfeld.value = "74, Grand-rue, Redange-sur-Attert\nboîte postale 11, L-8501 Redange-sur-Attert\n(+352) 247-52488\npphred@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Remich") {
-            adressfeld.value = "\n2, rue de la Gare, Remich\nboîte postale 60, L-5501 Remich\n(+352) 247-52484\npphrem@co.etat.lu"
+            adressfeld.value = "2, rue de la Gare, Remich\nboîte postale 60, L-5501 Remich\n(+352) 247-52484\npphrem@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Wiltz") {
-            adressfeld.value = "\n5, rue de Kautenbach, Wiltz\nboîte postale 20, L-9501 Wiltz\n(+352) 247-52480\npphwil@co.etat.lu"
+            adressfeld.value = "5, rue de Kautenbach, Wiltz\nboîte postale 20, L-9501 Wiltz\n(+352) 247-52480\npphwil@co.etat.lu"
 
         }
 
 
         if (selectedText == "Bureau d'imposition Sociétés Diekirch") {
-            adressfeld.value = "\n2, rue Clairefontaine, Diekirch\nboîte postale 155, L-9202 Diekirch\n(+352) 247-52481\nsocdie@co.etat.lu"
+            adressfeld.value = "2, rue Clairefontaine, Diekirch\nboîte postale 155, L-9202 Diekirch\n(+352) 247-52481\nsocdie@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés 1") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc1@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc1@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés 2") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc2@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc2@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés 3") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc3@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc3@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés 4") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc4@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc4@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés 5") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc5@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc5@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés 6") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc6@co.etat.lu"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc6@co.etat.lu"
 
         }
         if (selectedText == "Bureau d'imposition Sociétés Esch-sur-Alzette") {
-            adressfeld.value = "\n49, rue de l'Alzette,Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\nsocesch@co.etat.lu"
+            adressfeld.value = "49, rue de l'Alzette,Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\nsocesch@co.etat.lu"
 
         }
         if (selectedText == "Bureau de la retenue d'impôt sur les intérêts") {
-            adressfeld.value = "\n20, rue Auguste Lumière, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2459\nsersri@co.etat.lu"
+            adressfeld.value = "20, rue Auguste Lumière, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2459\nsersri@co.etat.lu"
 
         }
         if (selectedText == "Bureau RTS Non-résidents") {
-            adressfeld.value = "\n21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706, L-1017 Luxembourg\nrtsnr@co.etat.lu\nFax: (+352) 247-52790"
+            adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706, L-1017 Luxembourg\nrtsnr@co.etat.lu\nFax: (+352) 247-52790"
 
         }
 
         if (selectedText == "Bureau RTS 2") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\nrts2lux@co.etat.lu - Fax: +352.247-52520"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\nrts2lux@co.etat.lu - Fax: +352.247-52520"
 
         }
         if (selectedText == "Bureau RTS 3") {
-            adressfeld.value = "\n18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\nrts3lux@co.etat.lu - Fax: +352.247-52540"
+            adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\nrts3lux@co.etat.lu - Fax: +352.247-52540"
 
         }
 
         if (selectedText == "Bureau RTS Esch-sur-Alzette") {
-            adressfeld.value = "\n13, boulevard J-F Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\nrtsesch@co.etat.lu - Fax: +352.247-52610"
+            adressfeld.value = "13, boulevard J-F Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\nrtsesch@co.etat.lu - Fax: +352.247-52610"
 
         }
 
         if (selectedText == "Bureau RTS Ettelbruck") {
-            adressfeld.value = "\n10, Place Marie-Thérèse, Ettelbruck\nboîte postale 197, L-9002 Ettelbruck\nrtsett@co.etat.lu - Fax: +352.247-52660"
+            adressfeld.value = "10, Place Marie-Thérèse, Ettelbruck\nboîte postale 197, L-9002 Ettelbruck\nrtsett@co.etat.lu - Fax: +352.247-52660"
 
         }
     }
