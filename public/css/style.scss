@@ -562,6 +562,11 @@ input.num {
 				padding-top   : 10px;
 				padding-bottom: 10px;
 				text-align    : center;
+				position      : -webkit-sticky; // this is for all Safari (Desktop & iOS), not for Chrome
+				position      : sticky;
+				top           : 0;
+				z-index       : 5;
+				background    : $opt-color;
 			}
 		}
 
