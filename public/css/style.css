@@ -38041,15 +38041,16 @@ body {
   color: white;
   padding-left: 22px;
   padding-right: 22px;
+  width: 100px;
 }
 
 #clientDeleteModal .footer button:first-child {
-  background-color: #cf4044;
+  background-color: #25c1a0;
   margin-right: 10px;
 }
 
 #clientDeleteModal .footer button:last-child {
-  background-color: #25c1a0;
+  background-color: #cf4044;
 }
 
 .content-c {
