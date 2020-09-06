@@ -19,7 +19,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="client in clients track by $index">
+                    <tr ng-repeat="client in clients | orderBy : 'signaletique.contribuable.nom' track by $index">
                         <td>
                             <a href="/#/info?id={{client._id}}">
                                 {{client.signaletique.numero_de_dossier}}
@@ -75,7 +75,7 @@
             <div>
                 <span style="font-size: 28px; margin-top: 6px;" class="material-icons-outlined">person_add_disabled</span>
             </div>
-            <div>Supprimer le client</div>
+            <div>Suppression du client</div>
             <div class="close" onclick="$('#clientDeleteModal').hide();">
                 <span class="material-icons">
                     close
