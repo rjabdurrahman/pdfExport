@@ -38082,7 +38082,7 @@ body {
   -ms-flex-item-align: start;
       align-self: start;
   font-size: 26px;
-  padding: 8px 15px !important;
+  padding: 10px !important;
   cursor: pointer;
 }
 
