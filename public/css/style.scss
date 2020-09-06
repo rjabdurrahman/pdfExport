@@ -470,6 +470,18 @@ header {
 			padding-right : 0 !important;
 		}
 	}
+
+	.refreshable {
+		background-color: #f4f5f6 !important;
+
+		&:focus {
+			background-color: #ffffff !important;
+		}
+	}
+
+	#page1 .bureau105 option {
+		background-color: #dfe2e5;
+	}
 }
 
 input,
@@ -627,14 +639,6 @@ input.num {
 	align-items     : center;
 	font-size       : 22px;
 	background-color: rgba(255, 255, 255, 0.7);
-}
-
-.refreshable {
-	background-color: #f4f5f6 !important;
-
-	&:focus {
-		background-color: #ffffff !important;
-	}
 }
 
 .like-input {
