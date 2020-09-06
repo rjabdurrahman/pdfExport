@@ -2,6 +2,7 @@ $primary-color  : #0d2d67;
 $secondary-color: #6e9cee;
 $opt-color      : #d1d4d5;
 $in-color       : #dfe2e5;
+$red-color      : #cf4044;
 
 @import 'page1', 'page2', 'page3', 'page4', 'page4', 'page5', 'page6', 'page7',
 'page8', 'page9', 'page10', 'page11', 'page12', 'page13', 'page14', 'page15',
@@ -83,7 +84,7 @@ body {
 		button {
 			font-weight     : bold;
 			font-size       : 14px;
-			background-color: #25c1a0;
+			background-color: $red-color;
 			color           : white;
 			padding-left    : 22px;
 			padding-right   : 22px;
@@ -346,7 +347,7 @@ header {
 	}
 
 	.refresh {
-		background-color: #cf4044;
+		background-color: $red-color;
 		display         : inline-flex;
 		align-items     : center;
 		height          : 100%;
