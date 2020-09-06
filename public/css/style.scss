@@ -84,10 +84,18 @@ body {
 		button {
 			font-weight     : bold;
 			font-size       : 14px;
-			background-color: $red-color;
 			color           : white;
 			padding-left    : 22px;
 			padding-right   : 22px;
+		}
+
+		button:first-child {
+			background-color: $red-color;
+			margin-right: 10px;
+		}
+
+		button:last-child {
+			background-color: #25c1a0;
 		}
 	}
 }

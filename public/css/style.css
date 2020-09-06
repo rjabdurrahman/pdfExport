@@ -38038,10 +38038,18 @@ body {
 #clientDeleteModal .footer button {
   font-weight: bold;
   font-size: 14px;
-  background-color: #cf4044;
   color: white;
   padding-left: 22px;
   padding-right: 22px;
+}
+
+#clientDeleteModal .footer button:first-child {
+  background-color: #cf4044;
+  margin-right: 10px;
+}
+
+#clientDeleteModal .footer button:last-child {
+  background-color: #25c1a0;
 }
 
 .content-c {
