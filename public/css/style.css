@@ -38465,10 +38465,6 @@ header {
   background-color: #dfe2e5 !important;
 }
 
-.form-input option:hover {
-  background-color: yellow !important;
-}
-
 input,
 select,
 option,
