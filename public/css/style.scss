@@ -27,7 +27,7 @@ body {
 
 	input[type='text'],
 	input[type='email'] {
-		background-color: rgba(110, 156, 238, 0.13);
+		background-color: $in-color;
 
 		&:focus {
 			background-color: white;

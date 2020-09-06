@@ -37980,7 +37980,7 @@ body {
 
 #clientModal input[type='text'],
 #clientModal input[type='email'] {
-  background-color: rgba(110, 156, 238, 0.13);
+  background-color: #dfe2e5;
 }
 
 #clientModal input[type='text']:focus,
