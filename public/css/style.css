@@ -38635,7 +38635,7 @@ input.num {
 }
 
 .refreshable {
-  background-color: #f4f5f6;
+  background-color: #f4f5f6 !important;
 }
 
 .refreshable:focus {
