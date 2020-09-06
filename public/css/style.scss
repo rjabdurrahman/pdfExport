@@ -76,18 +76,24 @@ body {
 }
 
 #clientDeleteModal {
+	.w3-modal-content {
+		padding-bottom: 0 !important;
+	}
+
 	form {
 		width: 450px !important;
 	}
 
 	.footer {
+		.w3-container {
+			padding: 0 16px !important;
+		}
+		
 		button {
-			font-weight  : bold;
-			font-size    : 14px;
-			color        : white;
-			padding-left : 22px;
-			padding-right: 22px;
-			width        : 100px;
+			font-weight: bold;
+			font-size  : 14px;
+			color      : white;
+			width      : 100px;
 		}
 
 		button:first-child {
