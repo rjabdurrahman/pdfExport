@@ -97,6 +97,7 @@ function clearForm (target) {
   $(target + ' input:checkbox').prop('checked', false)
   $(target + ' input:radio').prop('checked', false)
   $(target + ' textarea').val('');
+  $(target + ' select').prop('selectedIndex',0);
 }
 
 var activeClientId = ''
