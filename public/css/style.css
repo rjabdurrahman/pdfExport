@@ -1556,7 +1556,6 @@ div {
 }
 
 .a01 .bureau105 {
-  background-color: #dfe2e5;
   top: 0;
   height: 32px;
   width: 408px;
@@ -38462,8 +38461,12 @@ header {
   background-color: #ffffff !important;
 }
 
-.form-input #page1 .bureau105 option {
-  background-color: #dfe2e5;
+.form-input #page1 .bureau105 option:checked {
+  background-color: #dfe2e5 !important;
+}
+
+.form-input option:hover {
+  background-color: yellow !important;
 }
 
 input,

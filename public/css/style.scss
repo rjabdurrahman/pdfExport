@@ -479,8 +479,8 @@ header {
 		}
 	}
 
-	#page1 .bureau105 option {
-		background-color: #dfe2e5;
+	#page1 .bureau105 option:checked {
+		background-color: #dfe2e5 !important;
 	}
 }
 
