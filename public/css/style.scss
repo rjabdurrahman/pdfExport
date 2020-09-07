@@ -564,7 +564,11 @@ input.num {
 			background-repeat  : no-repeat;
 			background-position: 4px 8px;
 			background-size    : 25px;
-			border-color       : $secondary-color !important;
+			border-color       : gray !important;
+		}
+
+		input:focus {
+			border          : 1px solid #305eb2 !important;
 		}
 	}
 

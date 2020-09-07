@@ -38568,7 +38568,11 @@ input.num {
   background-repeat: no-repeat;
   background-position: 4px 8px;
   background-size: 25px;
-  border-color: #6e9cee !important;
+  border-color: gray !important;
+}
+
+.table-container .top input:focus {
+  border: 1px solid #305eb2 !important;
 }
 
 .table-container table {
