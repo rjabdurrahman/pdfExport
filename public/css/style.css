@@ -38571,8 +38571,9 @@ input.num {
   border-color: #6e9cee !important;
 }
 
-.table-container table thead tr {
-  background-color: #d1d4d5 !important;
+.table-container table {
+  border: none !important;
+  overflow: hidden;
 }
 
 .table-container table thead th {
@@ -38588,7 +38589,7 @@ input.num {
 
 .table-container table td,
 .table-container table th {
-  border: 1px solid white;
+  border: none;
   padding: 0px 2px;
   height: 100%;
   vertical-align: middle;
@@ -38615,7 +38616,7 @@ input.num {
   padding-top: 0px;
   height: 100%;
   vertical-align: middle;
-  border-bottom: 1px solid #f1f1f1 !important;
+  border: 1px solid #d1d4d5;
 }
 
 .table-container table .w3-btn {

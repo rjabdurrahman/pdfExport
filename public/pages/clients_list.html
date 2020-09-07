@@ -19,7 +19,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr ng-repeat="client in clients | orderBy : 'signaletique.contribuable.nom' track by $index">
+                    <tr ng-repeat="client in clients track by $index">
                         <td>
                             <a href="/#/info?id={{client._id}}">
                                 {{client.signaletique.numero_de_dossier}}
