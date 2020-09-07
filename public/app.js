@@ -91,7 +91,7 @@ app.run(function ($rootScope, $http, $route) {
     $http
       .post('api/delete/' + $rootScope.onDelete._id)
       .then(res => {
-        if (!res.data.err) notify('Deleted Successfully!', 1)
+        if (!res.data.err) notify('Supression Client', 1)
         else notify(res.data.err.message, 2)
         $rootScope.loadClients()
       })

@@ -541,6 +541,7 @@ input.num {
 
 .table-container {
 	margin: 40px 100px 20px 92px;
+
 	.top {
 		margin-top     : 16px;
 		margin-bottom  : 16px;
@@ -568,7 +569,7 @@ input.num {
 	}
 
 	table {
-		border: none !important;
+		border       : none !important;
 		thead {
 
 			th {
@@ -585,11 +586,11 @@ input.num {
 
 		td,
 		th {
-			border: none;
+			border           : none;
 			// border        : 1px solid white;
-			padding       : 0px 2px;
-			height        : 100%;
-			vertical-align: middle;
+			padding          : 0px 2px;
+			height           : 100%;
+			vertical-align   : middle;
 		}
 
 		td {
@@ -611,10 +612,10 @@ input.num {
 
 		tbody {
 			td {
-				padding-top   : 0px;
-				height        : 100%;
-				vertical-align: middle;
-				border: 1px solid #d1d4d5;
+				padding-top      : 0px;
+				height           : 100%;
+				vertical-align   : middle;
+				border           : 1px solid #d1d4d5;
 				// border-bottom : 1px solid #f1f1f1 !important;
 			}
 		}
