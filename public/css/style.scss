@@ -574,14 +574,14 @@ input.num {
 		thead {
 
 			th {
-				padding-top   : 10px;
-				padding-bottom: 10px;
+				padding-top   : 18px;
+				padding-bottom: 18px;
 				text-align    : center;
 				position      : -webkit-sticky; // this is for all Safari (Desktop & iOS), not for Chrome
 				position      : sticky;
 				top           : 0;
 				z-index       : 5;
-				background    : #47525d;
+				background    : #6e9cee;
 				color         : white;
 				font-weight   : normal;
 			}
@@ -591,7 +591,7 @@ input.num {
 		th {
 			border           : none;
 			// border        : 1px solid white;
-			padding          : 5px 2px;
+			padding          : 3px 2px;
 			height           : 100%;
 			vertical-align   : middle;
 		}
