@@ -37961,7 +37961,6 @@ div {
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background: #ececec;
 }
 
 .flex {
@@ -38586,6 +38585,7 @@ input.num {
   z-index: 5;
   background: #47525d;
   color: white;
+  font-weight: normal;
 }
 
 .table-container table td,
