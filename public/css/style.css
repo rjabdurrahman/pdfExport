@@ -38591,7 +38591,7 @@ input.num {
 .table-container table td,
 .table-container table th {
   border: none;
-  padding: 0px 2px;
+  padding: 5px 2px;
   height: 100%;
   vertical-align: middle;
 }
@@ -38614,7 +38614,6 @@ input.num {
 }
 
 .table-container table tbody td {
-  padding-top: 0px;
   height: 100%;
   vertical-align: middle;
   border: 1px solid #d1d4d5;
