@@ -10,6 +10,7 @@ $red-color      : #cf4044;
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
+	background : #ececec;
 }
 
 .flex {
@@ -569,7 +570,8 @@ input.num {
 	}
 
 	table {
-		border       : none !important;
+		border: none !important;
+
 		thead {
 
 			th {
@@ -580,7 +582,8 @@ input.num {
 				position      : sticky;
 				top           : 0;
 				z-index       : 5;
-				background    : $opt-color;
+				background    : #47525d;
+				color         : white;
 			}
 		}
 
