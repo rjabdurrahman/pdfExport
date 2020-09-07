@@ -38535,6 +38535,7 @@ input.num {
 
 .table-container {
   margin: 40px 100px 20px 92px;
+  overflow-x: hidden;
 }
 
 .table-container .top {
@@ -38573,7 +38574,6 @@ input.num {
 
 .table-container table {
   border: none !important;
-  overflow: hidden;
 }
 
 .table-container table thead th {
