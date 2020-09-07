@@ -38591,7 +38591,7 @@ input.num {
 .table-container table td,
 .table-container table th {
   border: none;
-  padding: 3px 2px;
+  padding: 6px 2px;
   height: 100%;
   vertical-align: middle;
 }
