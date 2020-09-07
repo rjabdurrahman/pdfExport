@@ -110,7 +110,7 @@ body {
 .content-c {
 	display         : flex !important;
 	justify-content : space-between !important;
-	background-color: #6e9cee;
+	background-color: $secondary-color;
 	color           : white;
 	align-items     : center;
 	padding-left    : 20px;
@@ -581,7 +581,7 @@ input.num {
 				position      : sticky;
 				top           : 0;
 				z-index       : 5;
-				background    : #6e9cee;
+				background    : $secondary-color;
 				color         : white;
 				font-weight   : normal;
 			}
