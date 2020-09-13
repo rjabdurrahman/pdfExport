@@ -38580,8 +38580,7 @@ input.num {
 }
 
 .table-container table thead th {
-  padding-top: 18px;
-  padding-bottom: 18px;
+  height: 60px;
   text-align: center;
   position: -webkit-sticky;
   position: sticky;
