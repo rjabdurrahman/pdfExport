@@ -1,7 +1,7 @@
 <div class="w3-container" style="width: 900px; margin: auto;">
     <form method="post" ng-submit="updateProfile($event)" class="form-input profile-area anima-word-break">
         <div style="width: 836px; height: 100%; position:relative; margin:auto;">
-            <input type="text" class="a0040">
+            <input type="text" value="{{profile.prenom}}" class="a0040">
             <input type="text" class="a0031">
             <input class="a0022">
             <input class="a0013">
@@ -14,7 +14,9 @@
             <div class="prnom7">
                 Prénom</div>
             <div class="utilisateur8"> Utilisateur</div>
-            <button type="submit" class="w3-button" style="background: #6e9cee; color: white; height: 42px; width: 408px; position: absolute; top: 305px;">UPDATE</button>
+            <div style="position: absolute; top: 305px; width: 100%; text-align: right;">
+                <button type="submit" class="w3-button" style="background: #6e9cee; color: white; height: 42px; width: 204px;">Modifier</button>
+            </div>
         </div>
     </form>
 </div>
