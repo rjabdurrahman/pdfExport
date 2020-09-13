@@ -7,24 +7,56 @@
     <title>Yves | Login</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/w3.css">
+    <style>
+        .w3-input,
+        .w3-button {
+            padding: 6px;
+            border-radius: 4px;
+        }
+
+        .material-icons-outlined {
+            font-size: 30px;
+        }
+    </style>
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
 </head>
 
 <body>
     <div style="display: flex;height: 100vh;justify-content: center;align-items: center;">
-        <div class="w3-card-4" style="width: 500px;">
-            <div class="w3-container w3-indigo">
-                <h2>User Login</h2>
-            </div>
+        <div style="width: 500px;">
             <form class="w3-container" method="post" action="/login">
-                <p>
-                    <label class="w3-text-indigo"><b>UserID</b></label>
-                    <input class="w3-input w3-border w3-sand" type="text" name="username" required></p>
-                <p>
-                    <label class="w3-text-indigo"><b>Password</b></label>
-                    <input class="w3-input w3-border w3-sand" type="password" name="password" required></p>
-                <p>
-                    <button type="submit" class="w3-btn w3-indigo">Login</button>
-                </p>
+                <table>
+                    <tr>
+                        <td style="width: 40px;">
+                            <span class="material-icons-outlined" style="margin-bottom: 10px;">
+                                account_box
+                            </span>
+                        </td>
+                        <td>
+                            <input class="w3-input w3-border" style="margin-bottom: 10px;" type="text" name="username"
+                                placeholder="USER ID" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="material-icons-outlined">
+                                lock
+                            </span>
+                        </td>
+                        <td>
+                            <input class="w3-input w3-border" type="password" name="password" placeholder="Password"
+                                required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button type="submit" class="w3-button w3-border w3-block"
+                                style="margin-top: 10px;">Login</button>
+                        </td>
+                    </tr>
+                </table>
             </form>
         </div>
     </div>
