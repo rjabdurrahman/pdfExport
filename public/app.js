@@ -135,14 +135,23 @@ app.controller('ProfileCtrl', function ($scope, $http) {
     .get('api/profile')
     .then(res => {
       $scope.profile = res.data
+      console.log(res.data)
     })
     .catch(err => {
       console.log(err)
     })
-  $scope.updateProfile = function (e) {
+  $scope.updateProfile = function (e, id) {
     e.preventDefault()
+    let form = e.target;
+    console.log({
+      firstName: form['firstName'].value,
+      lastName: form['lastName'].value,
+    })
     $http
-      .post('api/profile', $(e.target).serializeArray())
+      .post('api/profile/', {
+        firstName: form['firstName'].value,
+        lastName: form['lastName'].value,
+      })
       .then(res => {
         console.log(res.data)
       })

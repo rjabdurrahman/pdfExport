@@ -1,18 +1,22 @@
 let { ObjectID } = require('mongodb')
 const User = require('../Models/User')
 module.exports = {
-  getProfile: (req, res) => {
-    res.json(req.cookies.user)
+  getProfile: async (req, res) => {
+    try {
+      res.json(await User.findById(req.cookies.user._id).exec())
+    } catch (e) {
+      res.send(err)
+    }
   },
   updateProfile: (req, res) => {
-    let userData = {}
-    req.body.forEach(x => (userData[x.name] = x.value))
-    User.findOneAndUpdate(
-      { _id: ObjectID(req.cookies._id) },
-      userData,
+    let { firstName, lastName } = req.body
+    console.log(req.cookies.user._id)
+    User.findByIdAndUpdate(
+      req.cookies.user._id,
+      { firstName, lastName },
       (err, result) => {
         if (err) res.send(err)
-        else res.send('Updated!')
+        else res.send('Updated')
       }
     )
   }

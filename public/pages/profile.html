@@ -1,10 +1,10 @@
 <div class="w3-container" style="width: 900px; margin: auto;">
-    <form method="post" ng-submit="updateProfile($event)" class="form-input profile-area anima-word-break">
+    <form method="post" ng-submit="updateProfile($event, profile._id)" class="form-input profile-area anima-word-break">
         <div style="width: 836px; height: 100%; position:relative; margin:auto;">
-            <input type="text" value="{{profile.prenom}}" class="a0040">
-            <input type="text" class="a0031">
-            <input class="a0022">
-            <input class="a0013">
+            <input type="text"class="a0040" name="password" value="{{profile.password}}">
+            <input type="text" class="a0031" name="password" value="{{profile.password}}">
+            <input class="a0022" name="lastName" value="{{profile.lastName}}" >
+            <input class="a0013" name="firstName" value="{{profile.firstName}}" >
             <div class="confirmer4">
                 Confirmer</div>
             <div class="motdepasse5">
