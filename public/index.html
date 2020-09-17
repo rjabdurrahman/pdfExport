@@ -54,7 +54,8 @@
         <form ng-submit="submitClient($event)" class="w3-modal-content w3-animate-right w3-card-4">
             <div class="content-c" style="height: 35px;">
                 <div>
-                    <span style="font-size: 25px; display: inline-flex; align-items: center; height: 35px;" class="material-icons-outlined">person_add</span>
+                    <span style="font-size: 25px; display: inline-flex; align-items: center; height: 35px;"
+                        class="material-icons-outlined">person_add</span>
                 </div>
                 <div>Nouveau client</div>
                 <div class="close" onclick="closeAddClientModal();$('#clientModal>form')[0].reset();">
@@ -106,6 +107,15 @@
                             </td>
                             <td>
                                 <input class="w3-input w3-border" type="email" name="courriel">
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>N° dossier</label>
+                            </td>
+                            <td>
+                                <input class="w3-input w3-border" type="text">
                             </td>
 
                         </tr>
