@@ -153,7 +153,8 @@ app.controller('ProfileCtrl', function ($scope, $http) {
         lastName: form['lastName'].value,
       })
       .then(res => {
-        console.log(res.data)
+        console.log(res.data);
+        notify('Profile Updated', 1);
       })
       .catch(err => console.log(err))
   }
