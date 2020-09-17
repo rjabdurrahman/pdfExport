@@ -166,7 +166,7 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
       .then(res => {
         console.log(res.data)
         $rootScope.updateLetters()
-        notify('Profile Updated', 1)
+        notify('Mise à jour', 1)
       })
       .catch(err => console.log(err))
   }
