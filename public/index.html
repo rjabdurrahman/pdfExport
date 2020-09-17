@@ -79,7 +79,7 @@
                             <td style="padding: 6px 0;">
                                 <input ng-class="{'err' : isErr.indexOf('nom') >= 0}"
                                     onfocus="$(this).removeClass('err')" class="w3-input w3-border" type="text"
-                                    name="nom">
+                                    name="nom" required>
                             </td>
                         </tr>
                         <tr>
@@ -89,7 +89,7 @@
                             <td>
                                 <input ng-class="{'err' : isErr.indexOf('prenom') >= 0}"
                                     onfocus="$(this).removeClass('err')" class="w3-input w3-border" type="text"
-                                    name="prenom">
+                                    name="prenom" required>
                             </td>
                         </tr>
                         <tr>
@@ -107,15 +107,6 @@
                             </td>
                             <td>
                                 <input class="w3-input w3-border" type="email" name="courriel">
-                            </td>
-
-                        </tr>
-                        <tr>
-                            <td>
-                                <label>N° dossier</label>
-                            </td>
-                            <td>
-                                <input class="w3-input w3-border" type="text">
                             </td>
 
                         </tr>
