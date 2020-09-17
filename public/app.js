@@ -35,6 +35,17 @@ app.run(function ($rootScope, $http, $route) {
   $rootScope.clients = []
   $rootScope.loadingClients = false
   $rootScope.searchable = false
+  $rootScope.updateLetters = function () {
+    $http
+      .get('api/profile')
+      .then(res => {
+        $('.letters').html(res.data.firstName[0] + res.data.lastName[0])
+      })
+      .catch(err => {
+        console.log(err)
+      })
+  }
+  $rootScope.updateLetters()
   $rootScope.loadClients = function () {
     $rootScope.loadingClients = true
     $http({
@@ -129,7 +140,7 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   }
 })
 
-app.controller('ProfileCtrl', function ($scope, $http) {
+app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
   $scope.profile = {}
   $http
     .get('api/profile')
@@ -142,19 +153,20 @@ app.controller('ProfileCtrl', function ($scope, $http) {
     })
   $scope.updateProfile = function (e, id) {
     e.preventDefault()
-    let form = e.target;
+    let form = e.target
     console.log({
       firstName: form['firstName'].value,
-      lastName: form['lastName'].value,
+      lastName: form['lastName'].value
     })
     $http
       .post('api/profile/', {
         firstName: form['firstName'].value,
-        lastName: form['lastName'].value,
+        lastName: form['lastName'].value
       })
       .then(res => {
-        console.log(res.data);
-        notify('Profile Updated', 1);
+        console.log(res.data)
+        $rootScope.updateLetters()
+        notify('Profile Updated', 1)
       })
       .catch(err => console.log(err))
   }

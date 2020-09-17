@@ -138,13 +138,6 @@
         $('.w3-dropdown-menu').click(function (e) {
             $(this).children('.w3-dropdown-content').toggle();
         })
-        axios.get('api/profile')
-            .then(res => {
-                $('.letters').html(res.data.firstName[0] + res.data.lastName[0])
-            })
-            .catch(err => {
-                console.log(err)
-            })
     </script>
 </body>
 
