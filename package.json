@@ -1,7 +1,7 @@
 {
     "name": "yves",
     "version": "1.0.0",
-    "description": "",
+    "description": "A web app for The agency to store clients data and automate PDF for clients",
     "main": "index.js",
     "dependencies": {
         "child_process": "^1.0.2",

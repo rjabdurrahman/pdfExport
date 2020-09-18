@@ -19,7 +19,7 @@ module.exports = (req, res) => {
                 if (err) res.send(err.message)
                 else {
                     let prefix = '';
-                    if(process.platform != 'win32') prefix = 'chmod u+x /app/vendor/pdftk/bin/pdftk && ';
+                    // if(process.platform != 'win32') prefix = 'chmod u+x /app/vendor/pdftk/bin/pdftk && ';
                     exec(`${prefix}pdftk ./pdf/2019_editable.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
                         if (error) {
                             res.send(`error: ${error.message}`);
