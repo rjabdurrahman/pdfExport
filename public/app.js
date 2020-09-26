@@ -21,12 +21,12 @@ app.config([
         activetab: 'profile'
       })
       .otherwise({ redirectTo: '/' })
-    // if (window.history && window.history.pushState) {
-    //     $locationProvider.html5Mode({
-    //         enabled: true,
-    //         requireBase: false
-    //     });
-    // }
+    if (window.history && window.history.pushState) {
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
+    }
   }
 ])
 
