@@ -18,12 +18,13 @@ app.get('/logout', userLogOut)
 app.use('/api', apiRoute)
 app.use(express.static('public'))
 app.get('/mylogin', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public/login', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public/login', 'index.html'))
 })
 app.get(
   '/*',
   function (req, res, next) {
-    res.sendFile(path.join(__dirname, 'public', 'index.html'))
+    if (!req.cookies.user) res.redirect('/mylogin');
+    else res.sendFile(path.join(__dirname, 'public', 'index.html'))
     // return next();
   }
   // function (req, res, next) {
