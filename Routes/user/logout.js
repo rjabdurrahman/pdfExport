@@ -1,4 +1,6 @@
 module.exports = (req, res) => {
-    res.clearCookie('user')
-    res.redirect('/')
+  res.clearCookie('user')
+  res.send({
+    success: true
+  });
 }

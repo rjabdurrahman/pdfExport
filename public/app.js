@@ -20,12 +20,17 @@ app.config([
         controller: 'ProfileCtrl',
         activetab: 'profile'
       })
+      .when('/logout', {
+        templateUrl: 'pages/logout.html',
+        controller: 'LogOutCtrl',
+        activetab: 'logout'
+      })
       .otherwise({ redirectTo: '/' })
     if (window.history && window.history.pushState) {
-        $locationProvider.html5Mode({
-            enabled: true,
-            requireBase: false
-        });
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+      })
     }
   }
 ])
@@ -170,4 +175,11 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
       })
       .catch(err => console.log(err))
   }
+})
+
+app.controller('LogOutCtrl', function ($scope, $http) {
+  $http
+    .get('/logout')
+    .then(res => (location.href = '/mylogin'))
+    .catch(err => console.log(err))
 })
