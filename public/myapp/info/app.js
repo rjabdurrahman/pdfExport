@@ -180,6 +180,6 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
 app.controller('LogOutCtrl', function ($scope, $http) {
   $http
     .get('/logout')
-    .then(res => (location.href = '/mylogin'))
+    .then(res => (location.href = '/myapp/login'))
     .catch(err => console.log(err))
 })
