@@ -15,8 +15,11 @@ app.post('/login', userLogin)
 app.get('/logout', userLogOut)
 app.use('/api', apiRoute)
 app.use(express.static('public'))
-app.get('/myapp/home', (req, res) => {
+app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
+})
+app.get('/myapp/info', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/myapp/home', 'index.html'));
 })
 const server = app.listen(process.env.PORT || 3000, () =>
   console.log(`Listening on Port:: ${server.address().port}`)

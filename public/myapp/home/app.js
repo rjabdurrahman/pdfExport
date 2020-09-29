@@ -10,17 +10,17 @@ app.config([
         controller: 'ClientsListControler',
         activetab: 'home'
       })
-      .when('/info', {
-        templateUrl: './home/myapp/pages/info.html',
+      .when('/myapp/info', {
+        templateUrl: './home/pages/info.html',
         controller: 'InfoCtrl',
         activetab: 'page1'
       })
-      .when('/profile', {
+      .when('/myapp/profile', {
         templateUrl: './home/pages/profile.html',
         controller: 'ProfileCtrl',
         activetab: 'profile'
       })
-      .when('/logout', {
+      .when('/myapp/logout', {
         templateUrl: './home/pages/logout.html',
         controller: 'LogOutCtrl',
         activetab: 'logout'
@@ -118,7 +118,7 @@ app.run(function ($rootScope, $http, $route) {
 })
 
 app.component('leftNav', {
-  templateUrl: '/components/leftnav.html',
+  templateUrl: './home/components/leftnav.html',
   controller: 'NavCtrl'
 })
 
