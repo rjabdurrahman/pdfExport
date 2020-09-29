@@ -6,7 +6,7 @@ module.exports = function (req, res) {
         if(err) res.send(err)
         else if(result.length > 0) {
                 res.cookie('user', result[0], { maxAge: 865000000 })
-                res.redirect('/')
+                res.redirect('/myapp/home');
         }
         else res.send('Login Failed');
     })
