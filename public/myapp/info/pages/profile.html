@@ -1,0 +1,29 @@
+<div class="w3-container" style="width: 900px; margin: auto;">
+    <form method="post" ng-submit="updateProfile($event, profile._id)" class="form-input profile-area anima-word-break">
+        <div style="width: 836px; height: 100%; position:relative; margin:auto;">
+            <input type="text"class="a0040" name="password" value="{{profile.password}}">
+            <input type="text" class="a0031" name="password" value="{{profile.password}}">
+            <input class="a0022" name="lastName" value="{{profile.lastName}}" >
+            <input class="a0013" name="firstName" value="{{profile.firstName}}" >
+            <div class="confirmer4">
+                Confirmer</div>
+            <div class="motdepasse5">
+                Mot de passe</div>
+            <div class="nom6"> Nom
+            </div>
+            <div class="prnom7">
+                Prénom</div>
+            <div class="utilisateur8"> Utilisateur</div>
+            <div style="position: absolute; top: 305px; width: 100%;">
+                <button type="submit" class="w3-button" style="background: #6e9cee; color: white; height: 42px; width: 204px;">Modifier</button>
+            </div>
+        </div>
+    </form>
+</div>
+<script>
+    $(':password').blur(function (e) {
+        if (!$(':password')[0].value == $(':password')[1].value) {
+            $($(':password')[1]).addClass('w3-border-red')
+        }
+    })
+</script>
