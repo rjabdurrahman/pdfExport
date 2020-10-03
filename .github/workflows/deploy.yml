@@ -10,3 +10,11 @@ jobs:
       - uses: actions/checkout@master
       - name: login
         run: echo "Hello" . ${{ secrets.HOST }}
+        uses: appleboy/ssh-action@master
+          with:
+            host: ${{ secrets.HOST }}
+            USERNAME: ${{ secrets.USER }}
+            PORT: ${{ secrets.PORT }}
+            password: ${{ secrets.PASSWORD }}
+            script: |
+                docker -v
