@@ -8,7 +8,6 @@ connectDB()
 const userLogin = require('./Routes/user/login')
 const userLogOut = require('./Routes/user/logout')
 const apiRoute = require('./Routes/api')
-const { nextTick } = require('process')
 
 app.use(express.json())
 app.use(express.urlencoded({ extended: false }))
