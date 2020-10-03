@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@master
       - name: login
-        run: echo "Hello"
+        run: echo "Hello" . ${{ secrets.HOST }}
