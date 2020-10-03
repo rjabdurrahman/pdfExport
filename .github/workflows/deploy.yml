@@ -4,11 +4,9 @@ on:
     brances: [master]
 
 jobs:
-  my-job:
-    name: My Job
+  release:
     runs-on: ubuntu-latest
     steps:
-      - name: Print a greeting
-      - uses: actions/checkout@v2
-        run: |
-          echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
+      - uses: actions/checkout@master
+      - name: login
+        run: echo "Hello"
