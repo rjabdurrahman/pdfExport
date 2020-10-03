@@ -105,7 +105,7 @@ app.run(function ($rootScope, $http, $route) {
   $rootScope.deleteClient = function () {
     $('#clientDeleteModal').hide()
     $http
-      .post('api/delete/' + $rootScope.onDelete._id)
+      .post('/api/delete/' + $rootScope.onDelete._id)
       .then(res => {
         if (!res.data.err) notify('Supression Client', 1)
         else notify(res.data.err.message, 2)
