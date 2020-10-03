@@ -1,0 +1,19 @@
+name: Digital Ocan Deployment
+on:
+  push:
+    brances: [master]
+
+jobs:
+  job_one:
+    name: Deploy
+    runs-on: ubuntu-latest
+  if: github.event_name == 'push'
+  steps:
+  - name: Print a greeting
+      env:
+        MY_VAR: Hi there! My name is
+        FIRST_NAME: Mona
+        MIDDLE_NAME: The
+        LAST_NAME: Octocat
+      run: |
+        echo $MY_VAR $FIRST_NAME $MIDDLE_NAME $LAST_NAME.
