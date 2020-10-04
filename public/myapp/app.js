@@ -20,11 +20,11 @@ app.config([
         controller: 'ProfileCtrl',
         activetab: 'profile'
       })
-      // .when('/myapp/logout', {
-      //   templateUrl: './home/pages/logout.html',
-      //   controller: 'LogOutCtrl',
-      //   activetab: 'logout'
-      // })
+      .when('/myapp/logout', {
+        templateUrl: 'pages/logout.html',
+        controller: 'LogOutCtrl',
+        activetab: 'logout'
+      })
       .otherwise({ redirectTo: '/myapp/home' })
     if (window.history && window.history.pushState) {
       $locationProvider.html5Mode({
