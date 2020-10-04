@@ -14,7 +14,7 @@
                         <th style="width: 210px;">Prénom</th>
                         <th style="width: 140px;">Téléphone</th>
                         <th>Courriel</th>
-                        <th style="width: 155px;">Année d'imposition</th>
+                        <th style="width: 155px;">Infos</th>
                         <th style="width: 160px;" class="w3-center">Actions</th>
                     </tr>
                 </thead>
@@ -34,15 +34,9 @@
                         <td>
                             <a href="mailto:{{client.signaletique.contribuable.courriel}}?subject=IMPOTS 2019">{{client.signaletique.contribuable.courriel}}</a>
                         </td>
-                        <td>2019</td>
+                        <td></td>
                         <td style="width: 50px;" class="w3-center">
                             <div style="display: flex; gap: 10px; justify-content: center;">
-                                <a class="w3-tooltip" style="text-decoration: none;" href="/#/info?id={{client._id}}">
-                                    <span class="material-icons">
-                                        info
-                                    </span>
-                                    <span class="w3-text">Created On:</span>
-                                </a>
                                 <span style="cursor: pointer;" id="{{client}}" onclick="$('#clientDeleteModal').show();" ng-click="deleteAction($event)" class="w3-text-red material-icons">
                                     delete
                                 </span>

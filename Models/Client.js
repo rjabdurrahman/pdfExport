@@ -1,4 +1,13 @@
 const { Schema, model } = require('mongoose')
-const clientSchema = new Schema({}, { strict: false })
+const clientSchema = new Schema({
+    createdOn: {
+        type: Date,
+        default: Date.now
+    },
+    modifiededOn: {
+        type: Date,
+        default: Date.now
+    }
+}, { strict: false })
 let Client = model('Client', clientSchema, 'clients_2019')
 module.exports = Client
