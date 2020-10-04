@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yves</title>
+    <title>Home</title>
     <link rel="stylesheet" href="css/w3.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel='stylesheet'
         href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
-    <script src="../home/js/jquery.min.js"></script>
-    <script src="../home/js/angular.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/angular.min.js"></script>
     <script src="js/angular-route.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
@@ -23,16 +23,16 @@
     <header>
         <div class="w3-bar top-nav">
             <div class="w3-left">
-                <a href="/myapp/home" class="w3-bar-item w3-padding-16">
+                <a href="home" class="w3-bar-item w3-padding-16">
                     <img src="img/logo.png" alt="Logo">
                 </a>
             </div>
             <div class="top-menu">
-                <a href="/myapp/home" class="w3-bar-item w3-padding-16">
+                <a href="home" class="w3-bar-item w3-padding-16">
                     <label><span class="material-icons-outlined">home</span></label>
                     <label class="text">Accueil</label>
                 </a>
-                <a href="/myapp/home" class="w3-bar-item w3-padding-16">
+                <a href="home" class="w3-bar-item w3-padding-16">
                     <label><span class="material-icons-outlined">group</span></label>
                     <label class="text">Clients</label>
                 </a>
@@ -42,8 +42,8 @@
                 <div class="w3-dropdown-menu arrow">
                     <span class="material-icons">keyboard_arrow_down</span>
                     <div class="w3-dropdown-content w3-bar-block w3-border menu-items">
-                        <a href="/profile" class="w3-bar-item w3-button">Profil</a>
-                        <a href="/logout" class="w3-bar-item w3-button">Log out</a>
+                        <a href="profile" class="w3-bar-item w3-button">Profil</a>
+                        <a href="logout" class="w3-bar-item w3-button">Log out</a>
                     </div>
                 </div>
             </div>
@@ -123,11 +123,11 @@
         <img src="img/loader.gif" alt="Loading...">
     </div>
     <ng-view></ng-view>
-    <script src="./app.js"></script>
-    <script src="./js/main.js"></script>
-    <script src="./controllers/page.js"></script>
-    <script src="./controllers/pageCalcuation.js"></script>
-    <script src="./controllers/info.js"></script>
+    <script src="app.js"></script>
+    <script src="js/main.js"></script>
+    <script src="controllers/page.js"></script>
+    <script src="controllers/pageCalcuation.js"></script>
+    <script src="controllers/info.js"></script>
     <script>
         function openAddClientModal() {
             document.getElementById('clientModal').style.display = 'block';

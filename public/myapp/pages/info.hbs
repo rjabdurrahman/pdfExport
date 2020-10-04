@@ -78,7 +78,7 @@
             if (idx > -1) info[idx].value = this.checked ? 'Yes' : 'Off';
         });
         let id = location.href.split('id=')[1];
-        axios.post('api/infoupdate/' + id, info)
+        axios.post('../api/infoupdate/' + id, info)
             .then(res => {
                 if (!res.err) notify('Mise à jour', 1);
             })

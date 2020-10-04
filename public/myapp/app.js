@@ -6,26 +6,26 @@ app.config([
   function ($routeProvider, $locationProvider) {
     $routeProvider
       .when('/myapp/home', {
-        templateUrl: './home/pages/clients_list.html',
+        templateUrl: 'pages/clients_list.html',
         controller: 'ClientsListControler',
         activetab: 'home'
       })
       .when('/myapp/info', {
-        templateUrl: './home/pages/info.html',
+        templateUrl: 'pages/info.html',
         controller: 'InfoCtrl',
         activetab: 'page1'
       })
       .when('/myapp/profile', {
-        templateUrl: './home/pages/profile.html',
+        templateUrl: 'pages/profile.html',
         controller: 'ProfileCtrl',
         activetab: 'profile'
       })
-      .when('/myapp/logout', {
-        templateUrl: './home/pages/logout.html',
-        controller: 'LogOutCtrl',
-        activetab: 'logout'
-      })
-      .otherwise({ redirectTo: '/' })
+      // .when('/myapp/logout', {
+      //   templateUrl: './home/pages/logout.html',
+      //   controller: 'LogOutCtrl',
+      //   activetab: 'logout'
+      // })
+      .otherwise({ redirectTo: '/myapp/home' })
     if (window.history && window.history.pushState) {
       $locationProvider.html5Mode({
         enabled: true,
@@ -105,7 +105,7 @@ app.run(function ($rootScope, $http, $route) {
   $rootScope.deleteClient = function () {
     $('#clientDeleteModal').hide()
     $http
-      .post('api/delete/' + $rootScope.onDelete._id)
+      .post('../api/delete/' + $rootScope.onDelete._id)
       .then(res => {
         if (!res.data.err) notify('Supression Client', 1)
         else notify(res.data.err.message, 2)
@@ -118,7 +118,7 @@ app.run(function ($rootScope, $http, $route) {
 })
 
 app.component('leftNav', {
-  templateUrl: './home/components/leftnav.html',
+  templateUrl: 'components/leftnav.html',
   controller: 'NavCtrl'
 })
 
@@ -164,7 +164,7 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
       lastName: form['lastName'].value
     })
     $http
-      .post('api/profile/', {
+      .post('/api/profile/', {
         firstName: form['firstName'].value,
         lastName: form['lastName'].value
       })
