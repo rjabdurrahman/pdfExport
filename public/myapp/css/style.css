@@ -38337,6 +38337,27 @@ header {
   z-index: 99999;
 }
 
+.top-nav .user .menu-items a {
+  background-color: #f4f5f6;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px 10px !important;
+}
+
+.top-nav .user .menu-items a:hover {
+  background-color: #dfe2e5;
+}
+
+.top-nav .user .menu-items a span {
+  font-size: 18px;
+  margin-right: 8px;
+  color: #25c1a0;
+}
+
 .top-nav .user .menu-items::before {
   content: '';
   height: 10;
@@ -38345,7 +38366,7 @@ header {
   position: absolute;
   top: -20px;
   right: 7px;
-  border-bottom-color: white;
+  border-bottom-color: #f4f5f6;
 }
 
 .left-nav::-webkit-scrollbar {

@@ -230,7 +230,7 @@ header {
 			margin-top : 8px;
 			margin-left: 12px;
 			cursor     : pointer;
-
+			
 			.w3-dropdown-content {
 				right           : 40px;
 				background-color: white !important;
@@ -240,7 +240,22 @@ header {
 		}
 
 		.menu-items {
-			z-index: 99999;
+			z-index         : 99999;
+			
+			a {
+				background-color: #f4f5f6;
+				display: inline-flex;
+				align-items: center;
+				padding: 8px 10px !important;
+				&:hover {
+					background-color: $in-color;
+				}
+				span {
+					font-size: 18px;
+					margin-right: 8px;
+					color: #25c1a0;
+				}
+			}
 
 			&::before {
 				content            : '';
@@ -250,7 +265,7 @@ header {
 				position           : absolute;
 				top                : -20px;
 				right              : 7px;
-				border-bottom-color: white;
+				border-bottom-color: #f4f5f6;
 			}
 		}
 
