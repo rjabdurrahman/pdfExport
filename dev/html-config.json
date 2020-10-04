@@ -1,5 +1,5 @@
 {
-    "rootDir": "./public/myapp/home/pages/",
-    "outDir": "./public/myapp/home/pages/",
+    "rootDir": "./public/myapp/pages/",
+    "outDir": "./public/myapp/pages/",
     "output": "info.html"
 }
