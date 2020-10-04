@@ -1,22 +1,23 @@
 <div class="w3-container" style="width: 900px; margin: auto;">
+    <div style="margin: 20px 20px 0 20px;">
+        <h2 style="margin: 0;" class="utilisateur8"> Utilisateur</h2>
+    </div>
     <form method="post" ng-submit="updateProfile($event, profile._id)" class="form-input profile-area anima-word-break">
         <div style="width: 836px; height: 100%; position:relative; margin:auto;">
-            <input type="text"class="a0040" name="password" value="{{profile.password}}">
-            <input type="text" class="a0031" name="password" value="{{profile.password}}">
-            <input class="a0022" name="lastName" value="{{profile.lastName}}" >
-            <input class="a0013" name="firstName" value="{{profile.firstName}}" >
-            <div class="confirmer4">
-                Confirmer</div>
-            <div class="motdepasse5">
-                Mot de passe</div>
-            <div class="nom6"> Nom
+            <input class="x004-C61RwL" value="{{profile.password}}"></input>
+            <input name="password" class="x003-C61RwL" value="{{profile.password}}"></input>
+            <input name="firstName" class="x002-C61RwL" value="{{profile.firstName}}"></input>
+            <input name="lastName" class="x001-C61RwL" value="{{profile.lastName}}"></input>
+            <div class="confirmer-C61RwL font-class-1">Confirmer</div>
+            <div class="mot-de-passe-C61RwL font-class-1">Mot de passe
             </div>
-            <div class="prnom7">
-                Prénom</div>
-            <div class="utilisateur8"> Utilisateur</div>
-            <div style="position: absolute; top: 305px; width: 100%;">
-                <button type="submit" class="w3-button" style="background: #6e9cee; color: white; height: 42px; width: 204px;">Modifier</button>
+            <div class="nom-C61RwL font-class-1">Nom</div>
+            <div class="prenom-C61RwL font-class-1">Prénom</div>
+            <div class="utilisateur-C61RwL font-class-1">Utilisateur
             </div>
+            <input name="username" class="x001-VMr6Om" value="{{profile.username}}"></input>
+            <button type="submit" class="w3-button"
+                style="position: absolute; top: 340px;background: #6e9cee; color: white; height: 42px; width: 204px;">Modifier</button>
         </div>
     </form>
 </div>
