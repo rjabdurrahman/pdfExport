@@ -674,3 +674,26 @@ input.num {
 	align-items     : center !important;
 	justify-content : center;
 }
+
+.w3-tooltip {
+	position: relative;
+	display : inline-block;
+
+	.w3-text {
+		width           : 120px;
+		background-color: black;
+		color           : #fff;
+		text-align      : left;
+		padding         : 5px 0;
+		border-radius   : 6px;
+		position        : absolute;
+		z-index         : 1;
+		display         : inline-block;
+		visibility: hidden;
+	}
+
+	/* Show the tooltip text when you mouse over the tooltip container */
+	&:hover .w3-text {
+		visibility: visible;
+	}
+}

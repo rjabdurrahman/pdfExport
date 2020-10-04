@@ -37,10 +37,11 @@
                         <td>2019</td>
                         <td style="width: 50px;" class="w3-center">
                             <div style="display: flex; gap: 10px; justify-content: center;">
-                                <a style="text-decoration: none;" href="/#/info?id={{client._id}}">
+                                <a class="w3-tooltip" style="text-decoration: none;" href="/#/info?id={{client._id}}">
                                     <span class="material-icons">
                                         info
                                     </span>
+                                    <span class="w3-text">Created On:</span>
                                 </a>
                                 <span style="cursor: pointer;" id="{{client}}" onclick="$('#clientDeleteModal').show();" ng-click="deleteAction($event)" class="w3-text-red material-icons">
                                     delete
@@ -49,7 +50,10 @@
                                     <img style="height: 20px; width: 20px; margin-top: 3px;" src="img/pdf.svg" />
                                 </a>
                                 <a href="#">
-                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/docx.svg" />
+                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/docx2.svg" />
+                                </a>
+                                <a href="#">
+                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/excel2.svg" />
                                 </a>
                             </div>
                         </td>
