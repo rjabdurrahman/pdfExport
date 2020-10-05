@@ -9,11 +9,13 @@ module.exports = {
     }
   },
   updateProfile: (req, res) => {
-    let { firstName, lastName } = req.body
-    console.log(req.cookies.user._id)
+    let { firstName, lastName, password, username } = req.body
+    if(!username || !firstName || !lastName || !username || !password) res.send({
+      err: 'Some fields are Empty!'
+    })
     User.findByIdAndUpdate(
       req.cookies.user._id,
-      { firstName, lastName },
+      { firstName, lastName, password, username },
       (err, result) => {
         if (err) res.send(err)
         else res.send('Updated')

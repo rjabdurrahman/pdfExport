@@ -4,10 +4,10 @@
     </div>
     <form method="post" ng-submit="updateProfile($event, profile._id)" class="form-input profile-area anima-word-break">
         <div style="width: 836px; height: 100%; position:relative; margin:auto;">
-            <input class="x004-C61RwL" value="{{profile.password}}"></input>
-            <input name="password" class="x003-C61RwL" value="{{profile.password}}"></input>
-            <input name="firstName" class="x002-C61RwL" value="{{profile.firstName}}"></input>
-            <input name="lastName" class="x001-C61RwL" value="{{profile.lastName}}"></input>
+            <input name="confirmPass" class="pass x004-C61RwL" value="{{profile.password}}" required>
+            <input name="password" class="pass x003-C61RwL" value="{{profile.password}}" required>
+            <input name="firstName" class="x002-C61RwL" value="{{profile.firstName}}" required>
+            <input name="lastName" class="x001-C61RwL" value="{{profile.lastName}}" required>
             <div class="confirmer-C61RwL font-class-1">Confirmer</div>
             <div class="mot-de-passe-C61RwL font-class-1">Mot de passe
             </div>
@@ -15,16 +15,14 @@
             <div class="prenom-C61RwL font-class-1">Prénom</div>
             <div class="utilisateur-C61RwL font-class-1">Utilisateur
             </div>
-            <input name="username" class="x001-VMr6Om" value="{{profile.username}}"></input>
+            <input name="username" class="x001-VMr6Om" value="{{profile.username}}" required>
             <button type="submit" class="w3-button"
                 style="position: absolute; top: 340px;background: #6e9cee; color: white; height: 42px; width: 204px;">Modifier</button>
         </div>
     </form>
 </div>
 <script>
-    $(':password').blur(function (e) {
-        if (!$(':password')[0].value == $(':password')[1].value) {
-            $($(':password')[1]).addClass('w3-border-red')
-        }
+    $('.pass').blur(function (e) {
+        console.log('some action')
     })
 </script>

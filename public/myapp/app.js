@@ -166,7 +166,9 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
     $http
       .post('/api/profile/', {
         firstName: form['firstName'].value,
-        lastName: form['lastName'].value
+        lastName: form['lastName'].value,
+        username: form['username'].value,
+        password: form['password'].value,
       })
       .then(res => {
         console.log(res.data)
