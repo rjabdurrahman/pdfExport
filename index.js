@@ -14,8 +14,8 @@ app.use(express.urlencoded({ extended: false }))
 app.post('/login', userLogin)
 app.get('/logout', userLogOut)
 app.use('/api', apiRoute)
-app.use(/\/myapp\/(home|info|profile|logout)*/, (req, res, next) => {
-  if (!req.cookies.user) {
+app.use('/myapp/:route', (req, res, next) => {
+  if (req.params.route != 'login' && !req.cookies.user) {
     res.redirect('/myapp/login')
   }
   else next()
