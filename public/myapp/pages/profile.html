@@ -23,6 +23,14 @@
 </div>
 <script>
     $('.pass').blur(function (e) {
-        console.log('some action')
+        if(this.name == 'password' && this.value !== $('[name="confirmPass"]').val()) {
+            $('[name="confirmPass"]').css('background', '#cf4044')
+        }
+        else if(this.name == 'confirmPass' && this.value !== $('[name="password"]').val()) {
+            $('[name="confirmPass"]').css('background', '#cf4044')
+        }
+        else {
+            console.log('OK')
+        }
     })
 </script>
