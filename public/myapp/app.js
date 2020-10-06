@@ -159,16 +159,16 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
   $scope.updateProfile = function (e, id) {
     e.preventDefault()
     let form = e.target
-    console.log({
-      firstName: form['firstName'].value,
-      lastName: form['lastName'].value
-    })
+    if (form['password'].value !== form['confirmPass'].value) {
+      notify('Passwords not matched!', 2)
+      return;
+    }
     $http
       .post('/api/profile/', {
         firstName: form['firstName'].value,
         lastName: form['lastName'].value,
         username: form['username'].value,
-        password: form['password'].value,
+        password: form['password'].value
       })
       .then(res => {
         console.log(res.data)
