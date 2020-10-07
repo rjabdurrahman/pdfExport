@@ -44,7 +44,7 @@ app.run(function ($rootScope, $http, $route) {
     $http
       .get('/api/profile')
       .then(res => {
-        $('.letters').html(res.data.lastName[0] + res.data.firstName[0])
+        $('.letters').html(res.data.firstName[0] + res.data.lastName[0])
       })
       .catch(err => {
         console.log(err)
