@@ -160,7 +160,7 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
     e.preventDefault()
     let form = e.target
     if (form['password'].value !== form['confirmPass'].value) {
-      notify('Passwords not matched!', 2)
+      notify('Mot de passe erroné', 2)
       return;
     }
     $http
