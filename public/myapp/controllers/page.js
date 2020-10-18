@@ -225,7 +225,7 @@ function pageInit () {
     e.target.value = e.target.value.replace('.', ',')
     let val = $(this).val()
     if (/^[-]{0,1}\d+$/.test(val)) $(this).val(frNumber(val) + ',00')
-    else if (/^[-]{0,1}\d+[,]$/.test(val)) $(this).val(frNumber(val) + '00')
+    else if (/^[-]{0,1}\d+[,]$/.test(val)) $(this).val(frNumber(val) + ',00')
     else if (/^[-]{0,1}\d+[,]\d{1}$/.test(val)) $(this).val(frNumber(val) + '0')
     else if (/^[-]{0,1}\d+[,][0]{2}$/.test(val))
       $(this).val(frNumber(val) + ',00')
