@@ -38284,7 +38284,6 @@ header {
 .top-nav .arrow:hover,
 .top-nav a:hover {
   cursor: pointer;
-  background-color: gray;
 }
 
 .top-nav a label {
