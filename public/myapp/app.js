@@ -13,7 +13,7 @@ app.config([
       .when('/myapp/info', {
         templateUrl: 'pages/info.html',
         controller: 'InfoCtrl',
-        activetab: 'page1'
+        activetab: 'info'
       })
       .when('/myapp/profile', {
         templateUrl: 'pages/profile.html',
@@ -191,6 +191,6 @@ app.controller('LogOutCtrl', function ($scope, $http) {
     .catch(err => console.log(err))
 })
 
-app.controller('RecyleCtrl', function ($scope, $http) {
+app.controller('RecycleCtrl', function ($scope, $http) {
   console.log('recyle')
 })
