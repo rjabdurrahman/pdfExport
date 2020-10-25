@@ -1,5 +1,5 @@
-$primary-color: #0d2d67;
-$secondary-color: #6e9cee;
+$primary-color: #0e2143;
+$secondary-color: #418fde;
 $opt-color: #d1d4d5;
 $in-color: #dfe2e5;
 $red-color: #cf4044;
@@ -717,7 +717,15 @@ input.num {
 }
 
 .profile-area {
-	button:hover {
+	.submit-btn {
+		position: absolute;
+		top: 340px;
+		background: $secondary-color;
+		color: white;
+		height: 42px;
+		width: 204px;
+	}
+	.submit-btn:hover {
 		filter: brightness(1.2);
 		-webkit-filter: brightness(1.2);
 	}

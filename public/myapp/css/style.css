@@ -38188,7 +38188,7 @@ body {
   -webkit-box-pack: justify !important;
       -ms-flex-pack: justify !important;
           justify-content: space-between !important;
-  background-color: #6e9cee;
+  background-color: #418fde;
   color: white;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -38266,7 +38266,7 @@ header {
   display: -ms-flexbox;
   display: flex;
   color: white;
-  background-color: #0d2d67 !important;
+  background-color: #0e2143 !important;
   padding-left: 50px;
   padding-right: 30px;
 }
@@ -38363,7 +38363,7 @@ header {
 .top-nav .user .menu-items a span {
   font-size: 18px;
   margin-right: 8px;
-  color: #0d2d67;
+  color: #0e2143;
 }
 
 .top-nav .user .menu-items::before {
@@ -38470,7 +38470,7 @@ header {
   position: sticky;
   top: 0;
   height: 50px;
-  background-color: #6e9cee;
+  background-color: #418fde;
   color: white;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -38736,7 +38736,7 @@ input.num {
   position: sticky;
   top: 0;
   z-index: 5;
-  background: #6e9cee;
+  background: #418fde;
   color: white;
   font-weight: normal;
 }
@@ -38856,7 +38856,16 @@ input.num {
   visibility: visible;
 }
 
-.profile-area button:hover {
+.profile-area .submit-btn {
+  position: absolute;
+  top: 340px;
+  background: #418fde;
+  color: white;
+  height: 42px;
+  width: 204px;
+}
+
+.profile-area .submit-btn:hover {
   filter: brightness(1.2);
   -webkit-filter: brightness(1.2);
 }
