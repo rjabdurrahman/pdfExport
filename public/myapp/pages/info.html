@@ -26,9 +26,23 @@
           })" -->
         <input name="1d38" type="text" class="not-refresh a1382"
             value="{{client.signaletique.coordonnees_bancaires.titulaire_du_compte}}">
-            <input name="1d37" type="text" class="refreshable a1373"
-            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.pays}}">
-        <input name="1d36" type="text" class="refreshable a1364" value="{{client.signaletique.contribuable.domicile.ancien.pays}}">
+        <!-- <input name="1d37" type="text" class="refreshable a1373"
+        value="{{client.signaletique.conjoint_partenaire.domicile.ancien.pays}}"> -->
+        <select name="1d37" class="refreshable a1373">
+            <option value=""></option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <select name="1d36" class="refreshable a1364">
+            <option value=""></option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <!-- <input name="1d36" type="text" class="refreshable a1364" value="{{client.signaletique.contribuable.domicile.ancien.pays}}"> -->
         <input name="1d35" type="text" class="refreshable a1355"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.localite}}">
         <input name="1d34" type="text" class="refreshable numo a_left a1346"
@@ -48,16 +62,23 @@
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.du_au}}">
         <input name="1d26" type="text" class="refreshable date a12614"
             value="{{client.signaletique.contribuable.domicile.ancien.du_au}}">
-            <input name="1d25" type="text" class="refreshable a12515"
-            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}">
-        <!-- <select name="" class="refreshable a12416">
+        <!-- <input name="1d25" type="text" class="refreshable a12515"
+        value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}"> -->
+        <select name="1d25" class="refreshable a12515">
             <option value=""></option>
-            <option value="LUXEMBOURG">LUXEMBOURG</option>
-            <option value="ALLEMAGNE">ALLEMAGNE</option>
-            <option value="BELGIQUE">BELGIQUE</option>
-            <option value="FRANCE">FRANCE</option>
-        </select> -->
-        <input name="1d24" type="text" class="refreshable a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}">
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <select name="1d24" class="refreshable a12416">
+            <option value=""></option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <!-- <input name="1d24" type="text" class="refreshable a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}"> -->
         <input name="1d23" type="text" class="refreshable a12317"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.localite}}">
         <input name="1d22" type="text" class="refreshable numo t_left a12218"
@@ -270,7 +291,6 @@
 </div>
 <script>
     function setAddress(e) {
-        isSaveAlive(true);
         let selectedText = e.target.options[e.target.selectedIndex].text
         let adressfeld = document.getElementsByName('0d2')[0]
         if (selectedText == "Bureau d'imposition:") {
@@ -5072,7 +5092,7 @@
     $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
         isSaveAlive(true);
     });
-    $('.form-input input:checkbox, .form-input input.date').change(function () {
+    $('.form-input input:checkbox, .form-input input.date, .form-input select').change(function () {
         isSaveAlive(true);
     })
     window.addEventListener("beforeunload", function (e) {
