@@ -178,6 +178,10 @@ header {
 	padding-left: 50px;
 	padding-right: 30px;
 
+	.active {
+		color: $secondary-color;
+	}
+
 	img {
 		height: 60px;
 		width: 60px;

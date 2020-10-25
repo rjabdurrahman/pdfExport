@@ -38271,6 +38271,10 @@ header {
   padding-right: 30px;
 }
 
+.top-nav .active {
+  color: #418fde;
+}
+
 .top-nav img {
   height: 60px;
   width: 60px;
