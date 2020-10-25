@@ -38284,6 +38284,7 @@ header {
 .top-nav .arrow:hover,
 .top-nav a:hover {
   cursor: pointer;
+  background-color: gray;
 }
 
 .top-nav a label {
@@ -38295,11 +38296,19 @@ header {
   margin-top: -4px;
 }
 
-.top-nav .top-menu {
-  margin-left: 50px !important;
+.top-nav .top-menu,
+.top-nav .right-menu {
   margin-top: 12px;
-  width: 100%;
   font-size: 14px;
+}
+
+.top-nav .top-menu {
+  width: 100%;
+  margin-left: 50px !important;
+}
+
+.top-nav .right-menu {
+  margin-right: 123px;
 }
 
 .top-nav .user {

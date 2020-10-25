@@ -191,6 +191,7 @@ header {
 	.arrow:hover,
 	a:hover {
 		cursor: pointer;
+		background-color: gray;
 	}
 
 	a label {
@@ -203,11 +204,19 @@ header {
 		// font-family: "Trebuchet MS", sans-serif !important;
 	}
 
-	.top-menu {
-		margin-left: 50px !important;
+	.top-menu,
+	.right-menu {
 		margin-top: 12px;
-		width: 100%;
 		font-size: 14px;
+	}
+
+	.top-menu {
+		width: 100%;
+		margin-left: 50px !important;
+	}
+
+	.right-menu {
+		margin-right: 123px;
 	}
 
 	.user {
