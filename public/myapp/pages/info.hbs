@@ -95,7 +95,7 @@
     $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
         isSaveAlive(true);
     });
-    $('.form-input input:checkbox, .form-input input.date').change(function () {
+    $('.form-input input:checkbox, .form-input input.date, .form-input select').change(function () {
         isSaveAlive(true);
     })
     window.addEventListener("beforeunload", function (e) {

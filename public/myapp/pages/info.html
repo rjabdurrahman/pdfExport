@@ -26,9 +26,23 @@
           })" -->
         <input name="1d38" type="text" class="not-refresh a1382"
             value="{{client.signaletique.coordonnees_bancaires.titulaire_du_compte}}">
-            <input name="1d37" type="text" class="refreshable a1373"
-            value="{{client.signaletique.conjoint_partenaire.domicile.ancien.pays}}">
-        <input name="1d36" type="text" class="refreshable a1364" value="{{client.signaletique.contribuable.domicile.ancien.pays}}">
+        <!-- <input name="1d37" type="text" class="refreshable a1373"
+        value="{{client.signaletique.conjoint_partenaire.domicile.ancien.pays}}"> -->
+        <select name="1d37" class="refreshable a1373">
+            <option value=""></option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <select name="1d36" class="refreshable a1364">
+            <option value=""></option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <!-- <input name="1d36" type="text" class="refreshable a1364" value="{{client.signaletique.contribuable.domicile.ancien.pays}}"> -->
         <input name="1d35" type="text" class="refreshable a1355"
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.localite}}">
         <input name="1d34" type="text" class="refreshable numo a_left a1346"
@@ -48,16 +62,23 @@
             value="{{client.signaletique.conjoint_partenaire.domicile.ancien.du_au}}">
         <input name="1d26" type="text" class="refreshable date a12614"
             value="{{client.signaletique.contribuable.domicile.ancien.du_au}}">
-            <input name="1d25" type="text" class="refreshable a12515"
-            value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}">
-        <!-- <select name="" class="refreshable a12416">
+        <!-- <input name="1d25" type="text" class="refreshable a12515"
+        value="{{client.signaletique.conjoint_partenaire.domicile.actuel.pays}}"> -->
+        <select name="1d25" class="refreshable a12515">
             <option value=""></option>
-            <option value="LUXEMBOURG">LUXEMBOURG</option>
-            <option value="ALLEMAGNE">ALLEMAGNE</option>
-            <option value="BELGIQUE">BELGIQUE</option>
-            <option value="FRANCE">FRANCE</option>
-        </select> -->
-        <input name="1d24" type="text" class="refreshable a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}">
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <select name="1d24" class="refreshable a12416">
+            <option value=""></option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'LUXEMBOURG'" value="LUXEMBOURG">LUXEMBOURG</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'ALLEMAGNE'" value="ALLEMAGNE">ALLEMAGNE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'BELGIQUE'" value="BELGIQUE">BELGIQUE</option>
+            <option ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'FRANCE'" value="FRANCE">FRANCE</option>
+        </select>
+        <!-- <input name="1d24" type="text" class="refreshable a12416" value="{{client.signaletique.contribuable.domicile.actuel.pays}}"> -->
         <input name="1d23" type="text" class="refreshable a12317"
             value="{{client.signaletique.conjoint_partenaire.domicile.actuel.localite}}">
         <input name="1d22" type="text" class="refreshable numo t_left a12218"
@@ -220,57 +241,56 @@
         <select name="0d1" class="refreshable bureau105" onchange="setAddress(event)">
             <option ng-selected="client.Bureaux_d_imposition == 'Bureau d\'imposition:'" value="Bureau d'imposition:">
                 Bureau d'imposition:</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'CA'" value="CA">Bureau d'imposition Capellen</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'CL'" value="CL">Bureau d'imposition Clervaux</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'DI'" value="DI">Bureau d'imposition Diekirch</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'DF'" value="DF">Bureau d'imposition Differdange
+            <option ng-selected="client.Bureaux_d_imposition == 'CA'" value="CA">Capellen</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'CL'" value="CL">Clervaux</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'DI'" value="DI">Diekirch</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'DF'" value="DF">Differdange
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'DU'" value="DU">Bureau d'imposition Dudelange</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'EN'" value="EN">Bureau d'imposition Echternach</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'E1'" value="E1">Bureau d'imposition Esch-sur-Alzette 1
+            <option ng-selected="client.Bureaux_d_imposition == 'DU'" value="DU">Dudelange</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'EN'" value="EN">Echternach</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'E1'" value="E1">Esch-sur-Alzette 1
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'E2'" value="E2">Bureau d'imposition Esch-sur-Alzette 2
+            <option ng-selected="client.Bureaux_d_imposition == 'E2'" value="E2">Esch-sur-Alzette 2
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'E3'" value="E3">Bureau d'imposition Esch-sur-Alzette 3
+            <option ng-selected="client.Bureaux_d_imposition == 'E3'" value="E3">Esch-sur-Alzette 3
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'ET'" value="ET">Bureau d'imposition Ettelbruck</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'GM'" value="GM">Bureau d'imposition Grevenmacher
+            <option ng-selected="client.Bureaux_d_imposition == 'ET'" value="ET">Ettelbruck</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'GM'" value="GM">Grevenmacher
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L4'" value="L4">Bureau d'imposition Luxembourg 1 et 4
+            <option ng-selected="client.Bureaux_d_imposition == 'L4'" value="L4">Luxembourg 1 et 4
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L2'" value="L2">Bureau d'imposition Luxembourg 2
+            <option ng-selected="client.Bureaux_d_imposition == 'L2'" value="L2">Luxembourg 2
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L3'" value="L3">Bureau d'imposition Luxembourg 3
+            <option ng-selected="client.Bureaux_d_imposition == 'L3'" value="L3">Luxembourg 3
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L5'" value="L5">Bureau d'imposition Luxembourg 5
+            <option ng-selected="client.Bureaux_d_imposition == 'L5'" value="L5">Luxembourg 5
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L6'" value="L6">Bureau d'imposition Luxembourg 6
+            <option ng-selected="client.Bureaux_d_imposition == 'L6'" value="L6">Luxembourg 6
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L7'" value="L7">Bureau d'imposition Luxembourg 7
+            <option ng-selected="client.Bureaux_d_imposition == 'L7'" value="L7">Luxembourg 7
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L8'" value="L8">Bureau d'imposition Luxembourg 8
+            <option ng-selected="client.Bureaux_d_imposition == 'L8'" value="L8">Luxembourg 8
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'L9'" value="L9">Bureau d'imposition Luxembourg 9
+            <option ng-selected="client.Bureaux_d_imposition == 'L9'" value="L9">Luxembourg 9
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'LX'" value="LX">Bureau d'imposition Luxembourg X
+            <option ng-selected="client.Bureaux_d_imposition == 'LX'" value="LX">Luxembourg X
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'LY'" value="LY">Bureau d'imposition Luxembourg Y
+            <option ng-selected="client.Bureaux_d_imposition == 'LY'" value="LY">Luxembourg Y
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'LZ'" value="LZ">Bureau d'imposition Luxembourg Z
+            <option ng-selected="client.Bureaux_d_imposition == 'LZ'" value="LZ">Luxembourg Z
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'ME'" value="ME">Bureau d'imposition Mersch</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'PE'" value="PE">Bureau d'imposition Pétange</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'RD'" value="RD">Bureau d'imposition Redange-sur-Attert
+            <option ng-selected="client.Bureaux_d_imposition == 'ME'" value="ME">Mersch</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'PE'" value="PE">Pétange</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'RD'" value="RD">Redange-sur-Attert
             </option>
-            <option ng-selected="client.Bureaux_d_imposition == 'RM'" value="RM">Bureau d'imposition Remich</option>
-            <option ng-selected="client.Bureaux_d_imposition == 'WI'" value="WI">Bureau d'imposition Wiltz</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'RM'" value="RM">Remich</option>
+            <option ng-selected="client.Bureaux_d_imposition == 'WI'" value="WI">Wiltz</option>
         </select>
         <textarea type="text" name="0d2" style="display: none;">{{client.Bureaux_d_imposition_adress}}</textarea>
     </div>
 </div>
 <script>
     function setAddress(e) {
-        isSaveAlive(true);
         let selectedText = e.target.options[e.target.selectedIndex].text
         let adressfeld = document.getElementsByName('0d2')[0]
         if (selectedText == "Bureau d'imposition:") {
@@ -278,146 +298,146 @@
 
         }
 
-        if (selectedText == "Bureau d'imposition Capellen") {
+        if (selectedText == "Capellen") {
             adressfeld.value = "55, rue du Kiem, Capellen\nboîte postale 42, L-8301 Capellen \n(+352) 247-52490\npphcap@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Clervaux") {
+        if (selectedText == "Clervaux") {
             adressfeld.value = "1, Grand-rue, Clervaux\nboîte postale 26, L-9701 Clervaux \n(+352) 247-52479\npphcle@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Diekirch") {
+        if (selectedText == "Diekirch") {
             adressfeld.value = "2, rue Clairefontaine, Diekirch\nboîte postale 155, L-9202 Diekirch\n(+352) 247-52481\npphdie@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Differdange") {
+        if (selectedText == "Differdange") {
             adressfeld.value = "23, Grand-rue, Differdange\nboîte postale 14, L-4501 Differdange\n(+352) 247-52486\npphdif@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Dudelange") {
+        if (selectedText == "Dudelange") {
             adressfeld.value = "16-18, rue Jean Jaurès, Dudelange\nboîte postale 80, L-3401 Dudelange\n(+352) 247-52485\npphdud@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Echternach") {
+        if (selectedText == "Echternach") {
             adressfeld.value = "4, rue du Pont, Echternach\nboîte postale 7, L-6401 Echternach\n(+352) 247-52482\npphech@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Esch-sur-Alzette 1") {
+        if (selectedText == "Esch-sur-Alzette 1") {
             adressfeld.value = "13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch1@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Esch-sur-Alzette 2") {
+        if (selectedText == "Esch-sur-Alzette 2") {
             adressfeld.value = "13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch2@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Esch-sur-Alzette 3") {
+        if (selectedText == "Esch-sur-Alzette 3") {
             adressfeld.value = "13, boulevard John F. Kennedy, Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\npphesch3@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Ettelbruck") {
+        if (selectedText == "Ettelbruck") {
             adressfeld.value = "10, Place Marie-Thérèse, Ettelbruck\nboîte postale 197, L-9002 Ettelbruck\n(+352) 247-52478\npphett@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Grevenmacher") {
+        if (selectedText == "Grevenmacher") {
             adressfeld.value = "6, rue de la Gare, Grevenmacher\nboîte postale 21, L-6701 Grevenmacher\n(+352) 247-52483\npphgre@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 1 et 4") {
+        if (selectedText == "Luxembourg 1 et 4") {
             adressfeld.value = "9, rue du Commerce\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux1@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 2") {
+        if (selectedText == "Luxembourg 2") {
             adressfeld.value = "111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux2@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 3") {
+        if (selectedText == "Luxembourg 3") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux3@co.etat.lu"
 
         }
 
-        if (selectedText == "Bureau d'imposition Luxembourg 5") {
+        if (selectedText == "Luxembourg 5") {
             adressfeld.value = "9, rue du Commerce, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux5@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 6") {
+        if (selectedText == "Luxembourg 6") {
             adressfeld.value = "111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux6@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 7") {
+        if (selectedText == "Luxembourg 7") {
             adressfeld.value = "111, rue de Hollerich, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux7@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 8") {
+        if (selectedText == "Luxembourg 8") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux8@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg 9") {
+        if (selectedText == "Luxembourg 9") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\npphlux9@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg X") {
+        if (selectedText == "Luxembourg X") {
             adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\n pphluxx@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg Y") {
+        if (selectedText == "Luxembourg Y") {
             adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\npphluxy@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Luxembourg Z") {
+        if (selectedText == "Luxembourg Z") {
             adressfeld.value = "21, rue Eugène Ruppert, Luxembourg\nboîte postale 1706,  L-1017 Luxembourg\n(+352) 2475-2475\npphluxz@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Mersch") {
+        if (selectedText == "Mersch") {
             adressfeld.value = "3, rue Grande-Duchesse Charlotte, Mersch\nboîte postale 89, L-7501 Mersch\n(+352) 247-52489\npphmer@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Pétange") {
+        if (selectedText == "Pétange") {
             adressfeld.value = "2, Place du Marché, Pétange\nboîte postale 22, L-4701 Pétange\n(+352) 247-52487\npphpet@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Redange-sur-Attert") {
+        if (selectedText == "Redange-sur-Attert") {
             adressfeld.value = "74, Grand-rue, Redange-sur-Attert\nboîte postale 11, L-8501 Redange-sur-Attert\n(+352) 247-52488\npphred@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Remich") {
+        if (selectedText == "Remich") {
             adressfeld.value = "2, rue de la Gare, Remich\nboîte postale 60, L-5501 Remich\n(+352) 247-52484\npphrem@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Wiltz") {
+        if (selectedText == "Wiltz") {
             adressfeld.value = "5, rue de Kautenbach, Wiltz\nboîte postale 20, L-9501 Wiltz\n(+352) 247-52480\npphwil@co.etat.lu"
 
         }
 
 
-        if (selectedText == "Bureau d'imposition Sociétés Diekirch") {
+        if (selectedText == "Sociétés Diekirch") {
             adressfeld.value = "2, rue Clairefontaine, Diekirch\nboîte postale 155, L-9202 Diekirch\n(+352) 247-52481\nsocdie@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés 1") {
+        if (selectedText == "Sociétés 1") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc1@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés 2") {
+        if (selectedText == "Sociétés 2") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc2@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés 3") {
+        if (selectedText == "Sociétés 3") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc3@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés 4") {
+        if (selectedText == "Sociétés 4") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc4@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés 5") {
+        if (selectedText == "Sociétés 5") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc5@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés 6") {
+        if (selectedText == "Sociétés 6") {
             adressfeld.value = "18, rue du Fort Wedell, Luxembourg\nL-2982 Luxembourg\n(+352) 2475-2475\nsoc6@co.etat.lu"
 
         }
-        if (selectedText == "Bureau d'imposition Sociétés Esch-sur-Alzette") {
+        if (selectedText == "Sociétés Esch-sur-Alzette") {
             adressfeld.value = "49, rue de l'Alzette,Esch-sur-Alzette\nboîte postale 247, L-4003 Esch-sur-Alzette\n(+352) 247-52474\nsocesch@co.etat.lu"
 
         }
@@ -3510,22 +3530,22 @@
                 <input name="15d1549" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees_total}}" class="num a15475" readonly />
                 <input name="15d1548" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees4}}" class="num a15466" onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')" />
                 <input name="15d1547" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees4}}" class="num a15457" onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')" />
-                <input name="15d1546" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['3'].debut_contrat}}" class="date a15448" />
+                <input name="15d1546" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['3'].debut_contrat}}" class="date t_center a15448" />
                 <input name="15d1545" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['3'].souscripteur}}" maxlength="13" class="numo cell-in15 a15439" />
                 <input name="15d1544" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['3'].caisse}}" class="a154210" />
                 <input name="15d1543" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees3}}" class="num a154111" onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')" />
                 <input name="15d1542" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees3}}" class="num a154012" onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')" />
-                <input name="15d1541" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['2'].debut_contrat}}" class="date a153913" />
+                <input name="15d1541" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['2'].debut_contrat}}" class="date t_center a153913" />
                 <input name="15d1540" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['2'].souscripteur}}" maxlength="13" class="numo cell-in15 a153814" />
                 <input name="15d1539" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['2'].caisse}}" class="a153715" />
                 <input name="15d1538" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees2}}" class="num a153616" onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')" />
                 <input name="15d1537" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees2}}" class="num a153517" onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')" />
-                <input name="15d1536" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['1'].debut_contrat}}" class="date a153418" />
+                <input name="15d1536" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['1'].debut_contrat}}" class="date t_center a153418" />
                 <input name="15d1535" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['1'].souscripteur}}" maxlength="13" class="numo cell-in15 a153319" />
                 <input name="15d1534" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['1'].caisse}}" class="a153220" />
                 <input name="15d1533" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees1}}" class="num a153121" onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')" />
                 <input name="15d1532" type="text" value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees1}}" class="num a153022" onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')" />
-                <input name="15d1531" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['0'].debut_contrat}}" class="date a152923" />
+                <input name="15d1531" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['0'].debut_contrat}}" class="date t_center a152923" />
                 <input name="15d1530" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['0'].souscripteur}}" maxlength="13" class="numo cell-in15 a152824" />
                 <input name="15d1529" type="text" value="{{client.depenses_speciales15.epargne_logement_t1['0'].caisse}}" class="a152725" />
             </div>
@@ -3537,23 +3557,23 @@
                 <input name="15d1524" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_total}}" class="a152330 num" readonly />
                 <input name="15d1523" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_4}}" class="num a152231" onkeyup="valueCal(['15d1508', '15d1513', '15d1518', '15d1523'], [], '15d1525')" />
                 <input name="15d1522" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_4}}" class="num a152132" onkeyup="valueCal(['15d1507', '15d1512', '15d1517', '15d1522'], [], '15d1524')" />
-                <input name="15d1521" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['3'].fin_contrat}}" class="date a152033" />
-                <input name="15d1520" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['3'].debut_contrat}}" class="date a151934" />
+                <input name="15d1521" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['3'].fin_contrat}}" class="date t_center a152033" />
+                <input name="15d1520" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['3'].debut_contrat}}" class="date t_center a151934" />
                 <input name="15d1519" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['3'].entreprise}}" class="a151835" />
                 <input name="15d1518" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_3}}" class="num a151736" onkeyup="valueCal(['15d1508', '15d1513', '15d1518', '15d1523'], [], '15d1525')" />
                 <input name="15d1517" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_3}}" class="num a151637" onkeyup="valueCal(['15d1507', '15d1512', '15d1517', '15d1522'], [], '15d1524')" />
-                <input name="15d1516" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['2'].fin_contrat}}" class="date a151538" />
-                <input name="15d1515" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['2'].debut_contrat}}" class="date a151439" />
+                <input name="15d1516" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['2'].fin_contrat}}" class="date t_center a151538" />
+                <input name="15d1515" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['2'].debut_contrat}}" class="date t_center a151439" />
                 <input name="15d1514" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['2'].entreprise}}" class="a151340" />
                 <input name="15d1513" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_2}}" class="num a151241" onkeyup="valueCal(['15d1508', '15d1513', '15d1518', '15d1523'], [], '15d1525')" />
                 <input name="15d1512" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_2}}" class="num a151142" onkeyup="valueCal(['15d1507', '15d1512', '15d1517', '15d1522'], [], '15d1524')" />
-                <input name="15d1511" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].fin_contrat}}" class="date a151043" />
-                <input name="15d1510" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].debut_contrat}}" class="date a150944" />
+                <input name="15d1511" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].fin_contrat}}" class="date t_center a151043" />
+                <input name="15d1510" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].debut_contrat}}" class="date t_center a150944" />
                 <input name="15d1509" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].entreprise}}" class="a150845" />
                 <input name="15d1508" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_1}}" class="num a150746" onkeyup="valueCal(['15d1508', '15d1513', '15d1518', '15d1523'], [], '15d1525')" />
                 <input name="15d1507" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_1}}" class="num a150647" onkeyup="valueCal(['15d1507', '15d1512', '15d1517', '15d1522'], [], '15d1524')" />
-                <input name="15d1506" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].fin_contrat}}" class="date a150548" />
-                <input name="15d1505" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].debut_contrat}}" class="date a150449" />
+                <input name="15d1506" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].fin_contrat}}" class="date t_center a150548" />
+                <input name="15d1505" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].debut_contrat}}" class="date t_center a150449" />
                 <input name="15d1504" type="text" value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].entreprise}}" class="a150350" />
             </div>
             <div class="page15_p1">
@@ -5072,7 +5092,7 @@
     $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
         isSaveAlive(true);
     });
-    $('.form-input input:checkbox, .form-input input.date').change(function () {
+    $('.form-input input:checkbox, .form-input input.date, .form-input select').change(function () {
         isSaveAlive(true);
     })
     window.addEventListener("beforeunload", function (e) {

@@ -32,9 +32,15 @@
                     <label><span class="material-icons-outlined">home</span></label>
                     <label class="text">Accueil</label>
                 </a>
-                <a href="home" class="w3-bar-item w3-padding-16">
+                <a href="home" class="w3-bar-item w3-padding-16" ng-class="{'active' : $route.current.activetab == 'home'}">
                     <label><span class="material-icons-outlined">group</span></label>
                     <label class="text">Clients</label>
+                </a>
+            </div>
+            <div class="right-menu active" ng-class="{'active' : $route.current.activetab == 'recycle'}">
+                <a href="recycle" class="w3-bar-item w3-padding-16">
+                    <label><span class="material-icons">delete_forever</span></label>
+                    <label class="text">Corbeille</label>
                 </a>
             </div>
             <div class="w3-bar-item user">

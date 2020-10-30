@@ -13,12 +13,17 @@ app.config([
       .when('/myapp/info', {
         templateUrl: 'pages/info.html',
         controller: 'InfoCtrl',
-        activetab: 'page1'
+        activetab: 'info'
       })
       .when('/myapp/profile', {
         templateUrl: 'pages/profile.html',
         controller: 'ProfileCtrl',
         activetab: 'profile'
+      })
+      .when('/myapp/recycle', {
+        templateUrl: 'pages/recycle.html',
+        controller: 'RecycleCtrl',
+        activetab: 'recycle'
       })
       .when('/myapp/logout', {
         templateUrl: 'pages/logout.html',
@@ -184,4 +189,8 @@ app.controller('LogOutCtrl', function ($scope, $http) {
     .get('/logout')
     .then(res => (location.href = '/myapp/login'))
     .catch(err => console.log(err))
+})
+
+app.controller('RecycleCtrl', function ($scope, $http) {
+  console.log('recyle')
 })
