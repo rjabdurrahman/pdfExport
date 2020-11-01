@@ -4,7 +4,7 @@ module.exports = {
   getProfile: async (req, res) => {
     try {
       res.json(await User.findById(req.cookies.user._id).exec())
-    } catch (e) {
+    } catch (err) {
       res.send(err)
     }
   },

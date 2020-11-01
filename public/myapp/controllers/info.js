@@ -16,22 +16,31 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     $rootScope.$applyAsync()
   }
   // Sorting Table
-  $('th .arrow').click(function(e) {
-    let element = e.target;
-    let fieldName = $(element).prev()[0].textContent;
-    if(fieldName == 'Nom') {
+  $('th .arrow').click(function (e) {
+    let element = e.target
+    let fieldName = $(element).prev()[0].textContent
+    if (fieldName == 'Nom') {
       console.log('Nom Soring')
-      $(element).toggleClass('desc');
-    }
-    else if(fieldName == 'Prénom') {
+      $(element).toggleClass('desc')
+      $rootScope.clients = $rootScope.clients.sort(function (a, b) {
+        if (a.signaletique.contribuable.nom.toLowerCase() < b.signaletique.contribuable.nom.toLowerCase()) {
+          return -1
+        }
+        if (a.signaletique.contribuable.nom.toLowerCase() > b.signaletique.contribuable.nom.toLowerCase()) {
+          return 1
+        }
+        return 0
+      })
+      $rootScope.$applyAsync()
+    } else if (fieldName == 'Prénom') {
       console.log('PreNom Soring')
-      $(element).toggleClass('desc');
+      $(element).toggleClass('desc')
     }
   })
 })
 
 app.controller('InfoCtrl', function ($scope, $http) {
-  pageInit();
+  pageInit()
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
   $http({
@@ -41,8 +50,8 @@ app.controller('InfoCtrl', function ($scope, $http) {
     .then(function (res) {
       $('.load-overlay').hide()
       $scope.client = res.data
-      afterDataLoaded(res.data);
-      $scope.$applyAsync();
+      afterDataLoaded(res.data)
+      $scope.$applyAsync()
     })
     .catch(function (err) {
       console.log(err)
