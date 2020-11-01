@@ -1,11 +1,11 @@
-$primary-color: #0e2143;
+$primary-color  : #0e2143;
 $secondary-color: #418fde;
-$opt-color: #d1d4d5;
-$in-color: #dfe2e5;
-$red-color: #cf4044;
+$opt-color      : #d1d4d5;
+$in-color       : #dfe2e5;
+$red-color      : #cf4044;
 
 @import "page1", "page2", "page3", "page4", "page4", "page5", "page6", "page7", "page8", "page9", "page10", "page11",
-	"page12", "page13", "page14", "page15", "page16", "page17", "page18", "page19", "page20", "profile";
+"page12", "page13", "page14", "page15", "page16", "page17", "page18", "page19", "page20", "profile";
 
 body {
 	font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@ body {
 
 #clientModal {
 	input.err {
-		border: 1px solid #cf4044 !important;
+		border    : 1px solid #cf4044 !important;
 		background: white !important;
 	}
 
@@ -35,14 +35,14 @@ body {
 	}
 
 	.select-user {
-		display: flex;
+		display         : flex;
 		background-color: #eaecee;
-		border-bottom: 2px solid $in-color;
+		border-bottom   : 2px solid $in-color;
 
 		label {
-			padding: 4px 0;
-			display: block;
-			flex: 1;
+			padding   : 4px 0;
+			display   : block;
+			flex      : 1;
 			text-align: center;
 
 			&:first-child {
@@ -61,15 +61,15 @@ body {
 
 	.footer {
 		text-align: right;
-		padding: 10px 34px;
+		padding   : 10px 34px;
 
 		button {
-			font-weight: bold;
-			font-size: 14px;
+			font-weight     : bold;
+			font-size       : 14px;
 			background-color: #25c1a0;
-			color: white;
-			padding-left: 22px;
-			padding-right: 22px;
+			color           : white;
+			padding-left    : 22px;
+			padding-right   : 22px;
 		}
 	}
 }
@@ -90,14 +90,14 @@ body {
 
 		button {
 			font-weight: bold;
-			font-size: 14px;
-			color: white;
-			width: 100px;
+			font-size  : 14px;
+			color      : white;
+			width      : 100px;
 		}
 
 		button:first-child {
 			background-color: #25c1a0;
-			margin-right: 10px;
+			margin-right    : 10px;
 		}
 
 		button:last-child {
@@ -107,24 +107,24 @@ body {
 }
 
 .content-c {
-	display: flex !important;
-	justify-content: space-between !important;
+	display         : flex !important;
+	justify-content : space-between !important;
 	background-color: $secondary-color;
-	color: white;
-	align-items: center;
-	padding-left: 20px;
+	color           : white;
+	align-items     : center;
+	padding-left    : 20px;
 
 	div.close {
-		display: inline-flex;
+		display       : inline-flex;
 		vertical-align: middle;
-		align-self: start;
-		font-size: 26px;
-		padding: 10px !important;
-		cursor: pointer;
+		align-self    : start;
+		font-size     : 26px;
+		padding       : 10px !important;
+		cursor        : pointer;
 	}
 
 	div.close:hover {
-		align-self: start;
+		align-self      : start;
 		background-color: #cf4044;
 	}
 }
@@ -134,26 +134,26 @@ header {
 }
 
 #notification {
-	display: none;
-	position: fixed;
-	z-index: 9999;
-	right: 10px;
-	top: 8px;
-	color: white;
-	border-radius: 6px;
+	display              : none;
+	position             : fixed;
+	z-index              : 9999;
+	right                : 10px;
+	top                  : 8px;
+	color                : white;
+	border-radius        : 6px;
 	-webkit-border-radius: 6px;
-	-moz-border-radius: 6px;
-	-ms-border-radius: 6px;
-	-o-border-radius: 6px;
+	-moz-border-radius   : 6px;
+	-ms-border-radius    : 6px;
+	-o-border-radius     : 6px;
 
 	div {
-		padding-left: 32px;
+		padding-left : 32px;
 		padding-right: 42px;
-		display: flex !important;
-		align-items: center;
+		display      : flex !important;
+		align-items  : center;
 
 		span {
-			display: inline-block;
+			display      : inline-block;
 			padding-right: 10px;
 		}
 
@@ -172,11 +172,11 @@ header {
 }
 
 .top-nav {
-	display: flex;
-	color: white;
+	display         : flex;
+	color           : white;
 	background-color: $primary-color !important;
-	padding-left: 50px;
-	padding-right: 30px;
+	padding-left    : 50px;
+	padding-right   : 30px;
 
 	.active {
 		color: $secondary-color;
@@ -184,12 +184,12 @@ header {
 
 	img {
 		height: 60px;
-		width: 60px;
+		width : 60px;
 	}
 
 	a {
 		text-decoration: none;
-		text-align: center;
+		text-align     : center;
 	}
 
 	.arrow:hover,
@@ -199,22 +199,22 @@ header {
 
 	a label {
 		display: block;
-		cursor: pointer;
+		cursor : pointer;
 	}
 
 	a label.text {
-		margin-top: -4px;
+		margin-top    : -4px;
 		// font-family: "Trebuchet MS", sans-serif !important;
 	}
 
 	.top-menu,
 	.right-menu {
 		margin-top: 12px;
-		font-size: 14px;
+		font-size : 14px;
 	}
 
 	.top-menu {
-		width: 100%;
+		width      : 100%;
 		margin-left: 50px !important;
 	}
 
@@ -223,30 +223,30 @@ header {
 	}
 
 	.user {
-		display: flex !important;
+		display   : flex !important;
 		margin-top: 18px;
 
 		.letters {
-			height: 40px;
-			width: 40px;
+			height          : 40px;
+			width           : 40px;
 			background-color: white;
-			color: black;
-			border-radius: 50%;
-			text-align: center;
-			font-size: 17px;
-			padding-top: 8px;
+			color           : black;
+			border-radius   : 50%;
+			text-align      : center;
+			font-size       : 17px;
+			padding-top     : 8px;
 		}
 
 		.arrow {
-			margin-top: 8px;
+			margin-top : 8px;
 			margin-left: 12px;
-			cursor: pointer;
+			cursor     : pointer;
 
 			.w3-dropdown-content {
-				right: 40px;
+				right           : 40px;
 				background-color: white !important;
-				opacity: 1;
-				margin-top: 5px;
+				opacity         : 1;
+				margin-top      : 5px;
 			}
 		}
 
@@ -255,27 +255,29 @@ header {
 
 			a {
 				background-color: #f4f5f6;
-				display: inline-flex;
-				align-items: center;
-				padding: 8px 10px !important;
+				display         : inline-flex;
+				align-items     : center;
+				padding         : 8px 10px !important;
+
 				&:hover {
 					background-color: $in-color;
 				}
+
 				span {
-					font-size: 18px;
+					font-size   : 18px;
 					margin-right: 8px;
-					color: $primary-color;
+					color       : $primary-color;
 				}
 			}
 
 			&::before {
-				content: "";
-				height: 10;
-				width: 10;
-				border: 10px solid transparent;
-				position: absolute;
-				top: -20px;
-				right: 7px;
+				content            : "";
+				height             : 10;
+				width              : 10;
+				border             : 10px solid transparent;
+				position           : absolute;
+				top                : -20px;
+				right              : 7px;
 				border-bottom-color: #f4f5f6;
 			}
 		}
@@ -291,26 +293,26 @@ header {
 }
 
 .left-nav {
-	max-width: 300px;
-	min-height: calc(100vh - 70.4px);
-	font-size: 15px;
+	max-width       : 300px;
+	min-height      : calc(100vh - 70.4px);
+	font-size       : 15px;
 	background-color: #f4f5f6;
 
 	a {
-		display: flex !important;
+		display     : flex !important;
 		padding-left: 12px !important;
 
 		span {
-			display: inline-flex;
-			font-size: 16px;
-			height: 100%;
-			align-self: center;
+			display     : inline-flex;
+			font-size   : 16px;
+			height      : 100%;
+			align-self  : center;
 			margin-right: 4px;
-			color: #f4f5f6;
+			color       : #f4f5f6;
 		}
 
-		&.done > span {
-			color: #25c1a0;
+		&.done>span {
+			color : #25c1a0;
 			filter: brightness(1.1);
 		}
 
@@ -329,11 +331,11 @@ header {
 	}
 
 	.arrow::after {
-		text-align: center;
-		display: inline;
-		font-size: 18px;
+		text-align : center;
+		display    : inline;
+		font-size  : 18px;
 		font-family: FontAwesome;
-		content: "\f105";
+		content    : "\f105";
 	}
 
 	.active .arrow::after {
@@ -351,9 +353,9 @@ header {
 
 	.w3-dropdown-content {
 		background-color: white;
-		border-right: 1px solid #e1e1e1;
-		position: relative;
-		padding-left: 22px;
+		border-right    : 1px solid #e1e1e1;
+		position        : relative;
+		padding-left    : 22px;
 
 		a {
 			border-left: 4px solid #e1e1e1;
@@ -366,30 +368,30 @@ header {
 }
 
 .top-bar {
-	position: sticky;
-	top: 0;
-	height: 50px;
+	position        : sticky;
+	top             : 0;
+	height          : 50px;
 	background-color: $secondary-color;
-	color: white;
-	box-sizing: border-box;
-	justify-content: space-between;
-	align-items: center;
-	font-size: 14px;
+	color           : white;
+	box-sizing      : border-box;
+	justify-content : space-between;
+	align-items     : center;
+	font-size       : 14px;
 
 	button {
 		height: 50px;
 	}
 
 	.w3-button:hover {
-		filter: brightness(1.1);
+		filter        : brightness(1.1);
 		-webkit-filter: brightness(1.1);
 	}
 
 	.refresh {
 		background-color: $red-color;
-		display: inline-flex;
-		align-items: center;
-		height: 100%;
+		display         : inline-flex;
+		align-items     : center;
+		height          : 100%;
 	}
 }
 
@@ -397,14 +399,14 @@ header {
 	margin: 32px auto 164px auto;
 
 	input {
-		padding-left: 6px !important;
+		padding-left : 6px !important;
 		padding-right: 6px !important;
-		border: solid 1px gray !important;
+		border       : solid 1px gray !important;
 	}
 
 	input:focus {
 		// border: solid 1px $secondary-color !important;
-		border: 1px solid #305eb2 !important;
+		border          : 1px solid #305eb2 !important;
 		background-color: white;
 	}
 
@@ -428,7 +430,7 @@ header {
 	input::-webkit-outer-spin-button,
 	input::-webkit-inner-spin-button {
 		-webkit-appearance: none;
-		margin: 0;
+		margin            : 0;
 	}
 
 	input[type="number"] {
@@ -436,16 +438,16 @@ header {
 	}
 
 	input[type="checkbox"] {
-		padding: 0 !important;
-		cursor: pointer;
+		padding           : 0 !important;
+		cursor            : pointer;
 		-webkit-appearance: none;
-		-moz-appearance: none;
-		-o-appearance: none;
-		appearance: none;
+		-moz-appearance   : none;
+		-o-appearance     : none;
+		appearance        : none;
 
 		&:checked {
-			background: $in-color url("../img/check.svg") no-repeat;
-			background-size: 20px 20px;
+			background         : $in-color url("../img/check.svg") no-repeat;
+			background-size    : 20px 20px;
 			background-position: 50% 50%;
 		}
 	}
@@ -454,59 +456,59 @@ header {
 		display: none;
 	}
 
-	input[type="radio"] + label {
+	input[type="radio"]+label {
 		border: 1px solid gray;
 		cursor: pointer;
 	}
 
-	input[type="radio"]:checked + label {
-		background: $in-color url("../img/check.svg") no-repeat;
-		background-size: 20px 20px;
+	input[type="radio"]:checked+label {
+		background         : $in-color url("../img/check.svg") no-repeat;
+		background-size    : 20px 20px;
 		background-position: 50% 50%;
 	}
 
 	textarea {
-		resize: none;
+		resize : none;
 		padding: 4px;
 	}
 
 	input.cell- {
 		&in0 {
 			letter-spacing: 23px;
-			padding-left: 11px !important;
+			padding-left  : 11px !important;
 		}
 
 		&in1 {
-			padding-left: 3px !important;
+			padding-left  : 3px !important;
 			letter-spacing: 9px;
 			padding-bottom: 14px !important;
-			padding-right: 0 !important;
+			padding-right : 0 !important;
 		}
 
 		&in15 {
-			padding-left: 3px !important;
+			padding-left  : 3px !important;
 			letter-spacing: 7px;
 			padding-bottom: 14px !important;
-			padding-right: 0 !important;
+			padding-right : 0 !important;
 		}
 
 		&in3 {
 			letter-spacing: 28px;
-			padding-left: 15px !important;
-			padding-top: 2px;
+			padding-left  : 15px !important;
+			padding-top   : 2px;
 		}
 
 		&in4 {
 			letter-spacing: 32px;
-			padding-left: 16px !important;
-			padding-top: 2px;
+			padding-left  : 16px !important;
+			padding-top   : 2px;
 		}
 
 		&in18 {
-			padding-left: 6px !important;
+			padding-left  : 6px !important;
 			letter-spacing: 10.5px;
 			padding-bottom: 14px !important;
-			padding-right: 0 !important;
+			padding-right : 0 !important;
 		}
 	}
 
@@ -545,7 +547,7 @@ input[type="text"]:read-only,
 input[type="number"]:read-only,
 input[type="text"]:disabled {
 	background: #ffffff;
-	color: black;
+	color     : black;
 }
 
 input[type="text"]:read-only:hover,
@@ -559,35 +561,35 @@ input.num {
 
 .w3-btn:hover {
 	box-shadow: none !important;
-	filter: brightness(1.2);
+	filter    : brightness(1.2);
 }
 
 .table-container {
 	margin: 40px 100px 20px 92px;
 
 	.top {
-		margin-top: 16px;
-		margin-bottom: 16px;
-		display: flex;
+		margin-top     : 16px;
+		margin-bottom  : 16px;
+		display        : flex;
 		justify-content: flex-end;
 
 		button {
 			background-color: #25c1a0;
-			color: white;
-			display: inline-flex;
-			align-items: center;
-			font-size: 14px;
+			color           : white;
+			display         : inline-flex;
+			align-items     : center;
+			font-size       : 14px;
 		}
 
 		input {
-			width: 300px;
-			margin-right: 45px;
-			padding-left: 30px;
-			background-image: url("../img/search_icon.svg");
-			background-repeat: no-repeat;
+			width              : 300px;
+			margin-right       : 45px;
+			padding-left       : 30px;
+			background-image   : url("../img/search_icon.svg");
+			background-repeat  : no-repeat;
 			background-position: 4px 8px;
-			background-size: 25px;
-			border-color: gray !important;
+			background-size    : 25px;
+			border-color       : gray !important;
 		}
 
 		input:focus {
@@ -600,36 +602,42 @@ input.num {
 
 		thead {
 			th {
-				height: 60px;
-				text-align: center;
-				position: -webkit-sticky; // this is for all Safari (Desktop & iOS), not for Chrome
-				position: sticky;
-				top: 0;
-				z-index: 5;
-				background: $secondary-color;
-				color: white;
+				height     : 60px;
+				text-align : center;
+				position   : -webkit-sticky; // this is for all Safari (Desktop & iOS), not for Chrome
+				position   : sticky;
+				top        : 0;
+				z-index    : 5;
+				background : $secondary-color;
+				color      : white;
 				font-weight: normal;
+			}
+
+			.arrow {
+				float: right;
+				clear: both;
+				cursor: pointer;
 			}
 		}
 
 		td,
 		th {
-			border: none;
+			border           : none;
 			// border        : 1px solid white;
-			padding: 6px 2px;
-			height: 100%;
-			vertical-align: middle;
+			padding          : 6px 2px;
+			height           : 100%;
+			vertical-align   : middle;
 		}
 
 		td {
 			a {
-				color: black;
+				color          : black;
 				text-decoration: none;
-				display: inline-flex;
+				display        : inline-flex;
 
 				img {
 					height: 24px;
-					width: 24px;
+					width : 24px;
 				}
 			}
 
@@ -640,9 +648,9 @@ input.num {
 
 		tbody {
 			td {
-				height: 100%;
-				vertical-align: middle;
-				border: 1px solid #d1d4d5;
+				height           : 100%;
+				vertical-align   : middle;
+				border           : 1px solid #d1d4d5;
 				// border-bottom : 1px solid #f1f1f1 !important;
 			}
 		}
@@ -652,23 +660,23 @@ input.num {
 
 			// Change Needed
 			span {
-				font-size: 16px;
-				display: inline-block;
+				font-size     : 16px;
+				display       : inline-block;
 				padding-bottom: -8px;
-				margin-right: 6px;
+				margin-right  : 6px;
 			}
 		}
 	}
 }
 
 .w3-modal-content {
-	width: 640px;
+	width         : 640px;
 	padding-bottom: 8px;
 }
 
 .w3-btn.icon {
-	min-width: 100px;
-	display: inline-flex;
+	min-width     : 100px;
+	display       : inline-flex;
 	vertical-align: middle;
 
 	span {
@@ -677,41 +685,41 @@ input.num {
 }
 
 .load-overlay {
-	position: fixed;
-	top: 92px;
-	height: calc(100vh - 92px);
-	width: 100%;
-	z-index: 9999;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-size: 22px;
+	position        : fixed;
+	top             : 92px;
+	height          : calc(100vh - 92px);
+	width           : 100%;
+	z-index         : 9999;
+	display         : flex;
+	justify-content : center;
+	align-items     : center;
+	font-size       : 22px;
 	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .like-input {
-	text-align: center !important;
+	text-align      : center !important;
 	background-color: white !important;
-	border: 1px solid gray;
-	display: inline-flex !important;
-	align-items: center !important;
-	justify-content: center;
+	border          : 1px solid gray;
+	display         : inline-flex !important;
+	align-items     : center !important;
+	justify-content : center;
 }
 
 .w3-tooltip {
 	position: relative;
-	display: inline-block;
+	display : inline-block;
 
 	.w3-text {
-		width: 120px;
+		width           : 120px;
 		background-color: black;
-		color: #fff;
-		text-align: left;
-		padding: 5px 0;
-		border-radius: 6px;
-		position: absolute;
-		z-index: 1;
-		display: inline-block;
+		color           : #fff;
+		text-align      : left;
+		padding         : 5px 0;
+		border-radius   : 6px;
+		position        : absolute;
+		z-index         : 1;
+		display         : inline-block;
 	}
 
 	/* Show the tooltip text when you mouse over the tooltip container */
@@ -722,15 +730,16 @@ input.num {
 
 .profile-area {
 	.submit-btn {
-		position: absolute;
-		top: 340px;
+		position  : absolute;
+		top       : 340px;
 		background: $secondary-color;
-		color: white;
-		height: 42px;
-		width: 204px;
+		color     : white;
+		height    : 42px;
+		width     : 204px;
 	}
+
 	.submit-btn:hover {
-		filter: brightness(1.2);
+		filter        : brightness(1.2);
 		-webkit-filter: brightness(1.2);
 	}
 }

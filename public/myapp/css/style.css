@@ -38745,6 +38745,12 @@ input.num {
   font-weight: normal;
 }
 
+.table-container table thead .arrow {
+  float: right;
+  clear: both;
+  cursor: pointer;
+}
+
 .table-container table td,
 .table-container table th {
   border: none;
