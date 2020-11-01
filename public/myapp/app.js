@@ -131,25 +131,6 @@ app.controller('NavCtrl', function ($scope, $http) {
   console.log('Nav page')
 })
 
-app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
-  $('.load-overlay').show()
-  $rootScope.loadClients()
-  $scope.search = function (e) {
-    let clients = clientsCopy.filter(x => {
-      let str =
-        x.signaletique.numero_de_dossier +
-        x.signaletique.contribuable.nom +
-        x.signaletique.contribuable.prenom +
-        x.signaletique.contribuable.telephone +
-        x.signaletique.contribuable.courriel
-      console.log(str)
-      return new RegExp(e.target.value.toLowerCase()).test(str.toLowerCase())
-    })
-    $rootScope.clients = clients
-    $rootScope.$applyAsync()
-  }
-})
-
 app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
   $scope.profile = {}
   $http
