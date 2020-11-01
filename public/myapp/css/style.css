@@ -38751,6 +38751,11 @@ input.num {
   cursor: pointer;
 }
 
+.table-container table thead .arrow.desc {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
 .table-container table td,
 .table-container table th {
   border: none;

@@ -15,6 +15,19 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     $rootScope.clients = clients
     $rootScope.$applyAsync()
   }
+  // Sorting Table
+  $('th .arrow').click(function(e) {
+    let element = e.target;
+    let fieldName = $(element).prev()[0].textContent;
+    if(fieldName == 'Nom') {
+      console.log('Nom Soring')
+      $(element).toggleClass('desc');
+    }
+    else if(fieldName == 'Prénom') {
+      console.log('PreNom Soring')
+      $(element).toggleClass('desc');
+    }
+  })
 })
 
 app.controller('InfoCtrl', function ($scope, $http) {

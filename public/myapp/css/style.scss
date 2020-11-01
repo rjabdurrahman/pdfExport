@@ -617,6 +617,9 @@ input.num {
 				float : right;
 				clear : both;
 				cursor: pointer;
+				&.desc {
+					transform: rotate(180deg);
+				}
 			}
 		}
 
