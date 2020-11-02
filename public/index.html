@@ -5,7 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avantages fiscaux – Découvrez vos possibilités de déductions</title>
+    <link rel="stylesheet" href="myapp/css/w3.css">
     <style>
+        body {
+            font-family: 'Montserrat', Helvetica, sans-serif;
+            color: white;
+            margin: 0;
+        }
+
         .shadow-9 {
             box-shadow: 0 0 54px rgba(0, 0, 0, .12);
         }
@@ -53,16 +60,140 @@
         .bg-cover {
             background-size: cover;
         }
+
+        /* frame area */
+
+        .frame {
+            background: #fff;
+        }
+
+        @media (min-width: 992px) {
+            .d-lg-block {
+                display: block !important;
+            }
+        }
+
+        .frame>* {
+            position: fixed;
+            overflow: hidden;
+            background: inherit;
+            opacity: .07;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .frame .frame-left {
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+        }
+
+        .frame .frame-right {
+            top: 0;
+            bottom: 0;
+            right: 0;
+            width: 50px;
+        }
+
+        .frame .frame-top {
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+        }
+
+        .frame .frame-bottom {
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 50px;
+        }
+
+        /* Contents */
+        .content-area {
+            position: absolute;
+            color: inherit;
+            border: 1px solid white;
+            font-size: 14px !important;
+            font-weight: lighter !important;
+            width: 100%;
+            height: 100vh;
+        }
+
+        .content {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .subscribe {
+            width: 480px;
+            font-size: 14px !important;
+        }
+
+        ::-webkit-input-placeholder {
+            /* Edge */
+            color: white;
+            font-size: 14px !important;
+            font-weight: lighter !important;
+        }
+
+        :-ms-input-placeholder {
+            /* Internet Explorer 10-11 */
+            color: white;
+            font-size: 14px !important;
+            font-weight: lighter !important;
+        }
+
+        ::placeholder {
+            color: white;
+            font-size: 14px !important;
+            font-weight: lighter !important;
+        }
+
+        .subscribe input {
+            color: #fff;
+            background-color: rgba(255, 255, 255, .125);
+            border: none !important;
+        }
+
+        .subscribe input:focus,
+        button:focus {
+            outline: none;
+        }
+
+        .subscribe * {
+            width: 100%;
+        }
     </style>
 </head>
 
 <body>
     <div class="global-overlay shadow-9">
-        <div class="overlay-inner bg-image-holder bg-cover"
-            style="background-image: url('image-13.jpg');">
+        <div class="overlay-inner bg-image-holder bg-cover" style="background-image: url('image-13.jpg');">
             <img src="demo/images/image-13.jpg" alt="background" style="display: none;">
         </div>
         <div class="overlay-inner bg-gradient-3 opacity-75"></div>
+    </div>
+    <div class="frame d-none d-lg-block">
+        <div class="frame-left"></div>
+        <div class="frame-right"></div>
+        <div class="frame-top"></div>
+        <div class="frame-bottom"></div>
+    </div>
+    <div class="content-area">
+        <div class="content">
+            <div class="w3-container">
+                <h1>Comming Soon...</h1>
+            </div>
+            <form class="subscribe w3-container">
+                <input class="w3-input w3-border" type="text" placeholder="Enter Your Email Address">
+                <button class="w3-btn w3-white">Notify Me</button>
+            </form>
+        </div>
     </div>
 </body>
 
