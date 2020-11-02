@@ -1,11 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Avantages fiscaux – Découvrez vos possibilités de déductions</title>
+    <style>
+        .shadow-9 {
+            box-shadow: 0 0 54px rgba(0, 0, 0, .12);
+        }
+
+        .global-overlay {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .opacity-75 {
+            opacity: .75;
+        }
+
+        .bg-gradient-3 {
+            background-color: #ff4136;
+            background-image: linear-gradient(45deg, #ff4136 0%, #ff851B 100%);
+        }
+
+        .overlay-inner {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+        .bg-cover,
+        .bg-contain {
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .bg-cover {
+            background-size: cover;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Home Page</h1>
+    <div class="global-overlay shadow-9">
+        <div class="overlay-inner bg-image-holder bg-cover"
+            style="background-image: url('image-13.jpg');">
+            <img src="demo/images/image-13.jpg" alt="background" style="display: none;">
+        </div>
+        <div class="overlay-inner bg-gradient-3 opacity-75"></div>
+    </div>
 </body>
+
 </html>
