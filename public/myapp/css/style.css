@@ -38687,11 +38687,11 @@ input.num {
           filter: brightness(1.2);
 }
 
-.table-container {
+.clients-table, .recycled-clients {
   margin: 40px 100px 20px 92px;
 }
 
-.table-container .top {
+.clients-table .top, .recycled-clients .top {
   margin-top: 16px;
   margin-bottom: 16px;
   display: -webkit-box;
@@ -38702,7 +38702,7 @@ input.num {
           justify-content: flex-end;
 }
 
-.table-container .top button {
+.clients-table .top button, .recycled-clients .top button {
   background-color: #25c1a0;
   color: white;
   display: -webkit-inline-box;
@@ -38714,9 +38714,8 @@ input.num {
   font-size: 14px;
 }
 
-.table-container .top input {
+.clients-table .top input, .recycled-clients .top input {
   width: 300px;
-  margin-right: 45px;
   padding-left: 30px;
   background-image: url("../img/search_icon.svg");
   background-repeat: no-repeat;
@@ -38725,15 +38724,15 @@ input.num {
   border-color: gray !important;
 }
 
-.table-container .top input:focus {
+.clients-table .top input:focus, .recycled-clients .top input:focus {
   border: 1px solid #305eb2 !important;
 }
 
-.table-container table {
+.clients-table table, .recycled-clients table {
   border: none !important;
 }
 
-.table-container table thead th {
+.clients-table table thead th, .recycled-clients table thead th {
   height: 60px;
   text-align: center;
   position: -webkit-sticky;
@@ -38745,26 +38744,27 @@ input.num {
   font-weight: normal;
 }
 
-.table-container table thead .arrow {
+.clients-table table thead .arrow, .recycled-clients table thead .arrow {
   float: right;
   clear: both;
   cursor: pointer;
 }
 
-.table-container table thead .arrow.desc {
+.clients-table table thead .arrow.desc, .recycled-clients table thead .arrow.desc {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
-.table-container table td,
-.table-container table th {
+.clients-table table td,
+.clients-table table th, .recycled-clients table td,
+.recycled-clients table th {
   border: none;
   padding: 6px 2px;
   height: 100%;
   vertical-align: middle;
 }
 
-.table-container table td a {
+.clients-table table td a, .recycled-clients table td a {
   color: black;
   text-decoration: none;
   display: -webkit-inline-box;
@@ -38772,30 +38772,42 @@ input.num {
   display: inline-flex;
 }
 
-.table-container table td a img {
+.clients-table table td a img, .recycled-clients table td a img {
   height: 24px;
   width: 24px;
 }
 
-.table-container table td a:hover {
+.clients-table table td a:hover, .recycled-clients table td a:hover {
   text-decoration: underline;
 }
 
-.table-container table tbody td {
+.clients-table table tbody td, .recycled-clients table tbody td {
   height: 100%;
   vertical-align: middle;
   border: 1px solid #d1d4d5;
 }
 
-.table-container table .w3-btn {
+.clients-table table .w3-btn, .recycled-clients table .w3-btn {
   padding: 4px 8px !important;
 }
 
-.table-container table .w3-btn span {
+.clients-table table .w3-btn span, .recycled-clients table .w3-btn span {
   font-size: 16px;
   display: inline-block;
   padding-bottom: -8px;
   margin-right: 6px;
+}
+
+.clients-table .top input {
+  margin-right: 45px;
+}
+
+.recycled-clients .top input {
+  margin-right: 0;
+}
+
+.recycled-clients table thead th {
+  background-color: #cf4044;
 }
 
 .w3-modal-content {

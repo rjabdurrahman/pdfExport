@@ -564,7 +564,7 @@ input.num {
 	filter    : brightness(1.2);
 }
 
-.table-container {
+.clients-table, .recycled-clients {
 	margin: 40px 100px 20px 92px;
 
 	.top {
@@ -583,7 +583,6 @@ input.num {
 
 		input {
 			width              : 300px;
-			margin-right       : 45px;
 			padding-left       : 30px;
 			background-image   : url("../img/search_icon.svg");
 			background-repeat  : no-repeat;
@@ -667,6 +666,30 @@ input.num {
 				display       : inline-block;
 				padding-bottom: -8px;
 				margin-right  : 6px;
+			}
+		}
+	}
+}
+
+.clients-table {
+	.top {
+		input {
+			margin-right: 45px;
+		}
+	}
+}
+
+.recycled-clients {
+	.top {
+		input {
+			margin-right: 0;
+		}
+	}
+
+	table {
+		thead {
+			th {
+				background-color: $red-color;
 			}
 		}
 	}
