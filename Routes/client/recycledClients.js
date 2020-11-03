@@ -1,7 +1,8 @@
-const Client = require('../../Models/Client');
+const DeletedClient = require('../../Models/DeletedClient')
 
 module.exports = (req, res) => {
-     Client.find(
+
+    DeletedClient.find(
         {},
         {"signaletique.numero_de_dossier": 1, 
         "signaletique.contribuable.nom": 1, 

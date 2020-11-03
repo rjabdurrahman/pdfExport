@@ -6,6 +6,7 @@ const getOneClient = require('./client/getOne')
 const getAllClient = require('./client/getAll')
 const generatePdf = require('./generatePdf')
 const infoUpdate = require('./infoUpdate')
+const recycledClients = require('./client/recycledClients')
 
 router.get('/', (req, res) => {
   res.send('API is live')
@@ -23,6 +24,7 @@ router.post('/delete/:id', deleteClient)
 router.get('/client/:id', getOneClient)
 // All client find....
 router.get('/clients', getAllClient)
+router.get('/recycled_clients', recycledClients)
 // Genterate PDF
 router.get('/pdf/:id', generatePdf)
 
