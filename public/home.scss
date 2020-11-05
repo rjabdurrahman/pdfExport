@@ -176,6 +176,21 @@ body {
             &:hover {
                 background-color: lightblue;
             }
+            // &:first-child  {
+            //     color: #4267B2;
+            // }
+            // &:nth-child(2)  {
+            //     color: #de5246;
+            // }
+            // &:first-child:hover {
+            //     background-color: #4267B2;
+            // }
+            // &:nth-child(2):hover {
+            //     background-color: #de5246 ;
+            // }
+            // &:nth-child(3):hover {
+            //     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+            // }
         }
     }
 }
