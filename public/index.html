@@ -10,6 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="myapp/js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
@@ -29,7 +30,7 @@
                 <div style="display: flex; justify-content: center;">
                     <img src="myapp/img/logo.png" alt="YE">
                 </div>
-                <h1>Our Website is Comming Soon</h1>
+                <h1 id="text">Our Website is Comming Soon</h1>
             </div>
             <form class="subscribe w3-container">
                 <input class="w3-input w3-border" type="text" placeholder="Enter Your Email Address">
@@ -40,13 +41,21 @@
     <footer>
         <nav class="social-nav social-nav-pinned">
             <ul>
-                <li><a target="_blank" href="https://www.facebook.com/assurances.ye"><i class="fa fa-facebook-f"></i></a></li>
+                <li><a target="_blank" href="https://www.facebook.com/assurances.ye"><i
+                            class="fa fa-facebook-f"></i></a></li>
                 <li><a target="_blank" href="https://g.page/assurances-ye"><i class="fa fa-google"></i></a></li>
-                <li><a target="_blank" href="https://instagram.com/assurances.ye"><i class="fa fa-instagram"></i></a></li>
+                <li><a target="_blank" href="https://instagram.com/assurances.ye"><i class="fa fa-instagram"></i></a>
+                </li>
                 <li><a target="_blank" href="mailto:yves.everad@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
             </ul>
         </nav>
     </footer>
+    <script>
+        $("#text").animate({
+            zoom: "200%",
+            left: window.innerWidth / 2
+        }, 800)
+    </script>
 </body>
 
 </html>
