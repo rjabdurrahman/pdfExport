@@ -171,12 +171,12 @@ body {
         font-size: 18px;
         list-style-type: none;
         li {
-            padding: 12px;
+            width: 50px;
             &:hover {
                 background-color: lightblue;
             }
             a {
-                width: 50px;
+                padding: 12px;
             }
             // &:first-child  {
             //     color: #4267B2;
