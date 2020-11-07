@@ -27,7 +27,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <!-- <tr ng-repeat="client in clients track by $index">
+                    <tr ng-repeat="client in r_clients track by $index">
                         <td>
                             <a href="/#/myapp/info?id={{client._id}}">
                                 {{client.signaletique.numero_de_dossier}}
@@ -60,18 +60,18 @@
                             </div>
                         </td>
                     </tr>
-                    <tr ng-if="loadingClients">
+                    <tr ng-if="loadingRecycledClients">
                         <td colspan="11">
                             <div style="text-align: center; padding: 4px 8px; font-size: 16px;">Chargement...</div>
                         </td>
-                    </tr> -->
+                    </tr>
                 </tbody>
             </table>
         </div>
     </div>
 </div>
 <!-- Client Delete Modal -->
-<div id="clientDeleteModal" class="w3-modal">
+<!-- <div id="clientDeleteModal" class="w3-modal">
     <form ng-submit="deleteClient()" class="w3-modal-content w3-animate-right w3-card-4">
         <div class="content-c" style="height: 35px;">
             <div>Suppression du client</div>
@@ -95,4 +95,4 @@
             </p>
         </div>
     </form>
-</div>
+</div> -->
