@@ -4,6 +4,36 @@ body {
     margin     : 0;
 }
 
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    .content {
+        .logo-container {
+            margin-bottom: 0 !important;
+        }
+    }
+
+    .middle-text {
+
+        h1 {
+            font-size  : 20px !important;
+            line-height: normal !important;
+        }
+
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    .subscribe {
+        width: 100% !important;
+        input, button {
+            width: 80% !important;
+        }
+    }
+
+}
+
 .shadow-9 {
     box-shadow: 0 0 54px rgba(0, 0, 0, .12);
 }
@@ -217,22 +247,6 @@ body {
                 justify-content: center;
                 align-items    : center;
             }
-
-            // &:first-child  {
-            //     color: #4267B2;
-            // }
-            // &:nth-child(2)  {
-            //     color: #de5246;
-            // }
-            // &:first-child:hover {
-            //     background-color: #4267B2;
-            // }
-            // &:nth-child(2):hover {
-            //     background-color: #de5246 ;
-            // }
-            // &:nth-child(3):hover {
-            //     background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
-            // }
         }
     }
 }

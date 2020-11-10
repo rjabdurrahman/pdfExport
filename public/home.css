@@ -4,6 +4,26 @@ body {
   margin: 0;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .content .logo-container {
+    margin-bottom: 0 !important;
+  }
+  .middle-text h1 {
+    font-size: 20px !important;
+    line-height: normal !important;
+  }
+  .middle-text p {
+    font-size: 16px !important;
+  }
+  .subscribe {
+    width: 100% !important;
+  }
+  .subscribe input, .subscribe button {
+    width: 80% !important;
+  }
+}
+
 .shadow-9 {
   -webkit-box-shadow: 0 0 54px rgba(0, 0, 0, 0.12);
           box-shadow: 0 0 54px rgba(0, 0, 0, 0.12);
