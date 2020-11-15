@@ -165,6 +165,7 @@ body {
         .middle-text {
             text-align : center;
             line-height: 1.2;
+            height: 150px;
 
             #text {
                 font-size: 54px;
@@ -176,11 +177,7 @@ body {
 
             }
 
-            p {
-                font-size    : 18px;
-                margin-top   : 46px;
-                margin-bottom: 36px;
-            }
+
         }
 
         ::-webkit-input-placeholder {
@@ -200,12 +197,24 @@ body {
             font-size: 14px !important;
         }
 
-        .subscribe {
+        .bottom-area {
+            text-align: center;
+
             * {
                 width: 100%;
             }
 
-            width    : 480px;
+            p {
+                font-size    : 18px;
+                margin-top   : 46px;
+                margin-bottom: 36px;
+            }
+
+            .subscribe {
+                width: 480px;
+                margin: auto;
+            }
+
             font-size: 14px !important;
 
             input {
