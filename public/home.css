@@ -166,17 +166,18 @@ body {
 }
 
 .content-area .content .middle-text #text {
-  font-size: 68px;
+  font-size: 54px;
 }
 
 .content-area .content .middle-text #text b {
+  font-size: 72px;
   font-weight: bold;
-  font-size: 100px;
 }
 
 .content-area .content .middle-text p {
-  font-size: 22px;
-  margin-top: 65px;
+  font-size: 18px;
+  margin-top: 46px;
+  margin-bottom: 36px;
 }
 
 .content-area .content ::-webkit-input-placeholder {
