@@ -206,6 +206,9 @@ body {
 }
 
 .content-area .content .bottom-area {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 176px;
   text-align: center;
   font-size: 14px !important;
 }
@@ -216,7 +219,7 @@ body {
 
 .content-area .content .bottom-area p {
   font-size: 18px;
-  margin-top: 46px;
+  margin-top: 80px;
   margin-bottom: 36px;
 }
 
