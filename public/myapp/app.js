@@ -192,13 +192,29 @@ app.controller('RecycleCtrl', function ($scope, $http) {
       .get('/api/recover_client/' + e.target.id.slice(0, -1))
       .then(res => {
         notify('Client Resotored!', 1)
-        loadRecycledClients();
+        loadRecycledClients()
       })
       .catch(err => {
         notify("Can't Restored!", 2)
       })
   }
+  $scope.onDelForever = null
   $scope.deleteAction = function (e) {
-    console.log('Delete', e.target.id)
+    $scope.onDelForever = e.target.id.slice(0, -2)
+    $scope.$applyAsync()
+  }
+  $scope.deleteForever = function (e) {
+    $http
+      .get('/api/delete_forever/' + $scope.onDelForever)
+      .then(res => {
+        notify('Cleint Delted forever!', 1)
+        $('#deleteForeverModal').hide()
+        $scope.onDelForever = null
+        loadRecycledClients()
+        console.log(res.data)
+      })
+      .catch(err => {
+        notify("Can't Deleted!", 2)
+      })
   }
 })

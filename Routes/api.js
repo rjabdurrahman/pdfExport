@@ -8,6 +8,7 @@ const generatePdf = require('./generatePdf')
 const infoUpdate = require('./infoUpdate')
 const recycledClients = require('./client/recycledClients')
 const recycledClientRestore = require('./client/recycledClientRestore')
+const deleteForever = require('./client/deleteForever')
 
 router.get('/', (req, res) => {
   res.send('API is live')
@@ -29,6 +30,7 @@ router.get('/clients', getAllClient)
 router.get('/recycled_clients', recycledClients)
 // Recovery recycled client...
 router.get('/recover_client/:id', recycledClientRestore)
+router.get('/delete_forever/:id', deleteForever)
 // Genterate PDF
 router.get('/pdf/:id', generatePdf)
 
