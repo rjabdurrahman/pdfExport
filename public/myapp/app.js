@@ -183,4 +183,11 @@ app.controller('RecycleCtrl', function ($scope, $http) {
     $scope.$applyAsync();
   })
   .catch(err => notify(err.message, 2));
+
+  $scope.restore = function(e) {
+    console.log('Restore', e.target.id)
+  }
+  $scope.deleteAction = function(e) {
+    console.log('Delete', e.target.id)
+  }
 })

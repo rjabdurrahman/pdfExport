@@ -45,17 +45,14 @@
                         <td></td>
                         <td style="width: 50px;" class="w3-center">
                             <div style="display: flex; gap: 10px; justify-content: center;">
+                                <span title="Restore" style="cursor: pointer;" id="{{client._id}}r" ng-click="restore($event)" class="material-icons">
+                                    settings_backup_restore
+                                </span>
                                 <span title="Supprimer" style="cursor: pointer;" id="{{client}}" onclick="$('#clientDeleteModal').show();" ng-click="deleteAction($event)" class="w3-text-red material-icons">
                                     delete
                                 </span>
                                 <a title="PDF" target="_blank" href="../api/pdf/{{client._id}}">
                                     <img style="height: 20px; width: 20px; margin-top: 3px;" src="img/pdf.svg" />
-                                </a>
-                                <a title="Word" href="#">
-                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/docx.svg" />
-                                </a>
-                                <a title="Excel" href="#">
-                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/xlsx.svg" />
                                 </a>
                             </div>
                         </td>
@@ -71,7 +68,7 @@
     </div>
 </div>
 <!-- Client Delete Modal -->
-<!-- <div id="clientDeleteModal" class="w3-modal">
+<div id="clientDeleteModal" class="w3-modal">
     <form ng-submit="deleteClient()" class="w3-modal-content w3-animate-right w3-card-4">
         <div class="content-c" style="height: 35px;">
             <div>Suppression du client</div>
@@ -95,4 +92,4 @@
             </p>
         </div>
     </form>
-</div> -->
+</div>
