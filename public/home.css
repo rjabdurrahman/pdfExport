@@ -19,7 +19,8 @@ body {
   .subscribe {
     width: 100% !important;
   }
-  .subscribe input, .subscribe button {
+  .subscribe input,
+  .subscribe button {
     width: 80% !important;
   }
 }
@@ -161,24 +162,16 @@ body {
 
 .content-area .content .middle-text {
   text-align: center;
+  margin-bottom: 48px;
 }
 
-.content-area .content .middle-text h1 {
-  margin: 5px 0 !important;
-  padding: 0;
-  font-size: 50px;
-  line-height: 1.3;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 800;
-  text-transform: uppercase;
+.content-area .content .middle-text #text {
+  font-size: 68px;
 }
 
-.content-area .content .middle-text p {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-  margin: 0;
-  padding: 0;
-  font-size: 24px;
+.content-area .content .middle-text #text b {
+  font-weight: bold;
+  font-size: 100px;
 }
 
 .content-area .content ::-webkit-input-placeholder {

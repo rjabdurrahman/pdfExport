@@ -34,13 +34,18 @@
                     <img src="myapp/img/logo.png" alt="YE" style="height: 120px; width: auto;">
                 </div>
                 <div class="middle-text">
-                    <h1 id="text">Tax benefits</h1>
+                    <!-- <h1 id="text">Tax benefits</h1>
+                    <h1>Discover Your Deduction possibilities</h1> -->
+                    <div id="text">
+                        <b>TAX BENEFITS</b><br>
+                        <span>Discover your deduction possibilities</span>
+                    </div>
                     <p>We’ll be here soon with our new website, subscribe to be notified</p>
                 </div>
             </div>
             <form class="subscribe w3-container">
                 <input class="w3-input w3-border" type="text" placeholder="Enter Your Email Address">
-                <button class="w3-btn w3-white">Notify Me</button>
+                <button class="w3-btn w3-white">Subscribe</button>
             </form>
         </div>
     </div>
@@ -58,25 +63,25 @@
         </nav>
     </footer>
     <script>
-        let txtArr = [
-            'Tax benefits',
-            'Discover',
-            'your deduction',
-            'possibilities'
-        ];
+        // let txtArr = [
+        //     'Tax benefits',
+        //     'Discover',
+        //     'your deduction',
+        //     'possibilities'
+        // ];
 
-        let idx = 0;
-        $('#text').html(txtArr[idx]);
+        // let idx = 0;
+        // $('#text').html(txtArr[idx]);
 
-        $("#text").animate({
-            zoom: "200%",
-            left: window.innerWidth / 2
-        }, 800);
+        // $("#text").animate({
+        //     zoom: "200%",
+        //     left: window.innerWidth / 2
+        // }, 800);
 
-        setInterval(function () {
-            $('#text').html(txtArr[++idx]);
-            if (idx == txtArr.length - 1) idx = -1;
-        }, 1500);
+        // setInterval(function () {
+        //     $('#text').html(txtArr[++idx]);
+        //     if (idx == txtArr.length - 1) idx = -1;
+        // }, 1500);
     </script>
 </body>
 
