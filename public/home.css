@@ -162,7 +162,6 @@ body {
 
 .content-area .content .middle-text {
   text-align: center;
-  margin-bottom: 60px;
   line-height: 1.2;
 }
 
@@ -173,6 +172,11 @@ body {
 .content-area .content .middle-text #text b {
   font-weight: bold;
   font-size: 100px;
+}
+
+.content-area .content .middle-text p {
+  font-size: 22px;
+  margin-top: 65px;
 }
 
 .content-area .content ::-webkit-input-placeholder {

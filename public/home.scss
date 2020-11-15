@@ -156,8 +156,7 @@ body {
         }
 
         .middle-text {
-            text-align: center;
-            margin-bottom: 60px;
+            text-align : center;
             line-height: 1.2;
 
             #text {
@@ -166,8 +165,14 @@ body {
 
                 b {
                     font-weight: bold;
-                    font-size: 100px;
+                    font-size  : 100px;
                 }
+
+            }
+
+            p {
+                font-size : 22px;
+                margin-top: 65px;
             }
         }
 
