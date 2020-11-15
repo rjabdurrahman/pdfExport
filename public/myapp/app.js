@@ -173,5 +173,14 @@ app.controller('LogOutCtrl', function ($scope, $http) {
 })
 
 app.controller('RecycleCtrl', function ($scope, $http) {
-  console.log('recyle')
+  $scope.loadingRecycledClients = true;
+  $scope.noRecycledClients = false;
+  $http.get('/api/recycled_clients')
+  .then(res => {
+    $scope.r_clients = res.data;
+    $scope.loadingRecycledClients = false;
+    $scope.noRecycledClients = true;
+    $scope.$applyAsync();
+  })
+  .catch(err => notify(err.message, 2));
 })

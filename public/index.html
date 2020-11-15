@@ -7,15 +7,18 @@
     <title>Avantages fiscaux – Découvrez vos possibilités de déductions</title>
     <link rel="stylesheet" href="myapp/css/w3.css">
     <link rel="stylesheet" href="home.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="myapp/js/jquery-3.3.1.min.js"></script>
 </head>
 
 <body>
     <div class="global-overlay shadow-9">
-        <div class="overlay-inner bg-image-holder bg-cover" style="background-image: url('image-13.jpg');"></div>
+        <div class="overlay-inner bg-image-holder bg-cover"
+            style="background-image: url('001_cs.png'); background-size: 100% 100%;"></div>
         <div class="overlay-inner bg-gradient-3 opacity-75"></div>
     </div>
     <div class="frame d-none d-lg-block">
@@ -27,10 +30,13 @@
     <div class="content-area">
         <div class="content">
             <div class="w3-container" style="margin-bottom: 30px;">
-                <div style="display: flex; justify-content: center;">
-                    <img src="myapp/img/logo.png" alt="YE">
+                <div class="logo-container">
+                    <img src="myapp/img/logo.png" alt="YE" style="height: 120px; width: auto;">
                 </div>
-                <h1 id="text">Our Website is Comming Soon</h1>
+                <div class="middle-text">
+                    <h1 id="text">Tax benefits</h1>
+                    <p>We’ll be here soon with our new website, subscribe to be notified</p>
+                </div>
             </div>
             <form class="subscribe w3-container">
                 <input class="w3-input w3-border" type="text" placeholder="Enter Your Email Address">
@@ -44,17 +50,33 @@
                 <li><a target="_blank" href="https://www.facebook.com/assurances.ye"><i
                             class="fa fa-facebook-f"></i></a></li>
                 <li><a target="_blank" href="https://g.page/assurances-ye"><i class="fa fa-google"></i></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/assurances.ye/"><i class="fa fa-instagram"></i></a>
+                <li><a target="_blank" href="https://www.instagram.com/assurances.ye/"><i
+                            class="fa fa-instagram"></i></a>
                 </li>
-                <li><a target="_blank" href="mailto:yves.everad@gmail.com"><i class="fa fa-envelope-o"></i></a></li>
+                <li><a target="_blank" href="mailto:info@y-e.lu"><i class="fa fa-envelope-o"></i></a></li>
             </ul>
         </nav>
     </footer>
     <script>
+        let txtArr = [
+            'Tax benefits',
+            'Discover',
+            'your deduction',
+            'possibilities'
+        ];
+
+        let idx = 0;
+        $('#text').html(txtArr[idx]);
+
         $("#text").animate({
             zoom: "200%",
             left: window.innerWidth / 2
-        }, 800)
+        }, 800);
+
+        setInterval(function () {
+            $('#text').html(txtArr[++idx]);
+            if (idx == txtArr.length - 1) idx = -1;
+        }, 1500);
     </script>
 </body>
 
