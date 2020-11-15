@@ -1,3 +1,5 @@
+const { notify } = require("../../Routes/api")
+
 var app = angular.module('pdfApp', ['ngRoute'])
 
 app.config([
@@ -147,7 +149,7 @@ app.controller('ProfileCtrl', function ($scope, $http, $rootScope) {
     let form = e.target
     if (form['password'].value !== form['confirmPass'].value) {
       notify('Mot de passe erroné', 2)
-      return;
+      return
     }
     $http
       .post('/api/profile/', {
@@ -173,21 +175,29 @@ app.controller('LogOutCtrl', function ($scope, $http) {
 })
 
 app.controller('RecycleCtrl', function ($scope, $http) {
-  $scope.loadingRecycledClients = true;
-  $scope.noRecycledClients = false;
-  $http.get('/api/recycled_clients')
-  .then(res => {
-    $scope.r_clients = res.data;
-    $scope.loadingRecycledClients = false;
-    $scope.noRecycledClients = true;
-    $scope.$applyAsync();
-  })
-  .catch(err => notify(err.message, 2));
+  $scope.loadingRecycledClients = true
+  $scope.noRecycledClients = false
+  $http
+    .get('/api/recycled_clients')
+    .then(res => {
+      $scope.r_clients = res.data
+      $scope.loadingRecycledClients = false
+      $scope.noRecycledClients = true
+      $scope.$applyAsync()
+    })
+    .catch(err => notify(err.message, 2))
 
-  $scope.restore = function(e) {
-    console.log('Restore', e.target.id)
+  $scope.restore = function (e) {
+    $http
+      .get('/api/recover_client/' + e.target.id.slice(0, -1))
+      .then(res => {
+        notify('Client Resotored!', 1);
+      })
+      .catch(err => {
+        notify('Can\'t Restored!', 2);
+      })
   }
-  $scope.deleteAction = function(e) {
+  $scope.deleteAction = function (e) {
     console.log('Delete', e.target.id)
   }
 })

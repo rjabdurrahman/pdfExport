@@ -28,7 +28,7 @@ router.get('/clients', getAllClient)
 // All recycled clients find....
 router.get('/recycled_clients', recycledClients)
 // Recovery recycled client...
-router.post('/recovered_client/:id', recycledClientRestore)
+router.get('/recover_client/:id', recycledClientRestore)
 // Genterate PDF
 router.get('/pdf/:id', generatePdf)
 
