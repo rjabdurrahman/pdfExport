@@ -1,7 +1,4 @@
-const { notify } = require("../../Routes/api")
-
 var app = angular.module('pdfApp', ['ngRoute'])
-
 app.config([
   '$routeProvider',
   '$locationProvider',
@@ -177,24 +174,28 @@ app.controller('LogOutCtrl', function ($scope, $http) {
 app.controller('RecycleCtrl', function ($scope, $http) {
   $scope.loadingRecycledClients = true
   $scope.noRecycledClients = false
-  $http
-    .get('/api/recycled_clients')
-    .then(res => {
-      $scope.r_clients = res.data
-      $scope.loadingRecycledClients = false
-      $scope.noRecycledClients = true
-      $scope.$applyAsync()
-    })
-    .catch(err => notify(err.message, 2))
+  function loadRecycledClients () {
+    $http
+      .get('/api/recycled_clients')
+      .then(res => {
+        $scope.r_clients = res.data
+        $scope.loadingRecycledClients = false
+        $scope.noRecycledClients = true
+        $scope.$applyAsync()
+      })
+      .catch(err => notify(err.message, 2))
+  }
+  loadRecycledClients()
 
   $scope.restore = function (e) {
     $http
       .get('/api/recover_client/' + e.target.id.slice(0, -1))
       .then(res => {
-        notify('Client Resotored!', 1);
+        notify('Client Resotored!', 1)
+        loadRecycledClients();
       })
       .catch(err => {
-        notify('Can\'t Restored!', 2);
+        notify("Can't Restored!", 2)
       })
   }
   $scope.deleteAction = function (e) {
