@@ -19,6 +19,15 @@ body {
   }
 }
 
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+  .subscribe {
+    width: 480px !important;
+  }
+}
+
 .shadow-9 {
   -webkit-box-shadow: 0 0 54px rgba(0, 0, 0, 0.12);
           box-shadow: 0 0 54px rgba(0, 0, 0, 0.12);
@@ -109,12 +118,6 @@ body {
   bottom: 0;
   left: 0;
   width: 50px;
-}
-
-@media (min-width: 992px) {
-  .d-lg-block {
-    display: block !important;
-  }
 }
 
 /* Contents */
@@ -218,7 +221,6 @@ body {
 }
 
 .content-area .content .bottom-area .subscribe {
-  width: 480px;
   margin: auto;
 }
 

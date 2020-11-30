@@ -35,6 +35,15 @@ body {
   //   }
 }
 
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+  .subscribe {
+    width: 480px !important;
+  }
+}
+
 .shadow-9 {
   box-shadow: 0 0 54px rgba(0, 0, 0, 0.12);
 }
@@ -126,12 +135,6 @@ body {
   }
 }
 
-@media (min-width: 992px) {
-  .d-lg-block {
-    display: block !important;
-  }
-}
-
 /* Contents */
 .content-area {
   position: absolute;
@@ -209,7 +212,7 @@ body {
       }
 
       .subscribe {
-        width: 480px;
+        // width: 480px;
         margin: auto;
       }
 
