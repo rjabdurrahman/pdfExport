@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   margin: 0;
 }
@@ -15,13 +15,6 @@ body {
   }
   .middle-text p {
     font-size: 16px !important;
-  }
-  .subscribe {
-    width: 100% !important;
-  }
-  .subscribe input,
-  .subscribe button {
-    width: 80% !important;
   }
 }
 
@@ -42,12 +35,12 @@ body {
 }
 
 .opacity-75 {
-  opacity: .75;
+  opacity: 0.75;
 }
 
 .bg-gradient-3 {
   background-color: #ff4136;
-  background-image: linear-gradient(45deg, #ff4136 0%, #ff851B 100%);
+  background-image: linear-gradient(45deg, #ff4136 0%, #ff851b 100%);
 }
 
 .overlay-inner {
@@ -84,7 +77,7 @@ body {
   position: fixed;
   overflow: hidden;
   background: inherit;
-  opacity: .07;
+  opacity: 0.07;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }

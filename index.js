@@ -22,7 +22,11 @@ app.use(/\/myapp\/(home|info|profile|logout)*/, (req, res, next) => {
 })
 app.use(express.static('public'))
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, 'public', 'index.html'))
+  let domain = req.hostname;
+  if(domain == 'tax-benefits.lu')
+    res.sendFile(path.join(__dirname, 'public', 'eng.html'))
+  else
+    res.send('');
 })
 app.get('/myapp/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'myapp/index.html'))
