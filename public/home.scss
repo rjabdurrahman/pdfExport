@@ -23,24 +23,28 @@ body {
         }
       }
     }
+
+    .bottom-area {
+      p {
+        margin-top: 25px;
+        margin-bottom: 20px;
+      }
+    }
   }
-
-  //   .subscribe {
-  //     width: 100% !important;
-
-  //     input,
-  //     button {
-  //       width: 80% !important;
-  //     }
-  //   }
 }
 
 @media (min-width: 992px) {
   .d-lg-block {
     display: block !important;
   }
-  .subscribe {
-    width: 480px !important;
+  .bottom-area {
+    p {
+      margin-top: 80px;
+      margin-bottom: 36px;
+    }
+    .subscribe {
+      width: 480px !important;
+    }
   }
 }
 
@@ -207,8 +211,6 @@ body {
 
       p {
         font-size: 18px;
-        margin-top: 80px;
-        margin-bottom: 36px;
       }
 
       .subscribe {

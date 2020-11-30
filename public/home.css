@@ -17,13 +17,21 @@ body {
     font-size: 45px !important;
     font-weight: bold;
   }
+  .content-area .bottom-area p {
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
 }
 
 @media (min-width: 992px) {
   .d-lg-block {
     display: block !important;
   }
-  .subscribe {
+  .bottom-area p {
+    margin-top: 80px;
+    margin-bottom: 36px;
+  }
+  .bottom-area .subscribe {
     width: 480px !important;
   }
 }
@@ -216,8 +224,6 @@ body {
 
 .content-area .content .bottom-area p {
   font-size: 18px;
-  margin-top: 80px;
-  margin-bottom: 36px;
 }
 
 .content-area .content .bottom-area .subscribe {
