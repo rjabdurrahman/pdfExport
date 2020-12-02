@@ -22,8 +22,8 @@ app.use(/\/myapp\/(home|info|profile|logout)*/, (req, res, next) => {
 })
 app.use(express.static('public'))
 app.get('/', (req, res) => {
-  // let domain = req.hostname;
-  let domain = 'tax-benefits.lu';
+  let domain = req.hostname;
+  // let domain = 'tax-benefits.lu';
   if(domain == 'tax-benefits.lu')
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
   else
