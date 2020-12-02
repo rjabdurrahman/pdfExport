@@ -31,6 +31,18 @@ body {
       }
     }
   }
+
+  .frame-bottom {
+    display: block !important;
+  }
+
+  .frame-right {
+    display: none !important;
+  }
+
+  .social-nav {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -45,6 +57,13 @@ body {
     .subscribe {
       width: 480px !important;
     }
+  }
+  .frame-bottom {
+    display: none !important;
+  }
+
+  .frame-right {
+    display: block !important;
   }
 }
 

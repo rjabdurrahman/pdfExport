@@ -21,6 +21,15 @@ body {
     margin-top: 25px;
     margin-bottom: 20px;
   }
+  .frame-bottom {
+    display: block !important;
+  }
+  .frame-right {
+    display: none !important;
+  }
+  .social-nav {
+    display: none;
+  }
 }
 
 @media (min-width: 992px) {
@@ -33,6 +42,12 @@ body {
   }
   .bottom-area .subscribe {
     width: 480px !important;
+  }
+  .frame-bottom {
+    display: none !important;
+  }
+  .frame-right {
+    display: block !important;
   }
 }
 
