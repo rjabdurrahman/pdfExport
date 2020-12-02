@@ -41,11 +41,14 @@ body {
   }
 
   .social-nav {
-    display: none;
+    bottom: 0 !important;
+    ul {
+      display: flex;
+    }
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 769px) {
   .d-lg-block {
     display: block !important;
   }
@@ -64,6 +67,10 @@ body {
 
   .frame-right {
     display: block !important;
+  }
+  .social-nav {
+    right: 0 !important;
+    top: calc(50% - 100px);
   }
 }
 
@@ -260,9 +267,6 @@ body {
 
 .social-nav {
   position: fixed;
-  top: calc(50% - 100px);
-  right: 0;
-
   ul {
     margin: 0;
     padding: 0;

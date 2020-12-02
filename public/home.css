@@ -28,11 +28,16 @@ body {
     display: none !important;
   }
   .social-nav {
-    display: none;
+    bottom: 0 !important;
+  }
+  .social-nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 769px) {
   .d-lg-block {
     display: block !important;
   }
@@ -48,6 +53,10 @@ body {
   }
   .frame-right {
     display: block !important;
+  }
+  .social-nav {
+    right: 0 !important;
+    top: calc(50% - 100px);
   }
 }
 
@@ -263,8 +272,6 @@ body {
 
 .social-nav {
   position: fixed;
-  top: calc(50% - 100px);
-  right: 0;
 }
 
 .social-nav ul {
