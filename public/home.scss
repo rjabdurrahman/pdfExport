@@ -42,6 +42,9 @@ body {
 
   .social-nav {
     bottom: 0 !important;
+    display: flex;
+    width: 100%;
+    justify-content: center;
     ul {
       display: flex;
     }
