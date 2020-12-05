@@ -24,12 +24,13 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   let domain = req.hostname;
   // let domain = 'avantages-fiscaux.lu';
-  if(domain == 'tax-benefits.lu')
-    res.sendFile(path.join(__dirname, 'public', 'eng.html'))
-  if(domain == 'avantages-fiscaux.lu') 
-    res.sendFile(path.join(__dirname, 'public', 'fr.html'))
   if(domain == 'y-e.lu')
     res.send('');
+  else if(domain == 'tax-benefits.lu')
+    res.sendFile(path.join(__dirname, 'public', 'eng.html'))
+  else if(domain == 'avantages-fiscaux.lu') 
+    res.sendFile(path.join(__dirname, 'public', 'fr.html'))
+  else res.send('404 Not Fount')
 })
 app.get('/myapp/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'myapp/index.html'))
