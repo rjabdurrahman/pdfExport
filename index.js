@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
   else if(domain == 'avantages-fiscaux.lu') 
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))
-  else res.send('404 Not Fount')
+  else res.send('Website Not Found!')
 })
 app.get('/myapp/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'myapp/index.html'))
