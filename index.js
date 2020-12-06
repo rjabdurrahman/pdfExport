@@ -22,8 +22,8 @@ app.use(/\/myapp\/(home|info|profile|logout)*/, (req, res, next) => {
 })
 app.use(express.static('public'))
 app.get('/', (req, res) => {
-  let domain = req.hostname;
-  // let domain = 'avantages-fiscaux.lu';
+  // let domain = req.hostname;
+  let domain = 'steuer-vorteile.lu';
   if(domain == 'y-e.lu')
     res.send('');
   else if(domain == 'tax-benefits.lu')
