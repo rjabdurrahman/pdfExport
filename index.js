@@ -24,13 +24,13 @@ app.use(express.static('public'))
 app.get('/', (req, res) => {
   let domain = req.hostname;
   // let domain = 'steuer-vorteile.lu';
-  if(domain == 'y-e.lu')
+  if(domain.includes('y-e.lu'))
     res.send('');
-  else if(domain == 'tax-benefits.lu')
+  else if(domain.includes('tax-benefits.lu'))
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
-  else if(domain == 'avantages-fiscaux.lu') 
+  else if(domain.includes('avantages-fiscaux.lu'))
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))
-  else if(domain == 'steuer-vorteile.lu')
+  else if(domain.includes('steuer-vorteile.lu'))
     res.sendFile(path.join(__dirname, 'public', 'de.html'))
   else res.send('Website Not Found!')
 })
