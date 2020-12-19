@@ -37,11 +37,12 @@
                         <span>Discover your deduction possibilities</span>
                     </div>
                 </div>
-                <form class="bottom-area w3-container">
+                <form onsubmit="registerEmail(event)" class="bottom-area w3-container">
                     <p>We’ll be here soon with our new website, subscribe to be notified.</p>
                     <div class="subscribe">
-                        <input class="w3-input w3-border" type="text" placeholder="Enter your email address">
-                        <button class="w3-btn w3-white">Subscribe</button>
+                        <input name="email" class="w3-input w3-border" type="text"
+                            placeholder="Enter your email address">
+                        <button type="submit" class="w3-btn w3-white">Subscribe</button>
                     </div>
                 </form>
             </div>
