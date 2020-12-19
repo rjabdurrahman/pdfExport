@@ -32,6 +32,8 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))
   else if(domain.includes('steuer-vorteile.lu'))
     res.sendFile(path.join(__dirname, 'public', 'de.html'))
+  else if(domain.includes('vantagens-fiscais.lu'))
+    res.sendFile(path.join(__dirname, 'public', 'pt.html'))
   else res.send('Website Not Found!')
 })
 app.get('/myapp/*', (req, res) => {
