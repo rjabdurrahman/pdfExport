@@ -8,6 +8,11 @@ module.exports = (req, res) => {
     client.signaletique.contribuable.courriel = idf.courriel;
     client.signaletique.contribuable.telephone = idf.telephone;
     var clients = new Client(client);
-    clients.save();
-    res.send({ success: 'Client Added Successfully' });
+    clients.save()
+    .then(() => {
+        res.json({ success: 'Client Added Successfully' });
+    })
+    .catch(err => {
+        res.json({err: err.message});
+    })
 }
