@@ -23,7 +23,7 @@ app.use(/\/myapp\/(home|info|profile|logout)*/, (req, res, next) => {
 app.use(express.static('public'))
 app.get('/', (req, res) => {
   let domain = req.hostname;
-  // let domain = 'steuer-vorteile.lu';
+  // let domain = 'tax-benefits.lu';
   if(domain.includes('y-e.lu'))
     res.send('');
   else if(domain.includes('tax-benefits.lu'))
