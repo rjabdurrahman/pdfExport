@@ -22,7 +22,7 @@ function notify (msg, t) {
         .html(
           `<div class="contain">
           <span class="material-icons">
-              check_circle
+            highlight_off
           </span>
           <h6>${msg}</h6>
       </div>`
@@ -42,7 +42,14 @@ function registerEmail(e) {
     console.log(email.value, lang.value);
     axios.post('api/user/subscribe', {email: email.value, language: lang.value})
     .then(res => {
-        if(!res.data.err) notify('You are sucessfully Registered!', 1)
+        if(!res.data.err) {
+            notify('You are sucessfully Registered!', 1)
+        }
+        if(res.data.err.code == 11000) {
+            notify('Already Registered!', 2)
+        }
     })
-    .catch(err => notify('Something Went Wrong', 2))
+    .catch(err => {
+        notify('Something Went Wrong', 2)
+    })
 }

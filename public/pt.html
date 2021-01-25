@@ -13,6 +13,48 @@
             margin: 0;
         }
 
+        #notification {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            right: 10px;
+            top: 8px;
+            color: white;
+            border-radius: 6px;
+            -webkit-border-radius: 6px;
+            -moz-border-radius: 6px;
+            -ms-border-radius: 6px;
+            -o-border-radius: 6px;
+        }
+
+        #notification div {
+            padding-left: 32px;
+            padding-right: 42px;
+            display: -webkit-box !important;
+            display: -ms-flexbox !important;
+            display: flex !important;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+        }
+
+        #notification div span {
+            display: inline-block;
+            padding-right: 10px;
+        }
+
+        #notification div h6 {
+            font-family: Arial, Helvetica, sans-serif !important;
+        }
+
+        #notification.success {
+            background: #25c1a0;
+        }
+
+        #notification.error {
+            background: #cf4044;
+        }
+
         @media only screen and (max-width: 768px) {
 
             /* For mobile phones: */
@@ -343,12 +385,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="myapp/js/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
+    <div id="notification" class="w3-panel w3-card-4"></div>
     <div class="global-overlay shadow-9">
         <div class="overlay-inner bg-image-holder bg-cover"
             style="background-image: url('001_cs.png'); background-size: 100% 100%;"></div>
@@ -370,11 +415,13 @@
                         <span>Descubra suas possibilidades de dedução</span>
                     </div>
                 </div>
-                <form class="bottom-area w3-container">
+                <form onsubmit="registerEmail(event)" class="bottom-area w3-container">
                     <p>Nosso novo site está prestes a chegar. Inscreva-se para ser o primeiro a saber sobre o
                         lançamento.</p>
                     <div class="subscribe">
-                        <input class="w3-input w3-border" type="text" placeholder="Insira o seu email aqui">
+                        <input class="w3-input w3-border" type="text" name="email"
+                            placeholder="Insira o seu email aqui">
+                        <input type="hidden" name="language" value="pt" />
                         <button class="w3-btn w3-white">Inscreva-se</button>
                     </div>
                 </form>
@@ -394,6 +441,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="home.js"></script>
 </body>
 
 </html>

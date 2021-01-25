@@ -23,12 +23,15 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
-
+    <link rel='stylesheet'
+        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="myapp/js/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
+    <div id="notification" class="w3-panel w3-card-4"></div>
     <div class="global-overlay shadow-9">
         <div class="overlay-inner bg-image-holder bg-cover"
             style="background-image: url('001_cs.png'); background-size: 100% 100%;"></div>
@@ -50,10 +53,12 @@
                         <span>Découvrez vos possibilités de déductions</span>
                     </div>
                 </div>
-                <form class="bottom-area w3-container">
+                <form onsubmit="registerEmail(event)" class="bottom-area w3-container">
                     <p>Notre nouveau site internet sera bientôt en ligne, restez connectés.</p>
                     <div class="subscribe">
-                        <input class="w3-input w3-border" type="text" placeholder="Saisissez votre adresse email">
+                        <input class="w3-input w3-border" type="text" name="email"
+                            placeholder="Saisissez votre adresse email">
+                        <input type="hidden" name="language" value="fr" />
                         <button class="w3-btn w3-white">S’abonner</button>
                     </div>
                 </form>
@@ -73,6 +78,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="home.js"></script>
 </body>
 
 </html>
