@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
   // let domain = 'tax-benefits.lu';
   if(domain.includes('y-e.lu'))
     res.send('');
-  else if(domain.includes('tax-benefits.lu'))
+  else if(domain.includes('tax-benefits.lu') || domain.includes('localhost'))
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
   else if(domain.includes('avantages-fiscaux.lu'))
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))

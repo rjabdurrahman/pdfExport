@@ -1,10 +1,49 @@
 body {
   font-family: "Montserrat", sans-serif;
-  color: white;
-  margin: 0;
+  color      : white;
+  margin     : 0;
+}
+
+#notification {
+  display              : none;
+  position             : fixed;
+  z-index              : 9999;
+  right                : 10px;
+  top                  : 8px;
+  color                : white;
+  border-radius        : 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius   : 6px;
+  -ms-border-radius    : 6px;
+  -o-border-radius     : 6px;
+
+  div {
+    padding-left : 32px;
+    padding-right: 42px;
+    display      : flex !important;
+    align-items  : center;
+
+    span {
+      display      : inline-block;
+      padding-right: 10px;
+    }
+
+    h6 {
+      font-family: Arial, Helvetica, sans-serif !important;
+    }
+  }
+
+  &.success {
+    background: #25c1a0;
+  }
+
+  &.error {
+    background: #cf4044;
+  }
 }
 
 @media only screen and (max-width: 768px) {
+
   /* For mobile phones: */
   .content-area {
     .content {
@@ -12,12 +51,15 @@ body {
         height: 240px !important;
         margin: 0 !important;
       }
+
       .middle-text {
+
         // display: none;
         #text {
           font-size: 29px !important;
+
           b {
-            font-size: 45px !important;
+            font-size  : 45px !important;
             font-weight: bold;
           }
         }
@@ -26,7 +68,7 @@ body {
 
     .bottom-area {
       p {
-        margin-top: 25px;
+        margin-top   : 25px;
         margin-bottom: 20px;
       }
     }
@@ -41,10 +83,11 @@ body {
   }
 
   .social-nav {
-    bottom: 0 !important;
-    display: flex;
-    width: 100%;
+    bottom         : 0 !important;
+    display        : flex;
+    width          : 100%;
     justify-content: center;
+
     ul {
       display: flex;
     }
@@ -55,15 +98,18 @@ body {
   .d-lg-block {
     display: block !important;
   }
+
   .bottom-area {
     p {
-      margin-top: 80px;
+      margin-top   : 80px;
       margin-bottom: 36px;
     }
+
     .subscribe {
       width: 480px !important;
     }
   }
+
   .frame-bottom {
     display: none !important;
   }
@@ -71,9 +117,10 @@ body {
   .frame-right {
     display: block !important;
   }
+
   .social-nav {
     right: 0 !important;
-    top: calc(50% - 100px);
+    top  : calc(50% - 100px);
   }
 }
 
@@ -82,14 +129,14 @@ body {
 }
 
 .global-overlay {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
+  position                   : fixed;
+  top                        : 0;
+  bottom                     : 0;
+  left                       : 0;
+  right                      : 0;
+  overflow                   : hidden;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+  backface-visibility        : hidden;
 }
 
 .opacity-75 {
@@ -103,10 +150,10 @@ body {
 
 .overlay-inner {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  top     : 0;
+  bottom  : 0;
+  left    : 0;
+  right   : 0;
 }
 
 *,
@@ -117,7 +164,7 @@ body {
 
 .bg-cover,
 .bg-contain {
-  background-repeat: no-repeat;
+  background-repeat  : no-repeat;
   background-position: center;
 }
 
@@ -130,83 +177,83 @@ body {
 .frame {
   background: #fff;
 
-  > * {
-    position: fixed;
-    overflow: hidden;
-    background: inherit;
-    opacity: 0.07;
+  >* {
+    position                   : fixed;
+    overflow                   : hidden;
+    background                 : inherit;
+    opacity                    : 0.07;
     -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
+    backface-visibility        : hidden;
   }
 
   .frame-right {
-    top: 0;
+    top   : 0;
     bottom: 0;
-    right: 0;
-    width: 50px;
+    right : 0;
+    width : 50px;
   }
 
   .frame-top {
-    top: 0;
-    left: 0;
-    right: 0;
+    top   : 0;
+    left  : 0;
+    right : 0;
     height: 50px;
   }
 
   .frame-bottom {
     bottom: 0;
-    left: 0;
-    right: 0;
+    left  : 0;
+    right : 0;
     height: 50px;
   }
 
   .frame-left {
-    top: 0;
+    top   : 0;
     bottom: 0;
-    left: 0;
-    width: 50px;
+    left  : 0;
+    width : 50px;
   }
 }
 
 /* Contents */
 .content-area {
-  position: absolute;
-  color: inherit;
+  position : absolute;
+  color    : inherit;
   font-size: 14px !important;
-  width: 100%;
-  height: 100vh;
+  width    : 100%;
+  height   : 100vh;
 
   .content {
-    height: 100vh;
-    display: flex;
+    height         : 100vh;
+    display        : flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding-bottom: 150px;
+    align-items    : center;
+    flex-direction : column;
+    padding-bottom : 150px;
 
     .logo-container {
-      display: flex;
+      display        : flex;
       justify-content: center;
-      height: 300px;
-      box-sizing: border-box;
+      height         : 300px;
+      box-sizing     : border-box;
 
       img {
-        height: 120px;
-        width: auto;
+        height    : 120px;
+        width     : auto;
         margin-top: 80px;
       }
     }
 
     .middle-text {
-      text-align: center;
+      text-align : center;
       line-height: 1.2;
-      height: 150px;
+      height     : 150px;
 
       #text {
         font-size: 54px;
 
         b {
-          font-size: 72px;
+          font-size  : 72px;
           font-weight: bold;
         }
       }
@@ -214,24 +261,24 @@ body {
 
     ::-webkit-input-placeholder {
       /* Edge */
-      color: white;
+      color    : white;
       font-size: 14px !important;
     }
 
     :-ms-input-placeholder {
       /* Internet Explorer 10-11 */
-      color: white;
+      color    : white;
       font-size: 14px !important;
     }
 
     ::placeholder {
-      color: white;
+      color    : white;
       font-size: 14px !important;
     }
 
     .bottom-area {
       box-sizing: border-box;
-      height: 176px;
+      height    : 176px;
       text-align: center;
 
       * {
@@ -250,10 +297,10 @@ body {
       font-size: 14px !important;
 
       input {
-        color: #fff;
+        color           : #fff;
         background-color: rgba(255, 255, 255, 0.125);
-        border: none !important;
-        font-weight: 300;
+        border          : none !important;
+        font-weight     : 300;
       }
 
       input:focus,
@@ -270,11 +317,12 @@ body {
 
 .social-nav {
   position: fixed;
+
   ul {
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    font-size: 18px;
+    margin         : 0;
+    padding        : 0;
+    text-align     : center;
+    font-size      : 18px;
     list-style-type: none;
 
     li {
@@ -285,12 +333,12 @@ body {
       }
 
       a {
-        width: 50px;
-        height: 50px;
+        width          : 50px;
+        height         : 50px;
         text-decoration: none;
-        display: inline-flex;
+        display        : inline-flex;
         justify-content: center;
-        align-items: center;
+        align-items    : center;
       }
     }
   }
