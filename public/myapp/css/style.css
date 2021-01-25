@@ -38153,31 +38153,31 @@ body {
   padding-right: 22px;
 }
 
-#clientDeleteModal .w3-modal-content {
+#clientDeleteModal .w3-modal-content, #deleteForeverModal .w3-modal-content {
   padding-bottom: 0 !important;
 }
 
-#clientDeleteModal form {
+#clientDeleteModal form, #deleteForeverModal form {
   width: 450px !important;
 }
 
-#clientDeleteModal .footer .w3-container {
+#clientDeleteModal .footer .w3-container, #deleteForeverModal .footer .w3-container {
   padding: 0 16px !important;
 }
 
-#clientDeleteModal .footer button {
+#clientDeleteModal .footer button, #deleteForeverModal .footer button {
   font-weight: bold;
   font-size: 14px;
   color: white;
   width: 100px;
 }
 
-#clientDeleteModal .footer button:first-child {
+#clientDeleteModal .footer button:first-child, #deleteForeverModal .footer button:first-child {
   background-color: #25c1a0;
   margin-right: 10px;
 }
 
-#clientDeleteModal .footer button:last-child {
+#clientDeleteModal .footer button:last-child, #deleteForeverModal .footer button:last-child {
   background-color: #cf4044;
 }
 
