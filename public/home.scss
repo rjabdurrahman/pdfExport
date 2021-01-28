@@ -6,8 +6,8 @@ body {
 
 #notification {
   display              : none;
-  position             : fixed;
   z-index              : 9999;
+  position             : fixed;
   right                : 10px;
   top                  : 8px;
   color                : white;
@@ -18,10 +18,8 @@ body {
   -o-border-radius     : 6px;
 
   div {
-    padding-left : 32px;
-    padding-right: 42px;
-    display      : flex !important;
-    align-items  : center;
+    display    : flex !important;
+    align-items: center;
 
     span {
       display      : inline-block;
@@ -43,7 +41,6 @@ body {
 }
 
 @media only screen and (max-width: 768px) {
-
   /* For mobile phones: */
   .content-area {
     .content {
@@ -95,6 +92,13 @@ body {
 }
 
 @media (min-width: 769px) {
+  #notifiction {
+    div {
+      padding-left : 32px;
+      padding-right: 42px;
+    }
+  }
+
   .d-lg-block {
     display: block !important;
   }

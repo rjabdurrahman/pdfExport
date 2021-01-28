@@ -6,8 +6,8 @@ body {
 
 #notification {
   display: none;
-  position: fixed;
   z-index: 9999;
+  position: fixed;
   right: 10px;
   top: 8px;
   color: white;
@@ -19,8 +19,6 @@ body {
 }
 
 #notification div {
-  padding-left: 32px;
-  padding-right: 42px;
   display: -webkit-box !important;
   display: -ms-flexbox !important;
   display: flex !important;
@@ -87,6 +85,10 @@ body {
 }
 
 @media (min-width: 769px) {
+  #notifiction div {
+    padding-left: 32px;
+    padding-right: 42px;
+  }
   .d-lg-block {
     display: block !important;
   }

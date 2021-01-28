@@ -26,11 +26,11 @@ app.get('/', (req, res) => {
   // let domain = 'tax-benefits.lu';
   if(domain.includes('y-e.lu'))
     res.send('');
-  else if(domain.includes('tax-benefits.lu'))
+  else if(domain.includes('tax-benefits.lu') || domain.includes('localhost'))
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
   else if(domain.includes('avantages-fiscaux.lu'))
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))
-  else if(domain.includes('steuer-vorteile.lu') || domain.includes('localhost'))
+  else if(domain.includes('steuer-vorteile.lu'))
     res.sendFile(path.join(__dirname, 'public', 'de.html'))
   else if(domain.includes('vantagens-fiscais.lu'))
     res.sendFile(path.join(__dirname, 'public', 'pt.html'))
