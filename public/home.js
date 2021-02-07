@@ -35,6 +35,21 @@ function notify(msg, t) {
   }
 }
 
+let notificationMsg = {
+  eng: {
+    success: 'Thank you for your registration',
+    fail: 'You are already registered'
+  },
+  fr: {
+    success: 'Merci pour votre envoi',
+    fail: 'Vous êtes déjà abonné'
+  },
+  de: {
+    success: 'Vielen Dank für Ihre Anmeldung',
+    fail: 'Sie sind bereits angemeldet'
+  }
+}
+
 function registerEmail(e) {
   e.preventDefault();
   let email = e.target['email'];
@@ -43,10 +58,10 @@ function registerEmail(e) {
   axios.post('api/user/subscribe', { email: email.value, language: lang.value })
     .then(res => {
       if (!res.data.err) {
-        notify('Thank you for your registration', 1)
+        notify(notificationMsg[lang.value].success, 1)
       }
       if (res.data.err && res.data.err.code == 11000) {
-        notify('You are already registered', 2)
+        notify(notificationMsg[lang.value].fail, 2)
       }
     })
     .catch(err => {
