@@ -39,8 +39,8 @@ router.post('/user/subscribe', gatherEmails)
 
 router.get('/phone_contacts', (req, res) => {
   res.send(`
-    00352691881116:Test 1 [MIXvoip 1]:::
-    00352691140416:Test 2 [MIXvoip 2]:::
+    00352691881116:Test 1 [MIXvoip 1]:::\n
+    00352691140416:Test 2 [MIXvoip 2]:::\n
   `)
 })
 module.exports = router
