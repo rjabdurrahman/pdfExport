@@ -62,6 +62,7 @@ function registerEmail(e) {
   axios.post('api/user/subscribe', { email: email.value, language: lang.value })
     .then(res => {
       if (!res.data.err) {
+        lang.value = '';
         notify(notificationMsg[lang.value].success, 1)
       }
       if (res.data.err && res.data.err.code == 11000) {
