@@ -39,13 +39,7 @@ router.post('/user/subscribe', gatherEmails)
 
 router.get('/phone_contacts', (req, res) => {
   res.send(`
-  00352691881116:00352691881117:Test 1:test 2:company:group:::\n
-
-  +352691881116:yves test:::\n
-  +352691881117:yves test:::\n
-  
-  00352691881116:yves test:::\n
-  00352691881117:yves test::: \n
+  +352691881116:yves testéàààààéééé'as:::
   `)
 })
 module.exports = router
