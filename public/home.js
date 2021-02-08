@@ -47,6 +47,10 @@ let notificationMsg = {
   de: {
     success: 'Vielen Dank für Ihre Anmeldung',
     fail: 'Sie sind bereits angemeldet'
+  },
+  pt: {
+    success: 'Obrigado pelo envio',
+    fail: 'Você, já está inscrito'
   }
 }
 
