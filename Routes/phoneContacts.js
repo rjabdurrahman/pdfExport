@@ -1,4 +1,6 @@
 const outlook = require('node-outlook');
+const removeAccents = require('../helpers/removeAccents');
+
 module.exports = function (req, res) {
   //   res.send(`
   // +352691881116:yves testéàààààéééé'as:::
@@ -29,7 +31,7 @@ module.exports = function (req, res) {
       else if (result) {
         let phoneStr;
         result.value.forEach(function (contact) {
-          phoneStr += `${contact.MobilePhone1}:${contact.Surname} ${contact.GivenName}:::\n`;
+          phoneStr += `${contact.MobilePhone1.replace(/\s+/g, '')}:${removeAccents(contact.Surname)} ${removeAccents(contact.GivenName)}:::\n`;
           // "HomePhones": [],
           //     "MobilePhone1": "+352 621707801",
           //     "BusinessPhones": [],
