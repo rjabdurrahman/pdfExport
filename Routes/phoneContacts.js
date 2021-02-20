@@ -14,7 +14,7 @@ module.exports = function (req, res) {
 
   // Set up oData parameters
   var queryParams = {
-    '$select': 'GivenName,Surname,MobilePhone1,HomePhones',
+    '$select': 'GivenName,Surname,MobilePhone1,HomePhones,BusinessPhones',
     '$orderby': 'CreatedDateTime desc',
     '$top': 1000
   };
@@ -32,14 +32,13 @@ module.exports = function (req, res) {
       else if (result) {
         let phoneStr = '';
         result.value.forEach(function (contact) {
-          // console.log(contact);
+          console.log(contact);
           if (contact.MobilePhone1)
             phoneStr += `${contact.MobilePhone1.replace(/\s+/g, '')}:${contact.Surname ? removeAccents(contact.Surname) : ''} ${contact.GivenName ? removeAccents(contact.GivenName) : ''}:::\n`;
           if (contact.HomePhones.length)
             phoneStr += `${contact.HomePhones[0].replace(/\s+/g, '')}:${contact.Surname ? removeAccents(contact.Surname) : ''} ${contact.GivenName ? removeAccents(contact.GivenName) : ''}:::\n`;
-          // "HomePhones": [],
-          //     "MobilePhone1": "+352 621707801",
-          //     "BusinessPhones": [],
+          if (contact.BusinessPhones.length)
+            phoneStr += `${contact.BusinessPhones[0].replace(/\s+/g, '')}:${contact.Surname ? removeAccents(contact.Surname) : ''} ${contact.GivenName ? removeAccents(contact.GivenName) : ''}:::\n`;
         });
         res.send(phoneStr);
       }
