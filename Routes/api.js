@@ -39,4 +39,19 @@ router.post('/user/subscribe', gatherEmails)
 // Phone Contacts
 router.get('/phone_contacts', phoneContacts);
 
+router.get('/test_contacts', (req, res) => {
+  res.send(`<mixvoipIPPhoneDirectory clearlight="true">
+  <Title>Phonelist</Title>
+  <Prompt>Prompt</Prompt>
+  <DirectoryEntry>
+  <Name>Abdur Rahman</Name>
+  <Telephone>+8801757</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+  <Name>Yves</Name>
+  <Telephone>5283283</Telephone>
+  </DirectoryEntry>
+  </mixvoipIPPhoneDirectory>`)
+})
+
 module.exports = router
