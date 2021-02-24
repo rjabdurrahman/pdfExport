@@ -48,7 +48,7 @@ router.get('/test_contacts', (req, res) => {
   <Telephone>+8801757</Telephone>
   </DirectoryEntry>
   <DirectoryEntry>
-  <Name>Yves</Name>
+  <Name>Frédéric</Name>
   <Telephone>5283283</Telephone>
   </DirectoryEntry>
   </mixvoipIPPhoneDirectory>`)
