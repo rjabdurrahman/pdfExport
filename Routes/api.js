@@ -40,18 +40,21 @@ router.post('/user/subscribe', gatherEmails)
 router.get('/phone_contacts', phoneContacts);
 
 router.get('/test_contacts', (req, res) => {
-  res.send(`<mixvoipIPPhoneDirectory clearlight="true">
+  res.send(`<hunnyIPPhoneDirectory clearlight="true">
   <Title>Phonelist</Title>
   <Prompt>Prompt</Prompt>
   <DirectoryEntry>
   <Name>éàèüç</Name>
   <Telephone>+8801757</Telephone>
+  <Telephone>+12412</Telephone>
+  <Group>Lalux</Group>
   </DirectoryEntry>
   <DirectoryEntry>
   <Name>Frédéric</Name>
   <Telephone>5283283</Telephone>
+  <Category>Friends</Category>
   </DirectoryEntry>
-  </mixvoipIPPhoneDirectory>`)
+  </hunnyIPPhoneDirectory>`)
 })
 
 module.exports = router
