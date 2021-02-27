@@ -46,17 +46,17 @@ module.exports = function (req, res) {
             result.value.forEach(function (contact) {
               if (contact.mobilePhone)
                 phoneStr += `<DirectoryEntry>
-                <Name>${contact.surname} ${contact.givenName}</Name>
+                <Name>${contact.surname ? contact.surname : ''} ${contact.givenName ? contact.givenName : ''}</Name>
                 <Telephone>${contact.mobilePhone.replace(/\s+/g, '')}</Telephone>
                 </DirectoryEntry>`;
               if (contact.homePhones.length)
                 phoneStr += `<DirectoryEntry>
-                <Name>${contact.surname} ${contact.givenName}</Name>
+                <Name>${contact.surname ? contact.surname: ''} ${contact.givenName ? contact.givenName: ''}</Name>
                 <Telephone>${contact.homePhones[0].replace(/\s+/g, '')}</Telephone>
                 </DirectoryEntry>`;
               if (contact.businessPhones.length)
                 phoneStr += `<DirectoryEntry>
-                <Name>${contact.surname} ${contact.givenName}</Name>
+                <Name>${contact.surname ? contact.surname: ''} ${contact.givenName ? contact.givenName: ''}</Name>
                 <Telephone>${contact.businessPhones[0].replace(/\s+/g, '')}</Telephone>
                 </DirectoryEntry>`;
             });
