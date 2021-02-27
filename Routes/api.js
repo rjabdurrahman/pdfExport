@@ -47,12 +47,10 @@ router.get('/test_contacts', (req, res) => {
   <Name>éàèüç</Name>
   <Telephone>+8801757</Telephone>
   <Telephone>+12412</Telephone>
-  <Group>Lalux</Group>
   </DirectoryEntry>
   <DirectoryEntry>
   <Name>Frédéric</Name>
   <Telephone>5283283</Telephone>
-  <Category>Friends</Category>
   </DirectoryEntry>
   </hunnyIPPhoneDirectory>`)
 })
