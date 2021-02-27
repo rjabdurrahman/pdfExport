@@ -55,7 +55,8 @@ module.exports = function (req, res) {
               if (contact.businessPhones.length)
                 phoneStr += `<Telephone>${contact.businessPhones[0].replace(/\s+/g, '')}</Telephone>
                 `;
-              phoneStr += `</DirectoryEntry>`;
+              phoneStr += `</DirectoryEntry>
+              `;
             });
             res.send(phoneStr + `</hunnyIPPhoneDirectory>`);
           }
