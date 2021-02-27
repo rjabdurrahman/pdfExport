@@ -40,8 +40,30 @@ module.exports = function (req, res) {
             res.send(error);
           }
           else if (result) {
-            console.log(result.value.length);
-            res.send(result.value);
+            let phoneStr = `<hunnyIPPhoneDirectory clearlight="true">
+            <Title>Phonelist</Title>
+            <Prompt>Prompt</Prompt>`;
+            result.value.forEach(function (contact) {
+              if (contact.mobilePhone)
+                phoneStr += `<DirectoryEntry>
+                <Name>Frédéric</Name>
+                <Telephone>${contact.mobilePhone.replace(/\s+/g, '')}</Telephone>
+                <Category>${contact.surname} ${contact.givenName}</Category>
+                </DirectoryEntry>`;
+              if (contact.homePhones.length)
+                phoneStr += `<DirectoryEntry>
+                <Name>Frédéric</Name>
+                <Telephone>${contact.homePhones[0].replace(/\s+/g, '')}</Telephone>
+                <Category>${contact.surname} ${contact.givenName}</Category>
+                </DirectoryEntry>`;
+              if (contact.businessPhones.length)
+                phoneStr += `<DirectoryEntry>
+                <Name>Frédéric</Name>
+                <Telephone>${contact.businessPhones[0].replace(/\s+/g, '')}</Telephone>
+                <Category>${contact.surname} ${contact.givenName}</Category>
+                </DirectoryEntry>`;
+            });
+            res.send(phoneStr + `</hunnyIPPhoneDirectory>`);
           }
         });
     })
