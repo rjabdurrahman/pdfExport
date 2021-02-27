@@ -44,10 +44,10 @@ module.exports = function (req, res) {
             <Title>Phonelist</Title>
             <Prompt>Prompt</Prompt>`;
             result.value.forEach(function (contact) {
+              phoneStr += `<DirectoryEntry>
+              <Name>${contact.surname ? contact.surname + ' ': ''}${contact.givenName ? contact.givenName : ''}</Name>`;
               if (contact.mobilePhone)
-                phoneStr += `<DirectoryEntry>
-                <Name>${contact.surname ? contact.surname + ' ': ''}${contact.givenName ? contact.givenName : ''}</Name>
-                <Telephone>${contact.mobilePhone.replace(/\s+/g, '')}</Telephone>
+                phoneStr += `<Telephone>${contact.mobilePhone.replace(/\s+/g, '')}</Telephone>
                 `;
               // if (contact.homePhones.length)
               //   phoneStr += `<Telephone>${contact.homePhones[0].replace(/\s+/g, '')}</Telephone>
