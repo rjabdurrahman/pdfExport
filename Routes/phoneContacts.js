@@ -48,17 +48,14 @@ module.exports = function (req, res) {
                 phoneStr += `<DirectoryEntry>
                 <Name>${contact.surname ? contact.surname + ' ': ''}${contact.givenName ? contact.givenName : ''}</Name>
                 <Telephone>${contact.mobilePhone.replace(/\s+/g, '')}</Telephone>
-                </DirectoryEntry>`;
+                `;
               if (contact.homePhones.length)
-                phoneStr += `<DirectoryEntry>
-                <Name>${contact.surname ? contact.surname + ' ': ''}${contact.givenName ? contact.givenName: ''}</Name>
-                <Telephone>${contact.homePhones[0].replace(/\s+/g, '')}</Telephone>
-                </DirectoryEntry>`;
+                phoneStr += `<Telephone>${contact.homePhones[0].replace(/\s+/g, '')}</Telephone>
+                `;
               if (contact.businessPhones.length)
-                phoneStr += `<DirectoryEntry>
-                <Name>${contact.surname ? contact.surname + ' ': ''}${contact.givenName ? contact.givenName: ''}</Name>
-                <Telephone>${contact.businessPhones[0].replace(/\s+/g, '')}</Telephone>
-                </DirectoryEntry>`;
+                phoneStr += `<Telephone>${contact.businessPhones[0].replace(/\s+/g, '')}</Telephone>
+                `;
+              phoneStr += `</DirectoryEntry>`;
             });
             res.send(phoneStr + `</hunnyIPPhoneDirectory>`);
           }
