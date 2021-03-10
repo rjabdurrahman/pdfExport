@@ -54,9 +54,10 @@ router.get('/test_contacts', (req, res) => {
   </Menu>
   <Menu Name="Friend"> 
   <Unit Name="Lily" Phone1="3629"/> 
+  <Unit Name="Abdur" Phone1="4646"/> 
   </Menu>
   <Menu Name="Family">
-  <Unit Name="Lucy" Phone1="3965"/> 
+  <Unit Name="Frédéric" Phone1="3965"/> 
   </Menu> 
   </YealinkIPPhoneBook>`)
 })
