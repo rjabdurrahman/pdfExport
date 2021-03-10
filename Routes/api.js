@@ -40,23 +40,23 @@ router.post('/user/subscribe', gatherEmails)
 router.get('/phone_contacts', phoneContacts);
 
 router.get('/test_contacts', (req, res) => {
-    res.send(`<YealinklPPhoneBook> 
+    res.send(`<YealinkIPPhoneBook> 
   <Title>Yealink</Title>
   <Menu Name="Saler"> 
   <Unit Name="Bella" Phone1="8111"/> 
   <Unit Name="Cindy" Phone1="8116"/> 
-  <Unit Name="Miki" Phonel="81081"> 
-  <Unit Name="Lynn" Phonel="81097"> 
-  <Unit Name="Ian" Phonel="8107"/> 
-  <Unit Name="Sharon" Phonel="8113"/> 
-  <Unit Name="Sanborn" Phonel="8106"/> 
-  <Unit Name="lessica" Phonel="8117"/> 
+  <Unit Name="Miki" Phone1="81081"/> 
+  <Unit Name="Lynn" Phone1="81097"/> 
+  <Unit Name="Ian" Phone1="8107"/> 
+  <Unit Name="Sharon" Phone1="8113"/> 
+  <Unit Name="Sanborn" Phone1="8106"/> 
+  <Unit Name="lessica" Phone1="8117"/> 
   </Menu>
   <Menu Name="Friend"> 
-  <Unit Name="Lily" Phonel="3629"/> 
+  <Unit Name="Lily" Phone1="3629"/> 
   </Menu>
   <Menu Name="Family">
-  <Unit Name="Lucy" Phonel="3965"/> 
+  <Unit Name="Lucy" Phone1="3965"/> 
   </Menu> 
   </YealinkIPPhoneBook>`)
 })
