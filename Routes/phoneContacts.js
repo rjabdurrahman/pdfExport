@@ -4,7 +4,7 @@ const qs = require('qs');
 
 
 module.exports = async function (req, res) {
-  if (req.query.pass === '1628yTqGDGmLUQuoNDTH') {
+  if (req.query.pass === 'vCwm7MpeYPrlJfOnPCe9') {
     const APP_ID = 'bbe542cd-c9e2-41b3-a450-5cc568b9fb19';
     const APP_SECERET = '51hx5Qj~04sWG0L.8eX.6EBj-.5dLEo~-b';
     const TOKEN_ENDPOINT = 'https://login.microsoftonline.com/b346b961-5192-4ebb-a964-344dd8b205d0/oauth2/v2.0/token';
