@@ -25,8 +25,8 @@ module.exports = async function (req, res) {
     let { access_token } = data;
     outlook.base.setApiEndpoint('https://graph.microsoft.com/v1.0');
     let response = await Promise.all([
-      axios.get(`https://graph.microsoft.com/v1.0/users('info@y-e.lu')/contacts?$select=displayName,categories,MobilePhone1,HomePhones,BusinessPhones&$top=1000`, { headers: { "Authorization": access_token } }),
-      axios.get(`https://graph.microsoft.com/v1.0/users('info@y-e.lu')/contacts?$select=displayName,categories,MobilePhone1,HomePhones,BusinessPhones&$top=1000&$skip=1000`, { headers: { "Authorization": access_token } })
+      axios.get(`https://graph.microsoft.com/v1.0/users('info@y-e.lu')/contacts?$select=givenName,surname,categories,MobilePhone1,HomePhones,BusinessPhones&$top=1000`, { headers: { "Authorization": access_token } }),
+      axios.get(`https://graph.microsoft.com/v1.0/users('info@y-e.lu')/contacts?$select=givenName,surname,categories,MobilePhone1,HomePhones,BusinessPhones&$top=1000&$skip=1000`, { headers: { "Authorization": access_token } })
     ]);
     let XML = `<YealinkIPPhoneBook> 
     <Title>Yealink</Title>`;
@@ -35,8 +35,9 @@ module.exports = async function (req, res) {
         let phoneNumbers = [];
         phoneNumbers.push(x.mobilePhone, ...x.homePhones, ...x.businessPhones);
         let phoneNoXML = phoneNumbers.map((no, index) => `Phone${++index}="${no}"`).join('');
-        let group = x['categories'] == "" ? "General" : x['categories'];
-        (rv[group] = rv[group] || []).push(`<Unit Name="${x.displayName}" ${phoneNoXML}/>`);
+        let group = x['categories'] == "" ? "Sans catégorie" : x['categories'];
+        let contactName = `${x.surname ? x.surname + ' ' : ''}${x.givenName ? x.givenName : ''}`;
+        (rv[group] = rv[group] || []).push(`<Unit Name="${contactName}" ${phoneNoXML}/>`);
         return rv;
       }, {});
     for(group in allContacts) {
