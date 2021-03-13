@@ -40,7 +40,7 @@ module.exports = async function (req, res) {
           let phoneNoXML = phoneNumbers.map((no, index) => `Phone${++index}="${no.replace(/\s/g, '')}"`).join('');
           let group = x['categories'] == "" ? "Sans catégorie" : x['categories'];
           let contactName = `${x.surname ? x.surname + ' ' : ''}${x.givenName ? x.givenName : ''}`;
-          if(phoneNumbers.length) (rv[group] = rv[group] || []).push(`<Unit Name="${contactName}" ${phoneNoXML}/>`);
+          (rv[group] = rv[group] || []).push(`<Unit Name="${contactName}" ${phoneNoXML}/>`);
           return rv;
         }, {});
       for (group in allContacts) {
