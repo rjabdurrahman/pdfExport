@@ -43,8 +43,8 @@ router.get('/test_contacts', (req, res) => {
     res.send(`<YealinkIPPhoneBook> 
   <Title>Yealink</Title>
   <Menu Name="Saler"> 
-  <Unit Name="EVERAD Yves" Phone1="+352691140416"/> 
-  <Unit Name="Cindy" Phone1="8116"/> 
+  <Unit Name="EVERAD Yves" Mobile1="+352691140416" Number1="+352691140416"/> 
+  <Unit Name="Cindy" Number="124241" Phone1="8116"/> 
   <Unit Name="Miki" Phone1="81081"/> 
   <Unit Name="Lynn" Phone1="81097"/> 
   <Unit Name="Ian" Phone1="8107"/> 
