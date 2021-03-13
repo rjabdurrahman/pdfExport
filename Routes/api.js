@@ -42,17 +42,6 @@ router.get('/phone_contacts', phoneContacts);
 router.get('/test_contacts', (req, res) => {
     res.send(`<YealinkIPPhoneBook> 
   <Title>Yealink</Title>
-  <Menu Name="Saler"> 
-  <Unit Name="EVERAD Yves" Mobile="+352691140416" Number1="+352691140416"/> 
-  <Unit Name="Cindy" Number="124241" Phone1="8116"/> 
-  <Name>A. Rahman</Name>
-  <Telephone>2349249</Telephone>
-  <Unit Name="Lynn" Phone1="81097"/> 
-  <Unit Name="Ian" Phone1="8107"/> 
-  <Unit Name="Sharon" Phone1="8113"/> 
-  <Unit Name="Sanborn" Phone1="8106"/> 
-  <Unit Name="lessica" Phone1="8117"/> 
-  </Menu>
   <Menu Name="Friend"> 
   <Unit Name="Lily" Phone1="3629"/> 
   <Unit Name="Abdur" Phone1="4646"/> 
