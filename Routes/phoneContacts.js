@@ -34,9 +34,9 @@ module.exports = async function (req, res) {
       .reduce(function (rv, x) {
         let phoneNumbers = [];
         if(x.mobilePhone) phoneNumbers.push(x.mobilePhone);
-        if(x.homePhones.length) phoneNumbers.push(x.homePhones);
-        if(x.businessPhones.length) phoneNumbers.push(x.businessPhones);
-        let phoneNoXML = phoneNumbers.map((no, index) => `Phone${++index}="${no}"`).join('');
+        if(x.homePhones.length) phoneNumbers.push(...x.homePhones);
+        if(x.businessPhones.length) phoneNumbers.push(...x.businessPhones);
+        let phoneNoXML = phoneNumbers.map((no, index) => `Phone${++index}="${no.replace(/\s/g)}"`).join('');
         let group = x['categories'] == "" ? "Sans catégorie" : x['categories'];
         let contactName = `${x.surname ? x.surname + ' ' : ''}${x.givenName ? x.givenName : ''}`;
         (rv[group] = rv[group] || []).push(`<Unit Name="${contactName}" ${phoneNoXML}/>`);
