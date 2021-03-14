@@ -38709,7 +38709,7 @@ input.num {
 }
 
 .clients-table .top .left select, .clients-table .top .right select, .recycled-clients .top .left select, .recycled-clients .top .right select {
-  padding: 0 20px 0 10px;
+  padding: 0 20px 0 8px;
 }
 
 .clients-table .top button, .recycled-clients .top button {
