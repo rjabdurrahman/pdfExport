@@ -1,6 +1,12 @@
 <div class="clients-table">
     <div class="top">
-        <div class="left"></div>
+        <div class="left">
+            <select class="w3-select w3-border" name="option">
+                <option value="" disabled selected>Select Year</option>
+                <option value="1">2020</option>
+                <option value="2">2019</option>
+            </select>
+        </div>
         <div class="right">
             <input class="w3-input w3-border" type="text" placeholder="Recherche" ng-disabled="!searchable"
                 ng-keyup="search($event)">
