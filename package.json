@@ -17,12 +17,14 @@
         "qs": "^6.9.6"
     },
     "devDependencies": {
+        "concurrently": "^6.0.0",
         "eslint": "^7.13.0",
         "nodemon": "^2.0.4",
         "prettier": "^2.1.2"
     },
     "scripts": {
         "start": "node index",
+        "dev:v2": "concurrently \"npm start\" \"npm start --prefix client\"",
         "dev": "nodemon index",
         "push": "git push",
         "html": "node dev/html-compile"
