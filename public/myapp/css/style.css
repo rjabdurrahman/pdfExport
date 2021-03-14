@@ -38697,9 +38697,19 @@ input.num {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.clients-table .top .left, .clients-table .top .right, .recycled-clients .top .left, .recycled-clients .top .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.clients-table .top .left select, .clients-table .top .right select, .recycled-clients .top .left select, .recycled-clients .top .right select {
+  padding: 0 20px 0 10px;
 }
 
 .clients-table .top button, .recycled-clients .top button {
