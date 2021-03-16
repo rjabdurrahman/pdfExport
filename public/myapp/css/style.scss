@@ -87,9 +87,16 @@ body {
 }
 #clientTransferModal {
 	.year-selection {
-		display: flex; align-items: center;
+		width: 100%;
+		display: flex; 
+		justify-content: flex-end;
+		align-items: center;
 		span {
-			width: 180px;
+			width: 60px;
+		}
+
+		select {
+			width: 100px !important;
 		}
 	
 		// select:focus {
