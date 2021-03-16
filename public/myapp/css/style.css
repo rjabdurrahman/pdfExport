@@ -38154,15 +38154,36 @@ body {
 }
 
 #clientDeleteModal .w3-modal-content,
-#deleteForeverModal .w3-modal-content,
-#clientTransferModal .w3-modal-content {
+#deleteForeverModal .w3-modal-content {
   padding-bottom: 0 !important;
 }
 
 #clientDeleteModal form,
-#deleteForeverModal form,
-#clientTransferModal form {
+#deleteForeverModal form {
   width: 450px !important;
+}
+
+#clientTransferModal .w3-modal-content {
+  padding-bottom: 0 !important;
+}
+
+#clientTransferModal .w3-modal-content .data-container {
+  padding: 20px 30px 20px;
+}
+
+#clientTransferModal form {
+  width: 275px !important;
+}
+
+#clientTransferModal form .footer {
+  padding-right: 30px;
+  padding-bottom: 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#clientTransferModal form .footer p {
+  margin: 0;
 }
 
 #clientTransferModal .year-selection {
@@ -38184,6 +38205,8 @@ body {
 
 #clientTransferModal .year-selection select {
   width: 100px !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .popup .footer .w3-container {

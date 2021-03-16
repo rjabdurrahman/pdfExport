@@ -75,8 +75,7 @@ body {
 }
 
 #clientDeleteModal,
-#deleteForeverModal,
-#clientTransferModal {
+#deleteForeverModal {
 	.w3-modal-content {
 		padding-bottom: 0 !important;
 	}
@@ -85,7 +84,28 @@ body {
 		width: 450px !important;
 	}
 }
+
 #clientTransferModal {
+	.w3-modal-content {
+		padding-bottom: 0 !important;
+		.data-container {
+			padding: 20px 30px 20px;
+		}
+	}
+
+	form {
+		width: 275px !important;
+
+		.footer {
+			padding-right: 30px;
+			padding-bottom: 20px;
+			box-sizing: border-box;
+			p {
+				margin: 0;
+			}
+		}
+	}
+
 	.year-selection {
 		width: 100%;
 		display: flex; 
@@ -97,13 +117,8 @@ body {
 
 		select {
 			width: 100px !important;
+			box-sizing: border-box;
 		}
-	
-		// select:focus {
-		// 	border-left: none !important;
-		// 	border-right: none !important;
-		// 	border-top: none !important;
-		// }
 	}
 }
 
