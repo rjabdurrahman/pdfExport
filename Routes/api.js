@@ -49,7 +49,7 @@ router.get('/test_contacts', (req, res) => {
   <Menu Name="Family">
   <Unit Name="Frédéric" Phone1="3965"/> 
   </Menu> 
-  </YealinkIPPhoneBook>`)
+  </YealinkIPPhoneBook>`);
 })
 
 module.exports = router
