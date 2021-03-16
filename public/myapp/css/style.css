@@ -38153,31 +38153,33 @@ body {
   padding-right: 22px;
 }
 
-#clientDeleteModal .w3-modal-content, #deleteForeverModal .w3-modal-content {
+#clientDeleteModal .w3-modal-content,
+#deleteForeverModal .w3-modal-content {
   padding-bottom: 0 !important;
 }
 
-#clientDeleteModal form, #deleteForeverModal form {
+#clientDeleteModal form,
+#deleteForeverModal form {
   width: 450px !important;
 }
 
-#clientDeleteModal .footer .w3-container, #deleteForeverModal .footer .w3-container {
+.popup .footer .w3-container {
   padding: 0 16px !important;
 }
 
-#clientDeleteModal .footer button, #deleteForeverModal .footer button {
+.popup .footer button {
   font-weight: bold;
   font-size: 14px;
   color: white;
   width: 100px;
 }
 
-#clientDeleteModal .footer button:first-child, #deleteForeverModal .footer button:first-child {
+.popup .footer button:first-child {
   background-color: #25c1a0;
   margin-right: 10px;
 }
 
-#clientDeleteModal .footer button:last-child, #deleteForeverModal .footer button:last-child {
+.popup .footer button:last-child {
   background-color: #cf4044;
 }
 
@@ -38687,11 +38689,13 @@ input.num {
           filter: brightness(1.2);
 }
 
-.clients-table, .recycled-clients {
+.clients-table,
+.recycled-clients {
   margin: 40px 100px 20px 92px;
 }
 
-.clients-table .top, .recycled-clients .top {
+.clients-table .top,
+.recycled-clients .top {
   margin-top: 16px;
   margin-bottom: 16px;
   display: -webkit-box;
@@ -38702,17 +38706,24 @@ input.num {
           justify-content: space-between;
 }
 
-.clients-table .top .left, .clients-table .top .right, .recycled-clients .top .left, .recycled-clients .top .right {
+.clients-table .top .left,
+.clients-table .top .right,
+.recycled-clients .top .left,
+.recycled-clients .top .right {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.clients-table .top .left select, .clients-table .top .right select, .recycled-clients .top .left select, .recycled-clients .top .right select {
+.clients-table .top .left select,
+.clients-table .top .right select,
+.recycled-clients .top .left select,
+.recycled-clients .top .right select {
   padding: 0 20px 0 8px;
 }
 
-.clients-table .top button, .recycled-clients .top button {
+.clients-table .top button,
+.recycled-clients .top button {
   background-color: #25c1a0;
   color: white;
   display: -webkit-inline-box;
@@ -38724,7 +38735,8 @@ input.num {
   font-size: 14px;
 }
 
-.clients-table .top input, .recycled-clients .top input {
+.clients-table .top input,
+.recycled-clients .top input {
   width: 300px;
   padding-left: 30px;
   background-image: url("../img/search_icon.svg");
@@ -38734,15 +38746,18 @@ input.num {
   border-color: gray !important;
 }
 
-.clients-table .top input:focus, .recycled-clients .top input:focus {
+.clients-table .top input:focus,
+.recycled-clients .top input:focus {
   border: 1px solid #305eb2 !important;
 }
 
-.clients-table table, .recycled-clients table {
+.clients-table table,
+.recycled-clients table {
   border: none !important;
 }
 
-.clients-table table thead th, .recycled-clients table thead th {
+.clients-table table thead th,
+.recycled-clients table thead th {
   height: 60px;
   text-align: center;
   position: -webkit-sticky;
@@ -38754,19 +38769,22 @@ input.num {
   font-weight: normal;
 }
 
-.clients-table table thead .arrow, .recycled-clients table thead .arrow {
+.clients-table table thead .arrow,
+.recycled-clients table thead .arrow {
   float: right;
   clear: both;
   cursor: pointer;
 }
 
-.clients-table table thead .arrow.desc, .recycled-clients table thead .arrow.desc {
+.clients-table table thead .arrow.desc,
+.recycled-clients table thead .arrow.desc {
   -webkit-transform: rotate(180deg);
           transform: rotate(180deg);
 }
 
 .clients-table table td,
-.clients-table table th, .recycled-clients table td,
+.clients-table table th,
+.recycled-clients table td,
 .recycled-clients table th {
   border: none;
   padding: 6px 2px;
@@ -38774,7 +38792,8 @@ input.num {
   vertical-align: middle;
 }
 
-.clients-table table td a, .recycled-clients table td a {
+.clients-table table td a,
+.recycled-clients table td a {
   color: black;
   text-decoration: none;
   display: -webkit-inline-box;
@@ -38782,26 +38801,31 @@ input.num {
   display: inline-flex;
 }
 
-.clients-table table td a img, .recycled-clients table td a img {
+.clients-table table td a img,
+.recycled-clients table td a img {
   height: 24px;
   width: 24px;
 }
 
-.clients-table table td a:hover, .recycled-clients table td a:hover {
+.clients-table table td a:hover,
+.recycled-clients table td a:hover {
   text-decoration: underline;
 }
 
-.clients-table table tbody td, .recycled-clients table tbody td {
+.clients-table table tbody td,
+.recycled-clients table tbody td {
   height: 100%;
   vertical-align: middle;
   border: 1px solid #d1d4d5;
 }
 
-.clients-table table .w3-btn, .recycled-clients table .w3-btn {
+.clients-table table .w3-btn,
+.recycled-clients table .w3-btn {
   padding: 4px 8px !important;
 }
 
-.clients-table table .w3-btn span, .recycled-clients table .w3-btn span {
+.clients-table table .w3-btn span,
+.recycled-clients table .w3-btn span {
   font-size: 16px;
   display: inline-block;
   padding-bottom: -8px;
