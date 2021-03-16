@@ -13,8 +13,8 @@ jobs:
     #     with:
     #       node-version: "13.10"
     #   - name: Install yarn and run unittest
-    #     run: |
-    #       yarn
+        run: |
+          yarn
     #     env:
     #       CI: true
       - name: Deploy package to digitalocean
