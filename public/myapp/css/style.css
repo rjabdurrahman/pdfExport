@@ -38154,13 +38154,34 @@ body {
 }
 
 #clientDeleteModal .w3-modal-content,
-#deleteForeverModal .w3-modal-content {
+#deleteForeverModal .w3-modal-content,
+#clientTransferModal .w3-modal-content {
   padding-bottom: 0 !important;
 }
 
 #clientDeleteModal form,
-#deleteForeverModal form {
+#deleteForeverModal form,
+#clientTransferModal form {
   width: 450px !important;
+}
+
+#clientTransferModal .year-selection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#clientTransferModal .year-selection span {
+  width: 180px;
+}
+
+#clientTransferModal .year-selection select:focus {
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
 }
 
 .popup .footer .w3-container {

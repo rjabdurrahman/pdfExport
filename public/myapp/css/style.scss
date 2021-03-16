@@ -75,13 +75,28 @@ body {
 }
 
 #clientDeleteModal,
-#deleteForeverModal {
+#deleteForeverModal,
+#clientTransferModal {
 	.w3-modal-content {
 		padding-bottom: 0 !important;
 	}
 
 	form {
 		width: 450px !important;
+	}
+}
+#clientTransferModal {
+	.year-selection {
+		display: flex; align-items: center;
+		span {
+			width: 180px;
+		}
+	
+		select:focus {
+			border-left: none !important;
+			border-right: none !important;
+			border-top: none !important;
+		}
 	}
 }
 
