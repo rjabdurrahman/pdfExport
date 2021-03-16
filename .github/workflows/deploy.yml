@@ -5,26 +5,26 @@ on:
 
 jobs:
   release:
-    # runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-    #   - name: Use Node.js 13.10
-    #     uses: actions/setup-node@v1
-    #     with:
-    #       node-version: "13.10"
-    #   - name: Install yarn and run unittest
-        # run: |
-        #   yarn
-        # env:
-        #   CI: true
+      - name: Use Node.js 13.10
+        uses: actions/setup-node@v1
+        with:
+          node-version: "13.10"
+      - name: Install yarn and run unittest
+        run: |
+          yarn
+        env:
+          CI: true
       - name: Deploy package to digitalocean
-        # uses: rjabdurrahman/pdfExport@master
+        uses: rjabdurrahman/pdfExport@master
         with:
           host: ${{ secrets.HOST }}
           username: ${{ secrets.USER }}
           password: ${{ secrets.PASSWORD }}
           port: ${{ secrets.PORT }}
-          script: |
-            cd pdfExport
-            git pull
-            pm2 restart 0
+          # script: |
+          #   cd pdfExport
+          #   git pull
+          #   pm2 restart
