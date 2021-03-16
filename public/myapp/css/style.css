@@ -38178,12 +38178,6 @@ body {
   width: 180px;
 }
 
-#clientTransferModal .year-selection select:focus {
-  border-left: none !important;
-  border-right: none !important;
-  border-top: none !important;
-}
-
 .popup .footer .w3-container {
   padding: 0 16px !important;
 }
