@@ -3,7 +3,7 @@ const Client = require('../../Models/Client');
 module.exports = async ({ params }, res) => {
     let yearsQuery = {};
 
-    if(params.year != 'all') {
+    if(params.year != '1') {
         yearsQuery.year = params.year
     }
 

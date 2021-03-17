@@ -55,7 +55,7 @@ app.run(function ($rootScope, $http, $route) {
       })
   }
   $rootScope.updateLetters();
-  $rootScope.selectedYear = 'all';
+  $rootScope.selectedYear = 1;
   $rootScope.loadClients = function () {
     $rootScope.loadingClients = true
     $http({

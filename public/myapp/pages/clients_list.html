@@ -1,11 +1,12 @@
 <div class="clients-table">
     <div class="top">
         <div class="left">
-            <select class="w3-select w3-border" name="option">
-                <option value="1" selected>Toutes années</option>
+            <select ng-model="selectedYear" ng-changed="loadClients()" class="w3-select w3-border" name="option">
+                <option value="1" ng-selected>Toutes années</option>
                 <option value="2020">2020</option>
                 <option value="2019">2019</option>
             </select>
+            <div>Year: {{selectedYear}}</div>
         </div>
         <div class="right">
             <input class="w3-input w3-border" type="text" placeholder="Recherche" ng-disabled="!searchable"
