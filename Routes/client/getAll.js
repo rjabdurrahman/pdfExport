@@ -1,11 +1,15 @@
 const Client = require('../../Models/Client');
 
 module.exports = async ({ params }, res) => {
+    let yearsQuery = {};
+
+    if(params.year != 'all') {
+        yearsQuery.year = params.year
+    }
+
     try {
         let result = await Client.find(
-            {
-                year: parseInt(params.year)
-            },
+            yearsQuery,
             {
                 "year": 1,
                 "signaletique.numero_de_dossier": 1,
