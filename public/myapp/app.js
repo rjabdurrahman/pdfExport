@@ -57,7 +57,6 @@ app.run(function ($rootScope, $http, $route) {
   $rootScope.updateLetters();
   $rootScope.selectedYear = 1;
   $rootScope.loadClients = function () {
-    console.log('Calling', $rootScope.selectedYear);
     $('.load-overlay').show();
     $rootScope.loadingClients = true
     $http({
@@ -65,7 +64,6 @@ app.run(function ($rootScope, $http, $route) {
       url: `/api/${$rootScope.selectedYear}/clients`
     })
       .then(function (res) {
-        console.log(res.data);
         $rootScope.clients = res.data
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
