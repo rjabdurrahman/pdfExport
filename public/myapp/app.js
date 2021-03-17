@@ -59,7 +59,7 @@ app.run(function ($rootScope, $http, $route) {
     $rootScope.loadingClients = true
     $http({
       method: 'GET',
-      url: '/api/clients'
+      url: '/api/2019/clients'
     })
       .then(function (res) {
         $rootScope.clients = res.data
