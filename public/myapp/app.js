@@ -57,12 +57,15 @@ app.run(function ($rootScope, $http, $route) {
   $rootScope.updateLetters();
   $rootScope.selectedYear = 1;
   $rootScope.loadClients = function () {
+    console.log('Calling', $rootScope.selectedYear);
+    $('.load-overlay').show();
     $rootScope.loadingClients = true
     $http({
       method: 'GET',
       url: `/api/${$rootScope.selectedYear}/clients`
     })
       .then(function (res) {
+        console.log(res.data);
         $rootScope.clients = res.data
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
@@ -77,7 +80,6 @@ app.run(function ($rootScope, $http, $route) {
         console.log(err)
       })
   }
-  $rootScope.loadClients()
   $rootScope.submitClient = function (e) {
     let clientForm = e.target
     let client = {

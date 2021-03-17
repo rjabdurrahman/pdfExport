@@ -1,6 +1,9 @@
 app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
-  $('.load-overlay').show()
-  $rootScope.loadClients()
+  $rootScope.loadClients();
+  $scope.yearlyLoads = function() {
+    $rootScope.selectedYear = $scope.selectedYear;
+    $rootScope.loadClients();
+  }
   $scope.search = function (e) {
     let clients = clientsCopy.filter(x => {
       let str =
