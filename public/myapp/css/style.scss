@@ -623,6 +623,7 @@ input.num {
 		}
 
 		button {
+			margin-left: 45px;
 			background-color: #25c1a0;
 			color: white;
 			display: inline-flex;
@@ -716,14 +717,6 @@ input.num {
 				padding-bottom: -8px;
 				margin-right: 6px;
 			}
-		}
-	}
-}
-
-.clients-table {
-	.top {
-		input {
-			margin-right: 45px;
 		}
 	}
 }

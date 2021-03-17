@@ -10,7 +10,7 @@
         <div class="right">
             <input class="w3-input w3-border" type="text" placeholder="Recherche" ng-disabled="!searchable"
                 ng-keyup="search($event)">
-            <button class="w3-btn icon" onclick="openAddClientModal()"><span style="font-size: 22px;"
+            <button ng-if="selectedYear != 1" class="w3-btn icon" onclick="openAddClientModal()"><span style="font-size: 22px;"
                     class="material-icons-outlined">person_add</span>&nbsp;&nbsp;Création</button>
         </div>
     </div>
@@ -75,7 +75,7 @@
                                 <a title="Excel" href="#">
                                     <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/xlsx.svg" />
                                 </a>
-                                <span title="Transfert" style="cursor: pointer;" class="material-icons"
+                                <span ng-if="selectedYear != 1" title="Transfert" style="cursor: pointer;" class="material-icons"
                                     onclick="$('#clientTransferModal').show();">
                                     upload_file
                                 </span>

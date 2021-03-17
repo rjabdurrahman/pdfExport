@@ -38770,6 +38770,7 @@ input.num {
 
 .clients-table .top button,
 .recycled-clients .top button {
+  margin-left: 45px;
   background-color: #25c1a0;
   color: white;
   display: -webkit-inline-box;
@@ -38876,10 +38877,6 @@ input.num {
   display: inline-block;
   padding-bottom: -8px;
   margin-right: 6px;
-}
-
-.clients-table .top input {
-  margin-right: 45px;
 }
 
 .recycled-clients .top input {
