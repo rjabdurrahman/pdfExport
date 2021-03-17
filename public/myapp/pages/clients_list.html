@@ -75,7 +75,7 @@
                                 <a title="Excel" href="#">
                                     <img style="height: 23px; width: 23px; margin-top: 2px;" src="img/xlsx.svg" />
                                 </a>
-                                <span ng-if="selectedYear != 1" title="Transfert" style="cursor: pointer;" class="material-icons"
+                                <span ng-if="selectedYear == 2019" title="Transfert" style="cursor: pointer;" class="material-icons"
                                     onclick="$('#clientTransferModal').show();">
                                     upload_file
                                 </span>
@@ -138,8 +138,8 @@
             <div class="year-selection">
                     <span>Année: </span>
                     <select class="w3-select w3-border" name="option">
-                        <option value="2020">2020</option>
-                        <option value="2019">2019</option>
+                        <option value="2020" selected>2020</option>
+                        <!-- <option value="2019">2019</option> -->
                     </select>
             </div>
         </div>
