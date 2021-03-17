@@ -1,10 +1,10 @@
 const Client = require('../../Models/Client');
 
-module.exports = async (req, res) => {
+module.exports = async ({ params }, res) => {
     try {
         let result = await Client.find(
             {
-                year: 2019
+                year: parseInt(params.year)
             },
             {
                 "year": 1,
@@ -15,7 +15,7 @@ module.exports = async (req, res) => {
                 "signaletique.contribuable.courriel": 1
             }
         )
-        .exec();
+            .exec();
         res.send(result);
     } catch (err) {
         res.send(err);
