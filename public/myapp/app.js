@@ -54,12 +54,13 @@ app.run(function ($rootScope, $http, $route) {
         console.log(err)
       })
   }
-  $rootScope.updateLetters()
+  $rootScope.updateLetters();
+  $rootScope.selectedYear = 'all';
   $rootScope.loadClients = function () {
     $rootScope.loadingClients = true
     $http({
       method: 'GET',
-      url: '/api/2019/clients'
+      url: `/api/${$rootScope.selectedYear}/clients`
     })
       .then(function (res) {
         $rootScope.clients = res.data
