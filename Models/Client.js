@@ -1,5 +1,9 @@
 const { Schema, model } = require('mongoose')
 const clientSchema = new Schema({
+    year: {
+        type: Number,
+        default: 2019
+    },
     createdOn: {
         type: Date,
         default: Date.now
