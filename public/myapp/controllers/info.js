@@ -41,6 +41,8 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     }
   })
 
+  $scope.selectedClient = {};
+
   $scope.selectClient = function(e) {
     $scope.selectedClient = JSON.parse(e.target.id.slice(0, -1));
   }
@@ -48,6 +50,17 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   $scope.transfer = function(e) {
     console.log(e.target['year'].value);
     console.log($scope.selectedClient);
+    $http({
+      method: 'POST',
+      url: '/api/transfer',
+      data: { 
+        selectedYear: $rootScope.selectedYear,
+        targetYear: e.target['year'].value,
+        client: $scope.selectedClient
+      }
+    })
+    .then(res => console.log('done'))
+    .catch(err => console.log(err))
   }
 })
 
