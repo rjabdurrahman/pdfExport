@@ -9,7 +9,7 @@ app.config([
         controller: 'ClientsListControler',
         activetab: 'home'
       })
-      .when('/myapp/info', {
+      .when('/myapp/2019', {
         templateUrl: 'pages/info.html',
         controller: 'InfoCtrl',
         activetab: 'info'

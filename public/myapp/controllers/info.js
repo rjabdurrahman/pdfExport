@@ -57,6 +57,6 @@ app.controller('InfoCtrl', function ($scope, $http) {
       $scope.$applyAsync()
     })
     .catch(function (err) {
-      console.log(err)
+      console.log(err, err)
     })
 })
