@@ -4,6 +4,7 @@ const addClient = require('./client/add')
 const deleteClient = require('./client/delete')
 const getOneClient = require('./client/getOne')
 const getAllClient = require('./client/getAll')
+const transferClient = require('./client/transfer')
 const generatePdf = require('./generatePdf')
 const infoUpdate = require('./infoUpdate')
 const recycledClients = require('./client/recycledClients')
@@ -26,6 +27,8 @@ router.post('/infoupdate/:id', infoUpdate)
 router.post('/delete/:id', deleteClient)
     // Single client find....
 router.get('/client/:id', getOneClient)
+// Transfer Client
+router.get('/transfer/:id', transferClient)
     // All client find....
 router.get('/:year/clients', getAllClient)
     // All recycled clients find....
