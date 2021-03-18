@@ -1,4 +1,4 @@
-let data = {
+let basicInfo = {
     signaletique: {
         numero_de_dossier: '',
         contribuable: {
@@ -61,4 +61,4 @@ let data = {
     }
 }
 
-module.exports = data;
+module.exports = basicInfo;

@@ -69,14 +69,15 @@ app.run(function ($rootScope, $http, $route) {
       url: `/api/${$rootScope.selectedYear}/clients`
     })
       .then(function (res) {
-        $rootScope.clients = res.data
+        $rootScope.clients = res.data;
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
         clientsCopy = JSON.parse(JSON.stringify($rootScope.clients))
         $rootScope.searchable = true
+        // Can be in info Controll to show the overlay
         $('a').click(function (e) {
           if (this.href.includes('/info?id')) $('.load-overlay').show()
-        })
+        });
         $rootScope.$applyAsync()
       })
       .catch(function (err) {
@@ -93,7 +94,7 @@ app.run(function ($rootScope, $http, $route) {
     }
     $http({
       method: 'POST',
-      url: '/api/addclient',
+      url: '/api/client',
       data: { ...client, year: $rootScope.selectedYear }
     })
       .then(function (res) {

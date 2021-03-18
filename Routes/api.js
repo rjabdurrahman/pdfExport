@@ -20,7 +20,7 @@ router.get('/', (req, res) => {
 router.get('/profile', getProfile)
 router.post('/profile', updateProfile)
     // Adding new client.......
-router.post('/addclient', addClient)
+router.post('/client', addClient)
     //client info update
 router.post('/infoupdate/:id', infoUpdate)
     // client delete

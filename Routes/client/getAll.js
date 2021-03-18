@@ -1,22 +1,16 @@
 const Client = require('../../Models/Client');
 
 module.exports = async ({ params }, res) => {
-    let yearsQuery = {};
-
-    if(params.year != '1') {
-        yearsQuery.year = params.year
-    }
-
     try {
         let result = await Client.find(
-            yearsQuery,
+            {},
             {
-                "year": 1,
-                "signaletique.numero_de_dossier": 1,
-                "signaletique.contribuable.nom": 1,
-                "signaletique.contribuable.prenom": 1,
-                "signaletique.contribuable.telephone": 1,
-                "signaletique.contribuable.courriel": 1
+                ["y2019" + ".signaletique.numero_de_dossier"]: 1,
+                ["y2019" + ".signaletique.contribuable.nom"]: 1,
+                ["y2019" + ".signaletique.contribuable.prenom"]: 1,
+                ["y2019" + ".signaletique.contribuable.telephone"]: 1,
+                ["y2019" + ".signaletique.contribuable.courriel"]: 1,
+                ["y2020" + ".signaletique.numero_de_dossier"]: 1
             }
         )
             .exec();
