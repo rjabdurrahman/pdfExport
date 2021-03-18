@@ -17,14 +17,3 @@ jobs:
           yarn
         env:
           CI: true
-      - name: Deploy package to digitalocean
-        uses: rjabdurrahman/pdfExport@master
-        with:
-          host: ${{ secrets.HOST }}
-          username: ${{ secrets.USER }}
-          password: ${{ secrets.PASSWORD }}
-          port: ${{ secrets.PORT }}
-          # script: |
-          #   cd pdfExport
-          #   git pull
-          #   pm2 restart
