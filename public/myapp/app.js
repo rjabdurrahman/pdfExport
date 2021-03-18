@@ -69,7 +69,11 @@ app.run(function ($rootScope, $http, $route) {
       url: `/api/${$rootScope.selectedYear}/clients`
     })
       .then(function (res) {
-        $rootScope.clients = res.data;
+        $rootScope.clients = res.data.filter((client) => {
+          if (client['y' + $rootScope.selectedYear]) {
+            return true
+          }
+        }).map(client =>({ ...client['y' + $rootScope.selectedYear], _id: client._id}));
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
         clientsCopy = JSON.parse(JSON.stringify($rootScope.clients))

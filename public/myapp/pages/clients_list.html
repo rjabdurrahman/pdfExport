@@ -41,19 +41,19 @@
                 <tbody>
                     <tr ng-repeat="client in clients track by $index">
                         <td>
-                            <a href="/#/myapp/{{client.year}}?id={{client._id}}">
-                                {{client.y2019.signaletique.numero_de_dossier}}
+                            <a href="/#/myapp/{{selectedYear}}?id={{client._id}}">
+                                {{client.signaletique.numero_de_dossier}}
                             </a>
                         <td>
-                            <a href="/#/myapp/{{client.year}}?id={{client._id}}">
-                                {{client.y2019.signaletique.contribuable.nom}}
+                            <a href="/#/myapp/{{selectedYear}}?id={{client._id}}">
+                                {{client.signaletique.contribuable.nom}}
                             </a>
                         </td>
-                        <td>{{client.y2019.signaletique.contribuable.prenom}}</td>
-                        <td>{{client.y2019.signaletique.contribuable.telephone}}</td>
+                        <td>{{client.signaletique.contribuable.prenom}}</td>
+                        <td>{{client.signaletique.contribuable.telephone}}</td>
                         <td>
                             <a
-                                href="mailto:{{client.y2019.signaletique.contribuable.courriel}}?subject=IMPOTS 2019">{{client.y2019.signaletique.contribuable.courriel}}</a>
+                                href="mailto:{{client.signaletique.contribuable.courriel}}?subject=IMPOTS 2019">{{client.signaletique.contribuable.courriel}}</a>
                         </td>
                         <td></td>
                         <td style="width: 50px;" class="w3-center">
