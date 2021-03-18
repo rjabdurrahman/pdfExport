@@ -40,6 +40,15 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
       $(element).toggleClass('desc')
     }
   })
+
+  $scope.selectClient = function(e) {
+    $scope.selectedClient = JSON.parse(e.target.id.slice(0, -1));
+  }
+
+  $scope.transfer = function(e) {
+    console.log(e.target['year'].value);
+    console.log($scope.selectedClient);
+  }
 })
 
 app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
