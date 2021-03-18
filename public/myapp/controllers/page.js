@@ -246,7 +246,6 @@ function pageInit () {
 }
 
 function afterDataLoaded (info) {
-  console.log(info)
   radioCheck(info)
   setTimeout(checkDone, 500)
 }

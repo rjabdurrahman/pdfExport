@@ -42,7 +42,7 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   })
 })
 
-app.controller('InfoCtrl', function ($scope, $http) {
+app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
   pageInit()
   let clientId = location.href.split('id=')[1]
   $scope.client = {}
@@ -52,8 +52,8 @@ app.controller('InfoCtrl', function ($scope, $http) {
   })
     .then(function (res) {
       $('.load-overlay').hide()
-      $scope.client = res.data
-      afterDataLoaded(res.data)
+      $scope.client = res.data['y' + $rootScope.selectedYear]
+      afterDataLoaded($scope.client);
       $scope.$applyAsync()
     })
     .catch(function (err) {
