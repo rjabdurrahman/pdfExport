@@ -73,7 +73,12 @@ app.run(function ($rootScope, $http, $route) {
           if (client['y' + $rootScope.selectedYear]) {
             return true
           }
-        }).map(client =>({ ...client['y' + $rootScope.selectedYear], _id: client._id}));
+        }).map(client =>({ 
+          ...client['y' + $rootScope.selectedYear], 
+          _id: client._id,
+          2019: _.get(client, 'y2019.signaletique') ? true : false,
+          2020: _.get(client, 'y2020.signaletique') ? true : false
+        }));
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
         clientsCopy = JSON.parse(JSON.stringify($rootScope.clients))
