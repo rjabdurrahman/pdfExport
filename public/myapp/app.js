@@ -89,7 +89,7 @@ app.run(function ($rootScope, $http, $route) {
     $http({
       method: 'POST',
       url: '/api/addclient',
-      data: client
+      data: { ...client, year: $rootScope.selectedYear }
     })
       .then(function (res) {
         notify('Création Client', 1)
@@ -175,7 +175,7 @@ app.controller('LogOutCtrl', function ($scope, $http) {
 app.controller('RecycleCtrl', function ($scope, $http) {
   $scope.loadingRecycledClients = true
   $scope.noRecycledClients = false
-  function loadRecycledClients () {
+  function loadRecycledClients() {
     $http
       .get('/api/recycled_clients')
       .then(res => {

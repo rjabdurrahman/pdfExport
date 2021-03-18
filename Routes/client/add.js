@@ -7,6 +7,7 @@ module.exports = (req, res) => {
     client.signaletique.contribuable.prenom = idf.prenom;
     client.signaletique.contribuable.courriel = idf.courriel;
     client.signaletique.contribuable.telephone = idf.telephone;
+    client.year = idf.year;
     var clients = new Client(client);
     clients.save()
     .then(() => {
