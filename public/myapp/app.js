@@ -60,7 +60,7 @@ app.run(function ($rootScope, $http, $route) {
       })
   }
   $rootScope.updateLetters();
-  $rootScope.selectedYear = 1;
+  $rootScope.selectedYear = 2020;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
     $rootScope.loadingClients = true
