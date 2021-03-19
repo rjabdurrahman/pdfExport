@@ -22,7 +22,7 @@ router.post('/profile', updateProfile)
     // Adding new client.......
 router.post('/client', addClient)
     //client info update
-router.post('/infoupdate/:id', infoUpdate)
+router.post('/infoupdate/:year/:id', infoUpdate)
     // client delete
 router.post('/delete/:id', deleteClient)
     // Single client find....

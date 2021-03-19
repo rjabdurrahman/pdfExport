@@ -59,7 +59,9 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
         client: $scope.selectedClient
       }
     })
-    .then(res => console.log('done'))
+    .then(res => {
+      console.log(res.data);
+    })
     .catch(err => console.log(err))
   }
 })
@@ -73,8 +75,9 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     url: `/api/client/${clientId}`
   })
     .then(function (res) {
-      $('.load-overlay').hide()
-      $scope.client = res.data['y' + $rootScope.selectedYear]
+      $('.load-overlay').hide();
+      $scope.client = res.data['y' + location.href.match(/20\d\d/)[0]]
+      console.log($scope.client);
       afterDataLoaded($scope.client);
       $scope.$applyAsync()
     })
