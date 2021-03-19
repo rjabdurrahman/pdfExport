@@ -24,7 +24,7 @@ router.post('/client', addClient)
     //client info update
 router.post('/infoupdate/:year/:id', infoUpdate)
     // client delete
-router.post('/delete/:id', deleteClient)
+router.post('/delete/:year/:id', deleteClient);
     // Single client find....
 router.get('/client/:id', getOneClient)
 // Transfer Client
