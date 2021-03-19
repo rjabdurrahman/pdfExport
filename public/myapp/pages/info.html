@@ -5076,7 +5076,6 @@
         });
         let id = location.href.split('id=')[1];
         let year = location.href.match(/20\d\d/)[0];
-        console.log(`../api/infoupdate/${year}/`)
         axios.post(`../api/infoupdate/${year}/` + id, info)
             .then(res => {
                 if (!res.err) notify('Mise à jour', 1);

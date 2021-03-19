@@ -60,7 +60,8 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
       }
     })
     .then(res => {
-      console.log(res.data);
+      if(res.data) notify('Transfert Successfully', 1);
+      $('#clientTransferModal').hide();
     })
     .catch(err => console.log(err))
   }
