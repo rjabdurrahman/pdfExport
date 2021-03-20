@@ -10,7 +10,7 @@ fs.readFile(dir + 'info20.hbs', 'UTF-8', (err, text) => {
         let text = fs.readFileSync(dir + e.replace('{{<', '').replace('}}', ''), { encoding: 'utf8' });
         html = html.replace(e, text);
     }
-    fs.writeFile(config.outDir + 'info.html', html, err => {
+    fs.writeFile(config.outDir + 'info20.html', html, err => {
         if (err) console.log(err.message)
         else console.log('HTML Compiled');
     });
