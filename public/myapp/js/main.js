@@ -3,7 +3,7 @@ function isSaveAlive (val) {
   document.querySelector('#submitInfoBtn').disabled = !val
 }
 
-if (!/\/(2020|2019)/.test(location.href)) localStorage.setItem('activePage', 1)
+if (!/\/(2020|2019)\?id/.test(location.href)) localStorage.setItem('activePage', 1)
 $('a').click(function () {
   localStorage.activePage = 1
 });
