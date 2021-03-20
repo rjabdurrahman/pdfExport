@@ -37,7 +37,7 @@ router.get('/recycled_clients', recycledClients)
 router.get('/recover_client/:id', recycledClientRestore)
 router.get('/delete_forever/:id', deleteForever)
     // Genterate PDF
-router.get('/pdf/:id', generatePdf)
+router.get('/pdf/:year/:id', generatePdf)
 router.post('/user/subscribe', gatherEmails)
     // Phone Contacts
 router.get('/phone_contacts', phoneContacts);

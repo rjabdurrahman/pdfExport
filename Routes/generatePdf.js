@@ -10,7 +10,7 @@ module.exports = (req, res) => {
     Client.findById(id, (err, client) => {
         if (err) res.send(err)
         else {
-            let serialData = serializeInfo(client._doc);
+            let serialData = serializeInfo(client._doc['y' + req.params.year]);
             let newFdfTxt = fdfText + '';
             for (f in serialData) {
                 newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), serialData[f]);
