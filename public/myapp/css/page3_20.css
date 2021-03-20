@@ -1,0 +1,1488 @@
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Arial-Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+.component-wrapper a,
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen *,
+.component-wrapper * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.container-center-vertical,
+.container-center-horizontal {
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.container-center-vertical {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.container-center-horizontal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container-center-vertical > *,
+.container-center-horizontal > * {
+  pointer-events: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.component-wrapper,
+.screen {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+.auto-animated div {
+  opacity: 0;
+  position: absolute;
+  --z-index: -1;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: reveal 0.3s ease-in-out 1 normal forwards;
+          animation: reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.animate-disappear {
+  opacity: 1;
+  display: block;
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.animate-nodelay {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.align-self-flex-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.align-self-flex-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.align-self-flex-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.valign-text-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.valign-text-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.component-wrapper,
+.component-wrapper * {
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper a,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe,
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+/* screen - 03 */
+.arial-regular-normal-black-16px {
+  color: var(--black);
+  font-family: 'Arial-Regular', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 {
+  background-color: white;
+  height: 1451px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1041px;
+}
+
+.x03 .a-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 998px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .anne-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 673px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .anne-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 227px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .assimilation-du-dent-au-rsident-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  top: 824px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .au-moins-90-des-onvention-contr-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 97px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1000px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .b-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1092px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .c-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1136px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .classe-dimpt-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 725px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 142px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .clibataire-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .code-postal-localit-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 748px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .date-de-naissan-didentification-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 636px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .demande-pour-la-nrs-et-de-sourc-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial", Helvetica;
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 858px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .depuis-le-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 403px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 206px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .divorce-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 206px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .dtermination-du-s-au-luxembourg-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1220px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .election-facult-bulletins-dimpt-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial", Helvetica;
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  top: 520px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .enr-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 974px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .etat-civil-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .group-1-C61RwL {
+  background-color: transparent;
+  height: 36px;
+  left: 576px;
+  position: absolute;
+  top: 1272px;
+  width: 34px;
+}
+
+.x03 .jour-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 837px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .jour-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 391px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .le-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 725px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 374px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .le-contribuable-dition-sous-a-o-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 922px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .le-contribuable-sidents-si-plus-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 97px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1138px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .les-contribuabl-enus-non-exonrs-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1342px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .les-revenus-net-nfrieurs-13-000-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 97px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1092px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .line-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 218px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-10-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 500px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-11-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 532px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-12-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 563px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-13-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 664px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-14-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 695px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-15-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 727px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-16-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 758px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-17-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 789px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-18-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 821px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-19-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 852px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-2-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 249px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-20-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 884px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-21-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 915px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-22-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 946px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-23-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 978px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-24-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 1009px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-3-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 281px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-4-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 312px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-5-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 343px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-6-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 375px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-7-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 406px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-8-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 438px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-9-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 469px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .marie-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .mois-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 773px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .mois-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 327px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .nom-et-prnom-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 598px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .non-rsidents-re-l-au-luxembourg-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 460px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .nous-dclarons-j-de-droit-commun-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1418px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .numro-rue-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 714px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .path-1-VyzZeT {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x03 .pour-le-contrib-jointpartenaire-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 698px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 564px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .pour-le-contribuable-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 320px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 564px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .rectangle-classe-dimpt-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 840px;
+  position: absolute;
+  top: 129px;
+  width: 156px;
+}
+
+.x03 .span0-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span0-TIxzm7 {
+  color: black;
+  font-family: 'Arial-Bold', Helvetica;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.x03 .span1-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.x03 .span1-TIxzm7 {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span2-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span3-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.x03 .span4-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span5-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.x03 .span6-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .spare-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 296px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .title-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Narrow', Helvetica;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 595px;
+  letter-spacing: 0.00px;
+  line-height: 90px;
+  position: absolute;
+  text-align: left;
+  top: 330px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .total-des-reven-on-exonrs-x-100-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 153px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1262px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .total-des-reven-xonrs-et-exonrs-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 129px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1306px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .veuf-veuve-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 236px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x--C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 1270px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-100-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 808px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1272px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1009px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1284px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-QxM5SU {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Narrow', Helvetica;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 273px;
+  letter-spacing: 0.00px;
+  line-height: 90px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 914px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1284px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-en-vertu-dun-j-e-corps-prononc-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 374px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-en-vertu-dune-e-lgale-accorde-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 344px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-en-vertu-dune-iciaire-accorde-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 404px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-mzXdH9 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 649px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 1272px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x301-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 84px;
+  width: 20px;
+}
+
+.x03 .x302-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 176px;
+  width: 20px;
+}
+
+.x03 .x303-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 206px;
+  width: 20px;
+}
+
+.x03 .x304-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 236px;
+  width: 20px;
+}
+
+.x03 .x305-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 477px;
+  position: absolute;
+  top: 199px;
+  width: 156px;
+}
+
+.x03 .x306-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 343px;
+  width: 20px;
+}
+
+.x03 .x307-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 373px;
+  width: 20px;
+}
+
+.x03 .x308-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 403px;
+  width: 20px;
+}
+
+.x03 .x309-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 748px;
+  position: absolute;
+  top: 367px;
+  width: 156px;
+}
+
+.x03 .x310-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 187px;
+  position: absolute;
+  top: 584px;
+  width: 408px;
+}
+
+.x03 .x311-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 633px;
+  position: absolute;
+  top: 584px;
+  width: 408px;
+}
+
+.x03 .x312-C61RwL {
+  background-color: var(--mercury);
+  height: 28px;
+  left: 187px;
+  position: absolute;
+  top: 646px;
+  width: 408px;
+}
+
+.x03 .x313-C61RwL {
+  background-color: var(--mercury);
+  height: 28px;
+  left: 633px;
+  position: absolute;
+  top: 646px;
+  width: 408px;
+}
+
+.x03 .x314-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 187px;
+  position: absolute;
+  top: 701px;
+  width: 110px;
+}
+
+.x03 .x315-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 297px;
+  position: absolute;
+  top: 701px;
+  width: 298px;
+}
+
+.x03 .x316-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 633px;
+  position: absolute;
+  top: 701px;
+  width: 110px;
+}
+
+.x03 .x317-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 743px;
+  position: absolute;
+  top: 701px;
+  width: 298px;
+}
+
+.x03 .x318-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 187px;
+  position: absolute;
+  top: 743px;
+  width: 130px;
+}
+
+.x03 .x319-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 317px;
+  position: absolute;
+  top: 743px;
+  width: 278px;
+}
+
+.x03 .x320-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 633px;
+  position: absolute;
+  top: 743px;
+  width: 130px;
+}
+
+.x03 .x321-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 758px;
+  position: absolute;
+  top: 743px;
+  width: 283px;
+}
+
+.x03 .x322-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 997px;
+  width: 20px;
+}
+
+.x03 .x323-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 1092px;
+  width: 20px;
+}
+
+.x03 .x324-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 1136px;
+  width: 20px;
+}
+
+.x03 .x325-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 625px;
+  position: absolute;
+  top: 1248px;
+  width: 156px;
+}
+
+.x03 .x326-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 687px;
+  position: absolute;
+  top: 1293px;
+  width: 156px;
+}
+
+.x03 .x327-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 929px;
+  position: absolute;
+  top: 1269px;
+  width: 78px;
+}
+
+.x03 .x328-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 1416px;
+  width: 20px;
+}
+
+:root {
+  --black: rgba(0,0,0,1.0);
+  --mercury: rgba(223,226,229,1.0);
+}
+/*# sourceMappingURL=page3_20.css.map */

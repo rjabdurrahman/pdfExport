@@ -15,7 +15,7 @@ app.config([
         activetab: 'info'
       })
       .when('/myapp/2020', {
-        templateUrl: 'pages/info2020.html',
+        templateUrl: 'pages/info20.html',
         controller: 'InfoCtrl',
         activetab: 'info'
       })

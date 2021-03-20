@@ -6430,6 +6430,1494 @@ div {
   line-height: 28.0px;
 }
 
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Arial-Narrow";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+.component-wrapper a,
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen *,
+.component-wrapper * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.container-center-vertical,
+.container-center-horizontal {
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.container-center-vertical {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.container-center-horizontal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container-center-vertical > *,
+.container-center-horizontal > * {
+  pointer-events: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.component-wrapper,
+.screen {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+.auto-animated div {
+  opacity: 0;
+  position: absolute;
+  --z-index: -1;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: reveal 0.3s ease-in-out 1 normal forwards;
+          animation: reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.animate-disappear {
+  opacity: 1;
+  display: block;
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.animate-nodelay {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.align-self-flex-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.align-self-flex-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.align-self-flex-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.valign-text-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.valign-text-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.component-wrapper,
+.component-wrapper * {
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper a,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe,
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+/* screen - 03 */
+.arial-regular-normal-black-16px {
+  color: var(--black);
+  font-family: 'Arial-Regular', Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 {
+  background-color: white;
+  height: 1451px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1041px;
+}
+
+.x03 .a-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 998px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .anne-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 673px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .anne-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 227px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .assimilation-du-dent-au-rsident-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  top: 824px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .au-moins-90-des-onvention-contr-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 97px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1000px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .b-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1092px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .c-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1136px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .classe-dimpt-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 725px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 142px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .clibataire-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .code-postal-localit-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 748px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .date-de-naissan-didentification-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 636px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .demande-pour-la-nrs-et-de-sourc-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial", Helvetica;
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 858px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .depuis-le-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 403px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 206px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .divorce-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 206px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .dtermination-du-s-au-luxembourg-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1220px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .election-facult-bulletins-dimpt-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial", Helvetica;
+  font-size: 18px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  top: 520px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .enr-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 974px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .etat-civil-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .group-1-C61RwL {
+  background-color: transparent;
+  height: 36px;
+  left: 576px;
+  position: absolute;
+  top: 1272px;
+  width: 34px;
+}
+
+.x03 .jour-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 837px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .jour-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 391px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .le-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 725px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 374px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .le-contribuable-dition-sous-a-o-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 922px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .le-contribuable-sidents-si-plus-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 97px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1138px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .les-contribuabl-enus-non-exonrs-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1342px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .les-revenus-net-nfrieurs-13-000-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 97px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1092px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .line-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 218px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-10-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 500px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-11-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 532px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-12-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 563px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-13-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 664px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-14-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 695px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-15-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 727px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-16-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 758px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-17-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 789px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-18-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 821px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-19-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 852px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-2-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 249px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-20-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 884px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-21-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 915px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-22-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 946px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-23-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 978px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-24-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 1009px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-3-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 281px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-4-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 312px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-5-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 343px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-6-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 375px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-7-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 406px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-8-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 438px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .line-9-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 469px;
+  position: absolute;
+  top: 646px;
+  width: 1px;
+}
+
+.x03 .marie-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 176px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .mois-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 773px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .mois-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 327px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 678px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .nom-et-prnom-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 598px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .non-rsidents-re-l-au-luxembourg-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 460px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .nous-dclarons-j-de-droit-commun-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1418px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .numro-rue-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 714px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .path-1-VyzZeT {
+  background-color: transparent;
+  height: 100%;
+  left: 1px;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.x03 .pour-le-contrib-jointpartenaire-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 698px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 564px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .pour-le-contribuable-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 320px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 564px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .rectangle-classe-dimpt-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 840px;
+  position: absolute;
+  top: 129px;
+  width: 156px;
+}
+
+.x03 .span0-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span0-TIxzm7 {
+  color: black;
+  font-family: 'Arial-Bold', Helvetica;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.x03 .span1-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.x03 .span1-TIxzm7 {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span2-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span3-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.x03 .span4-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .span5-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.x03 .span6-7qukLx {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x03 .spare-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 296px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .title-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Narrow', Helvetica;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 595px;
+  letter-spacing: 0.00px;
+  line-height: 90px;
+  position: absolute;
+  text-align: left;
+  top: 330px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .total-des-reven-on-exonrs-x-100-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 153px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1262px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .total-des-reven-xonrs-et-exonrs-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 129px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1306px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .veuf-veuve-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 236px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x--C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 1270px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-100-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 808px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1272px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1009px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1284px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-QxM5SU {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Narrow', Helvetica;
+  font-size: 90px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 273px;
+  letter-spacing: 0.00px;
+  line-height: 90px;
+  position: absolute;
+  text-align: left;
+  top: 160px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 914px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1284px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-en-vertu-dun-j-e-corps-prononc-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 374px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-en-vertu-dune-e-lgale-accorde-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 344px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-en-vertu-dune-iciaire-accorde-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 104px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 404px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x-mzXdH9 {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 649px;
+  letter-spacing: 0.00px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  top: 1272px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x03 .x301-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 84px;
+  width: 20px;
+}
+
+.x03 .x302-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 176px;
+  width: 20px;
+}
+
+.x03 .x303-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 206px;
+  width: 20px;
+}
+
+.x03 .x304-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 236px;
+  width: 20px;
+}
+
+.x03 .x305-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 477px;
+  position: absolute;
+  top: 199px;
+  width: 156px;
+}
+
+.x03 .x306-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 343px;
+  width: 20px;
+}
+
+.x03 .x307-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 373px;
+  width: 20px;
+}
+
+.x03 .x308-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 68px;
+  position: absolute;
+  top: 403px;
+  width: 20px;
+}
+
+.x03 .x309-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 748px;
+  position: absolute;
+  top: 367px;
+  width: 156px;
+}
+
+.x03 .x310-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 187px;
+  position: absolute;
+  top: 584px;
+  width: 408px;
+}
+
+.x03 .x311-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 633px;
+  position: absolute;
+  top: 584px;
+  width: 408px;
+}
+
+.x03 .x312-C61RwL {
+  background-color: var(--mercury);
+  height: 28px;
+  left: 187px;
+  position: absolute;
+  top: 646px;
+  width: 408px;
+}
+
+.x03 .x313-C61RwL {
+  background-color: var(--mercury);
+  height: 28px;
+  left: 633px;
+  position: absolute;
+  top: 646px;
+  width: 408px;
+}
+
+.x03 .x314-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 187px;
+  position: absolute;
+  top: 701px;
+  width: 110px;
+}
+
+.x03 .x315-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 297px;
+  position: absolute;
+  top: 701px;
+  width: 298px;
+}
+
+.x03 .x316-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 633px;
+  position: absolute;
+  top: 701px;
+  width: 110px;
+}
+
+.x03 .x317-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 743px;
+  position: absolute;
+  top: 701px;
+  width: 298px;
+}
+
+.x03 .x318-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 187px;
+  position: absolute;
+  top: 743px;
+  width: 130px;
+}
+
+.x03 .x319-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 317px;
+  position: absolute;
+  top: 743px;
+  width: 278px;
+}
+
+.x03 .x320-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 633px;
+  position: absolute;
+  top: 743px;
+  width: 130px;
+}
+
+.x03 .x321-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 758px;
+  position: absolute;
+  top: 743px;
+  width: 283px;
+}
+
+.x03 .x322-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 997px;
+  width: 20px;
+}
+
+.x03 .x323-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 1092px;
+  width: 20px;
+}
+
+.x03 .x324-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 1136px;
+  width: 20px;
+}
+
+.x03 .x325-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 625px;
+  position: absolute;
+  top: 1248px;
+  width: 156px;
+}
+
+.x03 .x326-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 687px;
+  position: absolute;
+  top: 1293px;
+  width: 156px;
+}
+
+.x03 .x327-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 929px;
+  position: absolute;
+  top: 1269px;
+  width: 78px;
+}
+
+.x03 .x328-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 1416px;
+  width: 20px;
+}
+
+:root {
+  --black: rgba(0,0,0,1.0);
+  --mercury: rgba(223,226,229,1.0);
+}
+
 .a04 {
   width: 100%;
   min-width: 1076px;
@@ -8383,1957 +9871,1387 @@ div {
   line-height: 28.0px;
 }
 
-.a04 {
-  width: 100%;
-  min-width: 1076px;
-  height: 100vh;
-  min-height: 1460px;
-  position: relative;
+.x04 {
+  background-color: var(--white);
+  height: 1588px;
   overflow: hidden;
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  overflow-x: hidden;
+  position: relative;
+  width: 1074px;
 }
 
-a {
-  text-decoration: none;
-}
-
-div {
-  -webkit-text-size-adjust: none;
-}
-
-.anima-full-width-a {
-  width: 100%;
-}
-
-.anima-full-height-a {
-  height: 100%;
-}
-
-div {
-  -webkit-text-size-adjust: none;
-}
-
-.a04 .rectangledate0 {
-  background-color: #dfe2e5;
-  top: 1418px;
-  height: 42px;
-  width: 222px;
+.x04 .a-dfaut-de-coch-s-ce-cas-la-cas-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial", Helvetica;
+  font-size: 16px;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 817px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  text-align: left;
+  top: 980px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .rectanglelieu1 {
-  background-color: #dfe2e5;
-  top: 1418px;
-  height: 42px;
-  width: 308px;
+.x04 .a-dfaut-de-remp-doit-tre-de-10-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 443px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  text-align: left;
+  top: 1538px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .a4262 {
-  background-color: #dfe2e5;
-  top: 1295px;
-  height: 42px;
-  width: 190px;
+.x04 .anne-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 671px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 849px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  text-align: left;
+  top: 1188px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .a4253 {
-  background-color: #dfe2e5;
-  top: 1293px;
-  height: 42px;
-  width: 190px;
+.x04 .anne-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 225px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 403px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  text-align: left;
+  top: 1188px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .a4244 {
-  background-color: #dfe2e5;
-  top: 1210px;
-  height: 42px;
-  width: 190px;
-  position: absolute;
-  margin: 0;
-  left: 849px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a4235 {
-  background-color: #dfe2e5;
-  top: 1210px;
-  height: 42px;
-  width: 190px;
-  position: absolute;
-  margin: 0;
-  left: 403px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a4226 {
-  background-color: #dfe2e5;
-  top: 1160px;
-  height: 42px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 631px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a4217 {
-  background-color: #dfe2e5;
-  top: 1160px;
-  height: 42px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a4208 {
-  background-color: #dfe2e5;
-  top: 1110px;
-  height: 42px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 631px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a4199 {
-  background-color: #dfe2e5;
-  top: 1110px;
-  height: 42px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41810 {
-  background-color: #dfe2e5;
-  top: 1060px;
-  height: 42px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 631px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41711 {
-  background-color: #dfe2e5;
-  top: 1060px;
-  height: 42px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a416b12 {
-  background-color: #dfe2e5;
-  top: 1024px;
-  height: 30px;
-  width: 183px;
-  position: absolute;
-  margin: 0;
-  left: 856px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41613 {
-  background-color: white;
-  top: 1024px;
-  height: 30px;
-  width: 62px;
-  position: absolute;
-  margin: 0;
-  left: 794px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a416a14 {
-  background-color: #dfe2e5;
-  top: 1024px;
-  height: 30px;
-  width: 163px;
-  position: absolute;
-  margin: 0;
-  left: 631px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a415b15 {
-  background-color: #dfe2e5;
-  top: 1024px;
-  height: 30px;
-  width: 183px;
-  position: absolute;
-  margin: 0;
-  left: 410px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41516 {
-  background-color: white;
-  top: 1024px;
-  height: 30px;
-  width: 62px;
-  position: absolute;
-  margin: 0;
-  left: 348px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a415a17 {
-  background-color: #dfe2e5;
-  top: 1024px;
-  height: 30px;
-  width: 163px;
-  position: absolute;
-  margin: 0;
-  left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41418 {
-  background-color: #dfe2e5;
-  top: 969px;
-  height: 28px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 631px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41319 {
-  background-color: #dfe2e5;
-  top: 969px;
-  height: 28px;
-  width: 408px;
-  position: absolute;
-  margin: 0;
-  left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41220 {
-  background-color: #dfe2e5;
-  top: 649px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 183px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41121 {
-  background-color: #dfe2e5;
-  top: 617px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 183px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a41022 {
-  background-color: #dfe2e5;
-  top: 585px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 183px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40923 {
-  background-color: #dfe2e5;
-  top: 553px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
+.x04 .code-iban-C61RwL {
+  background-color: transparent;
+  height: auto;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1310px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .a40824 {
-  background-color: #dfe2e5;
-  top: 502px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 381px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40725 {
-  background-color: #dfe2e5;
-  top: 502px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 183px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40626 {
-  background-color: #dfe2e5;
-  top: 470px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40527 {
-  background-color: #dfe2e5;
-  top: 336px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 873px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40428 {
-  background-color: #dfe2e5;
-  top: 310px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 873px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40329 {
-  background-color: #dfe2e5;
-  top: 312px;
-  height: 42px;
-  width: 138px;
-  position: absolute;
-  margin: 0;
+.x04 .contribuable-C61RwL {
+  background-color: transparent;
+  height: auto;
   left: 344px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40230 {
-  background-color: #dfe2e5;
-  top: 251px;
-  height: 20px;
-  width: 20px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .a40131 {
-  background-color: #dfe2e5;
-  top: 84px;
-  height: 20px;
-  width: 20px;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-}
-
-.a04 .le32 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1432px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 780px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .adfautderemplissagedescases423426ladministrationadmetunerpartitionde50chacundescontribuablecontribuableconjointpartenaireletauxdepourcentagedescases423et424ainsiquedescases425et426doittrede100larp33 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1352px;
-  height: auto;
+  top: 1122px;
+  white-space: nowrap;
   width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
 }
 
-.a04 .a34 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1320px;
+.x04 .contribuable-co-jointpartenaire-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 1019px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .a35 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1318px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 572px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .tauxderpartitiondurevenuimposableajustcommunmondialrallouer36 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1295px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14.0px;
-  color: black;
-  text-align: left;
-  line-height: 14.0px;
-}
-
-.a04 .encasdedemandepouruneimpositionselonlarticle3ter3lirremplirlescases425et426ciaprs37 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1264px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .a38 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1236px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 1019px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .a39 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1236px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 572px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .tauxderpartitiondesavancescommunespayesetnonpayesdundossiercommundelannedimposition201940 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1213px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 14.0px;
-  color: black;
-  text-align: left;
-  line-height: 14.0px;
-}
-
-.a04 .line4441 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 1002px;
-}
-
-.a04 .line4342 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 965px;
-}
-
-.a04 .line4243 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 929px;
-}
-
-.a04 .line4144 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 892px;
-}
-
-.a04 .line4045 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 855px;
-}
-
-.a04 .a146 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1032px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 836px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15.0px;
-  color: black;
-  text-align: left;
-  line-height: 15.0px;
-}
-
-.a04 .line3947 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 825px;
-}
-
-.a04 .a048 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1032px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 806px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15.0px;
-  color: black;
-  text-align: left;
-  line-height: 15.0px;
-}
-
-.a04 .line3849 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 794px;
-}
-
-.a04 .line3750 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 753px;
-}
-
-.a04 .line3651 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 712px;
-}
-
-.a04 .line3552 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 671px;
-}
-
-.a04 .jour53 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1002px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 835px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .mois54 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1002px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 771px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .anne55 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1002px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 671px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .line3456 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 1007px;
-}
-
-.a04 .line3357 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 976px;
-}
-
-.a04 .line3258 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 944px;
-}
-
-.a04 .line3159 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 913px;
-}
-
-.a04 .line3060 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 882px;
-}
-
-.a04 .line2961 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 850px;
-}
-
-.a04 .line2862 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 819px;
-}
-
-.a04 .line2763 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 787px;
-}
-
-.a04 .line2664 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 756px;
-}
-
-.a04 .line2565 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 725px;
-}
-
-.a04 .line2466 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 693px;
-}
-
-.a04 .line2367 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 662px;
-}
-
-.a04 .contribuableconjointpartenaire68 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 936px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
   left: 722px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
   text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .line2269 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 556px;
-}
-
-.a04 .line2170 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 519px;
-}
-
-.a04 .line2071 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 483px;
-}
-
-.a04 .line1972 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 446px;
-}
-
-.a04 .line1873 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 410px;
-}
-
-.a04 .a174 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1032px;
-  height: auto;
+  top: 1122px;
+  white-space: nowrap;
   width: auto;
-  position: absolute;
-  margin: 0;
-  left: 390px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15.0px;
-  color: black;
-  text-align: left;
-  line-height: 15.0px;
 }
 
-.a04 .line1775 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 379px;
-}
-
-.a04 .a076 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1032px;
+.x04 .date-de-la-dcla-du-partenariat-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 360px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 15.0px;
-  color: black;
-  text-align: left;
-  line-height: 15.0px;
-}
-
-.a04 .line1677 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 348px;
-}
-
-.a04 .line1578 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 307px;
-}
-
-.a04 .line1479 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 266px;
-}
-
-.a04 .line1380 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: 30px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 225px;
-}
-
-.a04 .jour81 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1002px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 389px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .mois82 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1002px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 325px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .anne83 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1002px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 225px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .line1284 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 561px;
-}
-
-.a04 .line1185 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 530px;
-}
-
-.a04 .line1086 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 498px;
-}
-
-.a04 .line987 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 467px;
-}
-
-.a04 .line888 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 436px;
-}
-
-.a04 .line789 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 404px;
-}
-
-.a04 .line690 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 373px;
-}
-
-.a04 .line591 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 341px;
-}
-
-.a04 .line492 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 310px;
-}
-
-.a04 .line393 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 279px;
-}
-
-.a04 .line294 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 247px;
-}
-
-.a04 .line195 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 969px;
-  height: 28px;
-  width: 1px;
-  position: absolute;
-  margin: 0;
-  left: 216px;
-}
-
-.a04 .contribuable96 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 936px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 344px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .swiftbic97 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1174px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .codeiban98 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1124px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .titulaireducompte99 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1074px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .ndossierindividuel100 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 1024px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .datedenaissancenumrodidentification101 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 960px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .encasdedemandepouruneimpositionselonlesarticles3ter2et3ter3lir102 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 908px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .informationscomplmentaires103 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 876px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18.0px;
-  color: black;
-  text-align: left;
-  line-height: 18.0px;
-}
-
-.a04 .lespartenairesquinedemandentconjointementniuneimpositionindividuelleavecrallocationjusquauplustardle31mars2020niuneimpositioncollectivejusquauplustardle31dcembre2020sontimposssparmentdaprslergimededroitcommu104 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 794px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 742px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span0 {
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-}
-
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span1 {
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-}
-
-.a04 .afindepouvoirchoisirlimpositionindividuellepureoulimpositionindividuelleavecrallocationlescontribuablesnonrsidentsdoiventrempliraumoinsunedesconditionsdassimilationauxcontribuablesrsidentspage3cases322324105 .span2 {
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-}
-
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 692px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span0 {
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-}
-
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span1 {
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-}
-
-.a04 .adfautdecocherlacase409etlunedescases410412lescontribuablesmarisserontimposscollectivementmoinsquilsnaientexprimsconjointementavantle31mars2020unautrechoixdanscecaslacase406estcocher106 .span2 {
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-}
-
-.a04 .limpositionindividuelleavecrallocationselonlarticle3ter3lirremplircases413426107 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 650px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 219px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .limpositionindividuellepureselonlarticle3ter2lir108 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 618px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 219px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .limpositioncollectiveselonlarticle3lir109 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 586px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 219px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .pourlannedimposition2019nousdemandons110 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 554px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .ou111 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 524px;
-  height: auto;
-  width: auto;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 14px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .parmyguichetlu112 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 502px;
-  height: auto;
+  top: 422px;
+  white-space: nowrap;
   width: auto;
-  position: absolute;
-  margin: 0;
-  left: 417px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
 }
 
-.a04 .parcourrier113 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 502px;
+.x04 .date-de-naissan-didentification-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 219px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
+  top: 1146px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .pourlannedimposition2019nousconfirmonsnotrechoixexprimendernierlieu114 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 470px;
+.x04 .dj-prsent-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
+  left: 909px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .impositionindividuellersidentsetnonrsidentsassimils115 {
-  background-color: rgba(255, 255, 255, 0);
   top: 434px;
-  height: auto;
+  white-space: nowrap;
   width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 22.0px;
-  color: black;
-  text-align: left;
-  line-height: 22.0px;
 }
 
-.a04 .lademandeestvalablementformulelorsquelaprsenterubriquepartenairesestremplieetlorsqueladclarationpourlimptsurlerevenuestintroduiteetsigneparchacundespartenaires116 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 370px;
+.x04 .document-tabli-rits-comptentes-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .djprsent117 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 336px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 909px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .enannexe118 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 310px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
-  left: 909px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .documenttabliparlesautoritscomptentes119 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 324px;
-  height: auto;
-  width: auto;
-  position: absolute;
-  margin: 0;
   left: 522px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .datedeladclarationdupartenariat120 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 324px;
-  height: auto;
-  width: auto;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
-}
-
-.a04 .nousdemandonslimpositioncollectiveausensdesarticles3biset157ter5lirpourlannedimposition2019nousdclaronsquenousavonspartagundomicilecommunouunersidencecommuneetquelepartenariataexistdudbutlafindelan121 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 252px;
-  height: auto;
+  top: 422px;
+  white-space: nowrap;
   width: auto;
-  position: absolute;
-  margin: 0;
-  left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
-  text-align: left;
-  line-height: 16.0px;
 }
 
-.a04 .partenairesrsidentsetnonrsidents122 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 216px;
+.x04 .en-annexe-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
+  left: 909px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 22.0px;
-  color: black;
   text-align: left;
-  line-height: 22.0px;
+  top: 408px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .ensignantlaprsentedclarationpourlimptsurlerevenuensembleaveclecontribuablersidentlapersonnenonrsidentedemandetreimposecollectivementavecsonconjointenvertudelarticle3dlirettreimposecommesielleavait123 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 134px;
+.x04 .en-cas-de-deman-2-et-3ter-3-lir-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
+  top: 1094px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .nousdemandonslimpositioncollectiveausensdelarticle3dlirpourlannedimposition2019nousdclaronsquaumoins90desrevenusprofessionnelsdenotremnagesontralisspendantlannedimpositionparlecontribuablersidentaulux124 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 86px;
+.x04 .en-cas-de-deman-et-429-ci-aprs-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
   position: absolute;
-  margin: 0;
-  left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 16.0px;
-  color: black;
   text-align: left;
-  line-height: 16.0px;
+  top: 1450px;
+  white-space: nowrap;
+  width: auto;
 }
 
-.a04 .epouxdontlunestcontribuablersidentetlautreunepersonnenonrsidente125 {
-  background-color: rgba(255, 255, 255, 0);
+.x04 .epoux-dont-lun-ne-non-rsidente-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
   top: 48px;
-  height: auto;
+  white-space: nowrap;
   width: auto;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 22.0px;
-  color: black;
-  text-align: left;
-  line-height: 22.0px;
 }
 
-.a04 .o126 {
-  background-color: rgba(255, 255, 255, 0);
-  top: 2px;
+.x04 .imposition-indi-idents-assimils-C61RwL {
+  background-color: transparent;
   height: auto;
-  width: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
   position: absolute;
-  margin: 0;
-  left: 1052px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-weight: 700;
-  font-style: normal;
-  font-size: 28.0px;
-  color: black;
   text-align: left;
-  line-height: 28.0px;
+  top: 640px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .informations-complmentaires-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  top: 1062px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .jour-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 835px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1188px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .jour-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 389px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1188px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .la-demande-est-z-galement-opte-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 472px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .limposition-col-larticle-3-lir-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 219px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 784px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .limposition-collective-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 219px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 934px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .limposition-ind-r-cases-416-427-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 219px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 816px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .limposition-ind-r-cases-416-429-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 219px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 848px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .limposition-individuelle-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 484px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 934px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .line-1-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 216px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-10-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 498px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-11-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 530px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-12-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 561px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-13-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 225px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-14-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 266px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-15-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 307px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-16-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 348px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-17-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 379px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-18-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 410px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-19-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 446px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-2-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 247px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-20-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 483px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-21-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 519px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-22-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 556px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-23-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 662px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-24-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 693px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-25-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 725px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-26-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 756px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-27-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 787px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-28-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 819px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-29-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 850px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-3-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 279px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-30-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 882px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-31-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 913px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-32-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 944px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-33-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 976px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-34-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 1007px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-35-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 671px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-36-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 712px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-37-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 753px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-38-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 794px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-39-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 825px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-4-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 310px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-40-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 856px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-41-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 892px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-42-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 929px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-43-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 965px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-44-C61RwL {
+  background-color: transparent;
+  height: 30px;
+  left: 1002px;
+  position: absolute;
+  top: 1210px;
+  width: 1px;
+}
+
+.x04 .line-5-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 341px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-6-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 373px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-7-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 404px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-8-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 436px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .line-9-C61RwL {
+  background-color: transparent;
+  height: 28px;
+  left: 467px;
+  position: absolute;
+  top: 1155px;
+  width: 1px;
+}
+
+.x04 .mois-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 771px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1188px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .mois-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 325px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1188px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .n-dossierindividuel-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1210px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .nous-dclarons-r-paravant-savoir-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 892px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .nous-demandons-rsident-au-lux-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 94px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .nous-demandons-t-la-fin-de-lan-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 350px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .par-courrier-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 219px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 708px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .par-myguichetlu-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 417px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 708px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .partenaires-rsi-idents-assimils-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 312px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .pour-lanne-dimp-en-dernier-lieu-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 676px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .pour-lanne-dimp-nous-demandons-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 70px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 752px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .span0-ISgB7F {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x04 .span1-ISgB7F {
+  color: black;
+  font-family: 'Arial-Bold', Helvetica;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.x04 .span2-ISgB7F {
+  color: black;
+  font-family: 'Arial-Regular', Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x04 .swift-bic-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1360px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .taux-de-rpartit-imposition-2020-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Regular', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 1399px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .taux-de-rpartit-ondial-rallouer-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Regular', Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 14px;
+  position: absolute;
+  text-align: left;
+  top: 1481px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .title-C61RwL {
+  background-color: transparent;
+  color: var(--black);
+  font-family: 'Arial-Bold', Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1052px;
+  letter-spacing: 0.00px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .titulaire-du-compte-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1260px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 1019px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1506px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x-QxM5SU {
+  background-color: transparent;
+  height: auto;
+  left: 572px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1422px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 572px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1504px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x-mzXdH9 {
+  background-color: transparent;
+  height: auto;
+  left: 1019px;
+  letter-spacing: 0.00px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1422px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x0-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 806px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 1218px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x0-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 360px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 1218px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x1-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: 836px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 1218px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x1-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 390px;
+  letter-spacing: 0.00px;
+  line-height: 15px;
+  position: absolute;
+  text-align: left;
+  top: 1218px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x04 .x401-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 84px;
+  width: 20px;
+}
+
+.x04 .x402-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 348px;
+  width: 20px;
+}
+
+.x04 .x403-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 344px;
+  position: absolute;
+  top: 409px;
+  width: 138px;
+}
+
+.x04 .x404-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 873px;
+  position: absolute;
+  top: 407px;
+  width: 20px;
+}
+
+.x04 .x405-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 873px;
+  position: absolute;
+  top: 433px;
+  width: 20px;
+}
+
+.x04 .x406-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 675px;
+  width: 20px;
+}
+
+.x04 .x407-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 183px;
+  position: absolute;
+  top: 707px;
+  width: 20px;
+}
+
+.x04 .x408-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 381px;
+  position: absolute;
+  top: 707px;
+  width: 20px;
+}
+
+.x04 .x409-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 751px;
+  width: 20px;
+}
+
+.x04 .x410-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 183px;
+  position: absolute;
+  top: 783px;
+  width: 20px;
+}
+
+.x04 .x411-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 183px;
+  position: absolute;
+  top: 815px;
+  width: 20px;
+}
+
+.x04 .x412-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 183px;
+  position: absolute;
+  top: 847px;
+  width: 20px;
+}
+
+.x04 .x413-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 34px;
+  position: absolute;
+  top: 891px;
+  width: 20px;
+}
+
+.x04 .x414-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 183px;
+  position: absolute;
+  top: 934px;
+  width: 20px;
+}
+
+.x04 .x415-C61RwL {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 448px;
+  position: absolute;
+  top: 934px;
+  width: 20px;
+}
+
+.x04 .x416-C61RwL {
+  background-color: var(--mercury);
+  height: 28px;
+  left: 185px;
+  position: absolute;
+  top: 1155px;
+  width: 408px;
+}
+
+.x04 .x417-C61RwL {
+  background-color: var(--mercury);
+  height: 28px;
+  left: 631px;
+  position: absolute;
+  top: 1155px;
+  width: 408px;
+}
+
+.x04 .x418-C61RwL {
+  background-color: var(--white);
+  height: 30px;
+  left: 348px;
+  position: absolute;
+  top: 1210px;
+  width: 62px;
+}
+
+.x04 .x418a-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 185px;
+  position: absolute;
+  top: 1210px;
+  width: 163px;
+}
+
+.x04 .x418b-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 410px;
+  position: absolute;
+  top: 1210px;
+  width: 183px;
+}
+
+.x04 .x419-C61RwL {
+  background-color: var(--white);
+  height: 30px;
+  left: 794px;
+  position: absolute;
+  top: 1210px;
+  width: 62px;
+}
+
+.x04 .x419a-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 631px;
+  position: absolute;
+  top: 1210px;
+  width: 163px;
+}
+
+.x04 .x419b-C61RwL {
+  background-color: var(--mercury);
+  height: 30px;
+  left: 856px;
+  position: absolute;
+  top: 1210px;
+  width: 183px;
+}
+
+.x04 .x420-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 1246px;
+  width: 408px;
+}
+
+.x04 .x421-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 631px;
+  position: absolute;
+  top: 1246px;
+  width: 408px;
+}
+
+.x04 .x422-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 1296px;
+  width: 408px;
+}
+
+.x04 .x423-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 631px;
+  position: absolute;
+  top: 1296px;
+  width: 408px;
+}
+
+.x04 .x424-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 1346px;
+  width: 408px;
+}
+
+.x04 .x425-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 631px;
+  position: absolute;
+  top: 1346px;
+  width: 408px;
+}
+
+.x04 .x426-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 403px;
+  position: absolute;
+  top: 1396px;
+  width: 190px;
+}
+
+.x04 .x427-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 849px;
+  position: absolute;
+  top: 1396px;
+  width: 190px;
+}
+
+.x04 .x428-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 403px;
+  position: absolute;
+  top: 1479px;
+  width: 190px;
+}
+
+.x04 .x429-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 849px;
+  position: absolute;
+  top: 1481px;
+  width: 190px;
 }
 
 .a05 {
