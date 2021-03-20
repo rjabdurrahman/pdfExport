@@ -1,3 +1,256 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@font-face {
+  font-family: "Arial-Regular";
+  font-style: normal;
+  font-weight: 400;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Arial-Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("https://anima-uploads.s3.amazonaws.com/5c58c99ae21217000c4e869b/arial.otf") format("opentype");
+}
+
+.component-wrapper a,
+.screen a {
+  text-decoration: none;
+  display: contents;
+}
+
+.full-width-a {
+  width: 100%;
+}
+
+.full-height-a {
+  height: 100%;
+}
+
+.screen textarea:focus,
+.screen input:focus {
+  outline: none;
+}
+
+.screen *,
+.component-wrapper * {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+
+.screen div {
+  -webkit-text-size-adjust: none;
+}
+
+.container-center-vertical,
+.container-center-horizontal {
+  pointer-events: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 0;
+  margin: 0;
+}
+
+.container-center-vertical {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.container-center-horizontal {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.container-center-vertical > *,
+.container-center-horizontal > * {
+  pointer-events: auto;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.component-wrapper,
+.screen {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
+
+.auto-animated div {
+  opacity: 0;
+  position: absolute;
+  --z-index: -1;
+}
+
+.auto-animated .container-center-vertical,
+.auto-animated .container-center-horizontal {
+  opacity: 1;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+.animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: reveal 0.3s ease-in-out 1 normal forwards;
+          animation: reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.animate-disappear {
+  opacity: 1;
+  display: block;
+  animation: reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.animate-nodelay {
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+@-webkit-keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.align-self-flex-start {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.align-self-flex-end {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.align-self-flex-center {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.valign-text-middle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.valign-text-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+input:focus {
+  outline: none;
+}
+
+.component-wrapper,
+.component-wrapper * {
+  pointer-events: none;
+}
+
+.component-wrapper a *,
+.component-wrapper a,
+.component-wrapper input,
+.component-wrapper video,
+.component-wrapper iframe,
+.listeners-active,
+.listeners-active * {
+  pointer-events: auto;
+}
+
+.hidden,
+.hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.smart-layers-pointers,
+.smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.component-wrapper.not-ready,
+.component-wrapper.not-ready * {
+  visibility: hidden !important;
+}
+
+.listeners-active-click,
+.listeners-active-click * {
+  cursor: pointer;
+}
+
+/* screen - 04 */
+.arial-bold-black-22px {
+  color: var(--black);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.arial-regular-normal-black-15px {
+  color: var(--black);
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-black-16px {
+  color: var(--black);
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
 .x04 {
   background-color: var(--white);
   height: 1588px;
@@ -7,6 +260,10 @@
   width: 1074px;
 }
 
+.x04 p {
+  margin: 0 !important;
+}
+
 .x04 .a-dfaut-de-coch-s-ce-cas-la-cas-C61RwL {
   background-color: transparent;
   color: var(--black);
@@ -14,7 +271,7 @@
   font-size: 16px;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -27,7 +284,7 @@
   background-color: transparent;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -40,7 +297,7 @@
   background-color: transparent;
   height: auto;
   left: 671px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -53,7 +310,7 @@
   background-color: transparent;
   height: auto;
   left: 225px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -66,7 +323,7 @@
   background-color: transparent;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -79,7 +336,7 @@
   background-color: transparent;
   height: auto;
   left: 344px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -92,7 +349,7 @@
   background-color: transparent;
   height: auto;
   left: 722px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -105,7 +362,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -118,7 +375,7 @@
   background-color: transparent;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -131,7 +388,7 @@
   background-color: transparent;
   height: auto;
   left: 909px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -144,7 +401,7 @@
   background-color: transparent;
   height: auto;
   left: 522px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -157,7 +414,7 @@
   background-color: transparent;
   height: auto;
   left: 909px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -170,7 +427,7 @@
   background-color: transparent;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -183,7 +440,7 @@
   background-color: transparent;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -196,7 +453,7 @@
   background-color: transparent;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -209,7 +466,7 @@
   background-color: transparent;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -221,13 +478,13 @@
 .x04 .informations-complmentaires-C61RwL {
   background-color: transparent;
   color: var(--black);
-  font-family: 'Arial-Bold', Helvetica;
+  font-family: "Arial-Bold", Helvetica;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 18px;
   position: absolute;
   text-align: left;
@@ -240,7 +497,7 @@
   background-color: transparent;
   height: auto;
   left: 835px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -253,7 +510,7 @@
   background-color: transparent;
   height: auto;
   left: 389px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -266,7 +523,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -279,7 +536,7 @@
   background-color: transparent;
   height: auto;
   left: 219px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -292,7 +549,7 @@
   background-color: transparent;
   height: auto;
   left: 219px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -305,7 +562,7 @@
   background-color: transparent;
   height: auto;
   left: 219px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -318,7 +575,7 @@
   background-color: transparent;
   height: auto;
   left: 219px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -331,7 +588,7 @@
   background-color: transparent;
   height: auto;
   left: 484px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -740,7 +997,7 @@
   background-color: transparent;
   height: auto;
   left: 771px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -753,7 +1010,7 @@
   background-color: transparent;
   height: auto;
   left: 325px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -766,7 +1023,7 @@
   background-color: transparent;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -779,7 +1036,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -792,7 +1049,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -805,7 +1062,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -818,7 +1075,7 @@
   background-color: transparent;
   height: auto;
   left: 219px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -831,7 +1088,7 @@
   background-color: transparent;
   height: auto;
   left: 417px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -844,7 +1101,7 @@
   background-color: transparent;
   height: auto;
   left: 0px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 22px;
   position: absolute;
   text-align: left;
@@ -857,7 +1114,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -870,7 +1127,7 @@
   background-color: transparent;
   height: auto;
   left: 70px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -881,21 +1138,21 @@
 
 .x04 .span0-ISgB7F {
   color: black;
-  font-family: 'Arial-Regular', Helvetica;
+  font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
 
 .x04 .span1-ISgB7F {
   color: black;
-  font-family: 'Arial-Bold', Helvetica;
+  font-family: "Arial-Bold", Helvetica;
   font-style: normal;
   font-weight: 700;
 }
 
 .x04 .span2-ISgB7F {
   color: black;
-  font-family: 'Arial-Regular', Helvetica;
+  font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
@@ -904,7 +1161,7 @@
   background-color: transparent;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -916,13 +1173,13 @@
 .x04 .taux-de-rpartit-imposition-2020-C61RwL {
   background-color: transparent;
   color: var(--black);
-  font-family: 'Arial-Regular', Helvetica;
+  font-family: "Arial-Regular", Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 14px;
   position: absolute;
   text-align: left;
@@ -934,13 +1191,13 @@
 .x04 .taux-de-rpartit-ondial-rallouer-C61RwL {
   background-color: transparent;
   color: var(--black);
-  font-family: 'Arial-Regular', Helvetica;
+  font-family: "Arial-Regular", Helvetica;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 14px;
   position: absolute;
   text-align: left;
@@ -952,13 +1209,13 @@
 .x04 .title-C61RwL {
   background-color: transparent;
   color: var(--black);
-  font-family: 'Arial-Bold', Helvetica;
+  font-family: "Arial-Bold", Helvetica;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
   height: auto;
   left: 1052px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 28px;
   position: absolute;
   text-align: left;
@@ -971,7 +1228,7 @@
   background-color: transparent;
   height: auto;
   left: 34px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -984,7 +1241,7 @@
   background-color: transparent;
   height: auto;
   left: 1019px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -997,7 +1254,7 @@
   background-color: transparent;
   height: auto;
   left: 572px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -1010,7 +1267,7 @@
   background-color: transparent;
   height: auto;
   left: 572px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -1023,7 +1280,7 @@
   background-color: transparent;
   height: auto;
   left: 1019px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 16px;
   position: absolute;
   text-align: left;
@@ -1036,7 +1293,7 @@
   background-color: transparent;
   height: auto;
   left: 806px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: left;
@@ -1049,7 +1306,7 @@
   background-color: transparent;
   height: auto;
   left: 360px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: left;
@@ -1062,7 +1319,7 @@
   background-color: transparent;
   height: auto;
   left: 836px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: left;
@@ -1075,7 +1332,7 @@
   background-color: transparent;
   height: auto;
   left: 390px;
-  letter-spacing: 0.00px;
+  letter-spacing: 0px;
   line-height: 15px;
   position: absolute;
   text-align: left;
@@ -1379,5 +1636,11 @@
   position: absolute;
   top: 1481px;
   width: 190px;
+}
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --mercury: rgba(223, 226, 229, 1);
+  --white: rgba(255, 255, 255, 1);
 }
 /*# sourceMappingURL=page4_20.css.map */
