@@ -1,5 +1,77 @@
 <div id="page4" class="x04 screen">
-    <input class="x429">
+    <input name="4d26" type="text"
+        value="{{client.options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable}}"
+        class="num t_left x429" />
+    <input name="4d25" type="text"
+        value="{{client.options.informations_complementaires.contribuable.taux_revenu_imposable}}"
+        class="num t_left x428" />
+    <input name="4d24" type="text"
+        value="{{client.options.informations_complementaires.conjoint_partenaire.taux_avances_communes}}"
+        class="num t_left x427" />
+    <input name="4d23" type="text"
+        value="{{client.options.informations_complementaires.contribuable.taux_avances_communes}}"
+        class="num t_left x426" />
+    <input name="4d22" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.swift_bic}}"
+        class="x425" />
+    <input name="4d21" type="text" value="{{client.options.informations_complementaires.contribuable.swift_bic}}"
+        class="x424" />
+    <input name="4d20" type="text" value="{{client.options.informations_complementaires.conjoint_partenaire.code_iban}}"
+        class="x423" />
+    <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}"
+        class="x422" />
+    <input name="4d18" type="text"
+        value="{{client.options.informations_complementaires.conjoint_partenaire.titulaire_du_compte}}"
+        class="x421" />
+    <input name="4d17" type="text"
+        value="{{client.options.informations_complementaires.contribuable.titulaire_du_compte}}" class="x420" />
+    <input name="4d16a" maxlength="4" type="text"
+        value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a}}"
+        class="numo cell-in4 x419a" />
+    <div name="4d16" class="x419 like-input"></div>
+    <input name="4d16b" maxlength="5" type="text"
+        value="{{client.options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_b}}"
+        class="numo cell-in3 x419b" />
+    <input name="4d15a" maxlength="4" type="text"
+        value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_a}}"
+        class="numo cell-in4 x418a" />
+    <div name="4d15" class="x418 like-input"></div>
+    <input name="4d15b" maxlength="5" type="text"
+        value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_b}}"
+        class="numo cell-in3 x418b" />
+    <input name="4d14" type="text"
+        value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" maxlength="13"
+        class="numo a_left cell-in0 x417" />
+    <input name="4d13" type="text"
+        value="{{client.options.informations_complementaires.contribuable.date_de_naissance}}" maxlength="13"
+        class="numo a_left cell-in0 x416" />
+    <input name="4d10" id="4d12" type="radio" class="x412" value="3ter3" />
+    <label for="4d12" class="x412"></label>
+    <input name="4d10" id="4d11" type="radio" class="x411" value="3ter" />
+    <label for="4d11" class="x411"></label>
+    <input name="4d10" id="4d10" type="radio" class="x410" value="3" />
+    <label for="4d10" class="x410"></label>
+    <input name="4d9" type="checkbox" class="x409"
+        ng-checked="client.options.imposition_individuelle.is_annee_imposition_2019 == 'Yes'" />
+    <input name="4d7" id="4d8" type="radio" class="x408" value="myguichet" />
+    <label for="4d8" class="x408"></label>
+    <input name="4d7" id="4d7" type="radio" class="x407" value="courrier" />
+    <label for="4d7" class="x407"></label>
+    <input name="4d6" type="checkbox" class="x406"
+        ng-checked="client.options.imposition_individuelle.is_confirmation_choix == 'Yes'" />
+    <input name="4d4" id="4d5" type="radio" class="x405" value="presente" />
+    <label for="4d5" class="x405"></label>
+    <input name="4d4" id="4d4" type="radio" class="x404" value="enannexe" />
+    <label for="4d4" class="x404"></label>
+    <input name="4d3" type="text" value="{{client.options.partenaires.declaration_partenariat}}"
+        class="date t_center x403" />
+    <input name="4d2" type="checkbox" class="x402"
+    ng-checked="client.options.partenaires.is_imposition_collective == 'Yes'" />
+    <input name="4d1" type="checkbox" class="x401"
+    ng-checked="client.options.epoux_contribuable.is_imposition_collective == 'Yes'" />
+    <input type="checkbox" class="x415">
+    <input type="checkbox" class="x414">
+    <input type="checkbox" class="x413">
+    <!-- <input class="x429">
     <input class="x428">
     <input class="x427">
     <input class="x426">
@@ -17,9 +89,6 @@
     <input class="x418a">
     <input class="x417">
     <input class="x416">
-    <input class="x415">
-    <input class="x414">
-    <input class="x413">
     <input class="x412">
     <input class="x411">
     <input class="x410">
@@ -31,7 +100,7 @@
     <input class="x404">
     <input class="x403">
     <input class="x402">
-    <input class="x401">
+    <input class="x401"> -->
     <p class="a-dfaut-de-remp-doit-tre-de-10 arial-regular-normal-black-16px"
         data-id="547caf21-be89-4623-a788-d1b909129434">A défaut de remplissage des cases 426 à 429, l'Administration
         admet une répartition de 50% à chacun des contribuable / contribuable conjoint /<br>partenaire. La somme des
@@ -198,10 +267,10 @@
         BIC</div>
     <div class="code-iban arial-regular-normal-black-16px" data-id="e575150d-e508-4f97-b717-28bfbe2ea706">Code
         IBAN</div>
-    <div class="titulaire-du-compte arial-regular-normal-black-16px"
-        data-id="59716379-58ce-4f77-be5a-7e586c440729">Titulaire du compte</div>
-    <div class="n-dossierindividuel arial-regular-normal-black-16px"
-        data-id="c0069313-1f20-4118-8fee-0ffe8ee57959">N° dossier<br>individuel</div>
+    <div class="titulaire-du-compte arial-regular-normal-black-16px" data-id="59716379-58ce-4f77-be5a-7e586c440729">
+        Titulaire du compte</div>
+    <div class="n-dossierindividuel arial-regular-normal-black-16px" data-id="c0069313-1f20-4118-8fee-0ffe8ee57959">N°
+        dossier<br>individuel</div>
     <div class="date-de-naissan-didentification arial-regular-normal-black-16px"
         data-id="948709a8-e6fd-48a6-969f-5db28ced24e1">Date de naissance /<br>numéro<br>d’identification</div>
     <p class="en-cas-de-deman-2-et-3ter-3-lir arial-regular-normal-black-16px"
@@ -218,8 +287,8 @@
             20.</span></p>
     <div class="limposition-individuelle arial-regular-normal-black-16px"
         data-id="3c967b68-faf5-4e12-909e-13734f54d3df">l'imposition individuelle</div>
-    <div class="limposition-collective arial-regular-normal-black-16px"
-        data-id="11ddf344-8adc-4c28-9f81-f1bfa4e5ad1e">l'imposition collective</div>
+    <div class="limposition-collective arial-regular-normal-black-16px" data-id="11ddf344-8adc-4c28-9f81-f1bfa4e5ad1e">
+        l'imposition collective</div>
     <p class="nous-dclarons-r-paravant-savoir arial-regular-normal-black-16px"
         data-id="271dca35-8ea7-4ab7-a86f-bee7d57e49b4">Nous déclarons révoquer notre/nos choix exprimé(s) auparavant, à
         savoir:</p>
@@ -240,8 +309,8 @@
     <p class="pour-lanne-dimp-en-dernier-lieu arial-regular-normal-black-16px"
         data-id="f6585c6e-da06-4905-ba34-0d482ed6982c">Pour l'année d'imposition 2020 nous confirmons notre choix
         exprimé en dernier lieu:</p>
-    <div class="imposition-indi-idents-assimils arial-bold-black-22px"
-        data-id="1f861bad-8f59-4689-89ed-c4bba8e1762b">Imposition individuelle (résidents et non-résidents assimilés)
+    <div class="imposition-indi-idents-assimils arial-bold-black-22px" data-id="1f861bad-8f59-4689-89ed-c4bba8e1762b">
+        Imposition individuelle (résidents et non-résidents assimilés)
     </div>
     <p class="la-demande-est-z-galement-opte arial-regular-normal-black-16px"
         data-id="24c5a9e6-29e8-42f1-b230-797895dad815">La demande est valablement formulée lorsque la présente rubrique
@@ -265,8 +334,8 @@
         data-id="7a467dc7-ea40-4a86-bac0-b88f3efed36a">Nous demandons l'imposition collective au sens des articles 3bis
         et 157ter (5) L.I.R. pour l'année d'imposition 2020. Nous déclarons que nous<br>avons partagé un domicile commun
         ou une résidence commune et que le partenariat a existé du début à la fin de l'année d'imposition 2020.</p>
-    <div class="partenaires-rsi-idents-assimils arial-bold-black-22px"
-        data-id="c2d3b4ef-fb6b-4d40-b71e-c38cd55ae655">Partenaires (résidents et non-résidents assimilés)</div>
+    <div class="partenaires-rsi-idents-assimils arial-bold-black-22px" data-id="c2d3b4ef-fb6b-4d40-b71e-c38cd55ae655">
+        Partenaires (résidents et non-résidents assimilés)</div>
     <p class="nous-demandons-rsident-au-lux arial-regular-normal-black-16px"
         data-id="a56f7154-3961-4b2e-b6f3-aba051217ea4">Nous demandons l'imposition collective au sens de l'article 3 d)
         L.I.R. pour l'année d'imposition 2020. Nous déclarons qu'au moins 90% des<br>revenus professionnels de notre
@@ -282,8 +351,8 @@
         peuvent<br>renoncer à l'imposition collective et/ou à une imposition individuelle éventuellement choisie en
         cochant la case 413 et puis la case 414 ou<br>415. Le choix de renoncer à une imposition individuelle devra être
         fait au plus tard pour le 31 mars 2021.</p>
-    <div class="epoux-dont-lun-ne-non-rsidente arial-bold-black-22px"
-        data-id="9a4edb81-26e2-474f-a75f-afe7186d4958">Epoux dont l'un est contribuable résident et l'autre une personne
+    <div class="epoux-dont-lun-ne-non-rsidente arial-bold-black-22px" data-id="9a4edb81-26e2-474f-a75f-afe7186d4958">
+        Epoux dont l'un est contribuable résident et l'autre une personne
         non résidente</div>
     <h1 class="title" data-id="8b0c8a25-7adf-4e9e-b930-26a0770ad934">O</h1>
 </div>
