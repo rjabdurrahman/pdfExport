@@ -5129,226 +5129,268 @@
         </div>
     </div>
 </div>
-            <div id="page3" class="x03 screen">
-    <input class="x328">
-    <input class="x327">
-    <input class="x326">
-    <input class="x325">
-    <input type="checkbox" class="x324">
-    <input type="checkbox" class="x323">
-    <input type="checkbox" class="x322">
-    <input class="x321">
-    <input class="x320">
-    <input class="x319">
-    <input class="x318">
-    <input class="x317">
-    <input class="x316">
-    <input class="x315">
-    <input class="x314">
-    <input class="x313">
-    <input class="x312">
-    <input class="x311">
-    <input class="x310">
-    <input class="x309">
-    <input type="checkbox" class="x308">
-    <input type="checkbox" class="x307">
-    <input type="checkbox" class="x306">
-    <input class="x305">
-    <input type="radio" class="x304">
-    <label for="3d1" class="x304"></label>
-    <input type="radio" class="x303">
-    <label for="3d1" class="x303"></label>
-    <input type="radio" class="x302">
-    <label for="3d1" class="x302"></label>
-    <input type="radio">
-    <label for="3d1" class="x301"></label>
-    <input name="3d9" class="rectangle-classe-dimpt">
-    <p class="nous-dclarons-j-de-droit-commun arial-regular-normal-black-16px"
-        data-id="1e036ce0-5b7a-4ad4-8f24-d8937dbd014e">Nous déclarons / Je déclare révoquer notre/ma demande
-        d'assimilation formulée auparavant et nous nous déclarons / je me<br>déclare d'accord à être imposé(s)
-        suivant le régime de droit commun.</p>
-    <p class="les-contribuabl-enus-non-exonrs arial-regular-normal-black-16px"
-        data-id="cb0d8671-119d-474e-9cfa-b425b443e973">Les contribuables non résidents doivent indiquer leurs
-        revenus de source luxembourgeoise dans les colonnes «revenus non exonérés».</p>
-    <div class="x arial-regular-normal-black-16px" data-id="83189d1c-0e7b-49f5-9a5c-31244da8dcd2">%</div>
-    <div class="x-VMr6Om arial-regular-normal-black-16px" data-id="c20f7e78-feaa-46fb-85a4-bb189f054418">=</div>
-    <div class="x-mzXdH9" data-id="a8a6cbeb-1f20-4bdf-a01e-fd2a8876acf6">_____________________</div>
-    <div class="x-100 arial-regular-normal-black-16px" data-id="16925564-3f01-418f-a9fb-9ba29e20c60e">x 100
+            <div id="page3" class="a03 anima-word-break">
+    <div style="width: 1043px; height: 100%; position:relative; margin:auto;">
+        <input class="x328">
+        <div class="nous-dclarons-j-de-droit-commun arial-regular-normal-black-16px">Nous déclarons / Je déclare
+            révoquer notre/ma demande
+            d'assimilation formulée auparavant et nous nous déclarons / je me<br>déclare d'accord à être imposé(s)
+            suivant le régime de droit commun.</div>
+        <input name="3d28" type="text" class="num a3270"
+            value="{{client.etat_civil.assimilation.calculation.pourcentage}}" readonly />
+        <input name="3d27" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres_et_exoneres}}"
+            type="text" class="num a3261" />
+        <input name="3d26" value="{{client.etat_civil.assimilation.calculation.total_revenus_non_exoneres}}" type="text"
+            class="num a3252" />
+        <input name="3d25" type="checkbox" class="a3243"
+            ng-checked="client.etat_civil.assimilation.c.revenus_professionnels == 'Yes'" />
+        <input name="3d24" type="checkbox" class="a3234"
+            ng-checked="client.etat_civil.assimilation.b.revenus_nets_annuels == 'Yes'" />
+        <input name="3d23" type="checkbox" class="a3225"
+            ng-checked="client.etat_civil.assimilation.a.revenus_mondiaux == 'Yes'" />
+        <input name="3d22" value="{{client.etat_civil.non_residents.conjoint_partenaire.localite}}" type="text"
+            class="a3216" />
+        <input name="3d21" value="{{client.etat_civil.non_residents.conjoint_partenaire.code_postal}}" type="text"
+            class="numo a3207" />
+        <input name="3d20" value="{{client.etat_civil.non_residents.contribuable.localite}}" type="text"
+            class="a3198" />
+        <input name="3d19" value="{{client.etat_civil.non_residents.contribuable.code_postal}}" type="text"
+            class="numo a3189" />
+        <input name="3d18" value="{{client.etat_civil.non_residents.conjoint_partenaire.rue}}" type="text"
+            class="a31710" />
+        <input name="3d17" value="{{client.etat_civil.non_residents.conjoint_partenaire.numero}}" type="text"
+            class="a31611" />
+        <input name="3d16" value="{{client.etat_civil.non_residents.contribuable.rue}}" type="text" class="a31512" />
+        <input name="3d15" value="{{client.etat_civil.non_residents.contribuable.numero}}" type="text" class="a31413" />
+        <input name="3d14" value="{{client.etat_civil.non_residents.conjoint_partenaire.date_de_naissance}}" type="text"
+            maxlength="13" class="numo cell-in0 a_left a31314" />
+        <input name="3d13" value="{{client.etat_civil.non_residents.contribuable.date_de_naissance}}" type="text"
+            maxlength="13" class="numo cell-in0 a_left a31215" />
+        <input name="3d12" value="{{client.etat_civil.non_residents.conjoint_partenaire.nom_prenom}}" type="text"
+            class="a31116" />
+        <input name="3d11" value="{{client.etat_civil.non_residents.contribuable.nom_prenom}}" type="text"
+            class="a31017" />
+        <input name="3d10" value="{{client.etat_civil.separe_e.is_le}}" type="text" class="date t_center a30918" />
+        <input name="3d8" type="checkbox" class="a30819"
+            ng-checked="client.etat_civil.separe_e.is_dispense_autorite_judiciaire == 'Yes'" />
+        <input name="3d7" type="checkbox" class="a30720"
+            ng-checked="client.etat_civil.separe_e.is_jugement_separation == 'Yes'" />
+        <input name="3d6" type="checkbox" class="a30621"
+            ng-checked="client.etat_civil.separe_e.is_dispense_legale == 'Yes'" />
+        <input name="3d5" value="{{client.etat_civil.is_depuis_le}}" type="text" class="date t_center a30522" />
+        <input name="3d1" id="3d4" type="radio" class="a30423" value="veuf" />
+        <label for="3d4" class="a30423"></label>
+        <input name="3d1" id="3d3" type="radio" class="a30324" value="divorce" />
+        <label for="3d3" class="a30324"></label>
+        <input name="3d1" id="3d2" type="radio" class="a30225" value="marie" />
+        <label for="3d2" class="a30225"></label>
+        <input name="3d1" id="3d1" type="radio" value="celibataire" />
+        <label for="3d1" class="a30126"></label>
+        <input name="3d9" type="text" class="rectangleclassedimpt27" readonly />
+        <div class=a28 id=83189d1c-0e7b-49f5-9a5c-31244da8dcd2 data-id=83189d1c-0e7b-49f5-9a5c-31244da8dcd2> %</div>
+        <div class=a29 id=c20f7e78-feaa-46fb-85a4-bb189f054418 data-id=c20f7e78-feaa-46fb-85a4-bb189f054418> =</div>
+        <div class=a30 id=a8a6cbeb-1f20-4bdf-a01e-fd2a8876acf6 data-id=a8a6cbeb-1f20-4bdf-a01e-fd2a8876acf6>
+            _____________________</div>
+        <div class=x10031 id=16925564-3f01-418f-a9fb-9ba29e20c60e data-id=16925564-3f01-418f-a9fb-9ba29e20c60e> x
+            100</div>
+        <div class=group132 id=fa0cbc6b-9f81-448d-bcd3-fa67e542c427 data-id=fa0cbc6b-9f81-448d-bcd3-fa67e542c427>
+            <img class=path10 id=9806a2e3-65e3-46f3-a8ff-ca9b9d8b2378 data-id=9806a2e3-65e3-46f3-a8ff-ca9b9d8b2378
+                src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5eb6aa06bed90bbf300d260e/img/4b88a7789c6e8e0e12660877bcddcb7f@1x.png
+                alt=Image />
+        </div>
+        <div class=lescontribuablesnonrsidentsdoiventindiquerleursrevenusdesourceluxembourgeoisedanslescolonnesrevenusnonexonrs33
+            id=cb0d8671-119d-474e-9cfa-b425b443e973 data-id=cb0d8671-119d-474e-9cfa-b425b443e973> Les contribuables
+            non résidents doivent indiquer leurs revenus de source luxembourgeoise dans les colonnes «revenus non
+            exonérés».</div>
+        <div class=totaldesrevenusnonexonrsetexonrs34 id=39a99d55-87a8-4983-b873-54e0f05dde9c
+            data-id=39a99d55-87a8-4983-b873-54e0f05dde9c> Total des revenus «non exonérés» et «exonérés»</div>
+        <div class=a35 id=4ebfba77-0cb1-40bd-8bc0-d0dbab1fc48b data-id=4ebfba77-0cb1-40bd-8bc0-d0dbab1fc48b>
+            __________________________________________</div>
+        <div class=totaldesrevenusnonexonrsx10036 id=3df09626-bba7-4cb8-9f9a-753f5c7c1c05
+            data-id=3df09626-bba7-4cb8-9f9a-753f5c7c1c05> Total des revenus «non exonérés»&nbsp;&nbsp;x&nbsp;&nbsp;
+            100</div>
+        <div class=dterminationduseuildesrevenusimposablesauluxembourg37 id=d7512a38-6e40-4938-83b9-0c6a44cfe686
+            data-id=d7512a38-6e40-4938-83b9-0c6a44cfe686> Détermination du seuil des revenus imposables au
+            Luxembourg</div>
+        <div class=lecontribuablenonrsidentayantsarsidencefiscaleenbelgiquepeutenvertudesdispositionsdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetreassimilauxcontribuablesrsidentssiplus38
+            id=2c7b5217-2cd0-4b66-af1c-e54c52a41ffe data-id=2c7b5217-2cd0-4b66-af1c-e54c52a41ffe> le contribuable
+            non résident ayant sa résidence fiscale en Belgique peut, en vertu des dispositions de l&#39;article 24
+            § 4a de la <br />convention contre les doubles impositions entre le Luxembourg et la Belgique, être
+            assimilé aux contribuables résidents si plus de<br />50% des revenus professionnels de son ménage sont
+            imposables au Luxembourg.</div>
+        <div class=c39 id=b83c069f-6c47-4368-9759-442b850c2e44 data-id=b83c069f-6c47-4368-9759-442b850c2e44> C.
+        </div>
+        <div class=lesrevenusnetsannuelsnonsoumislimptsurlerevenuluxembourgeoissontinfrieurs1300040
+            id=7d61e8d8-5c2e-4a0d-918d-344dc9dd18c1 data-id=7d61e8d8-5c2e-4a0d-918d-344dc9dd18c1> les revenus nets
+            annuels non soumis à l&#39;impôt sur le revenu luxembourgeois sont inférieurs à 13 000 €;</div>
+        <div class=b41 id=a1d4b2cb-97b1-4b77-943c-ef5233dc34bf data-id=a1d4b2cb-97b1-4b77-943c-ef5233dc34bf> B.
+        </div>
+        <div class=aumoins90desrevenusmondiauxsontimposablesauluxembourgpourcentagedterminerselonlescases325327lesrevenusprovenantduneoccupationsalariedontledroitdimpositionnerevientpasauluxembourgenvertuduneconventioncontr42
+            id=a8ae3a65-08ca-4d36-9f76-5753bd06b582 data-id=a8ae3a65-08ca-4d36-9f76-5753bd06b582> au moins 90% des
+            revenus mondiaux sont imposables au Luxembourg (pourcentage à déterminer selon les cases 325 à
+            327)<br />(les revenus provenant d&#39;une occupation salariée, dont le droit d&#39;imposition ne
+            revient pas au Luxembourg, en vertu d&#39;une <br />convention contre les doubles impositions, sont à
+            assimiler aux revenus imposables au Grand-Duché uniquement à<br />concurrence du revenu non imposable au
+            Luxembourg correspondant au maximum à 50 jours de travail);</div>
+        <div class=a43 id=02da8290-ed83-4ab0-8915-5f3b1db8ef1f data-id=02da8290-ed83-4ab0-8915-5f3b1db8ef1f> A.
+        </div>
+        <div class=lecontribuablenonrsidentpeuttreassimilaucontribuablersidentsiaumoinsunedesconditionssuivantesestremplieencequiconcernelescontribuablesnonrsidentsmarisilsuffitquaumoinslundespouxsatisfaitlaconditionsousao44
+            id=04044b5b-da74-4e56-9064-451a94955848 data-id=04044b5b-da74-4e56-9064-451a94955848> Le contribuable
+            non résident peut être assimilé au contribuable résident si au moins une des conditions suivantes est
+            remplie (en ce qui<br />concerne les contribuables non résidents mariés il suffit qu’au moins l’un des
+            époux satisfait à la condition sous A. ou B. et que la<br />demande est faite conjointement) :</div>
+        <div class=demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
+            id=beee69c7-16a7-4522-affe-07d64cf3123d data-id=beee69c7-16a7-4522-affe-07d64cf3123d><span
+                data-id="beee69c7-16a7-4522-affe-07d64cf3123d span0" class="span0">Demande pour l&#39;application
+                des dispositions de l&#39;article 157ter L.I.R. et de l&#39;article 24 § 4a de la convention contre
+                les doubles<br />impositions entre le Luxembourg et la Belgique. Tous les </span><span
+                data-id="beee69c7-16a7-4522-affe-07d64cf3123d span1" class="span1">revenus de source
+                luxembourgeoise</span><span data-id="beee69c7-16a7-4522-affe-07d64cf3123d span2" class="span2">
+                (revenus non exonérés) </span><span data-id="beee69c7-16a7-4522-affe-07d64cf3123d span3"
+                class="span3">et de source non<br />luxembourgeoise</span><span
+                data-id="beee69c7-16a7-4522-affe-07d64cf3123d span4" class="span4"> (revenus exonérés) du
+                contribuable et le cas échéant de son conjoint / partenaire </span><span
+                data-id="beee69c7-16a7-4522-affe-07d64cf3123d span5" class="span5">doivent être déclarés</span><span
+                data-id="beee69c7-16a7-4522-affe-07d64cf3123d span6" class="span6">.</span></div>
+        <div class=assimilationdunonrsidentaursident46 id=81edd3b9-7e49-4e92-aa83-1ae8471f0b35
+            data-id=81edd3b9-7e49-4e92-aa83-1ae8471f0b35> Assimilation du non-résident au résident</div>
+        <div class=jour47 id=bf116e9b-18d0-41b4-80ed-d3eea7751468 data-id=bf116e9b-18d0-41b4-80ed-d3eea7751468> Jour
+        </div>
+        <div class=mois48 id=a76041df-3b97-462a-b570-1bf101abae45 data-id=a76041df-3b97-462a-b570-1bf101abae45> Mois
+        </div>
+        <div class=anne49 id=8397019f-b35f-4bb2-865a-6e66fe9ffa98 data-id=8397019f-b35f-4bb2-865a-6e66fe9ffa98>
+            Année</div><img class=line2450 id=f8ca8dfc-7e94-4f89-b7ce-4411c6654f22
+            data-id=f8ca8dfc-7e94-4f89-b7ce-4411c6654f22
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line2351 id=eecce1fa-b120-4313-ac8f-da3054f3ac94
+            data-id=eecce1fa-b120-4313-ac8f-da3054f3ac94
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line2252 id=abc71bd2-31f7-4779-935c-e9914205b211
+            data-id=abc71bd2-31f7-4779-935c-e9914205b211
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line2153 id=c815168b-875b-427d-ac1c-8758b1f86740
+            data-id=c815168b-875b-427d-ac1c-8758b1f86740
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line2054 id=b8ca939e-863e-4606-bd40-92b324c6b0ae
+            data-id=b8ca939e-863e-4606-bd40-92b324c6b0ae
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png
+            alt=Image /><img class=line1955 id=b284ee22-3e98-400a-9271-bde10fbf21f0
+            data-id=b284ee22-3e98-400a-9271-bde10fbf21f0
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line1856 id=694d7fab-a45f-49ce-a54d-b35526ce4be4
+            data-id=694d7fab-a45f-49ce-a54d-b35526ce4be4
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png
+            alt=Image /><img class=line1757 id=6223c9fb-9a2e-497e-9d85-5f22bb38ce4c
+            data-id=6223c9fb-9a2e-497e-9d85-5f22bb38ce4c
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line1658 id=4197720e-374a-432d-ac38-88ffeaef9688
+            data-id=4197720e-374a-432d-ac38-88ffeaef9688
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png
+            alt=Image /><img class=line1559 id=ed329ed1-8e71-45df-8450-67fe92d72357
+            data-id=ed329ed1-8e71-45df-8450-67fe92d72357
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line1460 id=ad0bd1e2-2cdc-4eaa-9b26-9f340dcb860f
+            data-id=ad0bd1e2-2cdc-4eaa-9b26-9f340dcb860f
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line1361 id=1008a334-be12-4ce5-963c-b97a3f0e56f8
+            data-id=1008a334-be12-4ce5-963c-b97a3f0e56f8
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image />
+        <div class=pourlecontribuableconjointpartenaire62 id=af8ae2ff-ce3e-400c-9708-691d4901656b
+            data-id=af8ae2ff-ce3e-400c-9708-691d4901656b> Pour le contribuable conjoint/partenaire</div>
+        <div class=jour63 id=ae9cb47e-844a-4809-9d0f-a1e5c695aff0 data-id=ae9cb47e-844a-4809-9d0f-a1e5c695aff0> Jour
+        </div>
+        <div class=mois64 id=3febaa47-7a65-4625-951b-5f0c14b6039d data-id=3febaa47-7a65-4625-951b-5f0c14b6039d> Mois
+        </div>
+        <div class=anne65 id=a4fc50d7-33e3-4343-8dcf-d57c3253d538 data-id=a4fc50d7-33e3-4343-8dcf-d57c3253d538>
+            Année</div><img class=line1266 id=10c25234-5dc1-43fb-8ca5-7f41f6768376
+            data-id=10c25234-5dc1-43fb-8ca5-7f41f6768376
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line1167 id=a72bdc17-637f-4b1f-8561-4f4df65ad2fb
+            data-id=a72bdc17-637f-4b1f-8561-4f4df65ad2fb
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line1068 id=987ac1b4-901a-4dc1-82f3-bf70d85ed2c1
+            data-id=987ac1b4-901a-4dc1-82f3-bf70d85ed2c1
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line969 id=1bf24cf3-88fa-4b57-88b1-1f60a71afdb3
+            data-id=1bf24cf3-88fa-4b57-88b1-1f60a71afdb3
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line870 id=7e5eb90d-424b-46e1-a1a8-22bf4fb0eb5b
+            data-id=7e5eb90d-424b-46e1-a1a8-22bf4fb0eb5b
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png
+            alt=Image /><img class=line771 id=6cc69da5-00cd-42af-82dd-5c92527f9acf
+            data-id=6cc69da5-00cd-42af-82dd-5c92527f9acf
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line672 id=f796bf95-d858-4be6-9823-60accc207149
+            data-id=f796bf95-d858-4be6-9823-60accc207149
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png
+            alt=Image /><img class=line573 id=c97e9543-2f61-42a1-b752-a11b150c82d1
+            data-id=c97e9543-2f61-42a1-b752-a11b150c82d1
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line474 id=33a31fc2-d83f-40db-9a8e-87379286e4dc
+            data-id=33a31fc2-d83f-40db-9a8e-87379286e4dc
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png
+            alt=Image /><img class=line375 id=9f4eb9b7-4f46-4ac9-ab22-9f9493070dac
+            data-id=9f4eb9b7-4f46-4ac9-ab22-9f9493070dac
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line276 id=0721bb6e-9013-46d9-b5ff-86d27be4a0f8
+            data-id=0721bb6e-9013-46d9-b5ff-86d27be4a0f8
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image /><img class=line177 id=a289b7b0-e655-4ede-86ea-2183b26bc7d1
+            data-id=a289b7b0-e655-4ede-86ea-2183b26bc7d1
+            src=https://anima-uploads.s3.amazonaws.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png
+            alt=Image />
+        <div class=pourlecontribuable78 id=a4f4dc45-3ba2-4478-b893-ec803c46947d
+            data-id=a4f4dc45-3ba2-4478-b893-ec803c46947d> Pour le contribuable</div>
+        <div class=codepostallocalit79 id=eaf0ee78-aa3f-46aa-9234-d366480d764e
+            data-id=eaf0ee78-aa3f-46aa-9234-d366480d764e> Code postal -<br />localité</div>
+        <div class=numrorue80 id=2bae4530-815f-49f4-a09c-7257e78a7ba0 data-id=2bae4530-815f-49f4-a09c-7257e78a7ba0>
+            Numéro - rue</div>
+        <div class=datedenaissancenumrodidentification81 id=24c3cd47-c86d-453d-8bbe-061c9ceff5c4
+            data-id=24c3cd47-c86d-453d-8bbe-061c9ceff5c4> Date de naissance /<br />numéro<br />d’identification
+        </div>
+        <div class=nometprnom82 id=7e4899cc-2d40-4be3-a960-91bdbb55dc98 data-id=7e4899cc-2d40-4be3-a960-91bdbb55dc98>
+            Nom et prénom</div>
+        <div class=electionfacultativedundomicileauluxembourgadressepourlanotificationdesbulletinsdimpt83
+            id=bbaf1d4c-71e5-4c6d-a899-ed4e684f8049 data-id=bbaf1d4c-71e5-4c6d-a899-ed4e684f8049><span
+                data-id="bbaf1d4c-71e5-4c6d-a899-ed4e684f8049 span0" class="span0">Election facultative d&#39;un
+                domicile au Luxembourg</span><span data-id="bbaf1d4c-71e5-4c6d-a899-ed4e684f8049 span1" class="span1">
+                (adresse pour la notification des bulletins d&#39;impôt)</span></div>
+        <div class=nonrsidentsremplirparlescontribuablesquinontpasleurdomicilefiscalouleursjourhabituelauluxembourg84
+            id=0fe7c7be-dea8-4f24-b618-e8698654ddd0 data-id=0fe7c7be-dea8-4f24-b618-e8698654ddd0> Non-résidents (à
+            remplir par les contribuables qui n&#39;ont pas leur domicile fiscal ou leur séjour<br />habituel au
+            Luxembourg)</div>
+        <div class=le85 id=73cc7b6a-48d7-4f4e-94e5-119c23215f7c data-id=73cc7b6a-48d7-4f4e-94e5-119c23215f7c> le:
+        </div>
+        <div class=classedimpt86 id=c964be9d-893b-494c-92d7-5706f46bd395 data-id=c964be9d-893b-494c-92d7-5706f46bd395>
+            Classe d&#39;impôt:</div>
+        <div class=a87 id=edf36b98-cd50-45c5-84d7-28095a7ce03c data-id=edf36b98-cd50-45c5-84d7-28095a7ce03c> }</div>
+        <div class=depuisle88 id=2d491b7a-0d00-4a85-82bf-25af1fb32a46 data-id=2d491b7a-0d00-4a85-82bf-25af1fb32a46>
+            depuis le:</div>
+        <div class=a89 id=ec6c754f-ce75-4622-a769-3214cac487b0 data-id=ec6c754f-ce75-4622-a769-3214cac487b0> }</div>
+        <div class=envertudunedispensedelautoritjudiciaireaccorde90 id=f4619417-acb2-4353-9417-c2588513607b
+            data-id=f4619417-acb2-4353-9417-c2588513607b> - en vertu d&#39;une dispense de l&#39;autorité judiciaire
+            accordée</div>
+        <div class=envertudunjugementdesparationdecorpsprononc91 id=569aadbb-17be-43c7-ba63-9110e6d2af95
+            data-id=569aadbb-17be-43c7-ba63-9110e6d2af95> - en vertu d&#39;un jugement de séparation de corps
+            prononcé</div>
+        <div class=envertudunedispenselgaleaccorde92 id=b7716e18-170b-45d0-9063-8fcfc4c25b60
+            data-id=b7716e18-170b-45d0-9063-8fcfc4c25b60> - en vertu d&#39;une dispense légale accordée</div>
+        <div class=spare93 id=f508659f-b401-453b-b453-6d738a840c46 data-id=f508659f-b401-453b-b453-6d738a840c46>
+            Séparé(e):</div>
+        <div class=veufveuve94 id=4a5bf973-9368-43e9-9040-c1a41039d76f data-id=4a5bf973-9368-43e9-9040-c1a41039d76f>
+            Veuf / veuve</div>
+        <div class=divorce95 id=a35e35fd-73c1-4539-83a2-1f0ea34036dc data-id=a35e35fd-73c1-4539-83a2-1f0ea34036dc>
+            Divorcé(e)</div>
+        <div class=marie96 id=14a0ee3a-328e-4168-b6de-76ef8394260a data-id=14a0ee3a-328e-4168-b6de-76ef8394260a>
+            Marié(e)</div>
+        <div class=clibataire97 id=70fddb02-8431-4931-9fb3-9b620293e310 data-id=70fddb02-8431-4931-9fb3-9b620293e310>
+            Célibataire</div>
+        <div class=etatcivil98 id=9a4edb81-26e2-474f-a75f-afe7186d4958 data-id=9a4edb81-26e2-474f-a75f-afe7186d4958>
+            Etat civil</div>
+        <div class=enr99 id=8b0c8a25-7adf-4e9e-b930-26a0770ad934 data-id=8b0c8a25-7adf-4e9e-b930-26a0770ad934> E/NR
+        </div>
     </div>
-    <div class="group-1" data-id="fa0cbc6b-9f81-448d-bcd3-fa67e542c427"><img class="path-1-VyzZeT"
-            data-id="9806a2e3-65e3-46f3-a8ff-ca9b9d8b2378"
-            src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5eb6aa06bed90bbf300d260e/img/4b88a7789c6e8e0e12660877bcddcb7f@1x.png"
-            anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5eb6aa06bed90bbf300d260e/img/4b88a7789c6e8e0e12660877bcddcb7f@1x.png">
-    </div>
-    <p class="total-des-reven-xonrs-et-exonrs arial-regular-normal-black-16px"
-        data-id="39a99d55-87a8-4983-b873-54e0f05dde9c">Total des revenus «non exonérés» et «exonérés»</p>
-    <div class="x-" data-id="4ebfba77-0cb1-40bd-8bc0-d0dbab1fc48b">__________________________________________
-    </div>
-    <p class="total-des-reven-on-exonrs-x-100 arial-regular-normal-black-16px"
-        data-id="3df09626-bba7-4cb8-9f9a-753f5c7c1c05">Total des revenus «non exonérés»&nbsp;&nbsp;x&nbsp;&nbsp; 100
-    </p>
-    <p class="dtermination-du-s-au-luxembourg arial-regular-normal-black-16px"
-        data-id="d7512a38-6e40-4938-83b9-0c6a44cfe686">Détermination du seuil des revenus imposables au Luxembourg
-    </p>
-    <p class="le-contribuable-sidents-si-plus arial-regular-normal-black-16px"
-        data-id="2c7b5217-2cd0-4b66-af1c-e54c52a41ffe">le contribuable non résident ayant sa résidence fiscale en
-        Belgique peut, en vertu des dispositions de l'article 24 § 4a de la <br>convention contre les doubles
-        impositions entre le Luxembourg et la Belgique, être assimilé aux contribuables résidents si plus de<br>50%
-        des revenus professionnels de son ménage sont imposables au Luxembourg.</p>
-    <div class="c arial-regular-normal-black-16px" data-id="b83c069f-6c47-4368-9759-442b850c2e44">C.</div>
-    <p class="les-revenus-net-nfrieurs-13-000 arial-regular-normal-black-16px"
-        data-id="7d61e8d8-5c2e-4a0d-918d-344dc9dd18c1">les revenus nets annuels non soumis à l'impôt sur le revenu
-        luxembourgeois sont inférieurs à 13 000 €;</p>
-    <div class="b arial-regular-normal-black-16px" data-id="a1d4b2cb-97b1-4b77-943c-ef5233dc34bf">B.</div>
-    <p class="au-moins-90-des-onvention-contr arial-regular-normal-black-16px"
-        data-id="a8ae3a65-08ca-4d36-9f76-5753bd06b582">au moins 90% des revenus mondiaux sont imposables au
-        Luxembourg (pourcentage à déterminer selon les cases 325 à 327)<br>(les revenus provenant d'une occupation
-        salariée, dont le droit d'imposition ne revient pas au Luxembourg, en vertu d'une <br>convention contre les
-        doubles impositions, sont à assimiler aux revenus imposables au Grand-Duché uniquement à<br>concurrence du
-        revenu non imposable au Luxembourg correspondant au maximum à 50 jours de travail);</p>
-    <div class="a arial-regular-normal-black-16px" data-id="02da8290-ed83-4ab0-8915-5f3b1db8ef1f">A.</div>
-    <p class="le-contribuable-dition-sous-a-o arial-regular-normal-black-16px"
-        data-id="04044b5b-da74-4e56-9064-451a94955848">Le contribuable non résident peut être assimilé au
-        contribuable résident si au moins une des conditions suivantes est remplie (en ce qui<br>concerne les
-        contribuables non résidents mariés il suffit qu’au moins l’un des époux satisfait à la condition sous A. ou
-        B. et que la<br>demande est faite conjointement par apposition de la signature des 2 conjoints à la page
-        20):</p>
-    <p class="demande-pour-la-nrs-et-de-sourc" data-id="beee69c7-16a7-4522-affe-07d64cf3123d"><span
-            class="span0-7qukLx">Demande pour l'application des dispositions de l'article 157ter L.I.R. et de
-            l'article 24 § 4a de la convention contre les doubles<br>impositions entre le Luxembourg et la Belgique.
-            Tous les </span><span class="span1-7qukLx">revenus de source luxembourgeoise</span><span
-            class="span2-7qukLx"> (revenus non exonérés) </span><span class="span3-7qukLx">et de source
-            non<br>luxembourgeoise</span><span class="span4-7qukLx"> (revenus exonérés) du contribuable et le cas
-            échéant de son conjoint / partenaire </span><span class="span5-7qukLx">doivent être déclarés</span><span
-            class="span6-7qukLx">.</span></p>
-    <div class="assimilation-du-dent-au-rsident" data-id="81edd3b9-7e49-4e92-aa83-1ae8471f0b35">Assimilation
-        du non-résident au résident</div>
-    <div class="jour arial-regular-normal-black-16px" data-id="bf116e9b-18d0-41b4-80ed-d3eea7751468">Jour
-    </div>
-    <div class="mois arial-regular-normal-black-16px" data-id="a76041df-3b97-462a-b570-1bf101abae45">Mois
-    </div>
-    <div class="anne arial-regular-normal-black-16px" data-id="8397019f-b35f-4bb2-865a-6e66fe9ffa98">Année
-    </div><img class="line-24" data-id="f8ca8dfc-7e94-4f89-b7ce-4411c6654f22"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-23" data-id="eecce1fa-b120-4313-ac8f-da3054f3ac94"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-22" data-id="abc71bd2-31f7-4779-935c-e9914205b211"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-21" data-id="c815168b-875b-427d-ac1c-8758b1f86740"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-20" data-id="b8ca939e-863e-4606-bd40-92b324c6b0ae"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"><img
-        class="line-19" data-id="b284ee22-3e98-400a-9271-bde10fbf21f0"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-18" data-id="694d7fab-a45f-49ce-a54d-b35526ce4be4"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"><img
-        class="line-17" data-id="6223c9fb-9a2e-497e-9d85-5f22bb38ce4c"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-16" data-id="4197720e-374a-432d-ac38-88ffeaef9688"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"><img
-        class="line-15" data-id="ed329ed1-8e71-45df-8450-67fe92d72357"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-14" data-id="ad0bd1e2-2cdc-4eaa-9b26-9f340dcb860f"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-13" data-id="1008a334-be12-4ce5-963c-b97a3f0e56f8"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png">
-    <div class="pour-le-contrib-jointpartenaire arial-regular-normal-black-16px"
-        data-id="af8ae2ff-ce3e-400c-9708-691d4901656b">Pour le contribuable conjoint/partenaire</div>
-    <div class="jour-VMr6Om arial-regular-normal-black-16px" data-id="ae9cb47e-844a-4809-9d0f-a1e5c695aff0">Jour
-    </div>
-    <div class="mois-VMr6Om arial-regular-normal-black-16px" data-id="3febaa47-7a65-4625-951b-5f0c14b6039d">Mois
-    </div>
-    <div class="anne-VMr6Om arial-regular-normal-black-16px" data-id="a4fc50d7-33e3-4343-8dcf-d57c3253d538">Année
-    </div><img class="line-12" data-id="10c25234-5dc1-43fb-8ca5-7f41f6768376"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-11" data-id="a72bdc17-637f-4b1f-8561-4f4df65ad2fb"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-10" data-id="987ac1b4-901a-4dc1-82f3-bf70d85ed2c1"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-9" data-id="1bf24cf3-88fa-4b57-88b1-1f60a71afdb3"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-8" data-id="7e5eb90d-424b-46e1-a1a8-22bf4fb0eb5b"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"><img
-        class="line-7" data-id="6cc69da5-00cd-42af-82dd-5c92527f9acf"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-6" data-id="f796bf95-d858-4be6-9823-60accc207149"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"><img
-        class="line-5" data-id="c97e9543-2f61-42a1-b752-a11b150c82d1"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-4" data-id="33a31fc2-d83f-40db-9a8e-87379286e4dc"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-4@1x.png"><img
-        class="line-3" data-id="9f4eb9b7-4f46-4ac9-ab22-9f9493070dac"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-2" data-id="0721bb6e-9013-46d9-b5ff-86d27be4a0f8"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"><img
-        class="line-1" data-id="a289b7b0-e655-4ede-86ea-2183b26bc7d1"
-        src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png"
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f37ea0c675036ff5becdeed/img/line-1@1x.png">
-    <div class="pour-le-contribuable arial-regular-normal-black-16px"
-        data-id="a4f4dc45-3ba2-4478-b893-ec803c46947d">Pour le contribuable</div>
-    <div class="code-postal-localit arial-regular-normal-black-16px"
-        data-id="eaf0ee78-aa3f-46aa-9234-d366480d764e">Code postal -<br>localité</div>
-    <div class="numro-rue arial-regular-normal-black-16px" data-id="2bae4530-815f-49f4-a09c-7257e78a7ba0">
-        Numéro - rue</div>
-    <div class="date-de-naissan-didentification arial-regular-normal-black-16px"
-        data-id="24c3cd47-c86d-453d-8bbe-061c9ceff5c4">Date de naissance /<br>numéro<br>d’identification</div>
-    <div class="nom-et-prnom arial-regular-normal-black-16px" data-id="7e4899cc-2d40-4be3-a960-91bdbb55dc98">
-        Nom et prénom</div>
-    <div class="election-facult-bulletins-dimpt" data-id="bbaf1d4c-71e5-4c6d-a899-ed4e684f8049"><span
-            class="span0-TIxzm7">Election facultative d'un domicile au Luxembourg</span><span class="span1-TIxzm7">
-            (adresse pour la notification des bulletins d'impôt)</span></div>
-    <div class="non-rsidents-re-l-au-luxembourg" data-id="0fe7c7be-dea8-4f24-b618-e8698654ddd0">Non-résidents
-        (à remplir par les contribuables qui n'ont pas leur domicile fiscal ou leur séjour<br>habituel au
-        Luxembourg)</div>
-    <div class="le arial-regular-normal-black-16px" data-id="73cc7b6a-48d7-4f4e-94e5-119c23215f7c">le:</div>
-    <div class="classe-dimpt arial-regular-normal-black-16px" data-id="c964be9d-893b-494c-92d7-5706f46bd395">
-        Classe d'impôt:</div>
-    <h1 class="title" data-id="edf36b98-cd50-45c5-84d7-28095a7ce03c">}</h1>
-    <div class="depuis-le arial-regular-normal-black-16px" data-id="2d491b7a-0d00-4a85-82bf-25af1fb32a46">
-        depuis le:</div>
-    <div class="x-QxM5SU" data-id="ec6c754f-ce75-4622-a769-3214cac487b0">}</div>
-    <p class="x-en-vertu-dune-iciaire-accorde arial-regular-normal-black-16px"
-        data-id="f4619417-acb2-4353-9417-c2588513607b">- en vertu d'une dispense de l'autorité judiciaire accordée
-    </p>
-    <p class="x-en-vertu-dun-j-e-corps-prononc arial-regular-normal-black-16px"
-        data-id="569aadbb-17be-43c7-ba63-9110e6d2af95">- en vertu d'un jugement de séparation de corps prononcé</p>
-    <p class="x-en-vertu-dune-e-lgale-accorde arial-regular-normal-black-16px"
-        data-id="b7716e18-170b-45d0-9063-8fcfc4c25b60">- en vertu d'une dispense légale accordée</p>
-    <div class="spare arial-regular-normal-black-16px" data-id="f508659f-b401-453b-b453-6d738a840c46">
-        Séparé(e):</div>
-    <div class="veuf-veuve arial-regular-normal-black-16px" data-id="4a5bf973-9368-43e9-9040-c1a41039d76f">
-        Veuf / veuve</div>
-    <div class="divorce arial-regular-normal-black-16px" data-id="a35e35fd-73c1-4539-83a2-1f0ea34036dc">
-        Divorcé(e)</div>
-    <div class="marie arial-regular-normal-black-16px" data-id="14a0ee3a-328e-4168-b6de-76ef8394260a">
-        Marié(e)</div>
-    <div class="clibataire arial-regular-normal-black-16px" data-id="70fddb02-8431-4931-9fb3-9b620293e310">
-        Célibataire</div>
-    <div class="etat-civil" data-id="9a4edb81-26e2-474f-a75f-afe7186d4958">Etat civil</div>
-    <div class="enr" data-id="8b0c8a25-7adf-4e9e-b930-26a0770ad934">E/NR</div>
 </div>
             <div id="page4" class="x04 screen">
     <input class="x429">
