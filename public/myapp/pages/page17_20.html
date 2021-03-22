@@ -1,83 +1,127 @@
 <div class="x17 screen " data-id="2be261a9-fe1c-48a2-b1a3-ee469463b02b">
-    <input class="checkbox-78">
-    <input class="checkbox-77">
-    <input class="checkbox-76">
-    <input class="checkbox-75">
-    <input class="checkbox-74">
-    <input class="checkbox-73">
-    <input class="checkbox-72">
-    <input class="checkbox-71">
-    <input class="checkbox-70">
-    <input class="checkbox-69">
-    <input class="checkbox-68">
-    <input class="checkbox-67">
-    <input class="checkbox-66">
-    <input class="checkbox-65">
-    <input class="checkbox-64">
-    <input class="checkbox-63">
-    <input class="checkbox-62">
-    <input class="checkbox-61">
-    <input class="checkbox-60">
-    <input class="checkbox-59">
-    <input class="checkbox-58">
-    <input class="checkbox-57">
-    <input class="checkbox-56">
-    <input class="checkbox-55">
-    <input class="checkbox-54">
-    <input class="checkbox-53">
-    <input class="checkbox-52">
-    <input class="checkbox-51">
-    <input class="checkbox-50">
-    <input class="checkbox-49">
-    <input class="checkbox-48">
-    <input class="checkbox-47">
-    <input class="checkbox-46">
-    <input class="checkbox-45">
-    <input class="checkbox-44">
-    <input class="checkbox-43">
-    <input class="checkbox-42">
-    <input class="checkbox-41">
-    <input class="checkbox-40">
-    <input class="checkbox-39">
-    <input class="checkbox-38">
-    <input class="checkbox-37">
-    <input class="checkbox-36">
-    <input class="checkbox-35">
-    <input class="checkbox-34">
-    <input class="checkbox-33">
-    <input class="checkbox-32">
-    <input class="checkbox-31">
-    <input class="checkbox-30">
-    <input class="checkbox-29">
-    <input class="checkbox-28">
-    <input class="checkbox-27">
-    <input class="checkbox-26">
-    <input class="checkbox-25">
-    <input class="checkbox-24">
-    <input class="checkbox-23">
-    <input class="checkbox-22">
-    <input class="checkbox-21">
-    <input class="checkbox-20">
-    <input class="checkbox-19">
-    <input class="checkbox-18">
-    <input class="checkbox-17">
-    <input class="checkbox-16">
-    <input class="checkbox-15">
-    <input class="checkbox-14">
-    <input class="checkbox-13">
-    <input class="checkbox-12">
-    <input class="checkbox-11">
-    <input class="checkbox-10">
-    <input class="checkbox-9">
-    <input class="checkbox-8">
-    <input class="checkbox-7">
-    <input class="checkbox-6">
-    <input class="checkbox-5">
-    <input class="checkbox-4">
-    <input class="checkbox-3">
-    <input class="checkbox-2">
-    <input class="checkbox-1">
-    <input class="x1722">
+    <input name="17d1728" type="text"
+        value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_annuel}}"
+        class="x1722 num">
+    <input name="17d1727" type="text"
+        value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_annuel}}"
+        class="x1721 num">
+    <textarea name="17d1722" type="textarea" onkeyup="isSaveAlive(true)"
+        class="x1720">{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.nom}}</textarea>
+    <textarea name="17d1721" type="textarea" onkeyup="isSaveAlive(true)"
+        class="x1719">{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.nom}}</textarea>
+    <input name="17d1720" type="checkbox" class="x1718"
+        ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.is_frais_domestiques == 'Yes'">
+    <input name="17d1719" type="text"
+        value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux}}"
+        class="x1717 num">
+    <input name="17d1717" id="17d1718" type="radio" value="deja_presente" />
+    <label for="17d1718" class="x1716"></label>
+    <input name="17d1717" id="17d1717" type="radio" value="annexe" />
+    <label for="17d1717" class="x1715"></label>
+    <input name="17d1716" type="text"
+        value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux}}" class="x1714 num">
+    <input name="17d1714" id="17d1715" type="radio" value="deja_presente" />
+    <label for="17d1715" class="x1713"></label>
+    <input name="17d1714" id="17d1714" type="radio" value="annexe" />
+    <label for="17d1714" class="x1712"></label>
+    <input name="17d1713" type="checkbox" class="x1711"
+        ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite == 'Yes'">
+    <input name="17d1711" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r7}}" class="x1710">
+    <input name="17d1710" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r6}}" class="x1709">
+    <input name="17d1709" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r5}}" class="x1708">
+    <input name="17d1708" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r4}}" class="x1707">
+    <input name="17d1707" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r3}}" class="x1706">
+    <input name="17d1706" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r2}}" class="x1705">
+    <input name="17d1705" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r1}}" class="x1704">
+    <input name="17d1704" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.total}}"
+        class="num t_center x17021703" readonly>
+    <input name="17d1703" type="text"
+        value="{{client.charges_extraordinaires_17.abattement.detail_charges.conjoint_partenaire}}" class="x1703 num"
+        onkeyup="valueCal(['17d1702', '17d1703'], [], '17d1704')">
+    <input name="17d1702" type="text"
+        value="{{client.charges_extraordinaires_17.abattement.detail_charges.contribuable}}" class="x1702 num"
+        onkeyup="valueCal(['17d1702', '17d1703'], [], '17d1704')">
+    <input name="17d1701" type="checkbox" class="x1701"
+        ng-checked="client.charges_extraordinaires_17.abattement.is_abattement1 == 'Yes'">
+    <input type="checkbox" class="checkbox-78">
+    <input type="checkbox" class="checkbox-77">
+    <input type="checkbox" class="checkbox-76">
+    <input type="checkbox" class="checkbox-75">
+    <input type="checkbox" class="checkbox-74">
+    <input type="checkbox" class="checkbox-73">
+    <input type="checkbox" class="checkbox-72">
+    <input type="checkbox" class="checkbox-71">
+    <input type="checkbox" class="checkbox-70">
+    <input type="checkbox" class="checkbox-69">
+    <input type="checkbox" class="checkbox-68">
+    <input type="checkbox" class="checkbox-67">
+    <input type="checkbox" class="checkbox-66">
+    <input type="checkbox" class="checkbox-65">
+    <input type="checkbox" class="checkbox-64">
+    <input type="checkbox" class="checkbox-63">
+    <input type="checkbox" class="checkbox-62">
+    <input type="checkbox" class="checkbox-61">
+    <input type="checkbox" class="checkbox-60">
+    <input type="checkbox" class="checkbox-59">
+    <input type="checkbox" class="checkbox-58">
+    <input type="checkbox" class="checkbox-57">
+    <input type="checkbox" class="checkbox-56">
+    <input type="checkbox" class="checkbox-55">
+    <input type="checkbox" class="checkbox-54">
+    <input type="checkbox" class="checkbox-53">
+    <input type="checkbox" class="checkbox-52">
+    <input type="checkbox" class="checkbox-51">
+    <input type="checkbox" class="checkbox-50">
+    <input type="checkbox" class="checkbox-49">
+    <input type="checkbox" class="checkbox-48">
+    <input type="checkbox" class="checkbox-47">
+    <input type="checkbox" class="checkbox-46">
+    <input type="checkbox" class="checkbox-45">
+    <input type="checkbox" class="checkbox-44">
+    <input type="checkbox" class="checkbox-43">
+    <input type="checkbox" class="checkbox-42">
+    <input type="checkbox" class="checkbox-41">
+    <input type="checkbox" class="checkbox-40">
+    <input type="checkbox" class="checkbox-39">
+    <input type="checkbox" class="checkbox-38">
+    <input type="checkbox" class="checkbox-37">
+    <input type="checkbox" class="checkbox-36">
+    <input type="checkbox" class="checkbox-35">
+    <input type="checkbox" class="checkbox-34">
+    <input type="checkbox" class="checkbox-33">
+    <input type="checkbox" class="checkbox-32">
+    <input type="checkbox" class="checkbox-31">
+    <input type="checkbox" class="checkbox-30">
+    <input type="checkbox" class="checkbox-29">
+    <input type="checkbox" class="checkbox-28">
+    <input type="checkbox" class="checkbox-27">
+    <input type="checkbox" class="checkbox-26">
+    <input type="checkbox" class="checkbox-25">
+    <input type="checkbox" class="checkbox-24">
+    <input type="checkbox" class="checkbox-23">
+    <input type="checkbox" class="checkbox-22">
+    <input type="checkbox" class="checkbox-21">
+    <input type="checkbox" class="checkbox-20">
+    <input type="checkbox" class="checkbox-19">
+    <input type="checkbox" class="checkbox-18">
+    <input type="checkbox" class="checkbox-17">
+    <input type="checkbox" class="checkbox-16">
+    <input type="checkbox" class="checkbox-15">
+    <input type="checkbox" class="checkbox-14">
+    <input type="checkbox" class="checkbox-13">
+    <input type="checkbox" class="checkbox-12">
+    <input type="checkbox" class="checkbox-11">
+    <input type="checkbox" class="checkbox-10">
+    <input type="checkbox" class="checkbox-9">
+    <input type="checkbox" class="checkbox-8">
+    <input type="checkbox" class="checkbox-7">
+    <input type="checkbox" class="checkbox-6">
+    <input type="checkbox" class="checkbox-5">
+    <input type="checkbox" class="checkbox-4">
+    <input type="checkbox" class="checkbox-3">
+    <input type="checkbox" class="checkbox-2">
+    <input type="checkbox" class="checkbox-1">
+    <!-- <input class="x1722">
     <input class="x1721">
     <input class="x1720">
     <input class="x1719">
@@ -99,7 +143,7 @@
     <input class="x17021703">
     <input class="x1703">
     <input class="x1702">
-    <input class="x1701">
+    <input class="x1701"> -->
     <div class="montant-annuel-des-frais arial-regular-normal-black-16px"
         data-id="04c0fb4f-66a8-4cda-8f3d-fe5a2a229f15">Montant annuel des frais</div>
     <div class="montant-annuel-des-frais-VMr6Om arial-regular-normal-black-16px"
@@ -214,8 +258,8 @@
         crèche,<br>etc.)</p>
     <div class="contribuable arial-regular-normal-black-16px" data-id="2117c66c-7a78-4610-8583-56276f037683">
         Contribuable</div>
-    <p class="frais-de-domest-19-dcembre-2008 arial-normal-black-16px"
-        data-id="22e154c2-e1e2-427c-b7f4-8a601c376785"><span class="span0-6p4Ex2">Frais de domesticité, frais
+    <p class="frais-de-domest-19-dcembre-2008 arial-normal-black-16px" data-id="22e154c2-e1e2-427c-b7f4-8a601c376785">
+        <span class="span0-6p4Ex2">Frais de domesticité, frais
             d&#39;aides et de soins en raison de l&#39;état de dépendance, frais de garde d&#39;enfant<br></span><span
             class="span1-6p4Ex2">(règlement grand-ducal modifié du 19 décembre 2008)</span></p>
     <div class="x arial-regular-normal-black-16px" data-id="7ca36060-0bdb-47e0-ae50-2aa2e6516324">%</div>
@@ -225,8 +269,8 @@
         annexe</div>
     <p class="taux-de-la-rduc-acit-de-travail arial-regular-normal-black-16px"
         data-id="376457a8-26f8-4fc4-a02a-7f5e4b8e60b0">Taux de la réduction de la<br>capacité de travail</p>
-    <div class="certificat-mdical arial-regular-normal-black-16px"
-        data-id="09c6c0de-f139-4574-a8c1-58487cd23e90">Certificat médical</div>
+    <div class="certificat-mdical arial-regular-normal-black-16px" data-id="09c6c0de-f139-4574-a8c1-58487cd23e90">
+        Certificat médical</div>
     <div class="contribuable-co-jointpartenaire-VMr6Om arial-regular-normal-black-16px"
         data-id="4dc91e38-c412-415f-8e7c-42c2ac71f2ac">Contribuable conjoint/partenaire</div>
     <div class="x-VMr6Om arial-regular-normal-black-16px" data-id="c3e113b8-79fb-41a3-b3d5-f5e97ef96bed">%</div>
@@ -240,12 +284,12 @@
         data-id="fa645d6c-5bc1-48f8-8b27-b5b4d8562e48">Certificat médical</div>
     <div class="contribuable-VMr6Om arial-regular-normal-black-16px" data-id="2217a0e1-c653-43ca-80db-5435e79e3c23">
         Contribuable</div>
-    <p class="invalidit-et-in-du-7-mars-1969 arial-normal-black-16px"
-        data-id="c47f8c38-47d0-4df7-a104-93d5b2660125"><span class="span0-OfYm7O">Invalidité et infirmité</span><span
-            class="span1-OfYm7O"> (règlement grand-ducal modifié du 7 mars 1969)</span></p>
-    <p class="abattements-for-aires-suivantes arial-normal-black-16px"
-        data-id="13993e05-9f75-4ec8-9ac4-4248038ce8d5"><span class="span0-bFGG0p">Abattements forfaitaires</span><span
-            class="span1-bFGG0p"> prévus pour les charges extraordinaires suivantes:</span></p>
+    <p class="invalidit-et-in-du-7-mars-1969 arial-normal-black-16px" data-id="c47f8c38-47d0-4df7-a104-93d5b2660125">
+        <span class="span0-OfYm7O">Invalidité et infirmité</span><span class="span1-OfYm7O"> (règlement grand-ducal
+            modifié du 7 mars 1969)</span></p>
+    <p class="abattements-for-aires-suivantes arial-normal-black-16px" data-id="13993e05-9f75-4ec8-9ac4-4248038ce8d5">
+        <span class="span0-bFGG0p">Abattements forfaitaires</span><span class="span1-bFGG0p"> prévus pour les charges
+            extraordinaires suivantes:</span></p>
     <div class="contribuableconjointpartenaire arial-regular-normal-black-16px"
         data-id="c0810719-31b0-4db1-aae0-b49a4b4f5f49">Contribuable<br>conjoint/partenaire</div>
     <div class="contribuable-mzXdH9 arial-regular-normal-black-16px" data-id="e4ca63ec-cdbd-4f1a-acde-edefe0f77c63">
