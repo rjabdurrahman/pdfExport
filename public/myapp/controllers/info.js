@@ -69,8 +69,11 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
 
 app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
   pageInit()
-  let clientId = location.href.split('id=')[1]
+  let clientId = location.href.split('id=')[1];
+  $scope.active = true;
   $scope.client = {}
+  $scope.data19 = {}
+  $scope.data20 = {}
   $http({
     method: 'GET',
     url: `/api/client/${clientId}`
@@ -78,11 +81,26 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     .then(function (res) {
       $('.load-overlay').hide();
       $scope.client = res.data['y' + location.href.match(/20\d\d/)[0]]
+      if(location.href.match(/2020/g)) {
+        $scope.data19 = res.data.y2019;
+        $scope.data20 = res.data.y2020;
+      }
       console.log($scope.client);
       afterDataLoaded($scope.client);
-      $scope.$applyAsync()
+      $scope.$applyAsync();
     })
     .catch(function (err) {
       console.log(err, err)
     })
+  $scope.view19 = function() {
+    if($scope.active) {
+      $scope.client = $scope.data19;
+      $(".form-input input").prop("disabled", true);
+    } else {
+      $scope.client = $scope.data20;
+      $(".form-input input").prop("disabled", false);
+    }
+    $scope.$applyAsync();
+    $scope.active = !$scope.active;
+  }
 })

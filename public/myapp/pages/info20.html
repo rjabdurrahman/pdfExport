@@ -6,9 +6,12 @@
             </span>
         </button>
         <label>2020 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
-        <a onclick="resetPage()" class="w3-button refresh">
-            <span class="material-icons">refresh</span>&nbsp;Réinitialiser
-        </a>
+        <div>
+            <a class="w3-button" ng-click="view19()">VIEW</a>
+            <a onclick="resetPage()" class="w3-button refresh">
+                <span class="material-icons">refresh</span>&nbsp;Réinitialiser
+            </a>
+        </div>
     </div>
     <div class="flex">
         <div style="position: sticky; top: 50px; height: calc(100vh - 50px); overflow: scroll;"
