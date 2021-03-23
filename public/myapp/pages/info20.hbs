@@ -6,9 +6,19 @@
             </span>
         </button>
         <label>2020 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
-        <a onclick="resetPage()" class="w3-button refresh">
-            <span class="material-icons">refresh</span>&nbsp;Réinitialiser
-        </a>
+        <div>
+            <a style="color: white;" class="w3-button" ng-click="view19()">
+                <span ng-if="active" class="material-icons">
+                    event_available
+                </span>
+                <span ng-if="!active" class="material-icons">
+                    event_busy
+                </span>
+            </a>
+            <a onclick="resetPage()" class="w3-button refresh">
+                <span class="material-icons">refresh</span>&nbsp;Réinitialiser
+            </a>
+        </div>
     </div>
     <div class="flex">
         <div style="position: sticky; top: 50px; height: calc(100vh - 50px); overflow: scroll;"
@@ -16,20 +26,11 @@
             <left-nav></left-nav>
         </div>
         <div class="form-input">
-            {{<page1_20.html}}
-            {{<page3_20.html}}
-            {{<page4_20.html}}
-            {{<page14.html}}
-            {{<page15.html}}
-            {{<page16.html}}
-            <div id="page17">
-                {{<page17_20.html}}
-                {{<page18_20.html}}
-            </div>
-            {{<page19.html}}
-            {{<page20.html}}
+            {{<page1_20.html}} {{<page3_20.html}} {{<page4_20.html}} {{<page14.html}} {{<page15.html}} {{<page16.html}}
+                <div id="page17">
+                {{<page17_20.html}} {{<page18_20.html}} </div>
+                    {{<page19.html}} {{<page20.html}} </div>
         </div>
-    </div>
 </form>
 <script>
     $('.form-input > *').hide();
@@ -90,7 +91,7 @@
         isSaveAlive(true);
     })
     window.addEventListener("beforeunload", function (e) {
-        if($('#submitInfoBtn')[0].disabled) return undefined;
+        if ($('#submitInfoBtn')[0].disabled) return undefined;
         var confirmationMessage = 'It looks like you have been editing something. '
             + 'If you leave before saving, your changes will be lost.';
 
