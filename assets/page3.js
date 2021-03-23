@@ -41,7 +41,8 @@ module.exports = function(info){
                     total_revenus_non_exoneres: info['3d26'],
                     total_revenus_non_exoneres_et_exoneres: info['3d27'],
                     pourcentage: info['3d28']
-                }
+                },
+                is_declaration_revocation: info['3d29'] ? info['3d29'] : 'Off'
             }
         }
     }

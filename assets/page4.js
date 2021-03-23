@@ -14,7 +14,9 @@ module.exports = function(info){
                 is_confirmation_choix: info['4d6'] ? info['4d6'] : 'Off',
                 sl_envoi: info['4d7'],
                 is_annee_imposition_2019: info['4d9'] ? info['4d9'] : 'Off',
-                sl_imposition: info['4d10']
+                sl_imposition: info['4d10'],
+                is_declaration_revocation: info['4d29'] ? info['4d29'] : 'Off',
+                imposition: info['4d30'],
             },
             informations_complementaires: {
                 contribuable: {
