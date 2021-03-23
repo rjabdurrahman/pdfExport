@@ -43741,6 +43741,19 @@ header {
   margin-top: 18px;
 }
 
+.top-nav .user .flags {
+  height: 100%;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 80px;
+}
+
+.top-nav .user .flags img {
+  height: 40px;
+  width: 40px;
+}
+
 .top-nav .user .letters {
   height: 40px;
   width: 40px;
