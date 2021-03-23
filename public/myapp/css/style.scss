@@ -418,8 +418,11 @@ header {
 	align-items: center;
 	font-size: 14px;
 
-	button {
+	.w3-button {
 		height: 50px;
+		display: inline-flex;
+		align-items: center;
+		box-sizing: border-box;
 	}
 
 	.w3-button:hover {
@@ -429,9 +432,6 @@ header {
 
 	.refresh {
 		background-color: $red-color;
-		display: inline-flex;
-		align-items: center;
-		height: 100%;
 	}
 }
 

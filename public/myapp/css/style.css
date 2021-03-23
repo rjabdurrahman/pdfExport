@@ -43907,8 +43907,16 @@ header {
   font-size: 14px;
 }
 
-.top-bar button {
+.top-bar .w3-button {
   height: 50px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .top-bar .w3-button:hover {
@@ -43918,13 +43926,6 @@ header {
 
 .top-bar .refresh {
   background-color: #cf4044;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 100%;
 }
 
 .form-input {
