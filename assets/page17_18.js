@@ -1,7 +1,7 @@
-module.exports = function(info){
+module.exports = function (info) {
     return {
         charges_extraordinaires_17: {
-            abattement:{
+            abattement: {
                 is_abattement1: info['17d1701'] ? info['17d1701'] : 'Off',
                 detail_charges: {
                     contribuable: info['17d1702'],
@@ -18,7 +18,7 @@ module.exports = function(info){
                     r7: info['17d1711'],
                     r8: info['17d1712']
                 }
-                
+
             },
             abattements_forfaitaires1: {
                 is_invalidite: info['17d1713'] ? info['17d1713'] : 'Off',
@@ -37,12 +37,106 @@ module.exports = function(info){
                     nom: info['17d1721'],
                     montant_mensuel: info['17d1723'],
                     pendant_mois: info['17d1725'],
+                    type_frais: {
+                        domesticite: {
+                            annee_entiere: 1,
+                            n_1: 1,
+                            n_2: 1,
+                            n_3: 1,
+                            n_4: 1,
+                            n_5: 1,
+                            n_6: 1,
+                            n_7: 1,
+                            n_8: 1,
+                            n_9: 1,
+                            n_10: 1,
+                            n_11: 1,
+                            n_12: 1
+                        },
+                        aides_et_soins: {
+                            annee_entiere: 1,
+                            n_1: 1,
+                            n_2: 1,
+                            n_3: 1,
+                            n_4: 1,
+                            n_5: 1,
+                            n_6: 1,
+                            n_7: 1,
+                            n_8: 1,
+                            n_9: 1,
+                            n_10: 1,
+                            n_11: 1,
+                            n_12: 1
+                        },
+                        garde_enfants: {
+                            annee_entiere: 1,
+                            n_1: 1,
+                            n_2: 1,
+                            n_3: 1,
+                            n_4: 1,
+                            n_5: 1,
+                            n_6: 1,
+                            n_7: 1,
+                            n_8: 1,
+                            n_9: 1,
+                            n_10: 1,
+                            n_11: 1,
+                            n_12: 1
+                        }
+                    },
                     montant_annuel: info['17d1727']
                 },
                 conjoint_partenaire: {
                     nom: info['17d1722'],
                     montant_mensuel: info['17d1724'],
                     pendant_mois: info['17d1726'],
+                    type_frais: {
+                        domesticite: {
+                            annee_entiere: 1,
+                            n_1: 1,
+                            n_2: 1,
+                            n_3: 1,
+                            n_4: 1,
+                            n_5: 1,
+                            n_6: 1,
+                            n_7: 1,
+                            n_8: 1,
+                            n_9: 1,
+                            n_10: 1,
+                            n_11: 1,
+                            n_12: 1
+                        },
+                        aides_et_soins: {
+                            annee_entiere: 1,
+                            n_1: 1,
+                            n_2: 1,
+                            n_3: 1,
+                            n_4: 1,
+                            n_5: 1,
+                            n_6: 1,
+                            n_7: 1,
+                            n_8: 1,
+                            n_9: 1,
+                            n_10: 1,
+                            n_11: 1,
+                            n_12: 1
+                        },
+                        garde_enfants: {
+                            annee_entiere: 1,
+                            n_1: 1,
+                            n_2: 1,
+                            n_3: 1,
+                            n_4: 1,
+                            n_5: 1,
+                            n_6: 1,
+                            n_7: 1,
+                            n_8: 1,
+                            n_9: 1,
+                            n_10: 1,
+                            n_11: 1,
+                            n_12: 1
+                        }
+                    },
                     montant_annuel: info['17d1728']
                 }
             }
@@ -135,7 +229,18 @@ module.exports = function(info){
                     }
                 ]
             },
-            is_investissement: info['18d1835'] ? info['18d1835'] : 'Off'
+            is_investissement: info['18d1835'] ? info['18d1835'] : 'Off',
+            declaration: {
+                reponse: 1,
+                references: {
+                    f1: 1,
+                    f2: 1
+                },
+                observations: {
+                    f1: 1,
+                    f2: 1
+                }
+            }
         }
     }
 }
