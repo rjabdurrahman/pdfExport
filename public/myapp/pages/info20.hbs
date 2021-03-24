@@ -7,11 +7,11 @@
         </button>
         <label>2020 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
         <div>
-            <a style="color: white;" class="w3-button" ng-click="view19()">
+            <a class="w3-button" ng-click="view19()">
                 <span ng-if="active" class="material-icons">
                     event_available
                 </span>
-                <span ng-if="!active" class="material-icons">
+                <span ng-if="!active" style="color: #cf4044;" class="material-icons">
                     event_busy
                 </span>
             </a>
@@ -26,11 +26,20 @@
             <left-nav></left-nav>
         </div>
         <div class="form-input">
-            {{<page1_20.html}} {{<page3_20.html}} {{<page4_20.html}} {{<page14.html}} {{<page15.html}} {{<page16.html}}
-                <div id="page17">
-                {{<page17_20.html}} {{<page18_20.html}} </div>
-                    {{<page19.html}} {{<page20.html}} </div>
+            {{<page1_20.html}} 
+            {{<page3_20.html}} 
+            {{<page4_20.html}} 
+            {{<page14.html}} 
+            {{<page15.html}} 
+            {{<page16.html}}
+            <div id="page17">
+                {{<page17_20.html}} 
+                {{<page18_20.html}} 
+            </div>
+            {{<page19.html}} 
+            {{<page20.html}} 
         </div>
+    </div>
 </form>
 <script>
     $('.form-input > *').hide();
