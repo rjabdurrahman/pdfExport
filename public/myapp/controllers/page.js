@@ -1,4 +1,4 @@
-function checkDone () {
+function checkDone() {
   $(
     '.a01, .a02, .a03, .a04, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a17, .a19, .a20'
   ).each(function (i) {
@@ -41,7 +41,7 @@ function checkDone () {
       .removeClass('done');
 }
 
-function subMenuDoneChecker (selector, checkPoint) {
+function subMenuDoneChecker(selector, checkPoint) {
   let isDone = false
   $(
     `${selector} input:text, ${selector} input[type=number], ${selector} input:checkbox, ${selector} input:radio, ${selector} textarea`
@@ -61,7 +61,7 @@ function subMenuDoneChecker (selector, checkPoint) {
   if (!isDone) $(checkPoint).removeClass('done')
 }
 
-function subMenuDone () {
+function subMenuDone() {
   subMenuDoneChecker('.page5_p1', '.nv5_1')
   subMenuDoneChecker('.page5_p2', '.nv5_2')
   subMenuDoneChecker('.page14_p1', '.nv14_1')
@@ -75,7 +75,7 @@ function subMenuDone () {
   subMenuDoneChecker('.page16_p4', '.nv16_4')
 }
 
-function radioCheck (info) {
+function radioCheck(info) {
   if (_.get(info, 'etat_civil.statut'))
     $(`#page3 :radio[value=${info.etat_civil.statut}]`).attr('checked', true)
   if (_.get(info, 'options.partenaires.sl_document'))
@@ -90,6 +90,10 @@ function radioCheck (info) {
   if (_.get(info, 'options.imposition_individuelle.sl_imposition'))
     $(
       `#page4 :radio[value=${info.options.imposition_individuelle.sl_imposition}]`
+    ).attr('checked', true)
+  if (_.get(info, 'options.imposition_individuelle.imposition'))
+    $(
+      `#page4 :radio[value=${info.options.imposition_individuelle.imposition}]`
     ).attr('checked', true)
   if (
     _.get(
@@ -205,7 +209,7 @@ function radioCheck (info) {
     $(`#page17 :radio[id="17d1718"]`).attr('checked', true)
 }
 
-function pageInit () {
+function pageInit() {
   $('input:text.date').datepicker({ dateFormat: 'dd/mm/yy' })
   $('.load-overlay').show()
   $('.num:not([readonly]').focus(function () {
@@ -245,7 +249,7 @@ function pageInit () {
   pageCalculation()
 }
 
-function afterDataLoaded (info) {
+function afterDataLoaded(info) {
   radioCheck(info)
   setTimeout(checkDone, 500)
 }

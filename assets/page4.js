@@ -16,7 +16,7 @@ module.exports = function(info){
                 is_annee_imposition_2019: info['4d9'] ? info['4d9'] : 'Off',
                 sl_imposition: info['4d10'],
                 is_declaration_revocation: info['4dn13'] ? info['4dn13'] : 'Off',
-                imposition: info['4d30'],
+                imposition: info['4dn14'],
             },
             informations_complementaires: {
                 contribuable: {
