@@ -233,12 +233,12 @@ module.exports = function (info) {
             declaration: {
                 reponse: 1,
                 references: {
-                    f1: 1,
-                    f2: 1
+                    f1: info['18dn1839'],
+                    f2: info['18dn1840']
                 },
                 observations: {
-                    f1: 1,
-                    f2: 1
+                    f1: info['18dn1841'],
+                    f2: info['18dn1842']
                 }
             }
         }
