@@ -5424,8 +5424,7 @@
     <input name="4d19" type="text" value="{{client.options.informations_complementaires.contribuable.code_iban}}"
         class="x422" />
     <input name="4d18" type="text"
-        value="{{client.options.informations_complementaires.conjoint_partenaire.titulaire_du_compte}}"
-        class="x421" />
+        value="{{client.options.informations_complementaires.conjoint_partenaire.titulaire_du_compte}}" class="x421" />
     <input name="4d17" type="text"
         value="{{client.options.informations_complementaires.contribuable.titulaire_du_compte}}" class="x420" />
     <input name="4d16a" maxlength="4" type="text"
@@ -5442,6 +5441,11 @@
     <input name="4d15b" maxlength="5" type="text"
         value="{{client.options.informations_complementaires.contribuable.numero_dossier_individuel_b}}"
         class="numo cell-in3 x418b" />
+    <input name="4dn14" id="4dn15" type="radio">
+    <label for="4dn15" class="x415"></label>
+    <input name="4dn14" id="4dn14" type="radio">
+    <label for="4dn14" class="x414"></label>
+    <input name="4dn13" type="checkbox" class="x413" ng-checked="client.options.imposition_individuelle.is_declaration_revocation == 'Yes'">
     <input name="4d14" type="text"
         value="{{client.options.informations_complementaires.conjoint_partenaire.date_de_naissance}}" maxlength="13"
         class="numo a_left cell-in0 x417" />
@@ -5469,12 +5473,9 @@
     <input name="4d3" type="text" value="{{client.options.partenaires.declaration_partenariat}}"
         class="date t_center x403" />
     <input name="4d2" type="checkbox" class="x402"
-    ng-checked="client.options.partenaires.is_imposition_collective == 'Yes'" />
+        ng-checked="client.options.partenaires.is_imposition_collective == 'Yes'" />
     <input name="4d1" type="checkbox" class="x401"
-    ng-checked="client.options.epoux_contribuable.is_imposition_collective == 'Yes'" />
-    <input type="checkbox" class="x415">
-    <input type="checkbox" class="x414">
-    <input type="checkbox" class="x413">
+        ng-checked="client.options.epoux_contribuable.is_imposition_collective == 'Yes'" />
     <!-- <input class="x429">
     <input class="x428">
     <input class="x427">
