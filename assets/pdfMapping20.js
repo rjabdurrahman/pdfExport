@@ -3709,6 +3709,66 @@ module.exports = function (client) {
       'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_12',
       'Off'
     ),
+    ['x1718C01Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_1',
+      'Off'
+    ),
+    ['x1718C02Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_2',
+      'Off'
+    ),
+    ['x1718C03Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_3',
+      'Off'
+    ),
+    ['x1718C04Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_4',
+      'Off'
+    ),
+    ['x1718C05Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_5',
+      'Off'
+    ),
+    ['x1718C06Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_6',
+      'Off'
+    ),
+    ['x1718C07Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_7',
+      'Off'
+    ),
+    ['x1718C08Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_8',
+      'Off'
+    ),
+    ['x1718C09Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_9',
+      'Off'
+    ),
+    ['x1718C10Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_10',
+      'Off'
+    ),
+    ['x1718C11Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_11',
+      'Off'
+    ),
+    ['x1718C12Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_12',
+      'Off'
+    ),
     // Page 18
     ['x18dn1842x']: _.get(
       client,
