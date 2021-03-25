@@ -3589,6 +3589,66 @@ module.exports = function (client) {
       'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.annee_entiere',
       'Off'
     ),
+    ['x1718C01Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_1',
+      'Off'
+    ),
+    ['x1718C02Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_2',
+      'Off'
+    ),
+    ['x1718C03Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_3',
+      'Off'
+    ),
+    ['x1718C04Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_4',
+      'Off'
+    ),
+    ['x1718C05Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_5',
+      'Off'
+    ),
+    ['x1718C06Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_6',
+      'Off'
+    ),
+    ['x1718C07Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_7',
+      'Off'
+    ),
+    ['x1718C08Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_8',
+      'Off'
+    ),
+    ['x1718C09Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_9',
+      'Off'
+    ),
+    ['x1718C10Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_10',
+      'Off'
+    ),
+    ['x1718C11Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_11',
+      'Off'
+    ),
+    ['x1718C12Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_12',
+      'Off'
+    ),
     // Page 18
     ['x18dn1842x']: _.get(
       client,
