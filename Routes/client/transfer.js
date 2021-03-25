@@ -7,10 +7,11 @@ function transferClient({ body }, res) {
     Client.findById(clientId, (err, client) => {
         if (err) res.send(err)
         else {
+            let { signaletique, enfants, etat_civil } = client['y' + selectedYear];
             Client.findByIdAndUpdate(clientId, {
-                ['y' + targetYear]: client['y' + selectedYear]
-            }, {new: true}, (err, client) => {
-                if(err) res.send(err);
+                ['y' + targetYear]: { signaletique, enfants, etat_civil }
+            }, { new: true }, (err, client) => {
+                if (err) res.send(err);
                 else res.send(client);
             });
         }
