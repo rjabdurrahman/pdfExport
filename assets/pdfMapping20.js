@@ -3769,6 +3769,186 @@ module.exports = function (client) {
       'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_12',
       'Off'
     ),
+    ['x1718E01Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_1',
+      'Off'
+    ),
+    ['x1718E02Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_2',
+      'Off'
+    ),
+    ['x1718E03Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_3',
+      'Off'
+    ),
+    ['x1718E04Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_4',
+      'Off'
+    ),
+    ['x1718E05Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_5',
+      'Off'
+    ),
+    ['x1718E06Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_6',
+      'Off'
+    ),
+    ['x1718E07Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_7',
+      'Off'
+    ),
+    ['x1718E08Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_8',
+      'Off'
+    ),
+    ['x1718E09Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_9',
+      'Off'
+    ),
+    ['x1718E10Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_10',
+      'Off'
+    ),
+    ['x1718E11Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_11',
+      'Off'
+    ),
+    ['x1718E12Dx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_12',
+      'Off'
+    ),
+    ['x1718E01Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_1',
+      'Off'
+    ),
+    ['x1718E02Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_2',
+      'Off'
+    ),
+    ['x1718E03Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_3',
+      'Off'
+    ),
+    ['x1718E04Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_4',
+      'Off'
+    ),
+    ['x1718E05Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_5',
+      'Off'
+    ),
+    ['x1718E06Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_6',
+      'Off'
+    ),
+    ['x1718E07Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_7',
+      'Off'
+    ),
+    ['x1718E08Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_8',
+      'Off'
+    ),
+    ['x1718E09Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_9',
+      'Off'
+    ),
+    ['x1718E10Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_10',
+      'Off'
+    ),
+    ['x1718E11Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_11',
+      'Off'
+    ),
+    ['x1718E12Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_12',
+      'Off'
+    ),
+    ['x1718E01Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_1',
+      'Off'
+    ),
+    ['x1718E02Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_2',
+      'Off'
+    ),
+    ['x1718E03Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_3',
+      'Off'
+    ),
+    ['x1718E04Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_4',
+      'Off'
+    ),
+    ['x1718E05Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_5',
+      'Off'
+    ),
+    ['x1718E06Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_6',
+      'Off'
+    ),
+    ['x1718E07Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_7',
+      'Off'
+    ),
+    ['x1718E08Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_8',
+      'Off'
+    ),
+    ['x1718E09Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_9',
+      'Off'
+    ),
+    ['x1718E10Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_10',
+      'Off'
+    ),
+    ['x1718E11Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_11',
+      'Off'
+    ),
+    ['x1718E12Gx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_12',
+      'Off'
+    ),
     // Page 18
     ['x18dn1842x']: _.get(
       client,
