@@ -367,82 +367,82 @@ module.exports = function (client) {
     // Page 4
     ['x4d28x']: _.get(client, 'options.signature.date', ''),
     ['x4d27x']: _.get(client, 'options.signature.lieu', ''),
-    ['x4d26x']: _.get(
+    ['x4d29x']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.taux_revenu_imposable',
       ''
     ),
-    ['x4d25x']: _.get(
+    ['x4d28x']: _.get(
       client,
       'options.informations_complementaires.contribuable.taux_revenu_imposable',
       ''
     ),
-    ['x4d24x']: _.get(
+    ['x4d27x']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.taux_avances_communes',
       ''
     ),
-    ['x4d23x']: _.get(
+    ['x4d26x']: _.get(
       client,
       'options.informations_complementaires.contribuable.taux_avances_communes',
       ''
     ),
-    ['x4d22x']: _.get(
+    ['x4d25x']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.swift_bic',
       ''
     ),
-    ['x4d21x']: _.get(
+    ['x4d24x']: _.get(
       client,
       'options.informations_complementaires.contribuable.swift_bic',
       ''
     ),
-    ['x4d20x']: _.get(
+    ['x4d23x']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.code_iban',
       ''
     ),
-    ['x4d19x']: _.get(
+    ['x4d22x']: _.get(
       client,
       'options.informations_complementaires.contribuable.code_iban',
       ''
     ),
-    ['x4d18x']: _.get(
+    ['x4d21x']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.titulaire_du_compte',
       ''
     ),
-    ['x4d17x']: _.get(
+    ['x4d20x']: _.get(
       client,
       'options.informations_complementaires.contribuable.titulaire_du_compte',
       ''
     ),
-    ['x4d16ax']: _.get(
+    ['x4d19ax']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_a',
       ''
     ),
-    ['x4d16bx']: _.get(
+    ['x4d19bx']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.numero_dossier_individuel_b',
       ''
     ),
-    ['x4d15ax']: _.get(
+    ['x4d18ax']: _.get(
       client,
       'options.informations_complementaires.contribuable.numero_dossier_individuel_a',
       ''
     ),
-    ['x4d15bx']: _.get(
+    ['x4d18bx']: _.get(
       client,
       'options.informations_complementaires.contribuable.numero_dossier_individuel_b',
       ''
     ),
-    ['x4d14x']: _.get(
+    ['x4d17x']: _.get(
       client,
       'options.informations_complementaires.conjoint_partenaire.date_de_naissance',
       ''
     ),
-    ['x4d13x']: _.get(
+    ['x4d16x']: _.get(
       client,
       'options.informations_complementaires.contribuable.date_de_naissance',
       ''
