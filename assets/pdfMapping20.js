@@ -447,6 +447,8 @@ module.exports = function (client) {
       'options.informations_complementaires.contribuable.date_de_naissance',
       ''
     ),
+    ['x4d14x']: _.get(client, 'options.imposition_individuelle.imposition'),
+    ['x4d13x']: _.get(client, 'options.imposition_individuelle.is_declaration_revocation'),
     ['x4d10x']: _.get(client, 'options.imposition_individuelle.sl_imposition'),
     ['x4d9x']: _.get(
       client,
