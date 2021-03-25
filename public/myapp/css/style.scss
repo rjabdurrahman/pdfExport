@@ -596,7 +596,7 @@ select:focus {
 input[type="text"]:read-only,
 input[type="number"]:read-only,
 input[type="text"]:disabled {
-	background: #ffffff;
+	background: #ffffff !important;
 	color: black;
 }
 
