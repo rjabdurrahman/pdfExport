@@ -3649,6 +3649,66 @@ module.exports = function (client) {
       'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_12',
       'Off'
     ),
+    ['x1718C01Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_1',
+      'Off'
+    ),
+    ['x1718C02Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_2',
+      'Off'
+    ),
+    ['x1718C03Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_3',
+      'Off'
+    ),
+    ['x1718C04Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_4',
+      'Off'
+    ),
+    ['x1718C05Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_5',
+      'Off'
+    ),
+    ['x1718C06Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_6',
+      'Off'
+    ),
+    ['x1718C07Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_7',
+      'Off'
+    ),
+    ['x1718C08Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_8',
+      'Off'
+    ),
+    ['x1718C09Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_9',
+      'Off'
+    ),
+    ['x1718C10Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_10',
+      'Off'
+    ),
+    ['x1718C11Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_11',
+      'Off'
+    ),
+    ['x1718C12Ax']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_12',
+      'Off'
+    ),
     // Page 18
     ['x18dn1842x']: _.get(
       client,
