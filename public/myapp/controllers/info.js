@@ -96,15 +96,16 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     if ($scope.active) {
       $scope.client = $scope.data19;
       $(".form-input input").prop("disabled", true);
+      afterDataLoaded($scope.client);
       $('left-nav a.done span').css('color', 'orange');
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
       $scope.client = $scope.data20;
       $(".form-input input").prop("disabled", false);
+      afterDataLoaded($scope.client);
       $('left-nav a.done span').css('color', '#25c1a0');
       $('#submitInfoBtn').css('visibility', 'visible');
     }
-    afterDataLoaded($scope.client);
     $scope.$applyAsync();
     $scope.active = !$scope.active;
   }
