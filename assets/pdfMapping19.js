@@ -1,5 +1,5 @@
 const _ = require('lodash')
-module.exports = function (client) {
+module.exports = function serializeInfo (client) {
   return {
     ['x0d1x']: _.get(
       client,
