@@ -207,20 +207,10 @@ function radioCheck(info) {
     ) == 'deja_presente'
   )
     $(`#page17 :radio[id="17d1718"]`).attr('checked', true)
-  if (
-    _.get(
-      info,
-      'charges_extraordinaires_18.declaration.reponse'
-    ) == 'DAC6N'
-  )
-    $(`#page17 :radio[id="18dn2"]`).attr('checked', true)
-  else if (
-    _.get(
-      info,
-      'charges_extraordinaires_18.declaration.reponse'
-    ) == 'DAC6O'
-  )
-    $(`#page17 :radio[id="18dn1"]`).attr('checked', true)
+  if (_.get(info, 'charges_extraordinaires_18.declaration.reponse'))
+    $(
+      `#page17 :radio[value=${info.charges_extraordinaires_18.declaration.reponse}]`
+    ).attr('checked', true)
 }
 
 function pageInit() {
