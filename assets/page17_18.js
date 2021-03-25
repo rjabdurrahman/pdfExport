@@ -126,7 +126,7 @@ module.exports = function (info) {
                             n_1: info['17dc61'],
                             n_2: info['17dc62'],
                             n_3: info['17dc63'],
-                            n_4: info['17d64'],
+                            n_4: info['17dc64'],
                             n_5: info['17dc65'],
                             n_6: info['17dc66'],
                             n_7: info['17dc67'],
