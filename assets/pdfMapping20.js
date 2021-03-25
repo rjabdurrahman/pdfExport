@@ -3560,6 +3560,31 @@ module.exports = function (client) {
       ''
     ),
     // Page 18
+    ['x18dn1842x']: _.get(
+      client,
+      'charges_extraordinaires_18.declaration.observations.f2',
+      ''
+    ),
+    ['x18dn1841x']: _.get(
+      client,
+      'charges_extraordinaires_18.declaration.observations.f1',
+      ''
+    ),
+    ['x18dn1840x']: _.get(
+      client,
+      'charges_extraordinaires_18.declaration.references.f2',
+      ''
+    ),
+    ['x18dn1839x']: _.get(
+      client,
+      'charges_extraordinaires_18.declaration.references.f1',
+      ''
+    ),
+    ['x18dn1x']: _.get(
+      client,
+      'charges_extraordinaires_18.declaration.reponse',
+      ''
+    ),
     ['x18d1842x']: _.get(
       client,
       'charges_extraordinaires_18.is_abattement',
