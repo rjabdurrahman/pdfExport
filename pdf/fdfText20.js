@@ -272,10 +272,6 @@ let fdfText = `%FDF-1.2
 /T (1200)
 >> 
 <<
-/V /x17d1713x
-/T (1711)
->> 
-<<
 /V /x19d1917x
 /T (1906)
 >> 
@@ -342,6 +338,34 @@ let fdfText = `%FDF-1.2
 <<
 /V /x18d1842x
 /T (1801)
+>> 
+<<
+/V /x17dCAEDx
+/T (1718CAED)
+>>
+<<
+/V /x17dEAEDx
+/T (1718EAED)
+>> 
+<<
+/V /x17dCAEAx
+/T (1718CAEA)
+>>
+<<
+/V /x17dEAEAx
+/T (1718EAEA)
+>>
+<<
+/V /x17dCAEGx
+/T (1718CAEG)
+>>
+<<
+/V /x17dEAEGx
+/T (1718EAEG)
+>>
+<<
+/V /x17d1713x
+/T (1711)
 >> 
 <<
 /V /x18d1838x

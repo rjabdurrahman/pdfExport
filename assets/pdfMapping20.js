@@ -3497,7 +3497,7 @@ module.exports = function (client) {
     ['x17d1713x']: _.get(
       client,
       'charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite',
-      ''
+      'Off'
     ),
     ['x17d1712x']: _.get(
       client,
@@ -3558,6 +3558,36 @@ module.exports = function (client) {
       client,
       'charges_extraordinaires_17.abattement.is_abattement1',
       ''
+    ),
+    ['x17dCAEDx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.annee_entiere',
+      'Off'
+    ),
+    ['x17dEAEDx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.annee_entiere',
+      'Off'
+    ),
+    ['x17dCAEAx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.annee_entiere',
+      'Off'
+    ),
+    ['x17dEAEAx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.annee_entiere',
+      'Off'
+    ),
+    ['x17dCAEGx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.annee_entiere',
+      'Off'
+    ),
+    ['x17dEAEGx']: _.get(
+      client,
+      'charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.annee_entiere',
+      'Off'
     ),
     // Page 18
     ['x18dn1842x']: _.get(
