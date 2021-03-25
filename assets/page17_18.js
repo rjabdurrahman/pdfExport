@@ -231,7 +231,7 @@ module.exports = function (info) {
             },
             is_investissement: info['18d1835'] ? info['18d1835'] : 'Off',
             declaration: {
-                reponse: info['18dn1837'],
+                reponse: info['18dn1'],
                 references: {
                     f1: info['18dn1839'],
                     f2: info['18dn1840']
