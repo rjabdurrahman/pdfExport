@@ -10,7 +10,7 @@ module.exports = (req, res) => {
     let year = req.params.year;
     let pdfFile = '';
     if(year == 2019) pdfFile = '2019_editable.pdf';
-    else if(year == 2020) pdfFile = '2020.pdf';
+    else if(year == 2020) pdfFile = '100F_editable_2020.pdf';
     Client.findById(id, (err, client) => {
         if (err) res.send(err)
         else {
