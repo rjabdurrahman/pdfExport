@@ -13,13 +13,13 @@ module.exports = (req, res) => {
       delete refineClient.createdOn
       delete refineClient.modifiededOn
       let recovedClient = new Client(refineClient)
-      recovedClient.save((err, data) => {
-        if (err) res.send({ err: err.message })
-        else {
-          res.send({ success: 'Restored Client Successfully' })
-          DeletedClient.remove({ _id: ObjectID(id) }, (err, result) => {})
-        }
-      })
+      // recovedClient.save((err, data) => {
+      //   if (err) res.send({ err: err.message })
+      //   else {
+      //     res.send({ success: 'Restored Client Successfully' })
+      //     DeletedClient.remove({ _id: ObjectID(id) }, (err, result) => {})
+      //   }
+      // })
     }
   })
 }
