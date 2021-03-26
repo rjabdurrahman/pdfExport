@@ -4,17 +4,23 @@ module.exports = (req, res) => {
 
     DeletedClient.find(
         {},
-        {"signaletique.numero_de_dossier": 1, 
-        "signaletique.contribuable.nom": 1, 
-        "signaletique.contribuable.prenom": 1,
-        "signaletique.contribuable.telephone": 1,
-        "signaletique.contribuable.courriel": 1
-        }   
-        ).exec((err, result)=>{
-            if (err) res.send(err)
-            else {
-                res.send(result);
-            }
-        });
+        {
+            ["y2019" + ".signaletique.numero_de_dossier"]: 1,
+            ["y2019" + ".signaletique.contribuable.nom"]: 1,
+            ["y2019" + ".signaletique.contribuable.prenom"]: 1,
+            ["y2019" + ".signaletique.contribuable.telephone"]: 1,
+            ["y2019" + ".signaletique.contribuable.courriel"]: 1,
+            ["y2020" + ".signaletique.numero_de_dossier"]: 1,
+            ["y2020" + ".signaletique.contribuable.nom"]: 1,
+            ["y2020" + ".signaletique.contribuable.prenom"]: 1,
+            ["y2020" + ".signaletique.contribuable.telephone"]: 1,
+            ["y2020" + ".signaletique.contribuable.courriel"]: 1
+        }
+    ).exec((err, result) => {
+        if (err) res.send(err)
+        else {
+            res.send(result);
+        }
+    });
 
 }

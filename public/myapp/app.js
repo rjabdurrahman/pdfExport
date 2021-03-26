@@ -194,7 +194,22 @@ app.controller('RecycleCtrl', function ($scope, $http) {
     $http
       .get('/api/recycled_clients')
       .then(res => {
-        $scope.r_clients = res.data
+        $scope.r_clients = res.data.map(c => {
+          if(_.get(c, 'y2019.signaletique')) {
+            return {
+              _id: c._id,
+              year: 2019,
+              ...c.y2019
+            }
+          }
+          else if(c, 'y2020.signaletique') {
+            return {
+              _id: c._id,
+              year: 2020,
+              ...c.y2020
+            }
+          }
+        });
         $scope.loadingRecycledClients = false
         $scope.noRecycledClients = true
         $scope.$applyAsync()
