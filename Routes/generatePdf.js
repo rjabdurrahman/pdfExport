@@ -12,7 +12,10 @@ module.exports = (req, res) => {
     let year = req.params.year;
     let lang = req.params.lang;
     let pdfFile = '';
-    if (year == 2019) pdfFile = '2019_editable.pdf';
+    if (year == 2019) {
+        if(lang == 'fr') pdfFile = '2019_editable.pdf';
+        else if(lang == 'de') pdfFile = '100D_editable_2019.pdf';
+    }
     else if (year == 2020) {
         if(lang == 'fr') pdfFile = '100F_editable_2020.pdf';
         else if(lang == 'de') pdfFile = '100D_editable_2020.pdf';
