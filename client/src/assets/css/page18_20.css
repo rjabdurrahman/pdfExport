@@ -1,0 +1,2155 @@
+/* screen - 18 */
+.arial-bold-black-22px {
+  color: var(--black);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.arial-regular-normal-black-10px {
+  color: var(--black);
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-black-16px {
+  color: var(--black);
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x18 {
+  background-color: white;
+  height: 1547px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1060px;
+}
+
+.x18 p {
+  margin: 0 !important;
+}
+
+.x18 .a {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .abattement-de-r-itation-commune {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial", Helvetica;
+  font-size: 16px;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-2P4qUJ {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 322px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-J1YQmd {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 238px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-QxM5SU {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 414px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 498px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-a5WPlX {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 196px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-mzXdH9 {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 456px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .anne-qr8e7q {
+  background-color: transparent;
+  height: auto;
+  left: 358px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .b {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 346px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .checkbox-1 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 36px;
+  position: absolute;
+  top: 717px;
+  width: 20px;
+}
+
+.x18 .checkbox-2 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 254px;
+  position: absolute;
+  top: 717px;
+  width: 20px;
+}
+
+.x18 .checkbox-3 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 36px;
+  position: absolute;
+  top: 783px;
+  width: 20px;
+}
+
+.x18 .checkbox-4 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 254px;
+  position: absolute;
+  top: 783px;
+  width: 20px;
+}
+
+.x18 .checkbox-5 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 36px;
+  position: absolute;
+  top: 849px;
+  width: 20px;
+}
+
+.x18 .checkbox-6 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 254px;
+  position: absolute;
+  top: 849px;
+  width: 20px;
+}
+
+.x18 .contribuable {
+  background-color: transparent;
+  height: auto;
+  left: 101px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 676px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .contribuableconjointpartenaire {
+  background-color: transparent;
+  height: auto;
+  left: 298px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 668px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .date-de-naissan-didentification {
+  background-color: transparent;
+  height: auto;
+  left: 377px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .dclaration-en-v-claration-dac-6 {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 1044px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .demande-pour-un-mie-est-joindre {
+  background-color: transparent;
+  height: auto;
+  left: 72px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 978px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .demande-pour-un-ule-neufci-aprs {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 622px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .enfants-gs-dau-tives-aux-tudes {
+  background-color: transparent;
+  height: auto;
+  left: 66px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 348px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .enfants-gs-de-m-en-et-dducation {
+  background-color: transparent;
+  height: auto;
+  left: 66px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .httpsimpotsdire-sfrontiereshtml {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial-Regular", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 12px;
+  position: absolute;
+  text-align: left;
+  top: 1099px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .investissement-capital-risque {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 940px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-2P4qUJ {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 322px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-J1YQmd {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 238px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-QxM5SU {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 414px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 498px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-a5WPlX {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 196px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-mzXdH9 {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 456px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .jour-qr8e7q {
+  background-color: transparent;
+  height: auto;
+  left: 459px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .le-contribuable-tive-ue-2018822 {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1134px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .line-1 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-10 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-11 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-12 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-13 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-14 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-15 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-16 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-17 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-18 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-19 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-2 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-20 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-21 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-22 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-23 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-24 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 212px;
+  width: 1px;
+}
+
+.x18 .line-25 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-26 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-27 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-28 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-29 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-3 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-30 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-31 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-32 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-33 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-34 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-35 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-36 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 254px;
+  width: 1px;
+}
+
+.x18 .line-37 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-38 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-39 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-4 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-40 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-41 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-42 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-43 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-44 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-45 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-46 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-47 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-48 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 296px;
+  width: 1px;
+}
+
+.x18 .line-49 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-5 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-50 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-51 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-52 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-53 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-54 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-55 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-56 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-57 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-58 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-59 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-6 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-60 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 389px;
+  width: 1px;
+}
+
+.x18 .line-61 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-62 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-63 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-64 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-65 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-66 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-67 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-68 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-69 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-7 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-70 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-71 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-72 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 431px;
+  width: 1px;
+}
+
+.x18 .line-73 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-74 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-75 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-76 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-77 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-78 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-79 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-8 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-80 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-81 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-82 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-83 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-84 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 473px;
+  width: 1px;
+}
+
+.x18 .line-85 {
+  background-color: transparent;
+  height: 22px;
+  left: 353px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-86 {
+  background-color: transparent;
+  height: 22px;
+  left: 372px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-87 {
+  background-color: transparent;
+  height: 22px;
+  left: 391px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-88 {
+  background-color: transparent;
+  height: 22px;
+  left: 410px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-89 {
+  background-color: transparent;
+  height: 22px;
+  left: 429px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-9 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 170px;
+  width: 1px;
+}
+
+.x18 .line-90 {
+  background-color: transparent;
+  height: 22px;
+  left: 448px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-91 {
+  background-color: transparent;
+  height: 22px;
+  left: 467px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-92 {
+  background-color: transparent;
+  height: 22px;
+  left: 486px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-93 {
+  background-color: transparent;
+  height: 22px;
+  left: 505px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-94 {
+  background-color: transparent;
+  height: 22px;
+  left: 524px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-95 {
+  background-color: transparent;
+  height: 22px;
+  left: 543px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .line-96 {
+  background-color: transparent;
+  height: 22px;
+  left: 562px;
+  position: absolute;
+  top: 515px;
+  width: 1px;
+}
+
+.x18 .mobilit-durable {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 584px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-2P4qUJ {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 322px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 540px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-J1YQmd {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 238px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-QxM5SU {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 414px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 498px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-a5WPlX {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 196px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-mzXdH9 {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 456px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .mois-qr8e7q {
+  background-color: transparent;
+  height: auto;
+  left: 418px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  top: 280px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .montant-annuel-desfrais {
+  background-color: transparent;
+  height: auto;
+  left: 586px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .nom-et-prnom-de-lenfant {
+  background-color: transparent;
+  height: auto;
+  left: 91px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 98px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .non {
+  background-color: transparent;
+  height: auto;
+  left: 691px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1184px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .observations-ventuelles {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1358px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .oui {
+  background-color: transparent;
+  height: auto;
+  left: 474px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1184px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .rfrences-arrang-union-europenne {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1216px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .span0-VLTB27 {
+  color: black;
+  font-family: "Arial-Regular", Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x18 .span1-VLTB27 {
+  color: black;
+  font-family: "Arial-Bold", Helvetica;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.x18 .span2-VLTB27 {
+  color: black;
+  font-family: "Arial-Regular", Helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.x18 .spcification-de-professionnelle {
+  background-color: transparent;
+  height: auto;
+  left: 766px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .title {
+  background-color: transparent;
+  color: var(--black);
+  font-family: "Arial-Bold", Helvetica;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1021px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .un-cycle-avec-o-pdalage-assist {
+  background-color: transparent;
+  height: auto;
+  left: 479px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 786px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .une-voiture-aut-de-rechargeable {
+  background-color: transparent;
+  height: auto;
+  left: 479px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 852px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .une-voiture-aut-stible-hydrogne {
+  background-color: transparent;
+  height: auto;
+  left: 479px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 708px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .x {
+  background-color: transparent;
+  height: auto;
+  left: 458px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 852px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .x-VMr6Om {
+  background-color: transparent;
+  height: auto;
+  left: 458px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 786px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .x-mzXdH9 {
+  background-color: transparent;
+  height: auto;
+  left: 458px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 706px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .x-pour-les-dispo-ibuable-concern {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1514px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .x-veuillez-indiq-eois-ou-tranger {
+  background-color: transparent;
+  height: auto;
+  left: 36px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 892px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x18 .x1801 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 0px;
+  position: absolute;
+  top: 47px;
+  width: 20px;
+}
+
+.x18 .x1802a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 166px;
+  width: 149px;
+}
+
+.x18 .x1802b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 166px;
+  width: 149px;
+}
+
+.x18 .x1803 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 166px;
+  width: 248px;
+}
+
+.x18 .x1804 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 166px;
+  width: 148px;
+}
+
+.x18 .x1805a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 208px;
+  width: 149px;
+}
+
+.x18 .x1805b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 208px;
+  width: 149px;
+}
+
+.x18 .x1806 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 208px;
+  width: 248px;
+}
+
+.x18 .x1807 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 208px;
+  width: 148px;
+}
+
+.x18 .x1808a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 250px;
+  width: 149px;
+}
+
+.x18 .x1808b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 250px;
+  width: 149px;
+}
+
+.x18 .x1809 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 250px;
+  width: 248px;
+}
+
+.x18 .x1810 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 250px;
+  width: 148px;
+}
+
+.x18 .x1811a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 292px;
+  width: 149px;
+}
+
+.x18 .x1811b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 292px;
+  width: 149px;
+}
+
+.x18 .x1812 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 292px;
+  width: 248px;
+}
+
+.x18 .x1813 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 292px;
+  width: 148px;
+}
+
+.x18 .x1814a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 385px;
+  width: 149px;
+}
+
+.x18 .x1814b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 385px;
+  width: 149px;
+}
+
+.x18 .x1815 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 385px;
+  width: 248px;
+}
+
+.x18 .x1816 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 385px;
+  width: 148px;
+}
+
+.x18 .x1817 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 730px;
+  position: absolute;
+  top: 385px;
+  width: 272px;
+}
+
+.x18 .x1818a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 427px;
+  width: 149px;
+}
+
+.x18 .x1818b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 427px;
+  width: 149px;
+}
+
+.x18 .x1819 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 427px;
+  width: 248px;
+}
+
+.x18 .x1820 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 427px;
+  width: 148px;
+}
+
+.x18 .x1821 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 730px;
+  position: absolute;
+  top: 427px;
+  width: 272px;
+}
+
+.x18 .x1822a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 469px;
+  width: 149px;
+}
+
+.x18 .x1822b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 469px;
+  width: 149px;
+}
+
+.x18 .x1823 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 469px;
+  width: 248px;
+}
+
+.x18 .x1824 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 469px;
+  width: 148px;
+}
+
+.x18 .x1825 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 730px;
+  position: absolute;
+  top: 469px;
+  width: 272px;
+}
+
+.x18 .x1826a {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 511px;
+  width: 149px;
+}
+
+.x18 .x1826b {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 185px;
+  position: absolute;
+  top: 511px;
+  width: 149px;
+}
+
+.x18 .x1827 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 334px;
+  position: absolute;
+  top: 511px;
+  width: 248px;
+}
+
+.x18 .x1828 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 582px;
+  position: absolute;
+  top: 511px;
+  width: 148px;
+}
+
+.x18 .x1829 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 730px;
+  position: absolute;
+  top: 511px;
+  width: 272px;
+}
+
+.x18 .x1830 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 72px;
+  position: absolute;
+  top: 706px;
+  width: 148px;
+}
+
+.x18 .x1831 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 290px;
+  position: absolute;
+  top: 706px;
+  width: 148px;
+}
+
+.x18 .x1832 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 72px;
+  position: absolute;
+  top: 772px;
+  width: 148px;
+}
+
+.x18 .x1833 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 290px;
+  position: absolute;
+  top: 772px;
+  width: 148px;
+}
+
+.x18 .x1834 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 72px;
+  position: absolute;
+  top: 838px;
+  width: 148px;
+}
+
+.x18 .x1835 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 290px;
+  position: absolute;
+  top: 838px;
+  width: 148px;
+}
+
+.x18 .x1836 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 36px;
+  position: absolute;
+  top: 976px;
+  width: 20px;
+}
+
+.x18 .x1837 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 438px;
+  position: absolute;
+  top: 1183px;
+  width: 20px;
+}
+
+.x18 .x1838 {
+  background-color: var(--mercury);
+  height: 20px;
+  left: 655px;
+  position: absolute;
+  top: 1183px;
+  width: 20px;
+}
+
+.x18 .x1839 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 1245px;
+  width: 966px;
+}
+
+.x18 .x1840 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 1295px;
+  width: 966px;
+}
+
+.x18 .x1841 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 1390px;
+  width: 966px;
+}
+
+.x18 .x1842 {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 36px;
+  position: absolute;
+  top: 1440px;
+  width: 966px;
+}
+/*# sourceMappingURL=page18_20.css.map */

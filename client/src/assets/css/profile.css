@@ -1,0 +1,122 @@
+.font-class-1 {
+  color: var(--black);
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.profile-area {
+  background-color: white;
+  height: 385px;
+  overflow: hidden;
+  position: relative;
+  width: 828px;
+}
+
+.profile-area .confirmer-C61RwL {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 250px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.profile-area .mot-de-passe-C61RwL {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 170px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.profile-area .nom-C61RwL {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  left: 428px;
+  position: absolute;
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.profile-area .prenom-C61RwL {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 84px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.profile-area .utilisateur-C61RwL {
+  background-color: rgba(0, 0, 0, 0);
+  height: auto;
+  left: 0px;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.profile-area .x001-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 108px;
+  width: 400px;
+}
+
+.profile-area .x001-VMr6Om {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 25px;
+  width: 400px;
+}
+
+.profile-area .x002-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 428px;
+  position: absolute;
+  top: 108px;
+  width: 400px;
+}
+
+.profile-area .x003-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 196px;
+  width: 400px;
+}
+
+.profile-area .x004-C61RwL {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 0px;
+  position: absolute;
+  top: 274px;
+  width: 400px;
+}
+
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --mercury: rgba(223, 226, 229, 1);
+}
+/*# sourceMappingURL=profile.css.map */

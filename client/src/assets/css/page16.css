@@ -1,0 +1,1791 @@
+.a16 {
+  width: 100%;
+  min-width: 1062px;
+  height: 100vh;
+  min-height: 1540px;
+  position: relative;
+  overflow: hidden;
+  margin: 0px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.anima-full-width-a {
+  width: 100%;
+}
+
+.anima-full-height-a {
+  height: 100%;
+}
+
+div {
+  -webkit-text-size-adjust: none;
+}
+
+.a16 .a16390 {
+  background-color: #dfe2e5;
+  top: 1497px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a163716381 {
+  background-color: #dfe2e5;
+  top: 1440px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a16382 {
+  background-color: #dfe2e5;
+  top: 1399px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a16373 {
+  background-color: #dfe2e5;
+  top: 1399px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a163516364 {
+  background-color: #dfe2e5;
+  top: 1440px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 464px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a16365 {
+  background-color: #dfe2e5;
+  top: 1399px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 580px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a16356 {
+  background-color: #dfe2e5;
+  top: 1399px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a163316347 {
+  background-color: #dfe2e5;
+  top: 1209px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  transform: rotate(0);
+  opacity: 1.0;
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+}
+
+.a16 .a16348 {
+  background-color: #dfe2e5;
+  top: 1168px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a16339 {
+  background-color: #dfe2e5;
+  top: 1168px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a163210 {
+  background-color: #dfe2e5;
+  top: 1112px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a163111 {
+  background-color: #dfe2e5;
+  top: 1112px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a163012 {
+  background-color: #dfe2e5;
+  top: 1112px;
+  height: 42px;
+  width: 694px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162913 {
+  background-color: #dfe2e5;
+  top: 1070px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162814 {
+  background-color: #dfe2e5;
+  top: 1070px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162715 {
+  background-color: #dfe2e5;
+  top: 1070px;
+  height: 42px;
+  width: 694px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162616 {
+  background-color: #dfe2e5;
+  top: 1028px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162517 {
+  background-color: #dfe2e5;
+  top: 1028px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162418 {
+  background-color: #dfe2e5;
+  top: 1028px;
+  height: 42px;
+  width: 694px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162319 {
+  background-color: #dfe2e5;
+  top: 986px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162220 {
+  background-color: #dfe2e5;
+  top: 986px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162121 {
+  background-color: #dfe2e5;
+  top: 986px;
+  height: 42px;
+  width: 694px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a162022 {
+  background-color: #dfe2e5;
+  top: 944px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161923 {
+  background-color: #dfe2e5;
+  top: 944px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161824 {
+  background-color: #dfe2e5;
+  top: 944px;
+  height: 42px;
+  width: 694px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161725 {
+  background-color: #dfe2e5;
+  top: 902px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161626 {
+  background-color: #dfe2e5;
+  top: 902px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161527 {
+  background-color: #dfe2e5;
+  top: 902px;
+  height: 42px;
+  width: 694px;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1613161428 {
+  background-color: #dfe2e5;
+  top: 832px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161429 {
+  background-color: #dfe2e5;
+  top: 791px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161330 {
+  background-color: #dfe2e5;
+  top: 791px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1611161231 {
+  background-color: #dfe2e5;
+  top: 832px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 304px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161232 {
+  background-color: #dfe2e5;
+  top: 791px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161133 {
+  background-color: #dfe2e5;
+  top: 791px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 260px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1609161034 {
+  background-color: #dfe2e5;
+  top: 518px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 464px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a161035 {
+  background-color: #dfe2e5;
+  top: 477px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 580px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160936 {
+  background-color: #dfe2e5;
+  top: 477px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1607160837 {
+  background-color: #dfe2e5;
+  top: 420px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160838 {
+  background-color: #dfe2e5;
+  top: 379px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160739 {
+  background-color: #dfe2e5;
+  top: 379px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1605160640 {
+  background-color: #dfe2e5;
+  top: 420px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 464px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160641 {
+  background-color: #dfe2e5;
+  top: 379px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 580px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160542 {
+  background-color: #dfe2e5;
+  top: 379px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1603160443 {
+  background-color: #dfe2e5;
+  top: 205px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 796px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160444 {
+  background-color: #dfe2e5;
+  top: 164px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 912px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160345 {
+  background-color: #dfe2e5;
+  top: 164px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 752px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a1601160246 {
+  background-color: #dfe2e5;
+  top: 205px;
+  height: 42px;
+  width: 220px;
+  position: absolute;
+  margin: 0;
+  left: 464px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160247 {
+  background-color: #dfe2e5;
+  top: 164px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 580px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .a160148 {
+  background-color: #dfe2e5;
+  top: 164px;
+  height: 42px;
+  width: 148px;
+  position: absolute;
+  margin: 0;
+  left: 420px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .checkbox449 {
+  background-color: #dfe2e5;
+  top: 590px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 698px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .checkbox350 {
+  background-color: #dfe2e5;
+  top: 590px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 621px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .checkbox251 {
+  background-color: #dfe2e5;
+  top: 590px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 538px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .checkbox152 {
+  background-color: #dfe2e5;
+  top: 590px;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin: 0;
+  left: 461px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+}
+
+.a16 .totaldesdpensesspcialesdductiblesreporterlapage20case2037dpensesspciales53 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1510px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .totaldespertesreportables54 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1412px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 203px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contribuableconjointpartenaire55 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1362px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 920px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuable56 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1372px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 781px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .pertesreportablesrevenusexonrs57 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1328px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 766px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contribuableconjointpartenaire58 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1362px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 588px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuable59 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1372px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 449px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .pertesreportablesrevenusnonexonrs60 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1320px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 454px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .pertesdexploitationreportablesdanslesconditionsdelarticle114lirsuivantdtailenannexe61 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1322px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .pertesdexploitationreportables62 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1284px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .d63 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1284px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .totaldeslibralitsversesen201964 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 1182px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 453px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .reportlibralits201865 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 804px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 586px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .reportlibralits201766 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 804px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 94px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contribuableconjointpartenaire67 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 754px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 920px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuable68 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 762px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 781px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contribuableconjointpartenaire69 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 754px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 428px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuable70 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 762px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 289px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .libralitslasommedesdonsnepeuttreniinfrieure120nisuprieure1000000etellenepeutpasdpasser20dutotaldesrevenusnetslesmontantsdpassantceslimitespeuventtrereportssurlesdeuxannesdimpositionsubsquente71 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 696px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .libralits72 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 658px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .c73 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 658px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .non74 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 590px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 661px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .oui75 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 590px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 590px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .non76 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 590px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 501px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .oui77 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 590px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 430px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .affiliationunrgimecomplmentairedepensionmisenplaceparuneentrepriseauprofitdesessalaris78 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 576px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 105px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contributionsversesparuntravailleurindpendantdductiblesdansleslimitesdelaloijoindrelecertificatdugestionnaireagr79 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 480px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 105px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contributionsversesparuntravailleurindpendantdductiblesdansleslimitesdelaloijoindrelecertificatdugestionnaireagr79 .span0 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a16 .contributionsversesparuntravailleurindpendantdductiblesdansleslimitesdelaloijoindrelecertificatdugestionnaireagr79 .span1 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a16 .contributionsversesparuntravailleurindpendantdductiblesdansleslimitesdelaloijoindrelecertificatdugestionnaireagr79 .span2 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a16 .a280 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 478px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .cotisationspersonnellesversesparunsalaridductiblesconcurrencedunplafondde120081 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 382px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 105px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .cotisationspersonnellesversesparunsalaridductiblesconcurrencedunplafondde120081 .span0 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a16 .cotisationspersonnellesversesparunsalaridductiblesconcurrencedunplafondde120081 .span1 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a16 .cotisationspersonnellesversesparunsalaridductiblesconcurrencedunplafondde120081 .span2 {
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+}
+
+.a16 .a182 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 380px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .rgimescomplmentairesdepensioninstaursselonlaloimodifiedu8juin1999relativeauxrgimescomplmentairesdepension83 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 340px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .rgimescomplmentaires84 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 302px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .b85 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 302px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .prlvementsetcotisationsenraisondelaffiliationobligatoiredessalarisetdesnonsalarisuntablissementdescuritsocialeluxembourgeoisoutrangerainsiquelaretenuepourpensionopredanslesecteurpublic86 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 170px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .contribuableconjointpartenaire87 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 126px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 920px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuable88 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 134px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 781px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .enrelationavecdesrevenusexonrs89 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 94px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 758px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuableconjointpartenaire90 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 126px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 588px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .contribuable91 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 134px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 448px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .enrelationavecdesrevenusnonexonrs92 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 86px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 447px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: center;
+  line-height: 16.0px;
+}
+
+.a16 .cotisationsobligatoires93 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 90px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 76px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .a94 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 90px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .dpensesspcialesdductiblesendehorsduminimumforfaitaire95 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 48px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 34px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .a296 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 48px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 0px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 22.0px;
+  color: black;
+  text-align: left;
+  line-height: 22.0px;
+}
+
+.a16 .ds97 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 2px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 1021px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 28.0px;
+  color: black;
+  text-align: left;
+  line-height: 28.0px;
+}
+
+.a16 .bnficiaire98 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 882px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 339px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+.a16 .libralitsversesen201999 {
+  background-color: rgba(255, 255, 255, 0);
+  top: 882px;
+  height: auto;
+  width: auto;
+  position: absolute;
+  margin: 0;
+  left: 808px;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  opacity: 1.0;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16.0px;
+  color: black;
+  text-align: left;
+  line-height: 16.0px;
+}
+
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity: 0;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+
+.anima-animate-disappear {
+  opacity: 1;
+  display: block;
+  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  animation-delay: 0;
+}
+
+@-webkit-keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anima-reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.anima-component-wrapper,
+.anima-component-wrapper * {
+  pointer-events: none;
+}
+
+.anima-component-wrapper a *,
+.anima-component-wrapper a,
+.anima-component-wrapper input,
+.anima-component-wrapper video,
+.anima-component-wrapper iframe,
+.anima-listeners-active,
+.anima-listeners-active * {
+  pointer-events: auto;
+}
+
+.anima-hidden,
+.anima-hidden * {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.anima-smart-layers-pointers,
+.anima-smart-layers-pointers * {
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.anima-component-wrapper.anima-not-ready,
+.anima-component-wrapper.anima-not-ready * {
+  visibility: hidden !important;
+}
+
+.anima-listeners-active-click,
+.anima-listeners-active-click * {
+  cursor: pointer;
+}
+
+.anima-word-break {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-all;
+  word-break: break-word;
+}
+/*# sourceMappingURL=page16.css.map */
