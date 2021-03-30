@@ -8,6 +8,7 @@
             <table class="w3-table-all" style="width: calc(100% - 0.5px);">
                 <thead>
                     <tr>
+                        <th style="width: 80px;">Year</th>
                         <th style="width: 130px;">N° dossier</th>
                         <th style="width: 280px;">
                             <span>Nom</span>
@@ -34,7 +35,10 @@
                             color: white;
                             padding: 4px 6px;
                             border-radius: 11px;
-                            font-weight: bold;" class="year">{{client.year}}</span>{{client.signaletique.numero_de_dossier}}
+                            font-weight: bold;" class="year">{{client.year}}</span>
+                        </td>
+                        <td>
+                            {{client.signaletique.numero_de_dossier}}
                         <td>
                             {{client.signaletique.contribuable.nom}}
                         </td>
