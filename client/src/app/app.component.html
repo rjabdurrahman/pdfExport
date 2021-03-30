@@ -1,2 +1,39 @@
-<h1>Angular APP</h1>
-<button (click)="getContacts()">Contacts</button>
+<header>
+    <div class="w3-bar top-nav">
+        <div class="w3-left">
+            <a href="home" class="w3-bar-item w3-padding-16">
+                <img src="../assets/img/logo.png" alt="Logo">
+            </a>
+        </div>
+        <div class="top-menu">
+            <a href="home" class="w3-bar-item w3-padding-16">
+                <label><span class="material-icons-outlined">home</span></label>
+                <label class="text">Accueil</label>
+            </a>
+            <a href="home" class="w3-bar-item w3-padding-16" ng-class="{'active' : $route.current.activetab == 'home'}">
+                <label><span class="material-icons-outlined">group</span></label>
+                <label class="text">Clients</label>
+            </a>
+        </div>
+        <div class="right-menu" ng-class="{'active' : $route.current.activetab == 'recycle'}">
+            <a href="recycle" class="w3-bar-item w3-padding-16">
+                <label><span class="material-icons">delete_forever</span></label>
+                <label class="text">Corbeille</label>
+            </a>
+        </div>
+        <div class="w3-bar-item user">
+            <div class="flags">
+                <img src="../assets/img/fr_round.png" />
+            </div>
+            <div class="letters">...</div>
+            <div class="w3-dropdown-menu arrow">
+                <span class="material-icons">keyboard_arrow_down</span>
+                <div style="width: 160px;" class="w3-dropdown-content w3-bar-block menu-items">
+                    <a href="profile" class="w3-bar-item w3-button"><span class="material-icons">account_circle</span><label>Profil</label></a>
+                    <a href="logout" class="w3-bar-item w3-button"><span class="material-icons">power_settings_new</span><label>Log out</label></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<router-outlet></router-outlet>
