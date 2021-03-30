@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  { path: 'myapp', component: HomeComponent }
+  { path: 'myapp/home', component: HomeComponent }
 ];
 
 @NgModule({
