@@ -17,7 +17,7 @@ module.exports = async ({ params }, res) => {
                 ["y2020" + ".signaletique.contribuable.courriel"]: 1
             }
         )
-            .exec();
+            .lean().exec();
         res.send(result);
     } catch (err) {
         res.send(err);
