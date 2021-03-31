@@ -3,7 +3,7 @@ const Client = require('../../Models/Client');
 module.exports = async ({ params }, res) => {
     try {
         let result = await Client.find(
-            {},
+            { ['y' + params.year]: { $exists: true } },
             {
                 ["y2019" + ".signaletique.numero_de_dossier"]: 1,
                 ["y2019" + ".signaletique.contribuable.nom"]: 1,
