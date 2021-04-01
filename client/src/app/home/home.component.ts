@@ -9,15 +9,29 @@ import { ClientsService } from '../clients.service';
 export class HomeComponent implements OnInit {
   public clients = [];
   public selectedYear = 2019;
+  public loadingClients = false;
 
   constructor(private _clientService: ClientsService) { }
 
   ngOnInit(): void {
+    this.loadClients();
+  }
+
+  loadClients() {
     this._clientService.getAll()
-    .subscribe((clients:any) => {
-      this.clients = clients.map(client => client.y2019);
-      console.log(this.clients);
-    });
+      .subscribe((clients: any) => {
+        this.clients = clients.filter((client) => {
+          if (client['y' + this.selectedYear]) {
+            return true
+          }
+        }).map(client => ({
+          ...client['y' + this.selectedYear],
+          _id: client._id,
+          2019: client?.y2019?.signaletique ? true : false,
+          2020: client?.y2020?.signaletique ? true : false
+        }));
+        this.loadingClients = false;
+      });
   }
 
 

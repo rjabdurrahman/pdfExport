@@ -42,18 +42,18 @@
                     <tr *ngFor="let client of clients">
                         <td>
                             <a href="/#/myapp/{{selectedYear}}?id={{client._id}}">
-                                {{client.signaletique.numero_de_dossier}}
+                                {{client?.signaletique?.numero_de_dossier}}
                             </a>
                         <td>
                             <a href="/#/myapp/{{selectedYear}}?id={{client._id}}">
-                                {{client.signaletique.contribuable.nom}}
+                                {{client.signaletique?.contribuable?.nom}}
                             </a>
                         </td>
-                        <td>{{client.signaletique.contribuable.prenom}}</td>
-                        <td>{{client.signaletique.contribuable.telephone}}</td>
+                        <td>{{client.signaletique?.contribuable?.prenom}}</td>
+                        <td>{{client.signaletique?.contribuable?.telephone}}</td>
                         <td>
                             <a
-                                href="mailto:{{client.signaletique.contribuable.courriel}}?subject=IMPOTS 2019">{{client.signaletique.contribuable.courriel}}</a>
+                                href="mailto:{{client.signaletique?.contribuable?.courriel}}?subject=IMPOTS 2019">{{client.signaletique?.contribuable?.courriel}}</a>
                         </td>
                         <td></td>
                         <td style="width: 50px;" class="w3-center">
@@ -79,7 +79,7 @@
                             </div>
                         </td>
                     </tr>
-                    <tr ng-if="loadingClients">
+                    <tr *ngIf="loadingClients">
                         <td colspan="11">
                             <div style="text-align: center; padding: 4px 8px; font-size: 16px;">Chargement...</div>
                         </td>
