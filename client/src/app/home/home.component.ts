@@ -7,17 +7,18 @@ import { ClientsService } from '../clients.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  public clients = [];
+  public selectedYear = 2019;
+
   constructor(private _clientService: ClientsService) { }
 
   ngOnInit(): void {
     this._clientService.getAll()
-    .subscribe(x => console.log(x));
+    .subscribe((clients:any) => {
+      this.clients = clients.map(client => client.y2019);
+      console.log(this.clients);
+    });
   }
 
-  public selectedYear = 2019;
-
-  public clients = [
-
-  ]
 
 }
