@@ -14,4 +14,10 @@ export class HomeComponent implements OnInit {
     .subscribe(x => console.log(x));
   }
 
+  public selectedYear = 2019;
+
+  public clients = [
+
+  ]
+
 }
