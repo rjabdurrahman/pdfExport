@@ -60,6 +60,11 @@ app.run(function ($rootScope, $http, $route) {
       })
   }
   $rootScope.updateLetters();
+  $rootScope.lang = 'fr';
+  $rootScope.chnageLang = function() {
+    if($rootScope.lang == 'fr') $rootScope.lang = 'de';
+    else $rootScope.lang = 'fr';
+  }
   $rootScope.selectedYear = 2020;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
