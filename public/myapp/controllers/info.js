@@ -97,13 +97,15 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     if ($scope.active) {
       $scope.client = $scope.data19;
       afterDataLoaded($scope.client);
-      $(".form-input input").prop("disabled", true);
+      $(".form-input input:not(:disabled)").addClass("temp-disable");
+      $(".form-input input:not(:disabled)").prop("disabled", true);
       $('left-nav a.done span').css('color', 'orange');
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
       $scope.client = $scope.data20;
       afterDataLoaded($scope.client);
-      $(".form-input input").prop("disabled", false);
+      $(".form-input input.temp-disable").prop("disabled", false);
+      $(".form-input input.temp-disable").removeClass("temp-disable");
       $('left-nav a.done span').css('color', '#25c1a0');
       $('#submitInfoBtn').css('visibility', 'visible');
     }
