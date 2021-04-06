@@ -17,6 +17,10 @@ export class HomeComponent implements OnInit {
     this.loadClients(this.selectedYear);
   }
 
+  openAddClientModal() {
+    (document.querySelector('.add-client') as HTMLElement).style.display = 'block';
+  }
+
   loadClients(year: any) {
     this.loadingClients = true;
     this._clientService.getAll(year)
