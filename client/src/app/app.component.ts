@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class AppComponent {
-  title = 'client';
+  public lang = 'fr';
   constructor(private http: HttpClient) { }
   getContacts() {
     this.http.get('/api/phone_contacts?pass=vCwm7MpeYPrlJfOnPCe9').subscribe(x => console.log(x));
