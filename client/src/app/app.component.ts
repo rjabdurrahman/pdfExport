@@ -10,7 +10,8 @@ import { HttpClient } from '@angular/common/http';
 export class AppComponent {
   public lang = 'fr';
   constructor(private http: HttpClient) { }
-  getContacts() {
-    this.http.get('/api/phone_contacts?pass=vCwm7MpeYPrlJfOnPCe9').subscribe(x => console.log(x));
+  changeLang() {
+    if(this.lang == 'fr') this.lang = 'de';
+    else this.lang = 'fr';
   }
 }
