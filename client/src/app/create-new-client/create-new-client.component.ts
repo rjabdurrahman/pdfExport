@@ -12,4 +12,8 @@ export class CreateNewClientComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  closeAddClientModal() {
+    (document.querySelector('.add-client') as HTMLElement).style.display = 'none';
+  }
+
 }

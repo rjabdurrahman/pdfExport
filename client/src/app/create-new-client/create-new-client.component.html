@@ -1,4 +1,4 @@
-<div style="display: block;" id="clientModal" class="w3-modal">
+<div style="display: block;" id="clientModal" class="add-client w3-modal">
     <form class="w3-modal-content w3-animate-right w3-card-4">
         <div class="content-c" style="height: 35px;">
             <div>
@@ -6,7 +6,7 @@
                     class="material-icons-outlined">person_add</span>
             </div>
             <div>Nouveau client</div>
-            <div class="close" onclick="closeAddClientModal();$('#clientModal>form')[0].reset();">
+            <div class="close" (click)="closeAddClientModal()">
                 <img src="../assets/img/close.svg" height="15" width="15">
             </div>
         </div>
@@ -15,9 +15,6 @@
             <label>Contribuable conjoint/partenaire</label>
         </div>
         <div class="w3-container" style="margin-left: 12px; margin-right: 15px;">
-            <!-- <div>
-                <span style="font-size: 28px; margin-top: 6px;" class="material-icons-outlined">person_add</span>
-            </div> -->
             <table style="width: 100%; margin-top: 20px;">
                 <tbody>
                     <tr>
