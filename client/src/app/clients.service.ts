@@ -8,8 +8,8 @@ export class ClientsService {
 
   constructor(private http: HttpClient) { }
 
-  getAll() {
-    return this.http.get('/api/2020/clients');
+  getAll(year: any) {
+    return this.http.get(`/api/${year}/clients`);
   }
 
   getById() {

@@ -8,18 +8,20 @@ import { ClientsService } from '../clients.service';
 })
 export class HomeComponent implements OnInit {
   public clients = [];
-  public selectedYear = 2019;
+  public selectedYear = 2020;
   public loadingClients = false;
 
   constructor(private _clientService: ClientsService) { }
 
   ngOnInit(): void {
-    this.loadClients();
+    this.loadClients(this.selectedYear);
   }
 
-  loadClients() {
-    this._clientService.getAll()
+  loadClients(year: any) {
+    this.loadingClients = true;
+    this._clientService.getAll(year)
       .subscribe((clients: any) => {
+        this.loadingClients = false;
         this.clients = clients.filter((client) => {
           if (client['y' + this.selectedYear]) {
             return true
