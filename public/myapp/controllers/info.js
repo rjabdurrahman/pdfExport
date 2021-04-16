@@ -65,6 +65,11 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
       })
       .catch(err => console.log(err))
   }
+
+  $scope.calculateParcent = function(a, b) {
+    console.log(arguments);
+    console.log(a, b);
+  }
 })
 
 app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
