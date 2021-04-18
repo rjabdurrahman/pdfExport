@@ -67,6 +67,7 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   }
 
   $scope.calculateParcent = function(...args) {
+    if(args.length < 2) return 0;
     let [maxTotal, total] = args.map(x => Number(x.replace('.', '').replace(',', '.')));
     return Math.round(total/maxTotal * 100);
   }
