@@ -67,14 +67,11 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   }
 
   $scope.calculateParcent = function (...args) {
-    if (args[0] == undefined || args[1] == undefined) return {'background-color': 'white'};
+    if (args[0] == undefined || args[1] == undefined) return '';
     else {
       let [maxTotal, total] = args.map(x => Number(x.replace('.', '').replace(',', '.')));
       let percent = Math.round(total / maxTotal * 100);
-      if(isNaN(percent)) return {'background-color':'white'};
-      else if(percent == 100) return {'background-color':'red'};
-      else return {'background-color':'orange'};
-      // return isNaN(percent) ? '' : percent;
+      return isNaN(percent) ? '' : percent + '%';
     }
   }
 })
