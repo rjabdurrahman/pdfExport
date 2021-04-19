@@ -56,7 +56,9 @@
                                 href="mailto:{{client.signaletique.contribuable.courriel}}?subject=IMPOTS {{selectedYear}}">{{client.signaletique.contribuable.courriel}}</a>
                         </td>
                         <td style="width: 100px; text-align: center;">{{calculateParcent(client.depenses_speciales14.plafond_672, client.depenses_speciales14.montant_moins_eleve)}}</td>
-                        <td></td>
+                        <td style="width: 100px; text-align: center;">
+                            {{calculateParcent2(client.signaletique.conjoint_partenaire.prenom, client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200_total)}}%
+                        </td>
                         <td></td>
                         <td style="width: 50px;" class="w3-center">
                             <div style="display: flex; gap: 10px; justify-content: center;">

@@ -74,6 +74,12 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
       return isNaN(percent) ? '' : percent + '%';
     }
   }
+
+  $scope.calculateParcent2 = function(conj, val) {
+    val = Number(val.replace('.', '').replace(',', '.'));
+    // console.log(conj, val);
+    return Math.round(val/3200 * 100);
+  }
 })
 
 app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
