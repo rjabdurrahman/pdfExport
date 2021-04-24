@@ -33,8 +33,10 @@
                             </span>
                         </th>
                         <th style="width: 140px;">Téléphone</th>
-                        <th style="width: 260px;">Courriel</th>
-                        <th colspan="3">Optimisation</th>
+                        <th>Courriel</th>
+                        <th style="width: 100px;">Assurances</th>
+                        <th style="width: 100px;">111bis</th>
+                        <th style="width: 100px;">Epargne Logement</th>
                         <th style="width: 160px;" class="w3-center">Actions</th>
                     </tr>
                 </thead>
@@ -55,8 +57,8 @@
                             <a
                                 href="mailto:{{client.signaletique.contribuable.courriel}}?subject=IMPOTS {{selectedYear}}">{{client.signaletique.contribuable.courriel}}</a>
                         </td>
-                        <td style="width: 100px; text-align: center;">{{calculateParcent(client.depenses_speciales14.plafond_672, client.depenses_speciales14.montant_moins_eleve)}}</td>
-                        <td style="width: 100px; text-align: center;">
+                        <td style="text-align: center;">{{calculateParcent(client.depenses_speciales14.plafond_672, client.depenses_speciales14.montant_moins_eleve)}}</td>
+                        <td style="text-align: center;">
                             {{calculateParcent2(client.signaletique.conjoint_partenaire.prenom, client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200_total)}}%
                         </td>
                         <td></td>
