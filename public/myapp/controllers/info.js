@@ -75,7 +75,12 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     }
   }
 
-  $scope.calculateParcent2 = function(conj, v1, v2) {
+  $scope.calculateParcent2 = function(conj, v1, v2, bornY1, bornY2) {
+    bornY1 = bornY1 ? bornY1.slice(0, 4) : $rootScope.selectedYear;
+    bornY2 = bornY2 ? bornY2.slice(0, 4) : $rootScope.selectedYear;
+    let age1 = $rootScope.selectedYear - bornY1;
+    let age2 = $rootScope.selectedYear - bornY2;
+    console.log(age1, age2);
     let ground = 3200;
     v1 = Number(v1.replace('.', '').replace(',', '.'));
     v2 = Number(v2.replace('.', '').replace(',', '.'));
