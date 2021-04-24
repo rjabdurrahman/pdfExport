@@ -79,10 +79,9 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     let ground = 3200;
     v1 = Number(v1.replace('.', '').replace(',', '.'));
     v2 = Number(v2.replace('.', '').replace(',', '.'));
-    if(conj || v1 > 0) {
+    if(conj != '' || v2 > 0) {
       ground *= 2;
     }
-    // console.log(conj, v1, v2);
     return Math.round((v1 + v2)/ground * 100);
   }
 })
