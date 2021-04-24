@@ -114,7 +114,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       afterDataLoaded($scope.client);
       $(".form-input input:not(:disabled)").addClass("temp-disable");
       $(".form-input input:not(:disabled)").prop("disabled", true);
-      setTimeout(() => $('a.done span').css('color', '#E9841C'), 500);
+      setTimeout(() => $('a.done span').css('color', '#cf4044'), 500);
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
       $scope.client = $scope.data20;
