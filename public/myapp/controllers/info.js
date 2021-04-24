@@ -114,7 +114,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       afterDataLoaded($scope.client);
       $(".form-input input:not(:disabled)").addClass("temp-disable");
       $(".form-input input:not(:disabled)").prop("disabled", true);
-      $('left-nav a.done span').css('color', 'orange');
+      setTimeout(() => $('a.done span').css('color', '#E9841C'), 500);
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
       $scope.client = $scope.data20;
@@ -122,6 +122,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $(".form-input input.temp-disable").prop("disabled", false);
       $(".form-input input.temp-disable").removeClass("temp-disable");
       $('left-nav a.done span').css('color', '#25c1a0');
+      setTimeout(() => $('a.done span').css('color', '#25c1a0'), 500);
       $('#submitInfoBtn').css('visibility', 'visible');
     }
     $scope.$applyAsync();
