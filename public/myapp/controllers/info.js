@@ -75,10 +75,15 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     }
   }
 
-  $scope.calculateParcent2 = function(conj, val) {
-    val = Number(val.replace('.', '').replace(',', '.'));
-    // console.log(conj, val);
-    return Math.round(val/3200 * 100);
+  $scope.calculateParcent2 = function(conj, v1, v2) {
+    let ground = 3200;
+    v1 = Number(v1.replace('.', '').replace(',', '.'));
+    v2 = Number(v2.replace('.', '').replace(',', '.'));
+    if(conj || v1 > 0) {
+      ground *= 2;
+    }
+    // console.log(conj, v1, v2);
+    return Math.round((v1 + v2)/ground * 100);
   }
 })
 
