@@ -425,15 +425,13 @@ this.getField("A.1825").value = this.getField("A.1825").value.slice(0, -2);
 this.getField("A.1829").value = this.getField("A.1829").value + '@1';
 this.getField("A.1829").value = this.getField("A.1829").value.slice(0, -2);
 
-
-
 this.getField("N.0325").value = this.getField("N.0325").value.replace(/\./g, '');
 this.getField("N.0326").value = this.getField("N.0326").value.replace(/\./g, '');
 this.getField("N.0327").value = this.getField("N.0327").value.replace(/\./g, '');
-this.getField("N.0423").value = this.getField("N.0423").value.replace(/\./g, '');
-this.getField("N.0424").value = this.getField("N.0424").value.replace(/\./g, '');
-this.getField("N.0425").value = this.getField("N.0425").value.replace(/\./g, '');
 this.getField("N.0426").value = this.getField("N.0426").value.replace(/\./g, '');
+this.getField("N.0427").value = this.getField("N.0427").value.replace(/\./g, '');
+this.getField("N.0428").value = this.getField("N.0428").value.replace(/\./g, '');
+this.getField("N.0429").value = this.getField("N.0429").value.replace(/\./g, '');
 this.getField("N.0501").value = this.getField("N.0501").value.replace(/\./g, '');
 this.getField("N.0502").value = this.getField("N.0502").value.replace(/\./g, '');
 this.getField("N.0503").value = this.getField("N.0503").value.replace(/\./g, '');
@@ -838,14 +836,10 @@ this.getField("N.1637").value = this.getField("N.1637").value.replace(/\./g, '')
 this.getField("N.1638").value = this.getField("N.1638").value.replace(/\./g, '');
 this.getField("N.1702").value = this.getField("N.1702").value.replace(/\./g, '');
 this.getField("N.1703").value = this.getField("N.1703").value.replace(/\./g, '');
-this.getField("N.1715").value = this.getField("N.1715").value.replace(/\./g, '');
-this.getField("N.1718").value = this.getField("N.1718").value.replace(/\./g, '');
+this.getField("N.1714").value = this.getField("N.1714").value.replace(/\./g, '');
+this.getField("N.1717").value = this.getField("N.1717").value.replace(/\./g, '');
+this.getField("N.1721").value = this.getField("N.1721").value.replace(/\./g, '');
 this.getField("N.1722").value = this.getField("N.1722").value.replace(/\./g, '');
-this.getField("N.1723").value = this.getField("N.1723").value.replace(/\./g, '');
-this.getField("N.1724").value = this.getField("N.1724").value.replace(/\./g, '');
-this.getField("N.1725").value = this.getField("N.1725").value.replace(/\./g, '');
-this.getField("N.1726").value = this.getField("N.1726").value.replace(/\./g, '');
-this.getField("N.1727").value = this.getField("N.1727").value.replace(/\./g, '');
 this.getField("N.1804").value = this.getField("N.1804").value.replace(/\./g, '');
 this.getField("N.1807").value = this.getField("N.1807").value.replace(/\./g, '');
 this.getField("N.1810").value = this.getField("N.1810").value.replace(/\./g, '');
