@@ -124,8 +124,8 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $(".form-input input:not(:disabled)").addClass("temp-disable");
       $(".form-input input:not(:disabled)").prop("disabled", true);
       setTimeout(() => {
-        $('a.done span').css('color', '#cf4044')
-        $('a.done').css('border-color', '#cf4044')
+        $('a.done span').css('color', '#cf4044');
+        $('a.done').css('border-color', '#cf4044');
       }, 500);
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
@@ -141,6 +141,11 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $('#submitInfoBtn').css('visibility', 'visible');
     }
     $scope.$applyAsync();
+    setTimeout(function() {
+      $('.form-input input').each(function() {
+        $(this).val(this.getAttribute('value'));
+      });
+    }, 200);
     $scope.active = !$scope.active;
   }
 })
