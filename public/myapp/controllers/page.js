@@ -240,6 +240,9 @@ function pageInit() {
     else if (/^[-]{0,1}\d+[,]\d[0]$/.test(val)) $(this).val(frNumber(val) + '0')
     else if (/^[-]{0,1}\d+[,][0-9]{2}$/.test(val)) $(this).val(frNumber(val))
   })
+  $('input').blur(function(e) {
+    $(e.target).attr('value', e.target.value);
+  })
   // Radio Button Unchecking
   $('.form-input label[for]').click(function (e) {
     e.preventDefault()
