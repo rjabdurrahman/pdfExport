@@ -141,11 +141,11 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $('#submitInfoBtn').css('visibility', 'visible');
     }
     $scope.$applyAsync();
-    setTimeout(function() {
-      $('.form-input input').each(function() {
-        $(this).val(this.getAttribute('value'));
-      });
-    }, 200);
+    // setTimeout(function() {
+    //   $('.form-input input').each(function() {
+    //     $(this).val(this.getAttribute('value'));
+    //   });
+    // }, 200);
     $scope.active = !$scope.active;
   }
 })
