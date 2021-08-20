@@ -23,7 +23,6 @@ app.use(/\/myapp\/(home|2019|2020|profile|logout)*/, (req, res, next) => {
 app.use(express.static('public'))
 app.get('/', (req, res) => {
   let domain = req.hostname;
-  // let domain = 'tax-benefits.lu';
   if(domain.includes('y-e.lu'))
     res.send('');
   else if(domain.includes('taxbenefits.lu'))
