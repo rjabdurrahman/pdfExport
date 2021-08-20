@@ -26,13 +26,13 @@ app.get('/', (req, res) => {
   // let domain = 'tax-benefits.lu';
   if(domain.includes('y-e.lu'))
     res.send('');
-  else if(domain.includes('tax-benefits.lu'))
+  else if(domain.includes('taxbenefits.lu'))
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
-  else if(domain.includes('avantages-fiscaux.lu'))
+  else if(domain.includes('avantagesfiscaux.lu'))
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))
-  else if(domain.includes('steuer-vorteile.lu'))
+  else if(domain.includes('steuervorteile.lu'))
     res.sendFile(path.join(__dirname, 'public', 'de.html'))
-  else if(domain.includes('vantagens-fiscais.lu') || domain.includes('localhost'))
+  else if(domain.includes('vantagensfiscais.lu') || domain.includes('localhost'))
     res.sendFile(path.join(__dirname, 'public', 'pt.html'))
   else res.send('Website Not Found!')
 })
