@@ -21,24 +21,25 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   // Sorting Table
   $('th .arrow').click(function (e) {
     let element = e.target
-    let fieldName = $(element).prev()[0].textContent
+    let fieldName = $(element).prev()[0].textContent;
+    let key = 'nom';
+    $(element).toggleClass('desc')
+    let sortType = $(element).hasClass('desc');
     if (fieldName == 'Nom') {
-      console.log('Nom Soring')
-      $(element).toggleClass('desc')
-      $rootScope.clients = $rootScope.clients.sort(function (a, b) {
-        if (a.signaletique.contribuable.nom.toLowerCase() < b.signaletique.contribuable.nom.toLowerCase()) {
-          return -1
-        }
-        if (a.signaletique.contribuable.nom.toLowerCase() > b.signaletique.contribuable.nom.toLowerCase()) {
-          return 1
-        }
-        return 0
-      })
-      $rootScope.$applyAsync()
+      key = 'nom';
     } else if (fieldName == 'Prénom') {
-      console.log('PreNom Soring')
-      $(element).toggleClass('desc')
+      key = 'prenom'
     }
+    $rootScope.clients = $rootScope.clients.sort(function (a, b) {
+      if (a.signaletique.contribuable[key].toLowerCase() < b.signaletique.contribuable[key].toLowerCase()) {
+        return sortType ? -1 : 1
+      }
+      if (a.signaletique.contribuable[key].toLowerCase() > b.signaletique.contribuable[key].toLowerCase()) {
+        return sortType ? 1 : -1
+      }
+      return 0
+    })
+    $rootScope.$applyAsync()
   })
 
   $scope.selectedClient = {};
@@ -75,19 +76,19 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
     }
   }
 
-  $scope.calculateParcent2 = function(conj, v1, v2, bornY1, bornY2) {
+  $scope.calculateParcent2 = function (conj, v1, v2, bornY1, bornY2) {
     bornY1 = bornY1 ? bornY1.slice(0, 4) : $rootScope.selectedYear;
     bornY2 = bornY2 ? bornY2.slice(0, 4) : $rootScope.selectedYear;
     let age1 = $rootScope.selectedYear - bornY1;
     let age2 = $rootScope.selectedYear - bornY2;
-    console.log(age1, age2);
+    // console.log(age1, age2);
     let ground = 3200;
     v1 = Number(v1.replace('.', '').replace(',', '.'));
     v2 = Number(v2.replace('.', '').replace(',', '.'));
-    if(conj != '' || v2 > 0) {
+    if (conj != '' || v2 > 0) {
       ground *= 2;
     }
-    return Math.round((v1 + v2)/ground * 100);
+    return Math.round((v1 + v2) / ground * 100);
   }
 })
 
