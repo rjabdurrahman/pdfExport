@@ -40,5 +40,11 @@ export class HomeComponent implements OnInit {
       });
   }
 
+  calculateParcent(...val) {
+    return 10;
+  }
 
+  calculateParcent2(...val) {
+    return 20;
+  }
 }

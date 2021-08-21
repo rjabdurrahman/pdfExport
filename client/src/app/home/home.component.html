@@ -32,7 +32,9 @@
                         </th>
                         <th style="width: 140px;">Téléphone</th>
                         <th>Courriel</th>
-                        <th style="width: 155px;">Infos</th>
+                        <th style="width: 100px;">Assurances</th>
+                        <th style="width: 100px;">111bis</th>
+                        <th style="width: 100px;">Epargne Logement</th>
                         <th style="width: 160px;" class="w3-center">Actions</th>
                     </tr>
                 </thead>
@@ -53,7 +55,34 @@
                             <a
                                 href="mailto:{{client.signaletique?.contribuable?.courriel}}?subject=IMPOTS {{selectedYear}}">{{client.signaletique?.contribuable?.courriel}}</a>
                         </td>
+                        <td style="text-align: center;">{{calculateParcent(client.depenses_speciales14.plafond_672, client.depenses_speciales14.montant_moins_eleve)}}</td>
+                        <td style="text-align: center;">
+                            {{calculateParcent2(client.signaletique.conjoint_partenaire.nom, client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200, client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.plafond_3200, client.signaletique.contribuable.date_de_naissance, client.signaletique.conjoint_partenaire.date_de_naissance)}}%
+                        </td>
                         <td></td>
+                        <td style="width: 50px;" class="w3-center">
+                            <div style="display: flex; gap: 10px; justify-content: center;">
+                                <span title="Supprimer" style="cursor: pointer;" id="{{client}}"
+                                    onclick="$('#clientDeleteModal').show();" ng-click="deleteAction($event)"
+                                    class="w3-text-red material-icons">
+                                    delete
+                                </span>
+                                <a title="PDF" target="_blank" href="../api/pdf/{{lang}}/{{selectedYear}}/{{client._id}}">
+                                    <img style="height: 22px; width: 20px; align-self: center;" src="../../assets/img/pdf.svg" />
+                                </a>
+                                <a title="Word" href="#">
+                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="../../assets/img/docx.svg" />
+                                </a>
+                                <a title="Excel" href="#">
+                                    <img style="height: 23px; width: 23px; margin-top: 2px;" src="../../assets/img/xlsx.svg" />
+                                </a>
+                                <span *ngIf="selectedYear == 2019" title="Transfert" style="cursor: pointer;" class="material-icons"
+                                    onclick="$('#clientTransferModal').show();"  id="{{client}}t" ng-click="selectClient($event)">
+                                    transform
+                                </span>
+                            </div>
+                        </td>
+                        <!-- <td></td>
                         <td style="width: 50px;" class="w3-center">
                             <div style="display: flex; gap: 10px; justify-content: center;">
                                 <span title="Supprimer" style="cursor: pointer;" id="{{client}}"
@@ -75,7 +104,7 @@
                                     transform
                                 </span>
                             </div>
-                        </td>
+                        </td> -->
                     </tr>
                     <tr *ngIf="loadingClients">
                         <td colspan="11">
