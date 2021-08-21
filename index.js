@@ -23,15 +23,15 @@ app.use(/\/myapp\/(home|2019|2020|profile|logout)*/, (req, res, next) => {
 app.use(express.static('public'))
 app.get('/', (req, res) => {
   let domain = req.hostname;
-  if(domain.includes('y-e.lu'))
+  if (domain.includes('y-e.lu'))
     res.send('');
-  else if(domain.includes('taxbenefits.lu'))
+  else if (domain.includes('taxbenefits.lu'))
     res.sendFile(path.join(__dirname, 'public', 'eng.html'))
-  else if(domain.includes('avantagesfiscaux.lu'))
+  else if (domain.includes('avantagesfiscaux.lu'))
     res.sendFile(path.join(__dirname, 'public', 'fr.html'))
-  else if(domain.includes('steuervorteile.lu'))
+  else if (domain.includes('steuervorteile.lu'))
     res.sendFile(path.join(__dirname, 'public', 'de.html'))
-  else if(domain.includes('vantagensfiscais.lu') || domain.includes('localhost'))
+  else if (domain.includes('vantagensfiscais.lu') || domain.includes('localhost'))
     res.sendFile(path.join(__dirname, 'public', 'pt.html'))
   else res.send('Website Not Found!')
 })
