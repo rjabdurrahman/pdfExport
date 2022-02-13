@@ -70,7 +70,7 @@ app.run(function ($rootScope, $http, $route) {
     if($rootScope.lang == 'fr') $rootScope.lang = 'de';
     else $rootScope.lang = 'fr';
   }
-  $rootScope.selectedYear = 2020;
+  $rootScope.selectedYear = 2021;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
     $rootScope.loadingClients = true
