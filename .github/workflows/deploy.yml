@@ -1,11 +1,11 @@
-name: Test and Deploy
+name: Deployment to Digital Ocean Server
 on: 
   push:
     branches:    
       - master
 jobs:
   build:
-    name: Deploy to Digital Ocean Server
+    name: Deploy
     runs-on: ubuntu-latest
     steps:
     # - name: Test
