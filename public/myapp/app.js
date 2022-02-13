@@ -19,6 +19,11 @@ app.config([
         controller: 'InfoCtrl',
         activetab: 'info'
       })
+      .when('/myapp/2021', {
+        templateUrl: 'pages/info21.html',
+        controller: 'InfoCtrl',
+        activetab: 'info'
+      })
       .when('/myapp/profile', {
         templateUrl: 'pages/profile.html',
         controller: 'ProfileCtrl',
