@@ -5,7 +5,7 @@
                 save
             </span>
         </button>
-        <label>2021 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
+        <label>2020 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
         <div>
             <a class="w3-button" ng-click="view19()">
                 <span ng-if="active" style="opacity: 0.5" class="material-icons">
@@ -4560,7 +4560,7 @@
         <input name="15d1553" type="text" value="{{client.depenses_speciales15.total_depenses_speciales}}"
             class="num a15511" readonly />
         <input name="15d1554" type="text" value="{{client.depenses_speciales15.total_depenses_speciales_1}}"
-            class="num a15520 p15part3" />
+            class="num a15520" />
         <div class="page15_p3">
             <input name="15d1552" type="text"
                 value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.plafond_672_1344}}"
@@ -4634,7 +4634,7 @@
         <div class="page15_p2">
             <input name="15d1528" type="text"
                 value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200_total}}"
-                class="num t_center a1525152626 p15part2" readonly />
+                class="num t_center a1525152626" readonly />
             <input name="15d1527" type="text"
                 value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.plafond_3200}}"
                 class="num a152627"
@@ -4976,7 +4976,7 @@
 <div id="page16" class="a16 anima-word-break ">
     <div style="width: 1062px; height: 100%; position:relative; margin:auto;">
         <input name="16d1653" type="text" value="{{client.depenses_speciales.total_des_depenses}}"
-            class="a16390 t_center p16part3" readonly>
+            class="a16390 t_center" readonly>
         <div class="page16_p4">
             <input name="16d1652" type="text"
                 value="{{client.depenses_speciales.pertes_exploitation.pertes_reportables.rev_exo.total_pertes_total}}"
@@ -5279,809 +5279,3141 @@
     </div>
 </div>
             <div id="page17">
-                <div class="a17 screen " data-id="2be261a9-fe1c-48a2-b1a3-ee469463b02b">
-    <input name="17d1728" type="text"
-        value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.montant_annuel}}"
-        class="a1722 num">
-    <input name="17d1727" type="text"
-        value="{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.montant_annuel}}"
-        class="a1721 num">
-    <textarea name="17d1722" type="textarea" onkeyup="isSaveAlive(true)"
-        class="a1720">{{client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.nom}}</textarea>
-    <textarea name="17d1721" type="textarea" onkeyup="isSaveAlive(true)"
-        class="a1719">{{client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.nom}}</textarea>
-    <input name="17d1720" type="checkbox" class="a1718"
-        ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.is_frais_domestiques == 'Yes'">
-    <input name="17d1719" type="text"
-        value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.conjoint_partenaire.taux}}"
-        class="a1717 num">
-    <input name="17d1717" id="17d1718" type="radio" value="deja_presente" />
-    <label for="17d1718" class="a1716"></label>
-    <input name="17d1717" id="17d1717" type="radio" value="annexe" />
-    <label for="17d1717" class="a1715"></label>
-    <input name="17d1716" type="text"
-        value="{{client.charges_extraordinaires_17.abattements_forfaitaires1.contribuable.taux}}" class="a1714 num">
-    <input name="17d1714" id="17d1715" type="radio" value="deja_presente" />
-    <label for="17d1715" class="a1713"></label>
-    <input name="17d1714" id="17d1714" type="radio" value="annexe" />
-    <label for="17d1714" class="a1712"></label>
-    <input name="17d1712" type="checkbox" class="a1711"
-        ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires1.is_invalidite == 'Yes'">
-    <input name="17d1711" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r7}}" class="a1710">
-    <input name="17d1710" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r6}}" class="a1709">
-    <input name="17d1709" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r5}}" class="a1708">
-    <input name="17d1708" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r4}}" class="a1707">
-    <input name="17d1707" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r3}}" class="a1706">
-    <input name="17d1706" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r2}}" class="a1705">
-    <input name="17d1705" type="text" value="{{client.charges_extraordinaires_17.abattement.table.r1}}" class="a1704">
-    <input name="17d1704" type="text" value="{{client.charges_extraordinaires_17.abattement.detail_charges.total}}"
-        class="num t_center a17021703" readonly>
-    <input name="17d1703" type="text"
-        value="{{client.charges_extraordinaires_17.abattement.detail_charges.conjoint_partenaire}}" class="a1703 num"
-        onkeyup="valueCal(['17d1702', '17d1703'], [], '17d1704')">
-    <input name="17d1702" type="text"
-        value="{{client.charges_extraordinaires_17.abattement.detail_charges.contribuable}}" class="a1702 num"
-        onkeyup="valueCal(['17d1702', '17d1703'], [], '17d1704')">
-    <input name="17d1701" type="checkbox" class="a1701"
-        ng-checked="client.charges_extraordinaires_17.abattement.is_abattement1 == 'Yes'">
-    <input style="z-index: 99;" name="17dc78" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.annee_entiere  == 'Yes'" class="checkbox-78">
-    <input style="z-index: 99;" name="17dc77" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.annee_entiere  == 'Yes'" class="checkbox-77">
-    <input style="z-index: 99;" name="17dc76" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.annee_entiere  == 'Yes'" class="checkbox-76">
-    <input style="z-index: 99;" name="17dc75" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.annee_entiere  == 'Yes'" class="checkbox-75">
-    <input style="z-index: 99;" name="17dc74" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.annee_entiere  == 'Yes'" class="checkbox-74">
-    <input style="z-index: 99;" name="17dc73" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.annee_entiere  == 'Yes'" class="checkbox-73">
-    <input name="17dc72" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_12  == 'Yes'" class="checkbox-72">
-    <input name="17dc71" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_11  == 'Yes'" class="checkbox-71">
-    <input name="17dc70" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_10  == 'Yes'" class="checkbox-70">
-    <input name="17dc69" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_9  == 'Yes'" class="checkbox-69">
-    <input name="17dc68" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_8  == 'Yes'" class="checkbox-68">
-    <input name="17dc67" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_7  == 'Yes'" class="checkbox-67">
-    <input name="17dc66" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_6  == 'Yes'" class="checkbox-66">
-    <input name="17dc65" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_5  == 'Yes'" class="checkbox-65">
-    <input name="17dc64" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_4  == 'Yes'" class="checkbox-64">
-    <input name="17dc63" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_3  == 'Yes'" class="checkbox-63">
-    <input name="17dc62" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_2  == 'Yes'" class="checkbox-62">
-    <input name="17dc61" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.garde_enfants.n_1  == 'Yes'" class="checkbox-61">
-    <input name="17dc60" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_13  == 'Yes'" class="checkbox-60">
-    <input name="17dc59" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_12  == 'Yes'" class="checkbox-59">
-    <input name="17dc58" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_10  == 'Yes'" class="checkbox-58">
-    <input name="17dc57" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_9  == 'Yes'" class="checkbox-57">
-    <input name="17dc56" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_8  == 'Yes'" class="checkbox-56">
-    <input name="17dc55" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_7  == 'Yes'" class="checkbox-55">
-    <input name="17dc54" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_6  == 'Yes'" class="checkbox-54">
-    <input name="17dc53" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_5  == 'Yes'" class="checkbox-53">
-    <input name="17dc52" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_4  == 'Yes'" class="checkbox-52">
-    <input name="17dc51" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_3  == 'Yes'" class="checkbox-51">
-    <input name="17dc50" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_2  == 'Yes'" class="checkbox-50">
-    <input name="17dc49" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.garde_enfants.n_1  == 'Yes'" class="checkbox-49">
-    <input name="17dc48" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_12  == 'Yes'" class="checkbox-48">
-    <input name="17dc47" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_11  == 'Yes'" class="checkbox-47">
-    <input name="17dc46" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_10  == 'Yes'" class="checkbox-46">
-    <input name="17dc45" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_9  == 'Yes'" class="checkbox-45">
-    <input name="17dc44" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_8  == 'Yes'" class="checkbox-44">
-    <input name="17dc43" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_7  == 'Yes'" class="checkbox-43">
-    <input name="17dc42" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_6  == 'Yes'" class="checkbox-42">
-    <input name="17dc41" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_5  == 'Yes'" class="checkbox-41">
-    <input name="17dc40" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_4  == 'Yes'" class="checkbox-40">
-    <input name="17dc39" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_3  == 'Yes'" class="checkbox-39">
-    <input name="17dc38" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_2  == 'Yes'" class="checkbox-38">
-    <input name="17dc37" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.aides_et_soins.n_1  == 'Yes'" class="checkbox-37">
-    <input name="17dc36" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_12  == 'Yes'" class="checkbox-36">
-    <input name="17dc35" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_11  == 'Yes'" class="checkbox-35">
-    <input name="17dc34" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_10  == 'Yes'" class="checkbox-34">
-    <input name="17dc33" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_9  == 'Yes'" class="checkbox-33">
-    <input name="17dc32" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_8  == 'Yes'" class="checkbox-32">
-    <input name="17dc31" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_7  == 'Yes'" class="checkbox-31">
-    <input name="17dc30" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_6  == 'Yes'" class="checkbox-30">
-    <input name="17dc29" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_5 == 'Yes'" class="checkbox-29">
-    <input name="17dc28" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_4  == 'Yes'" class="checkbox-28">
-    <input name="17dc27" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_3  == 'Yes'" class="checkbox-27">
-    <input name="17dc26" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_2  == 'Yes'" class="checkbox-26">
-    <input name="17dc25" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.aides_et_soins.n_1  == 'Yes'" class="checkbox-25">
-    <input name="17dc24" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_12  == 'Yes'" class="checkbox-24">
-    <input name="17dc23" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_11  == 'Yes'" class="checkbox-23">
-    <input name="17dc22" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_10  == 'Yes'" class="checkbox-22">
-    <input name="17dc21" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_9  == 'Yes'" class="checkbox-21">
-    <input name="17dc20" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_8  == 'Yes'" class="checkbox-20">
-    <input name="17dc19" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_7  == 'Yes'" class="checkbox-19">
-    <input name="17dc18" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_6  == 'Yes'" class="checkbox-18">
-    <input name="17dc17" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_5  == 'Yes'" class="checkbox-17">
-    <input name="17dc16" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_4  == 'Yes'" class="checkbox-16">
-    <input name="17dc15" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_3  == 'Yes'" class="checkbox-15">
-    <input name="17dc14" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_2  == 'Yes'" class="checkbox-14">
-    <input name="17dc13" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.conjoint_partenaire.type_frais.domesticite.n_1  == 'Yes'" class="checkbox-13">
-    <input name="17dc12" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_12  == 'Yes'" class="checkbox-12">
-    <input name="17dc11" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_11  == 'Yes'" class="checkbox-11">
-    <input name="17dc10" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_10  == 'Yes'" class="checkbox-10">
-    <input name="17dc9" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_9  == 'Yes'" class="checkbox-9">
-    <input name="17dc8" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_8  == 'Yes'" class="checkbox-8">
-    <input name="17dc7" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_7  == 'Yes'" class="checkbox-7">
-    <input name="17dc6" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_6  == 'Yes'" class="checkbox-6">
-    <input name="17dc5" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_5  == 'Yes'" class="checkbox-5">
-    <input name="17dc4" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_4  == 'Yes'" class="checkbox-4">
-    <input name="17dc3" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_3  == 'Yes'" class="checkbox-3">
-    <input name="17dc2" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_2  == 'Yes'" class="checkbox-2">
-    <input name="17dc1" type="checkbox" ng-checked="client.charges_extraordinaires_17.abattements_forfaitaires2.contribuable.type_frais.domesticite.n_1  == 'Yes'" class="checkbox-1">
-    <!-- <input class="a1722">
-    <input class="a1721">
-    <input class="a1720">
-    <input class="a1719">
-    <input class="a1718">
-    <input class="a1717">
-    <input class="a1716">
-    <input class="a1715">
-    <input class="a1714">
-    <input class="a1713">
-    <input class="a1712">
-    <input class="a1711">
-    <input class="a1710">
-    <input class="a1709">
-    <input class="a1708">
-    <input class="a1707">
-    <input class="a1706">
-    <input class="a1705">
-    <input class="a1704">
-    <input class="a17021703">
-    <input class="a1703">
-    <input class="a1702">
-    <input class="a1701"> -->
-    <div class="montant-annuel-des-frais arial-regular-normal-black-16px"
-        data-id="04c0fb4f-66a8-4cda-8f3d-fe5a2a229f15">Montant annuel des frais</div>
-    <div class="montant-annuel-des-frais-VMr6Om arial-regular-normal-black-16px"
-        data-id="1c816139-754e-4890-a6ed-5d4d31d33fbc">Montant annuel des frais</div>
-    <div class="x12 arial-regular-normal-black-16px" data-id="a3d27b61-9dd0-4d54-8639-7bab3a929421">12</div>
-    <div class="x11 arial-regular-normal-black-16px" data-id="2a87aaa2-20f5-4deb-b7c9-d1a15e4088c5">11</div>
-    <div class="x10 arial-regular-normal-black-16px" data-id="1d2da15d-ed67-4b9d-8fb1-3aeb2c5426a2">10</div>
-    <div class="x09 arial-regular-normal-black-16px" data-id="49af6bdf-40fe-435e-b647-da59841876ad">09</div>
-    <div class="x08 arial-regular-normal-black-16px" data-id="426680af-01d3-4d4e-a8c0-84bc2f25a41a">08</div>
-    <div class="x07 arial-regular-normal-black-16px" data-id="b21402e6-33e7-417d-854a-92e0a3e6ac3e">07</div>
-    <div class="x06 arial-regular-normal-black-16px" data-id="5a1a7cfa-0276-4436-8c68-466cb1a15b77">06</div>
-    <div class="x05 arial-regular-normal-black-16px" data-id="6b2ddfe7-06ce-4962-9238-cc01f48abbd3">05</div>
-    <div class="x04 arial-regular-normal-black-16px" data-id="7ff32c9e-97ca-4019-bebc-3714aa667528">04</div>
-    <div class="x03 arial-regular-normal-black-16px" data-id="c53df10b-bf5b-4033-bf82-7c3a63120f0a">03</div>
-    <div class="x02 arial-regular-normal-black-16px" data-id="8c8a60e6-42e9-4fc2-827e-d4dbc9ffde92">02</div>
-    <div class="x01 arial-regular-normal-black-16px" data-id="3ff037ec-84ab-44f2-90fe-2a798f72fc94">01</div>
-    <p class="anne-entire arial-regular-normal-black-16px" data-id="7dc66930-5753-46c4-946e-233d1c53e8b2">
-        (année entière&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</p>
-    <div class="garde-denfants arial-regular-normal-black-16px" data-id="cd0e63f3-078c-4354-b765-5dfdab00108a">
-        Garde d&#39;enfants</div>
-    <div class="x12-VMr6Om arial-regular-normal-black-16px" data-id="ee100b1c-4a3c-4f79-a596-ed4646736d1c">12</div>
-    <div class="x11-VMr6Om arial-regular-normal-black-16px" data-id="8a51f278-a7f1-4b3b-8df7-9ff6116a4fff">11</div>
-    <div class="x10-VMr6Om arial-regular-normal-black-16px" data-id="a74bcd45-25ce-41b7-9f34-33978b6ca2e4">10</div>
-    <div class="x09-VMr6Om arial-regular-normal-black-16px" data-id="af5fd24e-f59c-4ba0-976a-b00c3784616c">09</div>
-    <div class="x08-VMr6Om arial-regular-normal-black-16px" data-id="f34b5a6a-4725-49ad-abd9-e3f7624d5009">08</div>
-    <div class="x07-VMr6Om arial-regular-normal-black-16px" data-id="f5d8de1d-e1c7-4e8a-93ca-3a784f27243a">07</div>
-    <div class="x06-VMr6Om arial-regular-normal-black-16px" data-id="82535fe9-263d-46cf-ba62-9f1c57b52de9">06</div>
-    <div class="x05-VMr6Om arial-regular-normal-black-16px" data-id="91a5c516-e47f-4adb-9688-db50b9c81027">05</div>
-    <div class="x04-VMr6Om arial-regular-normal-black-16px" data-id="80d2851b-3984-4867-9ac3-4958d5789994">04</div>
-    <div class="x03-VMr6Om arial-regular-normal-black-16px" data-id="aa127163-33b2-4b48-b2bc-6864b7a45d72">03</div>
-    <div class="x02-VMr6Om arial-regular-normal-black-16px" data-id="a7cbc855-54b9-4b2b-8012-e62d6f883079">02</div>
-    <div class="x01-VMr6Om arial-regular-normal-black-16px" data-id="01c41779-da76-4805-b3ed-deb132406a1f">01</div>
-    <p class="anne-entire-VMr6Om arial-regular-normal-black-16px" data-id="3936db23-747f-46ad-89ca-f4119229254a">
-        (année entière&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</p>
-    <div class="garde-denfants-VMr6Om arial-regular-normal-black-16px" data-id="5a065972-d5ca-4755-b6df-aa48b4b00b24">
-        Garde d&#39;enfants</div>
-    <div class="x12-mzXdH9 arial-regular-normal-black-16px" data-id="7bb95195-6587-47c9-affe-091c50b641a0">12</div>
-    <div class="x11-mzXdH9 arial-regular-normal-black-16px" data-id="ae2936f0-23b3-480e-9fa5-e3387fa8690b">11</div>
-    <div class="x10-mzXdH9 arial-regular-normal-black-16px" data-id="46d41604-fb26-4b1d-a567-9ab74716af38">10</div>
-    <div class="x09-mzXdH9 arial-regular-normal-black-16px" data-id="8ce28717-8a2d-4b10-874c-a1ff63cb4cba">09</div>
-    <div class="x08-mzXdH9 arial-regular-normal-black-16px" data-id="2c58bbce-705d-4d15-87d6-d9e49a83b885">08</div>
-    <div class="x07-mzXdH9 arial-regular-normal-black-16px" data-id="9e8f4503-7ef7-4fa2-aba8-81c9bdca1a7f">07</div>
-    <div class="x06-mzXdH9 arial-regular-normal-black-16px" data-id="dd82855b-f40e-4519-a77b-a0f032b5fe2a">06</div>
-    <div class="x05-mzXdH9 arial-regular-normal-black-16px" data-id="8b015816-add2-4f6e-a9dd-455977458d6e">05</div>
-    <div class="x04-mzXdH9 arial-regular-normal-black-16px" data-id="c137cae3-446e-4e96-b761-7dbae1f1dd19">04</div>
-    <div class="x03-mzXdH9 arial-regular-normal-black-16px" data-id="363ed246-9241-4586-89d7-feccef1a39bf">03</div>
-    <div class="x02-mzXdH9 arial-regular-normal-black-16px" data-id="fe76f602-7519-40cf-b776-f84f9017f7c7">02</div>
-    <div class="x01-mzXdH9 arial-regular-normal-black-16px" data-id="abcba95d-8a4a-48b3-a62e-e9bcfe23f945">01</div>
-    <p class="anne-entire-mzXdH9 arial-regular-normal-black-16px" data-id="a3f0b8db-5189-4961-a4d8-7a4395d22750">
-        (année entière&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</p>
-    <p class="aides-et-soins-on-de-dpendance arial-regular-normal-black-16px"
-        data-id="b874c8b9-0c18-4cfe-a770-d3f2ceb8c8c4">Aides et soins en raison de dépendance</p>
-    <div class="x12-QxM5SU arial-regular-normal-black-16px" data-id="cae19e08-ce27-43b3-b4b8-7a50e556d377">12</div>
-    <div class="x11-QxM5SU arial-regular-normal-black-16px" data-id="ea0dedc6-c984-49b8-b29f-5f72631666e9">11</div>
-    <div class="x10-QxM5SU arial-regular-normal-black-16px" data-id="789b9228-fcd9-4a0a-8371-506525d50809">10</div>
-    <div class="x09-QxM5SU arial-regular-normal-black-16px" data-id="a685d366-55d5-4181-b541-68cad1d76356">09</div>
-    <div class="x08-QxM5SU arial-regular-normal-black-16px" data-id="fab37709-8a6b-44db-a5cd-f754aaf8d3dc">08</div>
-    <div class="x07-QxM5SU arial-regular-normal-black-16px" data-id="4a05c25f-4a26-4783-a8ca-581fd7be0f82">07</div>
-    <div class="x06-QxM5SU arial-regular-normal-black-16px" data-id="f34aa81e-328f-4206-a53f-a1cf111275de">06</div>
-    <div class="x05-QxM5SU arial-regular-normal-black-16px" data-id="4236f6d1-6d17-4ba2-8197-4b3bb0dd7f47">05</div>
-    <div class="x04-QxM5SU arial-regular-normal-black-16px" data-id="5f1fa715-56d2-4ebc-b476-39a8251b9696">04</div>
-    <div class="x03-QxM5SU arial-regular-normal-black-16px" data-id="e5c982a4-a033-48ff-a8e5-133036de6c5e">03</div>
-    <div class="x02-QxM5SU arial-regular-normal-black-16px" data-id="56fbf532-2eda-450c-8ac9-3447e890698f">02</div>
-    <div class="x01-QxM5SU arial-regular-normal-black-16px" data-id="b76a1ced-ce28-4c46-91f8-4716fba39808">01</div>
-    <p class="anne-entire-QxM5SU arial-regular-normal-black-16px" data-id="68f71a55-eed9-4b2b-b618-4c7b19bcc276">
-        (année entière&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</p>
-    <p class="aides-et-soins-on-de-dpendance-VMr6Om arial-regular-normal-black-16px"
-        data-id="ba6c6163-42da-414e-b4df-629812a0da43">Aides et soins en raison de dépendance</p>
-    <div class="x12-2P4qUJ arial-regular-normal-black-16px" data-id="f0513692-c643-4738-83bc-a01bc4927a93">12</div>
-    <div class="x11-2P4qUJ arial-regular-normal-black-16px" data-id="7f9715e7-b1f4-4bf6-a827-b5e032056160">11</div>
-    <div class="x10-2P4qUJ arial-regular-normal-black-16px" data-id="bf30fbdd-d978-4a0e-b13b-07e494f813ef">10</div>
-    <div class="x09-2P4qUJ arial-regular-normal-black-16px" data-id="4c0c956e-2a57-4a28-96e4-f2fc0983b78c">09</div>
-    <div class="x08-2P4qUJ arial-regular-normal-black-16px" data-id="e50f30d7-cc72-4ba4-9956-708623ae9194">08</div>
-    <div class="x07-2P4qUJ arial-regular-normal-black-16px" data-id="01deb222-c9f7-4189-b178-f66743b9b88c">07</div>
-    <div class="x06-2P4qUJ arial-regular-normal-black-16px" data-id="73a88355-6ef3-4074-8bfc-6314d456ac06">06</div>
-    <div class="x05-2P4qUJ arial-regular-normal-black-16px" data-id="de6c38f3-3362-4787-9b6f-56347aa7d31c">05</div>
-    <div class="x04-2P4qUJ arial-regular-normal-black-16px" data-id="007dd70f-0113-4055-b93f-a7e87e79b697">04</div>
-    <div class="x03-2P4qUJ arial-regular-normal-black-16px" data-id="b890f6be-260f-456c-9f9f-e7b673f3fbad">03</div>
-    <div class="x02-2P4qUJ arial-regular-normal-black-16px" data-id="c4e757fc-8f5f-48bb-a69d-4b677b20f634">02</div>
-    <div class="x01-2P4qUJ arial-regular-normal-black-16px" data-id="a555319c-a78e-43d6-84f8-f0938ed0b4f6">01</div>
-    <p class="anne-entire-2P4qUJ arial-regular-normal-black-16px" data-id="3e02ce68-8eeb-461a-8deb-064d958dcaa5">
-        (année entière&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</p>
-    <div class="domesticit arial-regular-normal-black-16px" data-id="ab25877c-02c9-4c0b-8001-b731b2ec8a6e">
-        Domesticité</div>
-    <p class="cochez-lales-pr-r-type-de-frais arial-regular-normal-black-16px"
-        data-id="4fdcb6be-c2d0-421c-9cef-54f40ede95d5">Cochez la(les) période(s) concernée(s) par type de frais</p>
-    <div class="x12-qr8e7q arial-regular-normal-black-16px" data-id="d07198d2-e5a0-48e3-93b8-d07c3fe933c1">12</div>
-    <div class="x11-qr8e7q arial-regular-normal-black-16px" data-id="92169dcd-65b8-40e1-87d3-8cd6e181ac3f">11</div>
-    <div class="x10-qr8e7q arial-regular-normal-black-16px" data-id="c8e5260d-2424-4499-b2a8-56d5814d4c7c">10</div>
-    <div class="x09-qr8e7q arial-regular-normal-black-16px" data-id="86909f99-e616-40ec-aa08-b332ebe3387e">09</div>
-    <div class="x08-qr8e7q arial-regular-normal-black-16px" data-id="395460fb-8dd7-4f64-9941-94b6f183ec73">08</div>
-    <div class="x07-qr8e7q arial-regular-normal-black-16px" data-id="3a00781b-5c73-44f6-9875-a9a339433141">07</div>
-    <div class="x06-qr8e7q arial-regular-normal-black-16px" data-id="850d1dd0-fc87-44d6-86f0-a8cfa237503a">06</div>
-    <div class="x05-qr8e7q arial-regular-normal-black-16px" data-id="8d5eb721-a7b0-47ba-9acd-173895440e2e">05</div>
-    <div class="x04-qr8e7q arial-regular-normal-black-16px" data-id="33c5984f-430e-42c1-91e0-75902f544f13">04</div>
-    <div class="x03-qr8e7q arial-regular-normal-black-16px" data-id="e9979161-3e23-45a5-b39a-0a81f2a7c3ca">03</div>
-    <div class="x02-qr8e7q arial-regular-normal-black-16px" data-id="54ad5d3b-7c6b-444a-b013-24dcc75a6e5b">02</div>
-    <div class="x01-qr8e7q arial-regular-normal-black-16px" data-id="26ef0747-a64a-4535-9efd-d32edba0c2fd">01</div>
-    <p class="anne-entire-qr8e7q arial-regular-normal-black-16px" data-id="c945e4ab-d626-4a2e-a4fe-e76868048fc8">
-        (année entière&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;)</p>
-    <div class="domesticit-VMr6Om arial-regular-normal-black-16px" data-id="fb42da65-e76a-4f58-a737-6e01f4e72863">
-        Domesticité</div>
-    <p class="cochez-lales-pr-r-type-de-frais-VMr6Om arial-regular-normal-black-16px"
-        data-id="632727d4-ca21-4696-84ad-262389d6f142">Cochez la(les) période(s) concernée(s) par type de frais</p>
-    <p class="nom-du-bnficiai-charge-crcheetc arial-regular-normal-black-16px"
-        data-id="999d1b40-5d09-43fa-9421-6a9ffa538f27">Nom du bénéficiaire<br>(hommes/femmes<br>de charge,
-        crèche,<br>etc.)</p>
-    <div class="contribuable-co-jointpartenaire arial-regular-normal-black-16px"
-        data-id="b572efef-1253-4065-a083-f59e7b27a1a9">Contribuable conjoint/partenaire</div>
-    <p class="nom-du-bnficiai-charge-crcheetc-VMr6Om arial-regular-normal-black-16px"
-        data-id="3e5d5736-edf9-4835-9f1f-c608b857229d">Nom du bénéficiaire<br>(hommes/femmes<br>de charge,
-        crèche,<br>etc.)</p>
-    <div class="contribuable arial-regular-normal-black-16px" data-id="2117c66c-7a78-4610-8583-56276f037683">
-        Contribuable</div>
-    <p class="frais-de-domest-19-dcembre-2008 arial-normal-black-16px" data-id="22e154c2-e1e2-427c-b7f4-8a601c376785">
-        <span class="span0-6p4Ex2">Frais de domesticité, frais
-            d&#39;aides et de soins en raison de l&#39;état de dépendance, frais de garde d&#39;enfant<br></span><span
-            class="span1-6p4Ex2">(règlement grand-ducal modifié du 19 décembre 2008)</span></p>
-    <div class="x arial-regular-normal-black-16px" data-id="7ca36060-0bdb-47e0-ae50-2aa2e6516324">%</div>
-    <div class="dj-prsent arial-regular-normal-black-16px" data-id="2b7bb978-376a-468b-b14f-f2ed0bdb8c5f">déjà
-        présenté</div>
-    <div class="en-annexe arial-regular-normal-black-16px" data-id="d7c580d2-7ef0-4f14-a155-53ef78eaf13e">en
-        annexe</div>
-    <p class="taux-de-la-rduc-acit-de-travail arial-regular-normal-black-16px"
-        data-id="376457a8-26f8-4fc4-a02a-7f5e4b8e60b0">Taux de la réduction de la<br>capacité de travail</p>
-    <div class="certificat-mdical arial-regular-normal-black-16px" data-id="09c6c0de-f139-4574-a8c1-58487cd23e90">
-        Certificat médical</div>
-    <div class="contribuable-co-jointpartenaire-VMr6Om arial-regular-normal-black-16px"
-        data-id="4dc91e38-c412-415f-8e7c-42c2ac71f2ac">Contribuable conjoint/partenaire</div>
-    <div class="x-VMr6Om arial-regular-normal-black-16px" data-id="c3e113b8-79fb-41a3-b3d5-f5e97ef96bed">%</div>
-    <div class="dj-prsent-VMr6Om arial-regular-normal-black-16px" data-id="f77ef1eb-2c72-46bc-b84c-c53873f55ca0">déjà
-        présenté</div>
-    <div class="en-annexe-VMr6Om arial-regular-normal-black-16px" data-id="7d90b1e1-8706-4855-9d90-93d5b92ce4e8">en
-        annexe</div>
-    <p class="taux-de-la-rduc-acit-de-travail-VMr6Om arial-regular-normal-black-16px"
-        data-id="4614a752-d7de-458f-b0c2-4b290dec688b">Taux de la réduction de la<br>capacité de travail</p>
-    <div class="certificat-mdical-VMr6Om arial-regular-normal-black-16px"
-        data-id="fa645d6c-5bc1-48f8-8b27-b5b4d8562e48">Certificat médical</div>
-    <div class="contribuable-VMr6Om arial-regular-normal-black-16px" data-id="2217a0e1-c653-43ca-80db-5435e79e3c23">
-        Contribuable</div>
-    <p class="invalidit-et-in-du-7-mars-1969 arial-normal-black-16px" data-id="c47f8c38-47d0-4df7-a104-93d5b2660125">
-        <span class="span0-OfYm7O">Invalidité et infirmité</span><span class="span1-OfYm7O"> (règlement grand-ducal
-            modifié du 7 mars 1969)</span></p>
-    <p class="abattements-for-aires-suivantes arial-normal-black-16px" data-id="13993e05-9f75-4ec8-9ac4-4248038ce8d5">
-        <span class="span0-bFGG0p">Abattements forfaitaires</span><span class="span1-bFGG0p"> prévus pour les charges
-            extraordinaires suivantes:</span></p>
-    <div class="contribuableconjointpartenaire arial-regular-normal-black-16px"
-        data-id="c0810719-31b0-4db1-aae0-b49a4b4f5f49">Contribuable<br>conjoint/partenaire</div>
-    <div class="contribuable-mzXdH9 arial-regular-normal-black-16px" data-id="e4ca63ec-cdbd-4f1a-acde-edefe0f77c63">
-        Contribuable</div>
-    <p class="le-dtail-des-ch-x-leurs-noms-le" data-id="934a8388-bf0b-42bd-88a1-dc78baf97318">Le détail des
-        charges doit être indiqué ci-après. Dans le cas de frais de maladie, le<br>montant brut, le détail des frais
-        exposés et le détail des remboursements par des tiers<br>sont à joindre. Dans le cas de l&#39;entretien de
-        parents nécessiteux, leurs noms, le détail de<br>leurs revenus, la durée de l&#39;entretien, le montant de la
-        charge et le ménage, dont les<br>parents nécessiteux font partie, sont à indiquer.</p>
-    <p class="abattement-de-r-lt-contributive arial-regular-normal-black-16px"
-        data-id="34a17f23-6ce9-4ae9-854b-c144e43b0c15">Abattement de revenu imposable du fait de charges extraordinaires
-        (article 127 L.I.R.) qui sont inévitables et qui réduisent de façon<br>considérable la faculté contributive.</p>
-    <div class="demande-pour-un-extraordinaires" data-id="f9bcba52-2a55-41d7-9f96-d335f11a4bcb">Demande pour un
-        abattement de revenu imposable du fait de charges extraordinaires</div>
-    <h1 class="title" data-id="b073cda5-01fa-43e5-8c69-97573ff44045">CE</h1>
+                <style>
+  .x17_21 {
+    background-color: #ffffff;
+    height: 1182px;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 1042px;
+  }
+
+  .x17_21 .x1727-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 894px;
+    position: absolute;
+    top: 1140px;
+    width: 148px;
+  }
+
+  .x17_21 .x1726-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 266px;
+    position: absolute;
+    top: 1140px;
+    width: 148px;
+  }
+
+  .x17_21 .x1725-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 894px;
+    position: absolute;
+    top: 1090px;
+    width: 148px;
+  }
+
+  .x17_21 .x1724-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 266px;
+    position: absolute;
+    top: 1090px;
+    width: 148px;
+  }
+
+  .x17_21 .x1723-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 894px;
+    position: absolute;
+    top: 1040px;
+    width: 148px;
+  }
+
+  .x17_21 .x1722-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 266px;
+    position: absolute;
+    top: 1040px;
+    width: 148px;
+  }
+
+  .x17_21 .x1721-XgVJTO {
+    background-color: var(--mercury);
+    height: 100px;
+    left: 812px;
+    position: absolute;
+    top: 932px;
+    width: 230px;
+  }
+
+  .x17_21 .x1720-XgVJTO {
+    background-color: var(--mercury);
+    height: 100px;
+    left: 184px;
+    position: absolute;
+    top: 932px;
+    width: 230px;
+  }
+
+  .x17_21 .x1719-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 0px;
+    position: absolute;
+    top: 871px;
+    width: 20px;
+  }
+
+  .x17_21 .x1718-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 855px;
+    position: absolute;
+    top: 793px;
+    width: 148px;
+  }
+
+  .x17_21 .x1717-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 664px;
+    position: absolute;
+    top: 820px;
+    width: 20px;
+  }
+
+  .x17_21 .x1716-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 664px;
+    position: absolute;
+    top: 788px;
+    width: 20px;
+  }
+
+  .x17_21 .x1715-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 224px;
+    position: absolute;
+    top: 793px;
+    width: 148px;
+  }
+
+  .x17_21 .x1714-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 36px;
+    position: absolute;
+    top: 820px;
+    width: 20px;
+  }
+
+  .x17_21 .x1713-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 36px;
+    position: absolute;
+    top: 788px;
+    width: 20px;
+  }
+
+  .x17_21 .x1712-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 0px;
+    position: absolute;
+    top: 703px;
+    width: 20px;
+  }
+
+  .x17_21 .x1711-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 601px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1710-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 550px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1709-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 500px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1708-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 450px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1707-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 400px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1706-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 350px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1705-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 300px;
+    width: 1006px;
+  }
+
+  .x17_21 .x1704-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 250px;
+    width: 1006px;
+  }
+
+  .x17_21 .x17021703-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 778px;
+    position: absolute;
+    top: 200px;
+    width: 220px;
+  }
+
+  .x17_21 .x1703-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 894px;
+    position: absolute;
+    top: 158px;
+    width: 148px;
+  }
+
+  .x17_21 .x1702-XgVJTO {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 734px;
+    position: absolute;
+    top: 158px;
+    width: 148px;
+  }
+
+  .x17_21 .x1701-XgVJTO {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 0px;
+    position: absolute;
+    top: 84px;
+    width: 20px;
+  }
+
+  .x17_21 .montant-annuel-des-frais-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 664px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1154px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .pendant-mois-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 664px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1104px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .montant-mensuel-des-frais-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 664px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1054px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .nom-du-bnficiairehom-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 664px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 936px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .contribuable-conjointpartenaire-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 740px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 912px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .montant-annuel-des-frais-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1154px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .pendant-mois-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1104px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .montant-mensuel-des-frais-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1054px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .nom-du-bnficiairehom-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 936px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .contribuable-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 180px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 912px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .frais-de-domesticit-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 872px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .span0-SD9XcB {}
+
+  .x17_21 .span1-SD9XcB {}
+
+  .x17_21 .x-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 1005px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 806px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .dj-prsent-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 700px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 820px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .en-annexe-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 700px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 788px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .taux-de-la-rduction-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 838px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 752px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .certificat-mdical-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 669px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 750px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .contribuable-conjointpartenaire-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 740px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 730px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .x-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 374px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 806px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .dj-prsent-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 72px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 820px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .en-annexe-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 72px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 788px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .taux-de-la-rduction-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 207px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 752px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .certificat-mdical-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 40px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 758px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .contribuable-Y8dqEx {
+    background-color: transparent;
+    height: auto;
+    left: 180px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 730px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .invalidit-et-infirmi-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 704px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .span0-Dl4HWS {}
+
+  .x17_21 .span1-Dl4HWS {}
+
+  .x17_21 .abattements-forfaita-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 674px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .span0-Dfx1EX {}
+
+  .x17_21 .span1-Dfx1EX {}
+
+  .x17_21 .contribuableconjointpartenaire-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 902px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 120px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .contribuable-LIkGiw {
+    background-color: transparent;
+    height: auto;
+    left: 763px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 128px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .le-dtail-des-charges-XgVJTO {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial-italic);
+    font-size: var(--font-size-m);
+    font-style: italic;
+    font-weight: 400;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 158px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .abattement-de-revenu-XgVJTO {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 86px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .demande-pour-un-abat-XgVJTO {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    position: absolute;
+    text-align: left;
+    top: 48px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x17_21 .ce-XgVJTO {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 1003px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    position: absolute;
+    text-align: left;
+    top: 2px;
+    white-space: nowrap;
+    width: auto;
+  }
+</style>
+<div class="x17_21 screen">
+  <input type="text" class="x1727-XgVJTO" />
+  <input type="text" class="x1726-XgVJTO" />
+  <input type="text" class="x1725-XgVJTO" />
+  <input type="text" class="x1724-XgVJTO" />
+  <input type="text" class="x1723-XgVJTO" />
+  <input type="text" class="x1722-XgVJTO" />
+  <input type="text" class="x1721-XgVJTO" />
+  <input type="text" class="x1720-XgVJTO" />
+  <input type="text" class="x1719-XgVJTO" />
+  <input type="text" class="x1718-XgVJTO" />
+  <input type="text" class="x1717-XgVJTO" />
+  <input type="text" class="x1716-XgVJTO" />
+  <input type="text" class="x1715-XgVJTO" />
+  <input type="text" class="x1714-XgVJTO" />
+  <input type="text" class="x1713-XgVJTO" />
+  <input type="text" class="x1712-XgVJTO" />
+  <input type="text" class="x1711-XgVJTO" />
+  <input type="text" class="x1710-XgVJTO" />
+  <input type="text" class="x1709-XgVJTO" />
+  <input type="text" class="x1708-XgVJTO" />
+  <input type="text" class="x1707-XgVJTO" />
+  <input type="text" class="x1706-XgVJTO" />
+  <input type="text" class="x1705-XgVJTO" />
+  <input type="text" class="x1704-XgVJTO" />
+  <input type="text" class="x17021703-XgVJTO" />
+  <input type="text" class="x1703-XgVJTO" />
+  <input type="text" class="x1702-XgVJTO" />
+  <input type="text" class="x1701-XgVJTO" />
+  <div class="montant-annuel-des-frais-XgVJTO arial-regular-normal-black-16px"
+    data-id="04c0fb4f-66a8-4cda-8f3d-fe5a2a229f15">Montant annuel des frais</div>
+  <div class="pendant-mois-XgVJTO arial-regular-normal-black-16px" data-id="2ebae35e-8304-4a75-8b0c-917395b779bc">
+    Pendant (mois)</div>
+  <div class="montant-mensuel-des-frais-XgVJTO arial-regular-normal-black-16px"
+    data-id="3dd59292-64a7-4535-800e-ca6174e828ed">Montant mensuel des frais</div>
+  <p class="nom-du-bnficiairehom-XgVJTO arial-regular-normal-black-16px" data-id="999d1b40-5d09-43fa-9421-6a9ffa538f27">
+    Nom du bénéficiaire<br>(hommes/femmes<br>de charge,
+    crèche,<br>etc.)</p>
+  <div class="contribuable-conjointpartenaire-XgVJTO arial-regular-normal-black-16px"
+    data-id="b572efef-1253-4065-a083-f59e7b27a1a9">Contribuable conjoint/partenaire</div>
+  <div class="montant-annuel-des-frais-Y8dqEx arial-regular-normal-black-16px"
+    data-id="1c816139-754e-4890-a6ed-5d4d31d33fbc">Montant annuel des frais</div>
+  <div class="pendant-mois-Y8dqEx arial-regular-normal-black-16px" data-id="b123d503-5a4e-42a2-b8f1-cc8dfaf5f6ed">
+    Pendant (mois)</div>
+  <div class="montant-mensuel-des-frais-Y8dqEx arial-regular-normal-black-16px"
+    data-id="633e33bb-dc55-4245-b08e-ea3a9b660a90">Montant mensuel des frais</div>
+  <p class="nom-du-bnficiairehom-Y8dqEx arial-regular-normal-black-16px" data-id="3e5d5736-edf9-4835-9f1f-c608b857229d">
+    Nom du bénéficiaire<br>(hommes/femmes<br>de charge,
+    crèche,<br>etc.)</p>
+  <div class="contribuable-XgVJTO arial-regular-normal-black-16px" data-id="2117c66c-7a78-4610-8583-56276f037683">
+    Contribuable</div>
+  <p class="frais-de-domesticit-XgVJTO arial-normal-black-16px" data-id="22e154c2-e1e2-427c-b7f4-8a601c376785"><span
+      class="span0-SD9XcB arial-bold-black-16px">Frais de domesticité, frais d'aides et de soins en raison de l'état
+      de dépendance, frais de garde d'enfant<br></span><span
+      class="span1-SD9XcB arial-regular-normal-black-16px">(règlement grand-ducal modifié du 19 décembre
+      2008)</span></p>
+  <div class="x-XgVJTO arial-regular-normal-black-16px" data-id="7ca36060-0bdb-47e0-ae50-2aa2e6516324">%</div>
+  <div class="dj-prsent-XgVJTO arial-regular-normal-black-16px" data-id="2b7bb978-376a-468b-b14f-f2ed0bdb8c5f">déjà
+    présenté</div>
+  <div class="en-annexe-XgVJTO arial-regular-normal-black-16px" data-id="d7c580d2-7ef0-4f14-a155-53ef78eaf13e">en
+    annexe</div>
+  <p class="taux-de-la-rduction-XgVJTO arial-regular-normal-black-16px" data-id="376457a8-26f8-4fc4-a02a-7f5e4b8e60b0">
+    Taux de la réduction de la<br>capacité de travail</p>
+  <div class="certificat-mdical-XgVJTO arial-regular-normal-black-16px" data-id="09c6c0de-f139-4574-a8c1-58487cd23e90">
+    Certificat médical</div>
+  <div class="contribuable-conjointpartenaire-Y8dqEx arial-regular-normal-black-16px"
+    data-id="4dc91e38-c412-415f-8e7c-42c2ac71f2ac">Contribuable conjoint/partenaire</div>
+  <div class="x-Y8dqEx arial-regular-normal-black-16px" data-id="c3e113b8-79fb-41a3-b3d5-f5e97ef96bed">%</div>
+  <div class="dj-prsent-Y8dqEx arial-regular-normal-black-16px" data-id="f77ef1eb-2c72-46bc-b84c-c53873f55ca0">déjà
+    présenté</div>
+  <div class="en-annexe-Y8dqEx arial-regular-normal-black-16px" data-id="7d90b1e1-8706-4855-9d90-93d5b92ce4e8">en
+    annexe</div>
+  <p class="taux-de-la-rduction-Y8dqEx arial-regular-normal-black-16px" data-id="4614a752-d7de-458f-b0c2-4b290dec688b">
+    Taux de la réduction de la<br>capacité de travail</p>
+  <div class="certificat-mdical-Y8dqEx arial-regular-normal-black-16px" data-id="fa645d6c-5bc1-48f8-8b27-b5b4d8562e48">
+    Certificat médical</div>
+  <div class="contribuable-Y8dqEx arial-regular-normal-black-16px" data-id="2217a0e1-c653-43ca-80db-5435e79e3c23">
+    Contribuable</div>
+  <p class="invalidit-et-infirmi-XgVJTO arial-normal-black-16px" data-id="c47f8c38-47d0-4df7-a104-93d5b2660125">
+    <span class="span0-Dl4HWS arial-bold-black-16px">Invalidité et infirmité</span><span
+      class="span1-Dl4HWS arial-regular-normal-black-16px"> (règlement grand-ducal modifié du 7 mars 1969)</span>
+  </p>
+  <p class="abattements-forfaita-XgVJTO arial-normal-black-16px" data-id="13993e05-9f75-4ec8-9ac4-4248038ce8d5">
+    <span class="span0-Dfx1EX arial-bold-black-16px">Abattements forfaitaires</span><span
+      class="span1-Dfx1EX arial-regular-normal-black-16px"> prévus pour les charges extraordinaires
+      suivantes:</span>
+  </p>
+  <div class="contribuableconjointpartenaire-XgVJTO arial-regular-normal-black-16px"
+    data-id="c0810719-31b0-4db1-aae0-b49a4b4f5f49">Contribuable<br>conjoint/partenaire</div>
+  <div class="contribuable-LIkGiw arial-regular-normal-black-16px" data-id="e4ca63ec-cdbd-4f1a-acde-edefe0f77c63">
+    Contribuable</div>
+  <p class="le-dtail-des-charges-XgVJTO" data-id="934a8388-bf0b-42bd-88a1-dc78baf97318">Le détail des charges doit
+    être indiqué ci-après. Dans le cas de frais de maladie, le<br>montant brut, le détail des frais exposés et le
+    détail des remboursements par des tiers<br>sont à joindre. Dans le cas de l'entretien de parents nécessiteux,
+    leurs noms, le détail de<br>leurs revenus, la durée de l'entretien, le montant de la charge et le ménage, dont
+    les<br>parents nécessiteux font partie, sont à indiquer.</p>
+  <p class="abattement-de-revenu-XgVJTO arial-regular-normal-black-16px" data-id="34a17f23-6ce9-4ae9-854b-c144e43b0c15">
+    Abattement de revenu imposable du fait de charges extraordinaires
+    (article 127 L.I.R.) qui sont inévitables et qui réduisent de façon<br>considérable la faculté contributive.</p>
+  <div class="demande-pour-un-abat-XgVJTO" data-id="f9bcba52-2a55-41d7-9f96-d335f11a4bcb">Demande pour un abattement
+    de revenu imposable du fait de charges extraordinaires</div>
+  <div class="ce-XgVJTO" data-id="b073cda5-01fa-43e5-8c69-97573ff44045">CE</div>
 </div>
-                <div class="x18 screen ">
-    <input name="18dn1842" class="x1842" value="{{client.charges_extraordinaires_18.declaration.observations.f2}}">
-    <input name="18dn1841" class="x1841" value="{{client.charges_extraordinaires_18.declaration.observations.f1}}">
-    <input name="18dn1840" class="x1840" value="{{client.charges_extraordinaires_18.declaration.references.f2}}">
-    <input name="18dn1839" class="x1839" value="{{client.charges_extraordinaires_18.declaration.references.f1}}">
-    <input name="18dn1" id="18dn2" type="radio" value="DAC6N">
-    <label for="18dn2" class="x1838"></label>
-    <input name="18dn1" id="18dn1" type="radio" value="DAC6O">
-    <label for="18dn1" class="x1837"></label>
-    <input name="18d1842" type="checkbox" class="x1801" ng-checked="client.charges_extraordinaires_18.is_abattement == 'Yes'"/>
-    <input name="18d1841" type="checkbox" class="checkbox-6" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['2'].is_voiture_electrique == 'Yes'"/>
-    <input name="18d1840" type="checkbox" class="checkbox-5" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['2'].is_voiture_electrique == 'Yes'"/>
-    <input name="18d1839" type="checkbox" class="checkbox-4" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['1'].is_cycle == 'Yes'"/>
-    <input name="18d1838" type="checkbox" class="checkbox-3" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['1'].is_cycle == 'Yes'"/>
-    <input name="18d1837" type="checkbox" class="checkbox-2" ng-checked="client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['0'].is_voiture == 'Yes'"/>
-    <input name="18d1836" type="checkbox" class="checkbox-1" ng-checked="client.charges_extraordinaires_18.mobilite_durable.contribuable['0'].is_voiture == 'Yes'"/>
-    <input name="18d1835" type="checkbox" class="x1836" ng-checked="client.charges_extraordinaires_18.is_investissement == 'Yes'"/>
-    <input name="18d1834" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['2'].voiture_electrique}}" class="num x1835" />
-    <input name="18d1833" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.contribuable['2'].voiture_electrique}}" class="num x1834" />
-    <input name="18d1832" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['1'].cycle}}" class="num x1833" />
-    <input name="18d1831" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.contribuable['1'].cycle}}" class="num x1832" />
-    <input name="18d1830" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.conjoint_partenaire['0'].voiture}}" class="num x1831" />
-    <input name="18d1829" type="text" value="{{client.charges_extraordinaires_18.mobilite_durable.contribuable['0'].voiture}}" class="num x1830" />
-    <input name="18d1828" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['3'].formation}}" class="x1829" />
-    <input name="18d1827" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['3'].montant}}" class="x1828 num" />
-    <input name="18d1826" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['3'].date_de_naissance}}" maxlength="13" class="cell-in18 x1827 numo" />
-    <input name="18d1825_b" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['3'].prenom}}" class="x1826b" />
-    <input name="18d1825_a" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['3'].nom}}" class="x1826a" />
-    <input name="18d1824" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['2'].formation}}" class="x1825" />
-    <input name="18d1823" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['2'].montant}}" class="x1824 num" />
-    <input name="18d1822" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['2'].date_de_naissance}}" maxlength="13" class="cell-in18 x1823 numo" />
-    <input name="18d1821_b" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['2'].prenom}}" class="x1822b" />
-    <input name="18d1821_a" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['2'].nom}}" class="x1822a" />
-    <input name="18d1820" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['1'].formation}}" class="x1821" />
-    <input name="18d1819" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['1'].montant}}" class="x1820 num" />
-    <input name="18d1818" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['1'].date_de_naissance}}" maxlength="13" class="cell-in18 x1819 numo" />
-    <input name="18d1817_b" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['1'].prenom}}" class="x1818b" />
-    <input name="18d1817_a" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['1'].nom}}" class="x1818a" />
-    <input name="18d1816" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['0'].formation}}" class="x1817" />
-    <input name="18d1815" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['0'].montant}}" class="num x1816" />
-    <input name="18d1814" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['0'].date_de_naissance}}" maxlength="13" class="cell-in18 numo x1815" />
-    <input name="18d1813_b" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['0'].prenom}}" class="x1814b" />
-    <input name="18d1813_a" type="text" value="{{client.charges_extraordinaires_18.enfants_plus_21['0'].nom}}" class="x1814a" />
-    <input name="18d1812" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['3'].montant}}" class="num x1813" />
-    <input name="18d1811" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['3'].date_de_naissance}}" maxlength="13" class="cell-in18 numo x1812" />
-    <input name="18d1810_b" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['3'].prenom}}" class="x1811b" />
-    <input name="18d1810_a" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['3'].nom}}" class="x1811a" />
-    <input name="18d1809" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['2'].montant}}" class="num x1810" />
-    <input name="18d1808" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['2'].date_de_naissance}}" maxlength="13" class="cell-in18 numo x1809" />
-    <input name="18d1807_b" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['2'].prenom}}" class="x1808b" />
-    <input name="18d1807_a" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['2'].nom}}" class="x1808a" />
-    <input name="18d1806" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['1'].montant}}" class="num x1807" />
-    <input name="18d1805" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['1'].date_de_naissance}}" maxlength="13" class="cell-in18 numo x1806" />
-    <input name="18d1804_b" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['1'].prenom}}" class="x1805b" />
-    <input name="18d1804_a" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['1'].nom}}" class="x1805a" />
-    <input name="18d1803" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['0'].montant}}" class="num x1804" />
-    <input name="18d1802" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['0'].date_de_naissance}}" maxlength="13" class="cell-in18 numo x1803" />
-    <input name="18d1801_b" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['0'].prenom}}" class="x1802b" />
-    <input name="18d1801_a" type="text" value="{{client.charges_extraordinaires_18.enfants_moins_21['0'].nom}}" class="x1802a" />
-    <!-- <input class="x1801">
-    <input class="checkbox-6">
-    <input class="checkbox-5">
-    <input class="checkbox-4">
-    <input class="checkbox-3">
-    <input class="checkbox-2">
-    <input class="checkbox-1">
-    <input class="x1836">
-    <input class="x1835">
-    <input class="x1834">
-    <input class="x1833">
-    <input class="x1832">
-    <input class="x1831">
-    <input class="x1830">
-    <input class="x1829">
-    <input class="x1828">
-    <input class="x1827">
-    <input class="x1826b">
-    <input class="x1826a">
-    <input class="x1825">
-    <input class="x1824">
-    <input class="x1823">
-    <input class="x1822b">
-    <input class="x1822a">
-    <input class="x1821">
-    <input class="x1820">
-    <input class="x1819">
-    <input class="x1818b">
-    <input class="x1818a">
-    <input class="x1817">
-    <input class="x1816">
-    <input class="x1815">
-    <input class="x1814b">
-    <input class="x1814a">
-    <input class="x1813">
-    <input class="x1812">
-    <input class="x1811b">
-    <input class="x1811a">
-    <input class="x1810">
-    <input class="x1809">
-    <input class="x1808b">
-    <input class="x1808a">
-    <input class="x1807">
-    <input class="x1806">
-    <input class="x1805b">
-    <input class="x1805a">
-    <input class="x1804">
-    <input class="x1803">
-    <input class="x1802b">
-    <input class="x1802a"> -->
-    <p class="x-pour-les-dispo-ibuable-concern arial-regular-normal-black-16px"
-        data-id="6cd74b21-a96b-4950-82ff-29f53fb965f5">* Pour les dispositifs déclarés au Luxembourg, un Arrangement ID
-        est communiqué au déclarant initial après dépôt de la déclaration via la<br>plateforme MyGuichet.lu et doit être
-        transmis à tout contribuable concerné.</p>
-    <div class="observations-ventuelles arial-regular-normal-black-16px"
-        data-id="c7ba90e5-e261-469c-9016-05d15d64bcfe">Observations éventuelles:</div>
-    <p class="rfrences-arrang-union-europenne arial-regular-normal-black-16px"
-        data-id="a3297ff7-6d49-41cb-bbfa-e2d151dfc672">Références (Arrangement ID*) du/des dispositifs transfrontières
-        ayant fait l&#39;objet d&#39;une déclaration dans l&#39;Union européenne:</p>
-    <div class="non arial-regular-normal-black-16px" data-id="5e7b5542-3c41-4ef9-b46c-a0e6d9778afa">non</div>
-    <div class="oui arial-regular-normal-black-16px" data-id="d0b361b9-942e-49cc-98e5-3dd2dd314cbe">oui</div>
-    <p class="le-contribuable-tive-ue-2018822 arial-regular-normal-black-16px"
-        data-id="7d28057c-6044-4c34-a159-b5ed9a4a1045">Le contribuable a-t-il utilisé au cours de l&#39;année
-        d&#39;imposition un ou plusieurs dispositifs transfrontières devant faire l&#39;objet d&#39;une<br>déclaration
-        au sens de la directive (UE) 2018/822 ?</p>
-    <div class="httpsimpotsdire-sfrontiereshtml" data-id="e7484da8-2858-43aa-9d0a-29f812569e0a">
-        https://impotsdirects.public.lu/fr/echanges_electroniques/dispositifstransfrontieres.html</div>
-    <div class="dclaration-en-v-claration-dac-6 arial-bold-black-22px"
-        data-id="247e4359-5e72-4592-b48d-c6681c88a4e6">Déclaration en vertu de l&#39;article 7 de la loi modifiée du 25
-        mars 2020 relative aux dispositifs<br>transfrontières devant faire l&#39;objet d&#39;une déclaration (DAC 6)
-    </div>
-    <p class="demande-pour-un-mie-est-joindre arial-regular-normal-black-16px"
-        data-id="67ac42e5-c7da-4448-ac4d-ea830e3f017f">Demande pour une bonification d&#39;impôt pour investissement en
-        capital-risque (art. VI de la loi du 22 décembre 1993) (l&#39;original<br>du certificat émis par les ministres
-        ayant dans leurs attributions les Finances et l&#39;Economie est à joindre)</p>
-    <div class="investissement-capital-risque arial-bold-black-22px"
-        data-id="7879b7df-ab2d-45f1-9c88-7498469925e8">Investissement en capital-risque</div>
-    <p class="x-veuillez-indiq-eois-ou-tranger arial-regular-normal-black-16px"
-        data-id="1a7817b5-b371-4729-b99b-f42139852afd">* Veuillez indiquer le montant de l&#39;abattement réduit de
-        toute aide directe de l&#39;Etat ou d&#39;un organisme public luxembourgeois ou étranger</p>
-    <p class="une-voiture-aut-de-rechargeable arial-regular-normal-black-16px"
-        data-id="e9282f7b-2621-4b19-b23d-41d45430e2a8">une voiture automobile à personnes électrique hybride
-        rechargeable</p>
-    <div class="x arial-regular-normal-black-16px" data-id="e1a307cf-78e1-4511-93ab-4f1c76362588">-</div>
-    <p class="un-cycle-avec-o-pdalage-assist arial-regular-normal-black-16px"
-        data-id="941040b5-8a0f-4f84-9eae-23e8a3ae5063">un cycle avec ou sans pédalage assisté</p>
-    <div class="x-VMr6Om arial-regular-normal-black-16px" data-id="618b5add-7256-4d37-a405-a71f89c4d025">-</div>
-    <p class="une-voiture-aut-stible-hydrogne arial-regular-normal-black-16px"
-        data-id="1948799f-6cc9-47fd-a19d-2a3968da5e24">une voiture automobile à personnes à zéro émissions de roulement
-        qui fonctionne<br>exclusivement à l&#39;électricité ou exclusivement avec une pile à combustible à<br>hydrogène
-    </p>
-    <div class="x-mzXdH9 arial-regular-normal-black-16px" data-id="44649203-9190-48ce-9578-acd11b32045d">-</div>
-    <div class="contribuableconjointpartenaire arial-regular-normal-black-16px"
-        data-id="9615fda2-d85b-441c-9fa1-4baf830198ad">Contribuable<br>conjoint/partenaire</div>
-    <div class="contribuable arial-regular-normal-black-16px" data-id="6a6c6fed-37e0-4f2e-9724-7edaec041fd8">
-        Contribuable</div>
-    <p class="demande-pour-un-ule-neufci-aprs arial-regular-normal-black-16px"
-        data-id="94221913-795b-4c57-b9f3-838efffe64ef">Demande pour un abattement de revenu imposable pour mobilité
-        durable selon l&#39;article 129d L.I.R. pour l&#39;acquisition d&#39;un véhicule neuf<br>ci-après:</p>
-    <div class="mobilit-durable arial-bold-black-22px" data-id="80c00910-fc94-4328-ab2c-e4d6952ba347">Mobilité
-        durable</div>
-    <div class="jour arial-regular-normal-black-10px" data-id="f5cbee7e-6645-4aa6-a657-4ec71afee20e">jour</div>
-    <div class="mois arial-regular-normal-black-10px" data-id="88c0b6d5-0cbc-4067-916a-08ced71e3d52">mois</div>
-    <div class="anne arial-regular-normal-black-10px" data-id="d098f394-f179-4ff3-8e94-a8160599e9b7">année</div>
-    <img class="line-96" data-id="78af0d51-45af-4388-ac39-0d27689652a3"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-95" data-id="ea5fbaaa-eef7-4bd1-9ce7-66f40838601c"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-94" data-id="5339b79c-2c27-45dc-b610-363bf7d36f3b"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-93" data-id="8f22e001-82ac-42dc-acca-06c72ec9a0b2"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-92" data-id="a164a4c0-738c-46b3-ae16-2e2bc88b4267"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-91" data-id="27294508-e5c0-4a18-8784-8e075656bf21"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-90" data-id="cf5e4fa0-3e3b-4aa8-bd7b-2c4349913134"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-89" data-id="b077bfc1-5bce-40e9-b6f4-92fbaf653fff"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-88" data-id="62ceb4bc-f9fa-4e31-923b-1d04a2352602"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-87" data-id="9cf535eb-6458-43c6-b47e-2956cb20ec0f"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-86" data-id="2e06e559-301a-4dde-a12f-d2b3030d666b"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-85" data-id="f67db26b-9731-4bfc-86e6-b95b8aae279d"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-VMr6Om arial-regular-normal-black-10px" data-id="27ac8321-ef6b-4892-9628-f7ed2f15d258">jour</div>
-    <div class="mois-VMr6Om arial-regular-normal-black-10px" data-id="adffd058-e186-4cfc-a873-6245f6f4b925">mois</div>
-    <div class="anne-VMr6Om arial-regular-normal-black-10px" data-id="28e4e483-5d8f-4630-bd12-26234eee6440">année</div>
-    <img class="line-84" data-id="1eaa6937-0d1c-4a13-8843-2f18a24ef303"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-83" data-id="86f597a1-80da-4a3d-ae8b-a0cfdee75353"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-82" data-id="2faa1985-2ba7-446a-8563-675853ea4e44"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-81" data-id="9ce6c85c-befd-490d-a9f6-6b7db9d64d07"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-80" data-id="b034d7b2-7641-442e-a163-a8b15d58f852"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-79" data-id="eaa6611e-c639-416f-b60c-f1c6fea2b912"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-78" data-id="8216bd6e-0efc-401f-8d0f-62c26x18021e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-77" data-id="33d4e02a-1371-46ae-9ef5-29b38dee9702"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-76" data-id="81253880-7268-4d71-aa17-8b980f285944"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-75" data-id="b5e43ced-e163-456e-91f3-6e6311a243f6"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-74" data-id="bf14178e-1e95-4306-ae4d-96f565feb34e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-73" data-id="2def3ede-0048-476b-ab77-60ecb119dd02"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-mzXdH9 arial-regular-normal-black-10px" data-id="f323b375-c6fb-4fd8-98dd-7119a53db787">jour</div>
-    <div class="mois-mzXdH9 arial-regular-normal-black-10px" data-id="4d47c252-0e45-45fb-a73c-73d327ea91df">mois</div>
-    <div class="anne-mzXdH9 arial-regular-normal-black-10px" data-id="06344cd7-c505-4df1-a5cd-60de1dd5bce0">année</div>
-    <img class="line-72" data-id="bc51fdba-df9c-445a-9966-c3d7590d0fbc"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-71" data-id="6c43c278-9e53-4803-9924-d84c207c36f9"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-70" data-id="42ba6d3d-d380-45f1-81f0-605b3dd2a9a9"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-69" data-id="02954ead-95aa-4ccb-b928-17677e476eb3"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-68" data-id="adb4112a-193f-4aea-a70c-665775273120"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-67" data-id="63970cc0-b1e2-4407-b0f8-3105c6b128cf"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-66" data-id="ee4b5e9d-8a7a-4bcd-87a3-5f6b02a3bd37"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-65" data-id="12e20b47-a083-46d0-9378-7691281ea809"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-64" data-id="e229cdc8-d785-4d2e-89a3-7ca26a791126"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-63" data-id="b4f0a7a5-b111-4739-8d94-9d9a73cff029"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-62" data-id="63fbdef6-919c-49e8-99a1-cb975f42d537"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-61" data-id="cdc09f38-c1bc-4c4f-bd1f-8e6a822371d0"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-QxM5SU arial-regular-normal-black-10px" data-id="0d3bef56-2a1c-41cb-adff-7e3db71a10c3">jour</div>
-    <div class="mois-QxM5SU arial-regular-normal-black-10px" data-id="dcfbaef8-b152-4c35-9ed1-77469b20be49">mois</div>
-    <div class="anne-QxM5SU arial-regular-normal-black-10px" data-id="e47119f7-ff4d-4a45-b6a9-ea709104782c">année</div>
-    <img class="line-60" data-id="491d4833-f1a3-4b65-8d5a-d0996c1e7086"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-59" data-id="f449efe0-d1f8-4d87-bb06-1eb0b4b5d660"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-58" data-id="3802d2e7-84cc-4050-be21-4041d279d47c"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-57" data-id="871306c8-7571-4873-ba5f-100966dcf90a"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-56" data-id="b6b9d0c4-c860-4ce0-bd28-1ee1a953c03a"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-55" data-id="8d0e71ec-1d4b-424e-8604-ead74dc3b599"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-54" data-id="0d300ba6-5239-4ad5-a625-45460da4e714"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-53" data-id="82030841-9bd0-47e1-bdd8-dd33c1fa18fb"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-52" data-id="80174b70-dd29-4b08-8b14-fda976519d45"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-51" data-id="1d47c19e-1ac1-49fa-8f9e-8fef70409412"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-50" data-id="a8b5262a-81b3-43a9-acf0-9822fa8b3a27"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-49" data-id="bf0ec934-b0fb-4703-8969-ccd253b82cf6"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-2P4qUJ arial-regular-normal-black-10px" data-id="b2318cf6-d3c4-4022-8754-2c356d93f0c2">jour</div>
-    <div class="mois-2P4qUJ arial-regular-normal-black-10px" data-id="9a872bd4-74a0-475d-b8cb-61f7a0d8e270">mois</div>
-    <div class="anne-2P4qUJ arial-regular-normal-black-10px" data-id="d5e3f686-8ac0-4257-8006-68336c137d24">année</div>
-    <img class="line-48" data-id="70d2b45b-408b-4286-901e-8f1ed93032b5"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-47" data-id="b5e13287-88ca-4dc3-be0c-3a5d3b51b2ae"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-46" data-id="10e2844e-d288-40ad-b974-b4bcc1924617"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-45" data-id="b9c73050-4408-491f-b705-0e3cae59560d"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-44" data-id="4fad7ee9-a44a-4c11-b1dc-894e9bb67296"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-43" data-id="69270d11-e6af-49d5-a606-74f206f2743e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-42" data-id="d334e073-a43f-4474-8b98-e654cabf0ee8"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-41" data-id="114e7c1e-755a-4bd7-857e-8a0fb126ad5a"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-40" data-id="363b5208-08c3-4ad6-a16e-7a395e512919"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-39" data-id="81195178-e5c2-463d-bde2-60534a1fd64f"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-38" data-id="1039a0fa-1111-44bd-9b38-eac5f285b66e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-37" data-id="94f77752-e355-4468-9c92-a8360a08a849"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-qr8e7q arial-regular-normal-black-10px" data-id="3a0dbc9c-1cfc-441b-8fbe-584b0e0a43e7">jour</div>
-    <div class="mois-qr8e7q arial-regular-normal-black-10px" data-id="9b335128-9125-4d82-aaa6-9d49e535f566">mois</div>
-    <div class="anne-qr8e7q arial-regular-normal-black-10px" data-id="9ff01726-012c-4c96-999a-ac47794c3b12">année</div>
-    <img class="line-36" data-id="d6407924-f778-42c7-92de-bd520455c19e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-35" data-id="057a8139-d956-4945-a8ac-c584d6f66fc9"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-34" data-id="5113cf81-08d1-4bd3-bd40-114dbd17cae4"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-33" data-id="a210f268-2b16-46bf-a225-c154f90a07bb"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-32" data-id="201c5185-1c2c-4cd8-8837-1d3543b5ed96"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-31" data-id="ef1b0ea4-a0ee-4870-b636-ccc690d8bec5"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-30" data-id="2a81108a-a0e8-4a27-9386-2217f1a35c42"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-29" data-id="113f23f7-f9fc-48c6-9774-77c53348417b"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-28" data-id="0add94cb-96ae-45ed-b850-385b12aeff84"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-27" data-id="4b9d1a17-5e93-4973-9e2e-d0a312c6a6d8"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-26" data-id="4625be91-abe1-4c8b-b94f-fbdac923e0d2"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-25" data-id="d0a0ead1-2212-47d6-ba09-56688883fddb"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-J1YQmd arial-regular-normal-black-10px" data-id="1958fb81-886c-42be-9f60-533595dba9e6">jour</div>
-    <div class="mois-J1YQmd arial-regular-normal-black-10px" data-id="66500265-5730-497b-bf19-f961efe9f436">mois</div>
-    <div class="anne-J1YQmd arial-regular-normal-black-10px" data-id="623aa0f4-17d0-4081-b917-62a3aa15bf6a">année</div>
-    <img class="line-24" data-id="66e52e7f-0004-40ce-8613-257fffb6fa03"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-23" data-id="bf2b9754-5eef-4903-a4da-92d48fecba9c"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-22" data-id="e1884a3b-a288-4e14-ac62-e3a94ecd7f6d"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-21" data-id="1444fd7b-66ef-4db1-9112-c0393bb8ddf4"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-20" data-id="654ec1d2-0a5d-4297-a56e-5e67fed0867c"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-19" data-id="2219dcf0-23ae-44a1-a667-6d30887b9d2d"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-18" data-id="e630d059-64e1-42b0-9124-48ce4951259f"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-17" data-id="eeef12fa-8dd8-40d5-9a38-d17a06b70b23"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-16" data-id="b6caabbb-2b37-4990-9c1d-9fcaa258947c"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-15" data-id="bcee0d3c-b3ae-4786-823f-24eb036f7037"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-14" data-id="8dced9dc-c766-437b-b9ee-53749e2c3133"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-13" data-id="2a75f3a7-6c6e-443d-acef-882ae09415ce"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <div class="jour-a5WPlX arial-regular-normal-black-10px" data-id="86d96703-a45d-41d1-b834-8f7c17138c94">jour</div>
-    <div class="mois-a5WPlX arial-regular-normal-black-10px" data-id="c09466d5-7d3b-4aa6-8ac8-bb7fda2de292">mois</div>
-    <div class="anne-a5WPlX arial-regular-normal-black-10px" data-id="14f820b7-4ef6-4ce9-ae8e-53725d4bd976">année</div>
-    <img class="line-12" data-id="8d2ee645-75da-4558-8cb5-276788c0483f"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-11" data-id="deb58d23-9061-4dd9-a6e4-26a1c1540cad"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-10" data-id="f5dcca98-270a-40c6-b2f8-3bcc23087ff7"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-9" data-id="459321ed-3b0d-43ba-b39c-c157dd74515e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-8" data-id="e2609cd3-00d9-42db-9bbd-e7deceabd92d"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-7" data-id="0494d21f-f4df-4945-9185-317abaca5b75"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-6" data-id="3bbf81d3-9d0d-4890-ab27-aa9113bb6bf3"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-5" data-id="84c6d51e-e4e7-46fe-8634-6c66ac6bd37e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-4" data-id="3954cd89-af4c-4763-82d6-25be83d8959e"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-4@1x.png"><img
-        class="line-3" data-id="8c265641-3fd8-4fa2-a46b-92b4aa47e99a"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-2" data-id="7a135b9c-0512-4dbd-bd75-f774407c095d"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png"><img
-        class="line-1" data-id="57946b30-95f0-4bab-a39c-f094c49b6709"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
-        anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/5f3950b997019609b397e5e0/img/line-1@1x.png">
-    <p class="enfants-gs-dau-tives-aux-tudes arial-regular-normal-black-16px"
-        data-id="2fb0c4c8-db7d-4673-a990-444c891ee8a4">Enfants âgés d&#39;au moins 21 ans au 1/1/2020 - dont j&#39;ai
-        supporté principalement (plus de 50%) les frais d&#39;entretien et les dépenses<br>relatives aux études</p>
-    <div class="b arial-regular-normal-black-16px" data-id="351b1502-b6ad-4e5e-aa47-59a865263140">b)</div>
-    <p class="enfants-gs-de-m-en-et-dducation arial-regular-normal-black-16px"
-        data-id="ae503f81-3c17-4786-b8a8-1b2ac608d82c">Enfants âgés de moins de 21 ans au 1/1/2020 ou nés en cours de
-        l&#39;année - dont j&#39;ai supporté principalement (plus de 50%) les frais<br>d&#39;entretien et
-        d&#39;éducation</p>
-    <div class="a arial-regular-normal-black-16px" data-id="25c3ff68-2c1b-4b15-ada2-c924176c4a75">a)</div>
-    <div class="spcification-de-professionnelle arial-regular-normal-black-16px"
-        data-id="56bab68f-7a23-4e7d-9f8a-1ecbf60044e6">Spécification de la formation<br>professionnelle</div>
-    <div class="montant-annuel-desfrais arial-regular-normal-black-16px"
-        data-id="b6c5513d-157c-4d49-bff1-5bdcbc634d5b">Montant annuel des<br>frais</div>
-    <p class="date-de-naissan-didentification arial-regular-normal-black-16px"
-        data-id="b52f202c-4641-4cfb-a041-6a2152f2b7b5">Date de naissance / n°<br>d&#39;identification</p>
-    <p class="nom-et-prnom-de-lenfant arial-regular-normal-black-16px"
-        data-id="757fa866-0b9d-4218-affb-2910db2a8cfd">Nom et prénom de l&#39;enfant</p>
-    <p class="abattement-de-r-itation-commune" data-id="49bea244-d317-48dc-9eea-1f7973d56c90"><span
-            class="span0-VLTB27">Abattement de revenu imposable pour charges extraordinaires en raison des </span><span
-            class="span1-VLTB27">enfants n&#39;ayant pas fait partie du ménage du<br>contribuable.</span><span
-            class="span2-VLTB27"> L&#39;abattement n&#39;est pas accordé lorsque les deux parents de l&#39;enfant
-            partagent, avec leur enfant, une habitation commune.</span></p>
-    <h1 class="title" data-id="b073cda5-01fa-43e5-8c69-97573ff44045">CE</h1>
+                <style>
+  .x18_21 {
+    background-color: #ffffff;
+    height: 1133px;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 1060px;
+  }
+
+  .x18_21 .x1843-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 1032px;
+    width: 966px;
+  }
+
+  .x18_21 .x1842-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 982px;
+    width: 966px;
+  }
+
+  .x18_21 .x1841-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 932px;
+    width: 966px;
+  }
+
+  .x18_21 .x1840-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 837px;
+    width: 966px;
+  }
+
+  .x18_21 .x1839-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 787px;
+    width: 966px;
+  }
+
+  .x18_21 .x1838-PZieKq {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 655px;
+    position: absolute;
+    top: 725px;
+    width: 20px;
+  }
+
+  .x18_21 .x1837-PZieKq {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 438px;
+    position: absolute;
+    top: 725px;
+    width: 20px;
+  }
+
+  .x18_21 .x1829-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 730px;
+    position: absolute;
+    top: 511px;
+    width: 272px;
+  }
+
+  .x18_21 .x1828-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 511px;
+    width: 148px;
+  }
+
+  .x18_21 .x1827-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 511px;
+    width: 248px;
+  }
+
+  .x18_21 .x1826_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 511px;
+    width: 149px;
+  }
+
+  .x18_21 .x1826_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 511px;
+    width: 149px;
+  }
+
+  .x18_21 .x1825-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 730px;
+    position: absolute;
+    top: 469px;
+    width: 272px;
+  }
+
+  .x18_21 .x1824-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 469px;
+    width: 148px;
+  }
+
+  .x18_21 .x1823-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 469px;
+    width: 248px;
+  }
+
+  .x18_21 .x1822_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 469px;
+    width: 149px;
+  }
+
+  .x18_21 .x1822_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 469px;
+    width: 149px;
+  }
+
+  .x18_21 .x1821-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 730px;
+    position: absolute;
+    top: 427px;
+    width: 272px;
+  }
+
+  .x18_21 .x1820-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 427px;
+    width: 148px;
+  }
+
+  .x18_21 .x1819-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 427px;
+    width: 248px;
+  }
+
+  .x18_21 .x1818_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 427px;
+    width: 149px;
+  }
+
+  .x18_21 .x1818_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 427px;
+    width: 149px;
+  }
+
+  .x18_21 .x1817-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 730px;
+    position: absolute;
+    top: 385px;
+    width: 272px;
+  }
+
+  .x18_21 .x1816-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 385px;
+    width: 148px;
+  }
+
+  .x18_21 .x1815-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 385px;
+    width: 248px;
+  }
+
+  .x18_21 .x1814_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 385px;
+    width: 149px;
+  }
+
+  .x18_21 .x1814_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 385px;
+    width: 149px;
+  }
+
+  .x18_21 .x1813-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 292px;
+    width: 148px;
+  }
+
+  .x18_21 .x1812-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 292px;
+    width: 248px;
+  }
+
+  .x18_21 .x1811_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 292px;
+    width: 149px;
+  }
+
+  .x18_21 .x1811_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 292px;
+    width: 149px;
+  }
+
+  .x18_21 .x1810-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 250px;
+    width: 148px;
+  }
+
+  .x18_21 .x1809-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 250px;
+    width: 248px;
+  }
+
+  .x18_21 .x1808_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 250px;
+    width: 149px;
+  }
+
+  .x18_21 .x1808_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 250px;
+    width: 149px;
+  }
+
+  .x18_21 .x1807-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 208px;
+    width: 148px;
+  }
+
+  .x18_21 .x1806-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 208px;
+    width: 248px;
+  }
+
+  .x18_21 .x1805_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 208px;
+    width: 149px;
+  }
+
+  .x18_21 .x1805_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 208px;
+    width: 149px;
+  }
+
+  .x18_21 .x1804-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 582px;
+    position: absolute;
+    top: 166px;
+    width: 148px;
+  }
+
+  .x18_21 .x1803-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 334px;
+    position: absolute;
+    top: 166px;
+    width: 248px;
+  }
+
+  .x18_21 .x1802_b-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 185px;
+    position: absolute;
+    top: 166px;
+    width: 149px;
+  }
+
+  .x18_21 .x1802_a-PZieKq {
+    background-color: var(--mercury);
+    height: 42px;
+    left: 36px;
+    position: absolute;
+    top: 166px;
+    width: 149px;
+  }
+
+  .x18_21 .x1801-PZieKq {
+    background-color: var(--mercury);
+    height: 20px;
+    left: 0px;
+    position: absolute;
+    top: 47px;
+    width: 20px;
+  }
+
+  .x18_21 .pour-les-dispositifs-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 1100px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .observations-ventuelles-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 900px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .rfrences-arrangement-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 758px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .non-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 691px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 726px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .oui-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 474px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 726px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .le-contribuable-a-t-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 676px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .httpsimpotsdirectspu-PZieKq {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial-regular);
+    font-size: var(--font-size-s);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0px;
+    line-height: 12px;
+    position: absolute;
+    text-align: left;
+    top: 641px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .dclaration-en-vertu-PZieKq {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-l);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 0px;
+    letter-spacing: 0px;
+    line-height: 22px;
+    position: absolute;
+    text-align: left;
+    top: 586px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .jour-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 540px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 540px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 540px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-96-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-95-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-94-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-93-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-92-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-91-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-90-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-89-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-88-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-87-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-86-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .line-85-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 515px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-mmq6hZ {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 498px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-mmq6hZ {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 498px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-mmq6hZ {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 498px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-84-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-83-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-82-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-81-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-80-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-79-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-78-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-77-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-76-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-75-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-74-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .line-73-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 473px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-o4UQmw {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 456px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-o4UQmw {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 456px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-o4UQmw {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 456px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-72-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-71-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-70-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-69-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-68-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-67-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-66-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-65-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-64-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-63-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-62-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .line-61-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 431px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-mQrFOl {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 414px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-mQrFOl {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 414px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-mQrFOl {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 414px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-60-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-59-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-58-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-57-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-56-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-55-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-54-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-53-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-52-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-51-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-50-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .line-49-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 389px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-zy0V2N {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 322px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-zy0V2N {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 322px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-zy0V2N {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 322px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-48-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-47-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-46-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-45-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-44-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-43-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-42-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-41-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-40-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-39-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-38-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .line-37-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 296px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-GGDooX {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 280px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-GGDooX {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 280px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-GGDooX {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 280px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-36-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-35-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-34-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-33-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-32-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-31-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-30-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-29-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-28-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-27-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-26-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .line-25-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 254px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-pDE8c2 {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 238px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-pDE8c2 {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 238px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-pDE8c2 {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 238px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-24-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-23-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-22-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-21-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-20-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-19-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-18-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-17-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-16-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-15-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-14-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .line-13-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 212px;
+    width: 1px;
+  }
+
+  .x18_21 .jour-y3Tu2l {
+    background-color: transparent;
+    height: auto;
+    left: 459px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 196px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .mois-y3Tu2l {
+    background-color: transparent;
+    height: auto;
+    left: 418px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 196px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .anne-y3Tu2l {
+    background-color: transparent;
+    height: auto;
+    left: 358px;
+    letter-spacing: 0px;
+    line-height: 10px;
+    position: absolute;
+    text-align: left;
+    top: 196px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .line-12-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 562px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-11-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 543px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-10-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 524px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-9-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 505px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-8-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 486px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-7-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 467px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-6-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 448px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-5-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 429px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-4-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 410px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-3-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 391px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-2-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 372px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .line-1-PZieKq {
+    background-color: transparent;
+    height: 22px;
+    left: 353px;
+    object-fit: cover;
+    position: absolute;
+    top: 170px;
+    width: 1px;
+  }
+
+  .x18_21 .enfants-gs-dau-moins-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 66px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 348px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .b-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 346px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .enfants-gs-de-moins-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 66px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 128px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .a-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 128px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .spcification-de-la-f-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 766px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .montant-annuel-desfrais-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 586px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .date-de-naissance-ndidentification-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 377px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    top: 90px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .nom-et-prnom-de-lenfant-PZieKq {
+    background-color: transparent;
+    height: auto;
+    left: 91px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 98px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .abattement-de-revenu-PZieKq {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial);
+    font-size: var(--font-size-m);
+    font-weight: 400;
+    height: auto;
+    left: 36px;
+    letter-spacing: 0px;
+    line-height: 16px;
+    position: absolute;
+    text-align: left;
+    top: 48px;
+    white-space: nowrap;
+    width: auto;
+  }
+
+  .x18_21 .span0-fHp9f2 {}
+
+  .x18_21 .span1-fHp9f2 {
+    font-family: var(--font-family-arial-bold);
+    font-style: normal;
+    font-weight: 700;
+  }
+
+  .x18_21 .span2-fHp9f2 {}
+
+  .x18_21 .ce-PZieKq {
+    background-color: transparent;
+    color: var(--black);
+    font-family: var(--font-family-arial-bold);
+    font-size: var(--font-size-xl);
+    font-style: normal;
+    font-weight: 700;
+    height: auto;
+    left: 1021px;
+    letter-spacing: 0px;
+    line-height: 28px;
+    position: absolute;
+    text-align: left;
+    top: 2px;
+    white-space: nowrap;
+    width: auto;
+  }
+</style>
+<div class="x18_21 screen ">
+  <input type="text" class="x1843-PZieKq" />
+  <input type="text" class="x1842-PZieKq" />
+  <input type="text" class="x1841-PZieKq" />
+  <input type="text" class="x1840-PZieKq" />
+  <input type="text" class="x1839-PZieKq" />
+  <input type="text" class="x1838-PZieKq" />
+  <input type="text" class="x1837-PZieKq" />
+  <input type="text" class="x1829-PZieKq" />
+  <input type="text" class="x1828-PZieKq" />
+  <input type="text" class="x1827-PZieKq" />
+  <input type="text" class="x1826_b-PZieKq" />
+  <input type="text" class="x1826_a-PZieKq" />
+  <input type="text" class="x1825-PZieKq" />
+  <input type="text" class="x1824-PZieKq" />
+  <input type="text" class="x1823-PZieKq" />
+  <input type="text" class="x1822_b-PZieKq" />
+  <input type="text" class="x1822_a-PZieKq" />
+  <input type="text" class="x1821-PZieKq" />
+  <input type="text" class="x1820-PZieKq" />
+  <input type="text" class="x1819-PZieKq" />
+  <input type="text" class="x1818_b-PZieKq" />
+  <input type="text" class="x1818_a-PZieKq" />
+  <input type="text" class="x1817-PZieKq" />
+  <input type="text" class="x1816-PZieKq" />
+  <input type="text" class="x1815-PZieKq" />
+  <input type="text" class="x1814_b-PZieKq" />
+  <input type="text" class="x1814_a-PZieKq" />
+  <input type="text" class="x1813-PZieKq" />
+  <input type="text" class="x1812-PZieKq" />
+  <input type="text" class="x1811_b-PZieKq" />
+  <input type="text" class="x1811_a-PZieKq" />
+  <input type="text" class="x1810-PZieKq" />
+  <input type="text" class="x1809-PZieKq" />
+  <input type="text" class="x1808_b-PZieKq" />
+  <input type="text" class="x1808_a-PZieKq" />
+  <input type="text" class="x1807-PZieKq" />
+  <input type="text" class="x1806-PZieKq" />
+  <input type="text" class="x1805_b-PZieKq" />
+  <input type="text" class="x1805_a-PZieKq" />
+  <input type="text" class="x1804-PZieKq" />
+  <input type="text" class="x1803-PZieKq" />
+  <input type="text" class="x1802_b-PZieKq" />
+  <input type="text" class="x1802_a-PZieKq" />
+  <input type="text" class="x1801-PZieKq" />
+  <p class="pour-les-dispositifs-PZieKq arial-regular-normal-black-16px" data-id="6cd74b21-a96b-4950-82ff-29f53fb965f5">
+    * Pour les dispositifs déclarés au Luxembourg, un Arrangement ID
+    est communiqué au déclarant initial après dépôt de la déclaration via la<br>plateforme MyGuichet.lu et doit être
+    transmis à tout contribuable concerné.</p>
+  <div class="observations-ventuelles-PZieKq arial-regular-normal-black-16px"
+    data-id="c7ba90e5-e261-469c-9016-05d15d64bcfe">Observations éventuelles:</div>
+  <p class="rfrences-arrangement-PZieKq arial-regular-normal-black-16px" data-id="a3297ff7-6d49-41cb-bbfa-e2d151dfc672">
+    Références (Arrangement ID*) du/des dispositifs transfrontières
+    ayant fait l'objet d'une déclaration dans l'Union européenne:</p>
+  <div class="non-PZieKq arial-regular-normal-black-16px" data-id="5e7b5542-3c41-4ef9-b46c-a0e6d9778afa">non</div>
+  <div class="oui-PZieKq arial-regular-normal-black-16px" data-id="d0b361b9-942e-49cc-98e5-3dd2dd314cbe">oui</div>
+  <p class="le-contribuable-a-t-PZieKq arial-regular-normal-black-16px" data-id="7d28057c-6044-4c34-a159-b5ed9a4a1045">
+    Le contribuable a-t-il utilisé au cours de l'année d'imposition
+    un ou plusieurs dispositifs transfrontières devant faire l'objet d'une<br>déclaration au sens de la directive
+    (UE) 2018/822 ?</p>
+  <div class="httpsimpotsdirectspu-PZieKq" data-id="e7484da8-2858-43aa-9d0a-29f812569e0a">
+    https://impotsdirects.public.lu/fr/echanges_electroniques/dispositifstransfrontieres.html</div>
+  <div class="dclaration-en-vertu-PZieKq" data-id="247e4359-5e72-4592-b48d-c6681c88a4e6">Déclaration en vertu de
+    l'article 7 de la loi modifiée du 25 mars 2020 relative aux dispositifs<br>transfrontières devant faire l'objet
+    d'une déclaration (DAC 6)</div>
+  <div class="jour-PZieKq arial-regular-normal-black-10px" data-id="f5cbee7e-6645-4aa6-a657-4ec71afee20e">jour</div>
+  <div class="mois-PZieKq arial-regular-normal-black-10px" data-id="88c0b6d5-0cbc-4067-916a-08ced71e3d52">mois</div>
+  <div class="anne-PZieKq arial-regular-normal-black-10px" data-id="d098f394-f179-4ff3-8e94-a8160599e9b7">année
+  </div><img class="line-96-PZieKq" data-id="78af0d51-45af-4388-ac39-0d27689652a3"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-95-PZieKq" data-id="ea5fbaaa-eef7-4bd1-9ce7-66f40838601c"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-94-PZieKq" data-id="5339b79c-2c27-45dc-b610-363bf7d36f3b"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-93-PZieKq" data-id="8f22e001-82ac-42dc-acca-06c72ec9a0b2"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-92-PZieKq" data-id="a164a4c0-738c-46b3-ae16-2e2bc88b4267"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-91-PZieKq" data-id="27294508-e5c0-4a18-8784-8e075656bf21"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-90-PZieKq" data-id="cf5e4fa0-3e3b-4aa8-bd7b-2c4349913134"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-89-PZieKq" data-id="b077bfc1-5bce-40e9-b6f4-92fbaf653fff"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-88-PZieKq" data-id="62ceb4bc-f9fa-4e31-923b-1d04a2352602"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-87-PZieKq" data-id="9cf535eb-6458-43c6-b47e-2956cb20ec0f"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-86-PZieKq" data-id="2e06e559-301a-4dde-a12f-d2b3030d666b"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-85-PZieKq" data-id="f67db26b-9731-4bfc-86e6-b95b8aae279d"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-mmq6hZ arial-regular-normal-black-10px" data-id="27ac8321-ef6b-4892-9628-f7ed2f15d258">jour</div>
+  <div class="mois-mmq6hZ arial-regular-normal-black-10px" data-id="adffd058-e186-4cfc-a873-6245f6f4b925">mois</div>
+  <div class="anne-mmq6hZ arial-regular-normal-black-10px" data-id="28e4e483-5d8f-4630-bd12-26234eee6440">année
+  </div><img class="line-84-PZieKq" data-id="1eaa6937-0d1c-4a13-8843-2f18a24ef303"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-83-PZieKq" data-id="86f597a1-80da-4a3d-ae8b-a0cfdee75353"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-82-PZieKq" data-id="2faa1985-2ba7-446a-8563-675853ea4e44"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-81-PZieKq" data-id="9ce6c85c-befd-490d-a9f6-6b7db9d64d07"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-80-PZieKq" data-id="b034d7b2-7641-442e-a163-a8b15d58f852"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-79-PZieKq" data-id="eaa6611e-c639-416f-b60c-f1c6fea2b912"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-78-PZieKq" data-id="8216bd6e-0efc-401f-8d0f-62c26a18021e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-77-PZieKq" data-id="33d4e02a-1371-46ae-9ef5-29b38dee9702"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-76-PZieKq" data-id="81253880-7268-4d71-aa17-8b980f285944"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-75-PZieKq" data-id="b5e43ced-e163-456e-91f3-6e6311a243f6"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-74-PZieKq" data-id="bf14178e-1e95-4306-ae4d-96f565feb34e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-73-PZieKq" data-id="2def3ede-0048-476b-ab77-60ecb119dd02"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-o4UQmw arial-regular-normal-black-10px" data-id="f323b375-c6fb-4fd8-98dd-7119a53db787">jour</div>
+  <div class="mois-o4UQmw arial-regular-normal-black-10px" data-id="4d47c252-0e45-45fb-a73c-73d327ea91df">mois</div>
+  <div class="anne-o4UQmw arial-regular-normal-black-10px" data-id="06344cd7-c505-4df1-a5cd-60de1dd5bce0">année
+  </div><img class="line-72-PZieKq" data-id="bc51fdba-df9c-445a-9966-c3d7590d0fbc"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-71-PZieKq" data-id="6c43c278-9e53-4803-9924-d84c207c36f9"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-70-PZieKq" data-id="42ba6d3d-d380-45f1-81f0-605b3dd2a9a9"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-69-PZieKq" data-id="02954ead-95aa-4ccb-b928-17677e476eb3"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-68-PZieKq" data-id="adb4112a-193f-4aea-a70c-665775273120"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-67-PZieKq" data-id="63970cc0-b1e2-4407-b0f8-3105c6b128cf"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-66-PZieKq" data-id="ee4b5e9d-8a7a-4bcd-87a3-5f6b02a3bd37"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-65-PZieKq" data-id="12e20b47-a083-46d0-9378-7691281ea809"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-64-PZieKq" data-id="e229cdc8-d785-4d2e-89a3-7ca26a791126"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-63-PZieKq" data-id="b4f0a7a5-b111-4739-8d94-9d9a73cff029"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-62-PZieKq" data-id="63fbdef6-919c-49e8-99a1-cb975f42d537"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-61-PZieKq" data-id="cdc09f38-c1bc-4c4f-bd1f-8e6a822371d0"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-mQrFOl arial-regular-normal-black-10px" data-id="0d3bef56-2a1c-41cb-adff-7e3db71a10c3">jour</div>
+  <div class="mois-mQrFOl arial-regular-normal-black-10px" data-id="dcfbaef8-b152-4c35-9ed1-77469b20be49">mois</div>
+  <div class="anne-mQrFOl arial-regular-normal-black-10px" data-id="e47119f7-ff4d-4a45-b6a9-ea709104782c">année
+  </div><img class="line-60-PZieKq" data-id="491d4833-f1a3-4b65-8d5a-d0996c1e7086"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-59-PZieKq" data-id="f449efe0-d1f8-4d87-bb06-1eb0b4b5d660"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-58-PZieKq" data-id="3802d2e7-84cc-4050-be21-4041d279d47c"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-57-PZieKq" data-id="871306c8-7571-4873-ba5f-100966dcf90a"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-56-PZieKq" data-id="b6b9d0c4-c860-4ce0-bd28-1ee1a953c03a"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-55-PZieKq" data-id="8d0e71ec-1d4b-424e-8604-ead74dc3b599"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-54-PZieKq" data-id="0d300ba6-5239-4ad5-a625-45460da4e714"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-53-PZieKq" data-id="82030841-9bd0-47e1-bdd8-dd33c1fa18fb"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-52-PZieKq" data-id="80174b70-dd29-4b08-8b14-fda976519d45"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-51-PZieKq" data-id="1d47c19e-1ac1-49fa-8f9e-8fef70409412"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-50-PZieKq" data-id="a8b5262a-81b3-43a9-acf0-9822fa8b3a27"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-49-PZieKq" data-id="bf0ec934-b0fb-4703-8969-ccd253b82cf6"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-zy0V2N arial-regular-normal-black-10px" data-id="b2318cf6-d3c4-4022-8754-2c356d93f0c2">jour</div>
+  <div class="mois-zy0V2N arial-regular-normal-black-10px" data-id="9a872bd4-74a0-475d-b8cb-61f7a0d8e270">mois</div>
+  <div class="anne-zy0V2N arial-regular-normal-black-10px" data-id="d5e3f686-8ac0-4257-8006-68336c137d24">année
+  </div><img class="line-48-PZieKq" data-id="70d2b45b-408b-4286-901e-8f1ed93032b5"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-47-PZieKq" data-id="b5e13287-88ca-4dc3-be0c-3a5d3b51b2ae"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-46-PZieKq" data-id="10e2844e-d288-40ad-b974-b4bcc1924617"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-45-PZieKq" data-id="b9c73050-4408-491f-b705-0e3cae59560d"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-44-PZieKq" data-id="4fad7ee9-a44a-4c11-b1dc-894e9bb67296"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-43-PZieKq" data-id="69270d11-e6af-49d5-a606-74f206f2743e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-42-PZieKq" data-id="d334e073-a43f-4474-8b98-e654cabf0ee8"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-41-PZieKq" data-id="114e7c1e-755a-4bd7-857e-8a0fb126ad5a"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-40-PZieKq" data-id="363b5208-08c3-4ad6-a16e-7a395e512919"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-39-PZieKq" data-id="81195178-e5c2-463d-bde2-60534a1fd64f"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-38-PZieKq" data-id="1039a0fa-1111-44bd-9b38-eac5f285b66e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-37-PZieKq" data-id="94f77752-e355-4468-9c92-a8360a08a849"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-GGDooX arial-regular-normal-black-10px" data-id="3a0dbc9c-1cfc-441b-8fbe-584b0e0a43e7">jour</div>
+  <div class="mois-GGDooX arial-regular-normal-black-10px" data-id="9b335128-9125-4d82-aaa6-9d49e535f566">mois</div>
+  <div class="anne-GGDooX arial-regular-normal-black-10px" data-id="9ff01726-012c-4c96-999a-ac47794c3b12">année
+  </div><img class="line-36-PZieKq" data-id="d6407924-f778-42c7-92de-bd520455c19e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-35-PZieKq" data-id="057a8139-d956-4945-a8ac-c584d6f66fc9"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-34-PZieKq" data-id="5113cf81-08d1-4bd3-bd40-114dbd17cae4"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-33-PZieKq" data-id="a210f268-2b16-46bf-a225-c154f90a07bb"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-32-PZieKq" data-id="201c5185-1c2c-4cd8-8837-1d3543b5ed96"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-31-PZieKq" data-id="ef1b0ea4-a0ee-4870-b636-ccc690d8bec5"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-30-PZieKq" data-id="2a81108a-a0e8-4a27-9386-2217f1a35c42"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-29-PZieKq" data-id="113f23f7-f9fc-48c6-9774-77c53348417b"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-28-PZieKq" data-id="0add94cb-96ae-45ed-b850-385b12aeff84"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-27-PZieKq" data-id="4b9d1a17-5e93-4973-9e2e-d0a312c6a6d8"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-26-PZieKq" data-id="4625be91-abe1-4c8b-b94f-fbdac923e0d2"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-25-PZieKq" data-id="d0a0ead1-2212-47d6-ba09-56688883fddb"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-pDE8c2 arial-regular-normal-black-10px" data-id="1958fb81-886c-42be-9f60-533595dba9e6">jour</div>
+  <div class="mois-pDE8c2 arial-regular-normal-black-10px" data-id="66500265-5730-497b-bf19-f961efe9f436">mois</div>
+  <div class="anne-pDE8c2 arial-regular-normal-black-10px" data-id="623aa0f4-17d0-4081-b917-62a3aa15bf6a">année
+  </div><img class="line-24-PZieKq" data-id="66e52e7f-0004-40ce-8613-257fffb6fa03"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-23-PZieKq" data-id="bf2b9754-5eef-4903-a4da-92d48fecba9c"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-22-PZieKq" data-id="e1884a3b-a288-4e14-ac62-e3a94ecd7f6d"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-21-PZieKq" data-id="1444fd7b-66ef-4db1-9112-c0393bb8ddf4"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-20-PZieKq" data-id="654ec1d2-0a5d-4297-a56e-5e67fed0867c"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-19-PZieKq" data-id="2219dcf0-23ae-44a1-a667-6d30887b9d2d"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-18-PZieKq" data-id="e630d059-64e1-42b0-9124-48ce4951259f"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-17-PZieKq" data-id="eeef12fa-8dd8-40d5-9a38-d17a06b70b23"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-16-PZieKq" data-id="b6caabbb-2b37-4990-9c1d-9fcaa258947c"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-15-PZieKq" data-id="bcee0d3c-b3ae-4786-823f-24eb036f7037"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-14-PZieKq" data-id="8dced9dc-c766-437b-b9ee-53749e2c3133"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-13-PZieKq" data-id="2a75f3a7-6c6e-443d-acef-882ae09415ce"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <div class="jour-y3Tu2l arial-regular-normal-black-10px" data-id="86d96703-a45d-41d1-b834-8f7c17138c94">jour</div>
+  <div class="mois-y3Tu2l arial-regular-normal-black-10px" data-id="c09466d5-7d3b-4aa6-8ac8-bb7fda2de292">mois</div>
+  <div class="anne-y3Tu2l arial-regular-normal-black-10px" data-id="14f820b7-4ef6-4ce9-ae8e-53725d4bd976">année
+  </div><img class="line-12-PZieKq" data-id="8d2ee645-75da-4558-8cb5-276788c0483f"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-11-PZieKq" data-id="deb58d23-9061-4dd9-a6e4-26a1c1540cad"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-10-PZieKq" data-id="f5dcca98-270a-40c6-b2f8-3bcc23087ff7"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-9-PZieKq" data-id="459321ed-3b0d-43ba-b39c-c157dd74515e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-8-PZieKq" data-id="e2609cd3-00d9-42db-9bbd-e7deceabd92d"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-7-PZieKq" data-id="0494d21f-f4df-4945-9185-317abaca5b75"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-6-PZieKq" data-id="3bbf81d3-9d0d-4890-ab27-aa9113bb6bf3"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-5-PZieKq" data-id="84c6d51e-e4e7-46fe-8634-6c66ac6bd37e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-4-PZieKq" data-id="3954cd89-af4c-4763-82d6-25be83d8959e"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-16@1x.png"><img
+    class="line-3-PZieKq" data-id="8c265641-3fd8-4fa2-a46b-92b4aa47e99a"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-2-PZieKq" data-id="7a135b9c-0512-4dbd-bd75-f774407c095d"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"><img
+    class="line-1-PZieKq" data-id="57946b30-95f0-4bab-a39c-f094c49b6709"
+    src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png"
+    anima-src="https://cdn.animaapp.com/projects/5eb5cf73489570ff4d2375dc/releases/6204fa89774039572d646f17/img/line-10@1x.png">
+  <p class="enfants-gs-dau-moins-PZieKq arial-regular-normal-black-16px" data-id="2fb0c4c8-db7d-4673-a990-444c891ee8a4">
+    Enfants âgés d'au moins 21 ans au 1/1/2021 - dont j'ai supporté
+    principalement (plus de 50%) les frais d'entretien et les dépenses<br>relatives aux études</p>
+  <div class="b-PZieKq arial-regular-normal-black-16px" data-id="351b1502-b6ad-4e5e-aa47-59a865263140">b)</div>
+  <p class="enfants-gs-de-moins-PZieKq arial-regular-normal-black-16px" data-id="ae503f81-3c17-4786-b8a8-1b2ac608d82c">
+    Enfants âgés de moins de 21 ans au 1/1/2021 ou nés en cours de
+    l'année - dont j'ai supporté principalement (plus de 50%) les frais<br>d'entretien et d'éducation</p>
+  <div class="a-PZieKq arial-regular-normal-black-16px" data-id="25c3ff68-2c1b-4b15-ada2-c924176c4a75">a)</div>
+  <div class="spcification-de-la-f-PZieKq arial-regular-normal-black-16px"
+    data-id="56bab68f-7a23-4e7d-9f8a-1ecbf60044e6">Spécification de la formation<br>professionnelle</div>
+  <div class="montant-annuel-desfrais-PZieKq arial-regular-normal-black-16px"
+    data-id="b6c5513d-157c-4d49-bff1-5bdcbc634d5b">Montant annuel des<br>frais</div>
+  <p class="date-de-naissance-ndidentification-PZieKq arial-regular-normal-black-16px"
+    data-id="b52f202c-4641-4cfb-a041-6a2152f2b7b5">Date de naissance / n°<br>d'identification</p>
+  <p class="nom-et-prnom-de-lenfant-PZieKq arial-regular-normal-black-16px"
+    data-id="757fa866-0b9d-4218-affb-2910db2a8cfd">Nom et prénom de l'enfant</p>
+  <p class="abattement-de-revenu-PZieKq" data-id="49bea244-d317-48dc-9eea-1f7973d56c90"><span
+      class="span0-fHp9f2 arial-regular-normal-black-16px">Abattement de revenu imposable pour charges
+      extraordinaires en raison des </span><span class="span1-fHp9f2">enfants n'ayant pas fait partie du ménage
+      du<br>contribuable.</span><span class="span2-fHp9f2 arial-regular-normal-black-16px"> L'abattement n'est pas
+      accordé lorsque les deux parents de l'enfant partagent, avec leur enfant, une habitation commune.</span></p>
+  <div class="ce-PZieKq" data-id="b073cda5-01fa-43e5-8c69-97573ff44045">CE</div>
 </div>
             </div>
             <div id="page19" class="a19 anima-word-break ">
