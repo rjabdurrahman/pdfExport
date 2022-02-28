@@ -77,6 +77,7 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   }
 
   $scope.calculateParcent2 = function (conj, v1, v2, bornY1, bornY2) {
+    if(!(conj && v1 && v2 && bornY1 && bornY2)) return 0;
     bornY1 = bornY1 ? bornY1.slice(0, 4) : $rootScope.selectedYear;
     bornY2 = bornY2 ? bornY2.slice(0, 4) : $rootScope.selectedYear;
     let age1 = $rootScope.selectedYear - bornY1;
