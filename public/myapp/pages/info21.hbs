@@ -66,6 +66,7 @@
         }
     }
     function submitInfo(e) {
+        if($('#submitInfoBtn')[0].style.visibility == 'hidden') return;
         isSaveAlive(false);
         checkDone();
         let form = e.target;
@@ -76,7 +77,6 @@
         });
         let id = location.href.split('id=')[1];
         let year = location.href.match(/20\d\d/)[0];
-        console.log(year)
         axios.post(`../api/infoupdate/${year}/` + id, info)
             .then(res => {
                 if (!res.err) notify('Mise à jour', 1);

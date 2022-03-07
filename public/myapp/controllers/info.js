@@ -159,7 +159,6 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     $('left-nav a.done').removeClass('done');
     if ($scope.active) {
       $scope.client = $scope.data20;
-      console.log($scope.data20)
       afterDataLoaded($scope.client);
       $(".form-input input:not(:disabled)").addClass("temp-disable");
       $(".form-input input:not(:disabled)").prop("disabled", true);

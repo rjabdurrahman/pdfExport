@@ -8278,6 +8278,7 @@
         }
     }
     function submitInfo(e) {
+        if($('#submitInfoBtn')[0].style.visibility == 'hidden') return;
         isSaveAlive(false);
         checkDone();
         let form = e.target;
