@@ -168,7 +168,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       }, 500);
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
-      $scope.client = $scope.data20;
+      $scope.client = $scope.data21;
       afterDataLoaded($scope.client);
       $(".form-input input.temp-disable").prop("disabled", false);
       $(".form-input input.temp-disable").removeClass("temp-disable");
