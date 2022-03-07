@@ -65,9 +65,26 @@ app.run(function ($rootScope, $http, $route) {
       })
   }
   $rootScope.updateLetters();
+  $('#recycleCount').hide();
+  $rootScope.recyleCount = function () {
+    $http
+      .get('/api/recycled_count')
+      .then(({ data }) => {
+        if (data.count) {
+          $('#recycleCount').show();
+        } else {
+          $('#recycleCount').hide();
+        }
+        $('#recycleCount').text(data.count)
+      })
+      .catch(err => {
+        console.log(err)
+      })
+  }
+  $rootScope.recyleCount();
   $rootScope.lang = 'fr';
-  $rootScope.chnageLang = function() {
-    if($rootScope.lang == 'fr') $rootScope.lang = 'de';
+  $rootScope.chnageLang = function () {
+    if ($rootScope.lang == 'fr') $rootScope.lang = 'de';
     else $rootScope.lang = 'fr';
   }
   $rootScope.selectedYear = 2021;
@@ -83,8 +100,8 @@ app.run(function ($rootScope, $http, $route) {
           if (client['y' + $rootScope.selectedYear]) {
             return true
           }
-        }).map(client =>({ 
-          ...client['y' + $rootScope.selectedYear], 
+        }).map(client => ({
+          ...client['y' + $rootScope.selectedYear],
           _id: client._id,
           2019: _.get(client, 'y2019.signaletique') ? true : false,
           2020: _.get(client, 'y2020.signaletique') ? true : false
@@ -140,6 +157,7 @@ app.run(function ($rootScope, $http, $route) {
         if (!res.data.err) notify('Supression Client', 1)
         else notify(res.data.err.message, 2)
         $rootScope.loadClients()
+        $rootScope.recyleCount()
       })
       .catch(err => {
         notify(err.message, 2)
@@ -197,7 +215,7 @@ app.controller('LogOutCtrl', function ($scope, $http) {
     .catch(err => console.log(err))
 })
 
-app.controller('RecycleCtrl', function ($scope, $http) {
+app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
   $scope.loadingRecycledClients = true
   $scope.noRecycledClients = false
   function loadRecycledClients() {
@@ -205,21 +223,21 @@ app.controller('RecycleCtrl', function ($scope, $http) {
       .get('/api/recycled_clients')
       .then(res => {
         $scope.r_clients = res.data.map(c => {
-          if(_.get(c, 'y2019.signaletique')) {
+          if (_.get(c, 'y2019.signaletique')) {
             return {
               _id: c._id,
               year: 2019,
               ...c.y2019
             }
           }
-          else if(_.get(c, 'y2020.signaletique')) {
+          else if (_.get(c, 'y2020.signaletique')) {
             return {
               _id: c._id,
               year: 2020,
               ...c.y2020
             }
           }
-          else if(_.get(c, 'y2021.signaletique')) {
+          else if (_.get(c, 'y2021.signaletique')) {
             return {
               _id: c._id,
               year: 2021,
@@ -240,6 +258,8 @@ app.controller('RecycleCtrl', function ($scope, $http) {
       .get('/api/recover_client/' + e.target.id.slice(0, -1))
       .then(res => {
         notify('Client Resotored!', 1)
+        console.log('Restored')
+        $rootScope.recyleCount()
         loadRecycledClients()
       })
       .catch(err => {
@@ -255,11 +275,11 @@ app.controller('RecycleCtrl', function ($scope, $http) {
     $http
       .get('/api/delete_forever/' + $scope.onDelForever)
       .then(res => {
+        $rootScope.recyleCount()
         notify('Suppression totale', 1)
         $('#deleteForeverModal').hide()
         $scope.onDelForever = null
         loadRecycledClients()
-        console.log(res.data)
       })
       .catch(err => {
         notify("Can't Deleted!", 2)

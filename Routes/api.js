@@ -8,6 +8,7 @@ const transferClient = require('./client/transfer')
 const generatePdf = require('./generatePdf')
 const infoUpdate = require('./infoUpdate')
 const recycledClients = require('./client/recycledClients')
+const recycledCounts = require('./client/recycledCount')
 const recycledClientRestore = require('./client/recycledClientRestore')
 const deleteForever = require('./client/deleteForever')
 const gatherEmails = require('./userPanel/gatherEmails')
@@ -32,6 +33,7 @@ router.post('/transfer', transferClient)
     // All client find....
 router.get('/:year/clients', getAllClient)
     // All recycled clients find....
+router.get('/recycled_count', recycledCounts)
 router.get('/recycled_clients', recycledClients)
     // Recovery recycled client...
 router.get('/recover_client/:id', recycledClientRestore)
