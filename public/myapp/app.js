@@ -212,11 +212,18 @@ app.controller('RecycleCtrl', function ($scope, $http) {
               ...c.y2019
             }
           }
-          else if(c, 'y2020.signaletique') {
+          else if(_.get(c, 'y2020.signaletique')) {
             return {
               _id: c._id,
               year: 2020,
               ...c.y2020
+            }
+          }
+          else if(_.get(c, 'y2021.signaletique')) {
+            return {
+              _id: c._id,
+              year: 2021,
+              ...c.y2021
             }
           }
         });
