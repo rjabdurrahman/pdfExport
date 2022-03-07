@@ -77,7 +77,7 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
   }
 
   $scope.calculateParcent2 = function (conj, v1, v2, bornY1, bornY2) {
-    if(!(conj && v1 && v2 && bornY1 && bornY2)) return 0;
+    if (!(conj && v1 && v2 && bornY1 && bornY2)) return 0;
     bornY1 = bornY1 ? bornY1.slice(0, 4) : $rootScope.selectedYear;
     bornY2 = bornY2 ? bornY2.slice(0, 4) : $rootScope.selectedYear;
     let age1 = $rootScope.selectedYear - bornY1;
@@ -100,6 +100,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
   $scope.client = {}
   $scope.data19 = {}
   $scope.data20 = {}
+  $scope.data21 = {}
   $http({
     method: 'GET',
     url: `/api/client/${clientId}`
@@ -110,8 +111,12 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       if (location.href.match(/2020/g)) {
         $scope.data19 = res.data.y2019;
         $scope.data20 = res.data.y2020;
+        $scope.data21 = res.data.y2021;
       }
-      console.log($scope.client);
+      else if (location.href.match(/2021/g)) {
+        $scope.data20 = res.data.y2020;
+        $scope.data21 = res.data.y2021;
+      }
       afterDataLoaded($scope.client);
       $scope.$applyAsync();
     })
@@ -122,6 +127,39 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     $('left-nav a.done').removeClass('done');
     if ($scope.active) {
       $scope.client = $scope.data19;
+      afterDataLoaded($scope.client);
+      $(".form-input input:not(:disabled)").addClass("temp-disable");
+      $(".form-input input:not(:disabled)").prop("disabled", true);
+      setTimeout(() => {
+        $('a.done span').css('color', '#cf4044');
+        $('a.done').css('border-color', '#cf4044');
+      }, 500);
+      $('#submitInfoBtn').css('visibility', 'hidden');
+    } else {
+      $scope.client = $scope.data20;
+      afterDataLoaded($scope.client);
+      $(".form-input input.temp-disable").prop("disabled", false);
+      $(".form-input input.temp-disable").removeClass("temp-disable");
+      $('left-nav a.done span').css('color', '#25c1a0');
+      setTimeout(() => {
+        $('a.done span').css('color', '#25c1a0');
+        $('a.done').css('border-color', '#25c1a0');
+      }, 500);
+      $('#submitInfoBtn').css('visibility', 'visible');
+    }
+    $scope.$applyAsync();
+    // setTimeout(function() {
+    //   $('.form-input input').each(function() {
+    //     $(this).val(this.getAttribute('value'));
+    //   });
+    // }, 200);
+    $scope.active = !$scope.active;
+  }
+  $scope.view20 = function () {
+    $('left-nav a.done').removeClass('done');
+    if ($scope.active) {
+      $scope.client = $scope.data20;
+      console.log($scope.data20)
       afterDataLoaded($scope.client);
       $(".form-input input:not(:disabled)").addClass("temp-disable");
       $(".form-input input:not(:disabled)").prop("disabled", true);
