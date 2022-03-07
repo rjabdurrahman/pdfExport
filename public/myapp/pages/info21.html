@@ -8287,7 +8287,7 @@
             if (idx > -1) info[idx].value = this.checked ? 'Yes' : 'Off';
         });
         let id = location.href.split('id=')[1];
-        let year = location.href.match(/20\d\d/)[0];
+        let year = location.href.match(/21\d\d/)[0];
         axios.post(`../api/infoupdate/${year}/` + id, info)
             .then(res => {
                 if (!res.err) notify('Mise à jour', 1);
