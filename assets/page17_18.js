@@ -199,16 +199,6 @@ module.exports = function (info) {
                     formation: info['18d1828']
                 }
             ],
-            is_declaration_directive: info['18d1830_21'],
-            references_arr_id: {
-                f1: info['18d1831_21'],
-                f2: info['18d1832_21'],
-            },
-            observations_eventuelles: {
-                f1: info['18d1833_21'],
-                f2: info['18d1834_21'],
-                f3: info['18d1835_21'],
-            },
             mobilite_durable: {
                 contribuable: [
                     {

@@ -4,8 +4,10 @@ const { exec } = require("child_process");
 const Client = require('../Models/Client');
 let pdfMapping19 = require('../assets/pdfMapping19');
 let pdfMapping20 = require('../assets/pdfMapping20');
+let pdfMapping21 = require('../assets/pdfMapping21');
 let fdfText19 = require('../pdf/fdfText19');
 let fdfText20 = require('../pdf/fdfText20');
+let fdfText21 = require('../pdf/fdfText21');
 
 module.exports = (req, res) => {
     let id = req.params.id;
@@ -32,6 +34,10 @@ module.exports = (req, res) => {
             else if (year == 2020) {
                 mappedData = pdfMapping20(client._doc['y' + year]);
                 newFdfTxt = fdfText20 + '';
+            }
+            else if (year == 2021) {
+                mappedData = pdfMapping21(client._doc['y' + year]);
+                newFdfTxt = fdfText21 + '';
             }
             for (f in mappedData) {
                 newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), mappedData[f]);
