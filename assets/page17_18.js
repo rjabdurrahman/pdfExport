@@ -238,7 +238,8 @@ module.exports = function (info) {
                 },
                 observations: {
                     f1: info['18dn1841'],
-                    f2: info['18dn1842']
+                    f2: info['18dn1842'],
+                    f3: info['18dn1843'] || '',
                 }
             }
         }

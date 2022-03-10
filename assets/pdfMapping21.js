@@ -3554,6 +3554,11 @@ module.exports = function serializeInfo (client) {
     ),
     // Page 18
     // Page 18
+    ['x18dn1843x']: _.get(
+      client,
+      'charges_extraordinaires_18.declaration.observations.f3',
+      ''
+    ),
     ['x18dn1842x']: _.get(
       client,
       'charges_extraordinaires_18.declaration.observations.f2',
@@ -3582,36 +3587,6 @@ module.exports = function serializeInfo (client) {
     ['x18d1842x']: _.get(
       client,
       'charges_extraordinaires_18.is_abattement',
-      ''
-    ),
-    ['x18d1834x']: _.get(
-      client,
-      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[2].voiture_electrique',
-      ''
-    ),
-    ['x18d1833x']: _.get(
-      client,
-      'charges_extraordinaires_18.mobilite_durable.contribuable[2].voiture_electrique',
-      ''
-    ),
-    ['x18d1832x']: _.get(
-      client,
-      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[1].cycle',
-      ''
-    ),
-    ['x18d1831x']: _.get(
-      client,
-      'charges_extraordinaires_18.mobilite_durable.contribuable[1].cycle',
-      ''
-    ),
-    ['x18d1830x']: _.get(
-      client,
-      'charges_extraordinaires_18.mobilite_durable.conjoint_partenaire[0].voiture',
-      ''
-    ),
-    ['x18d1829x']: _.get(
-      client,
-      'charges_extraordinaires_18.mobilite_durable.contribuable[0].voiture',
       ''
     ),
     ['x18d1828x']: _.get(

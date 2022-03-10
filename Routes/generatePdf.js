@@ -46,7 +46,7 @@ module.exports = (req, res) => {
             for (f in mappedData) {
                 newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), mappedData[f]);
             }
-            return res.send(newFdfTxt)
+            // return res.send(newFdfTxt)
             fs.writeFile('./pdf/data_bind.fdf', newFdfTxt, 'binary', function (err) {
                 if (err) res.send(err.message)
                 else {
