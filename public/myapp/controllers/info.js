@@ -142,6 +142,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $(".form-input input.temp-disable").removeClass("temp-disable");
       $('left-nav a.done span').css('color', '#25c1a0');
       setTimeout(() => {
+        $('.left-nav a span').css('color', '#f4f5f6')
         $('a.done span').css('color', '#25c1a0');
         $('a.done').css('border-color', '#25c1a0');
       }, 500);
@@ -174,6 +175,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $(".form-input input.temp-disable").removeClass("temp-disable");
       $('left-nav a.done span').css('color', '#25c1a0');
       setTimeout(() => {
+        $('.left-nav a span').css('color', '#f4f5f6')
         $('a.done span').css('color', '#25c1a0');
         $('a.done').css('border-color', '#25c1a0');
       }, 500);
