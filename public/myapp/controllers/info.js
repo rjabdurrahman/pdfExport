@@ -177,6 +177,7 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       setTimeout(() => {
         $('.left-nav a span').css('color', '#f4f5f6')
         $('a.done span').css('color', '#25c1a0');
+        $('.left-nav a').css('border-color', '#f4f5f6')
         $('a.done').css('border-color', '#25c1a0');
       }, 500);
       $('#submitInfoBtn').css('visibility', 'visible');
