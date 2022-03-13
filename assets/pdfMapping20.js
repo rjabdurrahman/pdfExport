@@ -449,6 +449,16 @@ module.exports = function (client) {
     ),
     ['x4d14x']: _.get(client, 'options.imposition_individuelle.imposition'),
     ['x4d13x']: _.get(client, 'options.imposition_individuelle.is_declaration_revocation'),
+    ['x4dn14x']: _.get(
+      client,
+      'options.imposition_individuelle.imposition',
+      ''
+    ),
+    ['x4dn13x']: _.get(
+      client,
+      'options.imposition_individuelle.is_declaration_revocation',
+      ''
+    ),
     ['x4d10x']: _.get(client, 'options.imposition_individuelle.sl_imposition'),
     ['x4d9x']: _.get(
       client,
