@@ -259,6 +259,11 @@ module.exports = function serializeInfo (client) {
       'Off'
     ),
     // Page 3
+    ['x3d29x']: _.get(
+      client,
+      'etat_civil.assimilation.is_declaration_revocation',
+      'Off'
+    ),
     ['x3d28x']: _.get(
       client,
       'etat_civil.assimilation.calculation.pourcentage',
