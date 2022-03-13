@@ -1676,295 +1676,295 @@ module.exports = function serializeInfo (client) {
       ''
     ),
     // Page 10
-    ['x10d1062x']: _.get(
+    ['x10d62x']: _.get(
       client,
       'location.interets_debiteurs.habitationB.interets.conjoint_partenaire',
       ''
     ),
-    ['x10d1061x']: _.get(
+    ['x10d61x']: _.get(
       client,
       'location.interets_debiteurs.habitationB.interets.contribuable',
       ''
     ),
-    ['x10d1060x']: _.get(
+    ['x10d60x']: _.get(
       client,
       'location.interets_debiteurs.habitationA.interets.conjoint_partenaire',
       ''
     ),
-    ['x10d1059x']: _.get(
+    ['x10d59x']: _.get(
       client,
       'location.interets_debiteurs.habitationA.interets.contribuable',
       ''
     ),
-    ['x10d1058x']: _.get(
+    ['x10d58x']: _.get(
       client,
       'location.interets_debiteurs.habitationB.date_occupation',
       ''
     ),
-    ['x10d1057x']: _.get(
+    ['x10d57x']: _.get(
       client,
       'location.interets_debiteurs.habitationA.date_occupation',
       ''
     ),
-    ['x10d1056x']: _.get(
+    ['x10d56x']: _.get(
       client,
       'location.interets_debiteurs.habitationB.rue',
       ''
     ),
-    ['x10d1055x']: _.get(
+    ['x10d55x']: _.get(
       client,
       'location.interets_debiteurs.habitationB.numero',
       ''
     ),
-    ['x10d1054x']: _.get(
+    ['x10d54x']: _.get(
       client,
       'location.interets_debiteurs.habitationA.rue',
       ''
     ),
-    ['x10d1053x']: _.get(
+    ['x10d53x']: _.get(
       client,
       'location.interets_debiteurs.habitationA.numero',
       ''
     ),
-    ['x10d1052x']: _.get(
+    ['x10d52x']: _.get(
       client,
       'location.interets_debiteurs.habitationB.habitation',
       ''
     ),
-    ['x10d1051x']: _.get(
+    ['x10d51x']: _.get(
       client,
       'location.interets_debiteurs.habitationA.habitation',
       ''
     ),
-    ['x10d1050x']: _.get(
+    ['x10d50x']: _.get(
       client,
       'location.interets_debiteurs.table2.conjoint_partenaire.interets_debiteurs3',
       ''
     ),
-    ['x10d1049x']: _.get(
+    ['x10d49x']: _.get(
       client,
       'location.interets_debiteurs.table2.contribuable.interets_debiteurs3',
       ''
     ),
-    ['x10d1047x']: _.get(
+    ['x10d47x']: _.get(
       client,
       'location.interets_debiteurs.table1.r3.dette',
       ''
     ),
-    ['x10d1046x']: _.get(
+    ['x10d46x']: _.get(
       client,
       'location.interets_debiteurs.table1.r3.relation',
       ''
     ),
-    ['x10d1045x']: _.get(
+    ['x10d45x']: _.get(
       client,
       'location.interets_debiteurs.table1.r3.etablissement',
       ''
     ),
-    ['x10d1044x']: _.get(
+    ['x10d44x']: _.get(
       client,
       'location.interets_debiteurs.table2.conjoint_partenaire.interets_debiteurs2',
       ''
     ),
-    ['x10d1043x']: _.get(
+    ['x10d43x']: _.get(
       client,
       'location.interets_debiteurs.table2.contribuable.interets_debiteurs2',
       ''
     ),
-    ['x10d1042x']: _.get(
+    ['x10d42x']: _.get(
       client,
       'location.interets_debiteurs.table1.r2.dette',
       ''
     ),
-    ['x10d1041x']: _.get(
+    ['x10d41x']: _.get(
       client,
       'location.interets_debiteurs.table1.r2.relation',
       ''
     ),
-    ['x10d1040x']: _.get(
+    ['x10d40x']: _.get(
       client,
       'location.interets_debiteurs.table1.r2.etablissement',
       ''
     ),
-    ['x10d1039x']: _.get(
+    ['x10d39x']: _.get(
       client,
       'location.interets_debiteurs.table2.conjoint_partenaire.interets_debiteurs1',
       ''
     ),
-    ['x10d1038x']: _.get(
+    ['x10d38x']: _.get(
       client,
       'location.interets_debiteurs.table2.contribuable.interets_debiteurs1',
       ''
     ),
-    ['x10d1037x']: _.get(
+    ['x10d37x']: _.get(
       client,
       'location.interets_debiteurs.table1.r1.dette',
       ''
     ),
-    ['x10d1036x']: _.get(
+    ['x10d36x']: _.get(
       client,
       'location.interets_debiteurs.table1.r1.relation',
       ''
     ),
-    ['x10d1035x']: _.get(
+    ['x10d35x']: _.get(
       client,
       'location.interets_debiteurs.table1.r1.etablissement',
       ''
     ),
-    ['x10d1034x']: _.get(client, 'location.rev_exo.totalCal', ''),
-    ['x10d1033x']: _.get(
+    ['x10d34x']: _.get(client, 'location.rev_exo.totalCal', ''),
+    ['x10d33x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.f.total',
       ''
     ),
-    ['x10d1032x']: _.get(client, 'location.rev_exo.contribuable.f.total', ''),
-    ['x10d1031x']: _.get(client, 'location.rev_non_exo.totalCal', ''),
-    ['x10d1030x']: _.get(
+    ['x10d32x']: _.get(client, 'location.rev_exo.contribuable.f.total', ''),
+    ['x10d31x']: _.get(client, 'location.rev_non_exo.totalCal', ''),
+    ['x10d30x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.f.total',
       ''
     ),
-    ['x10d1029x']: _.get(
+    ['x10d29x']: _.get(
       client,
       'location.rev_non_exo.contribuable.f.total',
       ''
     ),
-    ['x10d1028x']: _.get(
+    ['x10d28x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.f.part_non_deduite',
       ''
     ),
-    ['x10d1027x']: _.get(
+    ['x10d27x']: _.get(
       client,
       'location.rev_exo.contribuable.f.part_non_deduite',
       ''
     ),
-    ['x10d1026x']: _.get(
+    ['x10d26x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.f.part_non_deduite',
       ''
     ),
-    ['x10d1025x']: _.get(
+    ['x10d25x']: _.get(
       client,
       'location.rev_non_exo.contribuable.f.part_non_deduite',
       ''
     ),
-    ['x10d1024x']: _.get(
+    ['x10d24x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.f.interets_debiteurs',
       ''
     ),
-    ['x10d1023x']: _.get(
+    ['x10d23x']: _.get(
       client,
       'location.rev_exo.contribuable.f.interets_debiteurs',
       ''
     ),
-    ['x10d1022x']: _.get(
+    ['x10d22x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.f.interets_debiteurs',
       ''
     ),
-    ['x10d1021x']: _.get(
+    ['x10d21x']: _.get(
       client,
       'location.rev_non_exo.contribuable.f.interets_debiteurs',
       ''
     ),
-    ['x10d1020x']: _.get(
+    ['x10d20x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.perte_location',
       ''
     ),
-    ['x10d1019x']: _.get(
+    ['x10d19x']: _.get(
       client,
       'location.rev_exo.contribuable.perte_location',
       ''
     ),
-    ['x10d1018x']: _.get(
+    ['x10d18x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.perte_location',
       ''
     ),
-    ['x10d1017x']: _.get(
+    ['x10d17x']: _.get(
       client,
       'location.rev_non_exo.contribuable.perte_location',
       ''
     ),
-    ['x10d1016x']: _.get(
+    ['x10d16x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.revenu_redevances',
       ''
     ),
-    ['x10d1015x']: _.get(
+    ['x10d15x']: _.get(
       client,
       'location.rev_exo.contribuable.revenu_redevances',
       ''
     ),
-    ['x10d1014x']: _.get(
+    ['x10d14x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.revenu_redevances',
       ''
     ),
-    ['x10d1013x']: _.get(
+    ['x10d13x']: _.get(
       client,
       'location.rev_non_exo.contribuable.revenu_redevances',
       ''
     ),
-    ['x10d1012x']: _.get(
+    ['x10d12x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.revenu_concession',
       ''
     ),
-    ['x10d1011x']: _.get(
+    ['x10d11x']: _.get(
       client,
       'location.rev_exo.contribuable.revenu_concession',
       ''
     ),
-    ['x10d1010x']: _.get(
+    ['x10d10x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.revenu_concession',
       ''
     ),
-    ['x10d1009x']: _.get(
+    ['x10d9x']: _.get(
       client,
       'location.rev_non_exo.contribuable.revenu_concession',
       ''
     ),
-    ['x10d1008x']: _.get(
+    ['x10d8x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.parts_revenu',
       ''
     ),
-    ['x10d1007x']: _.get(
+    ['x10d7x']: _.get(
       client,
       'location.rev_exo.contribuable.parts_revenu',
       ''
     ),
-    ['x10d1006x']: _.get(
+    ['x10d6x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.parts_revenu',
       ''
     ),
-    ['x10d1005x']: _.get(
+    ['x10d5x']: _.get(
       client,
       'location.rev_non_exo.contribuable.parts_revenu',
       ''
     ),
-    ['x10d1004x']: _.get(
+    ['x10d4x']: _.get(
       client,
       'location.rev_exo.conjoint_partenaire.revenu_location',
       ''
     ),
-    ['x10d1003x']: _.get(
+    ['x10d3x']: _.get(
       client,
       'location.rev_exo.contribuable.revenu_location',
       ''
     ),
-    ['x10d1002x']: _.get(
+    ['x10d2x']: _.get(
       client,
       'location.rev_non_exo.conjoint_partenaire.revenu_location',
       ''
     ),
-    ['x10d1001x']: _.get(
+    ['x10d1x']: _.get(
       client,
       'location.rev_non_exo.contribuable.revenu_location',
       ''
