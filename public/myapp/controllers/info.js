@@ -61,10 +61,12 @@ app.controller('ClientsListControler', function ($scope, $rootScope, $http) {
       }
     })
       .then(res => {
-        if (res.data) notify('Transfert Successfully', 1);
+        if (res.data) notify('Transfert', 1);
         $('#clientTransferModal').hide();
       })
-      .catch(err => console.log(err))
+      .catch(err => {
+        notify('Transfert', 2)
+      })
   }
 
   $scope.calculateParcent = function (...args) {

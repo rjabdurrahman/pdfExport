@@ -134,7 +134,7 @@ app.run(function ($rootScope, $http, $route) {
       data: { ...client, year: $rootScope.selectedYear }
     })
       .then(function (res) {
-        notify('Création Client', 1)
+        notify('Création', 1)
         $(clientForm)[0].reset()
         closeAddClientModal()
         $rootScope.loadClients()
@@ -154,13 +154,13 @@ app.run(function ($rootScope, $http, $route) {
     $http
       .post(`../api/delete/${$rootScope.selectedYear}/` + $rootScope.onDelete._id)
       .then(res => {
-        if (!res.data.err) notify('Supression Client', 1)
+        if (!res.data.err) notify('Suppression', 1)
         else notify(res.data.err.message, 2)
         $rootScope.loadClients()
         $rootScope.recyleCount()
       })
       .catch(err => {
-        notify(err.message, 2)
+        notify('Suppression', 2)
       })
   }
 })
@@ -257,13 +257,12 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
     $http
       .get('/api/recover_client/' + e.target.id.slice(0, -1))
       .then(res => {
-        notify('Client Resotored!', 1)
-        console.log('Restored')
+        notify('Restauration', 1)
         $rootScope.recyleCount()
         loadRecycledClients()
       })
       .catch(err => {
-        notify("Can't Restored!", 2)
+        notify("Restauration", 2)
       })
   }
   $scope.onDelForever = null
