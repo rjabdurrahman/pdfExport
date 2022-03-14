@@ -275,7 +275,7 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
       .get('/api/delete_forever/' + $scope.onDelForever)
       .then(res => {
         $rootScope.recyleCount()
-        notify('Suppression totale', 1)
+        notify('Suppression définitive', 1)
         $('#deleteForeverModal').hide()
         $scope.onDelForever = null
         loadRecycledClients()
