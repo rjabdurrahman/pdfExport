@@ -1,0 +1,108 @@
+<form onsubmit="submitInfo(event)">
+    <div class="top-bar flex" style="z-index: 9991;">
+        <button id="submitInfoBtn" type="submit" class="w3-button" disabled>
+            <span class="material-icons-outlined">
+                save
+            </span>
+        </button>
+        <label>2022 - {{client.signaletique.contribuable.nom}} {{client.signaletique.contribuable.prenom}}</label>
+        <div>
+            <a class="w3-button" ng-click="view20()">
+                <span ng-if="active" style="opacity: 0.5" class="material-icons">
+                    layers_clear
+                </span>
+                <span ng-if="!active" class="material-icons">
+                    layers
+                </span>
+            </a>
+            <a onclick="resetPage()" class="w3-button refresh">
+                <span class="material-icons">refresh</span>&nbsp;Réinitialiser
+            </a>
+        </div>
+    </div>
+    <div class="flex">
+        <div style="position: sticky; top: 50px; height: calc(100vh - 50px); overflow: scroll;"
+            class="left-nav w3-bar-block">
+            <left-nav></left-nav>
+        </div>
+        <div class="form-input">
+            {{<page1_2_21.html}}
+            {{<page3_20.html}}
+            {{<page4_21.html}}
+            {{<page5_16_22.html}}
+            <div id="page17">
+                {{<page17.html}}
+                {{<page18_21.html}}
+            </div>
+            {{<page19_20_21.html}}
+        </div>
+    </div>
+</form>
+<script>
+    $('.form-input > *').hide();
+    if (localStorage.activePage) {
+        $('#page' + localStorage.activePage).show();
+    }
+    else {
+        $('#page1').show();
+    }
+    function navPage(p, e) {
+        $('.form-input > *').hide();
+        $('#page' + p).show();
+        if (p != 16 || p != 16) {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 300);
+        }
+        localStorage.setItem('activePage', p);
+        if (p == 5 && e.textContent.includes('commercial')) localStorage.setItem('activePagePart', 1)
+        if (p == 5 && e.textContent.includes('agricole')) localStorage.setItem('activePagePart', 2)
+        $('.left-nav .w3-button, .w3-dropdown-click').removeClass('active');
+        $('.w3-dropdown-content').hide();
+        if (e.className.indexOf("active") == -1) {
+            e.className += " active";
+        } else {
+            e.className = e.className.replace(" active", "");
+        }
+    }
+    function submitInfo(e) {
+        if($('#submitInfoBtn')[0].style.visibility == 'hidden') return;
+        isSaveAlive(false);
+        checkDone();
+        let form = e.target;
+        let info = $(form).serializeArray();
+        $('input:checkbox').each(function () {
+            let idx = info.findIndex(x => x.name == this.name);
+            if (idx > -1) info[idx].value = this.checked ? 'Yes' : 'Off';
+        });
+        let id = location.href.split('id=')[1];
+        let year = location.href.match(/20\d\d/)[0];
+        axios.post(`../api/infoupdate/${year}/` + id, info)
+            .then(res => {
+                if (!res.err) notify('Mise à jour', 1);
+            })
+            .catch(err => {
+                notify(err.message, 2);
+                isSaveAlive(true);
+            });
+    }
+    function resetPage() {
+        clearForm('.form-input #page' + localStorage.activePage);
+        dependedValCal();
+        isSaveAlive(true);
+    }
+    $('.form-input input:text, .form-input input[type=number]').keyup(function (e) {
+        isSaveAlive(true);
+    });
+    $('.form-input input:checkbox, .form-input input.date, .form-input select').change(function () {
+        isSaveAlive(true);
+    })
+    window.addEventListener("beforeunload", function (e) {
+        if ($('#submitInfoBtn')[0].disabled) return undefined;
+        var confirmationMessage = 'It looks like you have been editing something. '
+            + 'If you leave before saving, your changes will be lost.';
+
+        (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+        return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+    });
+</script>

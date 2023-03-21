@@ -14,7 +14,8 @@ app.use(express.urlencoded({ extended: false }))
 app.post('/login', userLogin)
 app.get('/logout', userLogOut)
 app.use('/api', apiRoute)
-app.use(/\/myapp\/(home|2019|2020|2021|profile|logout)*/, (req, res, next) => {
+// New Year Modify
+app.use(/\/myapp\/(home|2019|2020|2021|2022|profile|logout)*/, (req, res, next) => {
   if (!req.cookies.user) {
     res.redirect('/myapp/login')
   }

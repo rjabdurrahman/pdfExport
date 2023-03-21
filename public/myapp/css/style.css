@@ -1,3 +1,4 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
 .a01 {
   width: 100%;
   min-width: 1041px;
@@ -29825,6 +29826,1617 @@ div {
   line-height: 28.0px;
 }
 
+:root {
+  --black: #000000;
+  --mercury: #dfe2e5;
+  --font-size-l: 18px;
+  --font-size-m: 16px;
+  --font-size-s: 10px;
+  --font-size-xl: 22px;
+  --font-size-xxl: 28px;
+  --font-family-arial: "Arial", Helvetica;
+  --font-family-arial-bold: "Arial-Bold", Helvetica;
+  --font-family-arial-regular: "Arial-Regular", Helvetica;
+}
+
+.arial-regular-normal-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-regular-normal-black-10px {
+  color: var(--black);
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.arial-bold-black-22px {
+  color: var(--black);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.arial-bold-black-16px {
+  color: var(--black);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* screen - 15 */
+.x15 {
+  background-color: #ffffff;
+  height: 1442px;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 1060px;
+}
+
+.x15 .x1557-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 796px;
+  position: absolute;
+  top: 1386px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 220px;
+}
+
+.x15 .x1556-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 796px;
+  position: absolute;
+  top: 1316px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  width: 220px;
+}
+
+.x15 .x1555-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 1208px;
+  width: 148px;
+}
+
+.x15 .x1554-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 1208px;
+  width: 148px;
+}
+
+.x15 .x1553-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 1142px;
+  width: 148px;
+}
+
+.x15 .x1552-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 1142px;
+  width: 148px;
+}
+
+.x15 .x1551-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 1086px;
+  width: 148px;
+}
+
+.x15 .x1550-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 1086px;
+  width: 148px;
+}
+
+.x15 .x1549-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 1086px;
+  width: 200px;
+}
+
+.x15 .x1548-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 1086px;
+  width: 200px;
+}
+
+.x15 .x1547-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 1086px;
+  width: 294px;
+}
+
+.x15 .x1546-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 1044px;
+  width: 148px;
+}
+
+.x15 .x1545-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 1044px;
+  width: 148px;
+}
+
+.x15 .x1544-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 1044px;
+  width: 200px;
+}
+
+.x15 .x1543-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 1044px;
+  width: 200px;
+}
+
+.x15 .x1542-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 1044px;
+  width: 294px;
+}
+
+.x15 .x1541-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 1002px;
+  width: 148px;
+}
+
+.x15 .x1540-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 1002px;
+  width: 148px;
+}
+
+.x15 .x1539-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 1002px;
+  width: 200px;
+}
+
+.x15 .x1538-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 1002px;
+  width: 200px;
+}
+
+.x15 .x1537-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 1002px;
+  width: 294px;
+}
+
+.x15 .x1536-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 960px;
+  width: 148px;
+}
+
+.x15 .x1535-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 960px;
+  width: 148px;
+}
+
+.x15 .x1534-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 960px;
+  width: 200px;
+}
+
+.x15 .x1533-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 960px;
+  width: 200px;
+}
+
+.x15 .x1532-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 960px;
+  width: 294px;
+}
+
+.x15 .x1531-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 771px;
+  width: 148px;
+}
+
+.x15 .x1530-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 771px;
+  width: 148px;
+}
+
+.x15 .x15281529-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 796px;
+  position: absolute;
+  top: 705px;
+  width: 220px;
+}
+
+.x15 .x1529-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 663px;
+  width: 148px;
+}
+
+.x15 .x1528-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 663px;
+  width: 148px;
+}
+
+.x15 .x1527-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 607px;
+  width: 148px;
+}
+
+.x15 .x1526-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 607px;
+  width: 148px;
+}
+
+.x15 .x1525-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 607px;
+  width: 200px;
+}
+
+.x15 .x1524-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 607px;
+  width: 200px;
+}
+
+.x15 .x1523-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 607px;
+  width: 294px;
+}
+
+.x15 .x1522-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 565px;
+  width: 148px;
+}
+
+.x15 .x1521-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 565px;
+  width: 148px;
+}
+
+.x15 .x1520-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 565px;
+  width: 200px;
+}
+
+.x15 .x1519-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 565px;
+  width: 200px;
+}
+
+.x15 .x1518-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 565px;
+  width: 294px;
+}
+
+.x15 .x1513514-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 796px;
+  position: absolute;
+  top: 470px;
+  width: 220px;
+}
+
+.x15 .x1514-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 428px;
+  width: 148px;
+}
+
+.x15 .x1513-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 428px;
+  width: 148px;
+}
+
+.x15 .x1512-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 372px;
+  width: 148px;
+}
+
+.x15 .x1511-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 372px;
+  width: 148px;
+}
+
+.x15 .x1510-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 372px;
+  width: 200px;
+}
+
+.x15 .x1509-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 372px;
+  width: 200px;
+}
+
+.x15 .x1508-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 372px;
+  width: 294px;
+}
+
+.x15 .x1507-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 330px;
+  width: 148px;
+}
+
+.x15 .x1506-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 330px;
+  width: 148px;
+}
+
+.x15 .x1505-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 528px;
+  position: absolute;
+  top: 330px;
+  width: 200px;
+}
+
+.x15 .x1504-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 328px;
+  position: absolute;
+  top: 330px;
+  width: 200px;
+}
+
+.x15 .x1503-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 34px;
+  position: absolute;
+  top: 330px;
+  width: 294px;
+}
+
+.x15 .x15011502-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 796px;
+  position: absolute;
+  top: 168px;
+  width: 220px;
+}
+
+.x15 .x1502-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 912px;
+  position: absolute;
+  top: 126px;
+  width: 148px;
+}
+
+.x15 .x1501-vvxuUU {
+  background-color: var(--mercury);
+  height: 42px;
+  left: 752px;
+  position: absolute;
+  top: 126px;
+  width: 148px;
+}
+
+.x15 .si-le-montant-des-dp-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1374px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .contribuableconjointpartenaire-vvxuUU {
+  top: 1278px;
+}
+
+.x15 .contribuable-vvxuUU {
+  top: 1286px;
+}
+
+.x15 .total-des-dpenses-sp-vvxuUU {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-arial);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 18px;
+  position: absolute;
+  text-align: left;
+  top: 1324px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .span1-1EFofN {
+  font-family: var(--font-family-arial-regular);
+  font-size: var(--font-size-l);
+  font-style: normal;
+}
+
+.x15 .plafond-de-672-1-344-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 1198px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .total-vvxuUU {
+  top: 1156px;
+}
+
+.x15 .cotisations-verses-en-2022-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 805px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 930px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .dbut-du-contrat-vvxuUU {
+  left: 569px;
+  top: 930px;
+}
+
+.x15 .jour-vvxuUU {
+  top: 1116px;
+}
+
+.x15 .mois-vvxuUU {
+  top: 1116px;
+}
+
+.x15 .anne-vvxuUU {
+  top: 1116px;
+}
+
+.x15 .line-48-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 512px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-47-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 497px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-46-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 481px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-45-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 466px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-44-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 451px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-43-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 435px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-42-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-41-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 404px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-40-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 389px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-39-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 374px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-38-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 358px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .line-37-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1090px;
+  width: 1px;
+}
+
+.x15 .jour-0eThxE {
+  top: 1074px;
+}
+
+.x15 .mois-0eThxE {
+  top: 1074px;
+}
+
+.x15 .anne-0eThxE {
+  top: 1074px;
+}
+
+.x15 .line-36-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 512px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-35-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 497px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-34-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 481px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-33-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 466px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-32-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 451px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-31-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 435px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-30-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-29-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 404px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-28-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 389px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-27-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 374px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-26-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 358px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .line-25-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1048px;
+  width: 1px;
+}
+
+.x15 .jour-xrED04 {
+  top: 1032px;
+}
+
+.x15 .mois-xrED04 {
+  top: 1032px;
+}
+
+.x15 .anne-xrED04 {
+  top: 1032px;
+}
+
+.x15 .line-24-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 512px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-23-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 497px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-22-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 481px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-21-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 466px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-20-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 451px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-19-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 435px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-18-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-17-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 404px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-16-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 389px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-15-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 374px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-14-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 358px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .line-13-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 1006px;
+  width: 1px;
+}
+
+.x15 .jour-93ONHp {
+  top: 990px;
+}
+
+.x15 .mois-93ONHp {
+  top: 990px;
+}
+
+.x15 .anne-93ONHp {
+  top: 990px;
+}
+
+.x15 .line-12-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 512px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-11-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 497px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-10-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 481px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-9-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 466px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-8-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 451px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-7-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 435px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-6-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 420px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-5-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 404px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-4-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 389px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-3-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 374px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-2-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 358px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .line-1-vvxuUU {
+  background-color: transparent;
+  height: 22px;
+  left: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 964px;
+  width: 1px;
+}
+
+.x15 .n-didentification-dusouscripteur-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 355px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  top: 922px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .caisse-dpargne-logement-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 84px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 930px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .contribuableconjointpartenaire-0eThxE {
+  top: 882px;
+}
+
+.x15 .contribuable-0eThxE {
+  top: 890px;
+}
+
+.x15 .cotisations-verses-d-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 882px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .epargne-logement-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 844px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .e-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 844px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .plafond-de-3-200-pou-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 784px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .total-0eThxE {
+  top: 442px;
+}
+
+.x15 .verses-en-2022-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 846px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 310px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .fin-du-contrat-vvxuUU {
+  top: 310px;
+}
+
+.x15 .dbut-du-contrat-0eThxE {
+  left: 369px;
+  top: 310px;
+}
+
+.x15 .contribuableconjointpartenaire-xrED04 {
+  top: 270px;
+}
+
+.x15 .contribuable-xrED04 {
+  top: 278px;
+}
+
+.x15 .versements-viss-par-larticle-111bis-lir-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 278px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .prvoyance-vieillesse-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 242px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .d-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 242px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .cotisations-payes-ti-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 128px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .contribuableconjointpartenaire-93ONHp {
+  top: 86px;
+}
+
+.x15 .contribuable-93ONHp {
+  top: 94px;
+}
+
+.x15 .cotisations-payes-titre-personnel-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 90px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .c-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 90px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .dpenses-spciales-ddu-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 34px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .x1-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 0px;
+  letter-spacing: 0px;
+  line-height: 22px;
+  position: absolute;
+  text-align: left;
+  top: 48px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .ds-vvxuUU {
+  background-color: transparent;
+  color: var(--black);
+  font-family: var(--font-family-arial-bold);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 700;
+  height: auto;
+  left: 1021px;
+  letter-spacing: 0px;
+  line-height: 28px;
+  position: absolute;
+  text-align: left;
+  top: 2px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .total-xrED04 {
+  top: 676px;
+}
+
+.x15 .payes-en-2022-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 837px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 544px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .fin-du-contrat-0eThxE {
+  top: 544px;
+}
+
+.x15 .dbut-du-contrat-xrED04 {
+  left: 369px;
+  top: 544px;
+}
+
+.x15 .paiements-viss-par-larticle-111ter-lir-vvxuUU {
+  background-color: transparent;
+  height: auto;
+  left: 76px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  top: 512px;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .anne {
+  background-color: transparent;
+  height: auto;
+  left: 345px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .contribuable {
+  background-color: transparent;
+  height: auto;
+  left: 781px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .contribuableconjointpartenaire {
+  background-color: transparent;
+  height: auto;
+  left: 920px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: center;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .dbut-du-contrat {
+  background-color: transparent;
+  height: auto;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .fin-du-contrat {
+  background-color: transparent;
+  height: auto;
+  left: 579px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .jour {
+  background-color: transparent;
+  height: auto;
+  left: 427px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .mois {
+  background-color: transparent;
+  height: auto;
+  left: 394px;
+  letter-spacing: 0px;
+  line-height: 10px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
+.x15 .total {
+  background-color: transparent;
+  height: auto;
+  left: 691px;
+  letter-spacing: 0px;
+  line-height: 16px;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: auto;
+}
+
 .a16 {
   width: 100%;
   min-width: 1062px;
@@ -43731,11 +45343,11 @@ header {
 }
 
 .top-nav .right-menu {
-  margin-right: 123px;
   position: relative;
+  margin-right: 123px;
 }
 
-.top-nav .badge {
+.top-nav .right-menu .badge {
   position: absolute;
   top: 10px;
   right: 10px;

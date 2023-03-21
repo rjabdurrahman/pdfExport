@@ -24,6 +24,12 @@ app.config([
         controller: 'InfoCtrl',
         activetab: 'info'
       })
+      // New Year Modify
+      .when('/myapp/2022', {
+        templateUrl: 'pages/info22.html',
+        controller: 'InfoCtrl',
+        activetab: 'info'
+      })
       .when('/myapp/profile', {
         templateUrl: 'pages/profile.html',
         controller: 'ProfileCtrl',
@@ -87,6 +93,7 @@ app.run(function ($rootScope, $http, $route) {
     if ($rootScope.lang == 'fr') $rootScope.lang = 'de';
     else $rootScope.lang = 'fr';
   }
+  // New Year Modify
   $rootScope.selectedYear = 2021;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
@@ -103,6 +110,7 @@ app.run(function ($rootScope, $http, $route) {
         }).map(client => ({
           ...client['y' + $rootScope.selectedYear],
           _id: client._id,
+          // New Year Modify
           2019: _.get(client, 'y2019.signaletique') ? true : false,
           2020: _.get(client, 'y2020.signaletique') ? true : false
         }));
@@ -244,6 +252,7 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
               ...c.y2021
             }
           }
+          // New Year Modify
         });
         $scope.loadingRecycledClients = false
         $scope.noRecycledClients = true
