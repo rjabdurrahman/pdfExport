@@ -1,4 +1,3 @@
-let { ObjectID } = require('mongodb')
 const User = require('../Models/User')
 module.exports = {
   getProfile: async (req, res) => {

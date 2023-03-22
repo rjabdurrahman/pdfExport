@@ -1,5 +1,5 @@
 const Client = require('../Models/Client')
-let { ObjectID } = require('mongodb')
+const { Types } = require('mongoose');
 
 let page1 = require('../assets/page1')
 let page2 = require('../assets/page2')
@@ -49,7 +49,7 @@ module.exports = (req, res) => {
     ...page20(info)
   }
   Client.findOneAndUpdate(
-    { _id: ObjectID(id) },
+    { _id: Types.ObjectId(id) },
     {
       ['y' + req.params.year]: data
     },
