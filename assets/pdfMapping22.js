@@ -2921,7 +2921,7 @@ module.exports = function serializeInfo(client) {
         ),
         ['x15d22_27x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.total',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_total',
             ''
         ),
         ['x15d21_26x']: _.get(
@@ -2936,12 +2936,12 @@ module.exports = function serializeInfo(client) {
         ),
         ['x15d22x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.primes_payees_2',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_1',
             ''
         ),
         ['x15d26x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_1',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.primes_payees_2',
             ''
         ),
         ['x15d21x']: _.get(
