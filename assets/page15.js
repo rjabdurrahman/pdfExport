@@ -89,13 +89,13 @@ module.exports = function (info) {
                 contribuable: {
                     primes_payees_1: info['15d21'],
                     primes_payees_2: info['15d22'],
-                    primes_payees_total: info['15d21_22'],
+                    primes_payees_total: info['15d21_26'],
                     total: info['15d_28_29']
                 },
                 conjoint_partenaire: {
                     primes_payees_1: info['15d26'],
                     primes_payees_2: info['15d27'],
-                    primes_payees_total: info['15d26_27']
+                    primes_payees_total: info['15d22_27']
                 }
             },
             epargne_logement_t2: {

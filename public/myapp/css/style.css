@@ -29888,8 +29888,8 @@ div {
   left: 796px;
   position: absolute;
   top: 1386px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   width: 220px;
 }
 
@@ -29899,8 +29899,8 @@ div {
   left: 796px;
   position: absolute;
   top: 1316px;
-  -webkit-transform: rotate(180deg);
-          transform: rotate(180deg);
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
   width: 220px;
 }
 
