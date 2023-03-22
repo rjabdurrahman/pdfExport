@@ -73,6 +73,31 @@ module.exports = function (info) {
                     debut_contrat: info['15d1546'],
                 }
             ],
+            prevoyance_vieillesse_111ter_t1: [
+                {
+                    entreprise: info['15d18'],
+                    debut_contrat: info['15d19'],
+                    fin_contrat: info['15d20']
+                },
+                {
+                    entreprise: info['15d23'],
+                    debut_contrat: info['15d24'],
+                    fin_contrat: info['15d25']
+                }
+            ],
+            prevoyance_vieillesse_111ter_t2: {
+                contribuable: {
+                    primes_payees_1: info['15d21'],
+                    primes_payees_2: info['15d22'],
+                    primes_payees_total: info['15d21_22'],
+                    total: info['15d_28_29']
+                },
+                conjoint_partenaire: {
+                    primes_payees_1: info['15d26'],
+                    primes_payees_2: info['15d27'],
+                    primes_payees_total: info['15d26_27']
+                }
+            },
             epargne_logement_t2: {
                 contribuable: {
                     cotisations_versees1: info['15d1532'],

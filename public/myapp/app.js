@@ -94,7 +94,7 @@ app.run(function ($rootScope, $http, $route) {
     else $rootScope.lang = 'fr';
   }
   // New Year Modify
-  $rootScope.selectedYear = 2021;
+  $rootScope.selectedYear = 2022;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
     $rootScope.loadingClients = true
