@@ -5,9 +5,11 @@ const Client = require('../Models/Client');
 let pdfMapping19 = require('../assets/pdfMapping19');
 let pdfMapping20 = require('../assets/pdfMapping20');
 let pdfMapping21 = require('../assets/pdfMapping21');
+let pdfMapping22 = require('../assets/pdfMapping22');
 let fdfText19 = require('../pdf/fdfText19');
 let fdfText20 = require('../pdf/fdfText20');
 let fdfText21 = require('../pdf/fdfText21');
+let fdfText22 = require('../pdf/fdfText22');
 
 module.exports = (req, res) => {
     let id = req.params.id;
@@ -26,6 +28,10 @@ module.exports = (req, res) => {
         if(lang == 'fr') pdfFile = '100F_editable_2021.pdf';
         else if(lang == 'de') pdfFile = '100D_editable_2021.pdf';
     }
+    else if (year == 2022) {
+        if(lang == 'fr') pdfFile = '100F_editable_2022.pdf';
+        else if(lang == 'de') pdfFile = '100D_editable_2022.pdf';
+    }
     Client.findById(id, (err, client) => {
         if (err) res.send(err)
         else {
@@ -42,6 +48,10 @@ module.exports = (req, res) => {
             else if (year == 2021) {
                 mappedData = pdfMapping21(client._doc['y' + year]);
                 newFdfTxt = fdfText21 + '';
+            }
+            else if (year == 2022) {
+                mappedData = pdfMapping22(client._doc['y' + year]);
+                newFdfTxt = fdfText22 + '';
             }
             for (f in mappedData) {
                 newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), mappedData[f]);
