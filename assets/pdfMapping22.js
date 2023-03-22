@@ -2914,17 +2914,17 @@ module.exports = function serializeInfo(client) {
             ''
         ),
         // Page 15
-        ['x15d22_27x']: _.get(
+        ['x15d28_29x']: _.get(
             client,
             'depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.total',
             ''
         ),
-        ['x15d21_26x']: _.get(
+        ['x15d22_27x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_total',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.total',
             ''
         ),
-        ['x15d21_22x']: _.get(
+        ['x15d21_26x']: _.get(
             client,
             'depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.primes_payees_total',
             ''
@@ -2951,27 +2951,27 @@ module.exports = function serializeInfo(client) {
         ),
         ['x15d25x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].debut_contrat',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[1].fin_contrat',
             ''
         ),
         ['x15d24x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].souscripteur',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[1].debut_contrat',
             ''
         ),
         ['x15d23x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].entreprise',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[1].entreprise',
             ''
         ),
         ['x15d20x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].debut_contrat',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].fin_contrat',
             ''
         ),
         ['x15d19x']: _.get(
             client,
-            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].souscripteur',
+            'depenses_speciales15.prevoyance_vieillesse_111ter_t1[0].debut_contrat',
             ''
         ),
         ['x15d18x']: _.get(
