@@ -252,7 +252,13 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
               ...c.y2021
             }
           }
-          // New Year Modify
+          else if (_.get(c, 'y2022.signaletique')) {
+            return {
+              _id: c._id,
+              year: 2022,
+              ...c.y2022
+            }
+          }
         });
         $scope.loadingRecycledClients = false
         $scope.noRecycledClients = true
