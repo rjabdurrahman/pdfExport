@@ -114,10 +114,15 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
         $scope.data19 = res.data.y2019;
         $scope.data20 = res.data.y2020;
         $scope.data21 = res.data.y2021;
+        $scope.data22 = res.data.y2022;
       }
       else if (location.href.match(/2021/g)) {
         $scope.data20 = res.data.y2020;
         $scope.data21 = res.data.y2021;
+      }
+      else if (location.href.match(/2022/g)) {
+        $scope.data21 = res.data.y2021;
+        $scope.data22 = res.data.y2022;
       }
       afterDataLoaded($scope.client);
       $scope.$applyAsync();
@@ -125,39 +130,6 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     .catch(function (err) {
       console.log(err, err)
     })
-  $scope.view19 = function () {
-    $('left-nav a.done').removeClass('done');
-    if ($scope.active) {
-      $scope.client = $scope.data19;
-      afterDataLoaded($scope.client);
-      $(".form-input input:not(:disabled)").addClass("temp-disable");
-      $(".form-input input:not(:disabled)").prop("disabled", true);
-      setTimeout(() => {
-        $('a.done span').css('color', '#cf4044');
-        $('a.done').css('border-color', '#cf4044');
-      }, 500);
-      $('#submitInfoBtn').css('visibility', 'hidden');
-    } else {
-      $scope.client = $scope.data20;
-      afterDataLoaded($scope.client);
-      $(".form-input input.temp-disable").prop("disabled", false);
-      $(".form-input input.temp-disable").removeClass("temp-disable");
-      $('left-nav a.done span').css('color', '#25c1a0');
-      setTimeout(() => {
-        $('.left-nav a span').css('color', '#f4f5f6')
-        $('a.done span').css('color', '#25c1a0');
-        $('a.done').css('border-color', '#25c1a0');
-      }, 500);
-      $('#submitInfoBtn').css('visibility', 'visible');
-    }
-    $scope.$applyAsync();
-    // setTimeout(function() {
-    //   $('.form-input input').each(function() {
-    //     $(this).val(this.getAttribute('value'));
-    //   });
-    // }, 200);
-    $scope.active = !$scope.active;
-  }
   $scope.view20 = function () {
     $('left-nav a.done').removeClass('done');
     if ($scope.active) {
@@ -172,6 +144,41 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       $('#submitInfoBtn').css('visibility', 'hidden');
     } else {
       $scope.client = $scope.data21;
+      afterDataLoaded($scope.client);
+      $(".form-input input.temp-disable").prop("disabled", false);
+      $(".form-input input.temp-disable").removeClass("temp-disable");
+      $('left-nav a.done span').css('color', '#25c1a0');
+      setTimeout(() => {
+        $('.left-nav a span').css('color', '#f4f5f6')
+        $('a.done span').css('color', '#25c1a0');
+        $('.left-nav a').css('border-color', '#f4f5f6')
+        $('a.done').css('border-color', '#25c1a0');
+      }, 500);
+      $('#submitInfoBtn').css('visibility', 'visible');
+    }
+    $scope.$applyAsync();
+    // setTimeout(function() {
+    //   $('.form-input input').each(function() {
+    //     $(this).val(this.getAttribute('value'));
+    //   });
+    // }, 200);
+    $scope.active = !$scope.active;
+  }
+  $scope.viewPrev = function (year) {
+    $('left-nav a.done').removeClass('done');
+    if ($scope.active) {
+      $scope.client = $scope['data' + year];
+      console.log($scope.client)
+      afterDataLoaded($scope.client);
+      $(".form-input input:not(:disabled)").addClass("temp-disable");
+      $(".form-input input:not(:disabled)").prop("disabled", true);
+      setTimeout(() => {
+        $('a.done span').css('color', '#cf4044');
+        $('a.done').css('border-color', '#cf4044');
+      }, 500);
+      $('#submitInfoBtn').css('visibility', 'hidden');
+    } else {
+      $scope.client = $scope['data' + (year + 1)];
       afterDataLoaded($scope.client);
       $(".form-input input.temp-disable").prop("disabled", false);
       $(".form-input input.temp-disable").removeClass("temp-disable");
