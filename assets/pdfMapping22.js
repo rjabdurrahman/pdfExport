@@ -765,462 +765,569 @@ module.exports = function serializeInfo(client) {
         ['x20d2002x']: _.get(client, 'revenu_imposable.date', ''),
         ['x5d73x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total',
+            ''
         ),
         ['x5d72x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total',
+            ''
         ),
         ['x5d71x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total',
+            ''
         ),
         ['x5d70x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total',
+            ''
         ),
         ['x5d68x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.exoneration_total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.exoneration_total',
+            ''
         ),
         ['x5d65x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.investissements_total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.investissements_total',
+            ''
         ),
         ['x5d62x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.total'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.total',
+            ''
         ),
         ['x5d61x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total_abcd'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total_abcd',
+            ''
         ),
         ['x5d60x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total_abcd'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total_abcd',
+            ''
         ),
         ['x5d59x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total_abcd'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total_abcd',
+            ''
         ),
         ['x5d58x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total_abcd'
+            'benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total_abcd',
+            ''
         ),
         ['x5d37x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total'
+            'benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total',
+            ''
         ),
         ['x5d36x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total'
+            'benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total',
+            ''
         ),
         ['x5d35x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total'
+            'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total',
+            ''
         ),
         ['x5d34x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total'
+            'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total',
+            ''
         ),
         ['x5d32x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.exonerationTotal'
+            'benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.exonerationTotal',
+            ''
         ),
         ['x5d29x']: _.get(
             client,
-            'benefice_commercial.determination_benefice_commercial.revenus_exoneres.total'
+            'benefice_commercial.determination_benefice_commercial.revenus_exoneres.total',
+            ''
         ),
         // Page 6
-        ['x6d53x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total3'),
-        ['x6d52x']: _.get(client, 'ben_prov.rev_exo.contribuable.total3'),
+        ['x6d53x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total3', ''),
+        ['x6d52x']: _.get(client, 'ben_prov.rev_exo.contribuable.total3', ''),
         ['x6d51x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.total3'
+            'ben_prov.rev_non_exo.conjoint_partenaire.total3',
+            ''
         ),
-        ['x6d50x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total3'),
-        ['x6d49x']: _.get(client, 'ben_prov.etat_partie'),
+        ['x6d50x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total3', ''),
+        ['x6d49x']: _.get(client, 'ben_prov.etat_partie', ''),
         ['x6d47x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.exoneration'
+            'ben_prov.rev_non_exo.conjoint_partenaire.exoneration',
+            ''
         ),
-        ['x6d46x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.exoneration'),
-        ['x6d44x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total2'),
-        ['x6d43x']: _.get(client, 'ben_prov.rev_exo.contribuable.total2'),
+        ['x6d46x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.exoneration', ''),
+        ['x6d44x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total2', ''),
+        ['x6d43x']: _.get(client, 'ben_prov.rev_exo.contribuable.total2', ''),
         ['x6d42x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.total2'
+            'ben_prov.rev_non_exo.conjoint_partenaire.total2',
+            ''
         ),
-        ['x6d41x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total2'),
+        ['x6d41x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total2', ''),
         ['x6d40x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.depenses_e'
+            'ben_prov.rev_exo.conjoint_partenaire.depenses_e',
+            ''
         ),
-        ['x6d39x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_e'),
+        ['x6d39x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_e', ''),
         ['x6d38x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.depenses_e'
+            'ben_prov.rev_non_exo.conjoint_partenaire.depenses_e',
+            ''
         ),
-        ['x6d37x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_e'),
+        ['x6d37x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_e', ''),
         ['x6d36x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.montant_brut_e'
+            'ben_prov.rev_exo.conjoint_partenaire.montant_brut_e',
+            ''
         ),
-        ['x6d35x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut_e'),
+        ['x6d35x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut_e', ''),
         ['x6d34x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_e'
+            'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_e',
+            ''
         ),
         ['x6d33x']: _.get(
             client,
-            'ben_prov.rev_non_exo.contribuable.montant_brut_e'
+            'ben_prov.rev_non_exo.contribuable.montant_brut_e',
+            ''
         ),
-        ['x6d32x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total1'),
-        ['x6d31x']: _.get(client, 'ben_prov.rev_exo.contribuable.total1'),
+        ['x6d32x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.total1', ''),
+        ['x6d31x']: _.get(client, 'ben_prov.rev_exo.contribuable.total1', ''),
         ['x6d30x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.total1'
+            'ben_prov.rev_non_exo.conjoint_partenaire.total1',
+            ''
         ),
-        ['x6d29x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total1'),
+        ['x6d29x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.total1', ''),
         ['x6d28x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.depenses_d'
+            'ben_prov.rev_exo.conjoint_partenaire.depenses_d',
+            ''
         ),
-        ['x6d27x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_d'),
+        ['x6d27x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_d', ''),
         ['x6d26x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.depenses_d'
+            'ben_prov.rev_non_exo.conjoint_partenaire.depenses_d',
+            ''
         ),
-        ['x6d25x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_d'),
+        ['x6d25x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_d', ''),
         ['x6d24x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.montant_brut_d'
+            'ben_prov.rev_exo.conjoint_partenaire.montant_brut_d',
+            ''
         ),
-        ['x6d23x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut_d'),
+        ['x6d23x']: _.get(client, 'ben_prov.rev_exo.contribuable.montant_brut_d', ''),
         ['x6d22x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_d'
+            'ben_prov.rev_non_exo.conjoint_partenaire.montant_brut_d',
+            ''
         ),
         ['x6d21x']: _.get(
             client,
-            'ben_prov.rev_non_exo.contribuable.montant_brut_d'
+            'ben_prov.rev_non_exo.contribuable.montant_brut_d',
+            ''
         ),
         ['x6d20x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.benefice_cessation'
+            'ben_prov.rev_exo.conjoint_partenaire.benefice_cessation',
+            ''
         ),
         ['x6d19x']: _.get(
             client,
-            'ben_prov.rev_exo.contribuable.benefice_cessation'
+            'ben_prov.rev_exo.contribuable.benefice_cessation',
+            ''
         ),
         ['x6d18x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.benefice_cessation'
+            'ben_prov.rev_non_exo.conjoint_partenaire.benefice_cessation',
+            ''
         ),
         ['x6d17x']: _.get(
             client,
-            'ben_prov.rev_non_exo.contribuable.benefice_cessation'
+            'ben_prov.rev_non_exo.contribuable.benefice_cessation',
+            ''
         ),
         ['x6d16x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.parts_benefice'
+            'ben_prov.rev_exo.conjoint_partenaire.parts_benefice',
+            ''
         ),
-        ['x6d15x']: _.get(client, 'ben_prov.rev_exo.contribuable.parts_benefice'),
+        ['x6d15x']: _.get(client, 'ben_prov.rev_exo.contribuable.parts_benefice', ''),
         ['x6d14x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.parts_benefice'
+            'ben_prov.rev_non_exo.conjoint_partenaire.parts_benefice',
+            ''
         ),
         ['x6d13x']: _.get(
             client,
-            'ben_prov.rev_non_exo.contribuable.parts_benefice'
+            'ben_prov.rev_non_exo.contribuable.parts_benefice',
+            ''
         ),
         ['x6d12x']: _.get(
             client,
-            'ben_prov.rev_exo.conjoint_partenaire.depenses_a'
+            'ben_prov.rev_exo.conjoint_partenaire.depenses_a',
+            ''
         ),
-        ['x6d11x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_a'),
+        ['x6d11x']: _.get(client, 'ben_prov.rev_exo.contribuable.depenses_a', ''),
         ['x6d10x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.depenses_a'
+            'ben_prov.rev_non_exo.conjoint_partenaire.depenses_a',
+            ''
         ),
-        ['x6d9x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_a'),
-        ['x6d8x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.recettes'),
-        ['x6d7x']: _.get(client, 'ben_prov.rev_exo.contribuable.recettes'),
+        ['x6d9x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.depenses_a', ''),
+        ['x6d8x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.recettes', ''),
+        ['x6d7x']: _.get(client, 'ben_prov.rev_exo.contribuable.recettes', ''),
         ['x6d6x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.recettes'
+            'ben_prov.rev_non_exo.conjoint_partenaire.recettes',
+            ''
         ),
-        ['x6d5x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.recettes'),
-        ['x6d4x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.benefice'),
-        ['x6d3x']: _.get(client, 'ben_prov.rev_exo.contribuable.benefice'),
+        ['x6d5x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.recettes', ''),
+        ['x6d4x']: _.get(client, 'ben_prov.rev_exo.conjoint_partenaire.benefice', ''),
+        ['x6d3x']: _.get(client, 'ben_prov.rev_exo.contribuable.benefice', ''),
         ['x6d2x']: _.get(
             client,
-            'ben_prov.rev_non_exo.conjoint_partenaire.benefice'
+            'ben_prov.rev_non_exo.conjoint_partenaire.benefice',
+            ''
         ),
-        ['x6d1x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.benefice'),
-        ['x6d45x']: _.get(client, 'ben_prov.rev_exo.totalABCDE'),
-        ['x6d48x']: _.get(client, 'ben_prov.rev_non_exo.exoneration_total'),
+        ['x6d1x']: _.get(client, 'ben_prov.rev_non_exo.contribuable.benefice', ''),
+        ['x6d45x']: _.get(client, 'ben_prov.rev_exo.totalABCDE', ''),
+        ['x6d48x']: _.get(client, 'ben_prov.rev_non_exo.exoneration_total', ''),
         // Page 7
         ['x7d85x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine'
+            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.par_mois_semaine',
+            ''
         ),
         ['x7d83x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.par_mois_semaine'
+            'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.par_mois_semaine',
+            ''
         ),
         ['x7d81x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.par_mois_semaine'
+            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.par_mois_semaine',
+            ''
         ),
         ['x7d79x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.par_mois_semaine'
+            'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.par_mois_semaine',
+            ''
         ),
         ['x7d78x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour'
+            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.frequence.jour',
+            ''
         ),
         ['x7d77x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.jour'
+            'occup_salariee.plusieurs_lieux.lieu2.contribuable.frequence.jour',
+            ''
         ),
         ['x7d76x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.periode.au'
+            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.periode.au',
+            ''
         ),
         ['x7d75x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.periode.du'
+            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.periode.du',
+            ''
         ),
         ['x7d74x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.au'
+            'occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.au',
+            ''
         ),
         ['x7d73x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.du'
+            'occup_salariee.plusieurs_lieux.lieu2.contribuable.periode.du',
+            ''
         ),
         ['x7d72x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.localite'
+            'occup_salariee.plusieurs_lieux.lieu2.conjoint_partenaire.localite',
+            ''
         ),
         ['x7d71x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu2.contribuable.localite'
+            'occup_salariee.plusieurs_lieux.lieu2.contribuable.localite',
+            ''
         ),
         ['x7d70x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.jour'
+            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.frequence.jour',
+            ''
         ),
         ['x7d69x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.jour'
+            'occup_salariee.plusieurs_lieux.lieu1.contribuable.frequence.jour',
+            ''
         ),
         ['x7d68x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.au'
+            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.au',
+            ''
         ),
         ['x7d67x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.du'
+            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.periode.du',
+            ''
         ),
         ['x7d66x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.contribuable.periode.au'
+            'occup_salariee.plusieurs_lieux.lieu1.contribuable.periode.au',
+            ''
         ),
         ['x7d65x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.contribuable.periode.du'
+            'occup_salariee.plusieurs_lieux.lieu1.contribuable.periode.du',
+            ''
         ),
         ['x7d64x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.localite'
+            'occup_salariee.plusieurs_lieux.lieu1.conjoint_partenaire.localite',
+            ''
         ),
         ['x7d63x']: _.get(
             client,
-            'occup_salariee.plusieurs_lieux.lieu1.contribuable.localite'
+            'occup_salariee.plusieurs_lieux.lieu1.contribuable.localite',
+            ''
         ),
         ['x7d54x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.design_lieu_travail'
+            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.design_lieu_travail',
+            ''
         ),
         ['x7d53x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.a_deduire.design_lieu_travail'
+            'occup_salariee.rev_exo.contribuable.a_deduire.design_lieu_travail',
+            ''
         ),
         ['x7d52x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.design_lieu_travail'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.design_lieu_travail',
+            ''
         ),
         ['x7d51x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.design_lieu_travail'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.design_lieu_travail',
+            ''
         ),
         ['x7d50x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.frais_de_deplacement'
+            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.frais_de_deplacement',
+            ''
         ),
         ['x7d49x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.a_deduire.frais_de_deplacement'
+            'occup_salariee.rev_exo.contribuable.a_deduire.frais_de_deplacement',
+            ''
         ),
         ['x7d48x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.frais_de_deplacement'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.frais_de_deplacement',
+            ''
         ),
         ['x7d47x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.frais_de_deplacement'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.frais_de_deplacement',
+            ''
         ),
         ['x7d46x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.frais_obtention'
+            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.frais_obtention',
+            ''
         ),
         ['x7d45x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.a_deduire.frais_obtention'
+            'occup_salariee.rev_exo.contribuable.a_deduire.frais_obtention',
+            ''
         ),
         ['x7d44x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.frais_obtention'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.frais_obtention',
+            ''
         ),
         ['x7d43x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.frais_obtention'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.frais_obtention',
+            ''
         ),
         ['x7d42x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.autres_exemptions_texte'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.autres_exemptions_texte',
+            ''
         ),
         ['x7d41x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.autres_exemptions'
+            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.autres_exemptions',
+            ''
         ),
         ['x7d40x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.a_deduire.autres_exemptions'
+            'occup_salariee.rev_exo.contribuable.a_deduire.autres_exemptions',
+            ''
         ),
         ['x7d39x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.autres_exemptions'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.autres_exemptions',
+            ''
         ),
         ['x7d38x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.autres_exemptions'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.autres_exemptions',
+            ''
         ),
         ['x7d37x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.supplements'
+            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.supplements',
+            ''
         ),
         ['x7d36x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.a_deduire.supplements'
+            'occup_salariee.rev_exo.contribuable.a_deduire.supplements',
+            ''
         ),
         ['x7d35x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.supplements'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.supplements',
+            ''
         ),
         ['x7d34x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.supplements'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.supplements',
+            ''
         ),
         ['x7d33x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.salaires'
+            'occup_salariee.rev_exo.conjoint_partenaire.a_deduire.salaires',
+            ''
         ),
         ['x7d32x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.a_deduire.salaires'
+            'occup_salariee.rev_exo.contribuable.a_deduire.salaires',
+            ''
         ),
         ['x7d31x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.salaires'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.salaires',
+            ''
         ),
         ['x7d30x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.a_deduire.salaires'
+            'occup_salariee.rev_non_exo.contribuable.a_deduire.salaires',
+            ''
         ),
         ['x7d25x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.salaire_brut'
+            'occup_salariee.rev_exo.conjoint_partenaire.salaire_brut',
+            ''
         ),
         ['x7d24x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.salaire_brut'
+            'occup_salariee.rev_exo.contribuable.salaire_brut',
+            ''
         ),
         ['x7d23x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.salaire_brut'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.salaire_brut',
+            ''
         ),
         ['x7d22x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.salaire_brut'
+            'occup_salariee.rev_non_exo.contribuable.salaire_brut',
+            ''
         ),
         ['x7d17x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.autres'
+            'occup_salariee.rev_exo.conjoint_partenaire.autres',
+            ''
         ),
-        ['x7d16x']: _.get(client, 'occup_salariee.rev_exo.contribuable.autres'),
+        ['x7d16x']: _.get(client, 'occup_salariee.rev_exo.contribuable.autres', ''),
         ['x7d15x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.autres'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.autres',
+            ''
         ),
         ['x7d14x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.autres'
+            'occup_salariee.rev_non_exo.contribuable.autres',
+            ''
         ),
         ['x7d13x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.autres_texte'
+            'occup_salariee.rev_non_exo.contribuable.autres_texte',
+            ''
         ),
         ['x7d12x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.prestations'
+            'occup_salariee.rev_exo.conjoint_partenaire.prestations',
+            ''
         ),
         ['x7d11x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.prestations'
+            'occup_salariee.rev_exo.contribuable.prestations',
+            ''
         ),
         ['x7d10x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.prestations'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.prestations',
+            ''
         ),
         ['x7d9x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.prestations'
+            'occup_salariee.rev_non_exo.contribuable.prestations',
+            ''
         ),
         ['x7d8x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.deuxieme_contrat'
+            'occup_salariee.rev_exo.conjoint_partenaire.deuxieme_contrat',
+            ''
         ),
         ['x7d7x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.deuxieme_contrat'
+            'occup_salariee.rev_exo.contribuable.deuxieme_contrat',
+            ''
         ),
         ['x7d6x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.deuxieme_contrat'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.deuxieme_contrat',
+            ''
         ),
         ['x7d5x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.deuxieme_contrat'
+            'occup_salariee.rev_non_exo.contribuable.deuxieme_contrat',
+            ''
         ),
         ['x7d4x']: _.get(
             client,
-            'occup_salariee.rev_exo.conjoint_partenaire.premier_contrat'
+            'occup_salariee.rev_exo.conjoint_partenaire.premier_contrat',
+            ''
         ),
         ['x7d3x']: _.get(
             client,
-            'occup_salariee.rev_exo.contribuable.premier_contrat'
+            'occup_salariee.rev_exo.contribuable.premier_contrat',
+            ''
         ),
         ['x7d2x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.conjoint_partenaire.premier_contrat'
+            'occup_salariee.rev_non_exo.conjoint_partenaire.premier_contrat',
+            ''
         ),
         ['x7d1x']: _.get(
             client,
-            'occup_salariee.rev_non_exo.contribuable.premier_contrat'
+            'occup_salariee.rev_non_exo.contribuable.premier_contrat',
+            ''
         ),
         ['x7d62x']: _.get(
             client,
