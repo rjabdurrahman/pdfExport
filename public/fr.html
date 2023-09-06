@@ -1,84 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Avantages fiscaux – Découvrez vos possibilités de déductions | Assurances Yves Everad</title>
-    <link rel="stylesheet" href="myapp/css/w3.css">
-    <link rel="stylesheet" href="home.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Avantages fiscaux – Découvrez vos possibilités de déductions | Assurances
+      Yves Everad
+    </title>
+    <link rel="stylesheet" href="myapp/css/w3.css" />
+    <link rel="stylesheet" href="home.css" />
     <style>
-        @media only screen and (max-width: 768px) {
-
-            .content-area .content .middle-text #text {
-                font-size: 25px !important;
-            }
-
-            .content-area .content .middle-text #text b {
-                font-size: 38px !important;
-                font-weight: bold;
-            }
+      @media only screen and (max-width: 768px) {
+        .content-area .content .middle-text #text {
+          font-size: 25px !important;
         }
+
+        .content-area .content .middle-text #text b {
+          font-size: 38px !important;
+          font-weight: bold;
+        }
+      }
     </style>
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    <link rel='stylesheet'
-        href='https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp'>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500|Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="myapp/js/jquery-3.3.1.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="notification" class="w3-panel w3-card-4"></div>
     <div class="global-overlay shadow-9">
-        <div class="overlay-inner bg-image-holder bg-cover"
-            style="background-image: url('001_cs.png'); background-size: 100% 100%;"></div>
-        <div class="overlay-inner bg-gradient-3 opacity-75"></div>
+      <div
+        class="overlay-inner bg-image-holder bg-cover"
+        style="background-image: url('001_cs.png'); background-size: 100% 100%"
+      ></div>
+      <div class="overlay-inner bg-gradient-3 opacity-75"></div>
     </div>
     <div class="frame d-none d-lg-block">
-        <div class="frame-right"></div>
-        <div class="frame-bottom"></div>
+      <div class="frame-right"></div>
+      <div class="frame-bottom"></div>
     </div>
     <div class="content-area">
-        <div class="content">
-            <div class="w3-container">
-                <div class="logo-container">
-                    <img src="myapp/img/logo.png" alt="YE">
-                </div>
-                <div class="middle-text">
-                    <div id="text">
-                        <b>AVANTAGES FISCAUX</b><br>
-                        <span>Découvrez vos possibilités de déductions</span>
-                    </div>
-                </div>
-                <form onsubmit="registerEmail(event)" class="bottom-area w3-container">
-                    <p>Notre nouveau site internet sera bientôt en ligne, restez connectés.</p>
-                    <div class="subscribe">
-                        <input class="w3-input w3-border" type="text" name="email"
-                            placeholder="Saisissez votre adresse email">
-                        <input type="hidden" name="language" value="fr" />
-                        <button class="w3-btn w3-white">S’abonner</button>
-                    </div>
-                </form>
+      <div class="content">
+        <div class="w3-container">
+          <div class="logo-container">
+            <img src="myapp/img/logo.png" alt="YE" />
+          </div>
+          <div class="middle-text">
+            <div id="text">
+              <b>AVANTAGES FISCAUX</b><br />
+              <span>Découvrez vos possibilités de déductions</span>
             </div>
+          </div>
+          <form
+            onsubmit="registerEmail(event)"
+            class="bottom-area w3-container"
+          >
+            <p>
+              Notre nouveau site internet sera bientôt en ligne, restez
+              connectés.
+            </p>
+            <div class="subscribe">
+              <input
+                class="w3-input w3-border"
+                type="text"
+                name="email"
+                placeholder="Saisissez votre adresse email"
+              />
+              <input type="hidden" name="language" value="fr" />
+              <button class="w3-btn w3-white">S’abonner</button>
+            </div>
+          </form>
         </div>
+      </div>
     </div>
     <footer>
-        <nav class="social-nav social-nav-pinned">
-            <ul>
-                <li><a target="_blank" href="https://www.facebook.com/assurances.ye"><i
-                            class="fa fa-facebook-f"></i></a></li>
-                <li><a target="_blank" href="https://g.page/assurances-ye"><i class="fa fa-google"></i></a></li>
-                <li><a target="_blank" href="https://www.instagram.com/assurances.ye/"><i
-                            class="fa fa-instagram"></i></a>
-                </li>
-                <li><a target="_blank" href="mailto:info@y-e.lu"><i class="fa fa-envelope-o"></i></a></li>
-            </ul>
-        </nav>
+      <nav class="social-nav social-nav-pinned">
+        <ul>
+          <li>
+            <a target="_blank" href="https://www.facebook.com/assurances.everad"
+              ><i class="fa fa-facebook-f"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="https://www.instagram.com/assurances.ye"
+              ><i class="fa fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/assurances-everad"
+              ><i class="fa fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a
+              target="_blank"
+              href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x479555c891962117:0x3c17d8fb0382d2a"
+              ><i class="fa fa-google"></i
+            ></a>
+          </li>
+          <li>
+            <a target="_blank" href="mailto:info@avantagesfiscaux.lu"
+              ><i class="fa fa-envelope-o"></i
+            ></a>
+          </li>
+        </ul>
+      </nav>
     </footer>
     <script src="home.js"></script>
-</body>
-
+  </body>
 </html>
