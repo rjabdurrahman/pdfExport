@@ -15,7 +15,7 @@ app.post('/login', userLogin)
 app.get('/logout', userLogOut)
 app.use('/api', apiRoute)
 // New Year Modify
-app.use(/\/myapp\/(home|2019|2020|2021|2022|profile|logout)*/, (req, res, next) => {
+app.use(/\/myapp\/(home|2019|2020|2021|2022|2023|profile|logout)*/, (req, res, next) => {
   if (!req.cookies.user) {
     res.redirect('/myapp/login')
   }

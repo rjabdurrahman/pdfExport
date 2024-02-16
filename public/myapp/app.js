@@ -24,8 +24,13 @@ app.config([
         controller: 'InfoCtrl',
         activetab: 'info'
       })
-      // New Year Modify
       .when('/myapp/2022', {
+        templateUrl: 'pages/info22.html',
+        controller: 'InfoCtrl',
+        activetab: 'info'
+      })
+      // New Year Modify
+      .when('/myapp/2023', {
         templateUrl: 'pages/info22.html',
         controller: 'InfoCtrl',
         activetab: 'info'
@@ -94,7 +99,7 @@ app.run(function ($rootScope, $http, $route) {
     else $rootScope.lang = 'fr';
   }
   // New Year Modify
-  $rootScope.selectedYear = 2022;
+  $rootScope.selectedYear = 2023;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
     $rootScope.loadingClients = true
@@ -112,7 +117,10 @@ app.run(function ($rootScope, $http, $route) {
           _id: client._id,
           // New Year Modify
           2019: _.get(client, 'y2019.signaletique') ? true : false,
-          2020: _.get(client, 'y2020.signaletique') ? true : false
+          2020: _.get(client, 'y2020.signaletique') ? true : false,
+          2021: _.get(client, 'y2020.signaletique') ? true : false,
+          2022: _.get(client, 'y2020.signaletique') ? true : false,
+          2023: _.get(client, 'y2020.signaletique') ? true : false
         }));
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
