@@ -31,7 +31,7 @@ app.config([
       })
       // New Year Modify
       .when('/myapp/2023', {
-        templateUrl: 'pages/info22.html',
+        templateUrl: 'pages/info23.html',
         controller: 'InfoCtrl',
         activetab: 'info'
       })
