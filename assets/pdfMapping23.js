@@ -3116,31 +3116,6 @@ module.exports = function serializeInfo(client) {
             'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees_total',
             ''
         ),
-        ['x15d1548x']: _.get(
-            client,
-            'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees4',
-            ''
-        ),
-        ['x15d1547x']: _.get(
-            client,
-            'depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees4',
-            ''
-        ),
-        ['x15d1546x']: _.get(
-            client,
-            'depenses_speciales15.epargne_logement_t1[3].debut_contrat',
-            ''
-        ),
-        ['x15d1545x']: _.get(
-            client,
-            'depenses_speciales15.epargne_logement_t1[3].souscripteur',
-            ''
-        ),
-        ['x15d1544x']: _.get(
-            client,
-            'depenses_speciales15.epargne_logement_t1[3].caisse',
-            ''
-        ),
         ['x15d1543x']: _.get(
             client,
             'depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees3',
