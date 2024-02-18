@@ -798,8 +798,9 @@ function cal_script() {
     this.getField("N.1541").value = this.getField("N.1541").value.replace(/\./g, '');
     this.getField("N.1545").value = this.getField("N.1545").value.replace(/\./g, '');
     this.getField("N.1546").value = this.getField("N.1546").value.replace(/\./g, '');
-    this.getField("N.1547").value = this.getField("N.1547").value.replace(/\./g, '');
+    this.getField("N.1549").value = this.getField("N.1549").value.replace(/\./g, '');
     this.getField("N.1550").value = this.getField("N.1550").value.replace(/\./g, '');
+    this.getField("N.1552").value = this.getField("N.1552").value.replace(/\./g, '');
     this.getField("N.1601").value = this.getField("N.1601").value.replace(/\./g, '');
     this.getField("N.1602").value = this.getField("N.1602").value.replace(/\./g, '');
     this.getField("N.1603").value = this.getField("N.1603").value.replace(/\./g, '');
