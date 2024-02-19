@@ -1,5 +1,5 @@
 .x03 {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 1451px;
   overflow: hidden;
   overflow-x: hidden;
@@ -723,21 +723,21 @@
 }
 
 .x03 .span0-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
 
 .x03 .span0-TIxzm7 {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Bold", Helvetica;
   font-style: normal;
   font-weight: 700;
 }
 
 .x03 .span1-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
@@ -745,21 +745,21 @@
 }
 
 .x03 .span1-TIxzm7 {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
 
 .x03 .span2-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
 
 .x03 .span3-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
@@ -767,14 +767,14 @@
 }
 
 .x03 .span4-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
 
 .x03 .span5-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
@@ -782,7 +782,7 @@
 }
 
 .x03 .span6-7qukLx {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
@@ -1245,5 +1245,4 @@
 :root {
   --black: rgba(0, 0, 0, 1);
   --mercury: rgba(223, 226, 229, 1);
-}
-/*# sourceMappingURL=page3_20.css.map */
+}/*# sourceMappingURL=page3_20.css.map */

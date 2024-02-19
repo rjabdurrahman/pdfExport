@@ -31,7 +31,6 @@
   position: relative;
   width: 1074px;
 }
-
 .a04 p {
   margin: 0 !important;
 }
@@ -909,21 +908,21 @@
 }
 
 .a04 .span0-ISgB7F {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
 }
 
 .a04 .span1-ISgB7F {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Bold", Helvetica;
   font-style: normal;
   font-weight: 700;
 }
 
 .a04 .span2-ISgB7F {
-  color: black;
+  color: rgb(0, 0, 0);
   font-family: "Arial-Regular", Helvetica;
   font-style: normal;
   font-weight: 400;
@@ -1408,5 +1407,4 @@
   position: absolute;
   top: 1481px;
   width: 190px;
-}
-/*# sourceMappingURL=page4_20.css.map */
+}/*# sourceMappingURL=page4_20.css.map */

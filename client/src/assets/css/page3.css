@@ -8,7 +8,7 @@
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -32,366 +32,338 @@ div {
 }
 
 .a03 .a3270 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1269px;
   height: 42px;
   width: 78px;
   position: absolute;
   margin: 0;
   left: 929px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3261 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1293px;
   height: 42px;
   width: 156px;
   position: absolute;
   margin: 0;
   left: 687px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3252 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1248px;
   height: 42px;
   width: 156px;
   position: absolute;
   margin: 0;
   left: 625px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3243 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1136px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3234 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1092px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3225 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 997px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3216 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 743px;
   height: 42px;
   width: 283px;
   position: absolute;
   margin: 0;
   left: 758px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3207 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 743px;
   height: 42px;
   width: 130px;
   position: absolute;
   margin: 0;
   left: 633px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3198 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 743px;
   height: 42px;
   width: 278px;
   position: absolute;
   margin: 0;
   left: 317px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a3189 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 743px;
   height: 42px;
   width: 130px;
   position: absolute;
   margin: 0;
   left: 187px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31710 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 701px;
   height: 42px;
   width: 298px;
   position: absolute;
   margin: 0;
   left: 743px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31611 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 701px;
   height: 42px;
   width: 110px;
   position: absolute;
   margin: 0;
   left: 633px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31512 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 701px;
   height: 42px;
   width: 298px;
   position: absolute;
   margin: 0;
   left: 297px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31413 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 701px;
   height: 42px;
   width: 110px;
   position: absolute;
   margin: 0;
   left: 187px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31314 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 646px;
   height: 28px;
   width: 408px;
   position: absolute;
   margin: 0;
   left: 633px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31215 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 646px;
   height: 28px;
   width: 408px;
   position: absolute;
   margin: 0;
   left: 187px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31116 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 584px;
   height: 42px;
   width: 408px;
   position: absolute;
   margin: 0;
   left: 633px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a31017 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 584px;
   height: 42px;
   width: 408px;
   position: absolute;
   margin: 0;
   left: 187px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30918 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 367px;
   height: 30px;
   width: 156px;
   position: absolute;
   margin: 0;
   left: 748px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30819 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 403px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30720 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 373px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30621 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 343px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30522 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 199px;
   height: 30px;
   width: 156px;
   position: absolute;
   margin: 0;
   left: 477px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30423 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 236px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30324 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 206px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30225 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 176px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .a30126 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 84px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 68px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .rectangleclassedimpt27 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 129px;
   height: 42px;
   width: 156px;
   position: absolute;
   margin: 0;
   left: 840px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
@@ -403,14 +375,13 @@ div {
   position: absolute;
   margin: 0;
   left: 1009px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -445,14 +416,13 @@ div {
   position: absolute;
   margin: 0;
   left: 914px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -465,14 +435,13 @@ div {
   position: absolute;
   margin: 0;
   left: 649px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 20px;
 }
@@ -485,14 +454,13 @@ div {
   position: absolute;
   margin: 0;
   left: 808px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -505,21 +473,19 @@ div {
   position: absolute;
   margin: 0;
   left: 576px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
 }
 
 .a03 .group132 .path10 {
   background-color: rgba(255, 255, 255, 0);
-  top: -0px;
+  top: 0px;
   height: 36px;
   width: 34px;
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
 }
 
 .a03 .lescontribuablesnonrsidentsdoiventindiquerleursrevenusdesourceluxembourgeoisedanslescolonnesrevenusnonexonrs33 {
@@ -530,14 +496,13 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -550,14 +515,13 @@ div {
   position: absolute;
   margin: 0;
   left: 129px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -570,14 +534,13 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 20px;
 }
@@ -590,14 +553,13 @@ div {
   position: absolute;
   margin: 0;
   left: 153px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -610,20 +572,18 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
 
-.a03
-.lecontribuablenonrsidentayantsarsidencefiscaleenbelgiquepeutenvertudesdispositionsdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetreassimilauxcontribuablesrsidentssiplus38 {
+.a03 .lecontribuablenonrsidentayantsarsidencefiscaleenbelgiquepeutenvertudesdispositionsdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetreassimilauxcontribuablesrsidentssiplus38 {
   background-color: rgba(255, 255, 255, 0);
   top: 1138px;
   height: auto;
@@ -631,14 +591,13 @@ div {
   position: absolute;
   margin: 0;
   left: 97px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -651,14 +610,13 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -671,14 +629,13 @@ div {
   position: absolute;
   margin: 0;
   left: 97px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -691,20 +648,18 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
 
-.a03
-.aumoins90desrevenusmondiauxsontimposablesauluxembourgpourcentagedterminerselonlescases325327lesrevenusprovenantduneoccupationsalariedontledroitdimpositionnerevientpasauluxembourgenvertuduneconventioncontr42 {
+.a03 .aumoins90desrevenusmondiauxsontimposablesauluxembourgpourcentagedterminerselonlescases325327lesrevenusprovenantduneoccupationsalariedontledroitdimpositionnerevientpasauluxembourgenvertuduneconventioncontr42 {
   background-color: rgba(255, 255, 255, 0);
   top: 1000px;
   height: auto;
@@ -712,14 +667,13 @@ div {
   position: absolute;
   margin: 0;
   left: 97px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -732,20 +686,18 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
 
-.a03
-.lecontribuablenonrsidentpeuttreassimilaucontribuablersidentsiaumoinsunedesconditionssuivantesestremplieencequiconcernelescontribuablesnonrsidentsmarisilsuffitquaumoinslundespouxsatisfaitlaconditionsousao44 {
+.a03 .lecontribuablenonrsidentpeuttreassimilaucontribuablersidentsiaumoinsunedesconditionssuivantesestremplieencequiconcernelescontribuablesnonrsidentsmarisilsuffitquaumoinslundespouxsatisfaitlaconditionsousao44 {
   background-color: rgba(255, 255, 255, 0);
   top: 922px;
   height: auto;
@@ -753,20 +705,18 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 {
   background-color: rgba(255, 255, 255, 0);
   top: 858px;
   height: auto;
@@ -774,87 +724,72 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span0 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span0 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span1 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span2 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span2 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span3 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span3 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span4 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span4 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span5 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span5 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-decoration: underline;
 }
 
-.a03
-.demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45
-.span6 {
+.a03 .demandepourlapplicationdesdispositionsdelarticle157terliretdelarticle244adelaconventioncontrelesdoublesimpositionsentreleluxembourgetlabelgiquetouslesrevenusdesourceluxembourgeoiserevenusnonexonrsetdesourc45 .span6 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .a03 .assimilationdunonrsidentaursident46 {
@@ -865,14 +800,13 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 18px;
 }
@@ -885,14 +819,13 @@ div {
   position: absolute;
   margin: 0;
   left: 837px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -905,14 +838,13 @@ div {
   position: absolute;
   margin: 0;
   left: 773px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -925,14 +857,13 @@ div {
   position: absolute;
   margin: 0;
   left: 673px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1065,14 +996,13 @@ div {
   position: absolute;
   margin: 0;
   left: 698px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1085,14 +1015,13 @@ div {
   position: absolute;
   margin: 0;
   left: 391px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1105,14 +1034,13 @@ div {
   position: absolute;
   margin: 0;
   left: 327px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1125,14 +1053,13 @@ div {
   position: absolute;
   margin: 0;
   left: 227px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1265,14 +1192,13 @@ div {
   position: absolute;
   margin: 0;
   left: 320px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1285,14 +1211,13 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1305,14 +1230,13 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1325,14 +1249,13 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1345,14 +1268,13 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1365,12 +1287,11 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-size: 18px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 18px;
 }
@@ -1380,7 +1301,7 @@ div {
   font-weight: 700;
   font-style: normal;
   font-size: 18px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .a03 .electionfacultativedundomicileauluxembourgadressepourlanotificationdesbulletinsdimpt83 .span1 {
@@ -1388,7 +1309,7 @@ div {
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .a03 .nonrsidentsremplirparlescontribuablesquinontpasleurdomicilefiscalouleursjourhabituelauluxembourg84 {
@@ -1399,14 +1320,13 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 22px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 22px;
 }
@@ -1419,14 +1339,13 @@ div {
   position: absolute;
   margin: 0;
   left: 725px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1439,14 +1358,13 @@ div {
   position: absolute;
   margin: 0;
   left: 725px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1459,14 +1377,13 @@ div {
   position: absolute;
   margin: 0;
   left: 595px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 90px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 90px;
 }
@@ -1479,14 +1396,13 @@ div {
   position: absolute;
   margin: 0;
   left: 403px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1499,14 +1415,13 @@ div {
   position: absolute;
   margin: 0;
   left: 273px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 90px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 90px;
 }
@@ -1519,14 +1434,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1539,14 +1453,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1559,14 +1472,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1579,14 +1491,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1599,14 +1510,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1619,14 +1529,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1639,14 +1548,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1659,14 +1567,13 @@ div {
   position: absolute;
   margin: 0;
   left: 104px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 16px;
 }
@@ -1679,14 +1586,13 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 22px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 22px;
 }
@@ -1699,15 +1605,13 @@ div {
   position: absolute;
   margin: 0;
   left: 974px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
+  transform: rotate(0);
   opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
   font-size: 28px;
-  color: black;
+  color: rgb(0, 0, 0);
   text-align: left;
   line-height: 28px;
-}
-/*# sourceMappingURL=page3.css.map */
+}/*# sourceMappingURL=page3.css.map */

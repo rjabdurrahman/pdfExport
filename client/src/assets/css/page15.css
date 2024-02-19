@@ -8,7 +8,7 @@
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -32,705 +32,651 @@ div {
 }
 
 .a15 .a15520 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1235px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a15 .a15511 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1165px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a15 .a15502 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1057px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a15493 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1057px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a15484 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 991px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a15475 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 991px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a15466 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 935px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a15457 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 935px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a15448 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 935px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a15439 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 935px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a154210 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 935px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a154111 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 893px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a154012 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 893px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153913 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 893px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153814 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 893px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153715 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 893px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153616 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 851px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153517 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 851px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153418 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 851px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153319 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 851px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153220 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 851px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153121 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 809px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a153022 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 809px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152923 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 809px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152824 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 809px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152725 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 809px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a1525152626 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 620px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a152627 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 578px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a152528 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 578px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a152429 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 512px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152330 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 512px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152231 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 456px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152132 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 456px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a152033 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 456px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151934 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 456px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151835 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 456px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151736 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 414px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151637 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 414px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151538 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 414px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151439 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 414px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151340 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 414px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151241 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 372px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151142 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 372px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a151043 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 372px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150944 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 372px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150845 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 372px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150746 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 330px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150647 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 330px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150548 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 330px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 528px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150449 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 330px;
   height: 42px;
   width: 200px;
   position: absolute;
   margin: 0;
   left: 328px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a150350 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 330px;
   height: 42px;
   width: 294px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a15 .a1501150251 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 168px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 796px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a150252 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 126px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 912px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .a150153 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 126px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 752px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(-0.0000000286deg);
+  opacity: 1;
 }
 
 .a15 .silemontantdesdpensesspcialescase1551estinfrieurauminimumforfaitaireceluicisysubstitueleminimumforfaitaireslve480parancemontantestdoubldanslechefdesconjointsetdespartenairesimposablescollectivementetp54 {
@@ -741,16 +687,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuableconjointpartenaire55 {
@@ -761,16 +706,15 @@ div {
   position: absolute;
   margin: 0;
   left: 920px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuable56 {
@@ -781,16 +725,15 @@ div {
   position: absolute;
   margin: 0;
   left: 781px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .totaldesdpensesspcialescouvertesparleminimumforfaitairecases1301155057 {
@@ -801,30 +744,29 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-size: 22.0px;
-  color: black;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 18.0px;
+  line-height: 18px;
 }
 
 .a15 .totaldesdpensesspcialescouvertesparleminimumforfaitairecases1301155057 .span0 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
 }
 
 .a15 .totaldesdpensesspcialescouvertesparleminimumforfaitairecases1301155057 .span1 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 18.0px;
-  color: black;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
 }
 
 .a15 .plafondde6721344silgedusouscripteurestde1840ansaccomplisaudbutdelannedimpositionmajorlecaschantpourleconjointpourlepartenaireetpourchaqueenfantayantfaitpartiedumnagelemontantlemoinslevtota58 {
@@ -835,16 +777,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .total59 {
@@ -855,16 +796,15 @@ div {
   position: absolute;
   margin: 0;
   left: 691px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .cotisationsversesen201960 {
@@ -875,16 +815,15 @@ div {
   position: absolute;
   margin: 0;
   left: 805px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .dbutducontrat61 {
@@ -895,16 +834,15 @@ div {
   position: absolute;
   margin: 0;
   left: 569px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .jour62 {
@@ -915,16 +853,15 @@ div {
   position: absolute;
   margin: 0;
   left: 427px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .mois63 {
@@ -935,16 +872,15 @@ div {
   position: absolute;
   margin: 0;
   left: 394px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .anne64 {
@@ -955,16 +891,15 @@ div {
   position: absolute;
   margin: 0;
   left: 345px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .line4865 {
@@ -1095,16 +1030,15 @@ div {
   position: absolute;
   margin: 0;
   left: 427px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .mois78 {
@@ -1115,16 +1049,15 @@ div {
   position: absolute;
   margin: 0;
   left: 394px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .anne79 {
@@ -1135,16 +1068,15 @@ div {
   position: absolute;
   margin: 0;
   left: 345px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .line3680 {
@@ -1275,16 +1207,15 @@ div {
   position: absolute;
   margin: 0;
   left: 427px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .mois93 {
@@ -1295,16 +1226,15 @@ div {
   position: absolute;
   margin: 0;
   left: 394px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .anne94 {
@@ -1315,16 +1245,15 @@ div {
   position: absolute;
   margin: 0;
   left: 345px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .line2495 {
@@ -1455,16 +1384,15 @@ div {
   position: absolute;
   margin: 0;
   left: 427px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .mois108 {
@@ -1475,16 +1403,15 @@ div {
   position: absolute;
   margin: 0;
   left: 394px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .anne109 {
@@ -1495,16 +1422,15 @@ div {
   position: absolute;
   margin: 0;
   left: 345px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a15 .line12110 {
@@ -1635,16 +1561,15 @@ div {
   position: absolute;
   margin: 0;
   left: 355px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .caissedpargnelogement123 {
@@ -1655,16 +1580,15 @@ div {
   position: absolute;
   margin: 0;
   left: 84px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuableconjointpartenaire124 {
@@ -1675,16 +1599,15 @@ div {
   position: absolute;
   margin: 0;
   left: 920px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuable125 {
@@ -1695,16 +1618,15 @@ div {
   position: absolute;
   margin: 0;
   left: 781px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .cotisationsversesdescaissesdpargnelogementagresdansunetatmembredelunioneuropenneenvertuduncontratdpargnelogement126 {
@@ -1715,16 +1637,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .epargnelogement127 {
@@ -1735,16 +1656,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .e128 {
@@ -1755,16 +1675,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .plafondde3200pourlecontribuableet3200pourleconjointpartenaire129 {
@@ -1775,16 +1694,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .total130 {
@@ -1795,16 +1713,15 @@ div {
   position: absolute;
   margin: 0;
   left: 691px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .primesversesen2019131 {
@@ -1815,16 +1732,15 @@ div {
   position: absolute;
   margin: 0;
   left: 820px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .finducontrat132 {
@@ -1835,16 +1751,15 @@ div {
   position: absolute;
   margin: 0;
   left: 579px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .dbutducontrat133 {
@@ -1855,16 +1770,15 @@ div {
   position: absolute;
   margin: 0;
   left: 369px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .entreprisedassurancemutuelle134 {
@@ -1875,16 +1789,15 @@ div {
   position: absolute;
   margin: 0;
   left: 63px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuableconjointpartenaire135 {
@@ -1895,16 +1808,15 @@ div {
   position: absolute;
   margin: 0;
   left: 920px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuable136 {
@@ -1915,16 +1827,15 @@ div {
   position: absolute;
   margin: 0;
   left: 781px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .primesversesenvertuduncontratdeprvoyancevieillessevislarticle111bislir137 {
@@ -1935,16 +1846,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .prvoyancevieillesse138 {
@@ -1955,16 +1865,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .d139 {
@@ -1975,16 +1884,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .cotisationspayestitrepersonnelenraisonduneassurancecontinuevolontaireoufacultativeetdunachatdepriodesenmatiredassurancemaladieetdassurancepensionauprsdunrgimedescuritsociale140 {
@@ -1995,16 +1903,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuableconjointpartenaire141 {
@@ -2015,16 +1922,15 @@ div {
   position: absolute;
   margin: 0;
   left: 920px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .contribuable142 {
@@ -2035,16 +1941,15 @@ div {
   position: absolute;
   margin: 0;
   left: 781px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a15 .cotisationspayestitrepersonnel143 {
@@ -2055,16 +1960,15 @@ div {
   position: absolute;
   margin: 0;
   left: 76px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .c144 {
@@ -2075,16 +1979,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .dpensesspcialesdductiblescouvertesparleminimumforfaitaire145 {
@@ -2095,16 +1998,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .a1146 {
@@ -2115,16 +2017,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a15 .ds147 {
@@ -2135,15 +2036,13 @@ div {
   position: absolute;
   margin: 0;
   left: 1021px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 28.0px;
-  color: black;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 28.0px;
-}
-/*# sourceMappingURL=page15.css.map */
+  line-height: 28px;
+}/*# sourceMappingURL=page15.css.map */

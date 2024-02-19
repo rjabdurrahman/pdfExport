@@ -8,7 +8,7 @@
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -32,653 +32,603 @@ div {
 }
 
 .a18 .a18010 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 47px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .checkbox61 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 849px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 254px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .checkbox52 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 849px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .checkbox43 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 783px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 254px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .checkbox34 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 783px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .checkbox25 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 717px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 254px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .checkbox16 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 717px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a18367 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 976px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a18358 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 838px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 290px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a18349 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 838px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 72px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a183310 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 772px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 290px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a183211 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 772px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 72px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a183112 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 706px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 290px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a183013 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 706px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 72px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182914 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 511px;
   height: 42px;
   width: 272px;
   position: absolute;
   margin: 0;
   left: 730px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182815 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 511px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182716 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 511px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1826b17 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 511px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1826a18 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 511px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182519 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 469px;
   height: 42px;
   width: 272px;
   position: absolute;
   margin: 0;
   left: 730px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182420 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 469px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182321 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 469px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1822b22 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 469px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1822a23 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 469px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182124 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 427px;
   height: 42px;
   width: 272px;
   position: absolute;
   margin: 0;
   left: 730px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a182025 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 427px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181926 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 427px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1818b27 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 427px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1818a28 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 427px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181729 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 385px;
   height: 42px;
   width: 272px;
   position: absolute;
   margin: 0;
   left: 730px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181630 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 385px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181531 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 385px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1814b32 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 385px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1814a33 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 385px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181334 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 292px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181235 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 292px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1811b36 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 292px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1811a37 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 292px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a181038 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 250px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a180939 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 250px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1808b40 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 250px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1808a41 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 250px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a180742 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 208px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a180643 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 208px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1805b44 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 208px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1805a45 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 208px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a180446 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 166px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 582px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a180347 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 166px;
   height: 42px;
   width: 248px;
   position: absolute;
   margin: 0;
   left: 334px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1802b48 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 166px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 185px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .a1802a49 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 166px;
   height: 42px;
   width: 149px;
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a18 .demandepourunebonificationdimptpourinvestissementencapitalrisqueartvidelaloidu22dcembre1993loriginalducertificatmisparlesministresayantdansleursattributionslesfinancesetleconomieestjoindre50 {
@@ -689,16 +639,15 @@ div {
   position: absolute;
   margin: 0;
   left: 72px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .investissementencapitalrisque51 {
@@ -709,16 +658,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a18 .veuillezindiquerlemontantdelabattementrduitdetouteaidedirectedeletatoudunorganismepublicluxembourgeoisoutranger52 {
@@ -729,16 +677,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .unevoitureautomobilepersonneslectriquehybriderechargeable53 {
@@ -749,16 +696,15 @@ div {
   position: absolute;
   margin: 0;
   left: 479px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .a54 {
@@ -769,16 +715,15 @@ div {
   position: absolute;
   margin: 0;
   left: 458px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .uncycleavecousanspdalageassist55 {
@@ -789,16 +734,15 @@ div {
   position: absolute;
   margin: 0;
   left: 479px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .a56 {
@@ -809,16 +753,15 @@ div {
   position: absolute;
   margin: 0;
   left: 458px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .unevoitureautomobilepersonneszromissionsderoulementquifonctionneexclusivementllectricitouexclusivementavecunepilecombustiblehydrogne57 {
@@ -829,16 +772,15 @@ div {
   position: absolute;
   margin: 0;
   left: 479px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .a58 {
@@ -849,16 +791,15 @@ div {
   position: absolute;
   margin: 0;
   left: 458px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .contribuableconjointpartenaire59 {
@@ -869,16 +810,15 @@ div {
   position: absolute;
   margin: 0;
   left: 298px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .contribuable60 {
@@ -889,16 +829,15 @@ div {
   position: absolute;
   margin: 0;
   left: 101px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .demandepourunabattementderevenuimposablepourmobilitdurableselonlarticle129dlirpourlacquisitiondunvhiculeneufciaprs61 {
@@ -909,16 +848,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .mobilitdurable62 {
@@ -929,16 +867,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a18 .jour63 {
@@ -949,16 +886,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois64 {
@@ -969,16 +905,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne65 {
@@ -989,16 +924,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line9666 {
@@ -1129,16 +1063,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois79 {
@@ -1149,16 +1082,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne80 {
@@ -1169,16 +1101,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line8481 {
@@ -1309,16 +1240,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois94 {
@@ -1329,16 +1259,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne95 {
@@ -1349,16 +1278,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line7296 {
@@ -1489,16 +1417,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois109 {
@@ -1509,16 +1436,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne110 {
@@ -1529,16 +1455,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line60111 {
@@ -1669,16 +1594,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois124 {
@@ -1689,16 +1613,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne125 {
@@ -1709,16 +1632,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line48126 {
@@ -1849,16 +1771,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois139 {
@@ -1869,16 +1790,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne140 {
@@ -1889,16 +1809,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line36141 {
@@ -2029,16 +1948,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois154 {
@@ -2049,16 +1967,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne155 {
@@ -2069,16 +1986,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line24156 {
@@ -2209,16 +2125,15 @@ div {
   position: absolute;
   margin: 0;
   left: 459px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .mois169 {
@@ -2229,16 +2144,15 @@ div {
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .anne170 {
@@ -2249,16 +2163,15 @@ div {
   position: absolute;
   margin: 0;
   left: 358px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 10.0px;
-  color: black;
+  font-size: 10px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 10.0px;
+  line-height: 10px;
 }
 
 .a18 .line12171 {
@@ -2389,16 +2302,15 @@ div {
   position: absolute;
   margin: 0;
   left: 66px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .b184 {
@@ -2409,16 +2321,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .enfantsgsdemoinsde21ansau112019ounsencoursdelannedontjaisupportprincipalementplusde50lesfraisdentretienetdducation185 {
@@ -2429,16 +2340,15 @@ div {
   position: absolute;
   margin: 0;
   left: 66px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .a186 {
@@ -2449,16 +2359,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .spcificationdelaformationprofessionnelle187 {
@@ -2469,16 +2378,15 @@ div {
   position: absolute;
   margin: 0;
   left: 766px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .montantannueldesfrais188 {
@@ -2489,16 +2397,15 @@ div {
   position: absolute;
   margin: 0;
   left: 586px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .datedenaissancendidentification189 {
@@ -2509,16 +2416,15 @@ div {
   position: absolute;
   margin: 0;
   left: 377px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .nometprnomdelenfant190 {
@@ -2529,16 +2435,15 @@ div {
   position: absolute;
   margin: 0;
   left: 91px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune191 {
@@ -2549,38 +2454,37 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune191 .span0 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune191 .span1 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a18 .abattementderevenuimposablepourchargesextraordinairesenraisondesenfantsnayantpasfaitpartiedumnageducontribuablelabattementnestpasaccordlorsquelesdeuxparentsdelenfantpartagentavecleurenfantunehabitationcommune191 .span2 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a18 .ce192 {
@@ -2591,15 +2495,13 @@ div {
   position: absolute;
   margin: 0;
   left: 1021px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 28.0px;
-  color: black;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 28.0px;
-}
-/*# sourceMappingURL=page18.css.map */
+  line-height: 28px;
+}/*# sourceMappingURL=page18.css.map */

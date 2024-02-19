@@ -8,7 +8,7 @@
   margin: 0px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -32,523 +32,483 @@ div {
 }
 
 .a09 .a9379380 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1116px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 815px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9381 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1075px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9372 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1075px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9359363 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1116px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 483px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9364 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1075px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9355 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1075px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9346 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1007px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9337 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1007px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9328 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1007px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a9319 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1007px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a93010 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 906px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92911 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 906px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92812 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 906px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92713 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 906px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92614 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 808px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92515 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 808px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92416 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 808px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92317 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 808px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92218 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 752px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92119 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 752px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a92020 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 752px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91921 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 752px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91822 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 693px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91723 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 693px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91624 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 693px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91525 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 693px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91426 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 610px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91327 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 610px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91228 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 610px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91129 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 610px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a91030 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 535px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90931 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 535px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90832 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 535px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90733 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 535px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90634 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 471px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 931px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90535 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 471px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 771px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90436 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 471px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90337 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 471px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90238 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 355px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 599px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
 }
 
 .a09 .a90139 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 355px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 439px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   z-index: 100;
 }
 
@@ -560,30 +520,29 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .totalbcddductionsrevenureporterlapage20cases2021202440 .span0 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .totalbcddductionsrevenureporterlapage20cases2021202440 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .trancheexemptearticle115no15lirmaximum1500ceplafondestdoubldanslechefdespouxoupartenairesimposablescollectivementladductionnepeutpasdpasserletotaldesrevenus41 {
@@ -594,30 +553,29 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .trancheexemptearticle115no15lirmaximum1500ceplafondestdoubldanslechefdespouxoupartenairesimposablescollectivementladductionnepeutpasdpasserletotaldesrevenus41 .span0 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .trancheexemptearticle115no15lirmaximum1500ceplafondestdoubldanslechefdespouxoupartenairesimposablescollectivementladductionnepeutpasdpasserletotaldesrevenus41 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .fraisdobtentionminimumforfaitaire25leforfaitestdoubldanslechefdespouxoupartenairesimposablescollectivement50ceforfaitestdductibledfautdefraisdobtentionenrapportaveclesdiffrentsinvestissementsdelaprsen42 {
@@ -628,30 +586,29 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .fraisdobtentionminimumforfaitaire25leforfaitestdoubldanslechefdespouxoupartenairesimposablescollectivement50ceforfaitestdductibledfautdefraisdobtentionenrapportaveclesdiffrentsinvestissementsdelaprsen42 .span0 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .fraisdobtentionminimumforfaitaire25leforfaitestdoubldanslechefdespouxoupartenairesimposablescollectivement50ceforfaitestdductibledfautdefraisdobtentionenrapportaveclesdiffrentsinvestissementsdelaprsen42 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .adduire43 {
@@ -662,16 +619,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .totalbcd44 {
@@ -682,16 +638,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .autresrevenusdecapitauxnonvisscidessusrevenusausensdelarticle971nos69lir45 {
@@ -702,30 +657,29 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .autresrevenusdecapitauxnonvisscidessusrevenusausensdelarticle971nos69lir45 .span0 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .autresrevenusdecapitauxnonvisscidessusrevenusausensdelarticle971nos69lir45 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .d46 {
@@ -736,16 +690,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .intrtsdobligationsdedptsdpargneetdautrescrancesprtsavoirscomptescourantsdptscomptesdpargnenonvisssousa47 {
@@ -756,16 +709,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .d48 {
@@ -776,16 +728,15 @@ div {
   position: absolute;
   margin: 0;
   left: 18px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenusallousparlessocitsdegestiondepatrimoinefamilialspflesorganismesdeplacementcollectifopcdedroitluxembourgeoisycomprislessocitsdinvestissementencapitalrisquesicar49 {
@@ -796,16 +747,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .c50 {
@@ -816,16 +766,15 @@ div {
   position: absolute;
   margin: 0;
   left: 18px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .produitsdevaleursmobiliresprovenantdetatsnonvisssousacidessus51 {
@@ -836,16 +785,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .b52 {
@@ -856,16 +804,15 @@ div {
   position: absolute;
   margin: 0;
   left: 18px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .produitsdevaleursmobiliresenprovenancedetatsaveclesquelsleluxembourgaconcludesconventionscontrelesdoublesimpositionsmontantbrutexemptionde5053 {
@@ -876,16 +823,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .a54 {
@@ -896,16 +842,15 @@ div {
   position: absolute;
   margin: 0;
   left: 18px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenusnonsoumislaretenuedimptlasourceluxembourgeoise55 {
@@ -916,16 +861,15 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .c56 {
@@ -936,16 +880,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenuspassiblesdelaretenuedimptlasourceluxembourgeoiseproduitsdactionsdepartsdecapitaldepartsbnficiairesoudautresparticipationsprovenantdorganismescaractrecollectifetautresproduitsmontantbrutexemptionde5057 {
@@ -956,14 +899,13 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
   z-index: 99;
 }
 
@@ -971,16 +913,16 @@ div {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .revenuspassiblesdelaretenuedimptlasourceluxembourgeoiseproduitsdactionsdepartsdecapitaldepartsbnficiairesoudautresparticipationsprovenantdorganismescaractrecollectifetautresproduitsmontantbrutexemptionde5057 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .b58 {
@@ -991,16 +933,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenussoumislaretenuedimptlasourcelibratoireluxembourgeoisesurcertainsintrtsproduitsparlpargnemobilireenvertudesarticles6et6bisdelaloimodifiedu23dcembre2005nesontpasdclarerlemontantdelaretenuedi59 {
@@ -1011,30 +952,29 @@ div {
   position: absolute;
   margin: 0;
   left: 36px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenussoumislaretenuedimptlasourcelibratoireluxembourgeoisesurcertainsintrtsproduitsparlpargnemobilireenvertudesarticles6et6bisdelaloimodifiedu23dcembre2005nesontpasdclarerlemontantdelaretenuedi59 .span0 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .revenussoumislaretenuedimptlasourcelibratoireluxembourgeoisesurcertainsintrtsproduitsparlpargnemobilireenvertudesarticles6et6bisdelaloimodifiedu23dcembre2005nesontpasdclarerlemontantdelaretenuedi59 .span1 {
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a09 .a60 {
@@ -1045,16 +985,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .lesfraisdobtentionenrelationdirecteavecuninvestissementdelaprsentecatgoriederevenussontporterendductiondesrevenusyrelatifslesdtailssontfournirsuruneannexeoumoyennantlemodle18061 {
@@ -1065,16 +1004,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .indiquerlesretenuesdimptlasourcelapage1962 {
@@ -1085,16 +1023,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14.0px;
-  color: black;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 14.0px;
+  line-height: 14px;
 }
 
 .a09 .cm63 {
@@ -1105,16 +1042,15 @@ div {
   position: absolute;
   margin: 0;
   left: 1045px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a09 .dterminationdurevenunetprovenantdecapitauxmobiliers64 {
@@ -1125,16 +1061,15 @@ div {
   position: absolute;
   margin: 0;
   left: 0px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a09 .contribuableconjointpartenaire65 {
@@ -1145,16 +1080,15 @@ div {
   position: absolute;
   margin: 0;
   left: 939px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .contribuable66 {
@@ -1165,16 +1099,15 @@ div {
   position: absolute;
   margin: 0;
   left: 800px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenusexonrs67 {
@@ -1185,16 +1118,15 @@ div {
   position: absolute;
   margin: 0;
   left: 828px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a09 .contribuableconjointpartenaire68 {
@@ -1205,16 +1137,15 @@ div {
   position: absolute;
   margin: 0;
   left: 607px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .contribuable69 {
@@ -1225,16 +1156,15 @@ div {
   position: absolute;
   margin: 0;
   left: 468px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a09 .revenusnonexonrs70 {
@@ -1245,16 +1175,15 @@ div {
   position: absolute;
   margin: 0;
   left: 473px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a09 .cm71 {
@@ -1265,47 +1194,33 @@ div {
   position: absolute;
   margin: 0;
   left: 1035px;
-  -webkit-transform: rotate(0deg);
-          transform: rotate(0deg);
-  opacity: 1.0;
+  transform: rotate(0deg);
+  opacity: 1;
   font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 28.0px;
-  color: black;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 28.0px;
+  line-height: 28px;
 }
 
 /* .anima-animate-appear prefix for appear animations */
 .anima-animate-appear {
   opacity: 0;
   display: block;
-  -webkit-animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
   animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
 }
 
 .anima-animate-disappear {
   opacity: 1;
   display: block;
-  -webkit-animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
   animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
 }
 
 .anima-animate-nodelay {
-  -webkit-animation-delay: 0;
   animation-delay: 0;
 }
-
-@-webkit-keyframes anima-reveal {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 @keyframes anima-reveal {
   0% {
     opacity: 0;
@@ -1314,7 +1229,6 @@ div {
     opacity: 1;
   }
 }
-
 .anima-component-wrapper,
 .anima-component-wrapper * {
   pointer-events: none;
@@ -1357,5 +1271,4 @@ div {
   word-wrap: break-word;
   word-break: break-all;
   word-break: break-word;
-}
-/*# sourceMappingURL=page9.css.map */
+}/*# sourceMappingURL=page9.css.map */

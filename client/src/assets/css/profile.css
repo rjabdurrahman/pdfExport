@@ -8,7 +8,7 @@
 }
 
 .profile-area {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: 385px;
   overflow: hidden;
   position: relative;
@@ -118,5 +118,4 @@
 :root {
   --black: rgba(0, 0, 0, 1);
   --mercury: rgba(223, 226, 229, 1);
-}
-/*# sourceMappingURL=profile.css.map */
+}/*# sourceMappingURL=profile.css.map */

@@ -8,7 +8,7 @@
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 a {
@@ -32,614 +32,567 @@ div {
 }
 
 .a08 .a8460 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 1001px;
   height: 42px;
   width: 162px;
   position: absolute;
   margin: 0;
   left: 329px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8451 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 972px;
   height: 20px;
   width: 20px;
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8438442 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 862px;
   height: 42px;
   width: 220px;
   position: absolute;
   margin: 0;
   left: 794px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8443 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 821px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8434 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 821px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8425 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 821px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8416 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 821px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8407 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 756px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8398 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 756px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a8389 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 756px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83710 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 756px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83611 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 665px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83512 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 665px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83413 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 665px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83314 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 665px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83215 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 603px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83116 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 603px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a83017 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 603px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82918 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 603px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82819 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 547px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82720 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 547px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82621 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 547px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82522 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 547px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82423 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 482px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82324 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 482px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82225 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 482px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82126 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 482px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a82027 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 417px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81928 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 417px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81829 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 417px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81730 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 417px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81631 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 352px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81532 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 352px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81433 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 352px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81334 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 352px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81235 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 280px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81136 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 280px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a81037 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 280px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80938 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 280px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80839 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 224px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80740 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 224px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80641 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 224px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80542 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 224px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80443 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 174px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 910px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80344 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 174px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 750px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80245 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 174px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 578px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .a80146 {
-  background-color: #dfe2e5;
+  background-color: rgb(223, 226, 229);
   top: 174px;
   height: 42px;
   width: 148px;
   position: absolute;
   margin: 0;
   left: 418px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
+  transform: rotate(0);
+  opacity: 1;
 }
 
 .a08 .labattementestapplicablelorsquelundesconjointspartenairesraliseunbnficecommercialunbnficeagricoleetforestierunbnficeprovenantdelexerciceduneprofessionlibraleouunrevenuduneoccupationsalarieetlorsquelautre47 {
@@ -650,16 +603,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: italic;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .larentepensionexistedepuisle48 {
@@ -670,16 +622,15 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .demandepourlabattementextraprofessionnelausensdelarticle129b2clirapplicableauxconjointsetpartenaires49 {
@@ -690,16 +641,15 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .p250 {
@@ -710,16 +660,15 @@ div {
   position: absolute;
   margin: 0;
   left: 1031px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a08 .abattementextraprofessionnel51 {
@@ -730,16 +679,15 @@ div {
   position: absolute;
   margin: 0;
   left: 1px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a08 .totalabcdductionsrevenureporterlapage20cases2017202052 {
@@ -750,30 +698,29 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
-  font-size: 16.0px;
-  color: black;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .totalabcdductionsrevenureporterlapage20cases2017202052 .span0 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a08 .totalabcdductionsrevenureporterlapage20cases2017202052 .span1 {
-  font-family: 'Arial', Helvetica, Arial, serif;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
 }
 
 .a08 .fraisdobtentionminimumforfaitairede300encasdedductiondesfraiseffectifslesdtailssontjoindreenannexe53 {
@@ -784,16 +731,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .adduire54 {
@@ -804,16 +750,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .totalabc55 {
@@ -824,16 +769,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .totalbc56 {
@@ -844,16 +788,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .exemptionde50maximumart115no14lirouautresexemptions57 {
@@ -864,16 +807,15 @@ div {
   position: absolute;
   margin: 0;
   left: 95px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .a58 {
@@ -884,16 +826,15 @@ div {
   position: absolute;
   margin: 0;
   left: 72px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .arrragesderentesetdautresallocationsetavantagespriodiquesmontantbrutnoncomprissousaoubcidessus59 {
@@ -904,16 +845,15 @@ div {
   position: absolute;
   margin: 0;
   left: 95px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .a60 {
@@ -924,16 +864,15 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .c61 {
@@ -944,16 +883,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .exemptionde50art115no14alir62 {
@@ -964,16 +902,15 @@ div {
   position: absolute;
   margin: 0;
   left: 95px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .a63 {
@@ -984,16 +921,15 @@ div {
   position: absolute;
   margin: 0;
   left: 72px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .rentesviagresmensuellesrsultantduncontratdeprvoyancevieillessemontantbrut64 {
@@ -1004,16 +940,15 @@ div {
   position: absolute;
   margin: 0;
   left: 95px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .a65 {
@@ -1024,16 +959,15 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .b66 {
@@ -1044,16 +978,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .totala67 {
@@ -1064,16 +997,15 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .pensionsetautresallocationsmontantbrutpayesparlesanciensemployeursouparlescaissesautonomesderetraite68 {
@@ -1084,16 +1016,15 @@ div {
   position: absolute;
   margin: 0;
   left: 70px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .a69 {
@@ -1104,16 +1035,15 @@ div {
   position: absolute;
   margin: 0;
   left: 34px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .indiquerlescotisationsobligatoireslapage16cases16011604etlesretenuesdimptlasourcesurlespensionslapage19cases1925192670 {
@@ -1124,16 +1054,15 @@ div {
   position: absolute;
   margin: 0;
   left: 1px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14.0px;
-  color: black;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 14.0px;
+  line-height: 14px;
 }
 
 .a08 .p171 {
@@ -1144,16 +1073,15 @@ div {
   position: absolute;
   margin: 0;
   left: 1031px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a08 .dterminationdurevenunetrsultantdepensionsouderentes72 {
@@ -1164,16 +1092,15 @@ div {
   position: absolute;
   margin: 0;
   left: 1px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a08 .contribuableconjointpartenaire73 {
@@ -1184,16 +1111,15 @@ div {
   position: absolute;
   margin: 0;
   left: 918px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .contribuable74 {
@@ -1204,16 +1130,15 @@ div {
   position: absolute;
   margin: 0;
   left: 779px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .revenusexonrs75 {
@@ -1224,16 +1149,15 @@ div {
   position: absolute;
   margin: 0;
   left: 807px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a08 .contribuableconjointpartenaire76 {
@@ -1244,16 +1168,15 @@ div {
   position: absolute;
   margin: 0;
   left: 586px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .contribuable77 {
@@ -1264,16 +1187,15 @@ div {
   position: absolute;
   margin: 0;
   left: 447px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16.0px;
-  color: black;
+  font-size: 16px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 16.0px;
+  line-height: 16px;
 }
 
 .a08 .revenusnonexonrs78 {
@@ -1284,16 +1206,15 @@ div {
   position: absolute;
   margin: 0;
   left: 452px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 22.0px;
-  color: black;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 22.0px;
+  line-height: 22px;
 }
 
 .a08 .p79 {
@@ -1304,15 +1225,13 @@ div {
   position: absolute;
   margin: 0;
   left: 1040px;
-  -webkit-transform: rotate(0);
-          transform: rotate(0);
-  opacity: 1.0;
-  font-family: 'Arial', Helvetica, Arial, serif;
+  transform: rotate(0);
+  opacity: 1;
+  font-family: "Arial", Helvetica, Arial, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 28.0px;
-  color: black;
+  font-size: 28px;
+  color: rgb(0, 0, 0);
   text-align: left;
-  line-height: 28.0px;
-}
-/*# sourceMappingURL=page8.css.map */
+  line-height: 28px;
+}/*# sourceMappingURL=page8.css.map */
