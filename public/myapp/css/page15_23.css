@@ -49,7 +49,7 @@
   height: 42px;
   left: 796px;
   position: absolute;
-  top: 1386px;
+  top: 1344px;
   transform: rotate(0deg);
   width: 220px;
 }
@@ -59,7 +59,7 @@
   height: 42px;
   left: 796px;
   position: absolute;
-  top: 1316px;
+  top: 1274px;
   transform: rotate(0deg);
   width: 220px;
 }
@@ -69,7 +69,7 @@
   height: 42px;
   left: 912px;
   position: absolute;
-  top: 1208px;
+  top: 1166px;
   width: 148px;
 }
 
@@ -78,7 +78,7 @@
   height: 42px;
   left: 752px;
   position: absolute;
-  top: 1208px;
+  top: 1166px;
   width: 148px;
 }
 
@@ -87,7 +87,7 @@
   height: 42px;
   left: 912px;
   position: absolute;
-  top: 1142px;
+  top: 1100px;
   width: 148px;
 }
 
@@ -96,7 +96,7 @@
   height: 42px;
   left: 752px;
   position: absolute;
-  top: 1142px;
+  top: 1100px;
   width: 148px;
 }
 
@@ -567,17 +567,17 @@
   line-height: 16px;
   position: absolute;
   text-align: left;
-  top: 1374px;
+  top: 1332px;
   white-space: nowrap;
   width: auto;
 }
 
 .p15 .contribuableconjointpartenaire {
-  top: 1278px;
+  top: 1236px;
 }
 
 .p15 .contribuable {
-  top: 1286px;
+  top: 1244px;
 }
 
 .p15 .total-des-dpenses-sp {
@@ -592,7 +592,7 @@
   line-height: 18px;
   position: absolute;
   text-align: left;
-  top: 1324px;
+  top: 1282px;
   white-space: nowrap;
   width: auto;
 }
@@ -611,13 +611,13 @@
   line-height: 16px;
   position: absolute;
   text-align: left;
-  top: 1198px;
+  top: 1156px;
   white-space: nowrap;
   width: auto;
 }
 
 .p15 .total {
-  top: 1156px;
+  top: 1114px;
 }
 
 .p15 .cotisations-verses-en-2022 {
