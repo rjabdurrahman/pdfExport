@@ -2,8 +2,8 @@ var clientsCopy = [];
 function isSaveAlive (val) {
   document.querySelector('#submitInfoBtn').disabled = !val
 }
-
-if (!/\/(2022|2021|2020|2019)\?id/.test(location.href)) localStorage.setItem('activePage', 1)
+// New Year Modify
+if (!/\/(2023|2022|2021|2020|2019)\?id/.test(location.href)) localStorage.setItem('activePage', 1)
 $('a').click(function () {
   localStorage.activePage = 1
 });
