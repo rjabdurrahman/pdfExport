@@ -113,8 +113,6 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       if (location.href.match(/2020/g)) {
         $scope.data19 = res.data.y2019;
         $scope.data20 = res.data.y2020;
-        $scope.data21 = res.data.y2021;
-        $scope.data22 = res.data.y2022;
       }
       else if (location.href.match(/2021/g)) {
         $scope.data20 = res.data.y2020;
@@ -123,6 +121,10 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
       else if (location.href.match(/2022/g)) {
         $scope.data21 = res.data.y2021;
         $scope.data22 = res.data.y2022;
+      }
+      else if (location.href.match(/2023/g)) {
+        $scope.data22 = res.data.y2022;
+        $scope.data23 = res.data.y2023;
       }
       afterDataLoaded($scope.client);
       $scope.$applyAsync();
@@ -168,7 +170,6 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
     $('left-nav a.done').removeClass('done');
     if ($scope.active) {
       $scope.client = $scope['data' + year];
-      console.log($scope.client)
       afterDataLoaded($scope.client);
       $(".form-input input:not(:disabled)").addClass("temp-disable");
       $(".form-input input:not(:disabled)").prop("disabled", true);
