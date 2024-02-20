@@ -118,9 +118,9 @@ app.run(function ($rootScope, $http, $route) {
           // New Year Modify
           2019: _.get(client, 'y2019.signaletique') ? true : false,
           2020: _.get(client, 'y2020.signaletique') ? true : false,
-          2021: _.get(client, 'y2020.signaletique') ? true : false,
-          2022: _.get(client, 'y2020.signaletique') ? true : false,
-          2023: _.get(client, 'y2020.signaletique') ? true : false
+          2021: _.get(client, 'y2021.signaletique') ? true : false,
+          2022: _.get(client, 'y2022.signaletique') ? true : false,
+          2023: _.get(client, 'y2023.signaletique') ? true : false
         }));
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
