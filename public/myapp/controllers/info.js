@@ -115,15 +115,16 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
         $scope.data20 = res.data.y2020;
       }
       else if (location.href.match(/2021/g)) {
-        $scope.data20 = res.data.y2020;
+        $scope.data20 = res.data.y2020 || res.data.y2019;
         $scope.data21 = res.data.y2021;
       }
       else if (location.href.match(/2022/g)) {
-        $scope.data21 = res.data.y2021;
+        $scope.data21 = res.data.y2021 || res.data.y2020 || res.data.y2019;
         $scope.data22 = res.data.y2022;
       }
+      // New Year Modify
       else if (location.href.match(/2023/g)) {
-        $scope.data22 = res.data.y2022;
+        $scope.data22 = res.data.y2022 || res.data.y2021 || res.data.y2020 || res.data.y2019;
         $scope.data23 = res.data.y2023;
       }
       afterDataLoaded($scope.client);
