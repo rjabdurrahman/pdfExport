@@ -58,6 +58,9 @@ router.get('/test_contacts', (req, res) => {
 })
 
 router.get('/call-data', (req, res) => {
+    console.log(req.query)
+    console.log(req.body)
+    console.log(req.params)
     console.log('Called');
     res.send('Okay')
 })
