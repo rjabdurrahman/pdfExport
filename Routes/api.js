@@ -57,4 +57,9 @@ router.get('/test_contacts', (req, res) => {
   </YealinkIPPhoneBook>`);
 })
 
+router.get('/call-data', (req, res) => {
+    console.log('Called');
+    res.send('Okay')
+})
+
 module.exports = router
