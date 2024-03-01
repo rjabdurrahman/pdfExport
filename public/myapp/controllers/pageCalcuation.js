@@ -2,7 +2,7 @@ function sel (str) {
   return '[name=' + str.replace(/,/g, '],[name=') + ']'
 }
 
-function pageCalculation () {
+function pageCalculation() {
   $(sel('3d26,3d27')).keyup(function (e) {
     if (!$(sel('3d26')).val() || !$(sel('3d27')).val()) {
       $(sel('3d28')).val('')
@@ -51,7 +51,7 @@ function pageCalculation () {
     })
 }
 
-function dependedValCal () {
+function dependedValCal() {
   valueCal(
     [
       '13d1303',
