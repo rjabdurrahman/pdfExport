@@ -29,9 +29,14 @@ app.config([
         controller: 'InfoCtrl',
         activetab: 'info'
       })
-      // New Year Modify
       .when('/myapp/2023', {
         templateUrl: 'pages/info23.html',
+        controller: 'InfoCtrl',
+        activetab: 'info'
+      })
+      // New Year Modify
+      .when('/myapp/2024', {
+        templateUrl: 'pages/info24.html',
         controller: 'InfoCtrl',
         activetab: 'info'
       })
@@ -99,7 +104,7 @@ app.run(function ($rootScope, $http, $route) {
     else $rootScope.lang = 'fr';
   }
   // New Year Modify
-  $rootScope.selectedYear = 2023;
+  $rootScope.selectedYear = 2024;
   $rootScope.loadClients = function () {
     $('.load-overlay').show();
     $rootScope.loadingClients = true
@@ -120,7 +125,8 @@ app.run(function ($rootScope, $http, $route) {
           2020: _.get(client, 'y2020.signaletique') ? true : false,
           2021: _.get(client, 'y2021.signaletique') ? true : false,
           2022: _.get(client, 'y2022.signaletique') ? true : false,
-          2023: _.get(client, 'y2023.signaletique') ? true : false
+          2023: _.get(client, 'y2023.signaletique') ? true : false,
+          2024: _.get(client, 'y2024.signaletique') ? true : false
         }));
         $rootScope.loadingClients = false
         $('.load-overlay').hide()
@@ -267,7 +273,6 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
               ...c.y2022
             }
           }
-          // New Year Modify
           else if (_.get(c, 'y2023.signaletique')) {
             return {
               _id: c._id,
@@ -275,6 +280,7 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
               ...c.y2023
             }
           }
+          // New Year Modify
           else if (_.get(c, 'y2024.signaletique')) {
             return {
               _id: c._id,

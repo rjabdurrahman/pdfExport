@@ -122,10 +122,14 @@ app.controller('InfoCtrl', function ($rootScope, $scope, $http) {
         $scope.data21 = res.data.y2021 || res.data.y2020 || res.data.y2019;
         $scope.data22 = res.data.y2022;
       }
-      // New Year Modify
       else if (location.href.match(/2023/g)) {
         $scope.data22 = res.data.y2022 || res.data.y2021 || res.data.y2020 || res.data.y2019;
         $scope.data23 = res.data.y2023;
+      }
+      // New Year Modify
+      else if (location.href.match(/2024/g)) {
+        $scope.data23 = res.data.y2023 || res.data.y2022 || res.data.y2021 || res.data.y2020 || res.data.y2019;
+        $scope.data24 = res.data.y2024;
       }
       afterDataLoaded($scope.client);
       $scope.$applyAsync();

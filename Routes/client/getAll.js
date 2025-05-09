@@ -8,7 +8,8 @@ module.exports = async ({ params }, res) => {
             2020,
             2021,
             2022,
-            2023
+            2023,
+            2024
         ].map(y => ({
             [`y${y}.signaletique.numero_de_dossier`]: 1,
             [`y${y}.signaletique.contribuable.nom`]: 1,
