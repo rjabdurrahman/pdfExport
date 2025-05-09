@@ -275,7 +275,14 @@ app.controller('RecycleCtrl', function ($scope, $http, $rootScope) {
               ...c.y2023
             }
           }
-        });
+          else if (_.get(c, 'y2024.signaletique')) {
+            return {
+              _id: c._id,
+              year: 2024,
+              ...c.y2024
+            }
+          }
+        }).filter(Boolean);
         $scope.loadingRecycledClients = false
         $scope.noRecycledClients = true
         $scope.$applyAsync()
