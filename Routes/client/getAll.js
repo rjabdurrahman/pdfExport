@@ -27,11 +27,13 @@ module.exports = async ({ params }, res) => {
         let result = await Client.find(
             {},
             {
+                // New Year Modify
                 ...selections[0],
                 ...selections[1],
                 ...selections[2],
                 ...selections[3],
-                ...selections[4]
+                ...selections[4],
+                ...selections[5],
             }
         ).lean().exec();
         return res.send(result);
