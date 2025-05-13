@@ -8,9 +8,6 @@
 
 .x15 .x1557 {
   position: absolute;
-  -ms-transform: rotate(180.00deg);
-  -webkit-transform: rotate(180.00deg);
-  transform: rotate(180.00deg);
   -ms-transform-origin: center;
   -webkit-transform-origin: center;
   transform-origin: center;
@@ -51,9 +48,6 @@
 
 .x15 .x1556 {
   position: absolute;
-  -ms-transform: rotate(180.00deg);
-  -webkit-transform: rotate(180.00deg);
-  transform: rotate(180.00deg);
   -ms-transform-origin: center;
   -webkit-transform-origin: center;
   transform-origin: center;
