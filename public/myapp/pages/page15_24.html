@@ -1,505 +1,828 @@
 <link rel="stylesheet" href="/myapp/pages/x15.css" />
 <div id="page15" class="x15">
-  <div class="x1557"></div>
-  <div class="x1556"></div>
-  <div class="x1555"></div>
-  <div class="x1554"></div>
-  <div class="x1553"></div>
-  <div class="x1552"></div>
-  <div class="x1551"></div>
-  <div class="x1550"></div>
-  <div class="x1549"></div>
-  <div class="x1548"></div>
-  <div class="x1547"></div>
-  <div class="x1546"></div>
-  <div class="x1545"></div>
-  <div class="x1544"></div>
-  <div class="x1543"></div>
-  <div class="x1542"></div>
-  <div class="x1541"></div>
-  <div class="x1540"></div>
-  <div class="x1539"></div>
-  <div class="x1538"></div>
-  <div class="x1537"></div>
-  <div class="x1536"></div>
-  <div class="x1535"></div>
-  <div class="x1534"></div>
-  <div class="x1533"></div>
-  <div class="x1532"></div>
-  <div class="x1531"></div>
-  <div class="x1530"></div>
-  <div class="x15281529"></div>
-  <div class="x1529"></div>
-  <div class="x1528"></div>
-  <div class="x1527"></div>
-  <div class="x1526"></div>
-  <div class="x1525"></div>
-  <div class="x1524"></div>
-  <div class="x1523"></div>
-  <div class="x1522"></div>
-  <div class="x1521"></div>
-  <div class="x1520"></div>
-  <div class="x1519"></div>
-  <div class="x1518"></div>
-  <div class="x1513514"></div>
-  <div class="x1514"></div>
-  <div class="x1513"></div>
-  <div class="x1512"></div>
-  <div class="x1511"></div>
-  <div class="x1510"></div>
-  <div class="x1509"></div>
-  <div class="x1508"></div>
-  <div class="x1507"></div>
-  <div class="x1506"></div>
-  <div class="x1505"></div>
-  <div class="x1504"></div>
-  <div class="x1503"></div>
-  <div class="x15011502"></div>
-  <div class="x1502"></div>
-  <div class="x1501"></div>
-  <div
-    class="siLeMontantDesDepensesSpecialesCase1556EstInferieurAuMinimumForfaitaireCeluiCisySubstitueLeMinimumForfaitaireSeleveA480ParAnCeMontantEstDoubleDansLeChefdesConjointsEtDesPartenairesImposablesCollectivementEtP"
-  >
-    Si le montant des dépenses spéciales (case 1556) est inférieur au minimum
-    forfaitaire, celui-ci<br />s'y substitue. Le minimum forfaitaire s'élève à
-    480 € par an; ce montant est doublé dans le chef<br />des conjoints et des
-    partenaires imposables collectivement et percevant chacun des revenus<br />d'une
-    occupation salariée.
+  <input
+    name="15d1553"
+    type="text"
+    value="{{client.depenses_speciales15.total_depenses_speciales}}"
+    class="num x1556"
+    readonly
+  />
+  <input
+    name="15d1554"
+    type="text"
+    value="{{client.depenses_speciales15.total_depenses_speciales_1}}"
+    class="num x1557"
+  />
+  <div class="page15_p3">
+    <input
+      name="15d1552"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.plafond_672_1344}}"
+      class="num x1555"
+    />
+    <input
+      name="15d1551"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.plafond_672_1344}}"
+      class="num x1554"
+    />
+    <input
+      name="15d1550"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees_total}}"
+      class="num x1553"
+      readonly
+    />
+    <input
+      name="15d1549"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees_total}}"
+      class="num x1552"
+      readonly
+    />
+    <input
+      name="15d1548"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees4}}"
+      class="num x1551"
+      onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')"
+    />
+    <input
+      name="15d1547"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees4}}"
+      class="num x1550"
+      onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')"
+    />
+    <input
+      name="15d1546"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['3'].debut_contrat}}"
+      class="date t_center x1549"
+    />
+    <input
+      name="15d1545"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['3'].souscripteur}}"
+      maxlength="13"
+      class="numo cell-in15 x1548"
+    />
+    <input
+      name="15d1544"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['3'].caisse}}"
+      class="x1547"
+    />
+    <input
+      name="15d1543"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees3}}"
+      class="num x1546"
+      onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')"
+    />
+    <input
+      name="15d1542"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees3}}"
+      class="num x1545"
+      onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')"
+    />
+    <input
+      name="15d1541"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['2'].debut_contrat}}"
+      class="date t_center x1544"
+    />
+    <input
+      name="15d1540"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['2'].souscripteur}}"
+      maxlength="13"
+      class="numo cell-in15 x1543"
+    />
+    <input
+      name="15d1539"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['2'].caisse}}"
+      class="x1542"
+    />
+    <input
+      name="15d1538"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees2}}"
+      class="num x1541"
+      onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')"
+    />
+    <input
+      name="15d1537"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees2}}"
+      class="num x1540"
+      onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')"
+    />
+    <input
+      name="15d1536"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['1'].debut_contrat}}"
+      class="date t_center x1539"
+    />
+    <input
+      name="15d1535"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['1'].souscripteur}}"
+      maxlength="13"
+      class="numo cell-in15 x1538"
+    />
+    <input
+      name="15d1534"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['1'].caisse}}"
+      class="x1537"
+    />
+    <input
+      name="15d1533"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.conjoint_partenaire.cotisations_versees1}}"
+      class="num x1536"
+      onkeyup="valueCal(['15d1533', '15d1538', '15d1543', '15d1548'], [], '15d1550')"
+    />
+    <input
+      name="15d1532"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t2.contribuable.cotisations_versees1}}"
+      class="num x1535"
+      onkeyup="valueCal(['15d1532', '15d1537', '15d1542', '15d1547'], [], '15d1549')"
+    />
+    <input
+      name="15d1531"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['0'].debut_contrat}}"
+      class="date t_center x1534"
+    />
+    <input
+      name="15d1530"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['0'].souscripteur}}"
+      maxlength="13"
+      class="numo cell-in15 x1533"
+    />
+    <input
+      name="15d1529"
+      type="text"
+      value="{{client.depenses_speciales15.epargne_logement_t1['0'].caisse}}"
+      class="x1532"
+    />
   </div>
-  <div class="contribuableconjointpartenaireac4fb7b8">
-    Contribuable<br />conjoint/partenaire
+  <div>
+    <input
+      name="15d1527"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.plafond_3200}}"
+      class="num x1531"
+    />
+    <input
+      name="15d1526"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200}}"
+      class="num x1530"
+    />
+    <input
+      name="15d_28_29"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.total}}"
+      class="num t_center x15281529"
+      readonly
+    />
+    <input
+      name="15d22_27"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_total}}"
+      class="x1529 num"
+      readonly
+    />
+    <input
+      name="15d21_26"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.primes_payees_total}}"
+      class="x1528 num"
+      readonly
+    />
+    <input
+      name="15d27"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_2}}"
+      class="num x1527"
+      onkeyup="valueCal(['15d22', '15d27'], [], '15d22_27');valueCal(['15d21_26', '15d22_27'], [], '15d_28_29')"
+    />
+    <input
+      name="15d26"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.primes_payees_2}}"
+      class="num x1526"
+      onkeyup="valueCal(['15d21', '15d26'], [], '15d21_26');valueCal(['15d21_26', '15d22_27'], [], '15d_28_29')"
+    />
+    <input
+      name="15d25"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t1['1'].fin_contrat}}"
+      class="date t_center x1525"
+    />
+    <input
+      name="15d24"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t1['1'].debut_contrat}}"
+      class="date t_center x1524"
+    />
+    <input
+      name="15d23"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t1['1'].entreprise}}"
+      class="x1523"
+    />
+    <input
+      name="15d22"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.conjoint_partenaire.primes_payees_1}}"
+      class="num x1522"
+      onkeyup="valueCal(['15d22', '15d27'], [], '15d22_27');valueCal(['15d21_26', '15d22_27'], [], '15d_28_29')"
+    />
+    <input
+      name="15d21"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t2.contribuable.primes_payees_1}}"
+      class="num x1521"
+      onkeyup="valueCal(['15d21', '15d26'], [], '15d21_26');valueCal(['15d21_26', '15d22_27'], [], '15d_28_29')"
+    />
+    <input
+      name="15d20"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t1['0'].fin_contrat}}"
+      class="date t_center x1520"
+    />
+    <input
+      name="15d19"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t1['0'].debut_contrat}}"
+      class="date t_center x1519"
+    />
+    <input
+      name="15d18"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_111ter_t1['0'].entreprise}}"
+      class="x1518"
+    />
+    <input
+      name="15d1528"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.plafond_3200_total}}"
+      class="num t_center x1513514"
+      readonly
+    />
+    <input
+      name="15d1525"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_total}}"
+      class="x1514 num"
+      readonly
+    />
+    <input
+      name="15d1524"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_total}}"
+      class="x1513 num"
+      readonly
+    />
+    <input
+      name="15d1513"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_2}}"
+      class="num x1512"
+      onkeyup="valueCal(['15d1508', '15d1513'], [], '15d1525');valueCal(['15d1524', '15d1525'], [], '15d1528')"
+    />
+    <input
+      name="15d1512"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_2}}"
+      class="num x1511"
+      onkeyup="valueCal(['15d1507', '15d1512'], [], '15d1524');valueCal(['15d1524', '15d1525'], [], '15d1528')"
+    />
+    <input
+      name="15d1511"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].fin_contrat}}"
+      class="date t_center x1510"
+    />
+    <input
+      name="15d1510"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].debut_contrat}}"
+      class="date t_center x1509"
+    />
+    <input
+      name="15d1509"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['1'].entreprise}}"
+      class="x1508"
+    />
+    <input
+      name="15d1508"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.conjoint_partenaire.primes_versees_1}}"
+      class="num x1507"
+      onkeyup="valueCal(['15d1508', '15d1513'], [], '15d1525');valueCal(['15d1524', '15d1525'], [], '15d1528')"
+    />
+    <input
+      name="15d1507"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t2.contribuable.primes_versees_1}}"
+      class="num x1506"
+      onkeyup="valueCal(['15d1507', '15d1512'], [], '15d1524');valueCal(['15d1524', '15d1525'], [], '15d1528')"
+    />
+    <input
+      name="15d1506"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].fin_contrat}}"
+      class="date t_center x1505"
+    />
+    <input
+      name="15d1505"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].debut_contrat}}"
+      class="date t_center x1504"
+    />
+    <input
+      name="15d1504"
+      type="text"
+      value="{{client.depenses_speciales15.prevoyance_vieillesse_t1['0'].entreprise}}"
+      class="x1503"
+    />
   </div>
-  <div class="contribuable401a7b47">Contribuable</div>
-  <div
-    class="totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555"
-  >
-    <span
-      class="totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555-0"
-      >Total des dépenses spéciales couvertes par le minimum<br />forfaitaire </span
-    ><span
-      class="totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555-66"
-      >(cases 1301 à 1555)</span
+  <div class="page15_p1">
+    <input
+      name="15d1503"
+      type="text"
+      value="{{client.depenses_speciales15.cotisations_payees.total}}"
+      class="num t_center x15011502"
+      readonly
+    />
+    <input
+      name="15d1502"
+      type="text"
+      value="{{client.depenses_speciales15.cotisations_payees.conjoint_partenaire.cotisations}}"
+      class="num x1502"
+      onkeyup="valueCal(['15d1501', '15d1502'], [], '15d1503')"
+    />
+    <input
+      name="15d1501"
+      type="text"
+      value="{{client.depenses_speciales15.cotisations_payees.contribuable.cotisations}}"
+      class="num x1501"
+      onkeyup="valueCal(['15d1501', '15d1502'], [], '15d1503')"
+    />
+    <div
+      class="siLeMontantDesDepensesSpecialesCase1556EstInferieurAuMinimumForfaitaireCeluiCisySubstitueLeMinimumForfaitaireSeleveA480ParAnCeMontantEstDoubleDansLeChefdesConjointsEtDesPartenairesImposablesCollectivementEtP"
     >
+      Si le montant des dépenses spéciales (case 1556) est inférieur au minimum
+      forfaitaire, celui-ci<br />s'y substitue. Le minimum forfaitaire s'élève à
+      480 € par an; ce montant est doublé dans le chef<br />des conjoints et des
+      partenaires imposables collectivement et percevant chacun des revenus<br />d'une
+      occupation salariée.
+    </div>
+    <div class="contribuableconjointpartenaireac4fb7b8">
+      Contribuable<br />conjoint/partenaire
+    </div>
+    <div class="contribuable401a7b47">Contribuable</div>
+    <div
+      class="totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555"
+    >
+      <span
+        class="totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555-0"
+        >Total des dépenses spéciales couvertes par le minimum<br />forfaitaire </span
+      ><span
+        class="totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555-66"
+        >(cases 1301 à 1555)</span
+      >
+    </div>
+    <div
+      class="plafondDe6721344SiLageDuSouscripteurEstDe18A40AnsAccomplisAuDebutDelanneeDimpositionMajoreLeCasEcheantPourLeConjointPourLePartenaireEtPourChaqueenfantAyantFaitPartieDuMenageLeMontantLeMoinsEleveTota"
+    >
+      Plafond de 672 € (1 344 € si l'âge du souscripteur est de 18 à 40 ans
+      accomplis au début de<br />l'année d'imposition), majoré le cas échéant
+      pour le conjoint, pour le partenaire et pour chaque<br />enfant ayant fait
+      partie du ménage. Le montant le moins élevé, total des cases 1552 et 1553
+      ou<br />les plafonds, sont à inscrire dans les cases 1554 et 1555
+    </div>
+    <div class="total58c85842">Total</div>
+    <div class="cotisationsVerseesEn2023">Cotisations versées en 2023</div>
+    <div class="debutDuContrateb4407d2">Début du contrat</div>
+    <div class="jourcfd5bb18">jour</div>
+    <div class="mois2d9c760c">mois</div>
+    <div class="annee8a583f64">année</div>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line368d45c6b3"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line35f3482bba"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line34f276a23b"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line33aeb1c5cc"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line3223cfe578"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line312c45edf8"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line30de705940"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line29a61b0b0a"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line285d9b5bad"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line2715cc9c01"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line260b98368e"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line253f5eec11"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <div class="jour3b5f79ec">jour</div>
+    <div class="moisc18fd4c9">mois</div>
+    <div class="annee5cc9574a">année</div>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line24"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line23"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line22"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line21"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line20"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line19"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line18"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line17"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line16"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line15"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line14"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line13"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <div class="jour853ae5b4">jour</div>
+    <div class="mois41f8dfa7">mois</div>
+    <div class="annee63b75145">année</div>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line12"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line11"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line10"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line9"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line8"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line7"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line6"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line5"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line4"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line3"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line2"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line1"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <div class="nDidentificationDusouscripteur">
+      N° d'identification du<br />souscripteur
+    </div>
+    <div class="caisseDepargneLogement">Caisse d'épargne-logement</div>
+    <div class="contribuableconjointpartenaireb75ab8d6">
+      Contribuable<br />conjoint/partenaire
+    </div>
+    <div class="contribuable4072c91f">Contribuable</div>
+    <div
+      class="cotisationsVerseesADesCaissesDepargneLogementAgreeesDansUnEtatMembreDelunionEuropeenneEnVertuDunContratDepargneLogement"
+    >
+      Cotisations versées à des caisses d'épargne-logement agréées dans un Etat
+      membre de<br />l'Union européenne en vertu d'un contrat d'épargne-logement
+    </div>
+    <div class="epargneLogement">Epargne-logement</div>
+    <div class="e">E.</div>
+    <div class="plafondDe3200PourLeContribuableEt3200PourLeConjointPartenaire">
+      Plafond de 3 200 € pour le contribuable et 3 200 € pour le conjoint /
+      partenaire
+    </div>
+    <div class="total13dfcec9">Total</div>
+    <div class="verseesEn2022">Versées en 2022</div>
+    <div class="finDuContratf3faa927">Fin du contrat</div>
+    <div class="debutDuContratd804c594">Début du contrat</div>
+    <div class="contribuableconjointpartenaireb5ee23d2">
+      Contribuable<br />conjoint/partenaire
+    </div>
+    <div class="contribuablee6236831">Contribuable</div>
+    <div class="versementsVisesParLarticle111bisLir">
+      Versements visés par l'article 111bis L.I.R.
+    </div>
+    <div class="prevoyanceVieillesse">Prévoyance-vieillesse</div>
+    <div class="d">D.</div>
+    <div
+      class="cotisationsPayeesATitrePersonnelEnRaisonDuneAssuranceContinueeVolontaireOufacultativeEtDunAchatDePeriodesEnMatiereDassuranceMaladieEtDassurancepensionAupresDunRegimeDeSecuriteSociale"
+    >
+      Cotisations payées à titre personnel en raison d'une assurance continuée,
+      volontaire ou<br />facultative, et d'un achat de périodes en matière
+      d'assurance maladie et d'assurance<br />pension auprès d'un régime de
+      sécurité sociale
+    </div>
+    <div class="contribuableconjointpartenaire">
+      Contribuable<br />conjoint/partenaire
+    </div>
+    <div class="contribuable">Contribuable</div>
+    <div class="cotisationsPayeesATitrePersonnel">
+      Cotisations payées à titre personnel
+    </div>
+    <div class="c">C.</div>
+    <div class="depensesSpecialesDeductiblesCouvertesParLeMinimumForfaitaire">
+      Dépenses spéciales déductibles couvertes par le minimum forfaitaire
+    </div>
+    <div class="x1">1.</div>
+    <div class="ds">DS</div>
+    <div class="total">Total</div>
+    <div class="payeesEn2022">Payées en 2022</div>
+    <div class="finDuContrat">Fin du contrat</div>
+    <div class="debutDuContrat">Début du contrat</div>
+    <div class="paiementsVisesParLarticle111terLir">
+      Paiements visés par l'article 111ter L.I.R.
+    </div>
+    <div class="jour">jour</div>
+    <div class="mois">mois</div>
+    <div class="annee">année</div>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line36"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line35"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line34"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line33"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line32"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line31"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line30"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line29"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line28"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line27"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line26"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
+    <svg
+      preserveAspectRatio="none"
+      viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
+      class="line25"
+    >
+      <path d="M 0 0 L 0.089996337890625 22" />
+    </svg>
   </div>
-  <div
-    class="plafondDe6721344SiLageDuSouscripteurEstDe18A40AnsAccomplisAuDebutDelanneeDimpositionMajoreLeCasEcheantPourLeConjointPourLePartenaireEtPourChaqueenfantAyantFaitPartieDuMenageLeMontantLeMoinsEleveTota"
-  >
-    Plafond de 672 € (1 344 € si l'âge du souscripteur est de 18 à 40 ans
-    accomplis au début de<br />l'année d'imposition), majoré le cas échéant pour
-    le conjoint, pour le partenaire et pour chaque<br />enfant ayant fait partie
-    du ménage. Le montant le moins élevé, total des cases 1552 et 1553 ou<br />les
-    plafonds, sont à inscrire dans les cases 1554 et 1555
-  </div>
-  <div class="total58c85842">Total</div>
-  <div class="cotisationsVerseesEn2023">Cotisations versées en 2023</div>
-  <div class="debutDuContrateb4407d2">Début du contrat</div>
-  <div class="jourcfd5bb18">jour</div>
-  <div class="mois2d9c760c">mois</div>
-  <div class="annee8a583f64">année</div>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line368d45c6b3"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line35f3482bba"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line34f276a23b"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line33aeb1c5cc"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line3223cfe578"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line312c45edf8"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line30de705940"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line29a61b0b0a"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line285d9b5bad"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line2715cc9c01"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line260b98368e"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line253f5eec11"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <div class="jour3b5f79ec">jour</div>
-  <div class="moisc18fd4c9">mois</div>
-  <div class="annee5cc9574a">année</div>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line24"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line23"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line22"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line21"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line20"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line19"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line18"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line17"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line16"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line15"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line14"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line13"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <div class="jour853ae5b4">jour</div>
-  <div class="mois41f8dfa7">mois</div>
-  <div class="annee63b75145">année</div>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line12"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line11"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line10"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line9"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line8"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line7"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line6"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line5"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line4"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line3"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line2"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line1"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <div class="nDidentificationDusouscripteur">
-    N° d'identification du<br />souscripteur
-  </div>
-  <div class="caisseDepargneLogement">Caisse d'épargne-logement</div>
-  <div class="contribuableconjointpartenaireb75ab8d6">
-    Contribuable<br />conjoint/partenaire
-  </div>
-  <div class="contribuable4072c91f">Contribuable</div>
-  <div
-    class="cotisationsVerseesADesCaissesDepargneLogementAgreeesDansUnEtatMembreDelunionEuropeenneEnVertuDunContratDepargneLogement"
-  >
-    Cotisations versées à des caisses d'épargne-logement agréées dans un Etat
-    membre de<br />l'Union européenne en vertu d'un contrat d'épargne-logement
-  </div>
-  <div class="epargneLogement">Epargne-logement</div>
-  <div class="e">E.</div>
-  <div class="plafondDe3200PourLeContribuableEt3200PourLeConjointPartenaire">
-    Plafond de 3 200 € pour le contribuable et 3 200 € pour le conjoint /
-    partenaire
-  </div>
-  <div class="total13dfcec9">Total</div>
-  <div class="verseesEn2022">Versées en 2022</div>
-  <div class="finDuContratf3faa927">Fin du contrat</div>
-  <div class="debutDuContratd804c594">Début du contrat</div>
-  <div class="contribuableconjointpartenaireb5ee23d2">
-    Contribuable<br />conjoint/partenaire
-  </div>
-  <div class="contribuablee6236831">Contribuable</div>
-  <div class="versementsVisesParLarticle111bisLir">
-    Versements visés par l'article 111bis L.I.R.
-  </div>
-  <div class="prevoyanceVieillesse">Prévoyance-vieillesse</div>
-  <div class="d">D.</div>
-  <div
-    class="cotisationsPayeesATitrePersonnelEnRaisonDuneAssuranceContinueeVolontaireOufacultativeEtDunAchatDePeriodesEnMatiereDassuranceMaladieEtDassurancepensionAupresDunRegimeDeSecuriteSociale"
-  >
-    Cotisations payées à titre personnel en raison d'une assurance continuée,
-    volontaire ou<br />facultative, et d'un achat de périodes en matière
-    d'assurance maladie et d'assurance<br />pension auprès d'un régime de
-    sécurité sociale
-  </div>
-  <div class="contribuableconjointpartenaire">
-    Contribuable<br />conjoint/partenaire
-  </div>
-  <div class="contribuable">Contribuable</div>
-  <div class="cotisationsPayeesATitrePersonnel">
-    Cotisations payées à titre personnel
-  </div>
-  <div class="c">C.</div>
-  <div class="depensesSpecialesDeductiblesCouvertesParLeMinimumForfaitaire">
-    Dépenses spéciales déductibles couvertes par le minimum forfaitaire
-  </div>
-  <div class="x1">1.</div>
-  <div class="ds">DS</div>
-  <div class="total">Total</div>
-  <div class="payeesEn2022">Payées en 2022</div>
-  <div class="finDuContrat">Fin du contrat</div>
-  <div class="debutDuContrat">Début du contrat</div>
-  <div class="paiementsVisesParLarticle111terLir">
-    Paiements visés par l'article 111ter L.I.R.
-  </div>
-  <div class="jour">jour</div>
-  <div class="mois">mois</div>
-  <div class="annee">année</div>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line36"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line35"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line34"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line33"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line32"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line31"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line30"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line29"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line28"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line27"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line26"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
-  <svg
-    preserveAspectRatio="none"
-    viewBox="-0.5 -0.0020751953125 1.089996337890625 22.004150390625"
-    class="line25"
-  >
-    <path d="M 0 0 L 0.089996337890625 22" />
-  </svg>
 </div>
