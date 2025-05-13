@@ -2,12 +2,11 @@
   display: block;
   position: relative;
   width: 1060.00px;
-
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .x15 .x1557 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
   transform: rotate(180.00deg);
@@ -51,7 +50,6 @@
 
 .x15 .x1556 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(180.00deg);
   -webkit-transform: rotate(180.00deg);
   transform: rotate(180.00deg);
@@ -95,7 +93,6 @@
 
 .x15 .x1555 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -139,7 +136,6 @@
 
 .x15 .x1554 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -183,7 +179,6 @@
 
 .x15 .x1553 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -227,7 +222,6 @@
 
 .x15 .x1552 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -271,7 +265,6 @@
 
 .x15 .x1551 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -315,7 +308,6 @@
 
 .x15 .x1550 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -359,7 +351,6 @@
 
 .x15 .x1549 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -403,7 +394,6 @@
 
 .x15 .x1548 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -447,7 +437,6 @@
 
 .x15 .x1547 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -491,7 +480,6 @@
 
 .x15 .x1546 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -535,7 +523,6 @@
 
 .x15 .x1545 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -579,7 +566,6 @@
 
 .x15 .x1544 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -623,7 +609,6 @@
 
 .x15 .x1543 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -667,7 +652,6 @@
 
 .x15 .x1542 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -711,7 +695,6 @@
 
 .x15 .x1541 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -755,7 +738,6 @@
 
 .x15 .x1540 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -799,7 +781,6 @@
 
 .x15 .x1539 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -843,7 +824,6 @@
 
 .x15 .x1538 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -887,7 +867,6 @@
 
 .x15 .x1537 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -931,7 +910,6 @@
 
 .x15 .x1536 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -975,7 +953,6 @@
 
 .x15 .x1535 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1019,7 +996,6 @@
 
 .x15 .x1534 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1063,7 +1039,6 @@
 
 .x15 .x1533 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1107,7 +1082,6 @@
 
 .x15 .x1532 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1151,7 +1125,6 @@
 
 .x15 .x1531 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1195,7 +1168,6 @@
 
 .x15 .x1530 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1239,7 +1211,6 @@
 
 .x15 .x15281529 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1283,7 +1254,6 @@
 
 .x15 .x1529 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1327,7 +1297,6 @@
 
 .x15 .x1528 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1371,7 +1340,6 @@
 
 .x15 .x1527 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1415,7 +1383,6 @@
 
 .x15 .x1526 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1459,7 +1426,6 @@
 
 .x15 .x1525 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1503,7 +1469,6 @@
 
 .x15 .x1524 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1547,7 +1512,6 @@
 
 .x15 .x1523 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1591,7 +1555,6 @@
 
 .x15 .x1522 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1635,7 +1598,6 @@
 
 .x15 .x1521 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1679,7 +1641,6 @@
 
 .x15 .x1520 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1723,7 +1684,6 @@
 
 .x15 .x1519 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1767,7 +1727,6 @@
 
 .x15 .x1518 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1811,7 +1770,6 @@
 
 .x15 .x1513514 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1855,7 +1813,6 @@
 
 .x15 .x1514 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1899,7 +1856,6 @@
 
 .x15 .x1513 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1943,7 +1899,6 @@
 
 .x15 .x1512 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1987,7 +1942,6 @@
 
 .x15 .x1511 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2031,7 +1985,6 @@
 
 .x15 .x1510 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2075,7 +2028,6 @@
 
 .x15 .x1509 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2119,7 +2071,6 @@
 
 .x15 .x1508 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2163,7 +2114,6 @@
 
 .x15 .x1507 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2207,7 +2157,6 @@
 
 .x15 .x1506 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2251,7 +2200,6 @@
 
 .x15 .x1505 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2295,7 +2243,6 @@
 
 .x15 .x1504 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2339,7 +2286,6 @@
 
 .x15 .x1503 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2383,7 +2329,6 @@
 
 .x15 .x15011502 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -2427,7 +2372,6 @@
 
 .x15 .x1502 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -2471,7 +2415,6 @@
 
 .x15 .x1501 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -2515,7 +2458,6 @@
 
 .x15 .siLeMontantDesDepensesSpecialesCase1556EstInferieurAuMinimumForfaitaireCeluiCisySubstitueLeMinimumForfaitaireSeleveA480ParAnCeMontantEstDoubleDansLeChefdesConjointsEtDesPartenairesImposablesCollectivementEtP {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2545,7 +2487,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 674.00px;
   height: 71.00px;
   left: 34.00px;
@@ -2555,7 +2497,6 @@
 
 .x15 .contribuableconjointpartenaireac4fb7b8 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2585,7 +2526,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 132.00px;
   height: 35.00px;
   left: 920.00px;
@@ -2595,7 +2536,6 @@
 
 .x15 .contribuable401a7b47 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2625,7 +2565,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 91.00px;
   height: 17.00px;
   left: 781.00px;
@@ -2635,7 +2575,6 @@
 
 .x15 .totalDesDepensesSpecialesCouvertesParLeMinimumforfaitaireCases1301A1555 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2665,7 +2604,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 586.00px;
   height: 51.00px;
   left: 34.00px;
@@ -2695,7 +2634,6 @@
 
 .x15 .plafondDe6721344SiLageDuSouscripteurEstDe18A40AnsAccomplisAuDebutDelanneeDimpositionMajoreLeCasEcheantPourLeConjointPourLePartenaireEtPourChaqueenfantAyantFaitPartieDuMenageLeMontantLeMoinsEleveTota {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2725,7 +2663,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 674.00px;
   height: 71.00px;
   left: 34.00px;
@@ -2735,7 +2673,6 @@
 
 .x15 .total58c85842 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2765,7 +2702,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 37.00px;
   height: 17.00px;
   left: 691.00px;
@@ -2775,7 +2712,6 @@
 
 .x15 .cotisationsVerseesEn2023 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2805,7 +2741,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 202.00px;
   height: 17.00px;
   left: 805.00px;
@@ -2815,7 +2751,6 @@
 
 .x15 .debutDuContrateb4407d2 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2845,7 +2780,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 118.00px;
   height: 17.00px;
   left: 569.00px;
@@ -2855,7 +2790,6 @@
 
 .x15 .jourcfd5bb18 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2885,7 +2819,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 17.00px;
   height: 11.00px;
   left: 427.24px;
@@ -2895,7 +2829,6 @@
 
 .x15 .mois2d9c760c {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2925,7 +2858,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 21.00px;
   height: 11.00px;
   left: 394.48px;
@@ -2935,7 +2868,6 @@
 
 .x15 .annee8a583f64 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2965,7 +2897,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 28.00px;
   height: 11.00px;
   left: 345.00px;
@@ -2975,7 +2907,6 @@
 
 .x15 .line368d45c6b3 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3005,7 +2936,6 @@
 
 .x15 .line35f3482bba {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3035,7 +2965,6 @@
 
 .x15 .line34f276a23b {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3065,7 +2994,6 @@
 
 .x15 .line33aeb1c5cc {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3095,7 +3023,6 @@
 
 .x15 .line3223cfe578 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3125,7 +3052,6 @@
 
 .x15 .line312c45edf8 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3155,7 +3081,6 @@
 
 .x15 .line30de705940 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3185,7 +3110,6 @@
 
 .x15 .line29a61b0b0a {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3215,7 +3139,6 @@
 
 .x15 .line285d9b5bad {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3245,7 +3168,6 @@
 
 .x15 .line2715cc9c01 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3275,7 +3197,6 @@
 
 .x15 .line260b98368e {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3305,7 +3226,6 @@
 
 .x15 .line253f5eec11 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3335,7 +3255,6 @@
 
 .x15 .jour3b5f79ec {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3365,7 +3284,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 17.00px;
   height: 11.00px;
   left: 427.24px;
@@ -3375,7 +3294,6 @@
 
 .x15 .moisc18fd4c9 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3405,7 +3323,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 21.00px;
   height: 11.00px;
   left: 394.48px;
@@ -3415,7 +3333,6 @@
 
 .x15 .annee5cc9574a {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3445,7 +3362,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 28.00px;
   height: 11.00px;
   left: 345.00px;
@@ -3455,7 +3372,6 @@
 
 .x15 .line24 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3485,7 +3401,6 @@
 
 .x15 .line23 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3515,7 +3430,6 @@
 
 .x15 .line22 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3545,7 +3459,6 @@
 
 .x15 .line21 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3575,7 +3488,6 @@
 
 .x15 .line20 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3605,7 +3517,6 @@
 
 .x15 .line19 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3635,7 +3546,6 @@
 
 .x15 .line18 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3665,7 +3575,6 @@
 
 .x15 .line17 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3695,7 +3604,6 @@
 
 .x15 .line16 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3725,7 +3633,6 @@
 
 .x15 .line15 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3755,7 +3662,6 @@
 
 .x15 .line14 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3785,7 +3691,6 @@
 
 .x15 .line13 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3815,7 +3720,6 @@
 
 .x15 .jour853ae5b4 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3845,7 +3749,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 17.00px;
   height: 11.00px;
   left: 427.24px;
@@ -3855,7 +3759,6 @@
 
 .x15 .mois41f8dfa7 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3885,7 +3788,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 21.00px;
   height: 11.00px;
   left: 394.48px;
@@ -3895,7 +3798,6 @@
 
 .x15 .annee63b75145 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3925,7 +3827,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 28.00px;
   height: 11.00px;
   left: 345.00px;
@@ -3935,7 +3837,6 @@
 
 .x15 .line12 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3965,7 +3866,6 @@
 
 .x15 .line11 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -3995,7 +3895,6 @@
 
 .x15 .line10 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4025,7 +3924,6 @@
 
 .x15 .line9 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4055,7 +3953,6 @@
 
 .x15 .line8 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4085,7 +3982,6 @@
 
 .x15 .line7 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4115,7 +4011,6 @@
 
 .x15 .line6 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4145,7 +4040,6 @@
 
 .x15 .line5 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4175,7 +4069,6 @@
 
 .x15 .line4 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4205,7 +4098,6 @@
 
 .x15 .line3 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4235,7 +4127,6 @@
 
 .x15 .line2 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4265,7 +4156,6 @@
 
 .x15 .line1 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4295,7 +4185,6 @@
 
 .x15 .nDidentificationDusouscripteur {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4325,7 +4214,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 146.00px;
   height: 35.00px;
   left: 355.00px;
@@ -4335,7 +4224,6 @@
 
 .x15 .caisseDepargneLogement {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4365,7 +4253,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 195.00px;
   height: 17.00px;
   left: 84.00px;
@@ -4375,7 +4263,6 @@
 
 .x15 .contribuableconjointpartenaireb75ab8d6 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4405,7 +4292,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 132.00px;
   height: 35.00px;
   left: 920.00px;
@@ -4415,7 +4302,6 @@
 
 .x15 .contribuable4072c91f {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4445,7 +4331,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 91.00px;
   height: 17.00px;
   left: 781.00px;
@@ -4455,7 +4341,6 @@
 
 .x15 .cotisationsVerseesADesCaissesDepargneLogementAgreeesDansUnEtatMembreDelunionEuropeenneEnVertuDunContratDepargneLogement {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4485,7 +4370,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 629.00px;
   height: 35.00px;
   left: 76.00px;
@@ -4495,7 +4380,6 @@
 
 .x15 .epargneLogement {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4525,7 +4409,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 193.00px;
   height: 25.00px;
   left: 76.00px;
@@ -4535,7 +4419,6 @@
 
 .x15 .e {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4565,7 +4448,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 21.00px;
   height: 25.00px;
   left: 34.00px;
@@ -4575,7 +4458,6 @@
 
 .x15 .plafondDe3200PourLeContribuableEt3200PourLeConjointPartenaire {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4605,7 +4487,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 553.00px;
   height: 17.00px;
   left: 76.00px;
@@ -4615,7 +4497,6 @@
 
 .x15 .total13dfcec9 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4645,7 +4526,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 37.00px;
   height: 17.00px;
   left: 691.00px;
@@ -4655,7 +4536,6 @@
 
 .x15 .verseesEn2022 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4685,7 +4565,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 120.00px;
   height: 17.00px;
   left: 846.00px;
@@ -4695,7 +4575,6 @@
 
 .x15 .finDuContratf3faa927 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4725,7 +4604,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 98.00px;
   height: 17.00px;
   left: 579.00px;
@@ -4735,7 +4614,6 @@
 
 .x15 .debutDuContratd804c594 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4765,7 +4643,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 118.00px;
   height: 17.00px;
   left: 369.00px;
@@ -4775,7 +4653,6 @@
 
 .x15 .contribuableconjointpartenaireb5ee23d2 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4805,7 +4682,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 132.00px;
   height: 35.00px;
   left: 920.00px;
@@ -4815,7 +4692,6 @@
 
 .x15 .contribuablee6236831 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4845,7 +4721,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 91.00px;
   height: 17.00px;
   left: 781.00px;
@@ -4855,7 +4731,6 @@
 
 .x15 .versementsVisesParLarticle111bisLir {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4885,7 +4760,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 299.00px;
   height: 17.00px;
   left: 76.00px;
@@ -4895,7 +4770,6 @@
 
 .x15 .prevoyanceVieillesse {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4925,7 +4799,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 229.00px;
   height: 25.00px;
   left: 76.00px;
@@ -4935,7 +4809,6 @@
 
 .x15 .d {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -4965,7 +4838,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 22.00px;
   height: 25.00px;
   left: 34.00px;
@@ -4975,7 +4848,6 @@
 
 .x15 .cotisationsPayeesATitrePersonnelEnRaisonDuneAssuranceContinueeVolontaireOufacultativeEtDunAchatDePeriodesEnMatiereDassuranceMaladieEtDassurancepensionAupresDunRegimeDeSecuriteSociale {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5005,7 +4877,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 620.00px;
   height: 53.00px;
   left: 76.00px;
@@ -5015,7 +4887,6 @@
 
 .x15 .contribuableconjointpartenaire {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5045,7 +4916,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 132.00px;
   height: 35.00px;
   left: 920.00px;
@@ -5055,7 +4926,6 @@
 
 .x15 .contribuable {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5085,7 +4955,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 91.00px;
   height: 17.00px;
   left: 781.00px;
@@ -5095,7 +4965,6 @@
 
 .x15 .cotisationsPayeesATitrePersonnel {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5125,7 +4994,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 378.00px;
   height: 25.00px;
   left: 76.00px;
@@ -5135,7 +5004,6 @@
 
 .x15 .c {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5165,7 +5033,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 22.00px;
   height: 25.00px;
   left: 34.00px;
@@ -5175,7 +5043,6 @@
 
 .x15 .depensesSpecialesDeductiblesCouvertesParLeMinimumForfaitaire {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5205,7 +5072,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 724.00px;
   height: 25.00px;
   left: 34.00px;
@@ -5215,7 +5082,6 @@
 
 .x15 .x1 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5245,7 +5111,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 18.00px;
   height: 25.00px;
   left: 0.00px;
@@ -5255,7 +5121,6 @@
 
 .x15 .ds {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5285,7 +5150,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 39.00px;
   height: 31.00px;
   left: 1021.00px;
@@ -5295,7 +5160,6 @@
 
 .x15 .total {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5325,7 +5189,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 37.00px;
   height: 17.00px;
   left: 691.00px;
@@ -5335,7 +5199,6 @@
 
 .x15 .payeesEn2022 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5365,7 +5228,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 116.00px;
   height: 17.00px;
   left: 837.00px;
@@ -5375,7 +5238,6 @@
 
 .x15 .finDuContrat {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5405,7 +5267,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 98.00px;
   height: 17.00px;
   left: 579.00px;
@@ -5415,7 +5277,6 @@
 
 .x15 .debutDuContrat {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5445,7 +5306,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 118.00px;
   height: 17.00px;
   left: 369.00px;
@@ -5455,7 +5316,6 @@
 
 .x15 .paiementsVisesParLarticle111terLir {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5485,7 +5345,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 288.00px;
   height: 17.00px;
   left: 76.00px;
@@ -5495,7 +5355,6 @@
 
 .x15 .jour {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5525,7 +5384,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 17.00px;
   height: 11.00px;
   left: 427.24px;
@@ -5535,7 +5394,6 @@
 
 .x15 .mois {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5565,7 +5423,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 21.00px;
   height: 11.00px;
   left: 394.48px;
@@ -5575,7 +5433,6 @@
 
 .x15 .annee {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5605,7 +5462,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 28.00px;
   height: 11.00px;
   left: 345.00px;
@@ -5615,7 +5472,6 @@
 
 .x15 .line36 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5645,7 +5501,6 @@
 
 .x15 .line35 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5675,7 +5530,6 @@
 
 .x15 .line34 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5705,7 +5559,6 @@
 
 .x15 .line33 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5735,7 +5588,6 @@
 
 .x15 .line32 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5765,7 +5617,6 @@
 
 .x15 .line31 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5795,7 +5646,6 @@
 
 .x15 .line30 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5825,7 +5675,6 @@
 
 .x15 .line29 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5855,7 +5704,6 @@
 
 .x15 .line28 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5885,7 +5733,6 @@
 
 .x15 .line27 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5915,7 +5762,6 @@
 
 .x15 .line26 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -5945,7 +5791,6 @@
 
 .x15 .line25 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);

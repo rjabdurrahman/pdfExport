@@ -2,12 +2,11 @@
   display: block;
   position: relative;
   width: 1060.00px;
-
+  font-family: Arial, Helvetica, sans-serif !important;
 }
 
 .x19 .x1921 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -51,7 +50,6 @@
 
 .x19 .x1920 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -95,7 +93,6 @@
 
 .x19 .x1919 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -139,7 +136,6 @@
 
 .x19 .x1918 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -183,7 +179,6 @@
 
 .x19 .x1917 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -227,7 +222,6 @@
 
 .x19 .x1916 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -271,7 +265,6 @@
 
 .x19 .x1915 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -315,7 +308,6 @@
 
 .x19 .x1914 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -359,7 +351,6 @@
 
 .x19 .x1913 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -403,7 +394,6 @@
 
 .x19 .x19111912 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -447,7 +437,6 @@
 
 .x19 .x1912 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -491,7 +480,6 @@
 
 .x19 .x1911 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -535,7 +523,6 @@
 
 .x19 .x19091910 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -579,7 +566,6 @@
 
 .x19 .x1910 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -623,7 +609,6 @@
 
 .x19 .x1909 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -667,7 +652,6 @@
 
 .x19 .x19071908 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -711,7 +695,6 @@
 
 .x19 .x1908 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -755,7 +738,6 @@
 
 .x19 .x1907 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -799,7 +781,6 @@
 
 .x19 .x19051906 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -843,7 +824,6 @@
 
 .x19 .x1906 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -887,7 +867,6 @@
 
 .x19 .x1905 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -931,7 +910,6 @@
 
 .x19 .x1904 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -975,7 +953,6 @@
 
 .x19 .x1903 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1019,7 +996,6 @@
 
 .x19 .x1902 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1063,7 +1039,6 @@
 
 .x19 .x1901 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-0.00deg);
   -webkit-transform: rotate(-0.00deg);
   transform: rotate(-0.00deg);
@@ -1415,7 +1390,6 @@
 
 .x19 .retenueDimpotALaSourceSurLesTantiemes {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1445,7 +1419,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 329.00px;
   height: 17.00px;
   left: 48.00px;
@@ -1475,7 +1449,6 @@
 
 .x19 .retenueDimpotALaSourceLuxembourgeoiseArticle6DeLaLoiModifieeDu23Decembre2005SurCertainsInteretsProduitsParLepargneMobiliere {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1505,7 +1478,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 562.00px;
   height: 35.00px;
   left: 48.00px;
@@ -1535,7 +1508,6 @@
 
 .x19 .impotEtrangerImputableSuivantAnnexeEnAbsenceDuneConvention {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1565,7 +1537,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 521.00px;
   height: 17.00px;
   left: 48.00px;
@@ -1595,7 +1567,6 @@
 
 .x19 .impotEtrangerImputableSuivantLesConventionsContreLesDoublesImpositions {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1625,7 +1596,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 574.00px;
   height: 17.00px;
   left: 48.00px;
@@ -1655,7 +1626,6 @@
 
 .x19 .retenueDimpotALaSourceSurLesRevenusDeCapitauxDividendesEtc {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1685,7 +1655,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 535.00px;
   height: 17.00px;
   left: 48.00px;
@@ -1725,7 +1695,6 @@
 
 .x19 .retenueDimpotALaSourceSurLesPensions {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1755,7 +1724,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 325.00px;
   height: 17.00px;
   left: 48.00px;
@@ -1785,7 +1754,6 @@
 
 .x19 .retenueDimpotALaSourceSurLesSalaires {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1815,7 +1783,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 314.00px;
   height: 17.00px;
   left: 48.00px;
@@ -1845,7 +1813,6 @@
 
 .x19 .rd {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -1875,7 +1842,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 40.00px;
   height: 31.00px;
   left: 1020.00px;
@@ -1885,7 +1852,6 @@
 
 .x19 .i {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -1915,7 +1881,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 4.00px;
   height: 17.00px;
   left: 14.50px;
@@ -1925,7 +1891,6 @@
 
 .x19 .cai {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -1955,7 +1920,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 36.00px;
   height: 17.00px;
   left: -1.50px;
@@ -1965,7 +1930,6 @@
 
 .x19 .caicm142703fe {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -1995,7 +1959,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 65.00px;
   height: 17.00px;
   left: -16.00px;
@@ -2005,7 +1969,6 @@
 
 .x19 .caicm33889f17 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -2035,7 +1998,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 65.00px;
   height: 17.00px;
   left: -16.00px;
@@ -2045,7 +2008,6 @@
 
 .x19 .caicm {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -2075,7 +2037,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 65.00px;
   height: 17.00px;
   left: -16.00px;
@@ -2085,7 +2047,6 @@
 
 .x19 .pensions {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -2115,7 +2076,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 66.00px;
   height: 17.00px;
   left: -16.50px;
@@ -2125,7 +2086,6 @@
 
 .x19 .salaires {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(-90.00deg);
   -webkit-transform: rotate(-90.00deg);
   transform: rotate(-90.00deg);
@@ -2155,7 +2115,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 58.00px;
   height: 17.00px;
   left: -12.50px;
@@ -2165,7 +2125,6 @@
 
 .x19 .leContribuableATIlUtiliseAuCoursDeLanneeDimpositionUnOuPlusieursDispositifsTransfrontieresDevantFaireLobjetDuneDeclarationAusensDeLaDirectiveUe2018822 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2195,7 +2154,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 999.00px;
   height: 35.00px;
   left: 48.00px;
@@ -2205,7 +2164,6 @@
 
 .x19 .declarationEnVertuDeLarticle7DeLaLoiModifieeDu25Mars2020RelativeAuxDispositifstransfrontieresDevantFaireLobjetDuneDeclarationDac6 {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2235,7 +2193,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 949.00px;
   height: 51.00px;
   left: 0.00px;
@@ -2245,7 +2203,6 @@
 
 .x19 .referencesArrangementIdDudesDispositifsTransfrontieresAyantFaitLobjetDuneDeclarationDansLunionEuropeenne {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2275,7 +2232,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 877.00px;
   height: 17.00px;
   left: 48.00px;
@@ -2285,7 +2242,6 @@
 
 .x19 .observationsEventuelles {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2315,7 +2271,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 184.00px;
   height: 17.00px;
   left: 48.00px;
@@ -2325,7 +2281,6 @@
 
 .x19 .pourLesDispositifsDeclaresAuLuxembourgUnArrangementIdEstCommuniqueAuDeclarantInitialApresDepotDeLaDeclarationViaLaplateformeMyguichetluEtDoitEtreTransmisAToutContribuableConcerne {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2355,7 +2310,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 965.00px;
   height: 35.00px;
   left: 48.00px;
@@ -2365,7 +2320,6 @@
 
 .x19 .oui {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2395,7 +2349,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 21.00px;
   height: 17.00px;
   left: 401.00px;
@@ -2405,7 +2359,6 @@
 
 .x19 .non {
   position: absolute;
-  box-sizing: content-box;
   -ms-transform: rotate(0.00deg);
   -webkit-transform: rotate(0.00deg);
   transform: rotate(0.00deg);
@@ -2435,7 +2388,7 @@
   box-shadow: none;
   overflow-x: unset;
   overflow-y: unset;
-  
+
   width: 27.00px;
   height: 17.00px;
   left: 514.00px;

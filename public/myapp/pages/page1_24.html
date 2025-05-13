@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="/myapp/pages/x01.css" />
 <div id="page1" class="x202401">
-  <input name="a" class="x144" />
-  <input name="a" class="x143" />
-  <input name="a" class="x142" />
   <input name="a" class="x141" />
   <input name="a" class="x140" />
   <input name="a" class="x139" />
   <input name="a" class="x138" />
+  <!-- <input name="a" class="x144" />
+  <input name="a" class="x143" />
+  <input name="a" class="x142" />
   <input name="a" class="x137" />
   <input name="a" class="x136" />
   <input name="a" class="x135" />
@@ -43,9 +43,340 @@
   <input name="a" class="x104" />
   <input name="a" class="x103" />
   <input name="a" class="x102" />
-  <input name="a" class="x101" />
-<input name="1d1" type="text" class="not-refresh x101"
-            value="{{client.signaletique.contribuable.nom}}">
+  <input name="a" class="x101" /> -->
+  <input
+    name="1d40"
+    type="text"
+    class="not-refresh x144"
+    value="{{client.signaletique.coordonnees_bancaires.swift_bic}}"
+  />
+  <input
+    name="1d39"
+    type="text"
+    class="not-refresh x143"
+    value="{{client.signaletique.coordonnees_bancaires.code_iban}}"
+  />
+  <input
+    name="1d38"
+    type="text"
+    class="not-refresh x142"
+    value="{{client.signaletique.coordonnees_bancaires.titulaire_du_compte}}"
+  />
+  <select name="1d37" class="refreshable x137">
+    <option value=""></option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'LUXEMBOURG'"
+      value="LUXEMBOURG"
+    >
+      LUXEMBOURG
+    </option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'ALLEMAGNE'"
+      value="ALLEMAGNE"
+    >
+      ALLEMAGNE
+    </option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'BELGIQUE'"
+      value="BELGIQUE"
+    >
+      BELGIQUE
+    </option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.ancien.pays == 'FRANCE'"
+      value="FRANCE"
+    >
+      FRANCE
+    </option>
+  </select>
+  <select name="1d36" class="refreshable x136">
+    <option value=""></option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'LUXEMBOURG'"
+      value="LUXEMBOURG"
+    >
+      LUXEMBOURG
+    </option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'ALLEMAGNE'"
+      value="ALLEMAGNE"
+    >
+      ALLEMAGNE
+    </option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'BELGIQUE'"
+      value="BELGIQUE"
+    >
+      BELGIQUE
+    </option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.ancien.pays == 'FRANCE'"
+      value="FRANCE"
+    >
+      FRANCE
+    </option>
+  </select>
+  <input
+    name="1d35"
+    type="text"
+    class="refreshable x135"
+    value="{{client.signaletique.conjoint_partenaire.domicile.ancien.localite}}"
+  />
+  <input
+    name="1d34"
+    type="text"
+    class="refreshable numo a_left x134"
+    value="{{client.signaletique.conjoint_partenaire.domicile.ancien.code_postal}}"
+  />
+  <input
+    name="1d33"
+    type="text"
+    class="refreshable x133"
+    value="{{client.signaletique.contribuable.domicile.ancien.localite}}"
+  />
+  <input
+    name="1d32"
+    type="text"
+    class="refreshable numo a_left x132"
+    value="{{client.signaletique.contribuable.domicile.ancien.code_postal}}"
+  />
+  <input
+    name="1d31"
+    type="text"
+    class="refreshable x131"
+    value="{{client.signaletique.conjoint_partenaire.domicile.ancien.rue}}"
+  />
+  <input
+    name="1d30"
+    type="text"
+    class="refreshable x130"
+    value="{{client.signaletique.conjoint_partenaire.domicile.ancien.numero}}"
+  />
+  <input
+    name="1d29"
+    type="text"
+    class="refreshable x129"
+    value="{{client.signaletique.contribuable.domicile.ancien.rue}}"
+  />
+  <input
+    name="1d28"
+    type="text"
+    class="refreshable x128"
+    value="{{client.signaletique.contribuable.domicile.ancien.numero}}"
+  />
+  <input
+    name="1d27"
+    type="text"
+    class="refreshable date x127"
+    value="{{client.signaletique.conjoint_partenaire.domicile.ancien.du_au}}"
+  />
+  <input
+    name="1d26"
+    type="text"
+    class="refreshable date x126"
+    value="{{client.signaletique.contribuable.domicile.ancien.du_au}}"
+  />
+  <select name="1d25" class="refreshable x125">
+    <option value=""></option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'LUXEMBOURG'"
+      value="LUXEMBOURG"
+    >
+      LUXEMBOURG
+    </option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'ALLEMAGNE'"
+      value="ALLEMAGNE"
+    >
+      ALLEMAGNE
+    </option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'BELGIQUE'"
+      value="BELGIQUE"
+    >
+      BELGIQUE
+    </option>
+    <option
+      ng-selected="client.signaletique.conjoint_partenaire.domicile.actuel.pays == 'FRANCE'"
+      value="FRANCE"
+    >
+      FRANCE
+    </option>
+  </select>
+  <select name="1d24" class="refreshable x124">
+    <option value=""></option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'LUXEMBOURG'"
+      value="LUXEMBOURG"
+    >
+      LUXEMBOURG
+    </option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'ALLEMAGNE'"
+      value="ALLEMAGNE"
+    >
+      ALLEMAGNE
+    </option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'BELGIQUE'"
+      value="BELGIQUE"
+    >
+      BELGIQUE
+    </option>
+    <option
+      ng-selected="client.signaletique.contribuable.domicile.actuel.pays == 'FRANCE'"
+      value="FRANCE"
+    >
+      FRANCE
+    </option>
+  </select>
+  <input
+    name="1d23"
+    type="text"
+    class="refreshable x123"
+    value="{{client.signaletique.conjoint_partenaire.domicile.actuel.localite}}"
+  />
+  <input
+    name="1d22"
+    type="text"
+    class="refreshable numo t_left x122"
+    value="{{client.signaletique.conjoint_partenaire.domicile.actuel.code_postal}}"
+  />
+  <input
+    name="1d21"
+    type="text"
+    class="refreshable x121"
+    value="{{client.signaletique.contribuable.domicile.actuel.localite}}"
+  />
+  <input
+    name="1d20"
+    type="text"
+    class="refreshable numo t_left x120"
+    value="{{client.signaletique.contribuable.domicile.actuel.code_postal}}"
+  />
+  <input
+    name="1d19"
+    type="text"
+    class="refreshable x119"
+    value="{{client.signaletique.conjoint_partenaire.domicile.actuel.rue}}"
+  />
+  <input
+    name="1d18"
+    type="text"
+    class="refreshable x118"
+    value="{{client.signaletique.conjoint_partenaire.domicile.actuel.numero}}"
+  />
+  <input
+    name="1d17"
+    type="text"
+    class="refreshable x117"
+    value="{{client.signaletique.contribuable.domicile.actuel.rue}}"
+  />
+  <input
+    name="1d16"
+    type="text"
+    class="refreshable x116"
+    value="{{client.signaletique.contribuable.domicile.actuel.numero}}"
+  />
+  <input
+    name="1d15"
+    type="text"
+    class="not-refresh x115"
+    value="{{client.signaletique.conjoint_partenaire.courriel}}"
+  />
+  <input
+    name="1d14"
+    type="text"
+    class="not-refresh x114"
+    value="{{client.signaletique.contribuable.courriel}}"
+  />
+  <input
+    name="1d13"
+    type="text"
+    class="not-refresh x113"
+    value="{{client.signaletique.conjoint_partenaire.telephone}}"
+  />
+  <input
+    name="1d12"
+    type="text"
+    class="not-refresh x112"
+    value="{{client.signaletique.contribuable.telephone}}"
+  />
+  <input
+    name="1d11"
+    type="text"
+    class="not-refresh x111"
+    value="{{client.signaletique.conjoint_partenaire.profession}}"
+  />
+  <input
+    name="1d10"
+    type="text"
+    class="not-refresh x110"
+    value="{{client.signaletique.contribuable.profession}}"
+  />
+  <input
+    name="1d9"
+    type="text"
+    class="not-refresh numo x109"
+    value="{{client.signaletique.numero_de_dossier}}"
+    minlength="11"
+    maxlength="11"
+    style="
+      padding-left: 13px !important;
+      letter-spacing: 28.5px;
+      margin-right: -28.5px;
+    "
+  />
+  <input
+    name="1d8"
+    type="text"
+    class="not-refresh x108"
+    value="{{client.signaletique.conjoint_partenaire.lieu_de_naissance}}"
+  />
+  <input
+    name="1d7"
+    type="text"
+    class="not-refresh x107"
+    value="{{client.signaletique.contribuable.lieu_de_naissance}}"
+  />
+  <input
+    name="1d6"
+    type="text"
+    class="not-refresh numo cell-in0 x106 t_left"
+    value="{{client.signaletique.conjoint_partenaire.date_de_naissance}}"
+    maxlength="13"
+  />
+  <input
+    name="1d5"
+    type="text"
+    class="not-refresh numo cell-in0 x105 a_left"
+    value="{{client.signaletique.contribuable.date_de_naissance}}"
+    maxlength="13"
+  />
+  <input
+    name="1d4"
+    type="text"
+    class="not-refresh x104"
+    value="{{client.signaletique.conjoint_partenaire.prenom}}"
+  />
+  <input
+    name="1d3"
+    type="text"
+    class="not-refresh x103"
+    value="{{client.signaletique.contribuable.prenom}}"
+  />
+  <input
+    name="1d2"
+    type="text"
+    class="not-refresh x102"
+    value="{{client.signaletique.conjoint_partenaire.nom}}"
+  />
+  <input
+    name="1d1"
+    type="text"
+    class="not-refresh x101"
+    value="{{client.signaletique.contribuable.nom}}"
+  />
   <select name="0d1" class="refreshable bureau" onchange="setAddress(event)">
     <option
       ng-selected="client.Bureaux_d_imposition == 'Bureau d\'imposition:'"
