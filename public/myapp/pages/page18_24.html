@@ -1,40 +1,185 @@
 <link rel="stylesheet" href="/myapp/pages/x18.css" />
 <div class="x24_18">
+
   <div class="x1829"></div>
   <div class="x1828"></div>
   <div class="x1827"></div>
   <div class="x1826"></div>
-  <div class="x18241825"></div>
-  <div class="x1825"></div>
-  <div class="x1824"></div>
-  <div class="x1823"></div>
-  <div class="x18211822"></div>
-  <div class="x1822"></div>
-  <div class="x1821"></div>
-  <div class="x1820"></div>
+  
   <div class="x18181819"></div>
   <div class="x1819"></div>
   <div class="x1818"></div>
   <div class="x1817"></div>
-  <div class="x18151816"></div>
-  <div class="x1816"></div>
-  <div class="x1815"></div>
-  <div class="x1814"></div>
-  <div class="x18121813"></div>
-  <div class="x1813"></div>
-  <div class="x1812"></div>
-  <div class="x1811"></div>
-  <div class="x1810"></div>
-  <div class="x1809"></div>
-  <div class="x1808"></div>
-  <div class="x1807"></div>
-  <div class="x1806"></div>
-  <div class="x1805"></div>
-  <div class="x1804"></div>
-  <div class="x1803"></div>
-  <div class="x1802"></div>
-  <div class="x1801"></div>
-  
+
+  <input
+    name="19d1937"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat4.total}}"
+    class="num x18241825 t_center"
+    readonly
+  />
+  <input
+    name="19d1936"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat4.conjoint_partenaire.abat_speciale_agricole}}"
+    class="num x1825"
+    onkeyup="valueCal(['19d1935', '19d1936'], [], '19d1937')"
+  />
+  <input
+    name="19d1935"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat4.contribuable.abat_speciale_agricole}}"
+    class="num x1824"
+    onkeyup="valueCal(['19d1935', '19d1936'], [], '19d1937')"
+  />
+  <input
+    name="19d1934"
+    type="checkbox"
+    class="num x1823"
+    ng-checked="client.retenues_impot_diverses_demandes.cat4.is_certificat == 'Yes'"
+  />
+  <input
+    name="19d1933"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat3.report_14_total}}"
+    class="num x18211822 t_center"
+    readonly
+  />
+  <input
+    name="19d1932"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat3.conjoint_partenaire.report_14}}"
+    class="num x1822"
+    onkeyup="valueCal(['19d1931', '19d1932'], [], '19d1933')"
+  />
+  <input
+    name="19d1931"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat3.contribuable.report_14}}"
+    class="num x1821"
+    onkeyup="valueCal(['19d1931', '19d1932'], [], '19d1933')"
+  />
+  <input
+    name="19d1930"
+    type="checkbox"
+    class="num x1820"
+    ng-checked="client.retenues_impot_diverses_demandes.cat3.is_report_14 == 'Yes'"
+  />
+  <input
+    name="19d1929"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.report_92_total}}"
+    class="num x18151816 t_center"
+    readonly
+  />
+  <input
+    name="19d1928"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.conjoint_partenaire.report_92}}"
+    class="num x1816"
+    onkeyup="valueCal(['19d1927', '19d1928'], [], '19d1929')"
+  />
+  <input
+    name="19d1927"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.contribuable.report_92}}"
+    class="num x1815"
+    onkeyup="valueCal(['19d1927', '19d1928'], [], '19d1929')"
+  />
+  <input
+    name="19d1926"
+    type="checkbox"
+    class="num x1814"
+    ng-checked="client.retenues_impot_diverses_demandes.cat2.is_report_92 == 'Yes'"
+  />
+  <input
+    name="19d1925"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.report_91_total}}"
+    class="num x18121813 t_center"
+    readonly
+  />
+  <input
+    name="19d1924"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.conjoint_partenaire.report_91}}"
+    class="num x1813"
+    onkeyup="valueCal(['19d1923', '19d1924'], [], '19d1925')"
+  />
+  <input
+    name="19d1923"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.contribuable.report_91}}"
+    class="num x1812"
+    onkeyup="valueCal(['19d1923', '19d1924'], [], '19d1925')"
+  />
+  <input
+    name="19d1922"
+    type="checkbox"
+    class="num x1811"
+    ng-checked="client.retenues_impot_diverses_demandes.cat2.is_report_91 == 'Yes'"
+  />
+  <input
+    name="19d1921"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat1.conjoint_partenaire.montant_deduit}}"
+    class="num x1810"
+  />
+  <input
+    name="19d1920"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat1.contribuable.montant_deduit}}"
+    class="num x1809"
+  />
+  <input
+    name="19d1919"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat1.conjoint_partenaire.montant_non_deduit}}"
+    class="num x1808"
+  />
+  <input
+    name="19d1918"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat1.contribuable.montant_non_deduit}}"
+    class="num x1807"
+  />
+  <input
+    name="19d1917"
+    type="checkbox"
+    class="x1806"
+    ng-checked="client.retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benef_pro_liberale == 'Yes'"
+  />
+  <input
+    name="19d1916"
+    type="checkbox"
+    class="x1805"
+    ng-checked="client.retenues_impot_diverses_demandes.cat1.contribuable.is_benef_pro_liberale == 'Yes'"
+  />
+  <input
+    name="19d1915"
+    type="checkbox"
+    class="x1804"
+    ng-checked="client.retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benef_agricole == 'Yes'"
+  />
+  <input
+  name="19d1913"
+  type="checkbox"
+  class="x1803"
+  ng-checked="client.retenues_impot_diverses_demandes.cat1.contribuable.is_benef_agricole == 'Yes'"
+  />
+  <input
+    name="19d1914"
+    type="checkbox"
+    class="x1802"
+    ng-checked="client.retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benefice_commercial == 'Yes'"
+  />
+  <input
+    name="19d1912"
+    type="checkbox"
+    class="x1801"
+    ng-checked="client.retenues_impot_diverses_demandes.cat1.contribuable.is_benefice_commercial == 'Yes'"
+  />
+
   <div class="case6"></div>
   <div class="case5"></div>
   <div class="case4"></div>
