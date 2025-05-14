@@ -1879,26 +1879,6 @@ module.exports = function serializeInfo(client) {
             ''
         ),
         // Page 10
-        ['x10d62x']: _.get(
-            client,
-            'location.interets_debiteurs.habitationB.interets.conjoint_partenaire',
-            ''
-        ),
-        ['x10d61x']: _.get(
-            client,
-            'location.interets_debiteurs.habitationB.interets.contribuable',
-            ''
-        ),
-        ['x10d60x']: _.get(
-            client,
-            'location.interets_debiteurs.habitationA.interets.conjoint_partenaire',
-            ''
-        ),
-        ['x10d59x']: _.get(
-            client,
-            'location.interets_debiteurs.habitationA.interets.contribuable',
-            ''
-        ),
         ['x10d58x']: _.get(
             client,
             'location.interets_debiteurs.habitationB.date_occupation',
