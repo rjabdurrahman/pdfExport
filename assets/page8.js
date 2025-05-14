@@ -1,6 +1,11 @@
 module.exports = function (info) {
     return {
         pension: {
+            sec_c: {
+                antres_exemp1: info['8dt1'],
+                antres_exemp2: info['8dt2'],
+                antres_exemp3: info['8dt3'],
+            },
             rev_non_exo: {
                 contribuable: {
                     a: {
@@ -14,7 +19,10 @@ module.exports = function (info) {
                     },
                     c: {
                         arrerages: info['8d821'],
-                        exemption: info['8d825']
+                        exemption: info['8d825'],
+                        antres_exemp1: info['8dn1'],
+                        antres_exemp2: info['8dn5'],
+                        antres_exemp3: info['8dn9'],
                     },
                     totalBC: info['8d829'],
                     totalABC: info['8d833'],
@@ -35,7 +43,10 @@ module.exports = function (info) {
                     },
                     c: {
                         arrerages: info['8d822'],
-                        exemption: info['8d826']
+                        exemption: info['8d826'],
+                        antres_exemp1: info['8dn2'],
+                        antres_exemp2: info['8dn6'],
+                        antres_exemp3: info['8dn10'],
                     },
                     totalBC: info['8d830'],
                     totalABC: info['8d834'],
@@ -58,7 +69,10 @@ module.exports = function (info) {
                     },
                     c: {
                         arrerages: info['8d823'],
-                        exemption: info['8d827']
+                        exemption: info['8d827'],
+                        antres_exemp1: info['8dn3'],
+                        antres_exemp2: info['8dn7'],
+                        antres_exemp3: info['8dn11'],
                     },
                     totalBC: info['8d831'],
                     totalABC: info['8d835'],
@@ -79,7 +93,10 @@ module.exports = function (info) {
                     },
                     c: {
                         arrerages: info['8d824'],
-                        exemption: info['8d828']
+                        exemption: info['8d828'],
+                        antres_exemp1: info['8dn4'],
+                        antres_exemp2: info['8dn8'],
+                        antres_exemp3: info['8dn12'],
                     },
                     totalBC: info['8d832'],
                     totalABC: info['8d836'],
@@ -92,8 +109,8 @@ module.exports = function (info) {
             },
             abattement_extra_pro: {
                 is_demande: info['8d845'] ? info['8d845'] : 'Off',
-                rente_date: info['8d846']  
-            } 
+                rente_date: info['8d846']
+            }
         }
     }
 }

@@ -2140,21 +2140,24 @@
 </div>
             <link rel="stylesheet" href="/myapp/pages/x08.css" />
 <div id="page8" class="x08">
-  <div class="x843"></div>
-  <div class="x842"></div>
-  <div class="x841"></div>
-  <div class="x840"></div>
-  <div class="x839"></div>
-  <div class="x838"></div>
-  <div class="x837"></div>
-  <div class="x836"></div>
-  <div class="x835"></div>
-  <div class="x834"></div>
-  <div class="x833"></div>
-  <div class="x832"></div>
-  <div class="x831"></div>
-  <div class="x830"></div>
-  <div class="x829"></div>
+  <input
+    name="8dt3"
+    value="{{client.pension.sec_c.antres_exemp3}}"
+    type="text"
+    class="x839"
+  />
+  <input
+    name="8dt2"
+    value="{{client.pension.sec_c.antres_exemp2}}"
+    type="text"
+    class="x834"
+  />
+  <input
+    name="8dt1"
+    value="{{client.pension.sec_c.antres_exemp1}}"
+    type="text"
+    class="x829"
+  />
   <input
     name="8d843_44"
     value="{{client.pension.rev_exo.total}}"
@@ -2285,6 +2288,92 @@
     class="num x844"
     readonly
   />
+  <!-- New -->
+  <input
+    name="8dn12"
+    type="text"
+    value="{{client.pension.rev_exo.conjoint_partenaire.c.antres_exemp3}}"
+    class="num x843"
+    onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844');valueCal(['8d843', '8d844'], [], '8d843_44')"
+  />
+  <input
+    name="8dn11"
+    type="text"
+    value="{{client.pension.rev_exo.contribuable.c.antres_exemp3}}"
+    class="num x842"
+    onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843');valueCal(['8d843', '8d844'], [], '8d843_44')"
+  />
+  <input
+    name="8dn10"
+    type="text"
+    value="{{client.pension.rev_non_exo.conjoint_partenaire.c.antres_exemp3}}"
+    class="num x841"
+    onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')"
+  />
+  <input
+    name="8dn9"
+    type="text"
+    value="{{client.pension.rev_non_exo.contribuable.c.antres_exemp3}}"
+    class="num x840"
+    onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')"
+  />
+  <input
+    name="8dn8"
+    type="text"
+    value="{{client.pension.rev_exo.conjoint_partenaire.c.antres_exemp2}}"
+    class="num x838"
+    onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844');valueCal(['8d843', '8d844'], [], '8d843_44')"
+  />
+  <input
+    name="8dn7"
+    type="text"
+    value="{{client.pension.rev_exo.contribuable.c.antres_exemp2}}"
+    class="num x837"
+    onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843');valueCal(['8d843', '8d844'], [], '8d843_44')"
+  />
+  <input
+    name="8dn6"
+    type="text"
+    value="{{client.pension.rev_non_exo.conjoint_partenaire.c.antres_exemp2}}"
+    class="num x836"
+    onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')"
+  />
+  <input
+    name="8dn5"
+    type="text"
+    value="{{client.pension.rev_non_exo.contribuable.c.antres_exemp2}}"
+    class="num x835"
+    onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')"
+  />
+  <input
+    name="8dn4"
+    type="text"
+    value="{{client.pension.rev_exo.conjoint_partenaire.c.antres_exemp1}}"
+    class="num x833"
+    onkeyup="valueCal(['8d816', '8d824'], ['8d820', '8d828'], '8d832');valueCal(['8d812', '8d832'], [], '8d836');valueCal(['8d836'], ['8d840'], '8d844');valueCal(['8d843', '8d844'], [], '8d843_44')"
+  />
+  <input
+    name="8dn3"
+    type="text"
+    value="{{client.pension.rev_exo.contribuable.c.antres_exemp1}}"
+    class="num x832"
+    onkeyup="valueCal(['8d815', '8d823'], ['8d819', '8d827'], '8d831');valueCal(['8d811', '8d831'], [], '8d835');valueCal(['8d835'], ['8d839'], '8d843');valueCal(['8d843', '8d844'], [], '8d843_44')"
+  />
+  <input
+    name="8dn2"
+    type="text"
+    value="{{client.pension.rev_non_exo.conjoint_partenaire.c.antres_exemp1}}"
+    class="num x831"
+    onkeyup="valueCal(['8d814', '8d822'], ['8d818', '8d826'], '8d830');valueCal(['8d810', '8d830'], [], '8d834');valueCal(['8d834'], ['8d838'], '8d842')"
+  />
+  <input
+    name="8dn1"
+    type="text"
+    value="{{client.pension.rev_non_exo.contribuable.c.antres_exemp1}}"
+    class="num x830"
+    onkeyup="valueCal(['8d813', '8d821'], ['8d817', '8d825'], '8d829');valueCal(['8d809', '8d829'], [], '8d833');valueCal(['8d833'], ['8d837'], '8d841')"
+  />
+  <!-- New -->
   <input
     name="8d828"
     type="text"
