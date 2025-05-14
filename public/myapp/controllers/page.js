@@ -211,6 +211,10 @@ function radioCheck(info) {
     $(
       `#page17 :radio[value=${info.charges_extraordinaires_18.declaration.reponse}]`
     ).attr('checked', true)
+  if (_.get(info, 'charges_extraordinaires_18.declaration.reponse'))
+    $(
+      `#page19 :radio[value=${info.charges_extraordinaires_18.declaration.reponse}]`
+    ).attr('checked', true)
 }
 
 function pageInit() {
