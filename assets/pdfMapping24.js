@@ -1431,6 +1431,11 @@ module.exports = function serializeInfo(client) {
         ),
         // Page 8
         ['x8d46x']: _.get(client, 'pension.abattement_extra_pro.rente_date', ''),
+        ['x8d45x']: _.get(
+            client,
+            'pension.abattement_extra_pro.is_demande',
+            'Off'
+        ),
         ['x8d843_44x']: _.get(
             client,
             'pension.rev_exo.total',
@@ -1608,10 +1613,81 @@ module.exports = function serializeInfo(client) {
             'pension.rev_non_exo.contribuable.a.pensions',
             ''
         ),
-        ['x8d45x']: _.get(
+        /* 2024 */
+        ['x8dn12x']: _.get(
             client,
-            'pension.abattement_extra_pro.is_demande',
-            'Off'
+            'pension.rev_exo.conjoint_partenaire.c.antres_exemp3',
+            ''
+        ),
+        ['x8dn11x']: _.get(
+            client,
+            'pension.rev_exo.contribuable.c.antres_exemp3',
+            ''
+        ),
+        ['x8dn10x']: _.get(
+            client,
+            'pension.rev_non_exo.conjoint_partenaire.c.antres_exemp3',
+            ''
+        ),
+        ['x8dn9x']: _.get(
+            client,
+            'pension.rev_non_exo.contribuable.c.antres_exemp3',
+            ''
+        ),
+        ['x8dn8x']: _.get(
+            client,
+            'pension.rev_exo.conjoint_partenaire.c.antres_exemp2',
+            ''
+        ),
+        ['x8dn7x']: _.get(
+            client,
+            'pension.rev_exo.contribuable.c.antres_exemp2',
+            ''
+        ),
+        ['x8dn6x']: _.get(
+            client,
+            'pension.rev_non_exo.conjoint_partenaire.c.antres_exemp2',
+            ''
+        ),
+        ['x8dn5x']: _.get(
+            client,
+            'pension.rev_non_exo.contribuable.c.antres_exemp2',
+            ''
+        ),
+        ['x8dn4x']: _.get(
+            client,
+            'pension.rev_exo.conjoint_partenaire.c.antres_exemp1',
+            ''
+        ),
+        ['x8dn3x']: _.get(
+            client,
+            'pension.rev_exo.contribuable.c.antres_exemp1',
+            ''
+        ),
+        ['x8dn2x']: _.get(
+            client,
+            'pension.rev_non_exo.conjoint_partenaire.c.antres_exemp1',
+            ''
+        ),
+        ['x8dn1x']: _.get(
+            client,
+            'pension.rev_non_exo.contribuable.c.antres_exemp1',
+            ''
+        ),
+        ['x8dt3x']: _.get(
+            client,
+            'pension.sec_c.antres_exemp3',
+            ''
+        ),
+        ['x8dt2x']: _.get(
+            client,
+            'pension.sec_c.antres_exemp2',
+            ''
+        ),
+        ['x8dt1x']: _.get(
+            client,
+            'pension.sec_c.antres_exemp1',
+            ''
         ),
         // Page 9
         ['x9d40x']: _.get(client, 'capitaux.rev_exo.totalBCD_cal', ''),
@@ -3754,7 +3830,6 @@ module.exports = function serializeInfo(client) {
             'charges_extraordinaires_17.abattement.is_abattement1',
             ''
         ),
-        // Page 18
         // Page 18
         ['x18dn1843x']: _.get(
             client,

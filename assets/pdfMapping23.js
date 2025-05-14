@@ -3715,7 +3715,6 @@ module.exports = function serializeInfo(client) {
             ''
         ),
         // Page 18
-        // Page 18
         ['x18dn1843x']: _.get(
             client,
             'charges_extraordinaires_18.declaration.observations.f3',
