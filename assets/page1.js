@@ -58,6 +58,16 @@ module.exports = function (info) {
                 titulaire_du_compte: info['1d38'],
                 code_iban: info['1d39'],
                 swift_bic: info['1d40']
+            },
+            person_non_res: {
+                contribuable: {
+                    numero_de_dossier: info['1dn1'],
+                    pays: info['1dn2']
+                },
+                conjoint_partenaire: {
+                    numero_de_dossier: info['1dn3'],
+                    pays: info['1dn4']
+                }
             }
         }
     }

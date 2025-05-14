@@ -1,10 +1,71 @@
 <link rel="stylesheet" href="/myapp/pages/x01.css" />
 <div id="page1" class="x202401">
-  <input type="text" name="a" class="x141" />
-  <input type="text" name="a" class="x140" />
-  <input type="text" name="a" class="x139" />
-  <input type="text" name="a" class="x138" />
-
+  <select name="1dn4" class="refreshable x141">
+    <option value=""></option>
+    <option
+      ng-selected="client.signaletique.person_non_res.conjoint_partenaire.pays == 'LUXEMBOURG'"
+      value="LUXEMBOURG"
+    >
+      LUXEMBOURG
+    </option>
+    <option
+      ng-selected="client.signaletique.person_non_res.conjoint_partenaire.pays == 'ALLEMAGNE'"
+      value="ALLEMAGNE"
+    >
+      ALLEMAGNE
+    </option>
+    <option
+      ng-selected="client.signaletique.person_non_res.conjoint_partenaire.pays == 'BELGIQUE'"
+      value="BELGIQUE"
+    >
+      BELGIQUE
+    </option>
+    <option
+      ng-selected="client.signaletique.person_non_res.conjoint_partenaire.pays == 'FRANCE'"
+      value="FRANCE"
+    >
+      FRANCE
+    </option>
+  </select>
+  <select name="1dn2" class="refreshable x140">
+    <option value=""></option>
+    <option
+      ng-selected="client.signaletique.person_non_res.contribuable.pays == 'LUXEMBOURG'"
+      value="LUXEMBOURG"
+    >
+      LUXEMBOURG
+    </option>
+    <option
+      ng-selected="client.signaletique.person_non_res.contribuable.pays == 'ALLEMAGNE'"
+      value="ALLEMAGNE"
+    >
+      ALLEMAGNE
+    </option>
+    <option
+      ng-selected="client.signaletique.person_non_res.contribuable.pays == 'BELGIQUE'"
+      value="BELGIQUE"
+    >
+      BELGIQUE
+    </option>
+    <option
+      ng-selected="client.signaletique.person_non_res.contribuable.pays == 'FRANCE'"
+      value="FRANCE"
+    >
+      FRANCE
+    </option>
+  </select>
+  <input
+    name="1dn3"
+    type="text"
+    class="not-refresh x139"
+    value="{{client.signaletique.person_non_res.conjoint_partenaire.numero_de_dossier}}"
+  />
+  <input
+    name="1dn1"
+    type="text"
+    class="not-refresh x138"
+    value="{{client.signaletique.person_non_res.contribuable.numero_de_dossier}}"
+  />
   <input
     name="1d40"
     type="text"

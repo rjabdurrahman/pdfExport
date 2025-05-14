@@ -12,6 +12,26 @@ module.exports = function serializeInfo(client) {
             ''
         ),
         // Page 1
+        ['x1dn4x']: _.get(
+            client,
+            'signaletique.person_non_res.conjoint_partenaire.pays',
+            ''
+        ),
+        ['x1dn3x']: _.get(
+            client,
+            'signaletique.person_non_res.conjoint_partenaire.numero_de_dossier',
+            ''
+        ),
+        ['x1dn2x']: _.get(
+            client,
+            'signaletique.person_non_res.contribuable.pays',
+            ''
+        ),
+        ['x1dn1x']: _.get(
+            client,
+            'signaletique.person_non_res.contribuable.numero_de_dossier',
+            ''
+        ),
         ['x1d40x']: _.get(
             client,
             'signaletique.coordonnees_bancaires.swift_bic',
