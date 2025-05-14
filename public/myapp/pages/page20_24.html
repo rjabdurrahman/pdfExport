@@ -1,55 +1,302 @@
 <link rel="stylesheet" href="/myapp/pages/x20.css" />
 <div id="page20" class="x20">
-  <div class="admin10"></div>
-  <div class="admin9"></div>
-  <div class="admin8"></div>
-  <div class="admin7"></div>
-  <div class="admin6"></div>
-  <div class="admin5"></div>
-  <div class="admin4"></div>
-  <div class="admin3"></div>
-  <div class="admin2"></div>
-  <div class="admin1"></div>
-  <div class="rectangleDate"></div>
-  <div class="rectangleLieu"></div>
-  <div class="x2038"></div>
-  <div class="x2037"></div>
-  <div class="x2036"></div>
-  <div class="x2035"></div>
-  <div class="x2034"></div>
-  <div class="x2033"></div>
-  <div class="x2032"></div>
-  <div class="x2031"></div>
-  <div class="x2030"></div>
-  <div class="x2029"></div>
-  <div class="x2028"></div>
-  <div class="x2027"></div>
-  <div class="x2026"></div>
-  <div class="x2025"></div>
-  <div class="x2024"></div>
-  <div class="x2023"></div>
-  <div class="x2022"></div>
-  <div class="x2021"></div>
-  <div class="x2020"></div>
-  <div class="x2019"></div>
-  <div class="x2018"></div>
-  <div class="x2017"></div>
-  <div class="x2016"></div>
-  <div class="x2015"></div>
-  <div class="x2014"></div>
-  <div class="x2013"></div>
-  <div class="x2012"></div>
-  <div class="x2011"></div>
-  <div class="x2010"></div>
-  <div class="x2009"></div>
-  <div class="x2008"></div>
-  <div class="x2007"></div>
-  <div class="x2006"></div>
-  <div class="x2005"></div>
-  <div class="x2004"></div>
-  <div class="x2003"></div>
-  <div class="x2002"></div>
-  <div class="x2001"></div>
+  <input type="text" class="admin10 num" disabled />
+  <input type="text" class="admin9 num" disabled />
+  <input type="text" class="admin8 num" disabled />
+  <input type="text" class="admin7 num" disabled />
+  <input type="text" class="admin6 num" disabled />
+  <input type="text" class="admin5 num" disabled />
+  <input type="text" class="admin4 num" disabled />
+  <input type="text" class="admin3 num" disabled />
+  <input type="text" class="admin2 num" disabled />
+  <input type="text" class="admin1 num" disabled />
+
+  <input
+    name="20d2002"
+    type="text"
+    value="{{client.revenu_imposable.date}}"
+    class="date rectangleDate"
+  />
+  <input
+    name="20d2001"
+    type="text"
+    value="{{client.revenu_imposable.lieu}}"
+    class="rectangleLieu"
+  />
+  <input
+    name="20d2038"
+    value="{{client.revenu_imposable.total_cal}}"
+    type="text"
+    class="x2038 num t_center"
+    readonly
+  />
+  <input
+    name="16d1653"
+    type="text"
+    value="{{client.depenses_speciales.total_des_depenses}}"
+    class="x2037 t_center"
+    disabled
+  />
+
+  <input
+    name="20d2036"
+    type="text"
+    class="x2036 num"
+    value="{{client.revenu_imposable.total.c4}}"
+    readonly
+  />
+  <input
+    name="20d2035"
+    type="text"
+    class="x2035 num"
+    value="{{client.revenu_imposable.total.c3}}"
+    readonly
+  />
+  <input
+    name="20d2034"
+    type="text"
+    class="x2034 num"
+    value="{{client.revenu_imposable.total.c2}}"
+    readonly
+  />
+  <input
+    name="20d2033"
+    type="text"
+    class="x2033 num"
+    value="{{client.revenu_imposable.total.c1}}"
+    readonly
+  />
+  <input
+    name="11d1133"
+    type="text"
+    value="{{client.rev_nets_divers.rev_exo.conjoint_partenaire.total}}"
+    class="num x2032"
+    disabled
+  />
+  <input
+    name="11d1132"
+    type="text"
+    value="{{client.rev_nets_divers.rev_exo.contribuable.total}}"
+    class="num x2031"
+    disabled
+  />
+  <input
+    name="11d1130"
+    type="text"
+    value="{{client.rev_nets_divers.rev_non_exo.conjoint_partenaire.total}}"
+    class="num x2030"
+    disabled
+  />
+  <input
+    name="11d1129"
+    type="text"
+    value="{{client.rev_nets_divers.rev_non_exo.contribuable.total}}"
+    class="num x2029"
+    disabled
+  />
+
+  <input
+    name="10d1033"
+    type="text"
+    value="{{client.location.rev_exo.conjoint_partenaire.f.total}}"
+    class="num x2028"
+    disabled
+  />
+  <input
+    name="10d1032"
+    type="text"
+    value="{{client.location.rev_exo.contribuable.f.total}}"
+    class="num x2027"
+    disabled
+  />
+  <input
+    name="10d1030"
+    type="text"
+    value="{{client.location.rev_non_exo.conjoint_partenaire.f.total}}"
+    class="num x2026"
+    disabled
+  />
+  <input
+    name="10d1029"
+    type="text"
+    value="{{client.location.rev_non_exo.contribuable.f.total}}"
+    class="num x2025"
+    disabled
+  />
+
+  <input
+    name="20d2024"
+    type="text"
+    class="x2024 num"
+    value="{{client.capitaux.rev_exo.conjoint_partenaire.a_deduire.totalBCD_deductions}}"
+    disabled
+  />
+  <input
+    name="20d2023"
+    type="text"
+    class="x2023 num"
+    value="{{client.capitaux.rev_exo.contribuable.a_deduire.totalBCD_deductions}}"
+    disabled
+  />
+  <input
+    name="20d2022"
+    type="text"
+    class="x2022 num"
+    value="{{client.capitaux.rev_non_exo.conjoint_partenaire.a_deduire.totalBCD_deductions}}"
+    disabled
+  />
+  <input
+    name="20d2021"
+    type="text"
+    class="x2021 num"
+    value="{{client.capitaux.rev_non_exo.contribuable.a_deduire.totalBCD_deductions}}"
+    disabled
+  />
+  <input
+    name="8d844"
+    type="text"
+    value="{{client.pension.rev_exo.conjoint_partenaire.a_deduire.totalABC}}"
+    class="num x2020"
+    disabled
+  />
+  <input
+    name="8d843"
+    type="text"
+    value="{{client.pension.rev_exo.contribuable.a_deduire.totalABC}}"
+    class="num x2019"
+    disabled
+  />
+  <input
+    name="8d842"
+    type="text"
+    value="{{client.pension.rev_non_exo.conjoint_partenaire.a_deduire.totalABC}}"
+    class="num x2018"
+    disabled
+  />
+  <input
+    name="8d841"
+    type="text"
+    value="{{client.pension.rev_non_exo.contribuable.a_deduire.totalABC}}"
+    class="num x2017"
+    disabled
+  />
+
+  <input
+    name="7d762"
+    type="text"
+    value="{{client.occup_salariee.rev_exo.conjoint_partenaire.a_deduire.totalABCDE}}"
+    class="num x2016"
+    disabled
+  />
+  <input
+    name="7d761"
+    type="text"
+    value="{{client.occup_salariee.rev_exo.contribuable.a_deduire.totalABCDE}}"
+    class="num x2015"
+    disabled
+  />
+  <input
+    name="7d760"
+    type="text"
+    value="{{client.occup_salariee.rev_non_exo.conjoint_partenaire.a_deduire.totalABCDE}}"
+    class="num x2014"
+    disabled
+  />
+  <input
+    name="7d759"
+    type="text"
+    value="{{client.occup_salariee.rev_non_exo.contribuable.a_deduire.totalABCDE}}"
+    class="num x2013"
+    disabled
+  />
+
+  <input
+    name="6d53"
+    value="{{client.ben_prov.rev_exo.conjoint_partenaire.total3}}"
+    type="text"
+    class="num x2012"
+    disabled
+  />
+  <input
+    name="6d52"
+    value="{{client.ben_prov.rev_exo.contribuable.total3}}"
+    type="text"
+    class="num x2011"
+    disabled
+  />
+  <input
+    name="6d51"
+    value="{{client.ben_prov.rev_non_exo.conjoint_partenaire.total3}}"
+    type="text"
+    class="num x2010"
+    disabled
+  />
+  <input
+    name="6d50"
+    value="{{client.ben_prov.rev_non_exo.contribuable.total3}}"
+    type="text"
+    class="num x2009"
+    disabled
+  />
+
+  <input
+    name="5d73"
+    type="text"
+    class="num x2008"
+    value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.conjoint_partenaire.total}}"
+    disabled
+  />
+  <input
+    name="5d72"
+    type="text"
+    class="num x2007"
+    value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_exo.contribuable.total}}"
+    disabled
+  />
+  <input
+    name="5d71"
+    type="text"
+    class="num x2006"
+    value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.conjoint_partenaire.total}}"
+    disabled
+  />
+  <input
+    name="5d70"
+    type="text"
+    class="num x2005"
+    value="{{client.benefice_commercial.determination_benefice_agricole_et_forestier.rev_non_exo.contribuable.total}}"
+    disabled
+  />
+
+  <input
+    name="5d37"
+    type="text"
+    class="num x2004"
+    value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.conjoint_partenaire.total}}"
+    disabled
+  />
+  <input
+    name="5d36"
+    type="text"
+    class="num x2003"
+    value="{{client.benefice_commercial.determination_benefice_commercial.revenus_exoneres.contribuable.total}}"
+    disabled
+  />
+  <input
+    name="5d35"
+    type="text"
+    class="num x2002"
+    value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.conjoint_partenaire.total}}"
+    disabled
+  />
+  <input
+    name="5d34"
+    type="text"
+    class="num x2001"
+    value="{{client.benefice_commercial.determination_benefice_commercial.revenus_non_exoneres.contribuable.total}}"
+    disabled
+  />
+
   <div class="creditDimpotMonoparental">Crédit d'impôt monoparental</div>
   <div class="revenuAImposerSuivantLeBareme">
     Revenu à imposer suivant le barème
