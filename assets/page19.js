@@ -20,16 +20,20 @@ module.exports = function (info) {
             cat2: {
                 is_report_91: info['19d1922'] ? info['19d1922'] : 'Off',
                 is_report_92: info['19d1926'] ? info['19d1926'] : 'Off',
+                is_case_215: info['19dc1'] ? info['19dc1'] : 'Off',
                 contribuable: {
                     report_91: info['19d1923'],
-                    report_92: info['19d1927']
+                    report_92: info['19d1927'],
+                    case_215: info['19dn1']
                 },
                 conjoint_partenaire: {
                     report_91: info['19d1924'],
-                    report_92: info['19d1928']
+                    report_92: info['19d1928'],
+                    case_215: info['19dn2']
                 },
                 report_91_total: info['19d1925'],
-                report_92_total: info['19d1929']
+                report_92_total: info['19d1929'],
+                case_215_total: info['19dn3']
             },
             cat3: {
                 is_report_14: info['19d1930'] ? info['19d1930'] : 'Off',
@@ -51,6 +55,22 @@ module.exports = function (info) {
                     abat_speciale_agricole: info['19d1936']
                 },
                 total: info['19d1937']
+            },
+            cib: {
+                contribuable: {
+                    is_c: info['19dc2']
+                },
+                conjoint_partenaire: {
+                    is_c: info['19dc3']
+                },
+            },
+            cihs: {
+                contribuable: {
+                    is_c: info['19dc4']
+                },
+                conjoint_partenaire: {
+                    is_c: info['19dc5']
+                },
             },
             cat5: {
                 contribuable: {

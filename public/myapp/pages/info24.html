@@ -9168,16 +9168,57 @@
             <div id="page19">
                 <link rel="stylesheet" href="/myapp/pages/x18.css" />
 <div class="x24_18">
-
-  <div class="x1829"></div>
-  <div class="x1828"></div>
-  <div class="x1827"></div>
-  <div class="x1826"></div>
-  
-  <div class="x18181819"></div>
-  <div class="x1819"></div>
-  <div class="x1818"></div>
-  <div class="x1817"></div>
+  <input
+    name="19dc5"
+    type="checkbox"
+    class="x1829"
+    ng-checked="client.retenues_impot_diverses_demandes.cihs.conjoint_partenaire.is_c == 'Yes'"
+  />
+  <input
+    name="19dc4"
+    type="checkbox"
+    class="x1828"
+    ng-checked="client.retenues_impot_diverses_demandes.cihs.contribuable.is_c == 'Yes'"
+  />
+  <input
+    name="19dc3"
+    type="checkbox"
+    class="x1827"
+    ng-checked="client.retenues_impot_diverses_demandes.cib.conjoint_partenaire.is_c == 'Yes'"
+  />
+  <input
+    name="19dc2"
+    type="checkbox"
+    class="x1826"
+    ng-checked="client.retenues_impot_diverses_demandes.cib.contribuable.is_c == 'Yes'"
+  />
+  <input
+    name="19dn3"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.case_215_total}}"
+    class="num x18181819 t_center"
+    readonly
+  />
+  <input
+    name="19dn2"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.conjoint_partenaire.case_215}}"
+    class="num x1819"
+    onkeyup="valueCal(['19dn1', '19dn3'], [], '19dn3')"
+  />
+  <input
+    name="19dn1"
+    type="text"
+    value="{{client.retenues_impot_diverses_demandes.cat2.contribuable.case_215}}"
+    class="num x1818"
+    onkeyup="valueCal(['19dn1', '19dn3'], [], '19dn3')"
+  />
+  <input
+    name="19dc1"
+    type="checkbox"
+    class="x1817"
+    ng-checked="client.retenues_impot_diverses_demandes.cat2.is_case_215 == 'Yes'"
+  />
 
   <input
     name="19d1937"
@@ -9330,10 +9371,10 @@
     ng-checked="client.retenues_impot_diverses_demandes.cat1.conjoint_partenaire.is_benef_agricole == 'Yes'"
   />
   <input
-  name="19d1913"
-  type="checkbox"
-  class="x1803"
-  ng-checked="client.retenues_impot_diverses_demandes.cat1.contribuable.is_benef_agricole == 'Yes'"
+    name="19d1913"
+    type="checkbox"
+    class="x1803"
+    ng-checked="client.retenues_impot_diverses_demandes.cat1.contribuable.is_benef_agricole == 'Yes'"
   />
   <input
     name="19d1914"

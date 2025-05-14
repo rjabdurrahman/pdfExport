@@ -12,6 +12,26 @@ module.exports = function serializeInfo(client) {
             ''
         ),
         // Page 1
+        ['x1dn4x']: _.get(
+            client,
+            'signaletique.person_non_res.conjoint_partenaire.pays',
+            ''
+        ),
+        ['x1dn3x']: _.get(
+            client,
+            'signaletique.person_non_res.conjoint_partenaire.numero_de_dossier',
+            ''
+        ),
+        ['x1dn2x']: _.get(
+            client,
+            'signaletique.person_non_res.contribuable.pays',
+            ''
+        ),
+        ['x1dn1x']: _.get(
+            client,
+            'signaletique.person_non_res.contribuable.numero_de_dossier',
+            ''
+        ),
         ['x1d40x']: _.get(
             client,
             'signaletique.coordonnees_bancaires.swift_bic',
@@ -3932,6 +3952,46 @@ module.exports = function serializeInfo(client) {
             ''
         ),
         // Page 19
+        ['x19dc5x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cihs.conjoint_partenaire.is_c',
+            ''
+        ),
+        ['x19dc4x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cihs.contribuable.is_c',
+            ''
+        ),
+        ['x19dc3x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cib.conjoint_partenaire.is_c',
+            ''
+        ),
+        ['x19dc2x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cib.contribuable.is_c',
+            ''
+        ),
+        ['x19dn3x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.case_215_total',
+            ''
+        ),
+        ['x19dn2x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.conjoint_partenaire.case_215',
+            ''
+        ),
+        ['x19dn1x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.contribuable.case_215',
+            ''
+        ),
+        ['x19dc1x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.is_case_215',
+            ''
+        ),
         ['x19d1955x']: _.get(
             client,
             'retenues_impot_diverses_demandes.cat11.conjoint_partenaire.tantiemes',
