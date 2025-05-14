@@ -2414,6 +2414,26 @@ module.exports = function serializeInfo(client) {
             'rev_nets_divers.rev_non_exo.contribuable.revenu_plus_values.benefice_speculation',
             ''
         ),
+        ['x11dn4x']: _.get(
+            client,
+            'rev_nets_divers.rev_exo.conjoint_partenaire.benefice_speculation',
+            ''
+        ),
+        ['x11dn3x']: _.get(
+            client,
+            'rev_nets_divers.rev_exo.contribuable.benefice_speculation',
+            ''
+        ),
+        ['x11dn2x']: _.get(
+            client,
+            'rev_nets_divers.rev_non_exo.conjoint_partenaire.benefice_speculation',
+            ''
+        ),
+        ['x11dn1x']: _.get(
+            client,
+            'rev_nets_divers.rev_non_exo.contribuable.benefice_speculation',
+            ''
+        ),
         ['x11d1104x']: _.get(
             client,
             'rev_nets_divers.rev_exo.conjoint_partenaire.revenu_cession',

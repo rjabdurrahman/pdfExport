@@ -3,6 +3,7 @@ module.exports = function (info) {
         rev_nets_divers: {
             rev_non_exo: {
                 contribuable: {
+                    benefice_speculation: info['11dn1'],
                     revenu_cession: info['11d1101'],
                     revenu_plus_values: {
                         benefice_speculation: info['11d1105'],
@@ -17,6 +18,7 @@ module.exports = function (info) {
                     total: info['11d1129']
                 },
                 conjoint_partenaire: {
+                    benefice_speculation: info['11dn2'],
                     revenu_cession: info['11d1102'],
                     revenu_plus_values: {
                         benefice_speculation: info['11d1106'],
@@ -34,6 +36,7 @@ module.exports = function (info) {
             },
             rev_exo: {
                 contribuable: {
+                    benefice_speculation: info['11dn3'],
                     revenu_cession: info['11d1103'],
                     revenu_plus_values: {
                         benefice_speculation: info['11d1107'],
@@ -48,6 +51,7 @@ module.exports = function (info) {
                     total: info['11d1132']
                 },
                 conjoint_partenaire: {
+                    benefice_speculation: info['11dn4'],
                     revenu_cession: info['11d1104'],
                     revenu_plus_values: {
                         benefice_speculation: info['11d1108'],
