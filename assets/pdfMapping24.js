@@ -4222,6 +4222,48 @@ module.exports = function serializeInfo(client) {
             'retenues_impot_diverses_demandes.cat3.is_report_14',
             ''
         ),
+        /* 2024 */
+        ['x19dc5x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cihs.conjoint_partenaire.is_c',
+            ''
+        ),
+        ['x19dc4x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cihs.contribuable.is_c',
+            ''
+        ),
+        ['x19dc3x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cib.conjoint_partenaire.is_c',
+            ''
+        ),
+        ['x19dc2x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cib.contribuable.is_c',
+            ''
+        ),
+        ['x19dn3x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.case_215_total',
+            ''
+        ),
+        ['x19dn2x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.conjoint_partenaire.case_215',
+            ''
+        ),
+        ['x19dn1x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.contribuable.case_215',
+            ''
+        ),
+        ['x19dc1x']: _.get(
+            client,
+            'retenues_impot_diverses_demandes.cat2.is_case_215',
+            ''
+        ),
+        /* 2024 */
         ['x19d1929x']: _.get(
             client,
             'retenues_impot_diverses_demandes.cat2.report_92_total',
