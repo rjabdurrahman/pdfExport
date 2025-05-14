@@ -1,6 +1,6 @@
 function checkDone() {
   $(
-    '.a01, .a02, .a03, .a04, .a06, .a07, .a08, .a09, .a10, .a11, .a12, .a13, .a17, .a19, .a20'
+    '.a01, .x202401, .a02, .a03, .a04, .a06, .a07, .a08, .x08, .a09, .a10, .x10, .a11, .x11, .a12, .a13, .a17, .a19, .x19, .a20, .x20'
   ).each(function (i) {
     let isDone = false
     let pageNo
