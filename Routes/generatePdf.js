@@ -23,7 +23,7 @@ module.exports = (req, res) => {
     let lang = req.params.lang;
     let pdfFile = '';
     if (year == 2019) {
-        if (lang == 'fr') pdfFile = '2019_editable.pdf';
+        if (lang == 'fr') pdfFile = '100F_editable_2019.pdf';
         else if (lang == 'de') pdfFile = '100D_editable_2019.pdf';
     }
     else if (year == 2020) {
