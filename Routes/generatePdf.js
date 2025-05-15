@@ -21,32 +21,6 @@ module.exports = (req, res) => {
     let id = req.params.id;
     let year = req.params.year;
     let lang = req.params.lang;
-    let pdfFile = '';
-    if (year == 2019) {
-        if (lang == 'fr') pdfFile = '100F_editable_2019.pdf';
-        else if (lang == 'de') pdfFile = '100D_editable_2019.pdf';
-    }
-    else if (year == 2020) {
-        if (lang == 'fr') pdfFile = '100F_editable_2020.pdf';
-        else if (lang == 'de') pdfFile = '100D_editable_2020.pdf';
-    }
-    else if (year == 2021) {
-        if (lang == 'fr') pdfFile = '100F_editable_2021.pdf';
-        else if (lang == 'de') pdfFile = '100D_editable_2021.pdf';
-    }
-    else if (year == 2022) {
-        if (lang == 'fr') pdfFile = '100F_editable_2022.pdf';
-        else if (lang == 'de') pdfFile = '100D_editable_2022.pdf';
-    }
-    else if (year == 2023) {
-        if (lang == 'fr') pdfFile = '100F_editable_2023.pdf';
-        else if (lang == 'de') pdfFile = '100D_editable_2023.pdf';
-    }
-    // New Year Modify
-    else if (year == 2024) {
-        if (lang == 'fr') pdfFile = '100F_editable_2024.pdf';
-        // else if (lang == 'de') pdfFile = '100D_editable_2023.pdf';
-    }
 
     Client.findById(id, (err, client) => {
         if (err) res.send(err)
@@ -89,7 +63,7 @@ module.exports = (req, res) => {
                 else {
                     let prefix = '';
                     // if(process.platform != 'win32') prefix = 'chmod u+x /app/vendor/pdftk/bin/pdftk && ';
-                    exec(`${prefix}pdftk ./pdf/${pdfFile} fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
+                    exec(`${prefix}pdftk ./pdf/y${year}_${lang}.pdf fill_form ./pdf/data_bind.fdf output ./pdf/client_files/abc.pdf`, (error, stdout, stderr) => {
                         if (error) {
                             res.send(`error: ${error.message}`);
                             return;
