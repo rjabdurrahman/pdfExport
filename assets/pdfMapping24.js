@@ -4,7 +4,7 @@ module.exports = function serializeInfo(client) {
         ['x0d1x']: _.get(
             client,
             'Bureaux_d_imposition',
-            ''
+            "Bureau d'imposition:"
         ),
         ['x0d2x']: _.get(
             client,
@@ -32,6 +32,7 @@ module.exports = function serializeInfo(client) {
             'signaletique.person_non_res.contribuable.numero_de_dossier',
             ''
         ),
+        /* 2024 */
         ['x1d40x']: _.get(
             client,
             'signaletique.coordonnees_bancaires.swift_bic',
