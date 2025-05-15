@@ -7,11 +7,15 @@ let pdfMapping20 = require('../assets/pdfMapping20');
 let pdfMapping21 = require('../assets/pdfMapping21');
 let pdfMapping22 = require('../assets/pdfMapping22');
 let pdfMapping23 = require('../assets/pdfMapping23');
+let pdfMapping24 = require('../assets/pdfMapping24');
 let fdfText19 = require('../pdf/fdfText19');
 let fdfText20 = require('../pdf/fdfText20');
 let fdfText21 = require('../pdf/fdfText21');
 let fdfText22 = require('../pdf/fdfText22');
 let fdfText23 = require('../pdf/fdfText23');
+// New Year Modify
+let fdfText24 = require('../pdf/fdfText24');
+
 
 module.exports = (req, res) => {
     let id = req.params.id;
@@ -19,25 +23,31 @@ module.exports = (req, res) => {
     let lang = req.params.lang;
     let pdfFile = '';
     if (year == 2019) {
-        if(lang == 'fr') pdfFile = '2019_editable.pdf';
-        else if(lang == 'de') pdfFile = '100D_editable_2019.pdf';
+        if (lang == 'fr') pdfFile = '2019_editable.pdf';
+        else if (lang == 'de') pdfFile = '100D_editable_2019.pdf';
     }
     else if (year == 2020) {
-        if(lang == 'fr') pdfFile = '100F_editable_2020.pdf';
-        else if(lang == 'de') pdfFile = '100D_editable_2020.pdf';
+        if (lang == 'fr') pdfFile = '100F_editable_2020.pdf';
+        else if (lang == 'de') pdfFile = '100D_editable_2020.pdf';
     }
     else if (year == 2021) {
-        if(lang == 'fr') pdfFile = '100F_editable_2021.pdf';
-        else if(lang == 'de') pdfFile = '100D_editable_2021.pdf';
+        if (lang == 'fr') pdfFile = '100F_editable_2021.pdf';
+        else if (lang == 'de') pdfFile = '100D_editable_2021.pdf';
     }
     else if (year == 2022) {
-        if(lang == 'fr') pdfFile = '100F_editable_2022.pdf';
-        else if(lang == 'de') pdfFile = '100D_editable_2022.pdf';
+        if (lang == 'fr') pdfFile = '100F_editable_2022.pdf';
+        else if (lang == 'de') pdfFile = '100D_editable_2022.pdf';
     }
     else if (year == 2023) {
-        if(lang == 'fr') pdfFile = '100F_editable_2023.pdf';
-        else if(lang == 'de') pdfFile = '100D_editable_2023.pdf';
+        if (lang == 'fr') pdfFile = '100F_editable_2023.pdf';
+        else if (lang == 'de') pdfFile = '100D_editable_2023.pdf';
     }
+    // New Year Modify
+    else if (year == 2024) {
+        if (lang == 'fr') pdfFile = '100F_editable_2024.pdf';
+        // else if (lang == 'de') pdfFile = '100D_editable_2023.pdf';
+    }
+
     Client.findById(id, (err, client) => {
         if (err) res.send(err)
         else {
@@ -63,6 +73,13 @@ module.exports = (req, res) => {
                 mappedData = pdfMapping23(client._doc['y' + year]);
                 newFdfTxt = fdfText23 + '';
             }
+            // New Year Modify
+            else if (year == 2024) {
+                mappedData = pdfMapping24(client._doc['y' + year]);
+                newFdfTxt = fdfText24 + '';
+            }
+
+
             for (f in mappedData) {
                 newFdfTxt = newFdfTxt.replace(new RegExp(f, 'g'), mappedData[f]);
             }
