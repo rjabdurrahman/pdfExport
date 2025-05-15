@@ -432,7 +432,7 @@ let fdfText = `%FDF-1.2
 <<
 /Kids [
 <<
-/V ()
+/V (x0d2x)
 /T (bureau_adress)
 >>]
 /T (X)
@@ -1824,7 +1824,7 @@ let fdfText = `%FDF-1.2
 /T (0643)
 >> 
 <<
-/V (Bureau d'imposition:)
+/V (x0d1x)
 /T (Bureaux_d_imposition)
 >> 
 <<
